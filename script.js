@@ -105,7 +105,7 @@ function submitFormViaWhatsApp(event) {
     // Show confirmation before opening WhatsApp
     if (confirm("سيتم إرسال طلبك عبر واتساب. هل تريد المتابعة؟")) {
         // Open WhatsApp with the message
-        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+        window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
         
         // Reset form
         document.getElementById('order-form').reset();
