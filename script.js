@@ -42,7 +42,7 @@ function scrollToForm() {
     }
 }
 
-// Form submission via WhatsApp
+// Form submission via WhatsApp with confirmation
 function submitFormViaWhatsApp(event) {
     event.preventDefault();
     
@@ -67,54 +67,101 @@ function submitFormViaWhatsApp(event) {
     // Get product information
     const productName = document.querySelector('.product-title').textContent;
     const price = document.querySelector('.current-price').textContent;
-    const totalPrice = parseInt(quantity) * parseFloat(price);
+    const priceValue = parseFloat(price);
+    const totalPrice = parseInt(quantity) * priceValue;
+    const productImage = document.getElementById('current-image').src;
     
-    // Create WhatsApp message with form data
-    const message = encodeURIComponent(
-        `*طلب جديد*\n\n` +
-        `*معلومات العميل:*\n` +
-        `الاسم: ${name}\n` +
-        `رقم الهاتف: ${phone}\n` +
-        `العنوان: ${address}\n` +
-        `المدينة: ${cityText}\n` +
-        `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
-        `*تفاصيل الطلب:*\n` +
-        `المنتج: ${productName}\n` +
-        `الكمية: ${quantity}\n` +
-        `السعر: ${price}\n` +
-        `المجموع: ${totalPrice} درهم`
-    );
+    // Populate confirmation modal
+    document.getElementById('summary-product-image').src = productImage;
+    document.getElementById('summary-product-name').textContent = productName;
+    document.getElementById('summary-product-price').textContent = price;
+    document.getElementById('summary-product-quantity').textContent = quantity;
+    document.getElementById('summary-total-price').textContent = totalPrice + " درهم";
     
-    // Replace with your WhatsApp number
-    const phoneNumber = '212600000000';
+    document.getElementById('summary-customer-name').textContent = name;
+    document.getElementById('summary-customer-phone').textContent = phone;
+    document.getElementById('summary-customer-address').textContent = address;
+    document.getElementById('summary-customer-city').textContent = cityText;
+    document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
     
-    // Track event in Facebook Pixel
-    if (typeof fbq === 'function') {
-        fbq('track', 'Purchase', {
-            value: parseFloat(price),
-            currency: 'MAD',
-            content_name: productName,
-            content_type: 'product',
-            content_ids: ['PROD12345'],
-            contents: [
-                {
-                    id: 'PROD12345',
-                    quantity: parseInt(quantity),
-                    item_price: parseFloat(price)
-                }
-            ]
-        });
-    }
+    // Show confirmation modal
+    const confirmationModal = document.getElementById('confirmation-modal');
+    confirmationModal.style.display = 'block';
     
-    // Show confirmation before opening WhatsApp
-    if (confirm("سيتم إرسال طلبك عبر واتساب. هل تريد المتابعة؟")) {
+    // Prevent scrolling on background
+    document.body.style.overflow = 'hidden';
+    
+    // Setup confirmation button
+    document.getElementById('confirm-order-btn').onclick = function() {
+        // Create WhatsApp message with form data
+        const message = encodeURIComponent(
+            `*طلب جديد*\n\n` +
+            `*معلومات العميل:*\n` +
+            `الاسم: ${name}\n` +
+            `رقم الهاتف: ${phone}\n` +
+            `العنوان: ${address}\n` +
+            `المدينة: ${cityText}\n` +
+            `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
+            `*تفاصيل الطلب:*\n` +
+            `المنتج: ${productName}\n` +
+            `الكمية: ${quantity}\n` +
+            `السعر: ${price}\n` +
+            `المجموع: ${totalPrice} درهم`
+        );
+        
+        // Track event in Facebook Pixel
+        if (typeof fbq === 'function') {
+            fbq('track', 'Purchase', {
+                value: priceValue,
+                currency: 'MAD',
+                content_name: productName,
+                content_type: 'product',
+                content_ids: ['PROD12345'],
+                contents: [
+                    {
+                        id: 'PROD12345',
+                        quantity: parseInt(quantity),
+                        item_price: priceValue
+                    }
+                ]
+            });
+        }
+        
+        // Close confirmation modal
+        closeConfirmationModal();
+        
         // Open WhatsApp with the message
         window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
         
         // Reset form
         document.getElementById('order-form').reset();
-    }
+    };
+    
+    // Setup cancel button
+    document.getElementById('cancel-order-btn').onclick = function() {
+        closeConfirmationModal();
+    };
+    
+    // Close when clicking outside
+    confirmationModal.onclick = function(event) {
+        if (event.target === confirmationModal) {
+            closeConfirmationModal();
+        }
+    };
 }
+
+// Close confirmation modal
+function closeConfirmationModal() {
+    document.getElementById('confirmation-modal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Add ESC key to close confirmation modal
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeConfirmationModal();
+    }
+});
 
 // Form submission
 function submitForm(event) {

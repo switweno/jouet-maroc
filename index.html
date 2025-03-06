@@ -191,6 +191,53 @@
         </div>
     </div>
     
+    <!-- Order Confirmation Modal -->
+    <div id="confirmation-modal" class="confirmation-modal">
+        <div class="confirmation-content">
+            <h3>تأكيد الطلب</h3>
+            <div class="order-summary">
+                <div class="summary-product">
+                    <div class="summary-image">
+                        <img id="summary-product-image" src="" alt="صورة المنتج">
+                    </div>
+                    <div class="summary-details">
+                        <h4 id="summary-product-name"></h4>
+                        <div class="summary-price">
+                            <span>السعر: </span>
+                            <span id="summary-product-price"></span>
+                        </div>
+                        <div class="summary-quantity">
+                            <span>الكمية: </span>
+                            <span id="summary-product-quantity"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-total">
+                    <span>المجموع الكلي: </span>
+                    <span id="summary-total-price"></span>
+                </div>
+            </div>
+            
+            <div class="customer-info">
+                <h4>معلومات العميل:</h4>
+                <p><strong>الاسم:</strong> <span id="summary-customer-name"></span></p>
+                <p><strong>الهاتف:</strong> <span id="summary-customer-phone"></span></p>
+                <p><strong>العنوان:</strong> <span id="summary-customer-address"></span></p>
+                <p><strong>المدينة:</strong> <span id="summary-customer-city"></span></p>
+                <p><strong>طريقة الدفع:</strong> <span id="summary-payment-method"></span></p>
+            </div>
+            
+            <div class="confirmation-buttons">
+                <button class="btn primary-btn" id="confirm-order-btn">
+                    <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
+                </button>
+                <button class="btn secondary-btn" id="cancel-order-btn">
+                    <i class="fas fa-times"></i> إلغاء الطلب
+                </button>
+            </div>
+        </div>
+    </div>
+    
     <footer>
         <div class="container">
             <div class="trust-badges">

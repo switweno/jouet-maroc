@@ -758,3 +758,158 @@ footer p {
         max-height: 70vh;
     }
 }
+
+/* Order Confirmation Modal Styles */
+.confirmation-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-y: auto;
+}
+
+.confirmation-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.confirmation-content h3 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+.order-summary {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.summary-product {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.summary-image {
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.summary-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.summary-details h4 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.summary-price, .summary-quantity {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+
+.summary-total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-align: left;
+    color: #0056b3;
+}
+
+.customer-info {
+    margin-bottom: 20px;
+    background-color: #f2f7ff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d1e4ff;
+}
+
+.customer-info h4 {
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.customer-info p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.confirmation-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* The confirm button keeps WhatsApp green */
+#confirm-order-btn {
+    background-color: #25d366;
+}
+
+#confirm-order-btn:hover {
+    background-color: #128c7e;
+}
+
+/* The cancel button is red */
+#cancel-order-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#cancel-order-btn:hover {
+    background-color: #bd2130;
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+    .confirmation-content {
+        margin: 5% auto;
+        padding: 15px;
+        width: 95%;
+    }
+    
+    .summary-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .confirmation-content h3,
+    .customer-info h4 {
+        font-size: 1.1rem;
+    }
+    
+    .summary-details h4 {
+        font-size: 1rem;
+    }
+    
+    .summary-price,
+    .summary-quantity,
+    .customer-info p {
+        font-size: 0.9rem;
+    }
+}
