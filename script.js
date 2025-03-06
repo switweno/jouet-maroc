@@ -31,9 +31,9 @@ function updateQuantity(change) {
     quantityInput.value = currentValue;
 }
 
-// Scroll to order form
+// Scroll to order form - update to use corrected ID
 function scrollToForm() {
-    const formElement = document.getElementById('order-form');
+    const formElement = document.getElementById('order-section');
     formElement.scrollIntoView({ behavior: 'smooth' });
     
     // Track event in Facebook Pixel
@@ -131,7 +131,7 @@ function submitFormViaWhatsApp(event) {
         closeConfirmationModal();
         
         // Open WhatsApp with the message
-        window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
+        window.open(`https://wa.me/${+212672568976}?text=${message}`, '_blank');
         
         // Reset form
         document.getElementById('order-form').reset();
