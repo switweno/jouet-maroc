@@ -50,12 +50,16 @@ function submitFormViaWhatsApp(event) {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
     const address = document.getElementById('address').value;
-    const city = document.getElementById('city').value;
+    
+    // Get city text instead of value
+    const citySelect = document.getElementById('city');
+    const cityText = citySelect.options[citySelect.selectedIndex].text;
+    
     const quantity = document.getElementById('quantity').value;
     const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
     
     // Validate form data
-    if (!name || !phone || !address || !city) {
+    if (!name || !phone || !address || !citySelect.value) {
         alert("الرجاء ملء جميع الحقول المطلوبة");
         return;
     }
@@ -72,7 +76,7 @@ function submitFormViaWhatsApp(event) {
         `الاسم: ${name}\n` +
         `رقم الهاتف: ${phone}\n` +
         `العنوان: ${address}\n` +
-        `المدينة: ${city}\n` +
+        `المدينة: ${cityText}\n` +
         `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
         `*تفاصيل الطلب:*\n` +
         `المنتج: ${productName}\n` +
