@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل المنتج | عروض خاصة</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID_HERE');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" 
+            src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>عروض حصرية ولفترة محدودة</h1>
+            <div class="special-offer">
+                <span class="offer-badge">تخفيض 30%</span>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="product-details">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img id="current-image" src="shirt1.png" alt="صورة المنتج">
+                    <div class="zoom-icon" onclick="openImageModal()">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="thumbnails">
+                    <img class="thumbnail active" src="shirt2.png" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt3.png" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt4.png" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt5.png" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <h2 class="product-title">اسم المنتج الحصري</h2>
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(120 تقييم)</span>
+                </div>
+                <div class="price">
+                    <span class="current-price">399 درهم</span>
+                    <span class="old-price">599 درهم</span>
+                    <span class="discount">-33%</span>
+                </div>
+                
+                <div class="product-description">
+                    <h3>مميزات المنتج</h3>
+                    <ul>
+                        <li>ميزة رقم 1 لهذا المنتج الرائع</li>
+                        <li>ميزة رقم 2 توضح جودة المنتج</li>
+                        <li>ميزة رقم 3 تشرح فوائد استخدام المنتج</li>
+                        <li>ميزة رقم 4 مع ضمان لمدة عام كامل</li>
+                    </ul>
+                </div>
+                
+                <div class="quantity-selector">
+                    <h3>الكمية</h3>
+                    <div class="quantity-controls">
+                        <button class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
+                        <input type="number" id="quantity" value="1" min="1" max="10">
+                        <button class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <button id="buy-now-btn" class="btn primary-btn" onclick="scrollToForm()">
+                        <i class="fas fa-shopping-cart"></i> اطلب الآن
+                    </button>
+                    <button id="whatsapp-btn" class="btn secondary-btn" onclick="orderViaWhatsApp()">
+                        <i class="fab fa-whatsapp"></i> طلب عبر واتساب
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="order-section" id="order-form">
+            <h2>املأ النموذج للطلب</h2>
+            <form id="order-form" onsubmit="submitForm(event)">
+                <div class="form-group">
+                    <label for="name">الاسم الكامل*</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف*</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">العنوان*</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="city">المدينة*</label>
+                    <select id="city" name="city" required>
+                        <option value="">اختر المدينة</option>
+                        <option value="city1">المدينة 1</option>
+                        <option value="city2">المدينة 2</option>
+                        <option value="city3">المدينة 3</option>
+                    </select>
+                </div>
+                <div class="form-group payment-method">
+                    <label>طريقة الدفع*</label>
+                    <div class="radio-group">
+                        <input type="radio" id="cod" name="payment" value="cod" checked>
+                        <label for="cod">الدفع عند الاستلام</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">
+                    <i class="fas fa-check"></i> تأكيد الطلب
+                </button>
+            </form>
+        </div>
+    </main>
+    
+    <!-- Image Modal/Lightbox -->
+    <div id="image-modal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeImageModal()">&times;</span>
+            <div class="zoom-container">
+                <img id="modal-image" src="" alt="صورة مكبرة">
+            </div>
+            <div class="zoom-controls">
+                <button onclick="changeZoom(0.2)" class="zoom-btn"><i class="fas fa-search-plus"></i></button>
+                <button onclick="changeZoom(-0.2)" class="zoom-btn"><i class="fas fa-search-minus"></i></button>
+                <button onclick="resetZoom()" class="zoom-btn"><i class="fas fa-sync-alt"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="trust-badges">
+                <div class="badge">
+                    <i class="fas fa-truck"></i>
+                    <span>شحن سريع</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>ضمان الجودة</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-exchange-alt"></i>
+                    <span>استبدال مجاني</span>
+                </div>
+            </div>
+            <p>&copy; 2025 متجر العروض | جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
