@@ -23,13 +23,15 @@
         fbq('init', 'YOUR_PIXEL_ID_HERE');
         fbq('track', 'PageView');
     </script>
-    <noscript>
-        <img height="1" width="1" style="display:none" 
-            src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1"/>
-    </noscript>
     <!-- End Facebook Pixel Code -->
 </head>
 <body>
+    <!-- Move Facebook Pixel noscript to body -->
+    <noscript>
+        <img height="1" width="1" style="display:none" 
+            src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1" alt="Facebook Pixel"/>
+    </noscript>
+    
     <header>
         <div class="container">
             <h1>عروض حصرية ولفترة محدودة</h1>
@@ -164,7 +166,8 @@
             </div>
         </div>
         
-        <div class="order-section" id="order-form">
+        <!-- Fix duplicate ID by changing the section ID -->
+        <div class="order-section" id="order-section">
             <h2>املأ النموذج للطلب</h2>
             <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
                 <div class="form-group">
@@ -204,12 +207,12 @@
         </div>
     </main>
     
-    <!-- Image Modal/Lightbox -->
+    <!-- Image Modal/Lightbox - Fix empty src attributes -->
     <div id="image-modal" class="image-modal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeImageModal()">&times;</span>
             <div class="zoom-container">
-                <img id="modal-image" src="" alt="صورة مكبرة">
+                <img id="modal-image" src="shirt1.jpg" alt="صورة مكبرة">
                 
                 <!-- Navigation Arrows -->
                 <button class="nav-arrow arrow-left" onclick="navigateImages(-1)">
@@ -227,14 +230,14 @@
         </div>
     </div>
     
-    <!-- Order Confirmation Modal -->
+    <!-- Order Confirmation Modal - Fix empty src attribute -->
     <div id="confirmation-modal" class="confirmation-modal">
         <div class="confirmation-content">
             <h3>تأكيد الطلب</h3>
             <div class="order-summary">
                 <div class="summary-product">
                     <div class="summary-image">
-                        <img id="summary-product-image" src="" alt="صورة المنتج">
+                        <img id="summary-product-image" src="shirt1.jpg" alt="صورة المنتج">
                     </div>
                     <div class="summary-details">
                         <h4 id="summary-product-name"></h4>
