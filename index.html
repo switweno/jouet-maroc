@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>تفاصيل المنتج | عروض خاصة</title>
+    <!-- Add Google Fonts for Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Facebook Pixel Code -->
@@ -44,13 +48,15 @@
                         <i class="fas fa-search-plus"></i>
                     </div>
                 </div>
-                <div class="thumbnails">
-                    <img class="thumbnail active" src="shirt1.jpg" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt2.jpg" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt3.jpg" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt4.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt5.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt6.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                <div class="thumbnails-container">
+                    <div class="thumbnails" id="thumbnails-slider">
+                        <img class="thumbnail active" src="shirt1.jpg" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
+                        <img class="thumbnail" src="shirt2.jpg" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
+                        <img class="thumbnail" src="shirt3.jpg" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
+                        <img class="thumbnail" src="shirt4.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                        <img class="thumbnail" src="shirt5.jpg" alt="صورة مصغرة 5" onclick="changeImage(this.src)">
+                        <img class="thumbnail" src="shirt6.jpg" alt="صورة مصغرة 6" onclick="changeImage(this.src)">
+                    </div>
                 </div>
             </div>
             
@@ -74,46 +80,68 @@
                 <div class="product-description">
                     <h3>مميزات المنتج</h3>
                     <div class="features-container">
+                        <!-- First category - expanded by default -->
+                        <div class="feature-category expanded">
+                            <div class="accordion-header french-heading">
+                                <h4><i class="fas fa-bolt"></i> Moteur et performance</h4>
+                                <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                            <div class="accordion-content">
+                                <ul class="feature-list">
+                                    <li class="feature-item"><strong>Marque:</strong> EcoXtrem LINEAR - Qualité premium</li>
+                                    <li class="feature-item"><strong>Moteur puissant:</strong> 350W min - 700W max pour une conduite fluide</li>
+                                    <li class="feature-item"><strong>Vitesse:</strong> Jusqu'à 25km/h pour des déplacements rapides</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Other categories - collapsed by default -->
                         <div class="feature-category">
-                            <h4><i class="fas fa-bolt"></i> المحرك والأداء</h4>
-                            <ul dir="ltr">
-                                <li><strong>Marque:</strong> EcoXtrem LINEAR - Qualité premium</li>
-                                <li><strong>Moteur puissant:</strong> 350W min - 700W max pour une conduite fluide</li>
-                                <li><strong>Vitesse:</strong> Jusqu'à 25km/h pour des déplacements rapides</li>
-                            </ul>
+                            <div class="accordion-header french-heading">
+                                <h4><i class="fas fa-battery-full"></i> Batterie et autonomie</h4>
+                                <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                            <div class="accordion-content">
+                                <ul class="feature-list">
+                                    <li class="feature-item"><strong>Batterie performante:</strong> Lithium 36V 7,8AH de haute capacité</li>
+                                    <li class="feature-item"><strong>Autonomie impressionnante:</strong> 15-25km selon conditions d'utilisation</li>
+                                    <li class="feature-item"><strong>Temps de charge:</strong> Recharge rapide pour une utilisation quotidienne</li>
+                                </ul>
+                            </div>
                         </div>
                         
                         <div class="feature-category">
-                            <h4><i class="fas fa-battery-full"></i> البطارية والاستقلالية</h4>
-                            <ul dir="ltr">
-                                <li><strong>Batterie performante:</strong> Lithium 36V 7,8AH de haute capacité</li>
-                                <li><strong>Autonomie impressionnante:</strong> 15-25km selon conditions d'utilisation</li>
-                                <li><strong>Temps de charge:</strong> Recharge rapide pour une utilisation quotidienne</li>
-                            </ul>
+                            <div class="accordion-header french-heading">
+                                <h4><i class="fas fa-shield-alt"></i> Sécurité et durabilité</h4>
+                                <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                            <div class="accordion-content">
+                                <ul class="feature-list">
+                                    <li class="feature-item"><strong>Système de freinage double:</strong> Frein à disque arrière & électrique</li>
+                                    <li class="feature-item"><strong>Structure solide:</strong> Aluminium léger et résistant</li>
+                                    <li class="feature-item"><strong>Étanchéité IPX5:</strong> Protection contre les projections d'eau</li>
+                                    <li class="feature-item"><strong>Charge maximale:</strong> Supporte jusqu'à 100 kg</li>
+                                </ul>
+                            </div>
                         </div>
                         
                         <div class="feature-category">
-                            <h4><i class="fas fa-shield-alt"></i> السلامة والمتانة</h4>
-                            <ul dir="ltr">
-                                <li><strong>Système de freinage double:</strong> Frein à disque arrière & électrique</li>
-                                <li><strong>Structure solide:</strong> Aluminium léger et résistant</li>
-                                <li><strong>Étanchéité IPX5:</strong> Protection contre les projections d'eau</li>
-                                <li><strong>Charge maximale:</strong> Supporte jusqu'à 100 kg</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="feature-category">
-                            <h4><i class="fas fa-cogs"></i> المزايا الإضافية</h4>
-                            <ul dir="ltr">
-                                <li><strong>Écran intelligent:</strong> DISPLAY EY2 avec application mobile 📱</li>
-                                <li><strong>Roues confort:</strong> 10 pouces Tubeless pour une conduite souple</li>
-                                <li><strong>Pliable:</strong> Design compact pour un rangement facile</li>
-                                <li><strong>🎁 Bonus:</strong> SAC de transport inclus gratuitement 🎁</li>
-                            </ul>
+                            <div class="accordion-header french-heading">
+                                <h4><i class="fas fa-cogs"></i> Avantages supplémentaires</h4>
+                                <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                            <div class="accordion-content">
+                                <ul class="feature-list">
+                                    <li class="feature-item"><strong>Écran intelligent:</strong> DISPLAY EY2 avec application mobile 📱</li>
+                                    <li class="feature-item"><strong>Roues confort:</strong> 10 pouces Tubeless pour une conduite souple</li>
+                                    <li class="feature-item"><strong>Pliable:</strong> Design compact pour un rangement facile</li>
+                                    <li class="feature-item"><strong>🎁 Bonus:</strong> SAC de transport inclus gratuitement 🎁</li>
+                                </ul>
+                            </div>
                         </div>
                         
                         <div class="feature-highlight">
-                            <i class="fas fa-check-circle"></i> <span>ضمان لمدة سنة كاملة</span>
+                            <i class="fas fa-check-circle"></i> <span>Garantie d'un an complet</span>
                         </div>
                     </div>
                 </div>

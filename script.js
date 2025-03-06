@@ -376,6 +376,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+    
+    // Initialize accordion
+    setupAccordion();
 });
 
 // Improve mobile touch handling
@@ -433,4 +436,27 @@ function drag(e) {
 // End dragging
 function endDrag() {
     isDragging = false;
+}
+
+// Accordion functionality
+function setupAccordion() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const category = this.parentElement;
+            const isExpanded = category.classList.contains('expanded');
+            
+            // Close all other expanded sections
+            document.querySelectorAll('.feature-category.expanded').forEach(expandedCategory => {
+                // Skip the current category if we're closing it anyway
+                if (expandedCategory !== category || !isExpanded) {
+                    expandedCategory.classList.remove('expanded');
+                }
+            });
+            
+            // Toggle the current category
+            category.classList.toggle('expanded');
+        });
+    });
 }

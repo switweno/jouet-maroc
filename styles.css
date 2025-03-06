@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cairo', Arial, sans-serif;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
 body {
@@ -114,28 +114,69 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Simplified Thumbnail Styles without Arrows */
+.thumbnails-container {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
 .thumbnails {
     display: flex;
-    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
     gap: 10px;
-    margin-top: 15px;
+    padding: 5px 0;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar on Firefox */
+    flex-wrap: nowrap; /* Keep thumbnails in a single row */
+}
+
+/* Hide scrollbar */
+.thumbnails::-webkit-scrollbar {
+    display: none;
 }
 
 .thumbnail {
+    flex: 0 0 auto;
     width: 70px;
     height: 70px;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid transparent;
     transition: all 0.3s ease;
+    object-fit: cover;
+}
+
+.thumbnail.active {
+    border-color: #0056b3;
 }
 
 .thumbnail:hover {
     transform: translateY(-3px);
 }
 
-.thumbnail.active {
-    border-color: #0056b3;
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .thumbnail {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .thumbnails {
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .thumbnail {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .thumbnails {
+        gap: 5px;
+    }
 }
 
 /* Product Info Styles */
@@ -150,6 +191,9 @@ main {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #333;
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .ratings {
@@ -172,6 +216,8 @@ main {
     font-size: 2rem;
     font-weight: bold;
     color: #0056b3;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 700;
 }
 
 .old-price {
@@ -205,10 +251,82 @@ main {
     padding-bottom: 8px;
 }
 
+/* Accordion Styles for Product Features */
 .feature-category {
-    margin-bottom: 15px;
-    border-bottom: 1px dashed #ddd;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+.accordion-header h4 {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0;
+    padding: 12px 15px;
+    background-color: #e9f2ff;
+    border-radius: 8px;
+}
+
+.accordion-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    color: #0056b3;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-category.expanded .accordion-toggle {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.feature-category.expanded .accordion-content {
+    max-height: 500px; /* Large enough to fit content */
+    padding: 12px 15px;
+}
+
+.french-heading {
+    text-align: left;
+    direction: ltr;
+}
+
+.french-heading i {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.feature-list {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 .feature-category:last-child {
@@ -220,10 +338,11 @@ main {
     align-items: center;
     font-size: 1.1rem;
     color: #333;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     background-color: #e9f2ff;
-    padding: 5px 10px;
+    padding: 8px 15px;
     border-radius: 5px;
+    position: relative;
 }
 
 .feature-category h4 i {
@@ -249,19 +368,26 @@ main {
     background-color: #fffaeb;
     border: 1px solid #ffeeba;
     border-radius: 6px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 12px;
+    margin-top: 15px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    direction: ltr;
 }
 
 .feature-highlight i {
     color: #28a745;
     font-size: 1.2rem;
-    margin-left: 8px;
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.feature-highlight span {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    font-weight: 600;
 }
 
 /* Quantity Selector Styles */
@@ -323,6 +449,8 @@ main {
     justify-content: center;
     gap: 10px;
     transition: all 0.3s ease;
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    font-weight: 600;
 }
 
 .primary-btn {
@@ -969,4 +1097,64 @@ footer p {
     .customer-info p {
         font-size: 0.9rem;
     }
+}
+
+/* Product Features with French text */
+.french-heading {
+    text-align: left;
+    direction: ltr;
+    padding-right: 30px; /* Add more space on the right for the icon */
+}
+
+.french-heading i {
+    margin-right: 8px;
+    margin-left: 0;
+}
+
+.feature-list {
+    padding-left: 15px;
+    padding-right: 15px;
+    direction: ltr;
+    text-align: left;
+}
+
+.feature-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray separator line */
+}
+
+.feature-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.feature-item strong {
+    color: #0056b3;
+    font-weight: 600;
+    margin-right: 5px;
+    display: inline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .feature-item {
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .feature-item strong {
+        min-width: 100px;
+    }
+}
+
+/* Arabic Font Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    font-weight: 700;
+}
+
+/* Arabic text direction improvements */
+[lang="ar"] {
+    letter-spacing: 0;
+    word-spacing: 1px;
 }
