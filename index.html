@@ -182,6 +182,14 @@
             <span class="close-modal" onclick="closeImageModal()">&times;</span>
             <div class="zoom-container">
                 <img id="modal-image" src="" alt="صورة مكبرة">
+                
+                <!-- Navigation Arrows -->
+                <button class="nav-arrow arrow-left" onclick="navigateImages(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="nav-arrow arrow-right" onclick="navigateImages(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
             <div class="zoom-controls">
                 <button onclick="changeZoom(0.2)" class="zoom-btn"><i class="fas fa-search-plus"></i></button>

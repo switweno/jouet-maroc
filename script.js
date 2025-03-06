@@ -206,11 +206,30 @@ let isDragging = false;
 let startX, startY, translateX = 0, translateY = 0;
 const modalImage = document.getElementById('modal-image');
 
-// Open image modal
+// Global variables for image navigation
+let currentImageIndex = 0;
+let allImages = [];
+
+// Open image modal with improved navigation
 function openImageModal() {
     const modal = document.getElementById('image-modal');
     const currentImage = document.getElementById('current-image');
     const modalImage = document.getElementById('modal-image');
+    
+    // Collect all product images
+    allImages = [];
+    document.querySelectorAll('.thumbnail').forEach(thumbnail => {
+        allImages.push(thumbnail.src);
+    });
+    
+    // Add the main image if it's not one of the thumbnails
+    if (!allImages.includes(currentImage.src)) {
+        allImages.unshift(currentImage.src);
+    }
+    
+    // Find current image index
+    currentImageIndex = allImages.indexOf(currentImage.src);
+    if (currentImageIndex === -1) currentImageIndex = 0;
     
     // Set the modal image source to the current product image
     modalImage.src = currentImage.src;
@@ -231,6 +250,23 @@ function openImageModal() {
             content_ids: ['PROD12345']
         });
     }
+}
+
+// Navigate between images in modal
+function navigateImages(direction) {
+    // Calculate new index
+    currentImageIndex += direction;
+    
+    // Loop around if needed
+    if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
+    if (currentImageIndex >= allImages.length) currentImageIndex = 0;
+    
+    // Update modal image
+    const modalImage = document.getElementById('modal-image');
+    modalImage.src = allImages[currentImageIndex];
+    
+    // Reset zoom when changing images
+    resetZoom();
 }
 
 // Close image modal
@@ -324,6 +360,22 @@ document.addEventListener('DOMContentLoaded', function() {
             lastTap = currentTime;
         });
     }
+    
+    // Add keyboard navigation for images
+    document.addEventListener('keydown', function(event) {
+        const modal = document.getElementById('image-modal');
+        
+        // Only process keyboard input when modal is open
+        if (modal.style.display === 'block') {
+            if (event.key === 'ArrowLeft') {
+                navigateImages(-1);
+                event.preventDefault();
+            } else if (event.key === 'ArrowRight') {
+                navigateImages(1);
+                event.preventDefault();
+            }
+        }
+    });
 });
 
 // Improve mobile touch handling
