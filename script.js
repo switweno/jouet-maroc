@@ -256,9 +256,30 @@ document.addEventListener('DOMContentLoaded', function() {
             closeImageModal();
         }
     });
+    
+    // Add double tap to zoom on mobile
+    let lastTap = 0;
+    if (modalImage) {
+        modalImage.addEventListener('touchend', function(e) {
+            const currentTime = new Date().getTime();
+            const tapLength = currentTime - lastTap;
+            
+            if (tapLength < 300 && tapLength > 0) {
+                // Double tap detected
+                if (zoomLevel === 1) {
+                    changeZoom(1); // Zoom in
+                } else {
+                    resetZoom(); // Reset zoom
+                }
+                e.preventDefault();
+            }
+            
+            lastTap = currentTime;
+        });
+    }
 });
 
-// Start dragging the image
+// Improve mobile touch handling
 function startDrag(e) {
     e.preventDefault();
     
@@ -274,7 +295,6 @@ function startDrag(e) {
     }
 }
 
-// Drag the image
 function drag(e) {
     if (!isDragging) return;
     
@@ -291,13 +311,17 @@ function drag(e) {
         currentY = e.touches[0].clientY;
     }
     
-    // Calculate movement
+    // Calculate movement - reduce sensitivity on mobile
     const deltaX = currentX - startX;
     const deltaY = currentY - startY;
     
+    // Apply different sensitivity for mobile
+    const isMobile = window.innerWidth <= 767;
+    const sensitivity = isMobile ? 0.8 : 1;
+    
     // Update position
-    translateX += deltaX;
-    translateY += deltaY;
+    translateX += deltaX * sensitivity;
+    translateY += deltaY * sensitivity;
     
     // Update transform
     updateImageTransform();
