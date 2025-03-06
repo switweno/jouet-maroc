@@ -39,21 +39,24 @@
         <div class="product-details">
             <div class="product-gallery">
                 <div class="main-image">
-                    <img id="current-image" src="shirt1.png" alt="صورة المنتج">
+                    <img id="current-image" src="shirt1.jpg" alt="صورة المنتج">
                     <div class="zoom-icon" onclick="openImageModal()">
                         <i class="fas fa-search-plus"></i>
                     </div>
                 </div>
                 <div class="thumbnails">
-                    <img class="thumbnail active" src="shirt2.png" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt3.png" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt4.png" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
-                    <img class="thumbnail" src="shirt5.png" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                    <img class="thumbnail active" src="shirt2.jpg" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt3.jpg" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt4.jpg" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt5.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt6.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                    <img class="thumbnail" src="shirt7.jpg" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
                 </div>
             </div>
             
             <div class="product-info">
-                <h2 class="product-title">اسم المنتج الحصري</h2>
+                <h2 class="product-title">TROTTINETTE EcoXtrem LINEAR
+                </h2>
                 <div class="ratings">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -63,16 +66,16 @@
                     <span>(120 تقييم)</span>
                 </div>
                 <div class="price">
-                    <span class="current-price">399 درهم</span>
-                    <span class="old-price">599 درهم</span>
+                    <span class="current-price">3490 درهم</span>
+                    <span class="old-price">4199 درهم</span>
                     <span class="discount">-33%</span>
                 </div>
                 
                 <div class="product-description">
                     <h3>مميزات المنتج</h3>
                     <ul>
-                        <li>ميزة رقم 1 لهذا المنتج الرائع</li>
-                        <li>ميزة رقم 2 توضح جودة المنتج</li>
+                        <li>Marque EcoXtrem LINEAR </li>
+                        <li>Moteur 350w min - 700w max</li>
                         <li>ميزة رقم 3 تشرح فوائد استخدام المنتج</li>
                         <li>ميزة رقم 4 مع ضمان لمدة عام كامل</li>
                     </ul>
@@ -101,25 +104,25 @@
             <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
                 <div class="form-group">
                     <label for="name">الاسم الكامل*</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required>
                 </div>
                 <div class="form-group">
                     <label for="phone">رقم الهاتف*</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required>
                 </div>
                 <div class="form-group">
                     <label for="address">العنوان*</label>
-                    <textarea id="address" name="address" required></textarea>
+                    <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="city">المدينة*</label>
-                    <select id="city" name="city" required>
-                        <option value="">اختر المدينة</option>
-                        <option value="city1">الدار البيضاء </option>
-                        <option value="city2">أكادير </option>
-                        <option value="city3">ورززات </option>
-                        <option value="city3">طنجة </option>
-                        <option value="city3">اخر </option>
+                    <select id="city" name="city" dir="ltr" required>
+                        <option value="">Sélectionnez votre ville</option>
+                        <option value="casablanca">Casablanca</option>
+                        <option value="agadir">Agadir</option>
+                        <option value="ouarzazate">Ouarzazate</option>
+                        <option value="tanger">Tanger</option>
+                        <option value="autre">Autre</option>
                     </select>
                 </div>
                 <div class="form-group payment-method">
