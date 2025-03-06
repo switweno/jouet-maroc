@@ -214,10 +214,9 @@ main {
 
 .current-price {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
     color: #0056b3;
     font-family: 'Tajawal', 'Cairo', sans-serif;
-    font-weight: 700;
 }
 
 .old-price {
@@ -443,15 +442,15 @@ main {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600; /* اختر القيمة المناسبة هنا */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     transition: all 0.3s ease;
     font-family: 'Cairo', 'Tajawal', sans-serif;
-    font-weight: 600;
 }
+
 
 .primary-btn {
     background-color: #0056b3;
@@ -1157,4 +1156,95 @@ h1, h2, h3, h4, h5, h6 {
 [lang="ar"] {
     letter-spacing: 0;
     word-spacing: 1px;
+}
+
+/* Enhanced Mobile Responsiveness - Reduced Margins */
+@media (max-width: 767px) {
+    /* General layout adjustments */
+    .container {
+        width: 98%; /* Make container wider on mobile */
+        padding: 0 5px; /* Reduce padding */
+    }
+    
+    /* Product details section */
+    .product-details {
+        padding: 5px; /* Reduce padding */
+        margin-bottom: 15px; /* Reduce margin bottom */
+    }
+    
+    .product-gallery,
+    .product-info {
+        padding: 8px; /* Reduce padding */
+    }
+    
+    /* Thumbnails adjustments */
+    .thumbnails-container {
+        margin-top: 8px;
+    }
+    
+    .thumbnails {
+        padding: 3px 0;
+    }
+    
+    /* Product description */
+    .product-description {
+        padding: 8px; /* Reduce padding */
+        margin-bottom: 15px; /* Reduce margin */
+    }
+    
+    .feature-category {
+        margin-bottom: 8px; /* Reduce spacing between accordion items */
+    }
+    
+    .feature-highlight {
+        padding: 8px; /* Reduce padding */
+        margin-top: 8px;
+    }
+    
+    /* Order form section */
+    .order-section {
+        padding: 15px 10px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px;
+    }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+    .container {
+        width: 100%; /* Full width */
+        padding: 0 3px; /* Minimal padding */
+    }
+    
+    .product-gallery,
+    .product-info {
+        padding: 5px; /* Further reduce padding */
+    }
+    
+    /* Adjust accordion header padding */
+    .accordion-header h4 {
+        padding: 10px 12px; /* Smaller padding */
+    }
+    
+    /* Reduce feature category spacing */
+    .feature-category {
+        margin-bottom: 5px;
+    }
+    
+    .feature-item {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    
+    /* Reduce quantity selector margins */
+    .quantity-selector {
+        margin-bottom: 12px;
+    }
+    
+    /* Order form */
+    .order-section {
+        padding: 12px 8px;
+    }
 }
