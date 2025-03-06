@@ -337,11 +337,17 @@ main {
     width: auto;
 }
 
+/* Update submit button style */
 .submit-btn {
     width: 100%;
     padding: 15px;
     font-size: 1.2rem;
     margin-top: 10px;
+    background-color: #25d366; /* WhatsApp green color */
+}
+
+.submit-btn:hover {
+    background-color: #128c7e; /* Darker WhatsApp green for hover */
 }
 
 /* Footer Styles */

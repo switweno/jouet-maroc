@@ -91,16 +91,14 @@
                     <button id="buy-now-btn" class="btn primary-btn" onclick="scrollToForm()">
                         <i class="fas fa-shopping-cart"></i> اطلب الآن
                     </button>
-                    <button id="whatsapp-btn" class="btn secondary-btn" onclick="orderViaWhatsApp()">
-                        <i class="fab fa-whatsapp"></i> طلب عبر واتساب
-                    </button>
+                    <!-- Removing separate WhatsApp button as per requirement -->
                 </div>
             </div>
         </div>
         
         <div class="order-section" id="order-form">
             <h2>املأ النموذج للطلب</h2>
-            <form id="order-form" onsubmit="submitForm(event)">
+            <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
                 <div class="form-group">
                     <label for="name">الاسم الكامل*</label>
                     <input type="text" id="name" name="name" required>
@@ -130,7 +128,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn primary-btn submit-btn">
-                    <i class="fas fa-check"></i> تأكيد الطلب
+                    <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
                 </button>
             </form>
         </div>

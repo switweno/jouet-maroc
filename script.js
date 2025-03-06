@@ -42,28 +42,74 @@ function scrollToForm() {
     }
 }
 
-// WhatsApp order functionality
-function orderViaWhatsApp() {
+// Form submission via WhatsApp
+function submitFormViaWhatsApp(event) {
+    event.preventDefault();
+    
+    // Get form data
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const address = document.getElementById('address').value;
+    const city = document.getElementById('city').value;
     const quantity = document.getElementById('quantity').value;
+    const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
+    
+    // Validate form data
+    if (!name || !phone || !address || !city) {
+        alert("الرجاء ملء جميع الحقول المطلوبة");
+        return;
+    }
+    
+    // Get product information
     const productName = document.querySelector('.product-title').textContent;
     const price = document.querySelector('.current-price').textContent;
+    const totalPrice = parseInt(quantity) * parseFloat(price);
     
-    // Replace with your WhatsApp number
-    const phoneNumber = '212600000000'; 
-    
+    // Create WhatsApp message with form data
     const message = encodeURIComponent(
-        `مرحبًا، أرغب في طلب:\n` +
+        `*طلب جديد*\n\n` +
+        `*معلومات العميل:*\n` +
+        `الاسم: ${name}\n` +
+        `رقم الهاتف: ${phone}\n` +
+        `العنوان: ${address}\n` +
+        `المدينة: ${city}\n` +
+        `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
+        `*تفاصيل الطلب:*\n` +
         `المنتج: ${productName}\n` +
         `الكمية: ${quantity}\n` +
-        `السعر: ${price}`
+        `السعر: ${price}\n` +
+        `المجموع: ${totalPrice} درهم`
     );
+    
+    // Replace with your WhatsApp number
+    const phoneNumber = '212600000000';
     
     // Track event in Facebook Pixel
     if (typeof fbq === 'function') {
-        fbq('track', 'Contact');
+        fbq('track', 'Purchase', {
+            value: parseFloat(price),
+            currency: 'MAD',
+            content_name: productName,
+            content_type: 'product',
+            content_ids: ['PROD12345'],
+            contents: [
+                {
+                    id: 'PROD12345',
+                    quantity: parseInt(quantity),
+                    item_price: parseFloat(price)
+                }
+            ]
+        });
     }
     
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+    // Show confirmation before opening WhatsApp
+    if (confirm("سيتم إرسال طلبك عبر واتساب. هل تريد المتابعة؟")) {
+        // Open WhatsApp with the message
+        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+        
+        // Reset form
+        document.getElementById('order-form').reset();
+    }
 }
 
 // Form submission
