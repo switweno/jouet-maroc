@@ -1811,6 +1811,74 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-touch-callout: none;
     }
     
+    /* استثناء حقول الإدخال من إزالة التأثيرات عند النقر */
+    input, textarea, select {
+        -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+    }
+    
+    /* إضافة حدود واضحة عند التركيز على حقول الإدخال */
+    input:focus, textarea:focus, select:focus {
+        outline: none;
+        border: 1px solid #0056b3 !important; /* لون أزرق للحدود عند النقر */
+        box-shadow: 0 0 4px rgba(0, 86, 179, 0.3) !important; /* ظل خفيف للتأكيد على التركيز */
+    }
+    
+    /* تصحيح مظهر حقول الإدخال في النموذج */
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        outline: none;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    /* تصحيح مظهر حقول الإدخال عند التركيز */
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: #0056b3 !important;
+        box-shadow: 0 0 4px rgba(0, 86, 179, 0.3) !important;
+    }
+    
+    /* إزالة تأثيرات التركيز عند النقر للعناصر الأخرى */
+    a:focus, button:focus, .thumbnail:focus, .feature-box:focus,
+    .quantity-btn:focus, .btn:focus, .social-media a:focus,
+    .zoom-icon:focus, .nav-arrow:focus, .zoom-btn:focus,
+    .feature-icon:focus, .accordion-toggle:focus, img:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    /* باقي الكود دون تغيير */
+}
+
+/* تعديل إضافي لضمان ظهور حقول الإدخال بشكل صحيح */
+input[type="text"], 
+input[type="tel"], 
+input[type="email"], 
+input[type="number"],
+textarea, 
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #ddd;
+}
+
+/* حل مشكلة تأثيرات النقر على الأيقونات والصور في الهواتف */
+@media (max-width: 767px) {
+    /* إزالة تأثيرات النقر لجميع العناصر التفاعلية */
+    a, button, .thumbnail, .feature-box, .quantity-btn, .btn,
+    .social-media a, .zoom-icon, .nav-arrow, .zoom-btn, 
+    .feature-icon, .accordion-toggle, img {
+        -webkit-tap-highlight-color: transparent;
+        outline: none !important;
+        box-shadow: none !important;
+        user-select: none;
+        -webkit-touch-callout: none;
+    }
+    
     /* إزالة تأثيرات التركيز عند النقر */
     a:focus, button:focus, .thumbnail:focus, .feature-box:focus,
     .quantity-btn:focus, .btn:focus, .social-media a:focus,
