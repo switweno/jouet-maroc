@@ -47,6 +47,9 @@ function submitFormViaWhatsApp(event) {
     event.preventDefault();
     
     try {
+        // Show loader when submitting form
+        showLoader();
+        
         // Get form data
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
@@ -88,6 +91,9 @@ function submitFormViaWhatsApp(event) {
         document.getElementById('summary-customer-address').textContent = address;
         document.getElementById('summary-customer-city').textContent = city;
         document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
+        
+        // إخفاء شاشة التحميل بعد تحميل البيانات
+        setTimeout(hideLoader, 500);
         
         // Show confirmation modal
         const confirmationModal = document.getElementById('confirmation-modal');
@@ -159,6 +165,7 @@ function submitFormViaWhatsApp(event) {
             }
         };
     } catch (error) {
+        hideLoader(); // تأكد من إخفاء شاشة التحميل في حالة الخطأ
         console.error("Error in form submission:", error);
         alert("حدث خطأ أثناء معالجة النموذج. يرجى المحاولة مرة أخرى.");
     }
@@ -319,6 +326,10 @@ function updateImageTransform() {
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
+    // إظهار شاشة التحميل أثناء تحميل الصفحة
+    showLoader();
+    
+    // استدعاء الدالة الأصلية
     try {
         // Set the first thumbnail as active
         if (document.querySelector('.thumbnail')) {
@@ -405,7 +416,13 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         });
         
+        // إخفاء شاشة التحميل بعد اكتمال تحميل الصفحة
+        window.addEventListener('load', function() {
+            setTimeout(hideLoader, 500);
+        });
+        
     } catch (error) {
+        hideLoader(); // تأكد من إخفاء شاشة التحميل في حالة الخطأ
         console.error("Error initializing page:", error);
     }
 });
@@ -516,4 +533,26 @@ function setupThumbnailScrolling() {
     thumbnailsContainer.addEventListener('touchstart', function(e) {
         // Don't prevent default here to allow native scrolling
     }, { passive: true });
+}
+
+// استبدال أي استخدام لـ window.onunload بـ window.onpagehide أو window.onbeforeunload
+// على سبيل المثال:
+window.addEventListener('pagehide', function(event) {
+    // الكود اللازم عند مغادرة الصفحة
+});
+
+// بدلاً من:
+// window.addEventListener('unload', function(event) { ... });
+
+// Loading overlay functionality
+function showLoader() {
+    const loader = document.getElementById('loading-overlay');
+    loader.classList.add('active');
+    document.body.style.overflow = 'hidden'; // منع التمرير أثناء التحميل
+}
+
+function hideLoader() {
+    const loader = document.getElementById('loading-overlay');
+    loader.classList.remove('active');
+    document.body.style.overflow = ''; // استعادة التمرير
 }
