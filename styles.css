@@ -1455,3 +1455,74 @@ h1, h2, h3, h4, h5, h6 {
         padding: 20px 15px;
     }
 }
+
+/* Improved Order Form Spacing for Mobile */
+@media (max-width: 767px) {
+    .order-section {
+        padding: 20px;
+        margin: 0 5px 25px 5px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group label {
+        margin-bottom: 8px;
+        display: block;
+        font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px 10px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .radio-group {
+        padding: 8px 0;
+    }
+    
+    .submit-btn {
+        margin-top: 15px;
+        border-radius: 8px;
+        height: auto;
+        padding: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-section {
+        padding: 15px;
+        border-radius: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px;
+    }
+}
+
+/* Even more specific mobile adjustments */
+@media (max-width: 360px) {
+    .order-section {
+        padding: 12px 10px;
+    }
+    
+    .order-section h2 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        padding: 10px 8px;
+    }
+}
