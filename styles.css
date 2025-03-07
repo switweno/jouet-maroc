@@ -7,9 +7,12 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .container {
@@ -17,6 +20,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow-x: hidden;
 }
 
 /* Header Styles */
@@ -134,6 +138,7 @@ main {
     flex-wrap: nowrap !important; /* Force nowrap regardless of screen size */
     scrollbar-width: none; /* Hide Firefox scrollbar */
     touch-action: pan-x; /* Optimize for horizontal touch gestures */
+    margin-bottom: 5px; /* Add bottom margin */
 }
 
 /* Hide scrollbar while preserving functionality */
@@ -643,6 +648,11 @@ main {
     background-color: #128c7e; /* Darker WhatsApp green for hover */
 }
 
+.submit-btn:active {
+    background-color: #128c7e;
+    transform: scale(0.98);
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
@@ -718,7 +728,7 @@ footer p {
 .image-modal {
     display: none;
     position: fixed;
-    z-index: 1000;
+    z-index: 9999;
     left: 0;
     top: 0;
     width: 100%;
@@ -1043,7 +1053,7 @@ footer p {
 .confirmation-modal {
     display: none;
     position: fixed;
-    z-index: 2000;
+    z-index: 9999;
     left: 0;
     top: 0;
     width: 100%;

@@ -46,107 +46,114 @@ function scrollToForm() {
 function submitFormViaWhatsApp(event) {
     event.preventDefault();
     
-    // Get form data
-    const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
-    const address = document.getElementById('address').value;
-    
-    // Get city directly from text input instead of select dropdown
-    const city = document.getElementById('city').value;
-    
-    const quantity = document.getElementById('quantity').value;
-    const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
-    
-    // Validate form data
-    if (!name || !phone || !address || !city) {
-        alert("الرجاء ملء جميع الحقول المطلوبة");
-        return;
-    }
-    
-    // Get product information
-    const productName = document.querySelector('.product-title').textContent;
-    const price = document.querySelector('.current-price').textContent;
-    const priceValue = parseFloat(price);
-    const totalPrice = parseInt(quantity) * priceValue;
-    const productImage = document.getElementById('current-image').src;
-    
-    // Populate confirmation modal
-    document.getElementById('summary-product-image').src = productImage;
-    document.getElementById('summary-product-name').textContent = productName;
-    document.getElementById('summary-product-price').textContent = price;
-    document.getElementById('summary-product-quantity').textContent = quantity;
-    document.getElementById('summary-total-price').textContent = totalPrice + " درهم";
-    
-    document.getElementById('summary-customer-name').textContent = name;
-    document.getElementById('summary-customer-phone').textContent = phone;
-    document.getElementById('summary-customer-address').textContent = address;
-    document.getElementById('summary-customer-city').textContent = city;
-    document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
-    
-    // Show confirmation modal
-    const confirmationModal = document.getElementById('confirmation-modal');
-    confirmationModal.style.display = 'block';
-    
-    // Prevent scrolling on background
-    document.body.style.overflow = 'hidden';
-    
-    // Setup confirmation button
-    document.getElementById('confirm-order-btn').onclick = function() {
-        // Create WhatsApp message with form data
-        const message = encodeURIComponent(
-            `*طلب جديد*\n\n` +
-            `*معلومات العميل:*\n` +
-            `الاسم: ${name}\n` +
-            `رقم الهاتف: ${phone}\n` +
-            `العنوان: ${address}\n` +
-            `المدينة: ${city}\n` +
-            `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
-            `*تفاصيل الطلب:*\n` +
-            `المنتج: ${productName}\n` +
-            `الكمية: ${quantity}\n` +
-            `السعر: ${price}\n` +
-            `المجموع: ${totalPrice} درهم`
-        );
+    try {
+        // Get form data
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const address = document.getElementById('address').value;
+        const city = document.getElementById('city').value;
+        const quantity = document.getElementById('quantity').value;
         
-        // Track event in Facebook Pixel
-        if (typeof fbq === 'function') {
-            fbq('track', 'Purchase', {
-                value: priceValue,
-                currency: 'MAD',
-                content_name: productName,
-                content_type: 'product',
-                content_ids: ['PROD12345'],
-                contents: [
-                    {
-                        id: 'PROD12345',
-                        quantity: parseInt(quantity),
-                        item_price: priceValue
-                    }
-                ]
-            });
+        // Form validation
+        if (!name || !phone || !address || !city) {
+            alert("الرجاء ملء جميع الحقول المطلوبة");
+            return;
         }
         
-        // Close confirmation modal
-        closeConfirmationModal();
+        // Phone validation - ensure it contains only numbers
+        if (!/^\d+$/.test(phone.replace(/\s+/g, ''))) {
+            alert("رقم الهاتف يجب أن يحتوي على أرقام فقط");
+            return;
+        }
         
-        // Open WhatsApp with the message
-        window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
+        // Get product information
+        const productName = document.querySelector('.product-title').textContent;
+        const price = document.querySelector('.current-price').textContent;
+        const priceValue = parseFloat(price);
+        const totalPrice = parseInt(quantity) * priceValue;
+        const productImage = document.getElementById('current-image').src;
         
-        // Reset form
-        document.getElementById('order-form').reset();
-    };
-    
-    // Setup cancel button
-    document.getElementById('cancel-order-btn').onclick = function() {
-        closeConfirmationModal();
-    };
-    
-    // Close when clicking outside
-    confirmationModal.onclick = function(event) {
-        if (event.target === confirmationModal) {
+        // Populate confirmation modal
+        document.getElementById('summary-product-image').src = productImage;
+        document.getElementById('summary-product-name').textContent = productName;
+        document.getElementById('summary-product-price').textContent = price;
+        document.getElementById('summary-product-quantity').textContent = quantity;
+        document.getElementById('summary-total-price').textContent = totalPrice + " درهم";
+        
+        document.getElementById('summary-customer-name').textContent = name;
+        document.getElementById('summary-customer-phone').textContent = phone;
+        document.getElementById('summary-customer-address').textContent = address;
+        document.getElementById('summary-customer-city').textContent = city;
+        document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
+        
+        // Show confirmation modal
+        const confirmationModal = document.getElementById('confirmation-modal');
+        confirmationModal.style.display = 'block';
+        
+        // Prevent scrolling on background
+        document.body.style.overflow = 'hidden';
+        
+        // Setup confirmation button
+        document.getElementById('confirm-order-btn').onclick = function() {
+            // Create WhatsApp message with form data
+            const message = encodeURIComponent(
+                `*طلب جديد*\n\n` +
+                `*معلومات العميل:*\n` +
+                `الاسم: ${name}\n` +
+                `رقم الهاتف: ${phone}\n` +
+                `العنوان: ${address}\n` +
+                `المدينة: ${city}\n` +
+                `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
+                `*تفاصيل الطلب:*\n` +
+                `المنتج: ${productName}\n` +
+                `الكمية: ${quantity}\n` +
+                `السعر: ${price}\n` +
+                `المجموع: ${totalPrice} درهم`
+            );
+            
+            // Track event in Facebook Pixel
+            if (typeof fbq === 'function') {
+                fbq('track', 'Purchase', {
+                    value: priceValue,
+                    currency: 'MAD',
+                    content_name: productName,
+                    content_type: 'product',
+                    content_ids: ['PROD12345'],
+                    contents: [
+                        {
+                            id: 'PROD12345',
+                            quantity: parseInt(quantity),
+                            item_price: priceValue
+                        }
+                    ]
+                });
+            }
+            
+            // Close confirmation modal
             closeConfirmationModal();
-        }
-    };
+            
+            // Open WhatsApp with the message
+            window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
+            
+            // Reset form
+            document.getElementById('order-form').reset();
+        };
+        
+        // Setup cancel button
+        document.getElementById('cancel-order-btn').onclick = function() {
+            closeConfirmationModal();
+        };
+        
+        // Close when clicking outside
+        confirmationModal.onclick = function(event) {
+            if (event.target === confirmationModal) {
+                closeConfirmationModal();
+            }
+        };
+    } catch (error) {
+        console.error("Error in form submission:", error);
+        alert("حدث خطأ أثناء معالجة النموذج. يرجى المحاولة مرة أخرى.");
+    }
 }
 
 // Close confirmation modal
@@ -304,83 +311,95 @@ function updateImageTransform() {
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
-    // Set the first thumbnail as active
-    if (document.querySelector('.thumbnail')) {
-        document.querySelector('.thumbnail').classList.add('active');
-    }
-    
-    // Add image dragging functionality for the modal image
-    const modalImage = document.getElementById('modal-image');
-    if (modalImage) {
-        modalImage.addEventListener('mousedown', startDrag);
-        modalImage.addEventListener('touchstart', startDrag, { passive: false });
+    try {
+        // Set the first thumbnail as active
+        if (document.querySelector('.thumbnail')) {
+            document.querySelector('.thumbnail').classList.add('active');
+        }
         
-        window.addEventListener('mousemove', drag);
-        window.addEventListener('touchmove', drag, { passive: false });
+        // Add image dragging functionality for the modal image
+        const modalImage = document.getElementById('modal-image');
+        if (modalImage) {
+            modalImage.addEventListener('mousedown', startDrag);
+            modalImage.addEventListener('touchstart', startDrag, { passive: false });
+            
+            window.addEventListener('mousemove', drag);
+            window.addEventListener('touchmove', drag, { passive: false });
+            
+            window.addEventListener('mouseup', endDrag);
+            window.addEventListener('touchend', endDrag);
+        }
         
-        window.addEventListener('mouseup', endDrag);
-        window.addEventListener('touchend', endDrag);
-    }
-    
-    // Close modal when clicking outside the image
-    const modal = document.getElementById('image-modal');
-    if (modal) {
-        modal.addEventListener('click', function(event) {
-            if (event.target === modal) {
+        // Close modal when clicking outside the image
+        const modal = document.getElementById('image-modal');
+        if (modal) {
+            modal.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    closeImageModal();
+                }
+            });
+        }
+        
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
                 closeImageModal();
             }
         });
-    }
-    
-    // Close modal with ESC key
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && modal.style.display === 'block') {
-            closeImageModal();
-        }
-    });
-    
-    // Add double tap to zoom on mobile
-    let lastTap = 0;
-    if (modalImage) {
-        modalImage.addEventListener('touchend', function(e) {
-            const currentTime = new Date().getTime();
-            const tapLength = currentTime - lastTap;
-            
-            if (tapLength < 300 && tapLength > 0) {
-                // Double tap detected
-                if (zoomLevel === 1) {
-                    changeZoom(1); // Zoom in
-                } else {
-                    resetZoom(); // Reset zoom
-                }
-                e.preventDefault();
-            }
-            
-            lastTap = currentTime;
-        });
-    }
-    
-    // Add keyboard navigation for images
-    document.addEventListener('keydown', function(event) {
-        const modal = document.getElementById('image-modal');
         
-        // Only process keyboard input when modal is open
-        if (modal.style.display === 'block') {
-            if (event.key === 'ArrowLeft') {
-                navigateImages(-1);
-                event.preventDefault();
-            } else if (event.key === 'ArrowRight') {
-                navigateImages(1);
-                event.preventDefault();
-            }
+        // Add double tap to zoom on mobile
+        let lastTap = 0;
+        if (modalImage) {
+            modalImage.addEventListener('touchend', function(e) {
+                const currentTime = new Date().getTime();
+                const tapLength = currentTime - lastTap;
+                
+                if (tapLength < 300 && tapLength > 0) {
+                    // Double tap detected
+                    if (zoomLevel === 1) {
+                        changeZoom(1); // Zoom in
+                    } else {
+                        resetZoom(); // Reset zoom
+                    }
+                    e.preventDefault();
+                }
+                
+                lastTap = currentTime;
+            });
         }
-    });
-    
-    // Initialize accordion
-    setupAccordion();
-    
-    // Add this new function to ensure thumbnail scrolling works
-    setupThumbnailScrolling();
+        
+        // Add keyboard navigation for images
+        document.addEventListener('keydown', function(event) {
+            const modal = document.getElementById('image-modal');
+            
+            // Only process keyboard input when modal is open
+            if (modal.style.display === 'block') {
+                if (event.key === 'ArrowLeft') {
+                    navigateImages(-1);
+                    event.preventDefault();
+                } else if (event.key === 'ArrowRight') {
+                    navigateImages(1);
+                    event.preventDefault();
+                }
+            }
+        });
+        
+        // Initialize accordion
+        setupAccordion();
+        
+        // Add this new function to ensure thumbnail scrolling works
+        setupThumbnailScrolling();
+        
+        // Check if images loaded correctly
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                this.src = 'placeholder.jpg'; // Fallback image
+            };
+        });
+        
+    } catch (error) {
+        console.error("Error initializing page:", error);
+    }
 });
 
 // Improve mobile touch handling
@@ -470,6 +489,7 @@ function setupThumbnailScrolling() {
     
     // Force overflow-x property to ensure scrolling works
     thumbnailsContainer.style.overflowX = 'auto';
+    thumbnailsContainer.style.webkitOverflowScrolling = 'touch';
     
     // Ensure active thumbnail is visible by scrolling to it
     const activeThumb = document.querySelector('.thumbnail.active');
