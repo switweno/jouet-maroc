@@ -482,20 +482,35 @@ function setupAccordion() {
     const accordionHeaders = document.querySelectorAll('.accordion-header');
     
     accordionHeaders.forEach(header => {
+        const toggleBtn = header.querySelector('.accordion-toggle');
+        const category = header.parentElement;
+        const isExpanded = category.classList.contains('expanded');
+        
+        // تعيين حالة التوسيع الحالية
+        toggleBtn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        
         header.addEventListener('click', function() {
             const category = this.parentElement;
             const isExpanded = category.classList.contains('expanded');
+            const toggleBtn = this.querySelector('.accordion-toggle');
             
-            // Close all other expanded sections
+            // إغلاق جميع الأقسام المفتوحة الأخرى
             document.querySelectorAll('.feature-category.expanded').forEach(expandedCategory => {
-                // Skip the current category if we're closing it anyway
+                // تخطي القسم الحالي إذا كنا نقوم بإغلاقه على أي حال
                 if (expandedCategory !== category || !isExpanded) {
                     expandedCategory.classList.remove('expanded');
+                    
+                    // تحديث حالة أزرار التبديل للأقسام الأخرى
+                    const otherBtn = expandedCategory.querySelector('.accordion-toggle');
+                    if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
                 }
             });
             
-            // Toggle the current category
+            // تبديل القسم الحالي
             category.classList.toggle('expanded');
+            
+            // تحديث حالة زر التبديل الحالي
+            toggleBtn.setAttribute('aria-expanded', category.classList.contains('expanded') ? 'true' : 'false');
         });
     });
 }
@@ -652,6 +667,8 @@ function updateProductDisplay(product) {
         const toggleBtn = document.createElement('button');
         toggleBtn.classList.add('accordion-toggle');
         toggleBtn.innerHTML = '<i class="fas fa-chevron-down"></i>';
+        toggleBtn.setAttribute('aria-label', `توسيع قسم ${feature.title}`);
+        toggleBtn.setAttribute('aria-expanded', index === 0 ? 'true' : 'false');
         
         headerDiv.appendChild(heading);
         headerDiv.appendChild(toggleBtn);

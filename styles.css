@@ -407,11 +407,37 @@ main {
     color: #0056b3;
     cursor: pointer;
     transition: transform 0.3s ease;
-    width: 24px;
-    height: 24px;
+    width: 30px; /* زيادة المساحة للنقر */
+    height: 30px; /* زيادة المساحة للنقر */
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%; /* جعل منطقة النقر دائرية */
+}
+
+/* تغيير مظهر الزر عند التركيز عليه بلوحة المفاتيح */
+.accordion-toggle:focus {
+    outline: 2px solid #0056b3;
+    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.3);
+}
+
+/* تطبيق دوران للأيقونة بناءً على حالة aria-expanded */
+.accordion-toggle[aria-expanded="true"] {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* تعديل سلوك الهوفر للأجهزة التي تدعم الهوفر */
+@media (hover: hover) {
+    .accordion-toggle:hover {
+        background-color: rgba(0, 86, 179, 0.1);
+    }
+}
+
+/* تحسين مظهر المنطقة النشطة للأزرار لمستخدمي أجهزة اللمس */
+@media (hover: none) {
+    .accordion-toggle:active {
+        background-color: rgba(0, 86, 179, 0.2);
+    }
 }
 
 .feature-category.expanded .accordion-toggle {
