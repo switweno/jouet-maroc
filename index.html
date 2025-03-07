@@ -26,6 +26,8 @@
         fbq('track', 'PageView');
     </script>
     <!-- End Facebook Pixel Code -->
+    <!-- إضافة ملف بيانات المنتجات -->
+    <script src="products.js"></script>
 </head>
 <body>
     <!-- Move Facebook Pixel noscript to body -->
@@ -175,15 +177,7 @@
         <div class="product-video-section">
             <h2>فيديو المنتج</h2>
             <div class="video-container">
-                <iframe 
-                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1216627849670343%2F&show_text=false&width=560&t=0" 
-                    width="560" 
-                    height="314" 
-                    style="border:none;overflow:hidden" 
-                    title="فيديو دراجة كهربائية LIKEBIKE HARLEY U9" 
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                    allowfullscreen="true">
-                </iframe>
+                <!-- سيتم إضافة الإطار هنا من خلال JavaScript -->
             </div>
         </div>
         
@@ -248,6 +242,29 @@
                     <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
                 </button>
             </form>
+        </div>
+        <!-- يمكن إضافة قسم روابط المنتجات في أي مكان مناسب، مثلاً قبل الفوتر -->
+        <!-- تحسين قسم المنتجات ذات الصلة -->
+        <div class="related-products">
+            <h2>منتجات أخرى قد تعجبك</h2>
+            <div class="products-grid">
+                <a href="?product=velo-electrique-harley-u9" class="product-link">
+                    <div class="related-product">
+                        <img src="product1.webp" alt="دراجة كهربائية هارلي">
+                        <h3>VÉLO ÉLECTRIQUE HARLEY U9</h3>
+                        <div class="related-price">8700 درهم</div>
+                    </div>
+                </a>
+                <!-- إضافة المنتج الجديد مع امتداد الصورة -->
+<a href="?product=trottinette-bison-gt-1000" class="product-link">
+    <div class="related-product">
+        <img src="bison-gt-1000-1.webp" alt="تروتنيت بيسون GT 1000">
+        <h3>TROTTINETTE BISON GT 1000</h3>
+        <div class="related-price">5890 درهم</div>
+    </div>
+</a>
+
+            </div>
         </div>
     </main>
     
@@ -314,6 +331,7 @@
                 <button class="btn primary-btn" id="confirm-order-btn">
                     <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
                 </button>
+                <!-- إصلاح زر إلغاء الطلب - الوسم كان مغلقاً بشكل خاطئ -->
                 <button class="btn secondary-btn" id="cancel-order-btn">
                     <i class="fas fa-times"></i> إلغاء الطلب
                 </button>
@@ -321,16 +339,7 @@
         </div>
     </div>
     <!-- End of Order Confirmation Modal -->
-    <!-- Loading Overlay with improved structure -->
-    <div id="loading-overlay" class="loading-overlay">
-        <div class="loader-container">
-            <div class="spinner"></div>
-            <div class="loader-text">
-                <span class="arabic-text">جاري التحميل...</span>
-                <span class="english-text">Loading...</span>
-            </div>
-        </div>
-    </div>
+    <!-- تمت إزالة شاشة التحميل من هنا -->
 
     <footer>
         <div class="container">
