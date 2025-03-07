@@ -130,7 +130,7 @@ function submitFormViaWhatsApp(event) {
         closeConfirmationModal();
         
         // Open WhatsApp with the message
-        window.open(`https://wa.me/${+212672568976}?text=${message}`, '_blank');
+        window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
         
         // Reset form
         document.getElementById('order-form').reset();

@@ -1344,3 +1344,114 @@ h1, h2, h3, h4, h5, h6 {
         padding: 12px 8px;
     }
 }
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    color: #0056b3;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.why-choose-us h2:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 3px;
+    background-color: #0056b3;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature-box {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    margin-bottom: 15px;
+}
+
+.feature-icon i {
+    font-size: 2.5rem;
+    color: #0056b3;
+    background-color: #e9f2ff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.feature-box p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Mobile styles for Why Choose Us section */
+@media (max-width: 767px) {
+    .features-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .feature-box {
+        min-width: auto;
+        padding: 15px;
+    }
+    
+    .feature-icon i {
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
+    
+    .why-choose-us h2 {
+        font-size: 1.5rem;
+    }
+    
+    .feature-box h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .why-choose-us {
+        padding: 20px 15px;
+    }
+}
