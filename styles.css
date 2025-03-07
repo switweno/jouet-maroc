@@ -1798,3 +1798,61 @@ h1, h2, h3, h4, h5, h6 {
     direction: rtl;
 }
 
+/* حل مشكلة تأثيرات النقر على الأيقونات والصور في الهواتف */
+@media (max-width: 767px) {
+    /* إزالة تأثيرات النقر لجميع العناصر التفاعلية */
+    a, button, .thumbnail, .feature-box, .quantity-btn, .btn,
+    .social-media a, .zoom-icon, .nav-arrow, .zoom-btn, 
+    .feature-icon, .accordion-toggle, img {
+        -webkit-tap-highlight-color: transparent;
+        outline: none !important;
+        box-shadow: none !important;
+        user-select: none;
+        -webkit-touch-callout: none;
+    }
+    
+    /* إزالة تأثيرات التركيز عند النقر */
+    a:focus, button:focus, .thumbnail:focus, .feature-box:focus,
+    .quantity-btn:focus, .btn:focus, .social-media a:focus,
+    .zoom-icon:focus, .nav-arrow:focus, .zoom-btn:focus,
+    .feature-icon:focus, .accordion-toggle:focus, img:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    /* إزالة تأثيرات النقر النشط */
+    a:active, button:active, .thumbnail:active, .feature-box:active,
+    .quantity-btn:active, .btn:active, .social-media a:active,
+    .zoom-icon:active, .nav-arrow:active, .zoom-btn:active,
+    .feature-icon:active, .accordion-toggle:active, img:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    /* تعديل محدد للأزرار الدائرية في وسائل التواصل الاجتماعي */
+    .social-media a {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* تعديل محدد لصور المعرض والصور المصغرة */
+    .main-image img, .thumbnail {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* تعديل محدد لأيقونات الميزات */
+    .feature-icon i {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+/* إضافة قاعدة عامة لإزالة تأثيرات النقر على الشاشات اللمسية */
+@media (hover: none) and (pointer: coarse) {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    input:focus, textarea:focus, select:focus {
+        outline-color: transparent;
+    }
+}
+
