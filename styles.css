@@ -114,38 +114,45 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Simplified Thumbnail Styles without Arrows */
+/* Improved Thumbnail Styles with Better Scrolling */
 .thumbnails-container {
     width: 100%;
     margin-top: 15px;
     overflow: hidden;
+    position: relative;
+    padding: 2px 0; /* Add some padding */
 }
 
 .thumbnails {
     display: flex;
-    overflow-x: auto;
+    overflow-x: auto; /* Critical for horizontal scrolling */
     overflow-y: hidden;
-    gap: 10px;
-    padding: 5px 0;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    scrollbar-width: none; /* Hide scrollbar on Firefox */
-    flex-wrap: nowrap; /* Keep thumbnails in a single row */
+    gap: 12px;
+    padding: 8px 5px;
+    -webkit-overflow-scrolling: touch; /* Better iOS scrolling */
+    scroll-behavior: smooth;
+    flex-wrap: nowrap !important; /* Force nowrap regardless of screen size */
+    scrollbar-width: none; /* Hide Firefox scrollbar */
+    touch-action: pan-x; /* Optimize for horizontal touch gestures */
 }
 
-/* Hide scrollbar */
+/* Hide scrollbar while preserving functionality */
 .thumbnails::-webkit-scrollbar {
+    width: 0;
+    height: 0;
     display: none;
 }
 
 .thumbnail {
     flex: 0 0 auto;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid transparent;
     transition: all 0.3s ease;
     object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .thumbnail.active {
@@ -156,11 +163,45 @@ main {
     transform: translateY(-3px);
 }
 
-/* Mobile adjustments */
+/* Scroll indicators to show more content */
+.thumbnails-container::before,
+.thumbnails-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.thumbnails-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0.9), transparent);
+}
+
+.thumbnails-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0.9), transparent);
+}
+
+/* Mobile adjustments for thumbnails */
 @media (max-width: 767px) {
+    .thumbnails {
+        padding: 5px 2px;
+        gap: 10px;
+    }
+    
     .thumbnail {
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 480px) {
+    .thumbnail {
+        width: 55px;
+        height: 55px;
     }
     
     .thumbnails {
@@ -168,14 +209,55 @@ main {
     }
 }
 
-@media (max-width: 480px) {
-    .thumbnail {
-        width: 40px;
-        height: 40px;
+/* Override any conflicting rules for mobile */
+@media (max-width: 767px) {
+    .thumbnails {
+        flex-wrap: nowrap !important; /* Enforce single row */
+        overflow-x: auto !important; /* Ensure scroll works */
+    }
+}
+
+/* Fixed Thumbnail Sizes for Small Screens */
+@media (max-width: 767px) {
+    .thumbnails {
+        gap: 10px;
+        justify-content: flex-start;
+        padding: 5px 2px;
     }
     
+    .thumbnail {
+        width: calc((100% - 30px) / 4); /* Show exactly 4 thumbnails (with 3 gaps between) */
+        height: 65px; /* Taller for better visibility */
+        min-width: 60px; /* Ensure minimum size */
+    }
+}
+
+@media (max-width: 480px) {
     .thumbnails {
-        gap: 5px;
+        gap: 8px;
+    }
+    
+    .thumbnail {
+        width: calc((100% - 24px) / 4); /* Show exactly 4 thumbnails (with 3 gaps of 8px) */
+        height: 60px; /* Slightly shorter but still good size */
+        min-width: 55px; /* Minimum size */
+    }
+}
+
+/* Override any conflicting thumbnail styles */
+@media (max-width: 767px) {
+    /* Remove existing conflicting thumbnail styles */
+    .thumbnail {
+        width: calc((100% - 30px) / 4) !important; /* Force this sizing */
+        height: 65px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Remove existing conflicting thumbnail styles */
+    .thumbnail {
+        width: calc((100% - 24px) / 4) !important; /* Force this sizing */
+        height: 60px !important;
     }
 }
 
@@ -506,6 +588,20 @@ main {
     border-radius: 5px;
     font-size: 1rem;
     text-align: left;
+}
+
+/* Required field indicator - moved to after text */
+.required-field::after {
+    content: " *";
+    color: #dc3545; /* Bootstrap's danger red */
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-right: 3px; /* For RTL layout */
+}
+
+/* Remove the previous ::before version if it exists */
+.required-field::before {
+    content: none;
 }
 
 /* Placeholder styling */

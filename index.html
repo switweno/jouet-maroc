@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>تفاصيل المنتج | عروض خاصة</title>
+    <title>jouet maroc | عروض خاصة</title>
     <!-- Add Google Fonts for Arabic -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -171,30 +171,23 @@
             <h2>املأ النموذج للطلب</h2>
             <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
                 <div class="form-group">
-                    <label for="name">الاسم الكامل*</label>
+                    <label for="name" class="required-field">الاسم الكامل</label>
                     <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">رقم الهاتف*</label>
+                    <label for="phone" class="required-field">رقم الهاتف</label>
                     <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required>
                 </div>
                 <div class="form-group">
-                    <label for="address">العنوان*</label>
+                    <label for="address" class="required-field">العنوان</label>
                     <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="city">المدينة*</label>
-                    <select id="city" name="city" dir="ltr" required>
-                        <option value="">Sélectionnez votre ville</option>
-                        <option value="casablanca">Casablanca</option>
-                        <option value="agadir">Agadir</option>
-                        <option value="ouarzazate">Ouarzazate</option>
-                        <option value="tanger">Tanger</option>
-                        <option value="autre">Autre</option>
-                    </select>
+                    <label for="city" class="required-field">المدينة</label>
+                    <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required>
                 </div>
                 <div class="form-group payment-method">
-                    <label>طريقة الدفع*</label>
+                    <label class="required-field">طريقة الدفع</label>
                     <div class="radio-group">
                         <input type="radio" id="cod" name="payment" value="cod" checked>
                         <label for="cod">الدفع عند الاستلام</label>
@@ -293,7 +286,7 @@
                     <span>استبدال مجاني</span>
                 </div>
             </div>
-            <p>&copy; 2025 متجر العروض | جميع الحقوق محفوظة</p>
+            <p>&copy; 2025 jouet-maroc.com | جميع الحقوق محفوظة</p>
         </div>
     </footer>
     

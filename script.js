@@ -51,15 +51,14 @@ function submitFormViaWhatsApp(event) {
     const phone = document.getElementById('phone').value;
     const address = document.getElementById('address').value;
     
-    // Get city text instead of value
-    const citySelect = document.getElementById('city');
-    const cityText = citySelect.options[citySelect.selectedIndex].text;
+    // Get city directly from text input instead of select dropdown
+    const city = document.getElementById('city').value;
     
     const quantity = document.getElementById('quantity').value;
     const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
     
     // Validate form data
-    if (!name || !phone || !address || !citySelect.value) {
+    if (!name || !phone || !address || !city) {
         alert("الرجاء ملء جميع الحقول المطلوبة");
         return;
     }
@@ -81,7 +80,7 @@ function submitFormViaWhatsApp(event) {
     document.getElementById('summary-customer-name').textContent = name;
     document.getElementById('summary-customer-phone').textContent = phone;
     document.getElementById('summary-customer-address').textContent = address;
-    document.getElementById('summary-customer-city').textContent = cityText;
+    document.getElementById('summary-customer-city').textContent = city;
     document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
     
     // Show confirmation modal
@@ -100,7 +99,7 @@ function submitFormViaWhatsApp(event) {
             `الاسم: ${name}\n` +
             `رقم الهاتف: ${phone}\n` +
             `العنوان: ${address}\n` +
-            `المدينة: ${cityText}\n` +
+            `المدينة: ${city}\n` +
             `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
             `*تفاصيل الطلب:*\n` +
             `المنتج: ${productName}\n` +
@@ -379,6 +378,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize accordion
     setupAccordion();
+    
+    // Add this new function to ensure thumbnail scrolling works
+    setupThumbnailScrolling();
 });
 
 // Improve mobile touch handling
@@ -459,4 +461,31 @@ function setupAccordion() {
             category.classList.toggle('expanded');
         });
     });
+}
+
+// Function to ensure thumbnail scrolling works on all devices
+function setupThumbnailScrolling() {
+    const thumbnailsContainer = document.querySelector('.thumbnails');
+    if (!thumbnailsContainer) return;
+    
+    // Force overflow-x property to ensure scrolling works
+    thumbnailsContainer.style.overflowX = 'auto';
+    
+    // Ensure active thumbnail is visible by scrolling to it
+    const activeThumb = document.querySelector('.thumbnail.active');
+    if (activeThumb) {
+        // Add a slight delay to ensure DOM is fully ready
+        setTimeout(() => {
+            activeThumb.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'nearest',
+                inline: 'center'  
+            });
+        }, 100);
+    }
+    
+    // Ensure scrolling is handled correctly on touch devices
+    thumbnailsContainer.addEventListener('touchstart', function(e) {
+        // Don't prevent default here to allow native scrolling
+    }, { passive: true });
 }
