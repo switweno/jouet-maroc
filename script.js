@@ -54,6 +54,9 @@ function submitFormViaWhatsApp(event) {
         const city = document.getElementById('city').value;
         const quantity = document.getElementById('quantity').value;
         
+        // Fix: Properly define paymentMethod variable
+        const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
+        
         // Form validation
         if (!name || !phone || !address || !city) {
             alert("الرجاء ملء جميع الحقول المطلوبة");
@@ -95,48 +98,53 @@ function submitFormViaWhatsApp(event) {
         
         // Setup confirmation button
         document.getElementById('confirm-order-btn').onclick = function() {
-            // Create WhatsApp message with form data
-            const message = encodeURIComponent(
-                `*طلب جديد*\n\n` +
-                `*معلومات العميل:*\n` +
-                `الاسم: ${name}\n` +
-                `رقم الهاتف: ${phone}\n` +
-                `العنوان: ${address}\n` +
-                `المدينة: ${city}\n` +
-                `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
-                `*تفاصيل الطلب:*\n` +
-                `المنتج: ${productName}\n` +
-                `الكمية: ${quantity}\n` +
-                `السعر: ${price}\n` +
-                `المجموع: ${totalPrice} درهم`
-            );
-            
-            // Track event in Facebook Pixel
-            if (typeof fbq === 'function') {
-                fbq('track', 'Purchase', {
-                    value: priceValue,
-                    currency: 'MAD',
-                    content_name: productName,
-                    content_type: 'product',
-                    content_ids: ['PROD12345'],
-                    contents: [
-                        {
-                            id: 'PROD12345',
-                            quantity: parseInt(quantity),
-                            item_price: priceValue
-                        }
-                    ]
-                });
+            try {
+                // Create WhatsApp message with form data
+                const message = encodeURIComponent(
+                    `*طلب جديد*\n\n` +
+                    `*معلومات العميل:*\n` +
+                    `الاسم: ${name}\n` +
+                    `رقم الهاتف: ${phone}\n` +
+                    `العنوان: ${address}\n` +
+                    `المدينة: ${city}\n` +
+                    `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
+                    `*تفاصيل الطلب:*\n` +
+                    `المنتج: ${productName}\n` +
+                    `الكمية: ${quantity}\n` +
+                    `السعر: ${price}\n` +
+                    `المجموع: ${totalPrice} درهم`
+                );
+                
+                // Track event in Facebook Pixel
+                if (typeof fbq === 'function') {
+                    fbq('track', 'Purchase', {
+                        value: priceValue,
+                        currency: 'MAD',
+                        content_name: productName,
+                        content_type: 'product',
+                        content_ids: ['PROD12345'],
+                        contents: [
+                            {
+                                id: 'PROD12345',
+                                quantity: parseInt(quantity),
+                                item_price: priceValue
+                            }
+                        ]
+                    });
+                }
+                
+                // Close confirmation modal
+                closeConfirmationModal();
+                
+                // Fix: Properly format WhatsApp phone number
+                window.open(`https://wa.me/212762609147?text=${message}`, '_blank');
+                
+                // Reset form
+                document.getElementById('order-form').reset();
+            } catch (error) {
+                console.error("Error sending WhatsApp message:", error);
+                alert("حدث خطأ أثناء محاولة الاتصال بواتساب. يرجى المحاولة مرة أخرى.");
             }
-            
-            // Close confirmation modal
-            closeConfirmationModal();
-            
-            // Open WhatsApp with the message
-            window.open(`https://wa.me/${+212762609147}?text=${message}`, '_blank');
-            
-            // Reset form
-            document.getElementById('order-form').reset();
         };
         
         // Setup cancel button
