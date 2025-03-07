@@ -274,6 +274,7 @@ main {
     flex-direction: column;
 }
 
+/* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.8rem;
     margin-bottom: 15px; /* زيادة المسافة أسفل العنوان */
@@ -286,6 +287,9 @@ main {
     text-align: center; /* محاذاة النص إلى اليسار */
     padding-left: 10px; /* إضافة مسافة لليسار */
     width: 100%; /* تأكيد عرض كامل للعنصر */
+    padding-bottom: 12px;
+    margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
+    border-bottom: 1px solid #e6e6e6; /* خط فاصل خفيف */
 }
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
@@ -294,6 +298,10 @@ main {
     padding-right: 10px;
     font-size: 0.95rem;
     color: #555;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
+    width: 100%;
 }
 
 .product-availability {
@@ -305,6 +313,9 @@ main {
 .ratings {
     margin-bottom: 15px;
     padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
 }
 
 .ratings i {
@@ -683,12 +694,118 @@ footer {
     text-align: center;
 }
 
+/* إعادة تنظيم الفوتر للشاشات الكبيرة */
 .footer-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column; /* تغيير الاتجاه إلى عمودي على جميع الشاشات */
+    align-items: center;
+    justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+/* تنسيق الشعار */
+.footer-logo {
+    flex: 0 0 auto;
+    text-align: center;
+    margin: 0 auto 20px;
+    max-width: 180px; /* تحديد عرض أقصى */
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* تنسيق قسم وسائل التواصل الاجتماعي */
+.social-media-container {
+    flex: 0 0 auto; /* منع التمدد */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; /* توسيط القسم */
+}
+
+.social-media-container h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    position: relative;
+    width: auto; /* عرض ذاتي بناء على المحتوى */
+    display: inline-block; /* جعله يتصرف كعنصر واحد */
+    text-align: center;
+}
+
+.social-media-container h3:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* زيادة عرض الخط */
+    height: 2px;
+    background-color: #0056b3;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap; /* يسمح بالتفاف على الشاشات الصغيرة */
+    margin: 0 auto; /* توسيط */
+}
+
+/* تعديل للشاشات الكبيرة */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* الحفاظ على الاتجاه العمودي حتى في الشاشات الكبيرة */
+    }
+}
+
+/* تعديل للشاشات الصغيرة */
+@media (max-width: 767px) {
+    .social-media-container {
+        margin: 10px auto;
+        padding: 0 15px;
+    }
+}
+
+/* تنسيق قسم وسائل التواصل الاجتماعي */
+.social-media-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto; /* إضافة auto للهوامش الجانبية للتوسيط */
+    max-width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .social-media-container {
+        flex: 0 1 auto; /* تعديل لمنع التمدد المفرط */
+        margin: 10px auto; /* تأكيد التوسيط في الشاشات الكبيرة */
+    }
+    
+    .footer-logo {
+        flex: 0 1 auto;
+        margin: 0 auto 10px;
+        justify-content: center;
+    }
 }
 
 /* تنسيق الشعار */
@@ -2012,6 +2129,22 @@ select {
     
     .loader-text {
         font-size: 1rem;
+    }
+}
+
+/* تحسينات إضافية للهواتف */
+@media (max-width: 767px) {
+    .product-title {
+        padding-bottom: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .product-brand, 
+    .product-category, 
+    .product-availability,
+    .ratings {
+        padding-bottom: 6px;
+        margin-bottom: 6px;
     }
 }
 
