@@ -1512,6 +1512,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;
 }
 
+/* تعديل محاذاة أيقونات "لماذا تختارنا" */
 .feature-box {
     flex: 1;
     min-width: 250px;
@@ -1520,15 +1521,17 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f9f9f9;
     transition: all 0.3s ease;
     border: 1px solid #eee;
-}
-
-.feature-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* إضافة محاذاة نص للوسط */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* محاذاة كل المحتويات للوسط */
 }
 
 .feature-icon {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center; /* توسيط الأيقونة أفقياً */
+    width: 100%; /* عرض كامل للحاوية */
 }
 
 .feature-icon i {
@@ -1541,18 +1544,23 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto; /* توسيط إضافي للأيقونة */
 }
 
 .feature-box h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
     color: #333;
+    text-align: center; /* تأكيد محاذاة العنوان للوسط */
+    width: 100%;
 }
 
 .feature-box p {
     color: #666;
     font-size: 1rem;
     line-height: 1.6;
+    text-align: center; /* تأكيد محاذاة النص للوسط */
+    width: 100%;
 }
 
 /* Mobile styles for Why Choose Us section */
