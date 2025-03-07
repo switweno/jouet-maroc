@@ -570,6 +570,9 @@ function loadProductFromURL() {
     
     // Update product details
     updateProductDisplay(productData);
+    
+    // بعد تحديث معلومات المنتج الرئيسي، قم بتحديث المنتجات ذات الصلة أيضًا
+    updateRelatedProducts();
 }
 
 // Function to update the UI with product data
@@ -833,3 +836,45 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error("Error initializing page:", error);
     }
 });
+
+// إضافة دالة جديدة لتحديث معلومات المنتجات ذات الصلة
+function updateRelatedProducts() {
+    // الحصول على جميع روابط المنتجات في قسم المنتجات ذات الصلة
+    const relatedLinks = document.querySelectorAll('.related-products .product-link');
+    
+    relatedLinks.forEach(link => {
+        // استخراج معرف المنتج من الرابط
+        const href = link.getAttribute('href');
+        const productId = new URLSearchParams(href.split('?')[1]).get('product');
+        
+        if (productId) {
+            // البحث عن بيانات المنتج
+            const relatedProduct = products.find(p => p.id === productId);
+            
+            if (relatedProduct) {
+                // تحديث عنوان المنتج
+                const titleElem = link.querySelector('h3');
+                if (titleElem) titleElem.textContent = relatedProduct.title;
+                
+                // تحديث صورة المنتج
+                const imgElem = link.querySelector('img');
+                if (imgElem && relatedProduct.images.length > 0) {
+                    imgElem.src = relatedProduct.images[0];
+                    imgElem.alt = relatedProduct.title;
+                }
+                
+                // تحديث السعر الحالي
+                const priceElem = link.querySelector('.related-price');
+                if (priceElem) priceElem.textContent = relatedProduct.currentPrice + " درهم";
+                
+                // تحديث السعر القديم
+                const oldPriceElem = link.querySelector('.related-old-price');
+                if (oldPriceElem) oldPriceElem.textContent = relatedProduct.oldPrice + " درهم";
+                
+                // تحديث نسبة الخصم
+                const discountElem = link.querySelector('.related-discount-badge');
+                if (discountElem) discountElem.textContent = "-" + relatedProduct.discount + "%";
+            }
+        }
+    });
+}
