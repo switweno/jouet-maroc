@@ -1,7 +1,7 @@
 const products = [
   {
     id: "velo-electrique-harley-u9",
-    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U9",
+    title: "VÉLO ÉLECTRIQUE HARLEY U9",
     brand: "LIKEBIKE",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
@@ -116,7 +116,7 @@ const products = [
         icon: "fa-cogs",
         items: [
           { key: "TABLEAU", value: "DIGITAL" },
-          { key: "LUMIÈRE LED ET", value: "AVANT ET ARRIÈRE" },
+          { key: "LUMIÈRE LED", value: "AVANT ET ARRIÈRE" },
           { key: "PLIABLE KLAXON", value: "OUI" }
         ]
       }
