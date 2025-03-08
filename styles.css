@@ -244,7 +244,7 @@ main {
     
     .thumbnail {
         width: calc((100% - 24px) / 4); /* Show exactly 4 thumbnails (with 3 gaps of 8px) */
-        height: 60px; /* Slightly shorter but still good size */
+        height: 85px; /* Slightly shorter but still good size */
         min-width: 55px; /* Minimum size */
     }
 }
@@ -254,7 +254,7 @@ main {
     /* Remove existing conflicting thumbnail styles */
     .thumbnail {
         width: calc((100% - 30px) / 4) !important; /* Force this sizing */
-        height: 65px !important;
+        height: 85px !important;
     }
 }
 
