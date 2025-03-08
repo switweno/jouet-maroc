@@ -446,50 +446,140 @@ function setupAccordion() {
     });
 }
 
+// إضافة متغير لتتبع ما إذا كان هذا هو التحميل الأول للصفحة
+let firstLoad = true;
+
+// تحسين دالة تهيئة التمرير للصور المصغرة للسماح بالتمرير العمودي والأفقي معاً
 function setupThumbnailScrolling() {
     const thumbnailsContainer = document.querySelector('.thumbnails');
     if (!thumbnailsContainer) return;
     
+    // تعيين خصائص التمرير بشكل يسمح بالتمرير المزدوج (أفقي وعمودي)
     thumbnailsContainer.style.overflowX = 'auto';
     thumbnailsContainer.style.webkitOverflowScrolling = 'touch';
     
+    // تعيين touchAction للسماح بكل أنواع التمرير (بما في ذلك العمودي)
+    thumbnailsContainer.style.touchAction = 'pan-x pan-y';
+    
+    // إزالة معالجات الأحداث القديمة
+    thumbnailsContainer.onmouseenter = null;
+    thumbnailsContainer.onmouseleave = null;
+    thumbnailsContainer.onmousemove = null;
+    
+    // استخدام معالج يحدد اتجاه التمرير المقصود
+    let startX, startY, isScrollingHorizontally = false;
+    let touchStartTime = 0;
+    
+    // إضافة معالج لبداية اللمس لتحديد الاتجاه
+    thumbnailsContainer.addEventListener('touchstart', function(e) {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        isScrollingHorizontally = false; // إعادة ضبط متغير تتبع الاتجاه
+        touchStartTime = Date.now();
+    }, { passive: true });
+    
+    // تتبع اتجاه التمرير وتحديد ما إذا كان أفقياً أو عمودياً
+    thumbnailsContainer.addEventListener('touchmove', function(e) {
+        if (!startX || !startY) return;
+        
+        const deltaX = Math.abs(e.touches[0].clientX - startX);
+        const deltaY = Math.abs(e.touches[0].clientY - startY);
+        
+        // تحديد فيما إذا كان التمرير أفقياً أو عمودياً
+        if (!isScrollingHorizontally && Date.now() - touchStartTime > 100) {
+            isScrollingHorizontally = deltaX > deltaY;
+            
+            // إذا كان التمرير أفقياً، نمنع التمرير العمودي للصفحة
+            if (isScrollingHorizontally && Math.abs(deltaX) > 10) {
+                // منع السلوك الافتراضي فقط إذا كان التمرير أفقياً بشكل واضح
+                e.preventDefault();
+            }
+        }
+    }, { passive: false }); // أزلنا passive: true للسماح بـ preventDefault عند الضرورة
+    
+    // إعادة ضبط متغيرات التتبع عند انتهاء اللمس
+    thumbnailsContainer.addEventListener('touchend', function() {
+        startX = null;
+        startY = null;
+    }, { passive: true });
+    
+    // تحريك الصورة المصغرة النشطة إلى المنتصف إذا لم يكن هذا التحميل الأول
     const activeThumb = document.querySelector('.thumbnail.active');
-    if (activeThumb) {
-        setTimeout(() => {
-            activeThumb.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'nearest',
-                inline: 'center'  
-            });
-        }, 100);
+    if (activeThumb && !firstLoad) {
+        requestAnimationFrame(() => {
+            try {
+                activeThumb.scrollIntoView({ 
+                    behavior: 'auto',
+                    block: 'nearest',
+                    inline: 'center'  
+                });
+            } catch (e) {
+                console.error('Error scrolling thumbnail into view:', e);
+            }
+        });
     }
     
-    thumbnailsContainer.addEventListener('touchstart', function(e) {
-        // Allow native scrolling
-    }, { passive: true });
+    // تحديث متغير firstLoad ليكون false بعد التحميل الأول
+    firstLoad = false;
 }
 
 // معالجة تحميل المنتج
+// تحسين دالة تحميل المنتج من URL للتحقق من وجود بيانات المنتجات
 function loadProductFromURL() {
-    const urlParams = new URLSearchParams(window.location.search);
-    let productId = urlParams.get('product');
-    
-    if (!productId) {
-        productId = "velo-electrique-harley-u9"; // Default product
+    try {
+        const urlParams = new URLSearchParams(window.location.search);
+        let productId = urlParams.get('product');
+        
+        if (!productId) {
+            productId = "velo-electrique-harley-u9"; // Default product
+        }
+        
+        // التحقق من أن مصفوفة المنتجات موجودة قبل البحث فيها
+        if (!Array.isArray(products) || products.length === 0) {
+            console.error("Products array is not available or empty");
+            return;
+        }
+        
+        const product = products.find(p => p.id === productId);
+        const productData = product || products[0]; // استخدام المنتج الأول كاحتياطي
+        
+        if (!productData) {
+            console.error("No product data available");
+            return;
+        }
+        
+        document.title = productData.title + " | jouet maroc";
+        
+        // تحديث واجهة المنتج وتنظيف معالجات الأحداث القديمة
+        cleanupEventHandlers();
+        updateProductDisplay(productData);
+        updateRelatedProducts();
+        
+        // تأخير تهيئة العناصر التفاعلية لمنع التداخل
+        setTimeout(() => {
+            setupAccordion();
+            setupThumbnailScrolling();
+            setupProductLinks();
+        }, 50);
+    } catch (error) {
+        console.error("Error loading product:", error);
     }
-    
-    const product = products.find(p => p.id === productId);
-    const productData = product || products[0];
-    
-    document.title = productData.title + " | jouet maroc";
-    
-    updateProductDisplay(productData);
-    updateRelatedProducts();
-    setupAccordion();
-    setupThumbnailScrolling();
-    setupProductLinks();
 }
 
+// دالة جديدة لتنظيف معالجات الأحداث قبل تحميل منتج جديد
+// تحسين آلية تنظيف معالجات الأحداث
+function cleanupEventHandlers() {
+    // تحسين: معالجة مجموعات متعددة من العناصر مرة واحدة
+    const elements = document.querySelectorAll('.thumbnail, .product-link');
+    elements.forEach(el => {
+        const newEl = el.cloneNode(true);
+        if (el.parentNode) {
+            el.parentNode.replaceChild(newEl, el);
+        }
+    });
+}
+
+// تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
 function updateProductDisplay(product) {
     // Update product title and details
     document.querySelector('.product-title').textContent = product.title;
@@ -531,17 +621,27 @@ function updateProductDisplay(product) {
     const mainImage = document.getElementById('current-image');
     mainImage.src = product.images[0]; // Set first image as main image
     
-    // Update thumbnails
+    // تحديث الصور المصغرة بأسلوب يمنع تداخل الأحداث
     const thumbnailsContainer = document.getElementById('thumbnails-slider');
-    thumbnailsContainer.innerHTML = ''; // Clear existing thumbnails
+    thumbnailsContainer.innerHTML = ''; // مسح الصور المصغرة القديمة
     
+    // إنشاء الصور المصغرة الجديدة مع معالجات أحداث نظيفة
     product.images.forEach((image, index) => {
         const thumbnail = document.createElement('img');
         thumbnail.classList.add('thumbnail');
         if (index === 0) thumbnail.classList.add('active');
         thumbnail.src = image;
         thumbnail.alt = `صورة مصغرة ${index + 1}`;
+        
+        // استخدام خاصية onclick بدلاً من addEventListener لمنع التكرار
         thumbnail.onclick = function() { changeImage(this.src); };
+        
+        // إضافة خصائص CSS لتحسين تجربة استخدام المؤشر واللمس
+        thumbnail.style.cursor = 'pointer';
+        thumbnail.style.pointerEvents = 'auto';
+        thumbnail.style.touchAction = 'manipulation'; // السماح للمتصفح بتحديد أفضل سلوك لمس
+        thumbnail.draggable = false; // منع السحب الافتراضي للصور
+        
         thumbnailsContainer.appendChild(thumbnail);
     });
     
@@ -647,34 +747,45 @@ function setupProductLinks() {
     });
 }
 
-// تعديل دالة معالجة روابط المنتجات لتوفير تجربة تنقل سلسة إلى أعلى الصفحة
+// تحسين دالة معالجة روابط المنتجات لتوفير تجربة تنقل سلسة إلى أعلى الصفحة
 function setupProductLinks() {
     document.querySelectorAll('.related-products .product-link').forEach(link => {
+        // إزالة معالجات الأحداث القديمة
+        link.onclick = null;
+        
+        // إضافة معالج حدث جديد نظيف
         link.addEventListener('click', function(e) {
-            e.preventDefault(); // منع السلوك الافتراضي للرابط
+            e.preventDefault();
+            e.stopPropagation(); // منع انتشار الحدث
             
-            // استخراج معرّف المنتج من الرابط
+            // إيقاف جميع التفاعلات المؤقتة
+            document.body.style.pointerEvents = 'none';
+            
             const href = this.getAttribute('href');
             const productId = new URLSearchParams(href.split('?')[1]).get('product');
             
             if (productId) {
-                // تحديث عنوان URL دون إعادة تحميل الصفحة
                 history.pushState({}, '', `?product=${productId}`);
                 
-                // التمرير لأعلى الصفحة بشكل سلس
                 window.scrollTo({
                     top: 0,
                     left: 0,
                     behavior: 'smooth'
                 });
                 
-                // إضافة تأخير قصير لتحميل المنتج الجديد بعد بدء التمرير
                 setTimeout(() => {
-                    // تحميل بيانات المنتج الجديد
                     loadProductFromURL();
-                }, 400); // تأخير كافٍ للسماح بالتمرير قبل تحديث المحتوى
+                    // استعادة التفاعلات بعد اكتمال التحميل
+                    document.body.style.pointerEvents = 'auto';
+                }, 400);
+            } else {
+                document.body.style.pointerEvents = 'auto';
             }
-        });
+        }, { once: true }); // استخدام {once: true} لمنع تسجيل الحدث مرات متعددة
+        
+        // تحسين تجربة المؤشر على الروابط
+        link.style.cursor = 'pointer';
+        link.style.webkitTapHighlightColor = 'transparent';
     });
 }
 
@@ -999,4 +1110,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // حفظ الوظيفة الأصلية للتمرير قبل التعديل عليها
-window.originalScrollTo = window.scrollTo;
+// window.originalScrollTo = window.scrollTo;
