@@ -2955,3 +2955,71 @@ select {
 /* إزالة كافة التنسيقات القديمة للسلايدر والشرائح */
 /* تم إلغاء */
 
+/* تحسين حاوية مميزات المنتج للشاشات الصغيرة */
+@media (max-width: 767px) {
+    /* زيادة المساحة الداخلية للحاويات */
+    .feature-category {
+        margin-bottom: 12px;
+        padding: 3px;
+        border-radius: 10px; /* زيادة استدارة الحواف */
+    }
+    
+    /* توسيع منطقة النقر للعنوان بأكمله */
+    .accordion-header {
+        padding: 3px;
+        border-radius: 8px;
+    }
+    
+    .accordion-header h4 {
+        padding: 14px 15px; /* زيادة التباعد العمودي */
+        width: 100%;
+        font-size: 1.05rem;
+    }
+    
+    /* توسيع منطقة الزر ليكون أسهل للنقر */
+    .accordion-toggle {
+        width: 36px;
+        height: 36px;
+        right: 10px;
+    }
+    
+    /* زيادة المساحة في المحتوى عند التوسيع */
+    .feature-category.expanded .accordion-content {
+        padding: 15px 12px 18px;
+    }
+    
+    /* تحسين عرض القوائم */
+    .feature-list {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    
+    /* تحسين ظهور عناصر القائمة */
+    .feature-item {
+        padding: 10px 8px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 6px;
+    }
+}
+
+/* تحسينات إضافية للهواتف الصغيرة جدًا */
+@media (max-width: 480px) {
+    .feature-category {
+        margin-left: -3px;
+        margin-right: -3px;
+        width: calc(100% + 6px);
+    }
+    
+    .accordion-header h4 {
+        padding: 12px 12px 12px 40px; /* زيادة المساحة على اليسار للزر */
+        font-size: 1rem;
+    }
+    
+    .feature-highlight {
+        margin-left: -3px;
+        margin-right: -3px;
+        width: calc(100% + 6px);
+    }
+}
+
