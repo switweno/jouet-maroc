@@ -588,6 +588,13 @@ function loadProductFromURL() {
     
     // بعد تحديث معلومات المنتج الرئيسي، قم بتحديث المنتجات ذات الصلة أيضًا
     updateRelatedProducts();
+    
+    // إعادة تهيئة السلوك التفاعلي بعد تحديث المنتج
+    setupAccordion();
+    setupThumbnailScrolling();
+    
+    // إعادة تعيين روابط المنتجات ذات الصلة بعد تحديث المنتج
+    setupProductLinks();
 }
 
 // Function to update the UI with product data
@@ -748,9 +755,47 @@ function setupProductLinks() {
     });
 }
 
-// تعديل المعالج الرئيسي
+// تعديل دالة معالجة روابط المنتجات لتوفير تجربة تنقل سلسة إلى أعلى الصفحة
+function setupProductLinks() {
+    document.querySelectorAll('.related-products .product-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // منع السلوك الافتراضي للرابط
+            
+            // استخراج معرّف المنتج من الرابط
+            const href = this.getAttribute('href');
+            const productId = new URLSearchParams(href.split('?')[1]).get('product');
+            
+            if (productId) {
+                // تحديث عنوان URL دون إعادة تحميل الصفحة
+                history.pushState({}, '', `?product=${productId}`);
+                
+                // التمرير لأعلى الصفحة بشكل سلس
+                window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth' // استخدام 'smooth' للتمرير السلس
+                });
+                
+                // إضافة تأخير قصير لتحميل المنتج الجديد بعد بدء التمرير
+                setTimeout(() => {
+                    // تحميل بيانات المنتج الجديد
+                    loadProductFromURL();
+                }, 400); // تأخير كافٍ للسماح بالتمرير قبل تحديث المحتوى
+            }
+        });
+    });
+}
+
+// تحسين المعالج الرئيسي بإضافة مراقبة للتغييرات في الـ URL
 document.addEventListener('DOMContentLoaded', function() {
     try {
+        // ضمان أننا في أعلى الصفحة عند تحميلها لأول مرة
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'auto'
+        });
+        
         // Load product data based on URL parameter
         loadProductFromURL();
         
@@ -848,6 +893,21 @@ document.addEventListener('DOMContentLoaded', function() {
             window.scrollTo(0, parseInt(sessionStorage.getItem('scrollPosition')));
             sessionStorage.removeItem('scrollPosition');
         }
+        
+        // مراقبة التغييرات في عنوان URL لتحميل المنتجات المناسبة
+        window.addEventListener('popstate', function() {
+            // التمرير للأعلى بطريقة سلسة
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+            
+            // إضافة تأخير قصير قبل تحميل المنتج الجديد
+            setTimeout(() => {
+                loadProductFromURL();
+            }, 400);
+        });
         
     } catch (error) {
         console.error("Error initializing page:", error);
