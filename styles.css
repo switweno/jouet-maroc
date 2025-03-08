@@ -277,7 +277,6 @@ main {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.8rem;
-    margin-bottom: 15px; /* زيادة المسافة أسفل العنوان */
     color: #333;
     font-family: 'Cairo', 'Tajawal', sans-serif;
     font-weight: 700;
@@ -294,7 +293,6 @@ main {
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
 .product-brand, .product-category, .product-availability {
-    margin-bottom: 6px;
     padding-right: 10px;
     font-size: 0.95rem;
     color: #555;
@@ -3012,7 +3010,7 @@ select {
     }
     
     .accordion-header h4 {
-        padding: 12px 12px 12px 40px; /* زيادة المساحة على اليسار للزر */
+        padding: 12px 12px 12px 6px; /* زيادة المساحة على اليسار للزر */
         font-size: 1rem;
     }
     
