@@ -969,3 +969,142 @@ function updateRelatedProducts() {
         }
     });
 }
+
+// تحسين مشكلة التمرير عند تحميل الصفحة
+function forceScrollToTop() {
+    // استخدام الأسلوب المباشر فقط دون تعطيل وظائف التمرير الأخرى
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+}
+
+// تحسين المعالج الرئيسي لتجنب تداخل عمليات التمرير
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        // إرجاع إعدادات التمرير التلقائي إلى الوضع الافتراضي
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'auto';
+        }
+        
+        // استخدام التمرير المباشر مرة واحدة فقط
+        forceScrollToTop();
+        
+        // Load product data based on URL parameter
+        loadProductFromURL();
+        
+        // Set up product links
+        setupProductLinks();
+        
+        // باقي الكود كما هو
+        // Set the first thumbnail as active
+        if (document.querySelector('.thumbnail')) {
+            document.querySelector('.thumbnail').classList.add('active');
+        }
+        
+        // Add image dragging functionality for the modal image
+        const modalImage = document.getElementById('modal-image');
+        if (modalImage) {
+            modalImage.addEventListener('mousedown', startDrag);
+            modalImage.addEventListener('touchstart', startDrag, { passive: false });
+            
+            window.addEventListener('mousemove', drag);
+            window.addEventListener('touchmove', drag, { passive: false });
+            
+            window.addEventListener('mouseup', endDrag);
+            window.addEventListener('touchend', endDrag);
+        }
+        
+        // Close modal when clicking outside the image
+        const modal = document.getElementById('image-modal');
+        if (modal) {
+            modal.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    closeImageModal();
+                }
+            });
+        }
+        
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && modal.style.display === 'block') {
+                closeImageModal();
+            }
+        });
+        
+        // Add double tap to zoom on mobile
+        let lastTap = 0;
+        if (modalImage) {
+            modalImage.addEventListener('touchend', function(e) {
+                const currentTime = new Date().getTime();
+                const tapLength = currentTime - lastTap;
+                
+                if (tapLength < 300 && tapLength > 0) {
+                    // Double tap detected
+                    if (zoomLevel === 1) {
+                        changeZoom(1); // Zoom in
+                    } else {
+                        resetZoom(); // Reset zoom
+                    }
+                    e.preventDefault();
+                }
+                
+                lastTap = currentTime;
+            });
+        }
+        
+        // Add keyboard navigation for images
+        document.addEventListener('keydown', function(event) {
+            const modal = document.getElementById('image-modal');
+            
+            // Only process keyboard input when modal is open
+            if (modal.style.display === 'block') {
+                if (event.key === 'ArrowLeft') {
+                    navigateImages(-1);
+                    event.preventDefault();
+                } else if (event.key === 'ArrowRight') {
+                    navigateImages(1);
+                    event.preventDefault();
+                }
+            }
+        });
+        
+        // Initialize accordion after updating content
+        setupAccordion();
+        
+        // Add this new function to ensure thumbnail scrolling works
+        setupThumbnailScrolling();
+        
+        // Check if images loaded correctly
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                this.src = 'placeholder.jpg'; // Fallback image
+            };
+        });
+        
+        // استعادة موضع التمرير إذا كان المستخدم يعود عبر رابط منتج
+        if (sessionStorage.getItem('scrollPosition')) {
+            window.scrollTo(0, parseInt(sessionStorage.getItem('scrollPosition')));
+            sessionStorage.removeItem('scrollPosition');
+        }
+        
+        // مراقبة التغييرات في عنوان URL لتحميل المنتجات المناسبة
+        window.addEventListener('popstate', function() {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+            
+            // إضافة تأخير قصير قبل تحميل المنتج الجديد
+            setTimeout(() => {
+                loadProductFromURL();
+            }, 400);
+        });
+        
+    } catch (error) {
+        console.error("Error initializing page:", error);
+    }
+});
+
+// حفظ الوظيفة الأصلية للتمرير قبل التعديل عليها
+window.originalScrollTo = window.scrollTo;
