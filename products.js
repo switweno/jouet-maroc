@@ -49,7 +49,7 @@ const products = [
         ]
       },
       {
-        title: "Avantages supplémentaires",
+        title: "Bénéfices en plus",
         icon: "fa-cogs",
         items: [
           { key: "Tableau de bord", value: "Digital 💯" },
@@ -112,7 +112,7 @@ const products = [
         ]
       },
       {
-        title: "Avantages supplémentaires",
+        title: "Bénéfices en plus",
         icon: "fa-cogs",
         items: [
           { key: "TABLEAU", value: "DIGITAL" },
