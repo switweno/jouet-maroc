@@ -12,69 +12,84 @@ function preloadImages(images) {
     return preloadedImages;
 }
 
-// تحسين دالة تغيير الصور لتكون أسرع وبدون وميض
+/**
+ * تحسين دالة تغيير الصور مع حركات انتقالية مميزة
+ * @param {string} src - مصدر الصورة الجديدة
+ * @param {string} direction - الاتجاه (right, left) أو null للاكتشاف التلقائي
+ */
 function changeImage(src, direction = null) {
-    const currentImage = document.getElementById('current-image');
+    if (!src) return;
     
-    // تحديد اتجاه التغيير بناءً على موقع الصورة المصغرة
-    if (!direction && src) {
+    const currentImage = document.getElementById('current-image');
+    if (!currentImage) return;
+    
+    // تحديد اتجاه الانتقال بناءً على موقع الصورة المصغرة
+    if (!direction) {
         const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
-        const oldIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
+        const activeIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
         const newIndex = thumbnails.findIndex(thumb => thumb.src === src);
         
-        if (oldIndex !== -1 && newIndex !== -1) {
-            direction = newIndex > oldIndex ? 'right' : 'left';
+        if (activeIndex !== -1 && newIndex !== -1) {
+            direction = newIndex > activeIndex ? 'right' : 'left';
         } else {
             direction = 'fade'; // الانتقال الافتراضي
         }
     }
     
-    // تحميل الصورة الجديدة مسبقاً لتجنب الوميض
-    const nextImage = new Image();
-    nextImage.src = src;
+    // تخزين مصدر الصورة الجديدة والتحميل المسبق لها
+    const newImageSrc = src;
+    const preloadImage = new Image();
+    preloadImage.src = newImageSrc;
     
-    // إزالة أي تأثيرات سابقة للتأكد من عدم تداخلها
-    currentImage.classList.remove('image-exit-left', 'image-exit-right', 'image-fade-out', 
-                                'image-enter-from-right', 'image-enter-from-left', 'image-fade-in');
+    // إزالة أي تأثيرات سابقة والبدء في تطبيق تأثير الخروج
+    currentImage.classList.remove('image-slide-enter-from-right', 
+                                'image-slide-enter-from-left', 
+                                'image-slide-exit-right', 
+                                'image-slide-exit-left');
     
-    // تطبيق تأثير قصير للانتقال
-    if (direction === 'left') {
-        currentImage.classList.add('image-exit-left');
-    } else if (direction === 'right') {
-        currentImage.classList.add('image-exit-right');
+    // 1. تطبيق تأثير الخروج المناسب
+    if (direction === 'right') {
+        currentImage.classList.add('image-slide-exit-left');
+    } else if (direction === 'left') {
+        currentImage.classList.add('image-slide-exit-right');
     } else {
-        currentImage.classList.add('image-fade-out');
+        // تقليل الشفافية فقط للتلاشي
+        currentImage.style.opacity = '0';
     }
     
-    // تقليل وقت الانتظار قبل تبديل الصورة
+    // 2. تحضير مؤشر الحمل للصورة الجديدة
+    currentImage.style.pointerEvents = 'none'; // منع النقرات المتكررة أثناء التغيير
+    
+    // 3. بعد انتهاء تأثير الخروج، حمل الصورة الجديدة وطبق تأثير الدخول
     setTimeout(() => {
-        // تغيير مصدر الصورة مباشرة
-        currentImage.src = src;
+        // تغيير مصدر الصورة
+        currentImage.src = newImageSrc;
         
-        // تطبيق تأثير الدخول السريع عند تحميل الصورة
-        currentImage.onload = () => {
-            // إزالة تأثيرات الخروج
-            currentImage.classList.remove('image-exit-left', 'image-exit-right', 'image-fade-out');
-            
-            // إضافة تأثير الدخول المناسب
-            if (direction === 'left') {
-                currentImage.classList.add('image-enter-from-right');
-            } else if (direction === 'right') {
-                currentImage.classList.add('image-enter-from-left');
-            } else {
-                currentImage.classList.add('image-fade-in');
-            }
-            
-            // إزالة تأثيرات الدخول بعد اكتمال الحركة
-            setTimeout(() => {
-                currentImage.classList.remove('image-enter-from-right', 'image-enter-from-left', 'image-fade-in');
-            }, 250); // وقت قصير يتناسب مع مدة الانتقال
-        };
+        // إزالة تأثيرات الخروج
+        currentImage.classList.remove('image-slide-exit-left', 'image-slide-exit-right');
         
-        // تحديث الصور المصغرة النشطة
+        // تطبيق تأثير الدخول المناسب
+        if (direction === 'right') {
+            currentImage.classList.add('image-slide-enter-from-right');
+        } else if (direction === 'left') {
+            currentImage.classList.add('image-slide-enter-from-left');
+        } else {
+            // التلاشي البسيط للظهور
+            currentImage.style.opacity = '1';
+        }
+        
+        // إستعادة تفاعل المؤشر
+        currentImage.style.pointerEvents = 'auto';
+        
+        // تحديث الصورة المصغرة النشطة
         updateActiveThumbnail(src);
         
-    }, 150); // وقت قصير جداً للانتقال
+        // إزالة تأثيرات الدخول بعد إكتمال الحركة
+        setTimeout(() => {
+            currentImage.classList.remove('image-slide-enter-from-right', 'image-slide-enter-from-left');
+        }, 500); // توافق مع مدة التحولات في CSS
+        
+    }, 300); // زمن قصير مناسب لإكتمال تأثير الخروج
     
     // تتبع الحدث باستخدام Facebook Pixel
     if (typeof fbq === 'function') {
@@ -356,7 +371,10 @@ function openImageModal() {
     }
 }
 
-// Navigate between images in modal
+/**
+ * تحسين دالة التنقل بين الصور في النافذة المنبثقة
+ * @param {number} direction - الإتجاه: 1 للأمام، -1 للخلف
+ */
 function navigateImages(direction) {
     // Calculate new index
     currentImageIndex += direction;
@@ -365,36 +383,29 @@ function navigateImages(direction) {
     if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
     if (currentImageIndex >= allImages.length) currentImageIndex = 0;
     
-    // Update modal image with direction-based animation
+    // Update modal image with improved animation
     const modalImage = document.getElementById('modal-image');
     const directionName = direction > 0 ? 'right' : 'left';
     
-    // Apply fade-out effect first
+    // تحسين حركة انتقال الصور في النافذة المنبثقة لتطابق الصور الرئيسية
     modalImage.style.opacity = '0';
-    modalImage.style.transition = 'opacity 0.2s ease';
+    modalImage.style.transform = `translateX(${direction > 0 ? '-30px' : '30px'})`;
+    modalImage.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
     
-    // After short delay, change source and fade back in
     setTimeout(() => {
         modalImage.src = allImages[currentImageIndex];
         
-        // When the new image loads, fade it in with sliding effect
         modalImage.onload = () => {
             modalImage.style.opacity = '1';
-            
-            // Apply slide animation to the modal image
-            modalImage.style.transform = `translateX(${direction > 0 ? '-10px' : '10px'})`;
-            setTimeout(() => {
-                modalImage.style.transform = 'translateX(0)';
-                modalImage.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
-            }, 50);
+            modalImage.style.transform = 'translateX(0)';
         };
         
-        // Update the main image preview as well
+        // تحديث الصورة الرئيسية أيضًا
         const mainImage = document.getElementById('current-image');
         if (mainImage) {
             changeImage(allImages[currentImageIndex], directionName);
         }
-    }, 200);
+    }, 300);
     
     // Reset zoom when changing images
     resetZoom();

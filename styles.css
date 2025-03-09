@@ -3345,3 +3345,97 @@ footer .copyright {
     width: 90% !important;
     max-width: 1200px !important;
 }
+
+/* تحسينات حركة سلايدر الصور - متغيرات CSS */
+:root {
+    --image-transition-duration: 0.5s;
+    --image-transition-timing: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    --image-slide-distance: 50px;
+}
+
+/* حاوية الصورة الرئيسية مع تحسينات للحركة الانتقالية */
+.main-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.main-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition-property: opacity, transform;
+    transition-duration: var(--image-transition-duration);
+    transition-timing-function: var(--image-transition-timing);
+}
+
+/* تأثيرات الخروج المحسنة للصور */
+.image-slide-exit-right {
+    opacity: 0;
+    transform: translateX(var(--image-slide-distance));
+    transition-duration: calc(var(--image-transition-duration) * 0.7);
+}
+
+.image-slide-exit-left {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--image-slide-distance)));
+    transition-duration: calc(var(--image-transition-duration) * 0.7);
+}
+
+/* تأثيرات الدخول المحسنة للصور */
+.image-slide-enter-from-right {
+    animation: enterFromRight var(--image-transition-duration) var(--image-transition-timing) forwards;
+}
+
+.image-slide-enter-from-left {
+    animation: enterFromLeft var(--image-transition-duration) var(--image-transition-timing) forwards;
+}
+
+/* تعريفات الرسوم المتحركة للصور */
+@keyframes enterFromRight {
+    from {
+        opacity: 0.2;
+        transform: translateX(var(--image-slide-distance));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes enterFromLeft {
+    from {
+        opacity: 0.2;
+        transform: translateX(calc(-1 * var(--image-slide-distance)));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* تأثير زوم بسيط عند تحويم المؤشر فوق الصورة الرئيسية - إضافة اختيارية */
+@media (hover: hover) {
+    .main-image img {
+        transition: transform 0.3s ease-out, opacity var(--image-transition-duration) var(--image-transition-timing);
+    }
+    
+    .main-image:hover img:not(.image-slide-exit-left):not(.image-slide-exit-right) {
+        transform: scale(1.02);
+    }
+}
+
+/* تحسين تجربة مستخدم الهاتف عند النقر على الصورة */
+@media (hover: none) {
+    .main-image:active img:not(.image-slide-exit-left):not(.image-slide-exit-right) {
+        transform: scale(0.98);
+        transition: transform 0.2s ease;
+    }
+}
