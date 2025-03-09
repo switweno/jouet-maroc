@@ -25,9 +25,9 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #044285;
+    background-color: #0056b3;
     color: white;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -44,7 +44,7 @@ header h1 {
 .offer-badge {
     background-color: #ff5722;
     color: white;
-    padding: 5px 15px;
+    padding: 7px 15px;
     border-radius: 20px;
     font-size: 1rem;
     font-weight: bold;
