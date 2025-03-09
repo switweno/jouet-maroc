@@ -1598,8 +1598,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* إصلاح لون العنوان وتحتية */
 .product-video-section h2 {
-    color: #0056b3;
+    color: #0056b3; /* أزرق */
     font-size: 1.8rem;
     margin-bottom: 25px;
     position: relative;
@@ -1617,40 +1618,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #0056b3;
 }
 
+/* حاوية الفيديو الرأسي */
 .video-container {
     position: relative;
-    overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
-    max-width: 850px;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto;
-}
-
-/* تحسين معالجة الفيديوهات العمودية */
-.video-container.portrait-video {
-    padding-top: 0 !important; /* إزالة النسبة الثابتة للأبعاد */
-    height: auto !important;
-    max-width: 300px !important; /* تحديد عرض أقصى */
-    margin: 0 auto;
-    position: relative; /* إعادة تعيين وضعية الحاوية */
-    overflow: visible !important; /* السماح بالمحتوى الطويل */
-}
-
-.video-container.portrait-video iframe {
-    position: relative !important; /* إلغاء الوضع المطلق */
-    aspect-ratio: 9/16 !important; /* نسبة الأبعاد للفيديو العمودي */
-    width: 100% !important;
-    height: 500px !important; /* تحديد ارتفاع ثابت */
-    max-height: 80vh !important; /* تحديد أقصى ارتفاع نسبي لشاشة العرض */
-    top: 0 !important;
-    left: 0 !important;
-}
-
-/* تعديل قسم الفيديو للتناسب مع الاتجاهين */
-.product-video-section {
-    padding: 30px 20px;
-    text-align: center;
-    overflow: hidden; /* منع تجاوز المحتوى */
+    aspect-ratio: 9/16; /* نسبة رأسية */
 }
 
 .video-container iframe {
@@ -1662,9 +1636,18 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
 }
 
-/* Mobile Video Responsiveness */
+/* استجابة للشاشات الكبيرة */
+@media (min-width: 768px) {
+    .video-container {
+        max-width: 800px;
+        aspect-ratio: 16/9; /* نسبة أفقية للشاشات الكبيرة */
+    }
+}
+
+/* استجابة للهواتف */
 @media (max-width: 767px) {
     .product-video-section {
         padding: 20px 15px;
@@ -1676,17 +1659,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .video-container {
-        padding-top: 56.25%; /* Maintain aspect ratio */
-    }
-}
-
-@media (max-width: 480px) {
-    .product-video-section {
-        padding: 15px 10px;
-    }
-    
-    .product-video-section h2 {
-        font-size: 1.3rem;
+        aspect-ratio: 9/16;
     }
 }
 

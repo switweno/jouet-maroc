@@ -7,7 +7,7 @@ const products = [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 120,
-    currentPrice: 8700,
+    currentPrice: 8699,
     oldPrice: 10999,
     discount: 30,
     images: [
@@ -61,13 +61,13 @@ const products = [
       }
     ],
     warranty: "Garantie de 3 mois",
-    videoURL: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1216627849670343%2F&show_text=false&width=560&t=0"
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
  
   {
     id: "trottinette-bison-gt-1000",
     title: "TROTTINETTE BISON GT 1000",
-    brand: "BISON",
+    brand: "Ecoxtrem",
     category: "تروتنيت",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -124,7 +124,79 @@ const products = [
     ],
     warranty: "Garantie 3 mois",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
-  }
+   },
+  
+  {
+  id: "trottinette-EcoXtrem-liner",
+  title: "TROTTINETTE EcoXtrem LINEAR",
+  brand: "EcoXtrem",
+  category: "تروتنيت",
+  availability: "متوفر في المخزون",
+  ratings: 4.5,
+  reviewCount: 138,
+  currentPrice: 3490,
+  oldPrice: 4199,
+  discount: 30,
+  images: [
+    "ecoxtrem-linear-01.webp",
+    "ecoxtrem-linear-02.webp",
+    "ecoxtrem-linear-03.webp",
+    "ecoxtrem-linear-04.webp",
+    "ecoxtrem-linear-05.webp",
+    "ecoxtrem-linear-06.webp",
+    "ecoxtrem-linear-07.webp"
+  ],
+  features: [
+    {
+      title: "MOTEUR ET PERFORMANCE",
+      icon: "fa-tachometer-alt",
+      items: [
+        { key: "MARQUE", value: "EcoXtrem LINEAR" },
+        { key: "MOTEUR", value: "350W min - 700W max" },
+        { key: "VITESSE", value: "25 km/h min - 30 km/h max" }
+      ]
+    },
+    {
+      title: "BATTERIE ET AUTONOMIE",
+      icon: "fa-battery-full",
+      items: [
+        { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+        { key: "AUTONOMIE", value: "15 km min - 25 km max" },
+        { key: "CHARGE MAX", value: "100 kg" }
+      ]
+    },
+    {
+      title: "SÉCURITÉ ET DURABILITÉ",
+      icon: "fa-shield-alt",
+      items: [
+        { key: "FREIN", value: "À disque arrière & Électrique" },
+        { key: "ROUE", value: "10 pouces Tubeless" },
+        { key: "ÉTANCHÉITÉ", value: "IPX5" }
+      ]
+    },
+    {
+      title: "FONCTIONNALITÉS AVANCÉES",
+      icon: "fa-cogs",
+      items: [
+        { key: "ÉCRAN", value: "LCD avec affichage EY2" },
+        { key: "VITESSE RÉGLABLE", value: "3 niveaux" },
+        { key: "FEUX LED", value: "Avant + Stop arrière" },
+        { key: "SIGNALISATION", value: "Clignotants gauche/droite" },
+        { key: "KLAXON", value: "Oui" },
+        { key: "PLIABLE", value: "Oui" }
+      ]
+    },
+    {
+      title: "BÉNÉFICES EN PLUS",
+      icon: "fa-gift",
+      items: [
+        { key: "CADEAU", value: "Sac offert 🎁" }
+      ]
+    }
+  ],
+  warranty: "Garantie 3 mois",
+  videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0&portrait=1"
+}
   // يمكنك إضافة المزيد من المنتجات هنا
 ];
 
