@@ -1108,13 +1108,7 @@ function updateRelatedProducts() {
     });
 }
 
-// تحسين مشكلة التمرير عند تحميل الصفحة
-function forceScrollToTop() {
-    // استخدام الأسلوب المباشر فقط دون تعطيل وظائف التمرير الأخرى
-    window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-}
+
 
 // تحسين المعالج الرئيسي لتجنب تداخل عمليات التمرير
 document.addEventListener('DOMContentLoaded', function() {
