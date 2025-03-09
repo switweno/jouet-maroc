@@ -644,11 +644,10 @@ main {
 }
 
 .order-section h2 {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-align: center;
     color: #0056b3;
-    text-decoration: underline;
-    text-underline-offset: 12px; /* يحدد المسافة بين النص والخط */
+    
     font-size: 1.4rem;
      
     
