@@ -17,45 +17,47 @@ const products = [
       "product4.webp",
       "product5.webp",
       "product6.webp",
-      "product7.webp"
+      "product7.webp",
+      "product8.webp"
     ],
     features: [
       {
-        title: "Moteur et performance",
+        title: "MOTEUR & PERFORMANCE",
         icon: "fa-bolt",
         items: [
-          { key: "Marque", value: "LIKEBIKE ORIGINAL 💯" },
-          { key: "Moteur", value: "500 W MAX 💯" },
-          { key: "Vitesse max", value: "61 KM/h 💯" }
+          { key: "Puissance", value: "750 W MAX 💯" },
+          { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX 💯" },
+          { key: "Démarrage", value: "Contact électrique 💯" }
         ]
       },
       {
-        title: "Batterie et autonomie",
+        title: "BATTERIE & AUTONOMIE",
         icon: "fa-battery-full",
         items: [
-          { key: "Batterie", value: "Lithium 48V 15.6AH 💯" },
-          { key: "Autonomie", value: "50KM - 60KM max 💯" },
-          { key: "Charge max", value: "130 KG 💯" }
+          { key: "Batterie", value: "Lithium 48V 18.2AH 💯" },
+          { key: "Autonomie normale", value: "45-60 km 💯" },
+          { key: "Mode assistance", value: "100 km MAX 💯" },
+          { key: "Charge rapide", value: "54V compatible 💯" }
         ]
       },
       {
-        title: "Sécurité et durabilité",
+        title: "SÉCURITÉ & CONFORT",
         icon: "fa-shield-alt",
         items: [
-          { key: "Freinage", value: "Avant et arrière 💯" },
-          { key: "Amortisseur", value: "Double amortisseur 💯" },
-          { key: "Pièces", value: "Shimano 💯" },
-          { key: "Pneus", value: "20 pouces 💯" }
+          { key: "Freins", value: "Disques AV/AR 💯" },
+          { key: "Amortisseurs", value: "Réglables AV/AR 💯" },
+          { key: "Éclairage", value: "LED AV/AR + clignotants 💯" },
+          { key: "Pneus", value: "20.4\" avec garde-boue 💯" }
         ]
       },
       {
-        title: "Bénéfices en plus",
+        title: "ÉQUIPEMENT & DESIGN",
         icon: "fa-cogs",
         items: [
-          { key: "Tableau de bord", value: "Digital 💯" },
-          { key: "Klaxon", value: "Oui 💯" },
-          { key: "Sièges", value: "2 places cuir 💯" },
-          { key: "Vitesse", value: "7e vitesse Shimano 💯" }
+          { key: "Affichage", value: "Écran LCD multifonction 💯" },
+          { key: "Transmission", value: "7 vitesses Shimano 💯" },
+          { key: "Confort", value: "Siège cuir 2 places 💯" },
+          { key: "Charge maximale", value: "130 kg 💯" }
         ]
       }
     ],
