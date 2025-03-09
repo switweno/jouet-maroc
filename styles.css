@@ -3185,7 +3185,7 @@ footer .social-links h3::after {
     right: 0;
     left: 0;
     height: 2px;
-    background-color: #783ce7;
+    background-color: #3e364d;
     margin: 0 auto;
     width: 60%;
 }
@@ -3194,7 +3194,7 @@ footer .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 footer .social-icons a {

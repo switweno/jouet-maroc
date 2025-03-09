@@ -17,7 +17,6 @@ const products = [
       "product4.webp",
       "product5.webp",
       "product6.webp",
-      "product7.webp",
       "product8.webp"
     ],
     features: [
