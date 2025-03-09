@@ -638,6 +638,7 @@ main {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+     margin-bottom: 30px;
 }
 
 .order-section h2 {
@@ -3442,36 +3443,30 @@ footer .copyright {
 
 /* تعديلات متوازنة للهوامش على الشاشات الصغيرة */
 @media (max-width: 767px) {
-    /* تعديل الحاوية الرئيسية للصفحة بهوامش متوازنة */
     .container {
         width: 96% !important; /* زيادة العرض بشكل معتدل */
         padding: 0 8px !important; /* هوامش متوازنة بدون إفراط */
         margin: 0 auto !important;
     }
     
-    /* تعديل تباعد العناصر الرئيسية */
     main {
         padding: 20px 0 !important;
     }
     
-    /* تعديل هوامش تفاصيل المنتج */
     .product-details {
         padding: 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
         margin-bottom: 20px !important;
     }
     
-    /* تنسيق معتدل لمعرض الصور والمعلومات */
     .product-gallery,
     .product-info {
         padding: 10px !important; /* هامش داخلي مناسب بدون تقليص زائد */
     }
     
-    /* تعديل هوامش وصف المنتج */
     .product-description {
         padding: 12px !important; /* تقليل التباعد الداخلي بشكل متوازن */
     }
     
-    /* تعديل تباعدات أقسام المنتج مع الحفاظ على مساحة كافية */
     .product-video-section,
     .related-products,
     .order-section,
@@ -3488,29 +3483,24 @@ footer .copyright {
         padding: 0 6px !important; /* هامش جانبي مناسب */
     }
     
-    /* تباعد معتدل للمحتوى الرئيسي */
     main {
         padding: 15px 0 !important;
     }
     
-    /* تعديل متوازن للتباعد الداخلي لأقسام المنتج */
     .product-gallery,
     .product-info {
         padding: 8px !important;
     }
     
-    /* تعديل هوامش وصف المنتج مع الاحتفاظ بمساحة كافية للمحتوى */
     .product-description {
         padding: 10px !important;
         margin-bottom: 15px !important;
     }
     
-    /* تحسين هوامش أقسام المنتج الفرعية بشكل متوازن */
     .feature-category {
         margin-bottom: 6px !important; /* تقليل المساحة بين خصائص المنتج */
     }
     
-    /* تعديل متوازن لهوامش أقسام الصفحة الأخرى */
     .product-video-section,
     .related-products,
     .order-section {
@@ -3526,13 +3516,11 @@ footer .copyright {
         padding: 0 4px !important; /* تقليل الهوامش بشكل معتدل */
     }
     
-    /* تباعدات معتدلة لتفاصيل المنتج */
     .product-gallery,
     .product-info {
         padding: 6px !important;
     }
     
-    /* هوامش متوازنة لأقسام الصفحة على الشاشات الضيقة جداً */
     .product-video-section,
     .related-products,
     .order-section {
@@ -3540,7 +3528,6 @@ footer .copyright {
         margin-bottom: 12px !important;
     }
     
-    /* تعديل متوازن لعناصر النموذج */
     .form-group {
         margin-bottom: 10px !important;
     }
@@ -3550,4 +3537,21 @@ footer .copyright {
     .form-group select {
         padding: 10px 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
     }
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.slider-track {
+    display: flex;
+    transition: transform 0.7s ease-in-out; /* تحريك أكثر سلاسة */
+}
+/* تنسيق الشرائح لتطبيق الترجمة بشكل صحيح */
+.feature-slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
