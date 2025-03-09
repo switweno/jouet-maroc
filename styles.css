@@ -3439,3 +3439,115 @@ footer .copyright {
         transition: transform 0.2s ease;
     }
 }
+
+/* تعديلات متوازنة للهوامش على الشاشات الصغيرة */
+@media (max-width: 767px) {
+    /* تعديل الحاوية الرئيسية للصفحة بهوامش متوازنة */
+    .container {
+        width: 96% !important; /* زيادة العرض بشكل معتدل */
+        padding: 0 8px !important; /* هوامش متوازنة بدون إفراط */
+        margin: 0 auto !important;
+    }
+    
+    /* تعديل تباعد العناصر الرئيسية */
+    main {
+        padding: 20px 0 !important;
+    }
+    
+    /* تعديل هوامش تفاصيل المنتج */
+    .product-details {
+        padding: 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
+        margin-bottom: 20px !important;
+    }
+    
+    /* تنسيق معتدل لمعرض الصور والمعلومات */
+    .product-gallery,
+    .product-info {
+        padding: 10px !important; /* هامش داخلي مناسب بدون تقليص زائد */
+    }
+    
+    /* تعديل هوامش وصف المنتج */
+    .product-description {
+        padding: 12px !important; /* تقليل التباعد الداخلي بشكل متوازن */
+    }
+    
+    /* تعديل تباعدات أقسام المنتج مع الحفاظ على مساحة كافية */
+    .product-video-section,
+    .related-products,
+    .order-section,
+    .why-choose-us {
+        padding: 20px 12px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* هوامش مخصصة للشاشات الصغيرة جداً - توازن بين المساحة والجمالية */
+@media (max-width: 480px) {
+    .container {
+        width: 97% !important; /* عرض أكبر بدون التصاق بالحواف */
+        padding: 0 6px !important; /* هامش جانبي مناسب */
+    }
+    
+    /* تباعد معتدل للمحتوى الرئيسي */
+    main {
+        padding: 15px 0 !important;
+    }
+    
+    /* تعديل متوازن للتباعد الداخلي لأقسام المنتج */
+    .product-gallery,
+    .product-info {
+        padding: 8px !important;
+    }
+    
+    /* تعديل هوامش وصف المنتج مع الاحتفاظ بمساحة كافية للمحتوى */
+    .product-description {
+        padding: 10px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    /* تحسين هوامش أقسام المنتج الفرعية بشكل متوازن */
+    .feature-category {
+        margin-bottom: 6px !important; /* تقليل المساحة بين خصائص المنتج */
+    }
+    
+    /* تعديل متوازن لهوامش أقسام الصفحة الأخرى */
+    .product-video-section,
+    .related-products,
+    .order-section {
+        padding: 15px 10px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+/* تعديلات للهواتف الصغيرة جداً مع الحفاظ على مظهر جيد */
+@media (max-width: 360px) {
+    .container {
+        width: 98% !important; /* زيادة العرض قليلاً */
+        padding: 0 4px !important; /* تقليل الهوامش بشكل معتدل */
+    }
+    
+    /* تباعدات معتدلة لتفاصيل المنتج */
+    .product-gallery,
+    .product-info {
+        padding: 6px !important;
+    }
+    
+    /* هوامش متوازنة لأقسام الصفحة على الشاشات الضيقة جداً */
+    .product-video-section,
+    .related-products,
+    .order-section {
+        padding: 12px 8px !important;
+        margin-bottom: 12px !important;
+    }
+    
+    /* تعديل متوازن لعناصر النموذج */
+    .form-group {
+        margin-bottom: 10px !important;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        padding: 10px 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
+    }
+}
