@@ -3298,3 +3298,50 @@ footer .copyright {
         max-width: 1200px;
     }
 }
+
+/* تنسيق مؤشر التحميل للتنقل بين المنتجات */
+#loading-spinner {
+    backdrop-filter: blur(3px);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#loading-spinner.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* تحسين مظهر روابط المنتجات ذات الصلة */
+.product-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    display: block;
+    transition: transform 0.2s ease-out !important;
+    width: 280px;
+    max-width: 100%;
+    cursor: pointer !important;
+}
+
+.product-link:active {
+    transform: translateY(0) !important;
+}
+
+.product-link:focus {
+    outline: none !important;
+}
+
+/* تنسيقات إضافية تجعل مربعات المنتجات ذات الصلة أكثر استجابة للنقر */
+.related-product {
+    transition: box-shadow 0.2s ease !important;
+}
+
+.product-link:active .related-product {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+}
+
+/* تعديلات للتوافق مع Bootstrap */
+.container {
+    width: 90% !important;
+    max-width: 1200px !important;
+}

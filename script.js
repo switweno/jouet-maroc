@@ -1,20 +1,112 @@
-// وظائف أساسية للصفحة
-function changeImage(src) {
-    document.getElementById('current-image').src = src;
+// تحميل مسبق للصور لتجنب الوميض
+function preloadImages(images) {
+    if (!images || !images.length) return;
     
-    // Update active thumbnail
-    const thumbnails = document.querySelectorAll('.thumbnail');
-    thumbnails.forEach(thumb => {
-        thumb.classList.remove('active');
-        if (thumb.src === src) {
-            thumb.classList.add('active');
-        }
+    const preloadedImages = [];
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+        preloadedImages.push(img);
     });
     
-    // Track event in Facebook Pixel
+    return preloadedImages;
+}
+
+// تحسين دالة تغيير الصور لتكون أسرع وبدون وميض
+function changeImage(src, direction = null) {
+    const currentImage = document.getElementById('current-image');
+    
+    // تحديد اتجاه التغيير بناءً على موقع الصورة المصغرة
+    if (!direction && src) {
+        const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
+        const oldIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
+        const newIndex = thumbnails.findIndex(thumb => thumb.src === src);
+        
+        if (oldIndex !== -1 && newIndex !== -1) {
+            direction = newIndex > oldIndex ? 'right' : 'left';
+        } else {
+            direction = 'fade'; // الانتقال الافتراضي
+        }
+    }
+    
+    // تحميل الصورة الجديدة مسبقاً لتجنب الوميض
+    const nextImage = new Image();
+    nextImage.src = src;
+    
+    // إزالة أي تأثيرات سابقة للتأكد من عدم تداخلها
+    currentImage.classList.remove('image-exit-left', 'image-exit-right', 'image-fade-out', 
+                                'image-enter-from-right', 'image-enter-from-left', 'image-fade-in');
+    
+    // تطبيق تأثير قصير للانتقال
+    if (direction === 'left') {
+        currentImage.classList.add('image-exit-left');
+    } else if (direction === 'right') {
+        currentImage.classList.add('image-exit-right');
+    } else {
+        currentImage.classList.add('image-fade-out');
+    }
+    
+    // تقليل وقت الانتظار قبل تبديل الصورة
+    setTimeout(() => {
+        // تغيير مصدر الصورة مباشرة
+        currentImage.src = src;
+        
+        // تطبيق تأثير الدخول السريع عند تحميل الصورة
+        currentImage.onload = () => {
+            // إزالة تأثيرات الخروج
+            currentImage.classList.remove('image-exit-left', 'image-exit-right', 'image-fade-out');
+            
+            // إضافة تأثير الدخول المناسب
+            if (direction === 'left') {
+                currentImage.classList.add('image-enter-from-right');
+            } else if (direction === 'right') {
+                currentImage.classList.add('image-enter-from-left');
+            } else {
+                currentImage.classList.add('image-fade-in');
+            }
+            
+            // إزالة تأثيرات الدخول بعد اكتمال الحركة
+            setTimeout(() => {
+                currentImage.classList.remove('image-enter-from-right', 'image-enter-from-left', 'image-fade-in');
+            }, 250); // وقت قصير يتناسب مع مدة الانتقال
+        };
+        
+        // تحديث الصور المصغرة النشطة
+        updateActiveThumbnail(src);
+        
+    }, 150); // وقت قصير جداً للانتقال
+    
+    // تتبع الحدث باستخدام Facebook Pixel
     if (typeof fbq === 'function') {
         fbq('track', 'ViewContent');
     }
+}
+
+// دالة محسنة لتحديث الصورة المصغرة النشطة
+function updateActiveThumbnail(src) {
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    thumbnails.forEach(thumb => {
+        // إزالة الفئة النشطة من جميع الصور المصغرة
+        thumb.classList.remove('active');
+        
+        // إضافة الفئة النشطة للصورة المطابقة
+        if (thumb.src === src) {
+            thumb.classList.add('active');
+            
+            // تمرير الصورة المصغرة النشطة إلى المنتصف بشكل فوري
+            requestAnimationFrame(() => {
+                try {
+                    thumb.scrollIntoView({
+                        behavior: 'auto', // تغيير إلى 'auto' بدلاً من 'smooth' للانتقال الفوري
+                        block: 'nearest', 
+                        inline: 'center'
+                    });
+                } catch (e) {
+                    console.error('Error scrolling thumbnail into view:', e);
+                }
+            });
+        }
+    });
 }
 
 // Quantity selector functionality
@@ -273,9 +365,36 @@ function navigateImages(direction) {
     if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
     if (currentImageIndex >= allImages.length) currentImageIndex = 0;
     
-    // Update modal image
+    // Update modal image with direction-based animation
     const modalImage = document.getElementById('modal-image');
-    modalImage.src = allImages[currentImageIndex];
+    const directionName = direction > 0 ? 'right' : 'left';
+    
+    // Apply fade-out effect first
+    modalImage.style.opacity = '0';
+    modalImage.style.transition = 'opacity 0.2s ease';
+    
+    // After short delay, change source and fade back in
+    setTimeout(() => {
+        modalImage.src = allImages[currentImageIndex];
+        
+        // When the new image loads, fade it in with sliding effect
+        modalImage.onload = () => {
+            modalImage.style.opacity = '1';
+            
+            // Apply slide animation to the modal image
+            modalImage.style.transform = `translateX(${direction > 0 ? '-10px' : '10px'})`;
+            setTimeout(() => {
+                modalImage.style.transform = 'translateX(0)';
+                modalImage.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+            }, 50);
+        };
+        
+        // Update the main image preview as well
+        const mainImage = document.getElementById('current-image');
+        if (mainImage) {
+            changeImage(allImages[currentImageIndex], directionName);
+        }
+    }, 200);
     
     // Reset zoom when changing images
     resetZoom();
@@ -389,29 +508,51 @@ function forceScrollToTop() {
 // معالجة روابط المنتجات
 function setupProductLinks() {
     document.querySelectorAll('.related-products .product-link').forEach(link => {
+        // إزالة معالجات الأحداث القديمة
+        link.onclick = null;
+        
+        // إضافة معالج حدث جديد
         link.addEventListener('click', function(e) {
             e.preventDefault();
+            e.stopPropagation(); // منع انتشار الحدث
+            
+            // تعطيل الرابط مؤقتًا لمنع النقرات المتكررة
+            this.style.pointerEvents = 'none';
             
             const href = this.getAttribute('href');
             const productId = new URLSearchParams(href.split('?')[1]).get('product');
             
             if (productId) {
+                // إظهار مؤشر تحميل (اختياري - يمكن إضافته لاحقًا)
+                document.body.style.cursor = 'wait';
+                
                 // تحديث عنوان URL
                 history.pushState({}, '', `?product=${productId}`);
                 
-                // التمرير للأعلى بشكل سلس
-                window.scrollTo({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                });
+                // استخدام طريقة تمرير فورية (بدون smooth) للتأكد من التمرير الكامل
+                window.scrollTo(0, 0);
                 
-                // إضافة تأخير لتحميل المنتج بعد اكتمال التمرير
+                // تأكيد إضافي للتمرير
                 setTimeout(() => {
-                    loadProductFromURL();
-                }, 400);
+                    document.documentElement.scrollTop = 0;
+                    document.body.scrollTop = 0;
+                    
+                    // انتظار فترة قصيرة ثم تحميل المنتج
+                    setTimeout(() => {
+                        loadProductFromURL();
+                        
+                        // إعادة تمكين التفاعل مع الرابط والمؤشر الطبيعي
+                        this.style.pointerEvents = 'auto';
+                        document.body.style.cursor = 'default';
+                    }, 100);
+                }, 50);
+            } else {
+                this.style.pointerEvents = 'auto';
             }
         });
+        
+        // تحسين تجربة المؤشر على الروابط
+        link.style.cursor = 'pointer';
     });
 }
 
@@ -449,43 +590,47 @@ function setupAccordion() {
 // إضافة متغير لتتبع ما إذا كان هذا هو التحميل الأول للصفحة
 let firstLoad = true;
 
-// تعديل دالة تهيئة التمرير للصور المصغرة لمنع تداخل الأحداث
+// تحسين تهيئة الصور المصغرة لإزالة تأثيرات الانتقال الزائدة
 function setupThumbnailScrolling() {
     const thumbnailsContainer = document.querySelector('.thumbnails');
     if (!thumbnailsContainer) return;
     
-    // تعيين خصائص التمرير مرة واحدة فقط
+    // تعيين خصائص التمرير بشكل مباشر
     thumbnailsContainer.style.overflowX = 'auto';
     thumbnailsContainer.style.webkitOverflowScrolling = 'touch';
+    thumbnailsContainer.style.touchAction = 'manipulation';
     
-    // إزالة أي معالجات أحداث سابقة لمنع التكرار
+    // تعيين سلوك التمرير لتكون أسرع
+    thumbnailsContainer.style.scrollBehavior = 'auto'; // تغيير من 'smooth' إلى 'auto'
+    
+    // إزالة أي معالجات أحداث سابقة
     thumbnailsContainer.onmouseenter = null;
     thumbnailsContainer.onmouseleave = null;
     thumbnailsContainer.onmousemove = null;
     
-    // إعادة تعيين معالج واحد فقط للنقر بدلاً من استخدام addEventListener المتكرر
-    thumbnailsContainer.addEventListener('touchstart', function(e) {
-        // السماح بالتمرير الأصلي دون تدخل
-    }, { passive: true, once: false });
+    // تحميل مسبق لجميع الصور لمنع الوميض
+    const allThumbnails = document.querySelectorAll('.thumbnail');
+    const imagesToPreload = Array.from(allThumbnails).map(thumb => thumb.src);
+    preloadImages(imagesToPreload);
     
-    // تمرير الصورة المصغرة النشطة إلى المنتصف، ولكن فقط إذا لم يكن هذا هو التحميل الأول
-    const activeThumb = document.querySelector('.thumbnail.active');
-    if (activeThumb && !firstLoad) {
-        // استخدام requestAnimationFrame للحصول على أداء أفضل
-        requestAnimationFrame(() => {
-            try {
-                activeThumb.scrollIntoView({ 
-                    behavior: 'auto',
-                    block: 'nearest',
-                    inline: 'center'  
-                });
-            } catch (e) {
-                console.error('Error scrolling thumbnail into view:', e);
+    // إضافة معالجات النقر للصور المصغرة مع تحسين الأداء
+    allThumbnails.forEach((thumb, index) => {
+        thumb.addEventListener('click', function(e) {
+            e.stopPropagation();
+            
+            // تنفيذ تغيير الصورة مباشرة
+            const activeThumb = document.querySelector('.thumbnail.active');
+            if (activeThumb) {
+                const activeIndex = Array.from(allThumbnails).indexOf(activeThumb);
+                const direction = index > activeIndex ? 'right' : 'left';
+                changeImage(this.src, direction);
+            } else {
+                changeImage(this.src);
             }
         });
-    }
+    });
     
-    // تحديث متغير firstLoad ليكون false بعد التحميل الأول
+    // تعيين متغير التحميل الأول إلى false
     firstLoad = false;
 }
 
@@ -493,6 +638,11 @@ function setupThumbnailScrolling() {
 // تحسين دالة تحميل المنتج من URL للتحقق من وجود بيانات المنتجات
 function loadProductFromURL() {
     try {
+        // إضافة تمرير فوري للأعلى في بداية تحميل المنتج
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+        
         const urlParams = new URLSearchParams(window.location.search);
         let productId = urlParams.get('product');
         
@@ -600,7 +750,16 @@ function updateProductDisplay(product) {
         thumbnail.alt = `صورة مصغرة ${index + 1}`;
         
         // استخدام خاصية onclick بدلاً من addEventListener لمنع التكرار
-        thumbnail.onclick = function() { changeImage(this.src); };
+        thumbnail.onclick = function() {
+            const activeThumb = document.querySelector('.thumbnail.active');
+            if (activeThumb) {
+                const activeIndex = Array.from(document.querySelectorAll('.thumbnail')).indexOf(activeThumb);
+                const direction = index > activeIndex ? 'right' : 'left';
+                changeImage(this.src, direction);
+            } else {
+                changeImage(this.src);
+            }
+        };
         
         // إضافة خصائص CSS لتحسين تجربة استخدام المؤشر
         thumbnail.style.cursor = 'pointer';
