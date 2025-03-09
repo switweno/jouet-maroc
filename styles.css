@@ -300,7 +300,7 @@ main {
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
     direction: ltr; /* جعل اتجاه النص من اليسار لليمين */
-    text-align:right; /* محاذاة النص إلى اليسار */
+    text-align:left; /* محاذاة النص إلى اليسار */
     padding-left: 10px; /* إضافة مسافة لليسار */
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
