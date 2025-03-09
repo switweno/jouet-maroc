@@ -2,16 +2,16 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>jouet maroc | عروض خاصة</title>
-    <!-- Add Google Fonts for Arabic -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>تفاصيل المنتج | jouet maroc</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Add favicon -->
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- تحميل ملف بيانات المنتجات مباشرة قبل تشغيل الـ Facebook Pixel -->
+    <script src="products.js"></script>
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -25,71 +25,81 @@
         fbq('init', 'YOUR_PIXEL_ID_HERE');
         fbq('track', 'PageView');
     </script>
-    <!-- End Facebook Pixel Code -->
-    <!-- إضافة ملف بيانات المنتجات -->
-    <script src="products.js"></script>
 </head>
 <body>
-    <!-- Move Facebook Pixel noscript to body -->
     <noscript>
         <img height="1" width="1" style="display:none" 
             src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1" alt="Facebook Pixel"/>
     </noscript>
-    
-    <header>
-        <div class="container">
-            <h1>عروض حصرية ولفترة محدودة</h1>
-            <div class="special-offer">
-                <span class="offer-badge">تخفيض 30%</span>
+
+    <!-- شريط التنقل الثابت - محدث ليتناسب مع الصفحة الرئيسية -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="back-to-home" aria-label="العودة للصفحة الرئيسية">
+                <i class="fas fa-arrow-right"></i>
+                <span>الرجوع للرئيسية</span>
+            </a>
+            
+            <div class="logo">
+                <a href="home.html">
+                    <img src="logo.png" alt="jouet maroc" width="40" height="40">
+                </a>
+            </div>
+            
+            <div class="header-actions">
+                <a href="https://wa.me/212762609147" class="whatsapp-link" aria-label="اتصل بنا عبر واتساب">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
             </div>
         </div>
     </header>
-    
-    <main class="container">
-        <div class="product-details">
-            <div class="product-gallery">
-                <div class="main-image">
-                    <img id="current-image" src="product1.webp" alt="صورة المنتج">
-                    <div class="zoom-icon" onclick="openImageModal()">
-                        <i class="fas fa-search-plus"></i>
+
+    <main>
+        <div class="container">
+            <div class="product-details">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img id="current-image" src="product1.webp" alt="صورة المنتج">
+                        <div class="zoom-icon" onclick="openImageModal()">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="thumbnails-container">
-                    <div class="thumbnails" id="thumbnails-slider">
-                        <img class="thumbnail active" src="product2.webp" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product3.webp" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product4.webp" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product5.webp" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product6.webp" alt="صورة مصغرة 5" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product7.webp" alt="صورة مصغرة 6" onclick="changeImage(this.src)">
+                    <div class="thumbnails-container">
+                        <div class="thumbnails" id="thumbnails-slider">
+                            <img class="thumbnail active" src="product2.webp" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
+                            <img class="thumbnail" src="product3.webp" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
+                            <img class="thumbnail" src="product4.webp" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
+                            <img class="thumbnail" src="product5.webp" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
+                            <img class="thumbnail" src="product6.webp" alt="صورة مصغرة 5" onclick="changeImage(this.src)">
+                            <img class="thumbnail" src="product7.webp" alt="صورة مصغرة 6" onclick="changeImage(this.src)">
+                        </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="product-info">
-                <h2 class="product-title">VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U9 
-                </h2>
-                <p class="product-brand">العلامة التجارية: LIKEBIKE</p>
-                <p class="product-category">الفئة: دراجات كهربائية</p>
-                <p class="product-availability">متوفر في المخزون</p>
-                <div class="ratings">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <span>(120 تقييم)</span>
-                </div>
-                <div class="price">
-                    <span class="current-price">8700 درهم</span>
-                    <span class="old-price">10999 درهم</span>
-                    <span class="discount">-30%</span>
                 </div>
                 
-                <div class="product-description">
-                    <h3>مميزات المنتج</h3>
-                    <div class="features-container">
-                        <!-- First category - expanded by default -->
+                <div class="product-info">
+                    <h2 class="product-title">VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U9 
+                    </h2>
+                    <p class="product-brand">العلامة التجارية: LIKEBIKE</p>
+                    <p class="product-category">الفئة: دراجات كهربائية</p>
+                    <p class="product-availability">متوفر في المخزون</p>
+                    <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(120 تقييم)</span>
+                    </div>
+                    <div class="price">
+                        <span class="current-price">8700 درهم</span>
+                        <span class="old-price">10999 درهم</span>
+                        <span class="discount">-30%</span>
+                    </div>
+                    
+                    <div class="product-description">
+                        <h3>مميزات المنتج</h3>
+                        <div class="features-container">
+                            <!-- First category - expanded by default -->
 <div class="feature-category expanded">
     <div class="accordion-header french-heading">
         <h4><i class="fas fa-bolt"></i> Moteur et performance</h4>
@@ -154,100 +164,79 @@
     </div>
 </div>
 
-                        
-                        <div class="feature-highlight">
-                            <i class="fas fa-check-circle"></i> <span>Garantie de 3 mois</span>
+                            
+                            <div class="feature-highlight">
+                                <i class="fas fa-check-circle"></i> <span>Garantie de 3 mois</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="quantity-selector">
-                    <h3>الكمية</h3>
-                    <div class="quantity-controls">
-                        <button class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
-                        <input type="number" id="quantity" value="1" min="1" max="10">
-                        <button class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
+                    
+                    <div class="quantity-selector">
+                        <h3>الكمية</h3>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
+                            <input type="number" id="quantity" value="1" min="1" max="10">
+                            <button class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <button id="buy-now-btn" class="btn primary-btn" onclick="scrollToForm()">
+                            <i class="fas fa-shopping-cart"></i> اطلب الآن
+                        </button>
+                        <!-- Removing separate WhatsApp button as per requirement -->
                     </div>
                 </div>
-                
-                <div class="cta-buttons">
-                    <button id="buy-now-btn" class="btn primary-btn" onclick="scrollToForm()">
-                        <i class="fas fa-shopping-cart"></i> اطلب الآن
+            </div>
+            <div class="product-video-section">
+                <h2>فيديو المنتج</h2>
+                <div class="video-container">
+                    <!-- سيتم إضافة الإطار هنا من خلال JavaScript -->
+                </div>
+            </div>
+            
+            <!-- تم إزالة قسم "لماذا تختارنا" بالكامل من هنا -->
+            
+            <!-- Fix duplicate ID by changing the section ID -->
+            <div class="order-section" id="order-section">
+                <h2>املأ النموذج للطلب</h2>
+                <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
+                    <div class="form-group">
+                        <label for="name" class="required-field">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="required-field">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address" class="required-field">العنوان</label>
+                        <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="city" class="required-field">المدينة</label>
+                        <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required>
+                    </div>
+                    <div class="form-group payment-method">
+                        <label class="required-field">طريقة الدفع</label>
+                        <div class="radio-group">
+                            <input type="radio" id="cod" name="payment" value="cod" checked>
+                            <label for="cod">الدفع عند الاستلام</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
                     </button>
-                    <!-- Removing separate WhatsApp button as per requirement -->
-                </div>
+                </form>
             </div>
-        </div>
-        <div class="product-video-section">
-            <h2>فيديو المنتج</h2>
-            <div class="video-container">
-                <!-- سيتم إضافة الإطار هنا من خلال JavaScript -->
-            </div>
-        </div>
-        
-        <!-- تم إزالة قسم "لماذا تختارنا" بالكامل من هنا -->
-        
-        <!-- Fix duplicate ID by changing the section ID -->
-        <div class="order-section" id="order-section">
-            <h2>املأ النموذج للطلب</h2>
-            <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
-                <div class="form-group">
-                    <label for="name" class="required-field">الاسم الكامل</label>
-                    <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required>
+            <!-- يمكن إضافة قسم روابط المنتجات في أي مكان مناسب، مثلاً قبل الفوتر -->
+            <!-- تحسين قسم المنتجات ذات الصلة -->
+            <section class="related-products">
+                <h2>منتجات أخرى قد تعجبك</h2>
+                <div class="products-grid" id="related-products-grid">
+                    <!-- سيتم إضافة المنتجات ذات الصلة عبر JavaScript -->
                 </div>
-                <div class="form-group">
-                    <label for="phone" class="required-field">رقم الهاتف</label>
-                    <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required>
-                </div>
-                <div class="form-group">
-                    <label for="address" class="required-field">العنوان</label>
-                    <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="city" class="required-field">المدينة</label>
-                    <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required>
-                </div>
-                <div class="form-group payment-method">
-                    <label class="required-field">طريقة الدفع</label>
-                    <div class="radio-group">
-                        <input type="radio" id="cod" name="payment" value="cod" checked>
-                        <label for="cod">الدفع عند الاستلام</label>
-                    </div>
-                </div>
-                <button type="submit" class="btn primary-btn submit-btn">
-                    <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
-                </button>
-            </form>
-        </div>
-        <!-- يمكن إضافة قسم روابط المنتجات في أي مكان مناسب، مثلاً قبل الفوتر -->
-        <!-- تحسين قسم المنتجات ذات الصلة -->
-        <div class="related-products">
-            <h2>منتجات أخرى قد تعجبك</h2>
-            <div class="products-grid">
-                <a href="?product=velo-electrique-harley-u9" class="product-link">
-                    <div class="related-product">
-                        <img src="product1.webp" alt="دراجة كهربائية هارلي">
-                        <h3>VÉLO ÉLECTRIQUE HARLEY U9</h3>
-                        <div class="related-price-container">
-                            <div class="related-price">8700 درهم</div>
-                            <div class="related-old-price">10999 درهم</div>
-                        </div>
-                        <div class="related-discount-badge">-30%</div>
-                    </div>
-                </a>
-                <!-- إضافة المنتج الجديد مع امتداد الصورة -->
-                <a href="?product=trottinette-bison-gt-1000" class="product-link">
-                    <div class="related-product">
-                        <img src="bison-gt-1000-1.webp" alt="تروتنيت بيسون GT 1000">
-                        <h3>TROTTINETTE BISON GT 1000</h3>
-                        <div class="related-price-container">
-                            <div class="related-price">5890 درهم</div>
-                            <div class="related-old-price">7099 درهم</div>
-                        </div>
-                        <div class="related-discount-badge">-20%</div>
-                    </div>
-                </a>
-            </div>
+            </section>
         </div>
     </main>
     
@@ -324,35 +313,49 @@
     <!-- End of Order Confirmation Modal -->
     <!-- تمت إزالة شاشة التحميل من هنا -->
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="logo.png" alt="Logo">
-                </div>
-                
-                <div class="social-media-container">
-                    <h3>تابعونا على وسائل التواصل</h3>
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/jouetmaroc2" target="_blank" aria-label="فيسبوك">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/jouetmaroc/" target="_blank" aria-label="إنستغرام">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.youtube.com/@jouetmaroc" target="_blank" aria-label="يوتيوب">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="https://wa.me/212762609147" target="_blank" aria-label="واتساب">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <p class="copyright">&copy; 2025 jouet-maroc.com | جميع الحقوق محفوظة</p>
+    <!-- تصحيح كود الفوتر -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.png" alt="Logo" width="120" height="120">
         </div>
-    </footer>
+        
+        <div class="social-links">
+            <h3>تابعونا على وسائل التواصل</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/jouetmaroc2" target="_blank" aria-label="فيسبوك">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/jouetmaroc/" target="_blank" aria-label="إنستغرام">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@jouetmaroc" target="_blank" aria-label="يوتيوب">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://wa.me/212762609147" target="_blank" aria-label="واتساب">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2025 jouet-maroc.com | جميع الحقوق محفوظة
+    </div>
+</footer>
     
+    <!-- إضافة شيفرة تشخيصية لتأكيد التحميل الصحيح قبل تحميل الملفات الرئيسية -->
+    <script>
+        // التحقق من تحميل المنتجات بشكل صحيح
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof products === 'undefined' || !Array.isArray(products) || products.length === 0) {
+                console.error('⚠️ Error: Products data not available!');
+                alert('خطأ في تحميل بيانات المنتجات. يرجى تحديث الصفحة.');
+            } else {
+                console.log('✓ Products loaded successfully:', products.length, 'items');
+            }
+        });
+    </script>
+
     <script src="script.js"></script>
 </body>
 </html>
