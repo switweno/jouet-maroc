@@ -25,7 +25,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #0056b3;
+    background-color: #044285;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -373,12 +373,13 @@ main {
     border-radius: 8px;
     padding: 15px;
     border: 1px solid #eee;
+    
 }
 
 .product-description h3 {
     margin-bottom: 15px;
     color: #0056b3;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
     border-bottom: 2px solid #0056b3;
     padding-bottom: 8px;
@@ -971,7 +972,7 @@ main {
     
     /* Product description */
     .product-description h3 {
-        font-size: 1.1rem;
+        font-size: 1.7rem;
     }
     
     /* Buttons */
@@ -1598,9 +1599,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/* إصلاح لون العنوان وتحتية */
 .product-video-section h2 {
-    color: #0056b3; /* أزرق */
+    color: #0056b3;
     font-size: 1.8rem;
     margin-bottom: 25px;
     position: relative;
@@ -1618,13 +1618,22 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #0056b3;
 }
 
-/* حاوية الفيديو الرأسي */
+/* Product Video Section Styles */
+.product-video-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* عرض مناسب للنسبة العمودية */
     margin: 0 auto;
-    aspect-ratio: 9/16; /* نسبة رأسية */
+    aspect-ratio: 9/16; /* نسبة عمودية افتراضية */
 }
 
 .video-container iframe {
@@ -1636,14 +1645,13 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    object-fit: cover;
+    object-fit: cover; /* تغطية المساحة مع الحفاظ على النسب */
 }
 
 /* استجابة للشاشات الكبيرة */
 @media (min-width: 768px) {
     .video-container {
-        max-width: 800px;
-        aspect-ratio: 16/9; /* نسبة أفقية للشاشات الكبيرة */
+        max-width: 400px; /* عرض ثابت للنسبة العمودية */
     }
 }
 
@@ -1653,13 +1661,8 @@ h1, h2, h3, h4, h5, h6 {
         padding: 20px 15px;
     }
     
-    .product-video-section h2 {
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-    }
-    
     .video-container {
-        aspect-ratio: 9/16;
+        aspect-ratio: 9/16; /* نسبة عمودية للهواتف */
     }
 }
 
@@ -1728,18 +1731,7 @@ h1, h2, h3, h4, h5, h6 {
     direction: rtl;
 }
 
-/* حل مشكلة تأثيرات النقر على الأيقونات والصور في الهواتف */
-@media (max-width: 767px) {
-    /* إزالة تأثيرات النقر لجميع العناصر التفاعلية */
-    a, button, .thumbnail, .feature-box, .quantity-btn, .btn,
-    .social-media a, .zoom-icon, .nav-arrow, .zoom-btn, 
-    .feature-icon, .accordion-toggle, img {
-        -webkit-tap-highlight-color: transparent;
-        outline: none !important;
-        box-shadow: none !important;
-        user-select: none;
-        -webkit-touch-callout: none;
-    }
+
     
     /* استثناء حقول الإدخال من إزالة التأثيرات عند النقر */
     input, textarea, select {
@@ -1781,8 +1773,8 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: none !important;
     }
     
-    /* باقي الكود دون تغيير */
-}
+  
+
 
 /* تعديل إضافي لضمان ظهور حقول الإدخال بشكل صحيح */
 input[type="text"], 
@@ -2231,481 +2223,8 @@ select {
     opacity: 1;
 }
 
-/* تحسين ظهور أزرار التنقل على الشاشات الصغيرة */
-@media (max-width: 767px) {
-    .slider-controls {
-        padding: 5px 0;
-        margin-top: 15px;
-        display: flex !important; /* التأكد من ظهور أزرار التحكم */
-    }
-    
-    .slider-nav {
-        width: 36px;
-        height: 36px;
-        font-size: 0.9rem;
-    }
-}
 
-/* تعديلات إضافية لصناديق الميزات لتناسب السلايدر */
-.feature-box {
-    height: 100%;
-    min-height: 220px; /* ارتفاع ثابت للبطاقات */
-}
 
-/* عرض صندوق واحد في الوقت الواحد على الشاشات الصغيرة */
-@media (max-width: 767px) {
-    .slider-track {
-        display: flex;
-    }
-    
-    .feature-slide {
-        flex: 0 0 100%;
-    }
-    
-    /* تحسين الارتفاع على الشاشات الصغيرة */
-    .feature-box {
-        min-height: 180px;
-    }
-    
-    /* إلغاء الخصائص السابقة للـ features-grid على الشاشات الصغيرة */
-    .features-grid {
-        display: none;
-    }
-}
-
-/* إصلاح نهائي لسلايدر "لماذا تختارنا" */
-.features-slider {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.slider-container {
-    overflow: hidden;
-    margin: 20px 0;
-    position: relative;
-}
-
-.slider-track {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 300%; /* ثلاثة أضعاف العرض للثلاث بطاقات */
-}
-
-.feature-slide {
-    flex: 0 0 100%;
-    width: 33.333%; /* عرض كل شريحة ثلث حاوية السلايدر */
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-/* على الشاشات الكبيرة نعرض كل الشرائح في صف واحد */
-@media (min-width: 768px) {
-    .slider-track {
-        width: 100%; /* العرض الطبيعي */
-        transform: none !important; /* إلغاء التحويلات */
-    }
-    
-    .feature-slide {
-        flex: 0 0 33.333%;
-        width: 33.333%;
-    }
-}
-
-/* على الشاشات الصغيرة نعرض شريحة واحدة في كل مرة */
-@media (max-width: 767px) {
-    .slider-track {
-        width: 300%; /* ثلاثة أضعاف العرض للثلاث بطاقات */
-    }
-    
-    .feature-slide {
-        flex: 0 0 33.333%;
-        width: 33.333%;
-    }
-}
-
-/* تحسين عناصر التحكم في السلايدر */
-.slider-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.slider-nav {
-    background-color: #e9f2ff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    color: #0056b3;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 0 10px;
-    z-index: 5;
-}
-
-.slider-nav:hover, .slider-nav:active {
-    background-color: #0056b3;
-    color: white;
-}
-
-.slider-indicators {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 15px;
-}
-
-.indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ccc;
-    margin: 0 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    opacity: 0.6;
-}
-
-.indicator.active {
-    background-color: #0056b3;
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-/* تحسينات إضافية للسلايدر على الشاشات الصغيرة */
-@media (max-width: 767px) {
-    .slider-nav {
-        width: 36px;
-        height: 36px;
-    }
-    
-    .slider-controls {
-        display: flex !important; /* إظهار عناصر التحكم دائمًا على الموبايل */
-    }
-    
-    .indicator {
-        width: 10px;
-        height: 10px;
-        margin: 0 5px;
-    }
-}
-
-/* تحسين تجربة التفاعل مع السلايدر على الأجهزة اللمسية */
-@media (hover: none) {
-    .slider-nav:active {
-        background-color: #0056b3;
-        color: white;
-    }
-}
-
-/* تحسينات إضافية لسلايدر "لماذا تختارنا" */
-.features-slider {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.slider-container {
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
-}
-
-.slider-track {
-    display: flex;
-    transition: transform 0.7s ease-in-out; /* تحريك أكثر سلاسة */
-}
-
-/* تنسيق الشرائح لتطبيق الترجمة بشكل صحيح */
-.feature-slide {
-    flex: 0 0 100%;
-    min-width: 100%;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-/* على الشاشات الكبيرة، عرض جميع الشرائح */
-@media (min-width: 768px) {
-    .feature-slide {
-        flex: 0 0 33.333%;
-        min-width: 33.333%;
-    }
-    
-    /* إخفاء عناصر التحكم لأنها غير ضرورية */
-    .slider-controls {
-        display: none !important;
-    }
-}
-
-/* وضع الشفافية على الشريحة غير النشطة (للشاشات الصغيرة) */
-@media (max-width: 767px) {
-    .feature-slide {
-        opacity: 0.7;
-        transform: scale(0.9);
-        transition: opacity 0.5s ease, transform 0.5s ease;
-    }
-    
-    .feature-slide:nth-child(3n + 1) {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-/* تحسين نقاط المؤشرات لتكون أكثر وضوحا */
-.indicator {
-    width: 12px;
-    height: 12px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 0 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    opacity: 0.5;
-}
-
-.indicator.active {
-    background-color: #0056b3;
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-/* توسيط بطاقات الميزات داخل الشرائح */
-.feature-box {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* تحسينات إضافية لمنع ظهور الإطارات فارغة عند التحميل */
-.features-slider {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.features-slider.loaded {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* إظهار العناصر بشكل افتراضي عند التحميل قبل تنفيذ أي جافاسكريبت */
-.slider-track {
-    display: flex;
-    transition: transform 0.7s ease-in-out;
-}
-
-@media (min-width: 768px) {
-    /* عرض كل البطاقات افتراضيًا على الشاشات الكبيرة */
-    .feature-slide {
-        flex: 0 0 33.333%;
-        min-width: 33.333%;
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-}
-
-/* التأكد من وجود مساحة كافية للمحتوى داخل البطاقات */
-.feature-box {
-    height: 100%;
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #f9f9f9;
-    transition: transform 0.3s ease, opacity 0.5s ease;
-    opacity: 1;
-}
-
-/* تلوين الخلفية للتأكد من ظهور البطاقات */
-.feature-slide:nth-child(1) .feature-box {
-    background-color: #f9f9f9;
-}
-
-.feature-slide:nth-child(2) .feature-box {
-    background-color: #f5f8ff;
-}
-
-.feature-slide:nth-child(3) .feature-box {
-    background-color: #f9f9f9;
-}
-
-/* استبدال تنسيقات سلايدر "لماذا تختارنا" بتنسيقات موحدة لجميع الشاشات */
-.features-slider {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    visibility: hidden;
-}
-
-.features-slider.loaded {
-    opacity: 1;
-    visibility: visible;
-}
-
-.slider-container {
-    position: relative;
-    overflow: hidden;
-    margin: 20px 0;
-}
-
-.slider-track {
-    display: flex;
-    transition: transform 0.7s ease-in-out;
-    width: 300%; /* ثلاثة أضعاف العرض للثلاث بطاقات */
-}
-
-.feature-slide {
-    flex: 0 0 33.333%;
-    width: 33.333%;
-    padding: 0 15px;
-    box-sizing: border-box;
-    direction: rtl;
-    opacity: 0.7;
-    transform: scale(0.9);
-    transition: all 0.5s ease;
-}
-
-.feature-slide.active {
-    opacity: 1;
-    transform: scale(1);
-}
-
-/* إظهار عناصر التحكم دائمًا على جميع الشاشات */
-.slider-controls {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.slider-nav {
-    background-color: #e9f2ff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    color: #0056b3;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 0 10px;
-    z-index: 5;
-}
-
-.slider-nav:hover, .slider-nav:active {
-    background-color: #0056b3;
-    color: white;
-}
-
-.slider-indicators {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 15px;
-}
-
-.indicator {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #ccc;
-    margin: 0 6px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    opacity: 0.5;
-}
-
-.indicator.active {
-    background-color: #0056b3;
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-/* تنسيق موحد لمربعات الميزات */
-.feature-box {
-    height: 100%;
-    min-height: 220px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-/* تلوين خلفيات البطاقات بشكل مختلف */
-.feature-slide:nth-child(1) .feature-box {
-    background-color: #f9f9f9;
-}
-
-.feature-slide:nth-child(2) .feature-box {
-    background-color: #f5f8ff;
-}
-
-.feature-slide:nth-child(3) .feature-box {
-    background-color: #f9f9f9;
-}
-
-/* تعديلات للشاشات المختلفة */
-@media (min-width: 992px) {
-    /* للشاشات الكبيرة جدًا فقط */
-    .slider-track {
-        width: 100%;
-        transform: none !important;
-    }
-
-    .feature-slide {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@media (max-width: 767px) {
-    .slider-nav {
-        width: 36px;
-        height: 36px;
-        font-size: 0.9rem;
-    }
-    
-    .feature-box {
-        min-height: 180px;
-        padding: 15px;
-    }
-}
-
-/* إزالة كافة التنسيقات القديمة للسلايدر والشرائح */
-/* تم إلغاء */
 
 /* تحسين حاوية مميزات المنتج للشاشات الصغيرة */
 @media (max-width: 767px) {
