@@ -744,9 +744,26 @@ function updateProductDisplay(product) {
     document.querySelector('.old-price').textContent = product.oldPrice + " درهم";
     document.querySelector('.discount').textContent = "-" + product.discount + "%";
     
-    // Update images
+    // Update main image with discount badge
     const mainImage = document.getElementById('current-image');
     mainImage.src = product.images[0]; // Set first image as main image
+    
+    // Add discount badge to main image container
+    const mainImageContainer = document.querySelector('.main-image');
+    
+    // Remove existing discount badge if any
+    const existingBadge = mainImageContainer.querySelector('.main-image-discount-badge');
+    if (existingBadge) {
+        existingBadge.remove();
+    }
+    
+    // Add new discount badge if discount exists
+    if (product.discount) {
+        const discountBadge = document.createElement('div');
+        discountBadge.className = 'main-image-discount-badge';
+        discountBadge.textContent = `-${product.discount}%`;
+        mainImageContainer.appendChild(discountBadge);
+    }
     
     // تحديث الصور المصغرة بأسلوب يمنع تداخل الأحداث
     const thumbnailsContainer = document.getElementById('thumbnails-slider');
