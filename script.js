@@ -328,6 +328,7 @@ let isDragging = false;
 let startX, startY, translateX = 0, translateY = 0;
 let currentImageIndex = 0;
 let allImages = [];
+let timeoutId = null;
 
 // Open image modal with improved navigation
 function openImageModal() {
@@ -369,64 +370,65 @@ function openImageModal() {
             content_ids: ['PROD12345']
         });
     }
+    
+    // Show zoom instructions
+    showZoomInstructions();
 }
 
-/**
- * تحسين دالة التنقل بين الصور في النافذة المنبثقة
- * @param {number} direction - الإتجاه: 1 للأمام، -1 للخلف
- */
-function navigateImages(direction) {
-    // Calculate new index
-    currentImageIndex += direction;
+// Show zoom instructions
+function showZoomInstructions() {
+    // Check if instructions element exists or create it if not
+    let instructions = document.querySelector('.zoom-instructions');
+    if (!instructions) {
+        instructions = document.createElement('div');
+        instructions.className = 'zoom-instructions';
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
+        document.querySelector('.modal-content').appendChild(instructions);
+    }
     
-    // Loop around if needed
-    if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
-    if (currentImageIndex >= allImages.length) currentImageIndex = 0;
-    
-    // Update modal image with improved animation
-    const modalImage = document.getElementById('modal-image');
-    const directionName = direction > 0 ? 'right' : 'left';
-    
-    // تحسين حركة انتقال الصور في النافذة المنبثقة لتطابق الصور الرئيسية
-    modalImage.style.opacity = '0';
-    modalImage.style.transform = `translateX(${direction > 0 ? '-30px' : '30px'})`;
-    modalImage.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-    
+    // Show instructions after ensuring modal is displayed
     setTimeout(() => {
-        modalImage.src = allImages[currentImageIndex];
-        
-        modalImage.onload = () => {
-            modalImage.style.opacity = '1';
-            modalImage.style.transform = 'translateX(0)';
-        };
-        
-        // تحديث الصورة الرئيسية أيضًا
-        const mainImage = document.getElementById('current-image');
-        if (mainImage) {
-            changeImage(allImages[currentImageIndex], directionName);
-        }
+        instructions.classList.add('show');
     }, 300);
     
-    // Reset zoom when changing images
-    resetZoom();
+    // Create element to display zoom status
+    let zoomStatus = document.querySelector('.zoom-status');
+    if (!zoomStatus) {
+        zoomStatus = document.createElement('div');
+        zoomStatus.className = 'zoom-status';
+        document.querySelector('.modal-content').appendChild(zoomStatus);
+    }
 }
 
-// Close image modal
-function closeImageModal() {
-    const modal = document.getElementById('image-modal');
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
+// Update zoom status
+function updateZoomStatus() {
+    const zoomStatus = document.querySelector('.zoom-status');
+    if (!zoomStatus) return;
+    
+    zoomStatus.textContent = `${Math.round(zoomLevel * 100)}%`;
+    zoomStatus.classList.add('show');
+    
+    if (timeoutId) clearTimeout(timeoutId);
+    
+    timeoutId = setTimeout(() => {
+        zoomStatus.classList.remove('show');
+    }, 1500);
 }
 
-// Change zoom level
+// Change zoom level with zoom status display
 function changeZoom(amount) {
+    const prevZoom = zoomLevel;
     zoomLevel += amount;
     
     // Limit zoom level
-    if (zoomLevel < 0.5) zoomLevel = 0.5;
-    if (zoomLevel > 3) zoomLevel = 3;
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > 4) zoomLevel = 4;
+    
+    // Do not proceed if zoom level did not change
+    if (prevZoom === zoomLevel) return;
     
     updateImageTransform();
+    updateZoomStatus();
 }
 
 // Reset zoom level and position
@@ -437,7 +439,7 @@ function resetZoom() {
     updateImageTransform();
 }
 
-// Update image transform
+// Update image transform based on zoom level and position
 function updateImageTransform() {
     const modalImage = document.getElementById('modal-image');
     if (modalImage) {
@@ -485,12 +487,20 @@ function drag(e) {
     const isMobile = window.innerWidth <= 767;
     const sensitivity = isMobile ? 0.8 : 1;
     
-    // Update position
-    translateX += deltaX * sensitivity;
-    translateY += deltaY * sensitivity;
-    
-    // Update transform
-    updateImageTransform();
+    // Allow scrolling only when zoomed in
+    if (zoomLevel > 1) {
+        // Update position
+        translateX += deltaX * sensitivity;
+        translateY += deltaY * sensitivity;
+        
+        // Scroll limits based on zoom level
+        const maxTranslate = (zoomLevel - 1) * 200;
+        translateX = Math.max(Math.min(translateX, maxTranslate), -maxTranslate);
+        translateY = Math.max(Math.min(translateY, maxTranslate), -maxTranslate);
+        
+        // Update image position
+        updateImageTransform();
+    }
     
     // Reset start position
     startX = currentX;
@@ -1283,5 +1293,292 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// حفظ الوظيفة الأصلية للتمرير قبل التعديل عليها
-// window.originalScrollTo = window.scrollTo;
+// إضافة متغير للتحكم في عدد مرات التمرير التلقائي
+let initialScrollPerformed = false;
+let userHasScrolled = false;
+
+// تحسين دالة التمرير للأعلى لاحترام تفاعل المستخدم
+function forceScrollToTop() {
+    // لا تنفذ التمرير الإجباري إذا كان المستخدم قد قام بالتمرير بالفعل
+    if (userHasScrolled) {
+        return;
+    }
+
+    if (!initialScrollPerformed) {
+        initialScrollPerformed = true;
+        window.scrollTo(0, 0);
+    }
+}
+
+// تحسين المعالج الرئيسي لتحسين سلوك التمرير
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        // تنفيذ تمرير واحد فقط عند بدء التحميل
+        initialScrollPerformed = false;
+        forceScrollToTop();
+        
+        // إضافة مراقب للتمرير لمعرفة متى يبدأ المستخدم بالتمرير
+        window.addEventListener('scroll', function() {
+            if (!userHasScrolled && window.scrollY > 5) {
+                userHasScrolled = true;
+            }
+        }, { passive: true });
+        
+        // إلغاء التمرير الإضافي بعد تحميل المستند
+        setTimeout(() => {
+            // تنفيذ تمرير واحد فقط إذا كان المستخدم لم يتفاعل بعد
+            if (!userHasScrolled) {
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'auto'
+                });
+            }
+        }, 100);
+        
+        // إلغاء التمرير الإضافي عند تحميل الصفحة بالكامل
+        window.addEventListener('load', function() {
+            // تنفيذ فقط إذا كان المستخدم لم يتفاعل بعد
+            if (!userHasScrolled) {
+                initialScrollPerformed = true;
+                window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'auto'
+                });
+            }
+        });
+        
+        // استعادة التمرير التلقائي فقط عند تحميل منتج جديد
+        function loadProductFromURL() {
+            try {
+                // تحقق مما إذا كان هذا تحميل منتج جديد بعد نقر المستخدم
+                const isProductSwitch = document.referrer.includes(window.location.host);
+                
+                // إذا كان هناك تبديل منتج، قم بالتمرير للأعلى وإعادة الضبط
+                if (isProductSwitch) {
+                    userHasScrolled = false;
+                    window.scrollTo(0, 0);
+                }
+                
+                // باقي الكود لتحميل المنتج...
+                const urlParams = new URLSearchParams(window.location.search);
+                let productId = urlParams.get('product');
+                
+                if (!productId) {
+                    productId = "trottinette-EcoXtrem-liner"; // Default product
+                }
+                
+                // ...existing code (rest of the loadProductFromURL function)...
+            } catch (error) {
+                console.error("Error loading product:", error);
+            }
+        }
+
+        // تعديل معالج نقر روابط المنتجات
+        function setupProductLinks() {
+            document.querySelectorAll('.related-products .product-link').forEach(link => {
+                // إزالة معالجات الأحداث القديمة
+                link.onclick = null;
+                
+                // إضافة معالج حدث جديد نظيف
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation(); // منع انتشار الحدث
+                    
+                    userHasScrolled = false; // إعادة ضبط متغير التمرير عند تبديل المنتجات
+                    
+                    // إيقاف جميع التفاعلات المؤقتة
+                    document.body.style.pointerEvents = 'none';
+                    
+                    const href = this.getAttribute('href');
+                    const productId = new URLSearchParams(href.split('?')[1]).get('product');
+                    
+                    if (productId) {
+                        history.pushState({}, '', `?product=${productId}`);
+                        
+                        window.scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                        
+                        setTimeout(() => {
+                            loadProductFromURL();
+                            // استعادة التفاعلات بعد اكتمال التحميل
+                            document.body.style.pointerEvents = 'auto';
+                        }, 400);
+                    } else {
+                        document.body.style.pointerEvents = 'auto';
+                    }
+                });
+                
+                // تحسين تجربة المؤشر على الروابط
+                link.style.cursor = 'pointer';
+                link.style.webkitTapHighlightColor = 'transparent';
+            });
+        }
+
+    } catch (error) {
+        console.error("Error initializing page:", error);
+    }
+});
+
+// تعديل معالج popstate للحفاظ على سلوك التمرير المناسب
+window.addEventListener('popstate', function() {
+    // إعادة ضبط متغير التمرير عند استخدام أزرار التنقل في المتصفح
+    userHasScrolled = false;
+    
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+    
+    setTimeout(() => {
+        loadProductFromURL();
+    }, 400);
+});
+
+// تحسين دالة التنقل بين الصور في النافذة المنبثقة
+function navigateImages(direction) {
+    // Calculate new index
+    currentImageIndex += direction;
+    
+    // Loop around if needed
+    if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
+    if (currentImageIndex >= allImages.length) currentImageIndex = 0;
+    
+    // Update modal image with improved animation
+    const modalImage = document.getElementById('modal-image');
+    const directionName = direction > 0 ? 'right' : 'left';
+    
+    // تحسين حركة انتقال الصور في النافذة المنبثقة لتطابق الصور الرئيسية
+    modalImage.style.opacity = '0';
+    modalImage.style.transform = `translateX(${direction > 0 ? '-30px' : '30px'})`;
+    modalImage.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+    
+    setTimeout(() => {
+        modalImage.src = allImages[currentImageIndex];
+        
+        modalImage.onload = () => {
+            modalImage.style.opacity = '1';
+            modalImage.style.transform = 'translateX(0) scale(1)';
+            zoomLevel = 1;
+            translateX = 0;
+            translateY = 0;
+        };
+        
+        // تحديث الصورة الرئيسية أيضًا
+        const mainImage = document.getElementById('current-image');
+        if (mainImage) {
+            changeImage(allImages[currentImageIndex], directionName);
+        }
+    }, 300);
+    
+    // Reset zoom when changing images
+    resetZoom();
+}
+
+// Close image modal
+function closeImageModal() {
+    const modal = document.getElementById('image-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    
+    // Remove zoom instructions and status
+    const instructions = document.querySelector('.zoom-instructions');
+    if (instructions) instructions.classList.remove('show');
+    
+    const zoomStatus = document.querySelector('.zoom-status');
+    if (zoomStatus) zoomStatus.classList.remove('show');
+}
+
+// Ensure modal elements exist
+function ensureModalElements() {
+    const modalContent = document.querySelector('.modal-content');
+    if (!modalContent) return;
+    
+    // Check if zoom instructions element exists and create if not
+    if (!document.querySelector('.zoom-instructions')) {
+        const instructions = document.createElement('div');
+        instructions.className = 'zoom-instructions';
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
+        modalContent.appendChild(instructions);
+    }
+    
+    // Check if zoom status element exists and create if not
+    if (!document.querySelector('.zoom-status')) {
+        const zoomStatus = document.createElement('div');
+        zoomStatus.className = 'zoom-status';
+        modalContent.appendChild(zoomStatus);
+    }
+}
+
+// تحسين معالجات أحداث للنافذة المنبثقة عند تحميل المستند
+document.addEventListener('DOMContentLoaded', function() {
+    // ...existing code...
+    
+    // التأكد من وجود عنصر الصورة في النافذة المنبثقة
+    const modalImage = document.getElementById('modal-image');
+    if (modalImage) {
+        // إعداد معالجات الأحداث للسحب والتمرير
+        modalImage.addEventListener('mousedown', startDrag);
+        modalImage.addEventListener('touchstart', startDrag, { passive: false });
+        
+        window.addEventListener('mousemove', drag);
+        window.addEventListener('touchmove', drag, { passive: false });
+        
+        window.addEventListener('mouseup', endDrag);
+        window.addEventListener('touchend', endDrag);
+        
+        // إضافة تكبير بالنقر المزدوج على الأجهزة المحمولة
+        let lastTap = 0;
+        modalImage.addEventListener('touchend', function(e) {
+            const currentTime = new Date().getTime();
+            const tapLength = currentTime - lastTap;
+            
+            if (tapLength < 300 && tapLength > 0) {
+                // تم اكتشاف نقر مزدوج
+                if (zoomLevel === 1) {
+                    changeZoom(1); // تكبير
+                } else {
+                    resetZoom(); // إعادة ضبط
+                }
+                e.preventDefault();
+            }
+            
+            lastTap = currentTime;
+        });
+        
+        // إضافة تكبير بالنقر المزدوج للماوس
+        modalImage.addEventListener('dblclick', function(e) {
+            if (zoomLevel === 1) {
+                changeZoom(1); // تكبير
+            } else {
+                resetZoom(); // إعادة ضبط
+            }
+            e.preventDefault();
+        });
+    }
+    
+    // معالج النقر خارج الصورة لإغلاق النافذة
+    const modal = document.getElementById('image-modal');
+    if (modal) {
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                closeImageModal();
+            }
+        });
+    }
+    
+    // إغلاق النافذة باستخدام مفتاح ESC
+    document.addEventListener('keydown', function(event) {
+        const modal = document.getElementById('image-modal');
+        if (event.key === 'Escape' && modal && modal.style.display === 'block') {
+            closeImageModal();
+        }
+    });
+    
+    // ...existing code...
+});

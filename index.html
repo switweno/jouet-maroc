@@ -33,7 +33,7 @@
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-W8HSK5ZD');</script>
 <!-- End Google Tag Manager -->
@@ -316,27 +316,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </main>
     
     <!-- Image Modal/Lightbox - Fix empty src attributes -->
-    <div id="image-modal" class="image-modal">
-        <div class="modal-content">
-            <span class="close-modal" onclick="closeImageModal()">&times;</span>
-            <div class="zoom-container">
-                <img id="modal-image" src="product1.webp" alt="صورة مكبرة">
-                
-                <!-- Navigation Arrows -->
-                <button class="nav-arrow arrow-left" onclick="navigateImages(-1)">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="nav-arrow arrow-right" onclick="navigateImages(1)">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-            <div class="zoom-controls">
-                <button onclick="changeZoom(0.2)" class="zoom-btn"><i class="fas fa-search-plus"></i></button>
-                <button onclick="changeZoom(-0.2)" class="zoom-btn"><i class="fas fa-search-minus"></i></button>
-                <button onclick="resetZoom()" class="zoom-btn"><i class="fas fa-sync-alt"></i></button>
-            </div>
+    <!-- تحسين قسم تكبير الصورة - Image Modal/Lightbox -->
+<div id="image-modal" class="image-modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closeImageModal()">&times;</span>
+        <div class="zoom-instructions">
+            <i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس
+        </div>
+        <div class="zoom-container">
+            <img id="modal-image" src="product1.webp" alt="صورة مكبرة" draggable="false">
+            
+            <!-- أزرار التنقل بين الصور -->
+            <button class="nav-arrow arrow-left" onclick="navigateImages(-1)" aria-label="الصورة السابقة">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-arrow arrow-right" onclick="navigateImages(1)" aria-label="الصورة التالية">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="zoom-status">100%</div>
+        <div class="zoom-controls">
+            <button onclick="changeZoom(0.5)" class="zoom-btn" aria-label="تكبير"><i class="fas fa-search-plus"></i></button>
+            <button onclick="changeZoom(-0.5)" class="zoom-btn" aria-label="تصغير"><i class="fas fa-search-minus"></i></button>
+            <button onclick="resetZoom()" class="zoom-btn" aria-label="إعادة ضبط"><i class="fas fa-sync-alt"></i></button>
         </div>
     </div>
+</div>
+
     
     <!-- Order Confirmation Modal - Fix empty src attribute -->
     <div id="confirmation-modal" class="confirmation-modal">
