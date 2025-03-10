@@ -225,6 +225,7 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     z-index: 5;
     border: 2px solid rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
 }
 
@@ -303,10 +304,32 @@ main {
     overflow-y: hidden;
     gap: 12px;
     padding: 8px 5px;
-    -webkit-overflow-scrolling: touch; /* Better iOS scrolling */
+    /* Removed -webkit-overflow-scrolling: touch; as it is not supported by most browsers */
     scroll-behavior: smooth;
     flex-wrap: nowrap !important; /* Force nowrap regardless of screen size */
-    scrollbar-width: none; /* Hide Firefox scrollbar */
+        -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+        scrollbar-width: none; /* Hide Firefox scrollbar */
+        -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+        &::-webkit-scrollbar {
+            display: none; /* Hide scrollbar in WebKit browsers */
+        }
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+        &::-webkit-scrollbar {
+            display: none; /* Hide scrollbar in WebKit browsers */
+        }
+    }
+    
+    .thumbnails::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        display: none; /* Hide scrollbar in WebKit browsers */
     touch-action: manipulation; /* تغيير من pan-x إلى manipulation للسماح بالتمرير في كلا الاتجاهين */
     margin-bottom: 5px; /* Add bottom margin */
 }
@@ -563,6 +586,11 @@ main {
     cursor: pointer;
     padding: 0;
     margin-bottom: 0;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
 }
 
@@ -972,6 +1000,7 @@ main {
     pointer-events: none;
     white-space: nowrap;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -1040,6 +1069,9 @@ main {
     z-index: 1020;
     opacity: 0;
     transition: opacity 0.3s ease;
+    -webkit-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -2039,8 +2071,8 @@ input[type="email"],
 input[type="number"],
 textarea, 
 select {
-    appearance: none;
     -webkit-appearance: none;
+    appearance: none;
     border: 1px solid #ddd;
 }
 

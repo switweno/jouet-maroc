@@ -30,12 +30,18 @@
   gtag('config', 'G-CT0JMLFZY3');
 </script>
 	
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W8HSK5ZD');</script>
+<script>
+    (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = (l != 'dataLayer') ? '&l=' + l : '';
+        f.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer', 'GTM-W8HSK5ZD');
+    </script>
 <!-- End Google Tag Manager -->
     <!-- إضافة Bootstrap CSS لتحسين التنقل بين الصفحات -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -44,21 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Add favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js')
-        fbq('init', 'YOUR_PIXEL_ID_HERE');
-        fbq('track', 'PageView');
-    </script>
-    <!-- End Facebook Pixel Code -->
-    <!-- إضافة ملف بيانات المنتجات -->
+   
     <script src="products.js"></script>
 </head>
 <body>
@@ -70,11 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
     
-    <!-- Facebook Pixel noscript -->
-    <noscript>
-        <img height="1" width="1" style="display:none" 
-            src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1" alt="Facebook Pixel"/>
-    </noscript>
+  
     
     <header>
     <div class="container">
@@ -180,7 +168,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
 <div class="feature-category">
     <div class="accordion-header french-heading">
         <h4><i class="fas fa-shield-alt"></i> Sécurité et durabilité</h4>
-        <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+        <button class="accordion-toggle" title="Expand section"><i class="fas fa-chevron-down"></i></button>
     </div>
     <div class="accordion-content">
         <ul class="feature-list">
@@ -195,7 +183,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
 <div class="feature-category">
     <div class="accordion-header french-heading">
         <h4><i class="fas fa-cogs"></i> Avantages supplémentaires</h4>
-        <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+        <button class="accordion-toggle" title="Expand section"><i class="fas fa-chevron-down"></i></button>
     </div>
     <div class="accordion-content">
         <ul class="feature-list">
@@ -218,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
                     <h3>الكمية</h3>
                     <div class="quantity-controls">
                         <button class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
-                        <input type="number" id="quantity" value="1" min="1" max="10">
+                        <input type="number" id="quantity" value="1" min="1" max="10" title="الكمية" placeholder="أدخل الكمية">
                         <button class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
                     </div>
                 </div>
@@ -395,7 +383,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
     
   
     <!-- إضافة مؤشر تحميل لإظهاره أثناء تغيير المنتجات -->
-    <div id="loading-spinner" class="position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-white bg-opacity-75" style="display: none !important; z-index: 9999;">
+    <div id="loading-spinner" class="loading-spinner">
         <div class="spinner-border text-primary" role="status">
             <span class="visually-hidden">جاري التحميل...</span>
         </div>
@@ -410,16 +398,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l;f.async=true;j.src=
         <div class="social-links">
             <h3>تابعونا على وسائل التواصل</h3>
             <div class="social-icons">
-                <a href="https://www.facebook.com/jouetmaroc2" target="_blank" aria-label="فيسبوك">
+                <a href="https://www.facebook.com/jouetmaroc2" target="_blank" rel="noopener" aria-label="فيسبوك">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/jouetmaroc/" target="_blank" aria-label="إنستغرام">
+                <a href="https://www.instagram.com/jouetmaroc/" target="_blank" rel="noopener" aria-label="إنستغرام">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.youtube.com/@jouetmaroc" target="_blank" aria-label="يوتيوب">
+                <a href="https://www.youtube.com/@jouetmaroc" target="_blank" rel="noopener" aria-label="يوتيوب">
                     <i class="fab fa-youtube"></i>
                 </a>
-                <a href="https://wa.me/212762609147" target="_blank" aria-label="واتساب">
+                <a href="https://wa.me/212762609147" target="_blank" rel="noopener" aria-label="واتساب">
                     <i class="fab fa-whatsapp"></i>
                 </a>
             </div>

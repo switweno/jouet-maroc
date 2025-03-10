@@ -975,25 +975,10 @@ function setupProductLinks() {
 document.addEventListener('DOMContentLoaded', function() {
     try {
         // ضمان أننا في أعلى الصفحة عند تحميلها لأول مرة - استخدام حل فوري
-        window.scrollTo(0, 0);
+        
         
         // إضافة تمرير إضافي بعد تحميل المستند لضمان عرض الصفحة من الأعلى تمامًا
-        setTimeout(() => {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'auto'
-            });
-        }, 10);
-        
-        // تأكيد إضافي بعد تحميل الصفحة بالكامل
-        window.addEventListener('load', function() {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'auto'
-            });
-        });
+       
         
         // Load product data based on URL parameter
         loadProductFromURL();
