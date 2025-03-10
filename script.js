@@ -649,7 +649,10 @@ function setupThumbnailScrolling() {
 // تحسين دالة تحميل المنتج من URL للتحقق من وجود بيانات المنتجات
 function loadProductFromURL() {
     try {
-       
+        // إضافة تمرير فوري للأعلى في بداية تحميل المنتج
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
         
         const urlParams = new URLSearchParams(window.location.search);
         let productId = urlParams.get('product');
@@ -925,12 +928,13 @@ function setupProductLinks() {
 document.addEventListener('DOMContentLoaded', function() {
     try {
         // ضمان أننا في أعلى الصفحة عند تحميلها لأول مرة - استخدام حل فوري
-       
+        window.scrollTo(0, 0);
         
         // إضافة تمرير إضافي بعد تحميل المستند لضمان عرض الصفحة من الأعلى تمامًا
         setTimeout(() => {
             window.scrollTo({
-               
+                top: 0,
+                left: 0,
                 behavior: 'auto'
             });
         }, 10);
@@ -938,7 +942,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // تأكيد إضافي بعد تحميل الصفحة بالكامل
         window.addEventListener('load', function() {
             window.scrollTo({
-               
+                top: 0,
+                left: 0,
+                behavior: 'auto'
             });
         });
         
@@ -1102,7 +1108,35 @@ function updateRelatedProducts() {
     });
 }
 
-
+// إعداد سلايدر العروض في الهيدر
+document.addEventListener('DOMContentLoaded', function() {
+    // التأكد من توقف السلايدر عند الضغط على العناصر للهواتف
+    const offersTrack = document.querySelector('.offers-track');
+    const offerItems = document.querySelectorAll('.offer-item');
+    
+    if (offersTrack && offerItems.length > 0) {
+        // اكتشاف الأجهزة اللمسية
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        
+        offerItems.forEach(item => {
+            item.addEventListener(isTouchDevice ? 'touchstart' : 'mouseover', function() {
+                offersTrack.style.animationPlayState = 'paused';
+            });
+            
+            item.addEventListener(isTouchDevice ? 'touchend' : 'mouseout', function() {
+                offersTrack.style.animationPlayState = 'running';
+            });
+        });
+        
+        // إعادة ضبط موضع السلايدر عند تغيير أوضاع الشاشة
+        window.addEventListener('resize', function() {
+            offersTrack.style.animation = 'none';
+            setTimeout(function() {
+                offersTrack.style.animation = 'offerSlide 12s infinite ease-in-out';
+            }, 10);
+        });
+    }
+});
 
 // تحسين المعالج الرئيسي لتجنب تداخل عمليات التمرير
 document.addEventListener('DOMContentLoaded', function() {
@@ -1232,3 +1266,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// حفظ الوظيفة الأصلية للتمرير قبل التعديل عليها
+// window.originalScrollTo = window.scrollTo;
