@@ -706,12 +706,7 @@ function loadProductFromURL() {
             productId = "trottinette-EcoXtrem-liner"; // Default product
         }
         
-        // التحقق من أن مصفوفة المنتجات موجودة قبل البحث فيها
-        if (!Array.isArray(products) || products.length === 0) {
-            console.error("Products array is not available or empty");
-            return;
-        }
-        
+        // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
         const product = products.find(p => p.id === productId);
         const productData = product || products[0]; // استخدام المنتج الأول كاحتياطي
         
@@ -896,38 +891,28 @@ function updateProductDisplay(product) {
     if (product.videoURL) {
         const videoContainer = document.querySelector('.video-container');
         
-        // إعادة كتابة كاملة لمعالجة الفيديو
+        // بسط الكود وإعادته للطريقة الأصلية
         if (product.id === "trottinette-bison-gt-1000") {
             // تطبيق فئة الفيديو العمودي
             videoContainer.classList.add('portrait-video');
-            
-            // استخدام innerHTML لضمان تحميل الإطار بشكل صحيح
-            videoContainer.innerHTML = `<iframe 
+        } else {
+            // إزالة فئة الفيديو العمودي إذا وُجدت
+            videoContainer.classList.remove('portrait-video');
+        }
+        
+        // استخدام الطريقة البسيطة والمباشرة في عرض الفيديو
+        videoContainer.innerHTML = `
+            <iframe 
                 src="${product.videoURL}" 
-                width="267" 
-                height="476" 
+                width="${product.id === "trottinette-bison-gt-1000" ? '267' : '560'}" 
+                height="${product.id === "trottinette-bison-gt-1000" ? '476' : '314'}" 
                 style="border:none;overflow:hidden" 
                 scrolling="no" 
                 frameborder="0" 
                 allowfullscreen="true" 
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                allowFullScreen="true">
-            </iframe>`;
-        } else {
-            // إزالة فئة الفيديو العمودي إذا وُجدت
-            videoContainer.classList.remove('portrait-video');
-            
-            // استخدام innerHTML للفيديوهات الأفقية أيضًا
-            videoContainer.innerHTML = `<iframe 
-                src="${product.videoURL}" 
-                width="560" 
-                height="314" 
-                style="border:none;overflow:hidden" 
-                title="فيديو المنتج" 
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                allowfullscreen="true">
-            </iframe>`;
-        }
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+        `;
     }
 }
 
@@ -1139,7 +1124,7 @@ function updateRelatedProducts() {
         const productId = new URLSearchParams(href.split('?')[1]).get('product');
         
         if (productId) {
-            // البحث عن بيانات المنتج
+            // البحث عن بيانات المنتج - استخدام products مباشرةً
             const relatedProduct = products.find(p => p.id === productId);
             
             if (relatedProduct) {
@@ -1385,7 +1370,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         // استعادة التمرير التلقائي فقط عند تحميل منتج جديد
-        function loadProductFromURL() {
+        const loadProductFromURLLocal = function() {
             try {
                 // تحقق مما إذا كان هذا تحميل منتج جديد بعد نقر المستخدم
                 const isProductSwitch = document.referrer.includes(window.location.host);
@@ -1396,22 +1381,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     window.scrollTo(0, 0);
                 }
                 
-                // باقي الكود لتحميل المنتج...
-                const urlParams = new URLSearchParams(window.location.search);
-                let productId = urlParams.get('product');
+                // استدعاء الدالة الأصلية لتحميل المنتج
+                loadProductFromURL();
                 
-                if (!productId) {
-                    productId = "trottinette-EcoXtrem-liner"; // Default product
-                }
-                
-                // ...existing code (rest of the loadProductFromURL function)...
             } catch (error) {
                 console.error("Error loading product:", error);
             }
-        }
+        };
 
-        // تعديل معالج نقر روابط المنتجات
-        function setupProductLinks() {
+        // استخدام تعبير وظيفي بدلاً من إعلان دالة
+        const setupProductLinksLocal = function() {
             document.querySelectorAll('.related-products .product-link').forEach(link => {
                 // إزالة معالجات الأحداث القديمة
                 link.onclick = null;
@@ -1439,7 +1418,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         });
                         
                         setTimeout(() => {
-                            loadProductFromURL();
+                            loadProductFromURLLocal();
                             // استعادة التفاعلات بعد اكتمال التحميل
                             document.body.style.pointerEvents = 'auto';
                         }, 400);
@@ -1452,7 +1431,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 link.style.cursor = 'pointer';
                 link.style.webkitTapHighlightColor = 'transparent';
             });
-        }
+        };
+
+        // استدعاء الدالة المحلية
+        setupProductLinksLocal();
 
     } catch (error) {
         console.error("Error initializing page:", error);
