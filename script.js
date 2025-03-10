@@ -335,6 +335,7 @@ function openImageModal() {
     const modal = document.getElementById('image-modal');
     const currentImage = document.getElementById('current-image');
     const modalImage = document.getElementById('modal-image');
+    const zoomContainer = document.querySelector('.zoom-container');
     
     // Collect all product images
     allImages = [];
@@ -357,83 +358,44 @@ function openImageModal() {
     // Reset zoom and position
     resetZoom();
     
+    // Check image type (vertical or horizontal) and apply appropriate class
+    modalImage.onload = function() {
+        if (this.naturalHeight > this.naturalWidth) {
+            zoomContainer.classList.add('vertical-image');
+        } else {
+            zoomContainer.classList.remove('vertical-image');
+        }
+        
+        // Ensure image is centered
+        centerModalImage();
+    };
+    
     // Display the modal
     modal.style.display = 'block';
     
     // Prevent body scrolling when modal is open
     document.body.style.overflow = 'hidden';
     
-    // Track event in Facebook Pixel
+    // Ensure modal elements exist
+    ensureModalElements();
+    
+    // Show zoom instructions
+    showZoomInstructions();
+    
+    // Track event in Facebook Pixel if available
     if (typeof fbq === 'function') {
         fbq('track', 'ViewContent', {
             content_type: 'product_image',
             content_ids: ['PROD12345']
         });
     }
-    
-    // Show zoom instructions
-    showZoomInstructions();
 }
 
-// Show zoom instructions
-function showZoomInstructions() {
-    // Check if instructions element exists or create it if not
-    let instructions = document.querySelector('.zoom-instructions');
-    if (!instructions) {
-        instructions = document.createElement('div');
-        instructions.className = 'zoom-instructions';
-        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
-        document.querySelector('.modal-content').appendChild(instructions);
-    }
+// Center modal image
+function centerModalImage() {
+    const modalImage = document.getElementById('modal-image');
+    if (!modalImage) return;
     
-    // Show instructions after ensuring modal is displayed
-    setTimeout(() => {
-        instructions.classList.add('show');
-    }, 300);
-    
-    // Create element to display zoom status
-    let zoomStatus = document.querySelector('.zoom-status');
-    if (!zoomStatus) {
-        zoomStatus = document.createElement('div');
-        zoomStatus.className = 'zoom-status';
-        document.querySelector('.modal-content').appendChild(zoomStatus);
-    }
-}
-
-// Update zoom status
-function updateZoomStatus() {
-    const zoomStatus = document.querySelector('.zoom-status');
-    if (!zoomStatus) return;
-    
-    zoomStatus.textContent = `${Math.round(zoomLevel * 100)}%`;
-    zoomStatus.classList.add('show');
-    
-    if (timeoutId) clearTimeout(timeoutId);
-    
-    timeoutId = setTimeout(() => {
-        zoomStatus.classList.remove('show');
-    }, 1500);
-}
-
-// Change zoom level with zoom status display
-function changeZoom(amount) {
-    const prevZoom = zoomLevel;
-    zoomLevel += amount;
-    
-    // Limit zoom level
-    if (zoomLevel < 1) zoomLevel = 1;
-    if (zoomLevel > 4) zoomLevel = 4;
-    
-    // Do not proceed if zoom level did not change
-    if (prevZoom === zoomLevel) return;
-    
-    updateImageTransform();
-    updateZoomStatus();
-}
-
-// Reset zoom level and position
-function resetZoom() {
-    zoomLevel = 1;
     translateX = 0;
     translateY = 0;
     updateImageTransform();
@@ -443,7 +405,68 @@ function resetZoom() {
 function updateImageTransform() {
     const modalImage = document.getElementById('modal-image');
     if (modalImage) {
+        // Apply transform with centering
         modalImage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomLevel})`;
+    }
+}
+
+// Reset zoom level and position
+function resetZoom() {
+    zoomLevel = 1;
+    translateX = 0;
+    translateY = 0;
+    updateImageTransform();
+    
+    // Update zoom status
+    updateZoomStatus();
+}
+
+// Change zoom level with zoom status display
+function changeZoom(amount) {
+    const prevZoom = zoomLevel;
+    const zoomContainer = document.querySelector('.zoom-container');
+    const modalImage = document.getElementById('modal-image');
+    
+    // Retain the position of the center point before zooming
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+    
+    // Calculate the distance between the center and the current position
+    const offsetX = translateX;
+    const offsetY = translateY;
+    
+    // Change zoom level
+    zoomLevel += amount;
+    
+    // Limit zoom level
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > 4) zoomLevel = 4;
+    
+    // Do not proceed if zoom level did not change
+    if (prevZoom === zoomLevel) return;
+    
+    // Calculate new position to maintain the center point
+    if (prevZoom !== 1 && zoomLevel !== 1) {
+        // Update offset based on zoom level change
+        translateX = (offsetX / prevZoom) * zoomLevel;
+        translateY = (offsetY / prevZoom) * zoomLevel;
+    } else if (zoomLevel === 1) {
+        // Center image when zooming out to normal size
+        translateX = 0;
+        translateY = 0;
+    }
+    
+    // Apply changes
+    updateImageTransform();
+    
+    // Update zoom status
+    updateZoomStatus();
+    
+    // Add highlight class if zoom level is greater than 1
+    if (zoomLevel > 1) {
+        zoomContainer.classList.add('zoomed');
+    } else {
+        zoomContainer.classList.remove('zoomed');
     }
 }
 
@@ -479,7 +502,7 @@ function drag(e) {
         currentY = e.touches[0].clientY;
     }
     
-    // Calculate movement - reduce sensitivity on mobile
+    // Calculate movement
     const deltaX = currentX - startX;
     const deltaY = currentY - startY;
     
@@ -493,10 +516,22 @@ function drag(e) {
         translateX += deltaX * sensitivity;
         translateY += deltaY * sensitivity;
         
-        // Scroll limits based on zoom level
-        const maxTranslate = (zoomLevel - 1) * 200;
-        translateX = Math.max(Math.min(translateX, maxTranslate), -maxTranslate);
-        translateY = Math.max(Math.min(translateY, maxTranslate), -maxTranslate);
+        // Calculate scroll limits based on zoom level
+        const containerWidth = window.innerWidth * 0.85; // 85% of window width
+        const containerHeight = window.innerHeight * 0.75; // 75% of window height
+        const modalImage = document.getElementById('modal-image');
+        
+        if (modalImage) {
+            const scaledWidth = modalImage.offsetWidth * zoomLevel;
+            const scaledHeight = modalImage.offsetHeight * zoomLevel;
+            
+            const maxTranslateX = Math.max(0, (scaledWidth - containerWidth) / 2);
+            const maxTranslateY = Math.max(0, (scaledHeight - containerHeight) / 2);
+            
+            // Apply limits with proportionality
+            translateX = Math.min(Math.max(translateX, -maxTranslateX), maxTranslateX);
+            translateY = Math.min(Math.max(translateY, -maxTranslateY), maxTranslateY);
+        }
         
         // Update image position
         updateImageTransform();
@@ -1521,64 +1556,454 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // التأكد من وجود عنصر الصورة في النافذة المنبثقة
     const modalImage = document.getElementById('modal-image');
+    const zoomContainer = document.querySelector('.zoom-container');
+    
+    if (modalImage && zoomContainer) {
+        modalImage.onload = function() {
+            // التحقق مما إذا كانت الصورة عمودية أو أفقية
+            if (this.naturalHeight > this.naturalWidth) {
+                zoomContainer.classList.add('vertical-image');
+            } else {
+                zoomContainer.classList.remove('vertical-image');
+            }
+            
+            // التأكد من تمركز الصورة
+            centerModalImage();
+        };
+    }
+    
+    // ...existing code...
+});
+
+// تحسين وظيفة إظهار حالة التكبير
+function updateZoomStatus() {
+    const zoomStatus = document.querySelector('.zoom-status');
+    if (!zoomStatus) return;
+    
+    zoomStatus.textContent = `${Math.round(zoomLevel * 100)}%`;
+    zoomStatus.classList.add('show');
+    
+    if (timeoutId) clearTimeout(timeoutId);
+    
+    timeoutId = setTimeout(() => {
+        zoomStatus.classList.remove('show');
+    }, 1500);
+}
+
+// تحسين التأكد من وجود عناصر النافذة المنبثقة
+function ensureModalElements() {
+    const modalContent = document.querySelector('.modal-content');
+    if (!modalContent) return;
+    
+    // التحقق من وجود عنصر إرشادات التكبير وإنشائه إذا لم يكن موجودًا
+    if (!document.querySelector('.zoom-instructions')) {
+        const instructions = document.createElement('div');
+        instructions.className = 'zoom-instructions';
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
+        modalContent.appendChild(instructions);
+    }
+    
+    // التحقق من وجود عنصر حالة التكبير وإنشائه إذا لم يكن موجودًا
+    if (!document.querySelector('.zoom-status')) {
+        const zoomStatus = document.createElement('div');
+        zoomStatus.className = 'zoom-status';
+        modalContent.appendChild(zoomStatus);
+    }
+}
+
+// تحسين وظيفة إعادة ضبط التكبير
+function resetZoom() {
+    zoomLevel = 1;
+    translateX = 0;
+    translateY = 0;
+    updateImageTransform();
+    
+    // تحديث حالة التكبير
+    updateZoomStatus();
+}
+
+// تحسين وظيفة تحديث تحويل الصورة
+function updateImageTransform() {
+    const modalImage = document.getElementById('modal-image');
     if (modalImage) {
-        // إعداد معالجات الأحداث للسحب والتمرير
-        modalImage.addEventListener('mousedown', startDrag);
-        modalImage.addEventListener('touchstart', startDrag, { passive: false });
+        // تطبيق التحويل مع ضمان المركزية
+        modalImage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${zoomLevel})`;
+    }
+}
+
+// دالة جديدة للتأكد من تمركز الصورة في النافذة المنبثقة
+function centerModalImage() {
+    const modalImage = document.getElementById('modal-image');
+    if (!modalImage) return;
+    
+    translateX = 0;
+    translateY = 0;
+    updateImageTransform();
+}
+
+// تحسين وظيفة تغيير مستوى التكبير
+function changeZoom(amount) {
+    const prevZoom = zoomLevel;
+    const zoomContainer = document.querySelector('.zoom-container');
+    const modalImage = document.getElementById('modal-image');
+    
+    // احتفظ بموضع النقطة المركزية قبل التكبير
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+    
+    // حساب المسافة بين المركز والموضع الحالي
+    const offsetX = translateX;
+    const offsetY = translateY;
+    
+    // تغيير مستوى التكبير
+    zoomLevel += amount;
+    
+    // تحديد حدود التكبير
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > 4) zoomLevel = 4;
+    
+    // عدم التنفيذ إذا لم يتغير مستوى التكبير
+    if (prevZoom === zoomLevel) return;
+    
+    // حساب الموضع الجديد للحفاظ على النقطة المركزية
+    if (prevZoom !== 1 && zoomLevel !== 1) {
+        // تحديث الإزاحة بناءً على التغير في مستوى التكبير
+        translateX = (offsetX / prevZoom) * zoomLevel;
+        translateY = (offsetY / prevZoom) * zoomLevel;
+    } else if (zoomLevel === 1) {
+        // إعادة الصورة للمركز عند التصغير للحجم الطبيعي
+        translateX = 0;
+        translateY = 0;
+    }
+    
+    // تطبيق التغييرات
+    updateImageTransform();
+    
+    // تحديث حالة التكبير
+    updateZoomStatus();
+    
+    // إضافة فئة مميزة إذا كان التكبير أكبر من 1
+    if (zoomLevel > 1) {
+        zoomContainer.classList.add('zoomed');
+    } else {
+        zoomContainer.classList.remove('zoomed');
+    }
+}
+
+// تحسين وظيفة سحب الصورة
+function drag(e) {
+    if (!isDragging) return;
+    
+    e.preventDefault();
+    
+    let currentX, currentY;
+    
+    // الحصول على الموضع الحالي
+    if (e.type === 'mousemove') {
+        currentX = e.clientX;
+        currentY = e.clientY;
+    } else if (e.type === 'touchmove') {
+        currentX = e.touches[0].clientX;
+        currentY = e.touches[0].clientY;
+    }
+    
+    // حساب مقدار الحركة
+    const deltaX = currentX - startX;
+    const deltaY = currentY - startY;
+    
+    // تطبيق حساسية مختلفة للأجهزة المحمولة
+    const isMobile = window.innerWidth <= 767;
+    const sensitivity = isMobile ? 0.8 : 1;
+    
+    // السماح بالتمرير فقط عند التكبير
+    if (zoomLevel > 1) {
+        // تحديث الموضع
+        translateX += deltaX * sensitivity;
+        translateY += deltaY * sensitivity;
         
-        window.addEventListener('mousemove', drag);
-        window.addEventListener('touchmove', drag, { passive: false });
+        // حساب حدود التمرير بناءً على مستوى التكبير
+        const containerWidth = window.innerWidth * 0.85; // 85% من عرض النافذة
+        const containerHeight = window.innerHeight * 0.75; // 75% من ارتفاع النافذة
+        const modalImage = document.getElementById('modal-image');
         
-        window.addEventListener('mouseup', endDrag);
-        window.addEventListener('touchend', endDrag);
+        if (modalImage) {
+            const scaledWidth = modalImage.offsetWidth * zoomLevel;
+            const scaledHeight = modalImage.offsetHeight * zoomLevel;
+            
+            const maxTranslateX = Math.max(0, (scaledWidth - containerWidth) / 2);
+            const maxTranslateY = Math.max(0, (scaledHeight - containerHeight) / 2);
+            
+            // تطبيق الحدود مع مراعاة التناسب
+            translateX = Math.min(Math.max(translateX, -maxTranslateX), maxTranslateX);
+            translateY = Math.min(Math.max(translateY, -maxTranslateY), maxTranslateY);
+        }
         
-        // إضافة تكبير بالنقر المزدوج على الأجهزة المحمولة
+        // تحديث موضع الصورة
+        updateImageTransform();
+    }
+    
+    // إعادة تعيين نقطة البداية
+    startX = currentX;
+    startY = currentY;
+}
+
+// تحسين فتح نافذة تكبير الصورة للهواتف
+function openImageModal() {
+    const modal = document.getElementById('image-modal');
+    const currentImage = document.getElementById('current-image');
+    const modalImage = document.getElementById('modal-image');
+    const zoomContainer = document.querySelector('.zoom-container');
+    
+    // جمع كل صور المنتج
+    allImages = [];
+    document.querySelectorAll('.thumbnail').forEach(thumbnail => {
+        allImages.push(thumbnail.src);
+    });
+    
+    // إضافة الصورة الرئيسية إذا لم تكن موجودة في الصور المصغرة
+    if (!allImages.includes(currentImage.src)) {
+        allImages.unshift(currentImage.src);
+    }
+    
+    // تحديد الصورة الحالية
+    currentImageIndex = allImages.indexOf(currentImage.src);
+    if (currentImageIndex === -1) currentImageIndex = 0;
+    
+    // تعيين مصدر الصورة في النافذة
+    modalImage.src = currentImage.src;
+    
+    // إعادة ضبط التكبير والموضع
+    resetZoom();
+    
+    // اكتشاف نوع الجهاز
+    const isMobile = window.innerWidth <= 768 || ('ontouchstart' in window);
+    
+    // إظهار النافذة
+    modal.style.display = 'block';
+    
+    // منع التمرير في الخلفية
+    document.body.style.overflow = 'hidden';
+    
+    // إضافة إرشادات التكبير والتمرير
+    showZoomInstructions(isMobile);
+    
+    // فحص اتجاه الصورة بعد تحميلها
+    modalImage.onload = function() {
+        // التحقق مما إذا كانت الصورة عمودية أو أفقية
+        if (this.naturalHeight > this.naturalWidth) {
+            zoomContainer.classList.add('vertical-image');
+        } else {
+            zoomContainer.classList.remove('vertical-image');
+        }
+        
+        // التأكد من تمركز الصورة
+        centerModalImage();
+    };
+    
+    // تتبع الحدث باستخدام Facebook Pixel إذا كان متاحًا
+    if (typeof fbq === 'function') {
+        fbq('track', 'ViewContent', {
+            content_type: 'product_image',
+            content_ids: ['PROD12345']
+        });
+    }
+}
+
+// تحسين وظيفة إظهار إرشادات التكبير للهواتف
+function showZoomInstructions(isMobile) {
+    const modalContent = document.querySelector('.modal-content');
+    if (!modalContent) return;
+    
+    // التأكد من حذف أي إرشادات قديمة
+    const existingInstructions = document.querySelector('.zoom-instructions');
+    if (existingInstructions) {
+        existingInstructions.remove();
+    }
+    
+    // إنشاء إرشادات جديدة
+    const instructions = document.createElement('div');
+    instructions.className = 'zoom-instructions';
+    
+    // تغيير النص حسب نوع الجهاز
+    if (isMobile) {
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> انقر مرتين للتكبير، اسحب للتحريك';
+    } else {
+        instructions.innerHTML = '<i class="fas fa-search-plus"></i> استخدم أزرار التكبير أو عجلة الماوس';
+    }
+    
+    modalContent.appendChild(instructions);
+    
+    // عرض الإرشادات بعد التأكد من وجود النافذة
+    setTimeout(() => {
+        instructions.classList.add('show');
+        
+        // إخفاء الإرشادات تلقائيًا بعد 4 ثوانٍ
+        setTimeout(() => {
+            instructions.classList.remove('show');
+        }, 4000);
+    }, 300);
+}
+
+// تحسين وظيفة التكبير للاستجابة بشكل أفضل على الهواتف
+function changeZoom(amount) {
+    const prevZoom = zoomLevel;
+    const zoomContainer = document.querySelector('.zoom-container');
+    const modalImage = document.getElementById('modal-image');
+    
+    // تعديل كمية التكبير للهواتف
+    const isMobile = window.innerWidth <= 768;
+    const zoomStep = isMobile ? (amount * 0.8) : amount; // تقليل قيمة التكبير للهواتف
+    
+    // تغيير مستوى التكبير
+    zoomLevel += zoomStep;
+    
+    // تحديد حدود التكبير (تقليل الحد الأقصى على الهواتف)
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > (isMobile ? 3 : 4)) zoomLevel = (isMobile ? 3 : 4);
+    
+    // عدم التنفيذ إذا لم يتغير مستوى التكبير
+    if (prevZoom === zoomLevel) return;
+    
+    // حفظ موضع المركز قبل التكبير
+    const centerX = translateX;
+    const centerY = translateY;
+    
+    // إعادة حساب الموضع للحفاظ على نقطة المركز
+    if (prevZoom !== 1 && zoomLevel !== 1) {
+        translateX = (centerX / prevZoom) * zoomLevel;
+        translateY = (centerY / prevZoom) * zoomLevel;
+    } else if (zoomLevel === 1) {
+        // إعادة الصورة للمركز عند التصغير للحجم الطبيعي
+        translateX = 0;
+        translateY = 0;
+    }
+    
+    // تطبيق التغييرات
+    updateImageTransform();
+    
+    // تحديث حالة التكبير
+    updateZoomStatus();
+    
+    // إضافة فئة للتمييز عند التكبير
+    if (zoomLevel > 1) {
+        zoomContainer.classList.add('zoomed');
+    } else {
+        zoomContainer.classList.remove('zoomed');
+    }
+}
+
+// تحسين وظيفة السحب على الهواتف
+function drag(e) {
+    if (!isDragging) return;
+    
+    e.preventDefault();
+    
+    let currentX, currentY;
+    
+    // الحصول على الموضع الحالي
+    if (e.type === 'mousemove') {
+        currentX = e.clientX;
+        currentY = e.clientY;
+    } else if (e.type === 'touchmove') {
+        currentX = e.touches[0].clientX;
+        currentY = e.touches[0].clientY;
+    }
+    
+    // حساب مقدار الحركة
+    const deltaX = currentX - startX;
+    const deltaY = currentY - startY;
+    
+    // تطبيق حساسية مختلفة للأجهزة المحمولة
+    const isMobile = window.innerWidth <= 768;
+    // زيادة حساسية الهواتف لتحسين تجربة السحب
+    const sensitivity = isMobile ? 1.0 : 1.0;
+    
+    // السماح بالتمرير فقط عند التكبير
+    if (zoomLevel > 1) {
+        // تحديث الموضع مع تطبيق الحساسية
+        translateX += deltaX * sensitivity;
+        translateY += deltaY * sensitivity;
+        
+        // حساب حدود التمرير بناءً على مستوى التكبير والحاوية
+        const modalImage = document.getElementById('modal-image');
+        
+        if (modalImage) {
+            // حساب أبعاد الصورة المكبرة
+            const scaledWidth = modalImage.offsetWidth * zoomLevel;
+            const scaledHeight = modalImage.offsetHeight * zoomLevel;
+            
+            // ضبط الحدود نسبيًا لتجنب مشكلات على الهواتف
+            const containerWidth = window.innerWidth * (isMobile ? 0.9 : 0.85);
+            const containerHeight = window.innerHeight * (isMobile ? 0.7 : 0.8);
+            
+            // حساب الحدود القصوى للحركة
+            const maxTranslateX = Math.max(0, (scaledWidth - containerWidth) / 2);
+            const maxTranslateY = Math.max(0, (scaledHeight - containerHeight) / 2);
+            
+            // تطبيق الحدود بشكل أكثر مرونة للهواتف
+            translateX = Math.min(Math.max(translateX, -maxTranslateX * 1.1), maxTranslateX * 1.1);
+            translateY = Math.min(Math.max(translateY, -maxTranslateY * 1.1), maxTranslateY * 1.1);
+        }
+        
+        // تحديث موضع الصورة
+        updateImageTransform();
+    }
+    
+    // إعادة تعيين نقطة البداية
+    startX = currentX;
+    startY = currentY;
+}
+
+// تحسين تجربة النقر المزدوج للتكبير على الهواتف
+document.addEventListener('DOMContentLoaded', function() {
+    // ...existing code...
+    
+    const modalImage = document.getElementById('modal-image');
+    if (modalImage) {
+        // تحسين تجربة النقر المزدوج على الهواتف
         let lastTap = 0;
+        let touchTimeout;
+        
         modalImage.addEventListener('touchend', function(e) {
             const currentTime = new Date().getTime();
             const tapLength = currentTime - lastTap;
             
-            if (tapLength < 300 && tapLength > 0) {
-                // تم اكتشاف نقر مزدوج
+            // تحسين اكتشاف النقر المزدوج على الهواتف
+            clearTimeout(touchTimeout);
+            
+            if (tapLength < 400 && tapLength > 0) {
+                // نقر مزدوج - تبديل حالة التكبير
                 if (zoomLevel === 1) {
-                    changeZoom(1); // تكبير
+                    // مستوى تكبير أقل للهواتف
+                    changeZoom(window.innerWidth <= 768 ? 1 : 1.5);
                 } else {
-                    resetZoom(); // إعادة ضبط
+                    resetZoom();
                 }
+                
                 e.preventDefault();
+            } else {
+                // انتظار لفترة قصيرة للتحقق من النقر المزدوج
+                touchTimeout = setTimeout(() => {
+                    // إجراء للنقر الفردي إذا احتجنا
+                }, 300);
             }
             
             lastTap = currentTime;
         });
         
-        // إضافة تكبير بالنقر المزدوج للماوس
-        modalImage.addEventListener('dblclick', function(e) {
-            if (zoomLevel === 1) {
-                changeZoom(1); // تكبير
-            } else {
-                resetZoom(); // إعادة ضبط
-            }
+        // إضافة تكبير بعجلة الماوس للأجهزة المكتبية
+        modalImage.addEventListener('wheel', function(e) {
             e.preventDefault();
-        });
-    }
-    
-    // معالج النقر خارج الصورة لإغلاق النافذة
-    const modal = document.getElementById('image-modal');
-    if (modal) {
-        modal.addEventListener('click', function(event) {
-            if (event.target === modal) {
-                closeImageModal();
+            
+            // تغيير التكبير بناءً على اتجاه عجلة الماوس
+            if (e.deltaY < 0) {
+                // تصغير قيمة التغيير للحصول على تجربة أكثر سلاسة
+                changeZoom(0.25);
+            } else {
+                changeZoom(-0.25);
             }
         });
     }
-    
-    // إغلاق النافذة باستخدام مفتاح ESC
-    document.addEventListener('keydown', function(event) {
-        const modal = document.getElementById('image-modal');
-        if (event.key === 'Escape' && modal && modal.style.display === 'block') {
-            closeImageModal();
-        }
-    });
     
     // ...existing code...
 });
