@@ -501,71 +501,9 @@ function endDrag() {
     isDragging = false;
 }
 
-// وظائف التمرير والتنقل بين المنتجات
-// ضبط موضع التمرير بشكل دقيق
-function forceScrollToTop() {
-    // استخدام طرق متعددة لضمان تطبيق الأفضل حسب المتصفح
-    if (window.scrollTo) {
-        window.scrollTo(0, 0);
-    }
-    if (document.documentElement) {
-        document.documentElement.scrollTop = 0;
-    }
-    if (document.body) {
-        document.body.scrollTop = 0;
-    }
-}
 
-// معالجة روابط المنتجات
-function setupProductLinks() {
-    document.querySelectorAll('.related-products .product-link').forEach(link => {
-        // إزالة معالجات الأحداث القديمة
-        link.onclick = null;
-        
-        // إضافة معالج حدث جديد
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation(); // منع انتشار الحدث
-            
-            // تعطيل الرابط مؤقتًا لمنع النقرات المتكررة
-            this.style.pointerEvents = 'none';
-            
-            const href = this.getAttribute('href');
-            const productId = new URLSearchParams(href.split('?')[1]).get('product');
-            
-            if (productId) {
-                // إظهار مؤشر تحميل (اختياري - يمكن إضافته لاحقًا)
-                document.body.style.cursor = 'wait';
-                
-                // تحديث عنوان URL
-                history.pushState({}, '', `?product=${productId}`);
-                
-                // استخدام طريقة تمرير فورية (بدون smooth) للتأكد من التمرير الكامل
-                window.scrollTo(0, 0);
-                
-                // تأكيد إضافي للتمرير
-                setTimeout(() => {
-                    document.documentElement.scrollTop = 0;
-                    document.body.scrollTop = 0;
-                    
-                    // انتظار فترة قصيرة ثم تحميل المنتج
-                    setTimeout(() => {
-                        loadProductFromURL();
-                        
-                        // إعادة تمكين التفاعل مع الرابط والمؤشر الطبيعي
-                        this.style.pointerEvents = 'auto';
-                        document.body.style.cursor = 'default';
-                    }, 100);
-                }, 50);
-            } else {
-                this.style.pointerEvents = 'auto';
-            }
-        });
-        
-        // تحسين تجربة المؤشر على الروابط
-        link.style.cursor = 'pointer';
-    });
-}
+
+
 
 // وظائف واجهة المستخدم
 function setupAccordion() {
@@ -650,9 +588,8 @@ function setupThumbnailScrolling() {
 function loadProductFromURL() {
     try {
         // إضافة تمرير فوري للأعلى في بداية تحميل المنتج
-        window.scrollTo(0, 0);
-        document.documentElement.scrollTop = 0;
-        document.body.scrollTop = 0;
+        
+       
         
         const urlParams = new URLSearchParams(window.location.search);
         let productId = urlParams.get('product');
@@ -927,26 +864,9 @@ function setupProductLinks() {
 // تحسين المعالج الرئيسي بإضافة مراقبة للتغييرات في الـ URL
 document.addEventListener('DOMContentLoaded', function() {
     try {
-        // ضمان أننا في أعلى الصفحة عند تحميلها لأول مرة - استخدام حل فوري
-        window.scrollTo(0, 0);
+       
         
-        // إضافة تمرير إضافي بعد تحميل المستند لضمان عرض الصفحة من الأعلى تمامًا
-        setTimeout(() => {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'auto'
-            });
-        }, 10);
-        
-        // تأكيد إضافي بعد تحميل الصفحة بالكامل
-        window.addEventListener('load', function() {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'auto'
-            });
-        });
+       
         
         // Load product data based on URL parameter
         loadProductFromURL();
