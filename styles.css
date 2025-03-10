@@ -3231,7 +3231,7 @@ footer .copyright {
 @media (max-width: 380px) {
     .product-link {
         width: 100%;
-        max-width: 225px;
+        max-width: 250px;
     }
     
     .related-product img {
