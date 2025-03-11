@@ -84,14 +84,6 @@ header {
    
 }
 
-
-/* نص مخفي لزيادة المسافة */
-.hidden-text {
-    visibility: hidden; /* النص لا يظهر على الصفحة */
-    display: inline-block;
-    width: 3px; /* تعيين المسافة التي تريد إضافتها */
-}
-
 /* أنماط القائمة الجانبية */
 .sidebar-menu {
     position: fixed;
