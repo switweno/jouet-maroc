@@ -157,14 +157,13 @@ function updateQuantity(change) {
 
 // Scroll to order form
 function scrollToForm() {
-    const formElement = document.getElementById('order-section');
-    formElement.scrollIntoView({ behavior: 'smooth' });
-    
-    // Track event in Facebook Pixel
-    if (typeof fbq === 'function') {
-        fbq('track', 'InitiateCheckout');
-    }
+    const orderSection = document.getElementById('order-section');
+    window.scrollTo({
+        top: orderSection.offsetTop - 70,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
+        behavior: 'smooth'  // التمرير السلس
+    });
 }
+
 
 // Form submission via WhatsApp with confirmation
 function submitFormViaWhatsApp(event) {
