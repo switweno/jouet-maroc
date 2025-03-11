@@ -25,7 +25,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #333, #333);
+    background: linear-gradient(135deg, #333, #222);
     color: white;
     padding: 15px 0;
     text-align: center;
@@ -34,33 +34,307 @@ header {
     overflow: hidden;
 }
 
-header::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 60%);
-    opacity: 0.6;
-    pointer-events: none;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; /* تغيير إلى row بدلاً من row-reverse */
 }
 
-header h1 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+/* أنماط زر القائمة */
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 0; /* تأكيد أن الزر على اليمين */
 }
 
-.special-offer {
-    margin: 10px auto 0;
+.menu-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-toggle i {
+    font-size: 1.2rem;
+}
+
+/* تنسيق اسم الموقع في الجانب الأيسر */
+.site-brand {
+    margin-left: 0; /* تأكيد أن العلامة على اليسار */
+}
+
+.site-brand h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #fff, #e0e0e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* أنماط القائمة الجانبية */
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    right: -300px; /* مخفية خارج الشاشة */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+}
+
+.sidebar-menu.open {
+    right: 0; /* القائمة تظهر */
+    width: 100%; /* عرض القائمة عند الفتح */
+    background-color: rgba(255, 255, 255, 0.9); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
+    z-index: 1000; /* تأكد من أن القائمة أعلى من السلايدر */
+    transition: right 0.3s ease;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0056b3;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-header span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sidebar-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
     padding: 0;
-    max-width: 80%; /* زيادة العرض الأقصى من 300px للنسبة المئوية */
-    width: fit-content; /* السماح للحاوية بالتوسع وفقًا للمحتوى */
-    overflow: hidden;
-    direction: ltr; /* ضبط اتجاه السلايدر بشكل صريح للتوافق مع أي توجيه للصفحة */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
 }
 
+.sidebar-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-content {
+    padding: 15px;
+}
+
+.sidebar-categories {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-category {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar-category:hover {
+    background-color: #f5f5f5;
+}
+
+.sidebar-category i {
+    font-size: 1.3rem;
+    color: #0056b3;
+    width: 25px;
+    text-align: center;
+}
+
+.sidebar-category span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* الخلفية المعتمة */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.overlay.show {
+    display: block;
+    opacity: 1;
+}
+
+/* أنماط نافذة المنتجات المنبثقة */
+.category-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 90%;
+    max-width: 800px;
+    max-height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.category-popup.show {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-header {
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #0056b3;
+}
+
+.popup-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #555;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.popup-close:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.popup-content {
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(80vh - 70px); /* ارتفاع النافذة ناقص ارتفاع الهيدر */
+}
+
+.popup-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.popup-product {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.popup-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.popup-product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.popup-product-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.popup-product-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: #333;
+}
+
+.popup-product-price {
+    color: #0056b3;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* التأثير عند الفتح والإغلاق */
+@media (max-width: 767px) {
+    .sidebar-menu {
+        width: 46%; /* عرض مناسب للأجهزة المحمولة */
+    }
+
+    .sidebar-menu.open {
+        width: 100%; /* عرض أكبر عند فتح القائمة */
+    }
+}
+
+/* الشاشات الصغيرة (450px أو أقل) */
+@media (max-width: 450px) {
+    .sidebar-menu {
+        width: 46%; /* عرض أصغر عند الشاشات الصغيرة */
+    }
+
+    .sidebar-menu.open {
+        width: 100%; /* عرض أكبر عند فتح القائمة */
+    }
+}
+
+/* الشاشات الصغيرة جدًا (350px أو أقل) */
+@media (max-width: 350px) {
+    .sidebar-menu {
+        width: 39%; /* عرض أصغر بكثير عند الشاشات الصغيرة جدًا */
+    }
+
+    .sidebar-menu.open {
+        width: 100%; /* عرض عند الفتح */
+    }
+}
 /* سلايدر العروض */
 .offers-slider {
     width: 100%;
@@ -206,6 +480,7 @@ main {
     margin-bottom: 15px;
     overflow: hidden; /* منع خروج المحتوى من الحاوية */
     border-radius: 5px;
+    background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
 }
 
 /* تحسين أيقونة التكبير في الصورة الرئيسية */
@@ -247,6 +522,12 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: block; /* منع المساحة الفارغة تحت الصورة */
     transition: opacity 0.2s ease; /* تسريع الانتقال */
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition-property: transform, opacity;
+    transition-duration: var(--slider-transition-duration);
+    transition-timing-function: var(--slider-transition-timing);
 }
 
 /* شارة التخفيض للصورة الرئيسية */
@@ -2487,8 +2768,10 @@ select {
 
 /* تحسينات حركات السلايدر - متغيرات لتسهيل التخصيص */
 :root {
-    --slider-transition-duration: 0.25s; /* تقليل مدة الانتقال */
-    --slider-transition-timing: cubic-bezier(0.25, 0.1, 0.25, 1.0); /* تنعيم منحنى السرعة */
+    --slider-transition-duration: 0.4s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
+    --slider-transition-timing: cubic-bezier(0.22, 0.61, 0.36, 1); /* منحنى حركة أكثر سلاسة */
+    --slider-enter-distance: 100%; /* استخدام 100% لتأثير دفع كامل */
+    --image-hover-scale: 1.03; /* نسبة التكبير عند تمرير المؤشر فوق الصورة */
 }
 
 /* تحسين استجابة حركة الصورة الرئيسية */
@@ -3441,6 +3724,120 @@ footer .copyright {
     
     .nav-arrow {
         top: 45%;
+    }
+}
+
+/* تحسين متغيرات انتقالات السلايدر لتحقيق تأثير دفع الصور */
+:root {
+    --slider-transition-duration: 0.4s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
+    --slider-transition-timing: cubic-bezier(0.22, 0.61, 0.36, 1); /* منحنى حركة أكثر سلاسة */
+    --slider-enter-distance: 100%; /* استخدام 100% لتأثير دفع كامل */
+    --image-hover-scale: 1.03; /* نسبة التكبير عند تمرير المؤشر فوق الصورة */
+}
+
+/* تحسين حاوية الصورة الرئيسية للسلايدر */
+.main-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden; /* منع خروج المحتوى من الحاوية عند الانتقال */
+    border-radius: 5px;
+    background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
+}
+
+/* تحسين حركة انتقالية أساسية للصورة الرئيسية */
+.main-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition-property: transform, opacity;
+    transition-duration: var(--slider-transition-duration);
+    transition-timing-function: var(--slider-transition-timing);
+}
+
+/* تأثيرات حركية محسنة للصورة - خروج الصور بتأثير الانزلاق */
+.image-slide-exit-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    transform: translateX(-100%);
+    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
+    z-index: 1;
+}
+
+.image-slide-exit-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    transform: translateX(100%);
+    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
+    z-index: 1;
+}
+
+/* تأثير دفع الصورة من اليمين إلى اليسار */
+@keyframes pushFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* تأثير دفع الصورة من اليسار إلى اليمين */
+@keyframes pushFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* تطبيق تأثيرات الدفع */
+.image-slide-enter-from-right {
+    animation: pushFromRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
+    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
+}
+
+.image-slide-enter-from-left {
+    animation: pushFromLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
+    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
+}
+
+/* تأثيرات الزوم البديلة للتنويع */
+@keyframes zoomInEffect {
+    0% {
+        transform: translateX(0) scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.image-zoom-in {
+    animation: zoomInEffect var(--slider-transition-duration) var(--slider-transition-timing) forwards;
+}
+
+/* تحسينات للأجهزة المحمولة */
+@media (max-width: 767px) {
+    :root {
+        --slider-transition-duration: 0.3s; /* تسريع الانتقالات على الأجهزة المحمولة */
+        --slider-enter-distance: 100%; /* الحفاظ على مسافة كاملة للتأثير */
     }
 }
 

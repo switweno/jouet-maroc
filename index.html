@@ -64,27 +64,65 @@
     
   
     
-    <header>
+<header>
     <div class="container">
-        <h1>Jouet Maroc | عروض خاصة</h1>
-        <div class="special-offer">
-            <div class="offers-slider">
-                <div class="offers-track">
-                    <div class="offer-item">
-                        <span class="offer-badge">✔ تخفيضات رمضان للاستمتاع بخصم إضافي على مشترياتك 🌙 </span>
-                    </div>
-                    <div class="offer-item">
-                        <span class="offer-badge">📢 عروض خياليه للاستمتاع بخصم إضافي على مشترياتك</span>
-                    </div>
-                    <div class="offer-item">
-                        <span class="offer-badge">💫JOUET MAROC OFFRE SPÉCIALE 
-                        </span>
-                    </div>
-                </div>
+        <div class="header-content">
+            <!-- زر فتح القائمة الجانبية (على اليمين) -->
+            <button id="menu-toggle" class="menu-toggle">
+                <i class="fas fa-bars"></i> القائمة
+            </button>
+            
+            <!-- اسم الموقع الثابت في اليسار -->
+            <div class="site-brand">
+                <h1>JOUET MAROC</h1>
             </div>
         </div>
     </div>
 </header>
+
+<!-- إضافة هيكل القائمة الجانبية -->
+<div id="sidebar-menu" class="sidebar-menu">
+    <div class="sidebar-header">
+        <span>تصنيفات المنتجات</span>
+        <button id="sidebar-close" class="sidebar-close">×</button>
+    </div>
+    <div class="sidebar-content">
+        <ul class="sidebar-categories">
+            <li class="sidebar-category" data-category="electric-bikes">
+                <i class="fas fa-bicycle"></i>
+                <span>الدراجات الكهربائية</span>
+            </li>
+            <li class="sidebar-category" data-category="scooters">
+                <i class="fas fa-motorcycle"></i>
+                <span>تروتنيت</span>
+            </li>
+            <li class="sidebar-category" data-category="bikes">
+                <i class="fas fa-bicycle"></i>
+                <span>الدراجات الهوائية</span>
+            </li>
+            <li class="sidebar-category" data-category="electric-cars">
+                <i class="fas fa-car"></i>
+                <span>سيارات كهربائية</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- إضافة خلفية معتمة عند فتح القائمة -->
+<div id="overlay" class="overlay"></div>
+
+<!-- إضافة نافذة منبثقة للمنتجات -->
+<div id="category-popup" class="category-popup">
+    <div class="popup-header">
+        <h3 id="popup-category-title">منتجات الفئة</h3>
+        <button id="popup-close" class="popup-close">×</button>
+    </div>
+    <div class="popup-content">
+        <div id="popup-products" class="popup-products">
+            <!-- سيتم إضافة منتجات الفئة هنا ديناميكيًا -->
+        </div>
+    </div>
+</div>
     
     <main class="container">
         <div class="product-details">

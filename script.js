@@ -2046,3 +2046,153 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // ...existing code...
 });
+
+// ...existing code...
+
+// تهيئة العناصر وإضافة مستمعي الأحداث للقائمة الجانبية
+document.addEventListener('DOMContentLoaded', function() {
+    // إضافة إلى المستمعين الموجودين مسبقًا
+    
+    // استدعاء عناصر القائمة الجانبية
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebarMenu = document.getElementById('sidebar-menu');
+    const sidebarClose = document.getElementById('sidebar-close');
+    const overlay = document.getElementById('overlay');
+    const categories = document.querySelectorAll('.sidebar-category');
+    const categoryPopup = document.getElementById('category-popup');
+    const popupClose = document.getElementById('popup-close');
+    const popupCategoryTitle = document.getElementById('popup-category-title');
+    const popupProducts = document.getElementById('popup-products');
+    
+    // فتح القائمة الجانبية
+    menuToggle.addEventListener('click', function() {
+        sidebarMenu.classList.add('open');
+        overlay.classList.add('show');
+        document.body.style.overflow = 'hidden'; // منع التمرير في الخلفية
+    });
+    
+    // إغلاق القائمة الجانبية
+    function closeSidebar() {
+        sidebarMenu.classList.remove('open');
+        overlay.classList.remove('show');
+        document.body.style.overflow = 'auto'; // السماح بالتمرير مرة أخرى
+    }
+    
+    sidebarClose.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
+    
+    // معالجة النقر على فئات المنتجات
+    categories.forEach(category => {
+        category.addEventListener('click', function() {
+            const categoryId = this.getAttribute('data-category');
+            const categoryName = this.querySelector('span').textContent;
+            
+            // تعيين عنوان النافذة المنبثقة
+            popupCategoryTitle.textContent = categoryName;
+            
+            // تحضير منتجات الفئة المختارة
+            loadCategoryProducts(categoryId);
+            
+            // عرض النافذة المنبثقة
+            categoryPopup.classList.add('show');
+            
+            // الانتقال إلى وضع الخلفية المعتمة بدون إغلاق القائمة
+            // لأن القائمة يجب أن تبقى مفتوحة خلف النافذة المنبثقة
+        });
+    });
+    
+    // إغلاق النافذة المنبثقة
+    popupClose.addEventListener('click', function() {
+        categoryPopup.classList.remove('show');
+    });
+    
+    // تحميل منتجات الفئة المختارة
+    function loadCategoryProducts(categoryId) {
+        // تنظيف المحتوى السابق
+        popupProducts.innerHTML = '';
+        
+        // الحصول على منتجات الفئة المحددة
+        const categoryProducts = getCategoryProducts(categoryId);
+        
+        // إضافة المنتجات إلى النافذة المنبثقة
+        categoryProducts.forEach(product => {
+            const productElement = createProductElement(product);
+            popupProducts.appendChild(productElement);
+        });
+    }
+    
+    // إنشاء عنصر منتج للنافذة المنبثقة
+    function createProductElement(product) {
+        const productDiv = document.createElement('div');
+        productDiv.className = 'popup-product';
+        productDiv.setAttribute('data-id', product.id);
+        
+        // إضافة محتوى المنتج
+        productDiv.innerHTML = `
+            <img src="${product.images[0]}" alt="${product.title}">
+            <div class="popup-product-info">
+                <h4 class="popup-product-title">${product.title}</h4>
+                <div class="popup-product-price">${product.currentPrice} درهم</div>
+            </div>
+        `;
+        
+        // إضافة معالج النقر للمنتج
+        productDiv.addEventListener('click', function() {
+            const productId = this.getAttribute('data-id');
+            
+            // إغلاق النافذة المنبثقة
+            categoryPopup.classList.remove('show');
+            
+            // إغلاق القائمة الجانبية
+            closeSidebar();
+            
+            // تحميل صفحة المنتج
+            navigateToProduct(productId);
+        });
+        
+        return productDiv;
+    }
+    
+    // الانتقال إلى صفحة المنتج
+    function navigateToProduct(productId) {
+        // تغيير عنوان URL للانتقال إلى المنتج
+        history.pushState({}, '', `?product=${productId}`);
+        
+        // التمرير إلى أعلى الصفحة
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+        
+        // تحميل المنتج
+        setTimeout(() => {
+            loadProductFromURL();
+        }, 400);
+    }
+    
+    // الحصول على منتجات فئة محددة
+    function getCategoryProducts(categoryId) {
+        // تحديد المنتجات حسب الفئة
+        switch(categoryId) {
+            case 'electric-bikes':
+                return filterProductsByCategory('دراجات كهربائية');
+            case 'scooters':
+                return filterProductsByCategory('تروتنيت');
+            case 'bikes':
+                return filterProductsByCategory('دراجات هواىية');
+            case 'electric-cars':
+                return filterProductsByCategory('سيارات كهربائية');
+            default:
+                return [];
+        }
+    }
+    
+    // فلترة المنتجات حسب الفئة
+    function filterProductsByCategory(category) {
+        if (!window.products) return [];
+        return window.products.filter(product => product.category === category);
+    }
+});
+
+// ...existing code...
