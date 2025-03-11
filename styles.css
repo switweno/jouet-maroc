@@ -206,7 +206,6 @@ main {
     margin-bottom: 15px;
     overflow: hidden; /* منع خروج المحتوى من الحاوية */
     border-radius: 5px;
-    background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
 }
 
 /* تحسين أيقونة التكبير في الصورة الرئيسية */
@@ -248,12 +247,6 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: block; /* منع المساحة الفارغة تحت الصورة */
     transition: opacity 0.2s ease; /* تسريع الانتقال */
-    will-change: transform, opacity;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-property: transform, opacity;
-    transition-duration: var(--slider-transition-duration);
-    transition-timing-function: var(--slider-transition-timing);
 }
 
 /* شارة التخفيض للصورة الرئيسية */
@@ -2494,10 +2487,8 @@ select {
 
 /* تحسينات حركات السلايدر - متغيرات لتسهيل التخصيص */
 :root {
-    --slider-transition-duration: 0.4s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
-    --slider-transition-timing: cubic-bezier(0.22, 0.61, 0.36, 1); /* منحنى حركة أكثر سلاسة */
-    --slider-enter-distance: 100%; /* استخدام 100% لتأثير دفع كامل */
-    --image-hover-scale: 1.03; /* نسبة التكبير عند تمرير المؤشر فوق الصورة */
+    --slider-transition-duration: 0.25s; /* تقليل مدة الانتقال */
+    --slider-transition-timing: cubic-bezier(0.25, 0.1, 0.25, 1.0); /* تنعيم منحنى السرعة */
 }
 
 /* تحسين استجابة حركة الصورة الرئيسية */
@@ -3453,117 +3444,12 @@ footer .copyright {
     }
 }
 
-/* تحسين متغيرات انتقالات السلايدر لتحقيق تأثير دفع الصور */:root {
-    --slider-transition-duration: 0.6s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
-    --slider-transition-timing: cubic-bezier(0.34, 1.56, 0.64, 1); /* منحنى حركة أكثر سلاسة */
-    --slider-enter-distance: 150%; /* زيادة المسافة للحصول على تأثير دفع أكثر وضوحًا */
-    --image-hover-scale: 1.1; /* زيادة نسبة التكبير عند تمرير المؤشر فوق الصورة */
-}
-
-/* تحسين حاوية الصورة الرئيسية للسلايدر */
-.main-image {
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    overflow: hidden; /* منع خروج المحتوى من الحاوية عند الانتقال */
-    border-radius: 5px;
-    background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
-}
-
-/* تحسين حركة انتقالية أساسية للصورة الرئيسية */
-.main-image img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block;
-    will-change: transform, opacity;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-property: transform, opacity;
-    transition-duration: var(--slider-transition-duration);
-    transition-timing-function: var(--slider-transition-timing);
-}
-
-/* تأثيرات حركية محسنة للصورة - خروج الصور بتأثير الانزلاق */
-.image-slide-exit-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    transform: translateX(-100%) scale(0.9) rotate(-3deg);
-    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
-    z-index: 1;
-}
-
-.image-slide-exit-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    transform: translateX(100%) scale(0.9) rotate(3deg);
-    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
-    z-index: 1;
-}
-
-/* تأثير دفع الصورة من اليمين إلى اليسار */
-@keyframes pushFromRight {
-    0% {
-        transform: translateX(100%) scale(0.9) rotate(5deg);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0) scale(1) rotate(0);
-        opacity: 1;
-    }
-}
-
-/* تأثير دفع الصورة من اليسار إلى اليمين */
-@keyframes pushFromLeft {
-    0% {
-        transform: translateX(-100%) scale(0.9) rotate(-5deg);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0) scale(1) rotate(0);
-        opacity: 1;
-    }
-}
-
-/* تطبيق تأثيرات الدفع */
-.image-slide-enter-from-right {
-    animation: pushFromRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
-}
-
-.image-slide-enter-from-left {
-    animation: pushFromLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
-}
-
-/* تحسين تأثيرات الزوم البديلة للتنويع */
-@keyframes zoomInEffect {
-    0% {
-        transform: translateX(0) scale(0.8);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0) scale(1);
-        opacity: 1;
-    }
-}
-
-.image-zoom-in {
-    animation: zoomInEffect var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-/* تحسينات للأجهزة المحمولة */
-@media (max-width: 767px) {
-    :root {
-        --slider-transition-duration: 0.4s; /* تسريع الانتقالات على الأجهزة المحمولة */
-        --slider-enter-distance: 100%; /* الحفاظ على مسافة كاملة للتأثير */
-    }
+/* تحسين متغيرات انتقالات السلايدر لتسهيل التحكم */
+:root {
+    --slider-transition-duration: 0.2s; /* تسريع مدة الانتقال من 0.25s إلى 0.2s */
+    --slider-transition-timing: cubic-bezier(0.34, 1.56, 0.64, 1); /* تحسين منحنى السرعة ليكون أكثر حيوية */
+    --slider-enter-distance: 40px; /* زيادة مسافة الحركة للحصول على تأثير أفضل */
+    --image-hover-scale: 1.03; /* نسبة التكبير عند تحريك المؤشر فوق الصورة */
 }
 
 /* تحسين حركة انتقالية أساسية للصور */
