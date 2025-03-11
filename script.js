@@ -13,7 +13,7 @@ function preloadImages(images) {
 }
 
 /**
- * تحسين دالة تغيير الصور مع حركات انتقالية مميزة
+ * تحسين دالة تغيير الصور مع تأثير دفع الصور بشكل أفضل
  * @param {string} src - مصدر الصورة الجديدة
  * @param {string} direction - الاتجاه (right, left) أو null للاكتشاف التلقائي
  */
@@ -36,66 +36,89 @@ function changeImage(src, direction = null) {
         }
     }
     
-    // تخزين مصدر الصورة الجديدة والتحميل المسبق لها
+    // تخزين مصدر الصورة الحالية ومصدر الصورة الجديدة
+    const oldImageSrc = currentImage.src;
     const newImageSrc = src;
+    
+    // التحميل المسبق للصورة الجديدة
     const preloadImage = new Image();
     preloadImage.src = newImageSrc;
-    
-    // إزالة أي تأثيرات سابقة والبدء في تطبيق تأثير الخروج
-    currentImage.classList.remove('image-slide-enter-from-right', 
-                                'image-slide-enter-from-left', 
-                                'image-slide-exit-right', 
-                                'image-slide-exit-left');
-    
-    // 1. تطبيق تأثير الخروج المناسب
-    if (direction === 'right') {
-        currentImage.classList.add('image-slide-exit-left');
-    } else if (direction === 'left') {
-        currentImage.classList.add('image-slide-exit-right');
-    } else {
-        // تقليل الشفافية فقط للتلاشي
-        currentImage.style.opacity = '0';
-    }
-    
-    // 2. تحضير مؤشر الحمل للصورة الجديدة
-    currentImage.style.pointerEvents = 'none'; // منع النقرات المتكررة أثناء التغيير
-    
-    // 3. بعد انتهاء تأثير الخروج، حمل الصورة الجديدة وطبق تأثير الدخول
-    setTimeout(() => {
-        // تغيير مصدر الصورة
-        currentImage.src = newImageSrc;
-        
-        // إزالة تأثيرات الخروج
-        currentImage.classList.remove('image-slide-exit-left', 'image-slide-exit-right');
-        
-        // تطبيق تأثير الدخول المناسب
-        if (direction === 'right') {
-            currentImage.classList.add('image-slide-enter-from-right');
-        } else if (direction === 'left') {
-            currentImage.classList.add('image-slide-enter-from-left');
-        } else {
-            // التلاشي البسيط للظهور
-            currentImage.style.opacity = '1';
+    preloadImage.onload = () => {
+        // إنشاء نسخة من الصورة الحالية لعمل تأثير الخروج
+        if (direction === 'right' || direction === 'left') {
+            // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
+            const oldImageClone = document.createElement('img');
+            oldImageClone.src = oldImageSrc;
+            oldImageClone.className = 'exiting-image';
+            oldImageClone.style.position = 'absolute';
+            oldImageClone.style.top = '0';
+            oldImageClone.style.left = '0';
+            oldImageClone.style.width = '100%';
+            oldImageClone.style.height = 'auto';
+            oldImageClone.style.zIndex = '1';
+            oldImageClone.style.transition = 'transform 0.5s ease-in-out'; // إضافة تأثير التحويل
+            
+            // إضافة الصورة المنسوخة للحاوية
+            const mainImageContainer = currentImage.parentNode;
+            mainImageContainer.appendChild(oldImageClone);
+            
+            // تطبيق تأثير الخروج على الصورة القديمة
+            setTimeout(() => {
+                oldImageClone.style.transform = direction === 'right' ? 'translateX(-100%)' : 'translateX(100%)'; // دفع الصورة
+                oldImageClone.classList.add('image-slide-exit');
+                
+                // إزالة الصورة القديمة بعد اكتمال التأثير
+                setTimeout(() => {
+                    if (oldImageClone.parentNode) {
+                        oldImageClone.parentNode.removeChild(oldImageClone);
+                    }
+                }, 500); // زمن أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
+            }, 10);
         }
         
-        // إستعادة تفاعل المؤشر
-        currentImage.style.pointerEvents = 'auto';
+        // إزالة أي تأثيرات سابقة من الصورة الرئيسية
+        currentImage.classList.remove(
+            'image-slide-enter-from-right', 
+            'image-slide-enter-from-left', 
+            'image-zoom-in',
+            'image-fade-in'
+        );
+        
+        // إيقاف أي رسوم متحركة قيد التنفيذ
+        window.clearTimeout(currentImage.animationTimeout);
+        
+        // تغيير مصدر الصورة الرئيسية
+        currentImage.src = newImageSrc;
+        currentImage.style.opacity = '1'; // تأكد من أن الصورة مرئية
+        
+        // تطبيق تأثير دخول للصورة الجديدة
+        if (direction === 'right') {
+            currentImage.classList.add('image-slide-enter-from-right');
+            currentImage.style.transform = 'translateX(100%)'; // دفع الصورة من اليمين
+        } else if (direction === 'left') {
+            currentImage.classList.add('image-slide-enter-from-left');
+            currentImage.style.transform = 'translateX(-100%)'; // دفع الصورة من اليسار
+        } else {
+            // استخدام تأثير ظهور تدريجي في الحالات الأخرى
+            currentImage.classList.add('image-zoom-in');
+        }
         
         // تحديث الصورة المصغرة النشطة
         updateActiveThumbnail(src);
         
         // إزالة تأثيرات الدخول بعد إكتمال الحركة
-        setTimeout(() => {
-            currentImage.classList.remove('image-slide-enter-from-right', 'image-slide-enter-from-left');
-        }, 500); // توافق مع مدة التحولات في CSS
-        
-    }, 300); // زمن قصير مناسب لإكتمال تأثير الخروج
-    
-    // تتبع الحدث باستخدام Facebook Pixel
-    if (typeof fbq === 'function') {
-        fbq('track', 'ViewContent');
-    }
+        currentImage.animationTimeout = setTimeout(() => {
+            currentImage.classList.remove(
+                'image-slide-enter-from-right', 
+                'image-slide-enter-from-left',
+                'image-zoom-in',
+                'image-fade-in'
+            );
+            currentImage.style.transform = 'translateX(0)'; // العودة للموقع الأصلي
+        }, 600); // وقت أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
+    };
 }
+
 
 // دالة محسنة لتحديث الصورة المصغرة النشطة
 function updateActiveThumbnail(src) {
