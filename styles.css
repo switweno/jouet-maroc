@@ -517,6 +517,7 @@ main {
 }
 
 .main-image img {
+    
     max-width: 100%;
     width: 100%; /* تأكيد العرض الكامل للصورة */
     height: auto;
@@ -534,6 +535,7 @@ main {
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
+      visibility: hidden;
     position: absolute;
     top: 15px;
     left: 13px;
