@@ -34,8 +34,6 @@ body {
 header {
   background: linear-gradient(135deg, #333, #333);
 
-
-
     color: white;
     padding: 5px 0;
     text-align: center;
@@ -53,10 +51,8 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-direction: row; /* تغيير إلى row بدلاً من row-reverse */
-    padding: 3px 5px;
-    position: relative; /* للحفاظ على التنسيق داخل الهيدر */
-    z-index: 1; /* التأكد من أن المحتوى داخل الهيدر فوق العناصر الأخرى */
 }
+
 
 /* إضافة مسافة إضافية للمحتوى السفلي بسبب تثبيت الهيدر */
 body {
@@ -1389,6 +1385,7 @@ main {
 .zoom-btn:hover {
     background-color: rgba(0, 86, 179, 1);
     transform: scale(1.1);
+    
 }
 
 .zoom-btn:active {
