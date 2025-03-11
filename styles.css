@@ -6,15 +6,10 @@
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
+    overflow-x: hidden; /* منع التمرير الأفقي */
 }
-.some-element {
-    position: relative; /* تأكد من أن العنصر في مكانه الصحيح */
-    left: 0;
-    right: 0;
-}
+
 
 
 body {
@@ -74,9 +69,9 @@ body {
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 9px 7px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -3089,18 +3084,7 @@ footer .copyright {
     }
 }
 
-/* تنسيق مؤشر التحميل للتنقل بين المنتجات */
-#loading-spinner {
-    backdrop-filter: blur(3px);
-    transition: opacity 0.3s ease;
-    opacity: 0;
-    pointer-events: none;
-}
 
-#loading-spinner.show {
-    opacity: 1;
-    pointer-events: all;
-}
 
 
 
