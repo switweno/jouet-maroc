@@ -26,7 +26,7 @@ body {
 
 /* Header Styles */
 header {
-  background: linear-gradient(135deg, #2196F3, #1976D2);
+  background: linear-gradient(135deg, #333, #333);
 
 
 
@@ -126,7 +126,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #0056b3;
+    background-color: #2269b6;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -182,7 +182,7 @@ body {
 
 .sidebar-category i {
     font-size: 1.3rem;
-    color: #0056b3;
+    color: #2269b6;
     width: 25px;
     text-align: center;
 }
@@ -248,7 +248,7 @@ body {
 .popup-header h3 {
     margin: 0;
     font-size: 1.3rem;
-    color: #0056b3;
+    color: #2269b6;
 }
 
 .popup-close {
@@ -315,7 +315,7 @@ body {
 }
 
 .popup-product-price {
-    color: #0056b3;
+    color: #2269b6;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -382,7 +382,7 @@ body {
 
 /* تحسين شارة العروض */
 .offer-badge {
-    background: linear-gradient(135deg, #0056b3, #0056b3);
+    background: linear-gradient(135deg, #2269b6, #2269b6);
     color: white;
     padding: 8px 18px;
     border-radius: 25px;
@@ -405,7 +405,7 @@ body {
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 0 rgba(0, 0, 0, 0.1);
     }
     100% {
-        box-shadow: 0 5px 15px #0056b3, inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 15px #2269b6, inset 0 -2px 0 rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -629,7 +629,7 @@ main {
 
 /* تعديل الصورة النشطة بدون تكبير */
 .thumbnail.active {
-    border-color: #0056b3;
+    border-color: #2269b6;
     transform: none; /* إزالة تأثير التكبير */
     box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2);
     filter: brightness(1.05); /* زيادة السطوع فقط قليلاً */
@@ -804,7 +804,7 @@ main {
 .current-price {
     font-size: 2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
-    color: #0056b3;
+    color: #2269b6;
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
@@ -833,10 +833,10 @@ main {
 
 .product-description h3 {
     margin-bottom: 15px;
-    color: #0056b3;
+    color: #2269b6;
     font-size: 1.4rem;
     text-align: center;
-    border-bottom: 2px solid #0056b3;
+    border-bottom: 2px solid #2269b6;
     padding-bottom: 8px;
 }
 
@@ -875,7 +875,7 @@ main {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: #0056b3;
+    color: #2269b6;
     cursor: pointer;
     transition: transform 0.3s ease;
     width: 30px; /* زيادة المساحة للنقر */
@@ -888,7 +888,7 @@ main {
 
 /* تغيير مظهر الزر عند التركيز عليه بلوحة المفاتيح */
 .accordion-toggle:focus {
-    outline: 2px solid #0056b3;
+    outline: 2px solid #2269b6;
     box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.3);
 }
 
@@ -962,7 +962,7 @@ main {
 
 .feature-category h4 i {
     margin-left: 8px;
-    color: #0056b3;
+    color: #2269b6;
 }
 
 .feature-category ul {
@@ -976,7 +976,7 @@ main {
 }
 
 .feature-category li strong {
-    color: #0056b3;
+    color: #2269b6;
 }
 
 .feature-highlight {
@@ -1069,7 +1069,7 @@ main {
 
 
 .primary-btn {
-    background-color: #0056b3;
+    background-color: #2269b6;
     color: white;
 }
 
@@ -1101,7 +1101,7 @@ main {
 .order-section h2 {
     margin-bottom: 30px;
     text-align: center;
-    color: #0056b3;
+    color: #2269b6;
     
     font-size: 1.4rem;
      
@@ -1667,10 +1667,10 @@ main {
 
 .confirmation-content h3 {
     text-align: center;
-    color: #0056b3;
+    color: #2269b6;
     margin-bottom: 20px;
     font-size: 1.4rem;
-    border-bottom: 2px solid #0056b3;
+    border-bottom: 2px solid #2269b6;
     padding-bottom: 10px;
 }
 
@@ -1720,7 +1720,7 @@ main {
     font-size: 1.2rem;
     padding-top: 10px;
     text-align: left;
-    color: #0056b3;
+    color: #2269b6;
 }
 
 .customer-info {
@@ -1732,7 +1732,7 @@ main {
 }
 
 .customer-info h4 {
-    color: #0056b3;
+    color: #2269b6;
     margin-bottom: 10px;
     font-size: 1.1rem;
 }
@@ -1826,7 +1826,7 @@ main {
 }
 
 .feature-item strong {
-    color: #0056b3;
+    color: #2269b6;
     font-weight: 600;
     margin-right: 5px;
     display: inline;
@@ -1958,7 +1958,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .why-choose-us h2 {
-    color: #0056b3;
+    color: #2269b6;
     font-size: 1.8rem;
     margin-bottom: 30px;
     position: relative;
@@ -1973,7 +1973,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 70%;
     height: 3px;
-    background-color: #0056b3;
+    background-color: #2269b6;
 }
 
 .features-grid {
@@ -2007,7 +2007,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-icon i {
     font-size: 2.5rem;
-    color: #0056b3;
+    color: #2269b6;
     background-color: #e9f2ff;
     width: 80px;
     height: 80px;
@@ -2148,7 +2148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-video-section h2 {
-    color: #0056b3;
+    color: #2269b6;
     font-size: 1.4rem;
     margin-bottom: 25px;
     position: relative;
@@ -2163,7 +2163,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 70%;
     height: 3px;
-    background-color: #0056b3;
+    background-color: #2269b6;
 }
 
 /* Product Video Section Styles */
@@ -2289,7 +2289,7 @@ h1, h2, h3, h4, h5, h6 {
     /* إضافة حدود واضحة عند التركيز على حقول الإدخال */
     input:focus, textarea:focus, select:focus {
         outline: none;
-        border: 1px solid #0056b3 !important; /* لون أزرق للحدود عند النقر */
+        border: 1px solid #2269b6 !important; /* لون أزرق للحدود عند النقر */
         box-shadow: 0 0 4px rgba(0, 86, 179, 0.3) !important; /* ظل خفيف للتأكيد على التركيز */
     }
     
@@ -2308,7 +2308,7 @@ h1, h2, h3, h4, h5, h6 {
     .form-group textarea:focus,
     .form-group select:focus {
         outline: none;
-        border-color: #0056b3 !important;
+        border-color: #2269b6 !important;
         box-shadow: 0 0 4px rgba(0, 86, 179, 0.3) !important;
     }
     
@@ -2451,7 +2451,7 @@ select {
     height: 40px;
     border-radius: 50%;
     border: none;
-    color: #0056b3;
+    color: #2269b6;
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -2462,7 +2462,7 @@ select {
 }
 
 .slider-nav:hover {
-    background-color: #0056b3;
+    background-color: #2269b6;
     color: white;
 }
 
@@ -2485,7 +2485,7 @@ select {
 }
 
 .indicator.active {
-    background-color: #0056b3;
+    background-color: #2269b6;
     transform: scale(1.2);
     opacity: 1;
 }
@@ -2649,7 +2649,7 @@ select {
     }
     
     .thumbnails::-webkit-scrollbar-thumb {
-        background-color: #0056b3;
+        background-color: #2269b6;
         border-radius: 3px;
     }
 }
@@ -2824,7 +2824,7 @@ select {
 
 /* تعديل الصورة النشطة بدون تكبير */
 .thumbnail.active {
-    border-color: #0056b3;
+    border-color: #2269b6;
     transform: none; /* إزالة تأثير التكبير */
     box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2);
     filter: brightness(1.05); /* زيادة السطوع فقط قليلاً */
@@ -3314,7 +3314,7 @@ footer .copyright {
 }
 
 .related-products h2 {
-    color: #0056b3;
+    color: #2269b6;
     font-size: 1.5rem;
     margin-bottom: 20px;
     position: relative;
@@ -3330,7 +3330,7 @@ footer .copyright {
     transform: translateX(-50%);
     width: 60%;
     height: 3px;
-    background-color: #0056b3;
+    background-color: #2269b6;
     border-radius: 3px;
 }
 
@@ -3427,7 +3427,7 @@ footer .copyright {
 }
 
 .related-price {
-    color: #0056b3;
+    color: #2269b6;
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 4px;
