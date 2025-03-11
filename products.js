@@ -2,6 +2,72 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
+   {
+    id: "dualtron-pop-54v",
+    title: "TROTTINETTE DUALTRON POP 52V",
+    brand: "DUALTRON",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 192,
+    currentPrice: 7490,
+    oldPrice: 8499,
+    discount: 30,
+    images: [
+      "dualtron-pop/dualtron-pop_52v_02.webp",
+      "dualtron-pop/dualtron-pop_52v_01.webp",
+      "dualtron-pop/dualtron-pop_52v_03.webp",
+      "dualtron-pop/dualtron-pop_52v_04.webp",
+      "dualtron-pop/dualtron-pop_52v_05.webp",
+      "dualtron-pop/dualtron-pop_52v_06.webp",
+      "dualtron-pop/dualtron-pop_52v_07.webp"
+    ],
+    features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "1000W min - 1450W max 💯" },
+      { key: "Vitesse", value: "50 km/h min - 67 km/h max 💯" },
+      { key: "Mode de conduite", value: "3 vitesses réglables 💯" },
+      { key: "Démarrage", value: "Accélérateur électrique + pédale d'assistance 💯" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 52V 14AH 💯" },
+      { key: "Autonomie", value: "30 km min - 40 km max 💯" },
+      { key: "Charge rapide", value: "Compatible 58V 💯" },
+      { key: "Charge maximale", value: "120 kg 💯" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONTRÔLE",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freinage", value: "Disques AV/AR + E-ABS 💯" },
+      { key: "Suspension", value: "Avant et arrière réglables 💯" },
+      { key: "Éclairage", value: "LED AV/AR + clignotants directionnels 💯" },
+      { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) 💯" }
+    ]
+  },
+  {
+    title: "TECHNOLOGIE & CONFORT",
+    icon: "fa-mobile-alt",
+    items: [
+      { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) 💯" },
+      { key: "Pneus", value: "9\" chambre à air renforcés 💯" },
+      { key: "Conception", value: "Pliable avec klaxon intégré 💯" },
+      { key: "Tableau de bord", value: "Digital multifonction 💯" }
+        ]
+      }
+    ],
+    warranty: "Garantie 3 mois",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
+  },
+  
   {
     id: "velo-vtt-haomeng-27.5",
     title: "VÉLO VTT HAOMENG 27.5",
