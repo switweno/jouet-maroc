@@ -5,6 +5,17 @@
     box-sizing: border-box;
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.some-element {
+    position: relative; /* تأكد من أن العنصر في مكانه الصحيح */
+    left: 0;
+    right: 0;
+}
+
 
 body {
     margin: 0;
@@ -134,6 +145,11 @@ body {
 .sidebar-header span {
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.site-brand a {
+    text-decoration: none; /* إزالة الخط تحت الرابط */
+    color: inherit; /* استخدام نفس لون النص الحالي */
 }
 
 .sidebar-close {
