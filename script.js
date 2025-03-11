@@ -613,34 +613,77 @@ function setupProductLinks() {
 }
 
 // وظائف واجهة المستخدم
+// تحسين وظيفة إعداد الأكورديون لتعمل عند النقر على الإطار بأكمله
 function setupAccordion() {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-    
-    accordionHeaders.forEach(header => {
-        const toggleBtn = header.querySelector('.accordion-toggle');
+    // إزالة أي معالجات أحداث قديمة لتجنب التداخل
+    document.querySelectorAll('.accordion-header').forEach(header => {
+        const newHeader = header.cloneNode(true);
+        if (header.parentNode) {
+            header.parentNode.replaceChild(newHeader, header);
+        }
+    });
+
+    // إضافة معالجات أحداث جديدة
+    document.querySelectorAll('.accordion-header').forEach(header => {
+        // الحصول على عناصر الأكورديون المطلوبة
         const category = header.parentElement;
-        const isExpanded = category.classList.contains('expanded');
+        const toggleBtn = header.querySelector('.accordion-toggle');
         
-        toggleBtn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-        
-        header.addEventListener('click', function() {
-            const category = this.parentElement;
-            const isExpanded = category.classList.contains('expanded');
-            const toggleBtn = this.querySelector('.accordion-toggle');
+        // معالج حدث للنقر على الهيدر بأكمله (باستثناء الروابط الأخرى)
+        header.addEventListener('click', function(e) {
+            // تجاهل النقر إذا كان على عناصر تفاعلية أخرى غير الزر نفسه
+            const isLink = e.target.tagName === 'A' || e.target.closest('a');
+            const isOtherButton = e.target.tagName === 'BUTTON' && e.target !== toggleBtn && 
+                                  !toggleBtn.contains(e.target);
             
-            document.querySelectorAll('.feature-category.expanded').forEach(expandedCategory => {
-                if (expandedCategory !== category || !isExpanded) {
-                    expandedCategory.classList.remove('expanded');
-                    
-                    const otherBtn = expandedCategory.querySelector('.accordion-toggle');
-                    if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
-                }
+            // استمرار فقط إذا لم يكن النقر على رابط أو زر آخر
+            if (isLink || isOtherButton) {
+                return;
+            }
+            
+            // تفعيل تبديل القسم
+            toggleAccordionItem(category, toggleBtn);
+            e.preventDefault();
+            e.stopPropagation(); // منع انتشار الحدث
+        });
+        
+        // إضافة معالج منفصل لزر التبديل لضمان الاستجابة
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', function(e) {
+                toggleAccordionItem(category, this);
+                e.preventDefault();
+                e.stopPropagation(); // منع انتشار الحدث
             });
             
-            category.classList.toggle('expanded');
-            toggleBtn.setAttribute('aria-expanded', category.classList.contains('expanded') ? 'true' : 'false');
-        });
+            // تحديث حالة aria-expanded الأولية
+            const isExpanded = category.classList.contains('expanded');
+            toggleBtn.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        }
     });
+}
+
+// دالة جديدة منفصلة لتبديل حالة عنصر الأكورديون
+function toggleAccordionItem(category, toggleBtn) {
+    const isExpanded = category.classList.contains('expanded');
+    
+    // إغلاق جميع الأقسام المفتوحة الأخرى
+    document.querySelectorAll('.feature-category.expanded').forEach(expandedCategory => {
+        if (expandedCategory !== category) {
+            expandedCategory.classList.remove('expanded');
+            const otherBtn = expandedCategory.querySelector('.accordion-toggle');
+            if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+        }
+    });
+    
+    // تبديل حالة القسم الحالي
+    category.classList.toggle('expanded');
+    
+    // تحديث حالة aria-expanded
+    if (toggleBtn) {
+        toggleBtn.setAttribute('aria-expanded', 
+            category.classList.contains('expanded') ? 'true' : 'false'
+        );
+    }
 }
 
 // إضافة متغير لتتبع ما إذا كان هذا هو التحميل الأول للصفحة
@@ -914,6 +957,18 @@ function updateProductDisplay(product) {
             </iframe>
         `;
     }
+    
+    // تهيئة الأكورديون بعد تحديث المحتوى مع تأخير قصير للتأكد من اكتمال التحديث
+    setTimeout(() => {
+        setupAccordion();
+        
+        // التأكد من أن الاكورديون الأول مفتوح دائماً
+        const firstCategory = document.querySelector('.feature-category');
+        if (firstCategory && !firstCategory.classList.contains('expanded')) {
+            const firstToggle = firstCategory.querySelector('.accordion-toggle');
+            toggleAccordionItem(firstCategory, firstToggle);
+        }
+    }, 200);
 }
 
 // اضافة معالج لأحداث النقر على روابط المنتجات ذات معلمات URL
