@@ -1120,6 +1120,7 @@ main {
 }
 
 
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -3041,7 +3042,7 @@ footer .copyright {
 @media (max-width: 480px) {
     footer {
         padding: 15px 0;
-        margin-top: -30px; /* تقليل المسافة في الشاشات الصغيرة */
+        margin-top: -18px; /* تقليل المسافة في الشاشات الصغيرة */
     }
     
     footer .footer-content {
