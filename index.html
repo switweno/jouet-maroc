@@ -271,36 +271,37 @@
         
         <!-- Fix duplicate ID by changing the section ID -->
         <div class="order-section" id="order-section">
-            <h2>املأ النموذج للطلب</h2>
-            <form id="order-form" onsubmit="submitFormViaWhatsApp(event)">
-                <div class="form-group">
-                    <label for="name" class="required-field">الاسم الكامل</label>
-                    <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone" class="required-field">رقم الهاتف</label>
-                    <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required>
-                </div>
-                <div class="form-group">
-                    <label for="address" class="required-field">العنوان</label>
-                    <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="city" class="required-field">المدينة</label>
-                    <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required>
-                </div>
-                <div class="form-group payment-method">
-                    <label class="required-field">طريقة الدفع</label>
-                    <div class="radio-group">
-                        <input type="radio" id="cod" name="payment" value="cod" checked>
-                        <label for="cod">الدفع عند الاستلام</label>
-                    </div>
-                </div>
-                <button type="submit" class="btn primary-btn submit-btn">
-                    <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
-                </button>
-            </form>
+    <h2>املأ النموذج للطلب</h2>
+    <form id="order-form" onsubmit="submitFormViaWhatsApp(event)" autocomplete="on">
+        <div class="form-group">
+            <label for="name" class="required-field">الاسم الكامل</label>
+            <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required autocomplete="name">
         </div>
+        <div class="form-group">
+            <label for="phone" class="required-field">رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required autocomplete="tel">
+        </div>
+        <div class="form-group">
+            <label for="address" class="required-field">العنوان</label>
+            <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required autocomplete="address-line1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="city" class="required-field">المدينة</label>
+            <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required autocomplete="address-level2">
+        </div>
+        <div class="form-group payment-method">
+            <label class="required-field">طريقة الدفع</label>
+            <div class="radio-group">
+                <input type="radio" id="cod" name="payment" value="cod" checked>
+                <label for="cod">الدفع عند الاستلام</label>
+            </div>
+        </div>
+        <button type="submit" class="btn primary-btn submit-btn">
+            <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
+        </button>
+    </form>
+</div>
+
         <!-- يمكن إضافة قسم روابط المنتجات في أي مكان مناسب، مثلاً قبل الفوتر -->
         <!-- تحسين قسم المنتجات ذات الصلة -->
         <div class="related-products">
@@ -445,12 +446,7 @@
     <!-- End of Order Confirmation Modal -->
     
   
-    <!-- إضافة مؤشر تحميل لإظهاره أثناء تغيير المنتجات -->
-    <div id="loading-spinner" class="loading-spinner">
-        <div class="spinner-border text-primary" role="status">
-            <span class="visually-hidden">جاري التحميل...</span>
-        </div>
-    </div>
+
     
     <footer>
     <div class="footer-content">
