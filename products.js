@@ -3,6 +3,60 @@
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
   {
+    id: "velo-vtt-haomeng-27.5",
+    title: "VÉLO VTT HAOMENG 27.5",
+    brand: "HAOMENG",
+    category: "دراجات هواىية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 266,
+    currentPrice: 1549,
+    oldPrice: 1899,
+    discount: 30,
+    images: [
+      "vtt_27/vtt_27_01.webp",
+      "vtt_27/vtt_27_02.webp",
+      "vtt_27/vtt_27_03.webp",
+      "vtt_27/vtt_27_04.webp",
+      "vtt_27/vtt_27_05.webp",
+      "vtt_27/vtt_27_06.webp",
+      "vtt_27/vtt_27_07.webp"
+    ],
+    features: [
+      {
+         title: "CADRE & TRANSMISSION",
+    icon: "fa-bicycle",
+    items: [
+      { key: "Roues", value: "27.5 pouces en aluminium 💯" },
+      { key: "Transmission", value: "3×7 vitesses (21 vitesses) 💯" },
+      { key: "Dérailleur", value: "LXYANG haute précision 💯" },
+      { key: "Plateau", value: "LXYANG renforcé 💯" }
+    ]
+  },
+  {
+    title: "FREINS & AMORTISSEURS",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "À disque hydrauliques AV/AR 💯" },
+      { key: "Amortisseur", value: "Avant réglable 💯" },
+      { key: "Pneus", value: "Anticrevaison avec garde-boue intégrés 💯" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT",
+    icon: "fa-cogs",
+    items: [
+      { key: "Éclairage", value: "LED AV/AR haute luminosité 💯" },
+      { key: "Siège", value: "Cuir sport confort 2 places 💯" },
+      { key: "Charge maximale", value: "130 kg 💯" }
+        ]
+      }
+    ],
+    warranty: "Garantie de 3 mois",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
     id: "velo-electrique-harley-u9",
     title: "VÉLO ÉLECTRIQUE HARLEY U9",
     brand: "LIKEBIKE",

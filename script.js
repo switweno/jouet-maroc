@@ -13,7 +13,7 @@ function preloadImages(images) {
 }
 
 /**
- * تحسين دالة تغيير الصور مع حركات انتقالية متنوعة وأسرع
+ * تحسين دالة تغيير الصور مع تأثير دفع الصور بشكل أفضل
  * @param {string} src - مصدر الصورة الجديدة
  * @param {string} direction - الاتجاه (right, left) أو null للاكتشاف التلقائي
  */
@@ -36,66 +36,68 @@ function changeImage(src, direction = null) {
         }
     }
     
-    // تخزين مصدر الصورة الجديدة والتحميل المسبق لها
+    // تخزين مصدر الصورة الحالية ومصدر الصورة الجديدة
+    const oldImageSrc = currentImage.src;
     const newImageSrc = src;
+    
+    // التحميل المسبق للصورة الجديدة
     const preloadImage = new Image();
     preloadImage.src = newImageSrc;
-    
-    // إزالة أي تأثيرات سابقة
-    currentImage.classList.remove(
-        'image-slide-enter-from-right', 
-        'image-slide-enter-from-left', 
-        'image-zoom-in',
-        'image-fade-in',
-        'image-slide-exit-right',
-        'image-slide-exit-left',
-        'image-fade-out'
-    );
-    
-    // إيقاف أي رسوم متحركة قيد التنفيذ
-    window.clearTimeout(currentImage.animationTimeout);
-    
-    // 1. تطبيق تأثير الخروج المناسب
-    if (direction === 'right') {
-        currentImage.classList.add('image-slide-exit-left');
-    } else if (direction === 'left') {
-        currentImage.classList.add('image-slide-exit-right');
-    } else {
-        currentImage.classList.add('image-fade-out');
-    }
-    
-    // 2. منع النقرات المتكررة أثناء التغيير
-    currentImage.style.pointerEvents = 'none';
-    
-    // 3. بعد انتهاء تأثير الخروج، حمل الصورة الجديدة وطبق تأثير الدخول
-    const transitionTime = 150; // تسريع وقت الانتقال (مللي ثانية)
-    
-    currentImage.animationTimeout = setTimeout(() => {
-        // تغيير مصدر الصورة
-        currentImage.src = newImageSrc;
-        
-        // إزالة تأثيرات الخروج
-        currentImage.classList.remove('image-slide-exit-left', 'image-slide-exit-right', 'image-fade-out');
-        
-        // اختيار تأثير دخول متنوع بناءً على الاتجاه أو بشكل عشوائي
-        const entranceEffects = ['image-slide-enter-from-right', 'image-slide-enter-from-left', 'image-zoom-in', 'image-fade-in'];
-        let entranceEffect;
-        
-        if (direction === 'right') {
-            entranceEffect = 'image-slide-enter-from-right';
-        } else if (direction === 'left') {
-            entranceEffect = 'image-slide-enter-from-left';
-        } else {
-            // اختيار تأثير عشوائي للتنويع عند الضغط المباشر على صورة أخرى
-            const randomIndex = Math.floor(Math.random() * entranceEffects.length);
-            entranceEffect = entranceEffects[randomIndex];
+    preloadImage.onload = () => {
+        // إنشاء نسخة من الصورة الحالية لعمل تأثير الخروج
+        if (direction === 'right' || direction === 'left') {
+            // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
+            const oldImageClone = document.createElement('img');
+            oldImageClone.src = oldImageSrc;
+            oldImageClone.className = 'exiting-image';
+            oldImageClone.style.position = 'absolute';
+            oldImageClone.style.top = '0';
+            oldImageClone.style.left = '0';
+            oldImageClone.style.width = '100%';
+            oldImageClone.style.height = 'auto';
+            oldImageClone.style.zIndex = '1';
+            
+            // إضافة الصورة المنسوخة للحاوية
+            const mainImageContainer = currentImage.parentNode;
+            mainImageContainer.appendChild(oldImageClone);
+            
+            // تطبيق تأثير الخروج على الصورة القديمة
+            setTimeout(() => {
+                oldImageClone.classList.add(direction === 'right' ? 'image-slide-exit-left' : 'image-slide-exit-right');
+                
+                // إزالة الصورة القديمة بعد اكتمال التأثير
+                setTimeout(() => {
+                    if (oldImageClone.parentNode) {
+                        oldImageClone.parentNode.removeChild(oldImageClone);
+                    }
+                }, 500); // زمن أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
+            }, 10);
         }
         
-        // تطبيق تأثير الدخول
-        currentImage.classList.add(entranceEffect);
+        // إزالة أي تأثيرات سابقة من الصورة الرئيسية
+        currentImage.classList.remove(
+            'image-slide-enter-from-right', 
+            'image-slide-enter-from-left', 
+            'image-zoom-in',
+            'image-fade-in'
+        );
         
-        // إستعادة تفاعل المؤشر
-        currentImage.style.pointerEvents = 'auto';
+        // إيقاف أي رسوم متحركة قيد التنفيذ
+        window.clearTimeout(currentImage.animationTimeout);
+        
+        // تغيير مصدر الصورة الرئيسية
+        currentImage.src = newImageSrc;
+        currentImage.style.opacity = '1'; // تأكد من أن الصورة مرئية
+        
+        // تطبيق تأثير دخول للصورة الجديدة
+        if (direction === 'right') {
+            currentImage.classList.add('image-slide-enter-from-right');
+        } else if (direction === 'left') {
+            currentImage.classList.add('image-slide-enter-from-left');
+        } else {
+            // استخدام تأثير ظهور تدريجي في الحالات الأخرى
+            currentImage.classList.add('image-zoom-in');
+        }
         
         // تحديث الصورة المصغرة النشطة
         updateActiveThumbnail(src);
@@ -108,9 +110,8 @@ function changeImage(src, direction = null) {
                 'image-zoom-in',
                 'image-fade-in'
             );
-        }, 350); // يتناسب مع مدة التأثير في CSS
-        
-    }, transitionTime); // وقت أسرع لانتقال أكثر سلاسة
+        }, 600); // وقت أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
+    };
 }
 
 // دالة محسنة لتحديث الصورة المصغرة النشطة
@@ -762,7 +763,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "trottinette-EcoXtrem-liner"; // Default product
+            productId = "velo-vtt-haomeng-27.5"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
