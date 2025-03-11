@@ -73,9 +73,11 @@
             </button>
             
             <!-- اسم الموقع الثابت في اليسار -->
-            <div class="site-brand">
-                <h1>JOUET MAROC</h1>
-            </div>
+           <div class="site-brand">
+    <a href="index.html">
+        <h1>JOUET MAROC</h1>
+    </a>
+</div>
         </div>
     </div>
 </header>
@@ -134,14 +136,15 @@
                     </div>
                 </div>
                 <div class="thumbnails-container">
-                    <div class="thumbnails" id="thumbnails-slider">
-                        <img class="thumbnail active" src="product2.webp" alt="صورة مصغرة 1" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product3.webp" alt="صورة مصغرة 2" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product4.webp" alt="صورة مصغرة 3" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product5.webp" alt="صورة مصغرة 4" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product6.webp" alt="صورة مصغرة 5" onclick="changeImage(this.src)">
-                        <img class="thumbnail" src="product7.webp" alt="صورة مصغرة 6" onclick="changeImage(this.src)">
-                    </div>
+                     <div class="thumbnails" id="thumbnails-slider">
+        <img class="thumbnail active lazy" src="placeholder.jpg" data-src="product2.webp" alt="صورة مصغرة 1" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product3.webp" alt="صورة مصغرة 2" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product4.webp" alt="صورة مصغرة 3" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product5.webp" alt="صورة مصغرة 4" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product6.webp" alt="صورة مصغرة 5" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product7.webp" alt="صورة مصغرة 6" onclick="changeImage(this.dataset.src)">
+        <img class="thumbnail lazy" src="placeholder.jpg" data-src="product7.webp" alt="صورة مصغرة 7" onclick="changeImage(this.dataset.src)">
+    </div>
                 </div>
             </div>
             
@@ -477,7 +480,37 @@
         &copy; 2025 jouet-maroc.com  
     </div>
 </footer>
-    
+    <script>
+    // تغيير الصورة الرئيسية عند النقر على الصورة المصغرة
+    function changeImage(src) {
+        const mainImg = document.getElementById("current-image");
+        mainImg.setAttribute("data-src", src);
+        mainImg.classList.add("lazy");
+        lazyLoadImages();
+    }
+
+    // Lazy Loading باستخدام Intersection Observer
+    function lazyLoadImages() {
+        let lazyImages = document.querySelectorAll("img.lazy");
+
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    let img = entry.target;
+                    img.src = img.getAttribute("data-src");  // تحميل الصورة الفعلية
+                    img.removeAttribute("data-src");
+                    img.classList.remove("lazy");
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        lazyImages.forEach(img => observer.observe(img));
+    }
+
+    // تشغيل Lazy Load عند تحميل الصفحة
+    document.addEventListener("DOMContentLoaded", lazyLoadImages);
+</script>
     <!-- إضافة Bootstrap JS في نهاية الصفحة لتحسين الأداء -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
