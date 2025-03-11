@@ -175,7 +175,7 @@ header h1 {
 
 /* Main Content Styles */
 main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .product-details {
@@ -185,7 +185,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 @media (min-width: 768px) {
@@ -197,7 +197,7 @@ main {
 /* Product Gallery Styles */
 .product-gallery {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
 }
 
 .main-image {
@@ -292,7 +292,7 @@ main {
 /* Improved Thumbnail Styles with Better Scrolling */
 .thumbnails-container {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 12px;
     overflow: hidden;
     position: relative;
     padding: 2px 0; /* Add some padding */
@@ -306,10 +306,7 @@ main {
     padding: 8px 5px;
     /* Removed -webkit-overflow-scrolling: touch; as it is not supported by most browsers */
     scroll-behavior: smooth;
-    flex-wrap: nowrap !important; /* Force nowrap regardless of screen size */
-        -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
-        scrollbar-width: none; /* Hide Firefox scrollbar */
-        -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+    flex-wrap: nowrap !important; 
         &::-webkit-scrollbar {
             width: 0;
             height: 0;
@@ -474,7 +471,7 @@ main {
 /* Product Info Styles */
 .product-info {
     flex: 1;
-    padding: 20px 25px; /* زيادة التباعد الجانبي */
+    padding: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -556,7 +553,7 @@ main {
 }
 
 .product-description {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     padding: 15px;
@@ -575,7 +572,7 @@ main {
 
 /* Accordion Styles for Product Features */
 .feature-category {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     overflow: hidden;
@@ -586,12 +583,7 @@ main {
     cursor: pointer;
     padding: 0;
     margin-bottom: 0;
-    -webkit-user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
+   
 }
 
 .accordion-header h4 {
@@ -829,10 +821,10 @@ main {
 /* Order Form Styles */
 .order-section {
     background-color: #fff;
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-     margin-bottom: 30px;
+     margin-bottom: 25px;
     
 }
 
@@ -938,7 +930,7 @@ main {
     
     .product-gallery,
     .product-info {
-        padding: 15px;
+        padding: 12px;
     }
     
     .thumbnail {
@@ -1069,9 +1061,7 @@ main {
     z-index: 1020;
     opacity: 0;
     transition: opacity 0.3s ease;
-    -webkit-backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+ 
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -1693,7 +1683,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -1882,7 +1872,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     border-radius: 10px;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -1911,7 +1901,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     border-radius: 10px;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -2643,7 +2633,7 @@ footer {
     color: white;
     text-align: center;
     padding: 30px 0;
-    margin-top: 40px;
+    margin-top: -30px; /* تقليل المسافة من 40px إلى 10px */
     position: relative;
     right: 0;
     left: 0;
@@ -2742,7 +2732,7 @@ footer .copyright {
 @media (max-width: 768px) {
     footer {
         padding: 20px 0;
-        margin-top: 30px;
+        margin-top: -35px; /* تقليل المسافة في الشاشات المتوسطة */
     }
     
     footer .footer-content {
@@ -2768,12 +2758,12 @@ footer .copyright {
 @media (max-width: 480px) {
     footer {
         padding: 15px 0;
-        margin-top: 20px;
+        margin-top: -30px; /* تقليل المسافة في الشاشات الصغيرة */
     }
     
     footer .footer-content {
         gap: 12px;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
     
     footer .footer-logo {
@@ -2935,7 +2925,7 @@ footer .copyright {
     }
     
     main {
-        padding: 20px 0 !important;
+        padding: 15px 0 !important;
     }
     
     .product-details {
@@ -3045,8 +3035,8 @@ footer .copyright {
 .related-products {
     background-color: #fff;
     border-radius: 12px;
-    padding: 30px 20px;
-    margin-bottom: 3px;
+    padding: 25px 20px;
+    margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
@@ -3076,8 +3066,8 @@ footer .copyright {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
-    margin-top: 30px;
+    gap: 20px;
+    margin-top: 25px;
 }
 
 .product-link {
@@ -3087,7 +3077,7 @@ footer .copyright {
     width: 280px;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* زيادة الهامش السفلي من 10px إلى 20px */
 }
 
 .product-link:hover {
@@ -3105,6 +3095,7 @@ footer .copyright {
     position: relative;
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
+    margin-bottom: 12px; /* إضافة هامش سفلي جديد */
 }
 
 .product-link:hover .related-product {
@@ -3197,10 +3188,12 @@ footer .copyright {
     
     .product-link {
         width: 48%;
+        margin-bottom: 15px; /* تقليل الهامش السفلي على الشاشات المتوسطة */
     }
     
     .related-product {
         border-radius: 10px;
+        margin-bottom: 10px; /* تقليل الهامش السفلي على الشاشات المتوسطة */
     }
     
     .related-product img {
@@ -3237,6 +3230,11 @@ footer .copyright {
     
     .product-link {
         width: 60%;
+        margin-bottom: 12px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
+    }
+    
+    .related-product {
+        margin-bottom: 8px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
     }
     
     .related-product img {
