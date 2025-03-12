@@ -86,13 +86,13 @@ header {
     font-weight: 700;
      margin: 0;
     margin-left: 2px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #f9e816;
-    text-shadow: 0 1px 2px rgba(245, 245, 245, 0.3);
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
     background: linear-gradient(45deg, #ffffff, #fff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+     direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */ 
    
 }
 
