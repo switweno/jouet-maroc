@@ -59,9 +59,9 @@ header {
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    padding: 6px 8px;
+    padding: 6px 2px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -75,17 +75,17 @@ header {
 }
 
 .menu-toggle i {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 
 
 
 .site-brand h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
      margin: 0;
-    margin-left: 9px; /* إضافة مسافة على اليمين لتحريك النص */
+    margin-left: 2px; /* إضافة مسافة على اليمين لتحريك النص */
     color: #f9e816;
     text-shadow: 0 1px 2px rgba(245, 245, 245, 0.3);
     background: linear-gradient(45deg, #ffffff, #fff);
