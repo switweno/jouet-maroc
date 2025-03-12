@@ -57,7 +57,7 @@ header {
 
 /* إضافة مسافة إضافية للمحتوى السفلي بسبب تثبيت الهيدر */
 body {
-    padding-top: 53px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    padding-top: 44px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
 }
 
 
@@ -68,7 +68,7 @@ body {
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
-    padding: 9px 2px;
+    padding: 8px 5px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -92,14 +92,14 @@ body {
     font-size: 1.3rem;
     font-weight: 700;
      margin: 0;
-    margin-right: 2px; /* إضافة مسافة على اليمين لتحريك النص */
+    margin-left: 9px; /* إضافة مسافة على اليمين لتحريك النص */
     color: #f9e816;
     text-shadow: 0 1px 2px rgba(245, 245, 245, 0.3);
     background: linear-gradient(45deg, #ffffff, #fff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */
+    
    
 }
 
