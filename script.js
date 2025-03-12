@@ -2197,7 +2197,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ...existing code...
 let lastScrollTop = 0;
 const navbar = document.getElementById("navbar");
-const scrollThreshold = 10; // الحد الأدنى للحركة قبل التفاعل
+const scrollThreshold = 5; // الحد الأدنى للحركة قبل التفاعل
 
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
