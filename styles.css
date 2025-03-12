@@ -358,7 +358,6 @@ header {
 }
 
 /* إعدادات شريط العروض */
-/* إعدادات شريط العروض */
 .offers-bar {
     display: flex;
     align-items: center;
@@ -370,10 +369,9 @@ header {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    direction: rtl; /* تحديد الكتابة من اليمين لليسار */
     text-align: center;
+    background-color: #f8f8f8;
 }
-
 .offer-item {
     flex: 0 0 100%;
     font-size: 18px;
