@@ -132,7 +132,7 @@ var productsData = [
    reviewCount: 120,
    currentPrice: 8499,
    oldPrice: 10999,
-   discount: 30,
+   discount: 35,
    images: [
      "product1.webp",
      "product2.webp",
