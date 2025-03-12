@@ -762,7 +762,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "dualtron-pop-54v"; // Default product
+            productId = "velo-electrique-harley-u9"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم

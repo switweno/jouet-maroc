@@ -130,7 +130,7 @@ var productsData = [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 120,
-   currentPrice: 8699,
+   currentPrice: 8499,
    oldPrice: 10999,
    discount: 30,
    images: [
@@ -393,6 +393,8 @@ var productsData = [
 
 // تعيين المتغير global للصفحة
 window.products = productsData;
+
+
 
 
 
