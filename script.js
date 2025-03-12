@@ -159,7 +159,7 @@ function updateQuantity(change) {
 function scrollToForm() {
     const orderSection = document.getElementById('order-section');
     window.scrollTo({
-        top: orderSection.offsetTop - 50,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
+        top: orderSection.offsetTop - 10,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
         behavior: 'smooth'  // التمرير السلس
     });
 }
@@ -2195,3 +2195,24 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ...existing code...
+let lastScrollTop = 0;
+const navbar = document.getElementById("navbar");
+const scrollThreshold = 10; // الحد الأدنى للحركة قبل التفاعل
+
+window.addEventListener("scroll", function() {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (Math.abs(scrollTop - lastScrollTop) > scrollThreshold) {  
+        if (scrollTop > lastScrollTop) {
+            // إخفاء القائمة عند التمرير لأسفل
+            navbar.style.top = "-70px";
+        } else {
+            // إظهار القائمة عند التمرير لأعلى
+            navbar.style.top = "0";
+        }
+    }
+
+    lastScrollTop = scrollTop;
+});
+
+
