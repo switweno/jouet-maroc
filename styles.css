@@ -407,23 +407,23 @@ header {
 @keyframes slideInOut {
     0% {
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(-100%); /* تبدأ من اليسار */
     }
     10% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateX(0); /* تظهر في المنتصف */
     }
     25% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateX(0); /* تبقى في المنتصف لفترة */
     }
     35% {
         opacity: 0;
-        transform: translateX(-100%);
+        transform: translateX(100%); /* تختفي نحو اليمين */
     }
     100% {
         opacity: 0;
-        transform: translateX(-100%);
+        transform: translateX(100%); /* تظل خارج الشاشة على اليمين */
     }
 }
 
