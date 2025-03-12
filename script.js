@@ -159,7 +159,7 @@ function updateQuantity(change) {
 function scrollToForm() {
     const orderSection = document.getElementById('order-section');
     window.scrollTo({
-        top: orderSection.offsetTop - 70,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
+        top: orderSection.offsetTop - 50,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
         behavior: 'smooth'  // التمرير السلس
     });
 }

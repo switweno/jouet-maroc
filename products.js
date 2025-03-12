@@ -320,8 +320,8 @@ var productsData = [
   },
   {
    id: "voiture_range_rover_police",
-   title: "voiture Range Rover police",
-    brand: "EcoXtrem",
+   title: "Voiture Range Rover police",
+   brand: "Non spécifiée",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -385,7 +385,7 @@ var productsData = [
      }
    ],
    warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
+   videoURL: ""
  }
   
 ]; // إزالة أي فواصل زائدة في نهاية المصفوفة
