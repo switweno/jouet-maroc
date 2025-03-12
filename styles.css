@@ -5,11 +5,6 @@
     box-sizing: border-box;
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
-html, body {
-    width: 100%;
-    overflow-x: hidden; /* منع التمرير الأفقي */
-}
-
 
 
 body {
@@ -19,6 +14,7 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding-top: 50px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
 }
 
 /* تعديل الحاوية الرئيسية */
@@ -55,10 +51,7 @@ header {
 }
 
 
-/* إضافة مسافة إضافية للمحتوى السفلي بسبب تثبيت الهيدر */
-body {
-    padding-top: 60px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
-}
+
 
 
 /* أنماط زر القائمة */
