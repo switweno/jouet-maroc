@@ -260,7 +260,7 @@ function submitFormViaWhatsApp(event) {
                 closeConfirmationModal();
                 
                 // Fix: Properly format WhatsApp phone number
-                window.open(`https://wa.me/212762609147?text=${message}`, '_blank');
+                window.open(`https://wa.me/212672568976?text=${message}`, '_blank');
                 
                 // Reset form
                 document.getElementById('order-form').reset();
