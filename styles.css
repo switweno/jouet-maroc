@@ -502,53 +502,6 @@ main {
     background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
 }
 
-/* تحسين أيقونة التكبير في الصورة الرئيسية */
-.zoom-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: rgba(0, 86, 179, 0.8);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-    z-index: 5;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-}
-
-.zoom-icon:hover {
-    background-color: rgba(0, 86, 179, 0.95);
-    transform: scale(1.1);
-}
-
-.zoom-icon i {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.main-image img {
-    
-    max-width: 100%;
-    width: 100%; /* تأكيد العرض الكامل للصورة */
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block; /* منع المساحة الفارغة تحت الصورة */
-    transition: opacity 0.2s ease; /* تسريع الانتقال */
-    will-change: transform, opacity;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-property: transform, opacity;
-    transition-duration: var(--slider-transition-duration);
-    transition-timing-function: var(--slider-transition-timing);
-}
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
@@ -2497,9 +2450,9 @@ select {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: rgba(0, 86, 179, 0.8);
-    width: 40px;
-    height: 40px;
+    background-color: rgba(31, 138, 254, 0.97);
+    width: 31px;
+    height: 31px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -2513,7 +2466,7 @@ select {
 }
 
 .zoom-icon:hover {
-    background-color: rgba(0, 86, 179, 0.95);
+    background-color: #0173ee;
     transform: scale(1.1);
 }
 
