@@ -81,6 +81,7 @@ header {
 
 
 
+
 .site-brand h1 {
     font-size: 1.2rem;
     font-weight: 700;
@@ -354,6 +355,98 @@ header {
         width: 100%; /* عرض عند الفتح */
     }
 }
+
+/* إعدادات شريط العروض */
+.offers-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl; /* تحديد الكتابة من اليمين لليسار */
+    text-align: center;
+}
+
+.offer-item {
+    flex: 0 0 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    opacity: 0;
+    position: absolute;
+    animation: slideInOut 10s linear infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 5px;
+}
+.offer-item:empty {
+    display: none;
+}
+
+.offer-details {
+    font-size: 16px;
+    color: #666;
+}
+
+@keyframes slideInOut {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    10% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    35% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.offer-item:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.offer-item:nth-child(2) {
+    animation-delay: 2.5s;
+}
+
+.offer-item:nth-child(3) {
+    animation-delay: 5s;
+}
+
+.offer-item:nth-child(4) {
+    animation-delay: 7.5s;
+}
+
+
+
+
+
 /* سلايدر العروض */
 .offers-slider {
     width: 100%;
