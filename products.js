@@ -1,4 +1,4 @@
-// نقوم بإعادة كتابة هذا الملف بالكامل لحل مشكلة الإعلان المتكرر وإصلاح أي أخطاء تركيب
+
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
@@ -27,40 +27,40 @@ var productsData = [
    title: "MOTEUR & PERFORMANCE",
    icon: "fa-bolt",
    items: [
-     { key: "Puissance", value: "1000W min - 1450W max 💯" },
-     { key: "Vitesse", value: "50 km/h min - 67 km/h max 💯" },
-     { key: "Mode de conduite", value: "3 vitesses réglables 💯" },
-     { key: "Démarrage", value: "Accélérateur électrique + pédale d'assistance 💯" }
+     { key: "Puissance", value: "1000W min - 1450W max " },
+     { key: "Vitesse", value: "50 km/h min - 67 km/h max " },
+     { key: "Mode de conduite", value: "3 vitesses réglables " },
+     { key: "Démarrage", value: "Accélérateur électrique + pédale d'assistance " }
    ]
  },
  {
    title: "BATTERIE & AUTONOMIE",
    icon: "fa-battery-full",
    items: [
-     { key: "Batterie", value: "Lithium 52V 14AH 💯" },
-     { key: "Autonomie", value: "30 km min - 40 km max 💯" },
-     { key: "Charge rapide", value: "Compatible 58V 💯" },
-     { key: "Charge maximale", value: "120 kg 💯" }
+     { key: "Batterie", value: "Lithium 52V 14AH " },
+     { key: "Autonomie", value: "30 km min - 40 km max " },
+     { key: "Charge rapide", value: "Compatible 58V " },
+     { key: "Charge maximale", value: "120 kg " }
    ]
  },
  {
    title: "SÉCURITÉ & CONTRÔLE",
    icon: "fa-shield-alt",
    items: [
-     { key: "Freinage", value: "Disques AV/AR + E-ABS 💯" },
-     { key: "Suspension", value: "Avant et arrière réglables 💯" },
-     { key: "Éclairage", value: "LED AV/AR + clignotants directionnels 💯" },
-     { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) 💯" }
+     { key: "Freinage", value: "Disques AV/AR + E-ABS " },
+     { key: "Suspension", value: "Avant et arrière réglables " },
+     { key: "Éclairage", value: "LED AV/AR + clignotants directionnels " },
+     { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) " }
    ]
  },
  {
    title: "TECHNOLOGIE & CONFORT",
    icon: "fa-mobile-alt",
    items: [
-     { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) 💯" },
-     { key: "Pneus", value: "9\" chambre à air renforcés 💯" },
-     { key: "Conception", value: "Pliable avec klaxon intégré 💯" },
-     { key: "Tableau de bord", value: "Digital multifonction 💯" }
+     { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) " },
+     { key: "Pneus", value: "9\" chambre à air renforcés " },
+     { key: "Conception", value: "Pliable avec klaxon intégré " },
+     { key: "Tableau de bord", value: "Digital multifonction " }
        ]
      }
    ],
@@ -93,28 +93,28 @@ var productsData = [
         title: "CADRE & TRANSMISSION",
    icon: "fa-bicycle",
    items: [
-     { key: "Roues", value: "27.5 pouces en aluminium 💯" },
-     { key: "Transmission", value: "3×7 vitesses (21 vitesses) 💯" },
-     { key: "Dérailleur", value: "LXYANG haute précision 💯" },
-     { key: "Plateau", value: "LXYANG renforcé 💯" }
+     { key: "Roues", value: "27.5 pouces en aluminium " },
+     { key: "Transmission", value: "3×7 vitesses (21 vitesses) " },
+     { key: "Dérailleur", value: "LXYANG haute précision " },
+     { key: "Plateau", value: "LXYANG renforcé " }
    ]
  },
  {
    title: "FREINS & AMORTISSEURS",
    icon: "fa-shield-alt",
    items: [
-     { key: "Freins", value: "À disque hydrauliques AV/AR 💯" },
-     { key: "Amortisseur", value: "Avant réglable 💯" },
-     { key: "Pneus", value: "Anticrevaison avec garde-boue intégrés 💯" }
+     { key: "Freins", value: "À disque hydrauliques AV/AR " },
+     { key: "Amortisseur", value: "Avant réglable " },
+     { key: "Pneus", value: "Anticrevaison avec garde-boue intégrés " }
    ]
  },
  {
    title: "ÉQUIPEMENT",
    icon: "fa-cogs",
    items: [
-     { key: "Éclairage", value: "LED AV/AR haute luminosité 💯" },
-     { key: "Siège", value: "Cuir sport confort 2 places 💯" },
-     { key: "Charge maximale", value: "130 kg 💯" }
+     { key: "Éclairage", value: "LED AV/AR haute luminosité " },
+     { key: "Siège", value: "Cuir sport confort 2 places " },
+     { key: "Charge maximale", value: "130 kg " }
        ]
      }
    ],
@@ -147,39 +147,39 @@ var productsData = [
        title: "MOTEUR & PERFORMANCE",
        icon: "fa-bolt",
        items: [
-         { key: "Puissance", value: "750 W MAX 💯" },
-         { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX 💯" },
-         { key: "Démarrage", value: "Contact électrique 💯" }
+         { key: "Puissance", value: "750 W MAX " },
+         { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX " },
+         { key: "Démarrage", value: "Contact électrique " }
        ]
      },
      {
        title: "BATTERIE & AUTONOMIE",
        icon: "fa-battery-full",
        items: [
-         { key: "Batterie", value: "Lithium 48V 18.2AH 💯" },
-         { key: "Autonomie normale", value: "45-60 km 💯" },
-         { key: "Mode assistance", value: "100 km MAX 💯" },
-         { key: "Charge rapide", value: "54V compatible 💯" }
+         { key: "Batterie", value: "Lithium 48V 18.2AH " },
+         { key: "Autonomie normale", value: "45-60 km " },
+         { key: "Mode assistance", value: "100 km MAX " },
+         { key: "Charge rapide", value: "54V compatible " }
        ]
      },
      {
        title: "SÉCURITÉ & CONFORT",
        icon: "fa-shield-alt",
        items: [
-         { key: "Freins", value: "Disques AV/AR 💯" },
-         { key: "Amortisseurs", value: "Réglables AV/AR 💯" },
-         { key: "Éclairage", value: "LED AV/AR + clignotants 💯" },
-         { key: "Pneus", value: "20.4\" avec garde-boue 💯" }
+         { key: "Freins", value: "Disques AV/AR " },
+         { key: "Amortisseurs", value: "Réglables AV/AR " },
+         { key: "Éclairage", value: "LED AV/AR + clignotants " },
+         { key: "Pneus", value: "20.4\" avec garde-boue " }
        ]
      },
      {
        title: "ÉQUIPEMENT & DESIGN",
        icon: "fa-cogs",
        items: [
-         { key: "Affichage", value: "Écran LCD multifonction 💯" },
-         { key: "Transmission", value: "7 vitesses Shimano 💯" },
-         { key: "Confort", value: "Siège cuir 2 places 💯" },
-         { key: "Charge maximale", value: "130 kg 💯" }
+         { key: "Affichage", value: "Écran LCD multifonction " },
+         { key: "Transmission", value: "7 vitesses Shimano " },
+         { key: "Confort", value: "Siège cuir 2 places " },
+         { key: "Charge maximale", value: "130 kg " }
        ]
      }
    ],
@@ -212,7 +212,7 @@ var productsData = [
        icon: "fa-tachometer-alt",
        items: [
          { key: "Marque", value: "BISON GT ORIGINAL" },
-         { key: "Moteur", value: "1000 W MAX 💯" },
+         { key: "Moteur", value: "1000 W MAX " },
          { key: "VITESSE", value: "MAX 50 KM" }
        ]
      },
@@ -393,4 +393,25 @@ var productsData = [
 
 // تعيين المتغير global للصفحة
 window.products = productsData;
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // استخراج قيمة المنتج من رابط الصفحة
+    let urlParams = new URLSearchParams(window.location.search);
+    let productId = urlParams.get("product");
+
+    // البحث عن المنتج في القائمة
+    let product = productsData.find(p => p.id === productId);
+
+    // إذا تم العثور على المنتج، قم بتحديث الـ meta tags
+    if (product) {
+        let baseURL = "https://jouet-maroc.com/";
+
+        document.querySelector("meta[property='og:image']").setAttribute("content", baseURL + product.images[0]); // أول صورة للمنتج
+        document.querySelector("meta[property='og:title']").setAttribute("content", product.title);
+        document.querySelector("meta[property='og:description']").setAttribute("content", `اكتشف ${product.title} بسعر ${product.currentPrice} درهم فقط! 🚀`);
+        document.querySelector("meta[property='og:url']").setAttribute("content", window.location.href);
+    }
+});
 
