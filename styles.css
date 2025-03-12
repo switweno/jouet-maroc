@@ -369,8 +369,14 @@ header {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    direction: rtl; /* تحديد الكتابة من اليمين لليسار */
+    direction: ltr; /* لضمان أن النص داخل العنصر يتحرك من اليسار لليمين */
     text-align: center;
+}
+
+.offers-bar .text {
+    white-space: nowrap;
+    display: inline-block;
+    animation: slideInOut 8s linear infinite; /* تشغيل التحريك */
 }
 
 .offer-item {
@@ -388,6 +394,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .offer-title {
@@ -406,13 +413,11 @@ header {
 }
 
 @keyframes slideInOut {
-    0% {
-        opacity: 0;
-        transform: translateX(100%);
+   from {
+        transform: translateX(-100%); /* ابدأ من خارج الشاشة جهة اليسار */
     }
-    10% {
-        opacity: 1;
-        transform: translateX(0);
+    to {
+        transform: translateX(100%); /* تحرك إلى خارج الشاشة جهة اليمين */
     }
     25% {
         opacity: 1;
