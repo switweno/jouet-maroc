@@ -317,7 +317,77 @@ var productsData = [
    ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
+  },
+  {
+   id: "voiture_range_rover_police",
+   title: "voiture Range Rover police",
+    brand: "EcoXtrem",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 192,
+   currentPrice: 1820,
+   oldPrice: 2350,
+   discount: 30,
+   images: [
+     "voiture_range_rover_police/voiture_range_rover_police-01.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-02.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-03.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-04.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-05.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-06.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-07.webp"
+   ],
+   features: [
+  {
+    title: "MOTEUR ET VITESSE",
+    icon: "fa-tachometer-alt",
+    items: [
+      { key: "MARQUE", value: "Range Rover Police Edition" },
+      { key: "MOTEUR", value: "5 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses ajustables pour enfants" }
+    ]
+  },
+  {
+    title: "BATTERIE ET UTILISATION",
+    icon: "fa-battery-full",
+    items: [
+      { key: "BATTERIE", value: "12V rechargeable" },
+      { key: "AUTONOMIE", value: "Jusqu'à 1-2 heures de jeu" },
+      { key: "CHARGE MAX", value: "Adaptée pour enfants (jusqu'à 30 kg)" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ POUR ENFANTS",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "CEINTURE DE SÉCURITÉ", value: "Incluse pour une conduite sûre" },
+      { key: "ROUES", value: "Antidérapantes et durables" },
+      { key: "PROTECTION", value: "Résistante aux éclaboussures" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-cogs",
+    items: [
+      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
+      { key: "FEUX LED", value: "Avant et arrière pour un style unique" },
+      { key: "KLAXON", value: "Son de police réaliste inclus" },
+      { key: "BALANÇOIRE", value: "Effet de balançoire amusant" }
+    ]
+  },
+  {
+    title: "ACCESSOIRES INCLUS",
+    icon: "fa-gift",
+    items: [
+      { key: "TÉLÉCOMMANDE", value: "Contrôle parental manuel inclus 🎁" }
+       ]
+     }
+   ],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
  }
+  
 ]; // إزالة أي فواصل زائدة في نهاية المصفوفة
 
 
