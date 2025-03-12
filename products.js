@@ -399,19 +399,29 @@ window.products = productsData;
 document.addEventListener("DOMContentLoaded", function () {
     // استخراج قيمة المنتج من رابط الصفحة
     let urlParams = new URLSearchParams(window.location.search);
-    let productId = urlParams.get("product");
+    let product = urlParams.get("product");
 
-    // البحث عن المنتج في القائمة
-    let product = productsData.find(p => p.id === productId);
+    // قائمة المنتجات مع بياناتها
+    let products = {
+        "TROTTINETTE DUALTRON POP 52V": {
+            image: "https://jouet-maroc.com/dualtron-pop/dualtron-pop_52v_02.webp",
+            title: "Trottinette Dualtron Pop 52V - Jouet Maroc",
+            description: "اكتشف سكوتر Dualtron Pop 52V بأداء مذهل وسرعة قوية!"
+        },
+        "velo-electrique-harley-u9": {
+            image: "https://jouet-maroc.com/product1.webp",
+            title: "Trottinette Dualtron Thunder 2 - Jouet Maroc",
+            description: "استمتع بأفضل تجربة قيادة مع VÉLO ÉLECTRIQUE HARLEY U9 ببطارية قوية!"
+        }
+    };
 
-    // إذا تم العثور على المنتج، قم بتحديث الـ meta tags
-    if (product) {
-        let baseURL = "https://jouet-maroc.com/";
-
-        document.querySelector("meta[property='og:image']").setAttribute("content", baseURL + product.images[0]); // أول صورة للمنتج
-        document.querySelector("meta[property='og:title']").setAttribute("content", product.title);
-        document.querySelector("meta[property='og:description']").setAttribute("content", `اكتشف ${product.title} بسعر ${product.currentPrice} درهم فقط! 🚀`);
+    // إذا كان المنتج موجودًا في القائمة، قم بتحديث الـ meta tags
+    if (products[product]) {
+        document.querySelector("meta[property='og:image']").setAttribute("content", products[product].image);
+        document.querySelector("meta[property='og:title']").setAttribute("content", products[product].title);
+        document.querySelector("meta[property='og:description']").setAttribute("content", products[product].description);
         document.querySelector("meta[property='og:url']").setAttribute("content", window.location.href);
     }
 });
+
 
