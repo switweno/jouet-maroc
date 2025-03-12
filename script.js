@@ -2217,10 +2217,4 @@ window.addEventListener("scroll", function() {
 
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-        var currentURL = encodeURIComponent(window.location.href); // أخذ الرابط الحالي مع تشفيره
-        var whatsappNumber = "212762609147"; // ضع رقم الواتساب بدون "+"
-        var whatsappLink = "https://wa.me/" + whatsappNumber + "?text=مرحبًا، أريد الاستفسار عن: " + currentURL;
-
-        document.getElementById("whatsapp-button").setAttribute("href", whatsappLink);
-    });
+ 
