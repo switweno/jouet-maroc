@@ -846,7 +846,7 @@ main {
     font-size: 1.4rem;
     text-align: center;
     border-bottom: 2px solid #2269b6;
-    padding-bottom: 8px;
+    padding-bottom: 9px;
 }
 
 /* Accordion Styles for Product Features */
@@ -1994,88 +1994,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;
 }
 
-/* تعديل محاذاة أيقونات "لماذا تختارنا" */
-.feature-box {
-    flex: 1;
-    min-width: 250px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    transition: all 0.3s ease;
-    border: 1px solid #eee;
-    text-align: center; /* إضافة محاذاة نص للوسط */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* محاذاة كل المحتويات للوسط */
-}
 
-.feature-icon {
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center; /* توسيط الأيقونة أفقياً */
-    width: 100%; /* عرض كامل للحاوية */
-}
-
-.feature-icon i {
-    font-size: 2.5rem;
-    color: #2269b6;
-    background-color: #e9f2ff;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto; /* توسيط إضافي للأيقونة */
-}
-
-.feature-box h3 {
-    font-size: 1.3rem;
-    margin-bottom: 15px;
-    color: #333;
-    text-align: center; /* تأكيد محاذاة العنوان للوسط */
-    width: 100%;
-}
-
-.feature-box p {
-    color: #666;
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center; /* تأكيد محاذاة النص للوسط */
-    width: 100%;
-}
-
-/* Mobile styles for Why Choose Us section */
-@media (max-width: 767px) {
-    .features-grid {
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .feature-box {
-        min-width: auto;
-        padding: 15px;
-    }
-    
-    .feature-icon i {
-        width: 60px;
-        height: 60px;
-        font-size: 1.8rem;
-    }
-    
-    .why-choose-us h2 {
-        font-size: 1.5rem;
-    }
-    
-    .feature-box h3 {
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
-    
-    .why-choose-us {
-        padding: 20px 15px;
-    }
-}
 
 /* Improved Order Form Spacing for Mobile */
 @media (max-width: 767px) {
