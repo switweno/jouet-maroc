@@ -512,6 +512,7 @@
     <i class="fab fa-whatsapp"></i> <!-- أيقونة واتساب -->
 </a>
 
+
     
     <footer>
     <div class="footer-content">
@@ -560,15 +561,22 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <script>
-// تحديث الرابط الديناميكي للزر
+<script>
+    
+    
+//  واتساب تحديث الرابط الديناميكي للزر
 document.addEventListener("DOMContentLoaded", function () {
     const whatsappButton = document.getElementById('whatsappButton');
     const currentUrl = encodeURIComponent(window.location.href); // التقاط الرابط الكامل للصفحة الحالية
     const phoneNumber = "212762609147"; // رقم الهاتف الخاص بك
-    const message = `مرحبًا أريد الحصول على مساعدة! تم الوصول من الصفحة: ${currentUrl}`; // الرسالة
+    const websiteName = "https://jouet-maroc.com/"; // اسم الموقع الثابت
+
+    // إنشاء الرسالة
+    let message = `مرحبًا أريد الحصول على مساعدة! تم الوصول من الموقع: ${websiteName}\n`;
+    message += `الصفحة الحالية: ${decodeURIComponent(currentUrl)}`; // إضافة الرابط الحالي
 
     // تحديث الرابط
-    whatsappButton.href = `https://wa.me/${phoneNumber}?text=${message}`;
+    whatsappButton.href = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 });
 </script>
     
