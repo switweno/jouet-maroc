@@ -510,7 +510,7 @@
     
 
 <!-- زر واتساب -->
-<a href="#" id="whatsappButton" class="whatsapp-button">
+<a href="https://wa.me/212762609147?text=مرحبًا%20أريد%20الحصول%20على%20مساعدة!%20تم%20الوصول%20من%20الموقع:%20https://jouet-maroc.com/" target="_blank" class="whatsapp-button">
     <i class="fab fa-whatsapp"></i> <!-- أيقونة واتساب -->
 </a>
 
@@ -565,37 +565,6 @@
     <script>
 <script>
     
-    
-//  واتساب تحديث الرابط الديناميكي للزر
-<script>
-// تحديث الرابط الديناميكي للزر
-document.addEventListener("DOMContentLoaded", function () {
-    const whatsappButton = document.getElementById('whatsappButton');
-
-    // إنشاء الرسالة
-    const phoneNumber = "212762609147"; // رقم الهاتف الخاص بك
-    const websiteName = "https://jouet-maroc.com/"; // اسم الموقع الثابت
-    const currentUrl = encodeURIComponent(window.location.href); // التقاط الرابط الكامل للصفحة الحالية
-
-    let message = `مرحبًا أريد الحصول على مساعدة! تم الوصول من الموقع: ${websiteName}\n`;
-    message += `الصفحة الحالية: ${decodeURIComponent(currentUrl)}`; // إضافة الرابط الحالي
-
-    // تسجيل الرسالة في وحدة التحكم للتحقق
-    console.log("رسالة واتساب:", message);
-
-    // منع السلوك الافتراضي وإرسال المستخدم إلى واتساب
-    whatsappButton.addEventListener('click', function (event) {
-        event.preventDefault(); // إيقاف السلوك الافتراضي للرابط
-
-        // إنشاء الرابط
-        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-        console.log("رابط واتساب:", whatsappUrl);
-
-        // فتح الرابط في نافذة جديدة
-        window.open(whatsappUrl, '_blank');
-    });
-});
-</script>
     
     <!-- تعديل ترتيب تحميل ملفات JavaScript لضمان تعريف المتغير products قبل استخدامه -->
     <script src="products.js"></script>
