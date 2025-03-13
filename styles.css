@@ -3468,6 +3468,7 @@ footer .copyright {
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
+         max-width: 187px;
     }
     
     .related-product {
@@ -3498,7 +3499,7 @@ footer .copyright {
 @media (max-width: 380px) {
     .product-link {
         width: 100%;
-        max-width: 250px;
+        max-width: 140px;
     }
     
     .related-product img {
