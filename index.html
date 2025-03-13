@@ -21,6 +21,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
+    <!-- تضمين مكتبة Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3"></script>
 <script>
@@ -508,7 +510,7 @@
     
 
 <!-- زر واتساب -->
-<a href="#" target="_blank" class="whatsapp-button" id="whatsappButton">
+<a href="#" id="whatsappButton" class="whatsapp-button">
     <i class="fab fa-whatsapp"></i> <!-- أيقونة واتساب -->
 </a>
 
@@ -565,18 +567,33 @@
     
     
 //  واتساب تحديث الرابط الديناميكي للزر
+<script>
+// تحديث الرابط الديناميكي للزر
 document.addEventListener("DOMContentLoaded", function () {
     const whatsappButton = document.getElementById('whatsappButton');
-    const currentUrl = encodeURIComponent(window.location.href); // التقاط الرابط الكامل للصفحة الحالية
-    const phoneNumber = "212762609147"; // رقم الهاتف الخاص بك
-    const websiteName = "https://jouet-maroc.com/"; // اسم الموقع الثابت
 
     // إنشاء الرسالة
+    const phoneNumber = "212762609147"; // رقم الهاتف الخاص بك
+    const websiteName = "https://jouet-maroc.com/"; // اسم الموقع الثابت
+    const currentUrl = encodeURIComponent(window.location.href); // التقاط الرابط الكامل للصفحة الحالية
+
     let message = `مرحبًا أريد الحصول على مساعدة! تم الوصول من الموقع: ${websiteName}\n`;
     message += `الصفحة الحالية: ${decodeURIComponent(currentUrl)}`; // إضافة الرابط الحالي
 
-    // تحديث الرابط
-    whatsappButton.href = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    // تسجيل الرسالة في وحدة التحكم للتحقق
+    console.log("رسالة واتساب:", message);
+
+    // منع السلوك الافتراضي وإرسال المستخدم إلى واتساب
+    whatsappButton.addEventListener('click', function (event) {
+        event.preventDefault(); // إيقاف السلوك الافتراضي للرابط
+
+        // إنشاء الرابط
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        console.log("رابط واتساب:", whatsappUrl);
+
+        // فتح الرابط في نافذة جديدة
+        window.open(whatsappUrl, '_blank');
+    });
 });
 </script>
     
