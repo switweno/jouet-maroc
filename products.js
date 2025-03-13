@@ -134,9 +134,9 @@ var productsData = [
    oldPrice: 10999,
    discount: 35,
    images: [
-     "product1.webp",
-     "product2.webp",
      "product3.webp",
+     "product2.webp",
+     "product1.webp",
      "product4.webp",
      "product5.webp",
      "product6.webp",
