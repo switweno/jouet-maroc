@@ -3925,7 +3925,7 @@ footer .copyright {
     position: fixed; /* يجعل الزر ثابتًا */
     bottom: 20px; /* المسافة من الأسفل */
     right: 30px; /* المسافة من اليمين */
-    padding: 8px 12px; /* مساحة داخلية للزر */
+    padding: 8px 16px; /* مساحة داخلية للزر */
     background-color: #ffffff; /* لون خلفية أبيض */
     color: #25D366; /* لون النص والأيقونة أخضر (لون واتساب) */
     font-size: 14px; /* حجم النص */
@@ -3936,6 +3936,7 @@ footer .copyright {
     border: 1px solid #25D366; /* حدود خضراء خفيفة */
     z-index: 9999; /* يجعل الزر يظهر فوق جميع العناصر */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير تحريك وظلال */
+    direction: rtl; /* تعيين الاتجاه من اليمين إلى اليسار */
 }
 
 .whatsapp-button:hover {
@@ -3944,6 +3945,6 @@ footer .copyright {
 }
 
 .whatsapp-button i {
-    font-size: 20px; /* حجم الأيقونة */
-    margin-left: 5px; /* مسافة بين الأيقونة والنص */
+    font-size: 18px; /* حجم الأيقونة */
+    margin-left: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
 }
