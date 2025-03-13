@@ -80,13 +80,13 @@ var productsData = [
    oldPrice: 1899,
    discount: 30,
    images: [
-     "vtt_27/vtt_27_01.webp",
-     "vtt_27/vtt_27_02.webp",
+     "vtt_27/vtt_27_07.webp",
+     "vtt_27/vtt_27_06.webp",
      "vtt_27/vtt_27_03.webp",
      "vtt_27/vtt_27_04.webp",
      "vtt_27/vtt_27_05.webp",
-     "vtt_27/vtt_27_06.webp",
-     "vtt_27/vtt_27_07.webp"
+     "vtt_27/vtt_27_02.webp",
+     "vtt_27/vtt_27_01.webp"
    ],
    features: [
      {
@@ -134,9 +134,9 @@ var productsData = [
    oldPrice: 10999,
    discount: 35,
    images: [
-     "product3.webp",
-     "product2.webp",
      "product1.webp",
+     "product2.webp",
+     "product3.webp",
      "product4.webp",
      "product5.webp",
      "product6.webp",
