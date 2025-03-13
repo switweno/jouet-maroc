@@ -363,7 +363,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 81px;
     overflow: hidden;
     position: relative;
     max-width: 1200px;
@@ -371,7 +371,7 @@ header {
     margin-right: auto;
     text-align: center;
     background-color: #f8f8f8; /* لون خلفية الشريط */
-    border-radius: 12px; /* حواف مستديرة */
+    border-radius: 8px; /* حواف مستديرة */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
 }
