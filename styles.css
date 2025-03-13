@@ -370,8 +370,12 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; /* لون خلفية الشريط */
+    border-radius: 12px; /* حواف مستديرة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
+    padding: 10px; /* مسافة داخلية */
 }
+
 .offer-item {
     flex: 0 0 100%;
     font-size: 18px;
@@ -407,23 +411,23 @@ header {
 @keyframes slideInOut {
     0% {
         opacity: 0;
-        transform: translateX(-100%); /* تبدأ من اليسار */
+        transform: translateX(-100%);
     }
     10% {
         opacity: 1;
-        transform: translateX(0); /* تظهر في المنتصف */
+        transform: translateX(0);
     }
     25% {
         opacity: 1;
-        transform: translateX(0); /* تبقى في المنتصف لفترة */
+        transform: translateX(0);
     }
     35% {
         opacity: 0;
-        transform: translateX(100%); /* تختفي نحو اليمين */
+        transform: translateX(100%);
     }
     100% {
         opacity: 0;
-        transform: translateX(100%); /* تظل خارج الشاشة على اليمين */
+        transform: translateX(100%);
     }
 }
 
@@ -570,7 +574,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
