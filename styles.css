@@ -366,7 +366,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgba(233, 211, 12, 0.77); /* لون خلفية الشريط */
+    background: linear-gradient(135deg, #2269b6,#2269b6); /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
@@ -395,7 +395,7 @@ header {
 .offer-title {
     font-size: 20px;
     font-weight: bold;
-    color: #0066cc;
+    color: rgb(246, 246, 246);
     margin-bottom: 5px;
 }
 .offer-item:empty {
@@ -404,7 +404,7 @@ header {
 
 .offer-details {
     font-size: 16px;
-    color: #666;
+    color: #fff;
 }
 
 @keyframes slideInOut {
@@ -3434,7 +3434,8 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 200px;
+        height: 300px;
+       
     }
     
     .related-product h3 {
@@ -3921,8 +3922,8 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 10px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
-    right: 20px; /* المسافة من اليمين */
+    bottom: 25px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
+    right: 12px; /* المسافة من اليمين */
     width: 50px; /* عرض الزر */
     height: 50px; /* ارتفاع الزر */
     background-color: #25D366; /* لون خلفية واتساب */
