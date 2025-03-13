@@ -31,7 +31,7 @@ header {
   background: linear-gradient(135deg, #2269b6,#2269b6);
 
     color: white;
-    padding: 5px 0;
+    padding: 10px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(51, 51, 51, 0.46);
     position: fixed; /* تثبيت الهيدر في الأعلى */
@@ -49,10 +49,6 @@ header {
     justify-content: space-between;
     flex-direction: row; /* تغيير إلى row بدلاً من row-reverse */
 }
-
-
-
-
 
 
 /* أنماط زر القائمة */
@@ -84,7 +80,7 @@ header {
 
 
 .site-brand h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
      margin: 0;
     margin-left: 2px; /* إضافة مسافة على اليمين لتحريك النص */
@@ -363,7 +359,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 81px;
+    height: 90px;
     overflow: hidden;
     position: relative;
     max-width: 1200px;
@@ -1355,7 +1351,7 @@ main {
 .zoom-container {
     position: relative;
     width: 90%;
-    height: 80%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
