@@ -366,11 +366,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background: linear-gradient(135deg, #2269b6,#2269b6); /* لون خلفية الشريط */
+    background-color: rgba(233, 211, 12, 0.77); /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
-    margin-bottom: 19px;
+    margin-bottom: 25px;
 }
 
 .offer-item {
@@ -395,7 +395,7 @@ header {
 .offer-title {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(242, 240, 3);
+    color: #0066cc;
     margin-bottom: 5px;
 }
 .offer-item:empty {
@@ -404,7 +404,7 @@ header {
 
 .offer-details {
     font-size: 16px;
-    color: #fff;
+    color: #666;
 }
 
 @keyframes slideInOut {
@@ -2880,7 +2880,7 @@ footer {
     color: white;
     text-align: center;
     padding: 30px 0;
-    margin-top: -30px; /* تقليل المسافة من 40px إلى 10px */
+    margin-top: 2px; /* تقليل المسافة من 40px إلى 10px */
     position: relative;
     right: 0;
     left: 0;
@@ -2979,7 +2979,7 @@ footer .copyright {
 @media (max-width: 768px) {
     footer {
         padding: 20px 0;
-        margin-top: -35px; /* تقليل المسافة في الشاشات المتوسطة */
+        margin-top: 3px; /* تقليل المسافة في الشاشات المتوسطة */
     }
     
     footer .footer-content {
@@ -3005,7 +3005,7 @@ footer .copyright {
 @media (max-width: 480px) {
     footer {
         padding: 15px 0;
-        margin-top: -18px; /* تقليل المسافة في الشاشات الصغيرة */
+        margin-top: 3px; /* تقليل المسافة في الشاشات الصغيرة */
     }
     
     footer .footer-content {
@@ -3434,8 +3434,7 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 300px;
-       
+        height: 200px;
     }
     
     .related-product h3 {
@@ -3922,8 +3921,8 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 25px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
-    right: 12px; /* المسافة من اليمين */
+    bottom: 10px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
+    right: 20px; /* المسافة من اليمين */
     width: 50px; /* عرض الزر */
     height: 50px; /* ارتفاع الزر */
     background-color: #25D366; /* لون خلفية واتساب */
