@@ -30,6 +30,21 @@
 
   gtag('config', 'G-CT0JMLFZY3');
 </script>
+    
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var params = new URLSearchParams(window.location.search);
+    var product = params.get("product");
+
+    if (product) {
+      var canonicalLink = document.createElement("link");
+      canonicalLink.rel = "canonical";
+      canonicalLink.href = "https://jouet-maroc.com/?product=" + product;
+      document.head.appendChild(canonicalLink);
+    }
+  });
+</script>
+
 	
 <script>
     (function(w,d,s,l,i){
