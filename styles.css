@@ -368,8 +368,9 @@ header {
     text-align: center;
     background-color: #f8f8f8; /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
+    margin-bottom: 25px;
 }
 
 .offer-item {
@@ -387,6 +388,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+    
 }
 
 .offer-title {
@@ -1145,6 +1148,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
      margin-bottom: 25px;
+   
     
 }
 
@@ -3179,7 +3183,7 @@ footer .copyright {
     .order-section,
     .why-choose-us {
         padding: 20px 12px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 25px !important;
     }
 }
 
