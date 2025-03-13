@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-family: 'Cairo', 'Cairo', sans-serif;
 }
 
 
@@ -359,21 +359,21 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90px;
+    height: 100px;
     overflow: hidden;
     position: relative;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-   background-color: #f2f209; /* خلفية بيضاء */ /* لون خلفية الشريط */
-    border-radius: 8px; /* حواف مستديرة */
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0); /* ظل خفيف لتحديد الحاوية */
-    border: 1px solid rgba(208, 208, 208, 0.41); /* حدود خفيفة بلون رمادي */
-
+   background-color: white; /* خلفية بيضاء */ /* لون خلفية الشريط */
+    border-radius: 10px; /* حواف مستديرة */
+     box-shadow: 0 0 20px rgba(250, 250, 255, 0); /* ظل خفيف لتحديد الحاوية */
+    border: -1px solid rgba(208, 208, 208, 0); /* حدود خفيفة بلون رمادي */
+  margin-top: -2px;  /* تعديل المسافة العليا */
  /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .offer-item {
@@ -396,7 +396,7 @@ header {
 }
 
 .offer-title {
-    font-size: 20px;
+    font-size: 29px;
     font-weight: bold;
     color: #0066cc; 
     margin-bottom: 5px;
@@ -822,7 +822,7 @@ main {
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #555;
     padding-bottom: 8px;
     margin-bottom: 8px;
@@ -2932,13 +2932,13 @@ footer .social-links h3 {
 footer .social-links h3::after {
     content: "";
     position: absolute;
-    bottom: -8px;
+    bottom: -13px;
     right: 0;
     left: 0;
     height: 2px;
-    background-color: #3e364d;
+    background-color: #444547;
     margin: 0 auto;
-    width: 60%;
+    width: 49%;
 }
 
 footer .social-icons {
