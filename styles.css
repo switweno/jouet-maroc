@@ -366,7 +366,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-   background-color: #ffffff; /* خلفية بيضاء */ /* لون خلفية الشريط */
+   background-color: #f2f209; /* خلفية بيضاء */ /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0); /* ظل خفيف لتحديد الحاوية */
     border: 1px solid rgba(208, 208, 208, 0.41); /* حدود خفيفة بلون رمادي */
