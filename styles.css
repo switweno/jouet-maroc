@@ -368,7 +368,7 @@ header {
     text-align: center;
     background-color: rgba(225, 205, 11, 0.77); /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
-    box-shadow: 0 4px 2px rgba(0, 0, 0, 0); /* ظلال خفيفة */
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.15); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
     margin-bottom: 20px;
 }
