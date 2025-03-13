@@ -366,11 +366,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgba(233, 211, 12, 0.77); /* لون خلفية الشريط */
+    background-color: rgba(225, 205, 11, 0.77); /* لون خلفية الشريط */
     border-radius: 8px; /* حواف مستديرة */
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0); /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .offer-item {
@@ -3434,7 +3434,7 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 200px;
+        height: 250px;
     }
     
     .related-product h3 {
@@ -3468,7 +3468,7 @@ footer .copyright {
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 187px;
+         max-width: 168px;
     }
     
     .related-product {
@@ -3476,7 +3476,7 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 178px;
+        height: 200px;
     }
     
     .related-product h3 {
@@ -3499,7 +3499,7 @@ footer .copyright {
 @media (max-width: 380px) {
     .product-link {
         width: 100%;
-        max-width: 140px;
+        max-width: 145px;
     }
     
     .related-product img {
@@ -3921,7 +3921,7 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 10px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
+    bottom: 20px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
     right: 20px; /* المسافة من اليمين */
     width: 50px; /* عرض الزر */
     height: 50px; /* ارتفاع الزر */
