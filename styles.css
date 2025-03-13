@@ -398,7 +398,7 @@ header {
 .offer-title {
     font-size: 29px;
     font-weight: bold;
-    color: #0066cc; 
+    color: #0fcc00; 
     margin-bottom: 5px;
 }
 .offer-item:empty {
@@ -1125,12 +1125,12 @@ main {
 
 
 .primary-btn {
-    background-color:  #0066cc;
+    background-color:  #25d366;
     color: white;
 }
 
 .primary-btn:hover {
-    background-color: #1f83e7;
+    background-color: #049d1d;
     transform: translateY(-2px);
 }
 
@@ -2088,8 +2088,8 @@ h1, h2, h3, h4, h5, h6 {
     .order-section {
         padding: 15px;
         border-radius: 8px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     
     .form-group {
@@ -3947,4 +3947,87 @@ footer .copyright {
 .whatsapp-button i {
     font-size: 18px; /* حجم الأيقونة */
     margin-left: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
+}
+
+
+
+
+
+/* حاوية رئيسية بيضاء */
+.faq-container-wrapper {
+    max-width: 100%; /* عرض الحاوية */
+    margin: 20px auto; /* تمركز الحاوية */
+    background-color: #ffffff; /* خلفية بيضاء */
+    border-radius: 10px; /* حواف دائرية */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    overflow: hidden; /* منع تجاوز الحواف */
+}
+
+
+/* حاوية الأسئلة والأجوبة */
+.faq-container {
+    padding: 5px; /* مساحة داخلية */
+}
+
+/* تصميم الأسئلة */
+.faq-item {
+    border-bottom: 1px solid #ddd; /* خط فاصل بين الأسئلة */
+    margin-bottom: 2px; /* مسافة بين العناصر */
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent; /* خلفية شفافة */
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    text-align: right;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #f0f0f0; /* تغيير الخلفية عند التحويم */
+}
+
+.faq-question span {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.faq-question i {
+    font-size: 18px;
+    color: #25D366; /* لون أيقونة + */
+    transition: transform 0.3s ease;
+}
+
+/* تدوير أيقونة - عند الفتح */
+.faq-question.active i {
+    transform: rotate(45deg);
+}
+
+/* تصميم الإجابات */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 0 15px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* عند فتح الإجابة */
+.faq-answer.open {
+    max-height: 200px; /* ارتفاع كافٍ لعرض النص */
+    padding: 15px;
 }

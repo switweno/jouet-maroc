@@ -2218,5 +2218,32 @@ window.addEventListener("scroll", function() {
 
 
 
+// إضافة تفاعل للأزرار
+document.querySelectorAll('.faq-question').forEach(button => {
+    button.addEventListener('click', () => {
+        const answer = button.nextElementSibling; // العنصر التالي للزر هو الإجابة
+        const icon = button.querySelector('i'); // أيقونة الزر
+
+        // التحقق مما إذا كانت الإجابة مفتوحة أم لا
+        if (answer.classList.contains('open')) {
+            // إذا كانت مفتوحة، يتم إغلاقها
+            answer.classList.remove('open');
+            button.classList.remove('active');
+            icon.style.transform = 'rotate(0deg)';
+        } else {
+            // غلق جميع الإجابات الأخرى
+            document.querySelectorAll('.faq-answer').forEach(ans => ans.classList.remove('open'));
+            document.querySelectorAll('.faq-question').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.faq-question i').forEach(icn => icn.style.transform = 'rotate(0deg)');
+
+            // فتح الإجابة المرتبطة بالزر الحالي
+            answer.classList.add('open');
+            button.classList.add('active');
+            icon.style.transform = 'rotate(45deg)';
+        }
+    });
+});
+
+
 
  
