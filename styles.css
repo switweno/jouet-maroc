@@ -2744,7 +2744,7 @@ select {
 /* تحسين استجابة حركة الصورة الرئيسية */
 .main-image img {
     max-width: 100%;
-    width: 100%;
+    width: 101%;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -2802,7 +2802,7 @@ select {
 
 /* تعديل الصورة النشطة بدون تكبير */
 .thumbnail.active {
-    border-color:  #0066cc;
+    border-color:  rgba(0, 0, 0, 0.1);
     transform: none; /* إزالة تأثير التكبير */
     box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2);
     filter: brightness(1.05); /* زيادة السطوع فقط قليلاً */
