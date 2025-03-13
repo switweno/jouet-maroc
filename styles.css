@@ -3915,7 +3915,7 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 15px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
+    bottom: 10px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
     right: 20px; /* المسافة من اليمين */
     width: 50px; /* عرض الزر */
     height: 50px; /* ارتفاع الزر */
