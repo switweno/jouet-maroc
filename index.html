@@ -492,7 +492,10 @@
     <!-- End of Order Confirmation Modal -->
     
 
-
+<!-- زر واتساب -->
+<a href="https://wa.me/212762609147?text=مرحبًا%20أريد%20الحصول%20على%20مساعدة!%20تم%20الوصول%20من%20الموقع:%20https://www.jouet-maroc.com" target="_blank" class="whatsapp-button">
+    <i class="fab fa-whatsapp"></i> <!-- أيقونة واتساب -->
+</a>
 
     
     <footer>
@@ -540,7 +543,18 @@
 
 <!-- إضافة jQuery لسهولة التنقل بين المنتجات -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+// إضافة عنوان الصفحة الحالية إلى الرسالة
+document.addEventListener("DOMContentLoaded", function () {
+    const currentUrl = encodeURIComponent(window.location.href);
+    const whatsappButton = document.querySelector('.whatsapp-button');
+    const message = `مرحبًا أريد الحصول على مساعدة! تم الوصول من الصفحة: ${currentUrl}`;
+    const phoneNumber = "212762609147";
 
+    // تحديث الرابط
+    whatsappButton.href = `https://wa.me/${phoneNumber}?text=${message}`;
+});
+</script>
     
     <!-- تعديل ترتيب تحميل ملفات JavaScript لضمان تعريف المتغير products قبل استخدامه -->
     <script src="products.js"></script>

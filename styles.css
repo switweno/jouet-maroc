@@ -3907,3 +3907,33 @@ footer .copyright {
         transform: scale(var(--image-hover-scale));
     }
 }
+
+
+/* تصميم زر واتساب */
+.whatsapp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* يجعل الزر ثابتًا */
+    bottom: 15px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
+    right: 20px; /* المسافة من اليمين */
+    width: 50px; /* عرض الزر */
+    height: 50px; /* ارتفاع الزر */
+    background-color: #25D366; /* لون خلفية واتساب */
+    color: #fff; /* لون الأيقونة */
+    font-size: 24px; /* حجم الأيقونة */
+    border-radius: 50%; /* يجعل الزر دائريًا */
+    text-decoration: none; /* إزالة التسطير */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
+    z-index: 9999; /* يجعل الزر يظهر فوق جميع العناصر */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير تحريك وظلال */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* زيادة الظلال عند التحويم */
+}
+
+.whatsapp-button i {
+    margin-top: 2px; /* ضبط موقع الأيقونة داخل الزر */
+}
