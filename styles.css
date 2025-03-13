@@ -14,7 +14,7 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    padding-top: 60px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    padding-top: 66px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
 }
 
 /* تعديل الحاوية الرئيسية */
@@ -31,7 +31,7 @@ header {
   background: linear-gradient(135deg,  #0066cc, #0066cc);
 
     color: white;
-    padding: 12px 0;
+    padding: 15px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(51, 51, 51, 0.46);
     position: fixed; /* تثبيت الهيدر في الأعلى */
@@ -58,7 +58,7 @@ header {
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
-    padding: 6px 2px;
+    padding: 6px 4px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -72,7 +72,7 @@ header {
 }
 
 .menu-toggle i {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 
@@ -83,7 +83,7 @@ header {
     font-size: 1.1rem;
     font-weight: 700;
      margin: 0;
-    margin-left: 2px; /* إضافة مسافة على اليمين لتحريك النص */
+    margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
     color: #ffffff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
     background: linear-gradient(45deg, #ffffff, #fff);
@@ -3917,32 +3917,33 @@ footer .copyright {
     }
 }
 
-
 /* تصميم زر واتساب */
 .whatsapp-button {
     display: flex;
+    align-items: center; /* لمحاذاة الأيقونة والنص بشكل أفقي */
     justify-content: center;
-    align-items: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 20px; /* المسافة من الأسفل (تعديل لتجنب الفوتر) */
-    right: 20px; /* المسافة من اليمين */
-    width: 50px; /* عرض الزر */
-    height: 50px; /* ارتفاع الزر */
-    background-color: #25D366; /* لون خلفية واتساب */
-    color: #fff; /* لون الأيقونة */
-    font-size: 24px; /* حجم الأيقونة */
-    border-radius: 50%; /* يجعل الزر دائريًا */
+    bottom: 20px; /* المسافة من الأسفل */
+    right: 30px; /* المسافة من اليمين */
+    padding: 8px 12px; /* مساحة داخلية للزر */
+    background-color: #ffffff; /* لون خلفية أبيض */
+    color: #25D366; /* لون النص والأيقونة أخضر (لون واتساب) */
+    font-size: 14px; /* حجم النص */
+    font-family: Arial, sans-serif; /* خط النص */
+    border-radius: 20px; /* يجعل الزر دائري الأطراف قليلاً */
     text-decoration: none; /* إزالة التسطير */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
+    border: 1px solid #25D366; /* حدود خضراء خفيفة */
     z-index: 9999; /* يجعل الزر يظهر فوق جميع العناصر */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير تحريك وظلال */
 }
 
 .whatsapp-button:hover {
-    transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
+    transform: scale(1.05); /* تكبير الزر قليلاً عند التحويم */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* زيادة الظلال عند التحويم */
 }
 
 .whatsapp-button i {
-    margin-top: 2px; /* ضبط موقع الأيقونة داخل الزر */
+    font-size: 20px; /* حجم الأيقونة */
+    margin-left: 5px; /* مسافة بين الأيقونة والنص */
 }
