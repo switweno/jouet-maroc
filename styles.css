@@ -10,7 +10,7 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    padding-top: 66px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    padding-top: 70px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
     font-family: 'Cairo', 'Cairo', sans-serif;
 }
 
@@ -59,7 +59,7 @@ header {
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
-    padding: 7px 6px;
+    padding: 6px 6px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -73,7 +73,7 @@ header {
 }
 
 .menu-toggle i {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 
@@ -87,7 +87,7 @@ header {
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
     color: #ffffff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
-    background: linear-gradient(45deg, #5cadff, #77acee);
+    background: linear-gradient(45deg, #fff65c, #eeb577);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@ header {
 .sidebar-menu {
     position: fixed;
     top: 0;
-    right: -300px; /* مخفية خارج الشاشة */
+    right: -400px; /* مخفية خارج الشاشة */
     width: 300px;
     height: 100%;
     background-color: white;
@@ -2848,25 +2848,7 @@ footer .footer-logo img {
     object-fit: contain;
 }
 
-footer .social-links h3 {
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-     font-size: 22px;
-}
 
-footer .social-links h3::after {
-    content: "";
-    position: absolute;
-    bottom: -16px;
-    right: 0;
-    left: 0;
-    height: 2px;
-    background-color: rgba(68, 69, 71, 0.31);
-    margin: 0 auto;
-    width: 92%;
-    
-}
 
 footer .social-icons {
     display: flex;
