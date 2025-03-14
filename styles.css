@@ -90,7 +90,7 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
      direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */ 
-    font-family: 'Montserrat', sans-serif;
+   
 }
 
 /* أنماط القائمة الجانبية */
@@ -367,8 +367,8 @@ header {
     text-align: center;
    background-color: #f8f9fa; /* خلفية بيضاء */ /* لون خلفية الشريط */
     border-radius: 10px; /* حواف مستديرة */
-     box-shadow: 0 0 20px rgba(250, 250, 255, 0); /* ظل خفيف لتحديد الحاوية */
-    border: -1px solid rgba(208, 208, 208, 0); /* حدود خفيفة بلون رمادي */
+     box-shadow: 0 0 20px rgb(250, 250, 255); /* ظل خفيف لتحديد الحاوية */
+    border: 3px solid rgba(208, 208, 208, 0); /* حدود خفيفة بلون رمادي */
   margin-top: -10px;  /* تعديل المسافة العليا */
  /* ظلال خفيفة */
     padding: 10px; /* مسافة داخلية */
@@ -397,7 +397,7 @@ header {
 .offer-title {
     font-size: 29px;
     font-weight: bold;
-    color: #25D366; 
+    color: #0066cc; 
     margin-bottom: 5px;
 }
 .offer-item:empty {
@@ -566,10 +566,7 @@ header {
     }
 }
 
-/* Main Content Styles */
-main {
-    padding: 20px 0;
-}
+
 
 .product-details {
     display: flex;
@@ -741,57 +738,7 @@ main {
     }
 }
 
-/* Override any conflicting rules for mobile */
-@media (max-width: 767px) {
-    .thumbnails {
-        flex-wrap: nowrap !important; /* Enforce single row */
-        overflow-x: auto !important; /* Ensure scroll works */
-    }
-}
 
-/* Fixed Thumbnail Sizes for Small Screens */
-@media (max-width: 767px) {
-    .thumbnails {
-        gap: 10px;
-        justify-content: flex-start;
-        padding: 5px 2px;
-    }
-    
-    .thumbnail {
-        width: calc((100% - 30px) / 4); /* Show exactly 4 thumbnails (with 3 gaps between) */
-        height: 65px; /* Taller for better visibility */
-        min-width: 60px; /* Ensure minimum size */
-    }
-}
-
-@media (max-width: 480px) {
-    .thumbnails {
-        gap: 8px;
-    }
-    
-    .thumbnail {
-        width: calc((100% - 24px) / 4); /* Show exactly 4 thumbnails (with 3 gaps of 8px) */
-        height: 85px; /* Slightly shorter but still good size */
-        min-width: 55px; /* Minimum size */
-    }
-}
-
-/* Override any conflicting thumbnail styles */
-@media (max-width: 767px) {
-    /* Remove existing conflicting thumbnail styles */
-    .thumbnail {
-        width: calc((100% - 30px) / 4) !important; /* Force this sizing */
-        height: 85px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    /* Remove existing conflicting thumbnail styles */
-    .thumbnail {
-        width: calc((100% - 24px) / 4) !important; /* Force this sizing */
-        height: 60px !important;
-    }
-}
 
 /* Product Info Styles */
 .product-info {
@@ -803,7 +750,7 @@ main {
 
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #333;
    
     font-weight: 700;
@@ -2370,27 +2317,7 @@ select {
         box-shadow: none !important;
     }
     
-    /* تعديل محدد للأزرار الدائرية في وسائل التواصل الاجتماعي */
-    .social-media a {
-        -webkit-tap-highlight-color: transparent;
-    }
-    
-    /* تعديل محدد لصور المعرض والصور المصغرة */
-    .main-image img, .thumbnail {
-        -webkit-tap-highlight-color: transparent;
-    }
-    
-    /* تعديل محدد لأيقونات الميزات */
-    .feature-icon i {
-        -webkit-tap-highlight-color: transparent;
-    }
-}
-
-/* إضافة قاعدة عامة لإزالة تأثيرات النقر على الشاشات اللمسية */
-@media (hover: none) and (pointer: coarse) {
-    * {
-        -webkit-tap-highlight-color: transparent;
-    }
+   
     
     input:focus, textarea:focus, select:focus {
         outline-color: transparent;
@@ -2683,42 +2610,7 @@ select {
     }
 }
 
-/* Product Image Animation Styles */
-.main-image {
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    overflow: hidden; /* منع خروج المحتوى من الحاوية */
-    border-radius: 5px;
-}
 
-.main-image img {
-    max-width: 100%;
-    width: 100%; /* تأكيد العرض الكامل للصورة */
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block; /* منع المساحة الفارغة تحت الصورة */
-    transition: opacity 0.2s ease; /* تسريع الانتقال */
-}
-
-/* Animation Classes for Image Slider */
-.image-fade-out {
-    opacity: 0;
-    transform: scale(0.95);
-}
-
-.image-fade-in {
-    animation: fadeInImage 0.4s forwards;
-}
-
-.image-slide-left {
-    animation: slideLeft 0.4s forwards;
-}
-
-.image-slide-right {
-    animation: slideRight 0.4s forwards;
-}
 
 @keyframes fadeInImage {
     from {
@@ -3941,6 +3833,12 @@ footer .copyright {
         transform: scale(var(--image-hover-scale));
     }
 }
+/* إخفاء الزر عند تحميل الصفحة */
+.whatsapp-button {
+    display: none !important;
+}
+
+
 
 /* تصميم زر واتساب */
 .whatsapp-button {
@@ -3949,7 +3847,7 @@ footer .copyright {
     justify-content: center;
     position: fixed; /* يجعل الزر ثابتًا */
     bottom: 27px; /* المسافة من الأسفل */
-    right: 11px; /* المسافة من اليمين */
+    left: 11px; /* المسافة من اليسار بدلاً من اليمين */
     padding: 8px 16px; /* مساحة داخلية للزر */
     background-color: #ffffff; /* لون خلفية أبيض */
     color: #25D366; /* لون النص والأيقونة أخضر (لون واتساب) */
@@ -3961,7 +3859,7 @@ footer .copyright {
     border: 1px solid #25D366; /* حدود خضراء خفيفة */
     z-index: 9999; /* يجعل الزر يظهر فوق جميع العناصر */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير تحريك وظلال */
-    direction: rtl; /* تعيين الاتجاه من اليمين إلى اليسار */
+    direction: ltr; /* تعيين الاتجاه من اليمين إلى اليسار */
 }
 
 .whatsapp-button:hover {
@@ -3971,7 +3869,7 @@ footer .copyright {
 
 .whatsapp-button i {
     font-size: 20px; /* حجم الأيقونة */
-    margin-left: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
+    margin-right: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
 }
 
 
