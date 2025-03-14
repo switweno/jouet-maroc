@@ -187,10 +187,11 @@ function submitFormViaWhatsApp(event) {
         }
         
         // Phone validation - ensure it contains only numbers
-        if (!/^\d+$/.test(phone.replace(/\s+/g, ''))) {
-            alert("رقم الهاتف يجب أن يحتوي على أرقام فقط");
-            return;
-        }
+       if (!/^[\d+]+$/.test(phone.replace(/\s+/g, ''))) {
+    alert("رقم الهاتف يجب أن يحتوي على أرقام فقط ورمز + إذا كان دوليًا");
+    return;
+}
+
         
         // Get product information
         const productName = document.querySelector('.product-title').textContent;
