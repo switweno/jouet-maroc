@@ -87,7 +87,7 @@ header {
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
     color: #ffffff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
-    background: linear-gradient(45deg, #5cadff, #9bc8ff);
+    background: linear-gradient(45deg, #5cadff, #77acee);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -4017,108 +4017,8 @@ footer .copyright {
 
 
 
-/* تخصيص السلايدر */
-.custom-slider {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-}
 
-.custom-slider .product-slider {
-  display: flex;
-  transition: transform 0.3s ease;
-  width: 100%;
-}
 
-.custom-slider .related-product {
-  margin-right: 20px;
-  text-align: center;
-  min-width: 300px;
-}
 
-.custom-slider .related-product img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 
-.custom-slider .related-price-container {
-  margin: 10px 0;
-}
-
-.custom-slider .related-price {
-  font-size: 1.2rem;
-  color: #0088cc;
-}
-
-.custom-slider .related-old-price {
-  font-size: 1rem;
-  text-decoration: line-through;
-  color: #666;
-}
-
-.custom-slider .related-discount-badge {
-  background: red;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-}
-
-/* تخصيص الأزرار */
-.custom-slider button {
-  position: absolute;
-  top: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  border: none;
-  z-index: 10;
-  transform: translateY(-50%);
-}
-
-.custom-slider .prev {
-  left: 10px;
-}
-
-.custom-slider .next {
-  right: 10px;
-}
-
-/* تخصيص النقاط الصغيرة */
-.custom-slider .slider-dots {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-
-.custom-slider .slider-dots span {
-  width: 10px;
-  height: 10px;
-  background-color: #ddd;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.custom-slider .slider-dots .active {
-  background-color: #0088cc;
-}
-
-/* تحسينات للأجهزة المحمولة */
-@media (max-width: 768px) {
-  .custom-slider .product-slider {
-    gap: 10px;
-  }
-
-  .custom-slider .related-product {
-    min-width: 250px;
-  }
-}
 
