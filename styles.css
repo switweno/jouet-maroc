@@ -1,7 +1,7 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-.french-text {
+.french-text, .some-class, h1.french, p.french {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -822,7 +822,7 @@ main {
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #555;
     padding-bottom: 8px;
     margin-bottom: 8px;
