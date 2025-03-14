@@ -320,8 +320,8 @@ var productsData = [
   },
   {
    id: "voiture_range_rover_police",
-   title: "Voiture Range Rover police",
-   brand: "Range Rover police",
+   title: "Voiture Range-Rover police",
+   brand: "Range-Rover",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -343,7 +343,7 @@ var productsData = [
     title: "MOTEUR ET VITESSE",
     icon: "fa-tachometer-alt",
     items: [
-      { key: "MARQUE", value: "Range Rover Police" },
+      { key: "MARQUE", value: "Range-Rover police" },
       { key: "MOTEUR", value: "5 moteurs puissants" },
       { key: "VITESSE", value: "3 vitesses" }
     ]
@@ -384,7 +384,7 @@ var productsData = [
        ]
      }
    ],
-   warranty: "Garantie 3 mois",
+   warranty: "",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
  }
   

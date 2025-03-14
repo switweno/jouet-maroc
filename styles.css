@@ -809,16 +809,16 @@ header {
 }
 
 .current-price {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
     color: #2F5E8C;
-    font-family: 'Tajawal', 'Cairo', sans-serif;
+    
 }
 
 .old-price {
     text-decoration: line-through;
     color: #999;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .discount {
@@ -826,7 +826,7 @@ header {
     color: white;
     padding: 3px 8px;
     border-radius: 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .product-description {
@@ -1245,7 +1245,7 @@ html[lang="fr"] #phone {
     }
     
     .current-price {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
     
     .product-description {
@@ -1544,7 +1544,7 @@ html[lang="fr"] #phone {
     }
     
     .current-price {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     
     .old-price {
