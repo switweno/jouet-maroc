@@ -1642,11 +1642,6 @@ html[lang="fr"] #phone {
         font-size: 1.1rem;
     }
     
-    /* Footer adjustments */
-    .trust-badges {
-        gap: 20px;
-    }
-    
     .badge i {
         font-size: 1.5rem;
     }
@@ -3467,7 +3462,7 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 250px;
+        height: 300px;
     }
     
     .related-product h3 {
@@ -3501,7 +3496,7 @@ footer .copyright {
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 168px;
+         max-width: 157px;
     }
     
     .related-product {
@@ -3953,7 +3948,7 @@ footer .copyright {
     align-items: center; /* لمحاذاة الأيقونة والنص بشكل أفقي */
     justify-content: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 38px; /* المسافة من الأسفل */
+    bottom: 27px; /* المسافة من الأسفل */
     right: 11px; /* المسافة من اليمين */
     padding: 8px 16px; /* مساحة داخلية للزر */
     background-color: #ffffff; /* لون خلفية أبيض */
@@ -3975,7 +3970,7 @@ footer .copyright {
 }
 
 .whatsapp-button i {
-    font-size: 18px; /* حجم الأيقونة */
+    font-size: 20px; /* حجم الأيقونة */
     margin-left: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
 }
 
