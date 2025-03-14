@@ -16,6 +16,8 @@ body {
 
 
 
+
+
 /* تعديل الحاوية الرئيسية */
 .container {
     width: 90%;
@@ -57,7 +59,7 @@ header {
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
-    padding: 6px 4px;
+    padding: 2px 6px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -71,7 +73,7 @@ header {
 }
 
 .menu-toggle i {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 
@@ -97,7 +99,7 @@ header {
 .sidebar-menu {
     position: fixed;
     top: 0;
-    right: -348px; /* مخفية خارج الشاشة */
+    right: -300px; /* مخفية خارج الشاشة */
     width: 300px;
     height: 100%;
     background-color: white;
@@ -3449,6 +3451,8 @@ footer .copyright {
     position: relative;
     padding: 60px 0 80px; /* زيادة التباعد العلوي والسفلي للأزرار */
     box-sizing: border-box;
+     background-color: #333;
+   
 }
 
 /* تحسين الحاوية الرئيسية لنافذة الصور */

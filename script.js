@@ -763,7 +763,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "voiture_range_rover_police"; // Default product
+            productId = "dualtron-pop-54v"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
