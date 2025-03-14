@@ -1,11 +1,9 @@
 /* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Cairo', 'Cairo', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+.french-text {
+    font-family: 'Montserrat', sans-serif;
+}
 
 body {
     margin: 0;
@@ -15,6 +13,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     padding-top: 66px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    font-family: 'Cairo', 'Cairo', sans-serif;
 }
 
 /* تعديل الحاوية الرئيسية */
@@ -91,7 +90,7 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
      direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */ 
-   
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* أنماط القائمة الجانبية */
@@ -398,7 +397,7 @@ header {
 .offer-title {
     font-size: 29px;
     font-weight: bold;
-    color: #6FC327; 
+    color: #25D366; 
     margin-bottom: 5px;
 }
 .offer-item:empty {
@@ -806,7 +805,7 @@ main {
 .product-title {
     font-size: 1.8rem;
     color: #333;
-    font-family: 'Cairo', 'Tajawal', sans-serif;
+   
     font-weight: 700;
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
@@ -817,18 +816,23 @@ main {
     padding-bottom: 12px;
     margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
     border-bottom: 1px solid #e6e6e6; /* خط فاصل خفيف */
+     font-family: 'Montserrat', sans-serif;
 }
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #555;
     padding-bottom: 8px;
     margin-bottom: 8px;
     border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
     width: 100%;
+    
+  
 }
+
+
 
 .product-availability {
     color: #28a745;
@@ -1065,7 +1069,7 @@ main {
 .quantity-selector {
   
     margin-bottom: 20px;
-    color: #2F5E8C;
+    color: #2b2323;
 }
 
 .quantity-selector h3 {
@@ -1080,8 +1084,8 @@ main {
 }
 
 .quantity-btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: #e9ecef;
     border: none;
     font-size: 1.5rem;
@@ -1097,13 +1101,25 @@ main {
 }
 
 #quantity {
-    width: 50px;
-    height: 40px;
+    width: 60px; /* زيادة العرض قليلاً لتفادي التمرير */
+    height: 32px;
     text-align: center;
     font-size: 1.2rem;
     border: 1px solid #e9ecef;
     margin: 0 10px;
+    
+    /* منع ظهور سكرول داخلي */
+    overflow: hidden; 
+   
 }
+
+/* إزالة الأسهم من إدخال الأرقام في كروم و إيدج */
+#quantity::-webkit-outer-spin-button,
+#quantity::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 
 /* Button Styles */
 .cta-buttons {
@@ -1128,17 +1144,18 @@ main {
 
 
 .primary-btn {
-    background-color: #6FC327;
+    background-color: #25D366;
     color: white;
 }
 
 .primary-btn:hover {
-    background-color: #049d1d;
+    background-color: #25D366;
     transform: translateY(-2px);
+    color: white;
 }
 
 .secondary-btn {
-    background-color: #6FC327;
+    background-color: #25D366;
     color: white;
 }
 
@@ -1244,7 +1261,7 @@ main {
 }
 
 .submit-btn:hover {
-    background-color: #6FC327; /* Darker WhatsApp green for hover */
+    background-color: #25D366; /* Darker WhatsApp green for hover */
     color: #ffffff;
 }
 
@@ -1814,12 +1831,12 @@ main {
 
 /* The confirm button keeps WhatsApp green */
 #confirm-order-btn {
-    background-color:#6FC327;
+    background-color:#25D366;
     
 }
 
 #confirm-order-btn:hover {
-    background-color:#6FC327;
+    background-color:#25D366;
     color:  #ffffff;
 }
 
@@ -3930,8 +3947,8 @@ footer .copyright {
     align-items: center; /* لمحاذاة الأيقونة والنص بشكل أفقي */
     justify-content: center;
     position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 20px; /* المسافة من الأسفل */
-    right: 30px; /* المسافة من اليمين */
+    bottom: 38px; /* المسافة من الأسفل */
+    right: 11px; /* المسافة من اليمين */
     padding: 8px 16px; /* مساحة داخلية للزر */
     background-color: #ffffff; /* لون خلفية أبيض */
     color: #25D366; /* لون النص والأيقونة أخضر (لون واتساب) */
