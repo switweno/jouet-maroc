@@ -2330,21 +2330,5 @@ document.getElementById("whatsappSend1").addEventListener("click", function () {
 });
 
 
-// إظهار أو إخفاء زر العودة إلى الأعلى بناءً على موقع التمرير
-window.addEventListener('scroll', () => {
-    const backToTopButton = document.getElementById('back-to-top');
-    if (window.scrollY > 300) {
-        backToTopButton.classList.remove('hidden');
-    } else {
-        backToTopButton.classList.add('hidden');
-    }
-});
 
-// العودة إلى الأعلى بسلاسة
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
 
