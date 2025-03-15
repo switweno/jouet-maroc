@@ -488,25 +488,7 @@ header {
     padding: 0 10px; /* إضافة تباعد داخلي */
 }
 
-/* تحسين شارة العروض */
-.offer-badge {
-    background: linear-gradient(135deg,  #0066cc,  #0066cc);
-    color: white;
-    padding: 8px 18px;
-    border-radius: 25px;
-    font-size: 1.05rem;
-    font-weight: bold;
-    display: inline-block;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 0 rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    animation: glow 2s infinite alternate;
-    transition: all 0.3s ease;
-    white-space: nowrap; /* منع التفاف النص */
-    text-overflow: ellipsis; /* إضافة علامة القطع للنصوص الطويلة جدًا */
-    max-width: 100%; /* تأكيد عدم تجاوز عرض الحاوية */
-}
+
 
 @keyframes glow {
     0% {
@@ -530,26 +512,7 @@ header {
     }
 }
 
-/* حركة سلايدر العروض */
-@keyframes offerSlide {
-    0%, 28% {
-        transform: translateX(0);
-    }
-    33%, 61% {
-        transform: translateX(-33.33%);
-    }
-    66%, 94% {
-        transform: translateX(-66.66%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
-/* توقف الحركة عند تمرير المؤشر */
-.offers-slider:hover .offers-track {
-    animation-play-state: paused;
-}
 
 /* تعديلات للأجهزة المحمولة */
 @media (max-width: 767px) {
@@ -603,8 +566,11 @@ header {
     overflow: hidden; /* منع خروج المحتوى من الحاوية */
     border-radius: 5px;
     background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
@@ -828,7 +794,7 @@ header {
 }
 
 .discount {
-    background-color: #f80000;
+    background-color: #25D366;
     color: white;
     padding: 3px 8px;
     border-radius: 50px;
@@ -3232,7 +3198,7 @@ footer .copyright {
     position: absolute;
     top: 12px;
     left: 12px;
-    background-color: #e53935;
+    background-color: #25D366;
     color: white;
     font-size: 0.85rem;
     font-weight: 700;
@@ -3907,6 +3873,28 @@ footer .copyright {
     left: 5%;
     bottom: 80px; /* تأكد من أن النافذة لا تغطي الأسفل كثيرًا على الأجهزة الصغيرة */
   }
+}
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #ffffff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10%;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
 }
 
 

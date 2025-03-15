@@ -1556,42 +1556,19 @@ window.addEventListener('popstate', function() {
 
 // تحسين دالة التنقل بين الصور في النافذة المنبثقة
 function navigateImages(direction) {
-    // Calculate new index
-    currentImageIndex += direction;
-    
-    // Loop around if needed
-    if (currentImageIndex < 0) currentImageIndex = allImages.length - 1;
-    if (currentImageIndex >= allImages.length) currentImageIndex = 0;
-    
-    // Update modal image with improved animation
-    const modalImage = document.getElementById('modal-image');
-    const directionName = direction > 0 ? 'right' : 'left';
-    
-    // تحسين حركة انتقال الصور في النافذة المنبثقة لتطابق الصور الرئيسية
-    modalImage.style.opacity = '0';
-    modalImage.style.transform = `translateX(${direction > 0 ? '-30px' : '30px'})`;
-    modalImage.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-    
-    setTimeout(() => {
-        modalImage.src = allImages[currentImageIndex];
-        
-        modalImage.onload = () => {
-            modalImage.style.opacity = '1';
-            modalImage.style.transform = 'translateX(0) scale(1)';
-            zoomLevel = 1;
-            translateX = 0;
-            translateY = 0;
-        };
-        
-        // تحديث الصورة الرئيسية أيضًا
-        const mainImage = document.getElementById('current-image');
-        if (mainImage) {
-            changeImage(allImages[currentImageIndex], directionName);
-        }
-    }, 300);
-    
-    // Reset zoom when changing images
-    resetZoom();
+    const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
+    const currentImage = document.getElementById('current-image');
+    const activeIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
+    let newIndex = activeIndex + direction;
+
+    if (newIndex < 0) {
+        newIndex = thumbnails.length - 1;
+    } else if (newIndex >= thumbnails.length) {
+        newIndex = 0;
+    }
+
+    const newImageSrc = thumbnails[newIndex].src;
+    changeImage(newImageSrc, direction > 0 ? 'right' : 'left');
 }
 
 // Close image modal

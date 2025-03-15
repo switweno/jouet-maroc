@@ -160,10 +160,13 @@
         <div class="product-details">
             <div class="product-gallery">
                 <div class="main-image">
-                    <img id="current-image" src="product1.webp" alt="صورة المنتج">
-                  
-
-
+                    <button class="scroll-arrow arrow-left" onclick="navigateImages(-1)" aria-label="السابق">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <img id="current-image" src="product2.webp" alt="الصورة الرئيسية">
+                    <button class="scroll-arrow arrow-right" onclick="navigateImages(1)" aria-label="التالي">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
                 <div class="thumbnails-container">
                     <div class="thumbnails" id="thumbnails-slider">
