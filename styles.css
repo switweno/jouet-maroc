@@ -3050,40 +3050,7 @@ footer .copyright {
     }
 }
 
-/* تعديلات متوازنة للهوامش على الشاشات الصغيرة */
-@media (max-width: 767px) {
-    .container {
-        width: 96% !important; /* زيادة العرض بشكل معتدل */
-        padding: 0 8px !important; /* هوامش متوازنة بدون إفراط */
-        margin: 0 auto !important;
-    }
-    
-    main {
-        padding: 15px 0 !important;
-    }
-    
-    .product-details {
-        padding: 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
-        margin-bottom: 20px !important;
-    }
-    
-    .product-gallery,
-    .product-info {
-        padding: 10px !important; /* هامش داخلي مناسب بدون تقليص زائد */
-    }
-    
-    .product-description {
-        padding: 12px !important; /* تقليل التباعد الداخلي بشكل متوازن */
-    }
-    
-    .product-video-section,
-    .related-products,
-    .order-section,
-    .why-choose-us {
-        padding: 20px 12px !important;
-        margin-bottom: 25px !important;
-    }
-}
+
 
 /* هوامش مخصصة للشاشات الصغيرة جداً - توازن بين المساحة والجمالية */
 @media (max-width: 480px) {
@@ -3113,7 +3080,7 @@ footer .copyright {
     .product-video-section,
     .related-products,
     .order-section {
-        padding: 20px 10px !important;
+        padding: 20px 20px !important;
         margin-bottom: 15px !important;
     }
 }
@@ -3137,15 +3104,7 @@ footer .copyright {
         margin-bottom: 20px !important;
     }
     
-    .form-group {
-        margin-bottom: 10px !important;
-    }
     
-    .form-group input,
-    .form-group textarea,
-    .form-group select {
-        padding: 10px 8px !important; /* تقليل التباعد الداخلي بشكل معتدل */
-    }
 }
 
 .slider-container {
@@ -3366,7 +3325,7 @@ footer .copyright {
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 157px;
+         max-width: 137px;
     }
     
     .related-product {
@@ -3374,7 +3333,7 @@ footer .copyright {
     }
     
     .related-product img {
-        height: 200px;
+        height: 150px;
     }
     
     .related-product h3 {
