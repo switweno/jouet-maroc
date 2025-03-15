@@ -2837,7 +2837,7 @@ footer .social-icons a:hover {
     text-align: right;
     margin-top: 15px; /* مسافة بين العناصر */
     font-weight: bold;
-    color: #333; /* لون نص داكن */
+    color: #a0a0a0; /* لون نص داكن */
 }
 
 /* حقول الإدخال (inputs) وحقل النص (textarea) */
