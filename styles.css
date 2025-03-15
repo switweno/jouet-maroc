@@ -353,6 +353,10 @@ header {
         width: 100%; /* عرض عند الفتح */
     }
 }
+/* إخفاء إعدادات شريط العروض  */
+.offers-bar {
+    display: none !important;
+}
 
 /* إعدادات شريط العروض */
 .offers-bar {
