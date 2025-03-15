@@ -572,14 +572,7 @@ header {
     
 }
 
-/* شارة التخفيض للصورة الرئيسية */
-.main-image-discount-badge {
-      visibility: hidden;
-    position: absolute;
-    top: 15px;
-    left: 13px;
-    
-}
+
 
 
 
@@ -647,7 +640,7 @@ header {
 
 /* إزالة التأثير عند تحويم المؤشر */
 .thumbnail:hover {
-    transform: none; /* إزالة تأثير التكبير */
+    transform: scale(1.2); /* تكبير العنصر بنسبة 20% */
     filter: brightness(1); /* زيادة السطوع قليلاً فقط */
 }
 
@@ -3187,21 +3180,25 @@ footer .copyright {
 
 @media (max-width: 480px) {
     .products-grid {
-        gap: 12px;
+        gap: 9px;
+       
+   
     }
-    
+
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 137px;
+         max-width: 150px;
+         
     }
     
     .related-product {
-        margin-bottom: 8px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
+        margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
+        
     }
     
     .related-product img {
-        height: 150px;
+        height: 180px;
     }
     
     .related-product h3 {
@@ -3222,9 +3219,14 @@ footer .copyright {
 
 /* تحسينات للمنتجات ذات الصلة على الهواتف الصغيرة */
 @media (max-width: 380px) {
+    .products-grid {
+        gap: 5px;
+       
+   
+    }
     .product-link {
         width: 100%;
-        max-width: 135px;
+        max-width: 133px;
     }
     
     .related-product img {
@@ -3233,9 +3235,10 @@ footer .copyright {
     
     .related-product h3 {
         height: auto;
-        min-height: 40px;
+        min-height: 36px;
     }
 }
+
 
 
 /* تحسين حاوية الصورة الرئيسية للسلايدر */
@@ -3499,8 +3502,55 @@ footer .copyright {
 
 
 
+/* تصميم زر العودة إلى الأعلى */
+.back-to-top {
+    position: fixed;
+    bottom: 20px; /* المسافة من الأسفل */
+    left: 20px; /* المسافة من اليسار */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
 
+.back-to-top.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
 
+.back-to-top:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* إخفاء الزر على الشاشات الكبيرة */
+@media (min-width: 768px) {
+    .back-to-top {
+        display: none !important; /* إخفاء الزر تمامًا على الشاشات الكبيرة */
+    }
+}
+
+/* استجابة الشاشات المختلفة */
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px;
+        left: 15px; /* المسافة من اليسار للشاشات الصغيرة */
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
 
 
 
