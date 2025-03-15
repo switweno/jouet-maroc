@@ -180,32 +180,7 @@
                 </div>
             </div>
             
-                <!-- تحسين قسم تكبير الصورة - Image Modal/Lightbox -->
-<div id="image-modal" class="image-modal">
-    <div class="modal-content">
-        <span class="close-modal" onclick="closeImageModal()">&times;</span>
-        <div class="zoom-instructions">
-            <i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس
-        </div>
-        <div class="zoom-container">
-            <img id="modal-image" src="product1.webp" alt="صورة مكبرة" draggable="false">
             
-            <!-- أزرار التنقل بين الصور -->
-            <button class="nav-arrow arrow-left" onclick="navigateImages(-1)" aria-label="الصورة السابقة">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="nav-arrow arrow-right" onclick="navigateImages(1)" aria-label="الصورة التالية">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-        </div>
-        <div class="zoom-status">100%</div>
-        <div class="zoom-controls">
-            <button onclick="changeZoom(0.5)" class="zoom-btn" aria-label="تكبير"><i class="fas fa-search-plus"></i></button>
-            <button onclick="changeZoom(-0.5)" class="zoom-btn" aria-label="تصغير"><i class="fas fa-search-minus"></i></button>
-            <button onclick="resetZoom()" class="zoom-btn" aria-label="إعادة ضبط"><i class="fas fa-sync-alt"></i></button>
-        </div>
-    </div>
-</div>
 
             
             <div class="product-info">
@@ -741,8 +716,11 @@
 <!-- إضافة jQuery لسهولة التنقل بين المنتجات -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <script>
-<script>
+
+<!-- زر العودة إلى الأعلى -->
+    <button id="back-to-top" class="back-to-top hidden" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     
     
     <!-- تعديل ترتيب تحميل ملفات JavaScript لضمان تعريف المتغير products قبل استخدامه -->
