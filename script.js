@@ -2323,7 +2323,7 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
     let email = document.getElementById("email1").value;
     let message = document.getElementById("message1").value;
 
-    let mailtoLink = `mailto:marocweno@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
+    let mailtoLink = `mailto:jouet_maroc@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
     window.location.href = mailtoLink;
 });
 
