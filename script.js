@@ -44,35 +44,102 @@ function changeImage(src, direction = null) {
     const preloadImage = new Image();
     preloadImage.src = newImageSrc;
     preloadImage.onload = () => {
-        // إنشاء نسخة من الصورة الحالية لعمل تأثير الخروج
-        if (direction === 'right' || direction === 'left') {
-            // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
-            const oldImageClone = document.createElement('img');
-            oldImageClone.src = oldImageSrc;
-            oldImageClone.className = 'exiting-image';
-            oldImageClone.style.position = 'absolute';
-            oldImageClone.style.top = '0';
-            oldImageClone.style.left = '0';
-            oldImageClone.style.width = '100%';
-            oldImageClone.style.height = 'auto';
-            oldImageClone.style.zIndex = '1';
-            
-            // إضافة الصورة المنسوخة للحاوية
-            const mainImageContainer = currentImage.parentNode;
-            mainImageContainer.appendChild(oldImageClone);
-            
-            // تطبيق تأثير الخروج على الصورة القديمة
-            setTimeout(() => {
-                oldImageClone.classList.add(direction === 'right' ? 'image-slide-exit-left' : 'image-slide-exit-right');
-                
-                // إزالة الصورة القديمة بعد اكتمال التأثير
-                setTimeout(() => {
-                    if (oldImageClone.parentNode) {
-                        oldImageClone.parentNode.removeChild(oldImageClone);
-                    }
-                }, 500); // زمن أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
-            }, 10);
+        // إنشاء حاوية للصور المتغيرة إذا لم تكن موجودة
+        const mainImageContainer = currentImage.parentNode;
+        let slidingImagesContainer = mainImageContainer.querySelector('.sliding-images-container');
+        
+        if (!slidingImagesContainer) {
+            slidingImagesContainer = document.createElement('div');
+            slidingImagesContainer.className = 'sliding-images-container';
+            slidingImagesContainer.style.position = 'absolute';
+            slidingImagesContainer.style.top = '0';
+            slidingImagesContainer.style.left = '0';
+            slidingImagesContainer.style.width = '100%';
+            slidingImagesContainer.style.height = '100%';
+            slidingImagesContainer.style.overflow = 'hidden';
+            slidingImagesContainer.style.zIndex = '2';
+            mainImageContainer.style.position = 'relative';
+            mainImageContainer.appendChild(slidingImagesContainer);
         }
+        
+        // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
+        const oldImageClone = document.createElement('img');
+        oldImageClone.src = oldImageSrc;
+        oldImageClone.className = 'exiting-image';
+        oldImageClone.style.position = 'absolute';
+        oldImageClone.style.top = '0';
+        oldImageClone.style.left = '0';
+        oldImageClone.style.width = '100%';
+        oldImageClone.style.height = '100%';
+        oldImageClone.style.objectFit = 'cover';
+        oldImageClone.style.zIndex = '1';
+        slidingImagesContainer.appendChild(oldImageClone);
+        
+        // إنشاء الصورة الجديدة وإضافتها إلى الحاوية
+        const newImageElement = document.createElement('img');
+        newImageElement.src = newImageSrc;
+        newImageElement.className = 'entering-image';
+        newImageElement.style.position = 'absolute';
+        newImageElement.style.top = '0';
+        newImageElement.style.width = '100%';
+        newImageElement.style.height = '100%';
+        newImageElement.style.objectFit = 'cover';
+        newImageElement.style.zIndex = '2';
+        
+        // تعيين موقع البداية للصورة الجديدة حسب الاتجاه
+        if (direction === 'right') {
+            newImageElement.style.left = '100%';
+        } else if (direction === 'left') {
+            newImageElement.style.left = '-100%';
+        } else {
+            // تأثير الظهور التدريجي
+            newImageElement.style.left = '0';
+            newImageElement.style.opacity = '0';
+        }
+        
+        slidingImagesContainer.appendChild(newImageElement);
+        
+        // تطبيق تأثير الانتقال
+        setTimeout(() => {
+            // تحريك الصورة القديمة خارج المشهد
+            if (direction === 'right') {
+                oldImageClone.style.transition = 'transform 0.5s ease-out';
+                oldImageClone.style.transform = 'translateX(-100%)';
+            } else if (direction === 'left') {
+                oldImageClone.style.transition = 'transform 0.5s ease-out';
+                oldImageClone.style.transform = 'translateX(100%)';
+            } else {
+                // تلاشي الصورة القديمة
+                oldImageClone.style.transition = 'opacity 0.5s ease-out';
+                oldImageClone.style.opacity = '0';
+            }
+            
+            // تحريك الصورة الجديدة للمركز
+            if (direction === 'right') {
+                newImageElement.style.transition = 'transform 0.5s ease-out';
+                newImageElement.style.transform = 'translateX(-100%)';
+            } else if (direction === 'left') {
+                newImageElement.style.transition = 'transform 0.5s ease-out';
+                newImageElement.style.transform = 'translateX(100%)';
+            } else {
+                // ظهور الصورة الجديدة تدريجياً
+                newImageElement.style.transition = 'opacity 0.5s ease-out';
+                newImageElement.style.opacity = '1';
+            }
+            
+            // تغيير الصورة الرئيسية بعد انتهاء التأثير
+            setTimeout(() => {
+                currentImage.src = newImageSrc;
+                
+                // تنظيف حاوية الصور المتحركة
+                while (slidingImagesContainer.firstChild) {
+                    slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
+                }
+                
+                // تحديث الصورة المصغرة النشطة
+                updateActiveThumbnail(src);
+            }, 550); // زمن أطول قليلاً من مدة الانتقال
+        }, 50);
         
         // إزالة أي تأثيرات سابقة من الصورة الرئيسية
         currentImage.classList.remove(
@@ -84,33 +151,6 @@ function changeImage(src, direction = null) {
         
         // إيقاف أي رسوم متحركة قيد التنفيذ
         window.clearTimeout(currentImage.animationTimeout);
-        
-        // تغيير مصدر الصورة الرئيسية
-        currentImage.src = newImageSrc;
-        currentImage.style.opacity = '1'; // تأكد من أن الصورة مرئية
-        
-        // تطبيق تأثير دخول للصورة الجديدة
-        if (direction === 'right') {
-            currentImage.classList.add('image-slide-enter-from-right');
-        } else if (direction === 'left') {
-            currentImage.classList.add('image-slide-enter-from-left');
-        } else {
-            // استخدام تأثير ظهور تدريجي في الحالات الأخرى
-            currentImage.classList.add('image-zoom-in');
-        }
-        
-        // تحديث الصورة المصغرة النشطة
-        updateActiveThumbnail(src);
-        
-        // إزالة تأثيرات الدخول بعد إكتمال الحركة
-        currentImage.animationTimeout = setTimeout(() => {
-            currentImage.classList.remove(
-                'image-slide-enter-from-right', 
-                'image-slide-enter-from-left',
-                'image-zoom-in',
-                'image-fade-in'
-            );
-        }, 600); // وقت أطول قليلاً من مدة الانتقال للتأكد من اكتمال التأثير
     };
 }
 
@@ -2246,4 +2286,4 @@ function toggleAnswer(button) {
 
 
 
- 
+
