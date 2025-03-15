@@ -763,7 +763,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "dualtron-pop-54v"; // Default product
+            productId = "voiture_range_rover_police"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -2237,6 +2237,12 @@ function toggleAnswer(button) {
         button.style.background = "#f5f5f5";
     }
 }
+
+
+
+
+
+
 
 
 
