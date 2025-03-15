@@ -1,3 +1,9 @@
+fetch("settings.html?v=" + new Date().getTime())
+    .then(response => response.text())
+    .then(data => document.getElementById("content").innerHTML = data);
+
+
+
 // تحميل مسبق للصور لتجنب الوميض
 function preloadImages(images) {
     if (!images || !images.length) return;
