@@ -2693,6 +2693,174 @@ footer .social-icons a:hover {
     transform: translateY(-3px);
 }
 
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.footer-links button {
+    background: var(--primary-color, rgba(65, 65, 65, 0));
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.footer-links button:hover {
+    background: #de1a1a;
+}
+
+/* تحسين المظهر في الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .footer-links {
+        gap: 8px;
+    }
+
+    .footer-links button {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links button {
+        width: 90%;
+    }
+}
+
+
+/* النافذة المنبثقة الأساسية */
+.modal {
+    display: none; /* مخفي افتراضيًا */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* خلفية شفافة */
+    align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
+    justify-content: center;
+}
+
+/* محتوى النافذة المنبثقة */
+.modal-content {
+    background-color: white;
+    padding: 20px; /* هوامش داخلية */
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: justify; /* لجعل النصوص أكثر تنظيمًا */
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+    overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
+    margin-left: auto; /* هوامش جانبية */
+    margin-right: auto; /* هوامش جانبية */
+}
+
+/* عنوان رئيسي */
+.modal-content h2 {
+    font-size: 29px; /* حجم أكبر للعنوان */
+    color: #ff0000; /* لون نص داكن */
+    margin-bottom: 25px; /* مسافة أكبر أسفل العنوان */
+    text-align: center; /* توسيط العنوان */
+     padding: 0 10px; /* مسافة جانبية صغيرة */
+}
+
+/* العناوين الفرعية */
+.modal-content h3 {
+    font-size: 18px; /* حجم مناسب للعناوين الفرعية */
+    color: #289461; /* لون نص أغمق قليلاً */
+    margin-bottom: 15px; /* مسافة بين العناوين والفقرات */
+    font-weight: bold; /* خط غامق */
+    padding: 0 10px; /* مسافة جانبية صغيرة */
+}
+
+/* الفقرات */
+.modal-content p {
+    font-size: 14px; /* حجم مناسب للنص */
+    line-height: 1.8; /* تحسين المسافة بين الأسطر */
+    color: #e4c112; /* لون نص مريح للعين */
+    margin-bottom: 20px; /* مسافة بين الفقرات */
+    text-align: justify; /* توزيع النص بشكل متساوٍ */
+    padding: 0 50px; /* مسافة جانبية صغيرة */
+}
+
+/* زر الإغلاق */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px; /* تكبير الزر */
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* نصوص وأزرار النموذج */
+.modal-content label {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.modal-content input,
+.modal-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #25D366; /* لون واتساب */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background: #1da851;
+}
+
+/* تأثير الفتح */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
 footer .copyright {
     color: #aaa;
     font-size: 1rem;
@@ -3584,45 +3752,6 @@ footer .copyright {
         transform: scale(var(--image-hover-scale));
     }
 }
-/* إخفاء الزر عند تحميل الصفحة */
-.whatsapp-button {
-    display: none !important;
-}
-
-
-
-/* تصميم زر واتساب */
-.whatsapp-button {
-    display: flex;
-    align-items: center; /* لمحاذاة الأيقونة والنص بشكل أفقي */
-    justify-content: center;
-    position: fixed; /* يجعل الزر ثابتًا */
-    bottom: 27px; /* المسافة من الأسفل */
-    left: 11px; /* المسافة من اليسار بدلاً من اليمين */
-    padding: 8px 16px; /* مساحة داخلية للزر */
-    background-color: #ffffff; /* لون خلفية أبيض */
-    color: #25D366; /* لون النص والأيقونة أخضر (لون واتساب) */
-    font-size: 14px; /* حجم النص */
-    font-family: Arial, sans-serif; /* خط النص */
-    border-radius: 20px; /* يجعل الزر دائري الأطراف قليلاً */
-    text-decoration: none; /* إزالة التسطير */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظلال خفيفة */
-    border: 1px solid #25D366; /* حدود خضراء خفيفة */
-    z-index: 9999; /* يجعل الزر يظهر فوق جميع العناصر */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير تحريك وظلال */
-    direction: ltr; /* تعيين الاتجاه من اليمين إلى اليسار */
-}
-
-.whatsapp-button:hover {
-    transform: scale(1.05); /* تكبير الزر قليلاً عند التحويم */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* زيادة الظلال عند التحويم */
-}
-
-.whatsapp-button i {
-    font-size: 20px; /* حجم الأيقونة */
-    margin-right: 5px; /* مسافة صغيرة بين الأيقونة والنص (للمواقع العربية) */
-}
-
 
 
 

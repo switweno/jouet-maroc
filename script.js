@@ -2280,9 +2280,71 @@ function toggleAnswer(button) {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const modals = document.querySelectorAll(".modal");
+    const buttons = document.querySelectorAll(".open-modal");
+    const closeButtons = document.querySelectorAll(".close");
 
+    // فتح النافذة عند الضغط على الزر
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+            const modalId = this.getAttribute("data-modal");
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = "flex";
+            }
+        });
+    });
 
+    // إغلاق النافذة عند الضغط على زر الإغلاق
+    closeButtons.forEach(close => {
+        close.addEventListener("click", function () {
+            const modal = this.closest(".modal");
+            if (modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
 
+    // إغلاق النافذة عند النقر خارجها
+    window.addEventListener("click", function (event) {
+        modals.forEach(modal => {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
+});
+
+// إرسال عبر البريد الإلكتروني
+document.getElementById("contactForm1").addEventListener("submit", function (event) {
+    event.preventDefault();
+    let name = document.getElementById("name1").value;
+    let email = document.getElementById("email1").value;
+    let message = document.getElementById("message1").value;
+
+    let mailtoLink = `mailto:marocweno@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
+    window.location.href = mailtoLink;
+});
+
+// إرسال عبر WhatsApp
+document.getElementById("whatsappSend1").addEventListener("click", function () {
+    let name = document.getElementById("name1").value;
+    let email = document.getElementById("email1").value;
+    let message = document.getElementById("message1").value;
+
+    // تكوين الرسالة
+    let whatsappMessage = `مرحبًا، أنا ${name}.%0Aالبريد الإلكتروني: ${email}.%0Aالرسالة: ${message}`;
+
+    // تغيير الرقم هنا إلى رقم هاتفك الخاص
+    let phoneNumber = "212762609147"; // استبدل هذا برقم هاتفك
+
+    // إنشاء الرابط
+    let whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
+    // فتح الرابط في نافذة جديدة
+    window.open(whatsappLink, "_blank");
+});
 
 
 

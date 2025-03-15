@@ -580,11 +580,6 @@
 
 
     
-<!-- زر واتساب -->
-<a href="https://wa.me/212672568976?text=مرحبًا%20أريد%20الحصول%20على%20مساعدة!%20تم%20الوصول%20من%20الموقع:%20https://jouet-maroc.com" target="_blank" class="whatsapp-button">
-    <i class="fab fa-whatsapp"></i> <!-- أيقونة واتساب -->
-    <span>مرحبا</span> <!-- نص "مرحبا" -->
-</a>
 
 
     
@@ -612,6 +607,116 @@
             </div>
         </div>
     </div>
+        
+        <!-- أزرار النوافذ المنبثقة -->
+<div class="footer-links">
+    <button class="open-modal" data-modal="faq">الأسئلة المتكررة</button>
+    <button class="open-modal" data-modal="contactModal">اتصل بنا</button>
+    <button class="open-modal" data-modal="about">عن المتجر</button>
+    <button class="open-modal" data-modal="shipping">الشحن والتوصيل</button>
+    <button class="open-modal" data-modal="privacy">سياسة الخصوصية</button>
+    <button class="open-modal" data-modal="return">سياسة الاستبدال</button>
+    <button class="open-modal" data-modal="payment">طرق الدفع</button>
+</div>
+        <!-- نوافذ منبثقة -->
+<div id="faq" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>الأسئلة المتكررة</h2>
+        <p>هنا يمكنك إضافة محتوى الأسئلة المتكررة.</p>
+    </div>
+</div>
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>اتصل بنا</h2>
+        <p>سنكون سعداء بالتواصل معكم والإجابة عن أسئلتكم.</p>
+        <form id="contactForm1" action="https://formsubmit.co/your-email@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="رسالة جديدة من موقعك">
+            
+            <label for="name1">الاسم</label>
+            <input type="text" id="name1" name="name" required>
+            
+            <label for="email1">البريد الإلكتروني</label>
+            <input type="email" id="email1" name="email" required>
+            
+            <label for="message1">رسالتك</label>
+            <textarea id="message1" name="message" rows="4" required></textarea>
+            
+            <button type="submit">إرسال عبر البريد</button>
+            <button type="button" id="whatsappSend1" class="whatsapp-btn">إرسال عبر واتساب</button>
+        </form>
+    </div>
+</div>
+
+
+
+<div id="about" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>عن المتجر</h2>
+        <p>هذا المتجر بوابتك الجديدة للتسوق إلكترونيا بشكل سهل وبسيط.</p>
+        <p>نوفر لك منتجات متععدة ذات جودة عالية لتختار منها الأفضل وبسعر تنافسي لن تجده في أي مكان أخر. التسوق معنا عملية ممتعة وأمنة. ونوفر لك كل ما تحتاجه من التسهيلات سواء في اختيار المنتج أو في عملية الدفع أو في عملية الشحن.</p>
+    </div>
+</div>
+
+<div id="shipping" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>الشحن والتوصيل</h2>
+        <p>تفاصيل الشحن والتوصيل.</p>
+        <p>بعد تأكيد عملية الشراء، نقوم بشحن وإرسال المنتج عبر الطريقة التي قمتم بإختيارها، إما عبر مسؤول الشحن الخاص بنا أو عبر خدمة أمانة إكسبريس.</p>
+        <p>طرق الشحن:</p>
+       <p> مسؤول الشحن: متجرنا يتعاقد مع مجموعة من مسؤولي الشحن بمجموعة من المدن  يقومون بإيصال المنتجات في مدة تتراوح بين يوم و3 أيام </p>
+    </div>
+</div>
+
+<div id="privacy" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <!-- عنوان رئيسي -->
+        <h2>سياسة الخصوصية</h2>
+
+        <!-- القسم الأول: مقدمة -->
+        <h3>مقدمة</h3>
+        <p>
+            موقعنا يحترم خصوصيّتك ويسعى لحماية بياناتك الشخصية. توضح سياسة الخصوصيّة كيفية جمع واستخدام بياناتك الشخصية (تحت ظروفٍ معينةٍ). كما تذكرُ أيضًا الإجراءات المتبعة لضمان خصوصية معلوماتك. وأخيرًا، تُحدّد هذه السياسة الخيارات المتاحة لكَ فيما يتعلَّق بجمع البيانات الشخصية واستخدامها والكشف عنها.
+        </p>
+
+        <!-- القسم الثاني: البيانات التي نجمعها -->
+        <h3>1. البيانات التي نجمعها</h3>
+        <p>
+            قد نحتاج لجمع المعلومات الخاصة بكَ إذا أردت تسجيل طلب شراء لسلعة من موقعنا. ونقوم بجمع وتخزين ومعالجة بياناتك الازمة لمتابعة شرائك من موقعنا لتأمين أية مطالب محتملة قد تظهر لاحقاً، ولتزويدكَ بالخدمات المتوفرة لدينا.
+        </p>
+
+        <!-- القسم الثالث: استخدامات أخرى لمعلوماتك الشخصية -->
+        <h3>2. استخدامات أخرى لمعلوماتك الشخصية</h3>
+        <p>
+            قد نستخدم معلوماتك الشخصيَّة في استطلاعات الرأي وأبحاث التسويق، بناءً على رغبتك، لأغراضٍ إحصائية مع ضمان سريتها التامة.
+        </p>
+    </div>
+</div>
+
+
+<div id="return" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>سياسة الاستبدال والاسترجاع</h2>
+        <p>معلومات حول سياسة الاستبدال والاسترجاع.</p>
+    </div>
+</div>
+
+<div id="payment" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>طرق الدفع</h2>
+        <p>تفاصيل طرق الدفع المتاحة.</p>
+    </div>
+</div>
+
+
     <div class="copyright">
        © 2025 Jouet Maroc. Tous les droits sont réservés 
     </div>
