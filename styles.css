@@ -1246,59 +1246,7 @@ html[lang="fr"] #phone {
     overflow: hidden;
 }
 
-/* إرشادات التكبير والتمرير */
-.zoom-instructions {
-    position: fixed; /* تغيير من absolute إلى fixed */
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px 18px;
-    border-radius: 20px;
-    font-size: 0.95rem;
-    z-index: 1020;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    pointer-events: none;
-    white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
 
-.zoom-instructions i {
-    font-size: 1rem;
-}
-
-.zoom-instructions.show {
-    opacity: 1;
-    animation: fade-in-up 0.5s forwards, fade-out 0.5s 4s forwards;
-}
-
-@keyframes fade-in-up {
-    from {
-        opacity: 0;
-        transform: translate(-50%, 20px);
-    }
-    to {
-        opacity: 1;
-        transform: translate(-50%, 0);
-    }
-}
-
-@keyframes fade-out {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
 
 
 
@@ -2636,7 +2584,8 @@ footer .social-icons a:hover {
     justify-content: center;
     gap: 10px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+   
 
 }
 
@@ -2644,7 +2593,7 @@ footer .social-icons a:hover {
     background: var(--primary-color, #404E65);
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 16px;
     font-size: 0.9rem;
     cursor: pointer;
     border-radius: 5px;
@@ -2688,52 +2637,55 @@ footer .social-icons a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff; /* خلفية شفافة */
+    background-color: #333; /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
 }
 
 /* محتوى النافذة المنبثقة */
 .modal-content {
-    background-color: white;
-    padding: 20px; /* هوامش داخلية */
+    background-color: #333;
+    padding: 10px; /* هوامش داخلية */
     border-radius: 8px;
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     text-align: justify; /* لجعل النصوص أكثر تنظيمًا */
     position: relative;
     animation: fadeIn 0.3s ease-in-out;
     overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
-    margin-left: auto; /* هوامش جانبية */
-    margin-right: auto; /* هوامش جانبية */
+    margin-left: 5px; /* هوامش جانبية */
+    margin-right: 5px; /* هوامش جانبية */
 }
 
 /* عنوان رئيسي */
 .modal-content h2 {
     font-size: 29px; /* حجم أكبر للعنوان */
-    color: #ff0000; /* لون نص داكن */
-    margin-bottom: 25px; /* مسافة أكبر أسفل العنوان */
+    color: #f20505; /* لون نص داكن */
+    margin-bottom: 20px; /* مسافة أكبر أسفل العنوان */
     text-align: center; /* توسيط العنوان */
      padding: 0 10px; /* مسافة جانبية صغيرة */
+    margin-top: 20px; /* مسافة من الأعلى */
 }
 
 /* العناوين الفرعية */
 .modal-content h3 {
     font-size: 18px; /* حجم مناسب للعناوين الفرعية */
     color: #34ff9f; /* لون نص أغمق قليلاً */
-    margin-bottom: 15px; /* مسافة بين العناوين والفقرات */
+    margin-bottom: 20px; /* مسافة بين العناوين والفقرات */
     font-weight: bold; /* خط غامق */
     padding: 0 10px; /* مسافة جانبية صغيرة */
+    
 }
 
 /* الفقرات */
 .modal-content p {
-    font-size: 14px; /* حجم مناسب للنص */
+    font-size: 16px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
     color: white; /* لون نص مريح للعين */
     margin-bottom: 20px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
-    padding: 0 50px; /* مسافة جانبية صغيرة */
+    padding: 0 10px; /* مسافة جانبية صغيرة */
+    
 }
 
 /* زر الإغلاق */
@@ -2741,7 +2693,7 @@ footer .social-icons a:hover {
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 30px; /* تكبير الزر */
+    font-size: 34px; /* تكبير الزر */
     cursor: pointer;
     color: #aaa;
 }
@@ -3285,185 +3237,6 @@ footer .copyright {
     }
 }
 
-/* تحسين نافذة تكبير الصور للهواتف */
-.modal-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    padding: 60px 0 80px; /* زيادة التباعد العلوي والسفلي للأزرار */
-    box-sizing: border-box;
-     background-color: #000000;
-   
-}
-
-/* تحسين الحاوية الرئيسية لنافذة الصور */
-.zoom-container {
-    width: 90%;
-    height: 80%;
-    max-height: 80vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: visible; /* للسماح بتجاوز حدود الحاوية عند التكبير */
-}
-
-/* تحسين إعدادات الصورة في النافذة المنبثقة */
-#modal-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    transition: transform 0.3s ease;
-    transform-origin: center center;
-    touch-action: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-/* تحسين عرض الصور العمودية */
-.vertical-image #modal-image {
-    width: auto;
-    height: auto;
-    max-height: 80vh;
-    max-width: 90%;
-}
-
-/* تعديلات خاصة بالهواتف الصغيرة */
-@media (max-width: 480px) {
-    /* تصغير هوامش المحتوى */
-    .modal-content {
-        padding: 50px 0 70px;
-    }
-    
-    /* تحسين حجم حاوية الصورة */
-    .zoom-container {
-        width: 95%;
-        height: 75%;
-    }
-    
-    /* ضبط أحجام الصور العمودية على الهواتف */
-    .vertical-image #modal-image {
-        max-height: 75vh;
-        max-width: 95%;
-    }
-    
-    /* تحسين حجم أزرار التنقل */
-    .nav-arrow {
-        width: 36px;
-        height: 36px;
-    }
-    
-    /* نقل مؤشر حالة التكبير للأعلى لتجنب التداخل مع الأزرار */
-    .zoom-status {
-        bottom: 70px;
-        padding: 5px 10px;
-        font-size: 0.85rem;
-    }
-    
-    /* تقليل مسافة أزرار التكبير من الأسفل */
-    .zoom-controls {
-        bottom: 15px;
-        padding: 8px 10px;
-        gap: 10px;
-    }
-    
-    /* تقليل حجم أزرار التكبير */
-    .zoom-btn {
-        width: 38px;
-        height: 38px;
-    }
-}
-
-/* تعديلات للهواتف الصغيرة جداً */
-@media (max-width: 360px) {
-    .modal-content {
-        padding: 45px 0 65px;
-    }
-    
-    .zoom-container {
-        width: 98%;
-    }
-    
-    .nav-arrow {
-        width: 34px;
-        height: 34px;
-    }
-    
-    .arrow-left {
-        left: 5px;
-    }
-    
-    .arrow-right {
-        right: 5px;
-    }
-    
-    /* تقليل حجم أزرار التحكم */
-    .zoom-controls {
-        gap: 8px;
-        padding: 6px 8px;
-    }
-    
-    .zoom-btn {
-        width: 36px;
-        height: 36px;
-        font-size: 1rem;
-    }
-    
-    .close-modal {
-        width: 34px;
-        height: 34px;
-        top: 10px;
-        right: 10px;
-        font-size: 24px;
-    }
-    
-    .zoom-status {
-        font-size: 0.8rem;
-        padding: 4px 8px;
-    }
-}
-
-/* تعديل خصائص الصور الرأسية للهواتف */
-@media (max-width: 480px) and (orientation: portrait) {
-    .vertical-image #modal-image {
-        max-height: 70vh; /* تقليل الارتفاع للسماح بظهور الأزرار */
-    }
-}
-
-/* تحسين إعدادات التوجيه الأفقي للهواتف */
-@media (max-width: 896px) and (orientation: landscape) {
-    .modal-content {
-        padding: 40px 0 60px;
-    }
-    
-    .vertical-image #modal-image {
-        max-height: 65vh;
-    }
-    
-    .zoom-controls {
-        bottom: 10px;
-    }
-    
-    .zoom-status {
-        bottom: 60px;
-    }
-    
-    .nav-arrow {
-        top: 45%;
-    }
-}
-
-/* تحسين متغيرات انتقالات السلايدر لتحقيق تأثير دفع الصور */
-:root {
-    --slider-transition-duration: 0.4s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
-    --slider-transition-timing: cubic-bezier(0.22, 0.61, 0.36, 1); /* منحنى حركة أكثر سلاسة */
-    --slider-enter-distance: 100%; /* استخدام 100% لتأثير دفع كامل */
-    --image-hover-scale: 1.03; /* نسبة التكبير عند تمرير المؤشر فوق الصورة */
-}
 
 /* تحسين حاوية الصورة الرئيسية للسلايدر */
 .main-image {
@@ -3491,93 +3264,7 @@ footer .copyright {
     transition-timing-function: var(--slider-transition-timing);
 }
 
-/* تأثيرات حركية محسنة للصورة - خروج الصور بتأثير الانزلاق */
-.image-slide-exit-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    transform: translateX(-100%);
-    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
-    z-index: 1;
-}
 
-.image-slide-exit-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    transform: translateX(100%);
-    transition: all var(--slider-transition-duration) var(--slider-transition-timing);
-    z-index: 1;
-}
-
-/* تأثير دفع الصورة من اليمين إلى اليسار */
-@keyframes pushFromRight {
-    0% {
-        transform: translateX(100%);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/* تأثير دفع الصورة من اليسار إلى اليمين */
-@keyframes pushFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/* تطبيق تأثيرات الدفع */
-.image-slide-enter-from-right {
-    animation: pushFromRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
-}
-
-.image-slide-enter-from-left {
-    animation: pushFromLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-    z-index: 2; /* تأكد من أن الصورة الجديدة فوق الصورة القديمة */
-}
-
-/* تأثيرات الزوم البديلة للتنويع */
-@keyframes zoomInEffect {
-    0% {
-        transform: translateX(0) scale(0.8);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(0) scale(1);
-        opacity: 1;
-    }
-}
-
-.image-zoom-in {
-    animation: zoomInEffect var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-/* تحسينات للأجهزة المحمولة */
-@media (max-width: 767px) {
-    :root {
-        --slider-transition-duration: 0.3s; /* تسريع الانتقالات على الأجهزة المحمولة */
-        --slider-enter-distance: 100%; /* الحفاظ على مسافة كاملة للتأثير */
-    }
-}
-
-/* تحسين متغيرات انتقالات السلايدر لتسهيل التحكم */
-:root {
-    --slider-transition-duration: 0.2s; /* تسريع مدة الانتقال من 0.25s إلى 0.2s */
-    --slider-transition-timing: cubic-bezier(0.34, 1.56, 0.64, 1); /* تحسين منحنى السرعة ليكون أكثر حيوية */
-    --slider-enter-distance: 40px; /* زيادة مسافة الحركة للحصول على تأثير أفضل */
-    --image-hover-scale: 1.03; /* نسبة التكبير عند تحريك المؤشر فوق الصورة */
-}
 
 /* تحسين حركة انتقالية أساسية للصور */
 .main-image img {
@@ -3653,22 +3340,6 @@ footer .copyright {
     }
 }
 
-/* تطبيق التأثيرات المختلفة على الصور */
-.image-slide-enter-from-right {
-    animation: enterFromRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-slide-enter-from-left {
-    animation: enterFromLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-zoom-in {
-    animation: enterWithZoom var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-fade-in {
-    animation: enterWithFade var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
 
 
 
