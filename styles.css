@@ -1068,7 +1068,7 @@ html[lang="fr"] #phone {
 
 
 .primary-btn {
-    background-color: #128c7e;
+    background-color:#25D366;
     color: white;
 }
 
@@ -1084,7 +1084,7 @@ html[lang="fr"] #phone {
 }
 
 .secondary-btn:hover {
-    background-color: #128c7e;
+    background-color:#25D366;
     transform: translateY(-2px);
 }
 
@@ -1190,7 +1190,7 @@ html[lang="fr"] #phone {
 }
 
 .submit-btn:active {
-    background-color: #128c7e;
+    background-color:#25D366;
     transform: scale(0.98);
 }
 
