@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     padding-top: 70px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
-    font-family: 'Cairo', 'Cairo', sans-serif;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
 
@@ -2785,7 +2785,7 @@ footer .social-icons a:hover {
 /* العناوين الفرعية */
 .modal-content h3 {
     font-size: 18px; /* حجم مناسب للعناوين الفرعية */
-    color: #289461; /* لون نص أغمق قليلاً */
+    color: #34ff9f; /* لون نص أغمق قليلاً */
     margin-bottom: 15px; /* مسافة بين العناوين والفقرات */
     font-weight: bold; /* خط غامق */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2795,7 +2795,7 @@ footer .social-icons a:hover {
 .modal-content p {
     font-size: 14px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: #e4c112; /* لون نص مريح للعين */
+    color: white; /* لون نص مريح للعين */
     margin-bottom: 20px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
     padding: 0 50px; /* مسافة جانبية صغيرة */
@@ -2806,7 +2806,7 @@ footer .social-icons a:hover {
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 25px; /* تكبير الزر */
+    font-size: 30px; /* تكبير الزر */
     cursor: pointer;
     color: #aaa;
 }
@@ -2859,7 +2859,68 @@ footer .social-icons a:hover {
     }
 }
 
+/* نموذج الاتصال */
+#contactForm1 {
+    padding: 20px; /* هوامش داخلية للنموذج */
+    background-color: rgba(249, 249, 249, 0); /* خلفية فاتحة */
+    border-radius: 8px; /* حواف مدورة */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    margin-top: 20px; /* مسافة من الأعلى */
+}
 
+/* العناوين الفرعية (labels) */
+#contactForm1 label {
+    display: block;
+    text-align: right;
+    margin-top: 15px; /* مسافة بين العناصر */
+    font-weight: bold;
+    color: #333; /* لون نص داكن */
+}
+
+/* حقول الإدخال (inputs) وحقل النص (textarea) */
+#contactForm1 input,
+#contactForm1 textarea {
+    width: 100%; /* عرض كامل */
+    padding: 12px; /* مساحة داخلية أكبر */
+    margin-top: 8px; /* مسافة بين العناصر */
+    border: 1px solid #ccc; /* حدود رقيقة */
+    border-radius: 6px; /* حواف مدورة */
+    font-size: 14px; /* حجم مناسب للنص */
+    box-sizing: border-box; /* ضمان أن الـ padding لا يؤثر على العرض */
+}
+
+/* أزرار الإرسال */
+#contactForm1 button {
+    margin-top: 20px; /* مسافة أعلى الزر */
+    width: 100%; /* عرض كامل */
+    padding: 12px; /* مساحة داخلية أكبر */
+    font-size: 16px; /* حجم مناسب للنص */
+    border: none;
+    border-radius: 6px; /* حواف مدورة */
+    cursor: pointer;
+    transition: background 0.3s ease; /* تأثير عند التحويم */
+}
+
+/* زر إرسال عبر البريد */
+#contactForm1 button[type="submit"] {
+    background: #25D366; /* لون واتساب */
+    color: white;
+}
+
+#contactForm1 button[type="submit"]:hover {
+    background: #1da851; /* لون أغمق عند التحويم */
+}
+
+/* زر إرسال عبر واتساب */
+#contactForm1 .whatsapp-btn {
+    background: #25D366; /* لون واتساب */
+    color: white;
+    margin-top: 10px; /* مسافة بين الزرين */
+}
+
+#contactForm1 .whatsapp-btn:hover {
+    background: #1da851; /* لون أغ darker عند التحويم */
+}
 
 footer .copyright {
     color: #aaa;
