@@ -803,7 +803,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "voiture_range_rover_police"; // Default product
+            productId = "kukarin-g2-pro"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم

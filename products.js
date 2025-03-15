@@ -2,6 +2,71 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
+  {
+   id: "kukarin-g2-pro",
+   title: "TROTTINETTE KUKIRIN G2 PRO",
+   brand: "KUKIRIN",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 256,
+   currentPrice: 6390,
+   oldPrice: 7599,
+   discount: 30,
+   images: [
+     "kukaring2pro/kukiring2pro-1.webp",
+     "kukaring2pro/kukiring2pro-2.webp",
+     "kukaring2pro/kukiring2pro-3.webp",
+     "kukaring2pro/kukiring2pro-4.webp",
+     "kukaring2pro/kukiring2pro-5.webp",
+     "kukaring2pro/kukiring2pro-6.webp",
+     "kukaring2pro/kukiring2pro-7.webp",
+   ],
+  features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "1200W max" },
+      { key: "Vitesse", value: "50 km/h min - 57 km/h max" },
+      { key: "Mode de conduite", value: "3 vitesses réglables" },
+      { key: "Démarrage", value: "Accélérateur électrique + klaxon intégré" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 48V 15AH" },
+      { key: "Autonomie", value: "40 km min - 50 km max" },
+      { key: "Charge rapide", value: "Compatible 54V" },
+      { key: "Charge maximale", value: "120 kg" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONTRÔLE",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freinage", value: "Disques AV/AR" },
+      { key: "Suspension", value: "Avant et arrière réglables" },
+      { key: "Éclairage", value: "LED AV/AR + clignotants directionnels" },
+      { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps)" }
+    ]
+  },
+  {
+    title: "TECHNOLOGIE & CONFORT",
+    icon: "fa-mobile-alt",
+    items: [
+      { key: "Affichage", value: "écran LCD digital multifonction" },
+      { key: "Pneus", value: "Off-Road 8,5 pouces renforcés" },
+      { key: "Conception", value: "Pliable avec siège cuir intégré" },
+      { key: "Tableau de bord", value: "Indicateur de batterie et signal à gauche/droite" }
+    ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
+ },
   
   {
    id: "dualtron-pop-54v",
