@@ -3100,7 +3100,7 @@ footer .copyright {
     .product-video-section,
     .related-products,
     .order-section {
-        padding: 12px 8px !important;
+        padding: 12px 15px !important;
         margin-bottom: 20px !important;
     }
     
@@ -3356,11 +3356,11 @@ footer .copyright {
 @media (max-width: 380px) {
     .product-link {
         width: 100%;
-        max-width: 145px;
+        max-width: 135px;
     }
     
     .related-product img {
-        height: 160px;
+        height: 115px;
     }
     
     .related-product h3 {
