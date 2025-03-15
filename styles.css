@@ -77,6 +77,14 @@ header {
 }
 
 
+/* شارة التخفيض للصورة الرئيسية */
+.main-image-discount-badge {
+      visibility: hidden;
+    position: absolute;
+    top: 15px;
+    left: 4px;
+    
+}
 
 
 
