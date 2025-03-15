@@ -2284,40 +2284,6 @@ select {
     border-radius: 5px;
 }
 
-/* تصميم حديث لأيقونة الزوم */
-.zoom-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: rgba(0, 0, 0, 0.6); /* خلفية شفافة */
-    border-radius: 50%;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.zoom-icon:hover {
-    background: rgba(0, 0, 0, 0.8);
-    transform: scale(1.1);
-}
-
-/* أيقونة SVG حديثة */
-.zoom-icon-svg::before {
-    content: url('https://api.iconify.design/lucide:zoom-in.svg?color=white&width=24&height=24');
-    display: block;
-    width: 24px;
-    height: 24px;
-}
-
-
-.zoom-icon i {
-    color: #ffffff;
-    font-size: 1.2rem;
-}
 
 .main-image img {
     max-width: 100%;
@@ -2458,7 +2424,7 @@ select {
     display: block;
     will-change: opacity; /* تحسين أداء تغيير الشفافية فقط */
     backface-visibility: hidden;
-    transition: opacity 0.2s ease; /* تسريع الانتقال */
+    
 }
 
 /* تأثيرات خروج الصور محسنة (fade out effects) */
@@ -3001,24 +2967,7 @@ footer .copyright {
     }
 }
 
-/* تأثير زوم بسيط عند تحويم المؤشر فوق الصورة الرئيسية - إضافة اختيارية */
-@media (hover: hover) {
-    .main-image img {
-        transition: transform 0.3s ease-out, opacity var(--image-transition-duration) var(--image-transition-timing);
-    }
-    
-    .main-image:hover img:not(.image-slide-exit-left):not(.image-slide-exit-right) {
-        transform: scale(1.02);
-    }
-}
 
-/* تحسين تجربة مستخدم الهاتف عند النقر على الصورة */
-@media (hover: none) {
-    .main-image:active img:not(.image-slide-exit-left):not(.image-slide-exit-right) {
-        transform: scale(0.98);
-        transition: transform 0.2s ease;
-    }
-}
 
 
 
@@ -3174,9 +3123,6 @@ footer .copyright {
     border-bottom: 1px solid #f0f0f0;
 }
 
-.product-link:hover .related-product img {
-    transform: scale(1.03);
-}
 
 .related-product h3 {
     margin: 15px 12px;
@@ -3662,11 +3608,7 @@ footer .copyright {
     transition-duration: calc(var(--slider-transition-duration) * 0.6);
 }
 
-.image-fade-out {
-    opacity: 0;
-    transform: scale(0.92);
-    transition-duration: calc(var(--slider-transition-duration) * 0.6);
-}
+
 
 /* تأثيرات حركية محسنة للصور - دخول الصور بأنماط متعددة */
 @keyframes enterFromRight {
@@ -3728,20 +3670,7 @@ footer .copyright {
     animation: enterWithFade var(--slider-transition-duration) var(--slider-transition-timing) forwards;
 }
 
-/* تحسين تأثيرات حركة المؤشر على الشاشات الكبيرة */
-@media (hover: hover) {
-    .main-image {
-        overflow: hidden;
-    }
-    
-    .main-image img:not(.image-slide-exit-left):not(.image-slide-exit-right):not(.image-fade-out) {
-        transition: transform 0.35s var(--slider-transition-timing);
-    }
-    
-    .main-image:hover img:not(.image-slide-exit-left):not(.image-slide-exit-right):not(.image-fade-out) {
-        transform: scale(var(--image-hover-scale));
-    }
-}
+
 
 
 
