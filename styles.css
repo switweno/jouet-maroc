@@ -3366,22 +3366,22 @@ footer .copyright {
 /* إعدادات الأيقونة العائمة */
 /* زر الدردشة */
 #chatButton {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  background-color: #0088cc;
-  color: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-  z-index: 1000; /* تأكد من أن الزر يظهر فوق العناصر الأخرى */
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: #0088cc;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 999; /* أعلى من z-index لزر العودة */
 }
 
 #chatButton:hover {
