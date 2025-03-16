@@ -15,6 +15,9 @@ body {
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 
@@ -29,12 +32,12 @@ body {
 
 /* Header Styles */
 header {
-  background-color:  #FF8C00;
+  background-color:  #F6554D;
 
     color: #ffffff;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(51, 51, 51, 0.44);
+    box-shadow: 0 3px 10px rgba(51, 51, 51, 0);
     position: fixed; /* تثبيت الهيدر في الأعلى */
     top: 0; /* تعيين الهيدر في أعلى الصفحة */
     left: 0;
@@ -59,13 +62,14 @@ header {
     color: white;
     font-size: 1.1rem;
     cursor: pointer;
-    padding: 6px 6px;
+    padding: 5px 6px;
     display: flex;
     align-items: center;
     gap: 8px;
     border-radius: 4px;
     transition: background-color 0.3s;
     margin-right: 0; /* تأكيد أن الزر على اليمين */
+    
 }
 
 .menu-toggle:hover {
@@ -93,9 +97,9 @@ header {
     font-weight: 700;
      margin: 0;
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #FF8C00;
+    color: #F6554D;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.23);
-    background:  #FF8C00;;
+    background:  #F6554D;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -147,7 +151,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color:  #FF8C00;
+    background-color:  #F6554D;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -341,7 +345,7 @@ header {
 }
 
 .popup-product-price {
-    color:#FF8C00;
+    color:#F6554D;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -796,7 +800,7 @@ header {
 .current-price {
     font-size: 1.2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
-    color: #FF8C00;
+    color: #F6554D;
     
 }
 
@@ -825,7 +829,7 @@ header {
 
 .product-description h3 {
     margin-bottom: 2px;
-    color: #2F5E8C;
+    color: #132F63;
     font-size: 1.4rem;
     text-align: center;
     border-bottom: 2px solid  rgba(0, 102, 204, 0);
@@ -1183,7 +1187,7 @@ header {
 .order-section h2 {
     margin-bottom: 25px;
     text-align: center;
-    color: #2F5E8C;
+    color: #132F63;
     
     font-size: 1.4rem;
      
@@ -1545,7 +1549,7 @@ header {
     font-size: 1.2rem;
     padding-top: 10px;
     text-align: left;
-    color:  #FF8C00;
+    color:  #F6554D;
 }
 
 .customer-info {
@@ -1890,7 +1894,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-video-section h2 {
-    color: #2F5E8C;
+    color:#132F63;
     font-size: 1.4rem;
     margin-bottom: 20px;
     position: relative;
@@ -2658,7 +2662,7 @@ footer .social-icons a:hover {
 }
 
 .footer-links button {
-    background: var(--primary-color,  rgb(255, 140, 0));
+    background: #F6554D;
     color: white;
     border: none;
     padding: 10px 16px;
@@ -2669,7 +2673,7 @@ footer .social-icons a:hover {
 }
 
 .footer-links button:hover {
-    background:  #bd6902;
+    background:  #da5d57;
 }
 
 /* تحسين المظهر في الشاشات الصغيرة */
@@ -2705,7 +2709,7 @@ footer .social-icons a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #333; /* خلفية شفافة */
+    background-color: #000000; /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
 }
@@ -3077,7 +3081,7 @@ footer .copyright {
 }
 
 .related-products h2 {
-    color:  #2F5E8C;
+    color:  #132F63;
     font-size: 1.5rem;
     margin-bottom: 15px;
     position: relative;
@@ -3188,7 +3192,7 @@ footer .copyright {
 }
 
 .related-price {
-    color: #FF8C00;
+    color: #F6554D;
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 4px;
