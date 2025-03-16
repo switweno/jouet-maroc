@@ -89,7 +89,7 @@ header {
 
 
 .site-brand h1 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
      margin: 0;
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
@@ -102,6 +102,22 @@ header {
      direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */ 
    
 }
+/* تنسيق اللوغو */
+.logo-container {
+    display: flex;
+    align-items: center;
+   
+}
+
+.site-logo {
+    height: 32px; /* تعديل الحجم حسب الشعار */
+    width: auto;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.07)); /* إضافة ظل جميل للوغو */
+    transition: transform 0.3s ease-in-out;
+    margin-left: 1px; /* إضافة مسافة على اليمين لتحريك النص */
+    
+}
+
 
 /* أنماط القائمة الجانبية */
 .sidebar-menu {
@@ -115,6 +131,7 @@ header {
     z-index: 1000;
     transition: right 0.3s ease;
     overflow-y: auto;
+     
 }
 
 .sidebar-menu.open {
@@ -2603,7 +2620,7 @@ footer .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
      margin-bottom: 15px;
 }
 
@@ -2635,7 +2652,7 @@ footer .social-icons a:hover {
     justify-content: center;
     gap: 10px;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
    
 
 }
@@ -3053,7 +3070,7 @@ footer .copyright {
 .related-products {
     background-color: #fff;
     border-radius: 12px;
-    padding: 25px 20px;
+    padding: 20px 15px;
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
@@ -3241,7 +3258,7 @@ footer .copyright {
 
 @media (max-width: 480px) {
     .products-grid {
-        gap: 9px;
+        gap: 33px;
        
    
     }
@@ -3281,22 +3298,27 @@ footer .copyright {
 /* تحسينات للمنتجات ذات الصلة على الهواتف الصغيرة */
 @media (max-width: 380px) {
     .products-grid {
-        gap: 5px;
+        gap: 19px;
        
-   
+  
     }
+   
     .product-link {
         width: 100%;
-        max-width: 133px;
+        max-width: 135px;
+          
+        
     }
     
     .related-product img {
-        height: 115px;
+        height: 130px;
+        
     }
     
     .related-product h3 {
         height: auto;
         min-height: 36px;
+       
     }
 }
 
