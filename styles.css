@@ -2662,18 +2662,18 @@ footer .social-icons a:hover {
 }
 
 .footer-links button {
-    background: #F6554D;
+    background: rgba(246, 85, 77, 0);
     color: white;
     border: none;
     padding: 10px 16px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s ease;
 }
 
 .footer-links button:hover {
-    background:  #da5d57;
+    background:  rgba(218, 93, 87, 0);
 }
 
 /* تحسين المظهر في الشاشات الصغيرة */
@@ -2709,14 +2709,14 @@ footer .social-icons a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000; /* خلفية شفافة */
+    background-color: #ffffff; /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
 }
 
 /* محتوى النافذة المنبثقة */
 .modal-content {
-    background-color: #333;
+    background-color: #ffffff;
     padding: 10px; /* هوامش داخلية */
     border-radius: 8px;
     width: 100%;
@@ -2742,7 +2742,7 @@ footer .social-icons a:hover {
 /* العناوين الفرعية */
 .modal-content h3 {
     font-size: 18px; /* حجم مناسب للعناوين الفرعية */
-    color: #34ff9f; /* لون نص أغمق قليلاً */
+    color: #2F5E8C; /* لون نص أغمق قليلاً */
     margin-bottom: 20px; /* مسافة بين العناوين والفقرات */
     font-weight: bold; /* خط غامق */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2753,7 +2753,7 @@ footer .social-icons a:hover {
 .modal-content p {
     font-size: 16px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: white; /* لون نص مريح للعين */
+    color: #676666; /* لون نص مريح للعين */
     margin-bottom: 20px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
     padding: 0 10px; /* مسافة جانبية صغيرة */
