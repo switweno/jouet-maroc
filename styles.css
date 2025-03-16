@@ -748,16 +748,11 @@ header {
     margin-bottom: 8px;
     border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
     width: 100%;
-    
-  
 }
 
-
-
 .product-availability {
-    color: #28a745;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 11px;
 }
 
 .ratings {
@@ -1204,7 +1199,7 @@ html[lang="fr"] #phone {
     }
     
     .product-gallery,
-    .product-info {
+    .container {
         padding: 12px;
     }
     
@@ -2957,6 +2952,7 @@ footer .copyright {
         margin-bottom: 6px !important; /* تقليل المساحة بين خصائص المنتج */
     }
    
+   
     .product-video-section,
     .related-products,
     .order-section {
@@ -2970,11 +2966,13 @@ footer .copyright {
     .container {
         width: 98% !important; /* زيادة العرض قليلاً */
         padding: 0 4px !important; /* تقليل الهوامش بشكل معتدل */
+      
     }
     
     .product-gallery,
     .product-info {
         padding: 6px !important;
+          
     }
     
     .product-video-section,

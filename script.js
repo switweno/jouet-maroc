@@ -854,11 +854,24 @@ function cleanupEventHandlers() {
 
 // تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
 function updateProductDisplay(product) {
-    // Update product title and details
+    // تحديث عنوان المنتج وتفاصيله
     document.querySelector('.product-title').textContent = product.title;
     document.querySelector('.product-brand').textContent = "العلامة التجارية: " + product.brand;
     document.querySelector('.product-category').textContent = "الفئة: " + product.category;
     document.querySelector('.product-availability').textContent = product.availability;
+
+    // تحديث اللون بناءً على حالة التوفر
+    var availabilityElement = document.querySelector('.product-availability');
+    
+    if (product.availability === "متوفر في المخزون") {
+        availabilityElement.style.color = "#28a745"; // اللون الأخضر
+    } else if (product.availability === "غير متوفر") {
+        availabilityElement.style.color = "#6c757d"; // اللون الرمادي
+    } else {
+        availabilityElement.style.color = "#000"; // اللون الافتراضي (إذا كان التوفر غير معروف)
+    }
+
+
     
     // Update ratings
     const ratingsContainer = document.querySelector('.ratings');
