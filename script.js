@@ -1,6 +1,4 @@
-fetch("settings.html?v=" + new Date().getTime())
-    .then(response => response.text())
-    .then(data => document.getElementById("content").innerHTML = data);
+
 
 
 
