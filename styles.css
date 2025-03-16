@@ -982,63 +982,131 @@ header {
 
 /* Quantity Selector Styles */
 .quantity-selector {
-  
     margin-bottom: 20px;
     color: #2b2323;
+    font-family: Arial, sans-serif;
 }
 
 .quantity-selector h3 {
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* تعديل اللون ليظهر بشكل أفضل */
 }
 
 .quantity-controls {
     display: flex;
     align-items: center;
-    max-width: 150px;
+    max-width: 170px; /* تعديل العرض ليعطي مساحة أكبر مع أزرار صغيرة */
+    justify-content: center;
 }
 
 .quantity-btn {
-    width: 40px;
+    width: 40px; /* تصغير الحجم قليلاً */
     height: 40px;
-    background-color: #e9ecef;
-    border: none;
-    font-size: 1.5rem;
+    background-color: #fff; /* تغيير اللون إلى الأبيض */
+    border: 1px solid #333; /* حدود رقيقة باللون الأسود */
+    font-size: 1.3rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 32px; /* انحناء الجوانب بشكل أكبر */
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .quantity-btn:hover {
-    background-color: #dee2e6;
+    background-color: #f7f7f7; /* لون فاتح عند المرور على الأزرار */
+    transform: scale(1.1); /* تكبير الأزرار قليلاً عند المرور عليها */
 }
 
 #quantity {
-    width: 60px; /* زيادة العرض قليلاً لتفادي التمرير */
-    height: 32px;
+    width: 63px; /* زيادة عرض المدخل قليلاً */
+    height: 32px; /* تصغير الارتفاع قليلاً */
     text-align: center;
     font-size: 1.2rem;
-    border: 1px solid #e9ecef;
-    margin: 0 10px;
-    
-    /* منع ظهور سكرول داخلي */
-    overflow: hidden; 
-   
+    border: 1px solid #333; /* حدود رقيقة باللون الأسود */
+    margin: 0 1px; /* المسافة بين الأزرار والمدخل */
+    border-radius: 16px; /* انحناء الجوانب بشكل أكبر */
+    outline: none;
+    background-color: #fff; /* خلفية بيضاء للمدخل */
+    transition: border-color 0.3s ease;
 }
 
-/* إزالة الأسهم من إدخال الأرقام في كروم و إيدج */
+#quantity:focus {
+    border-color: #007bff; /* تغيير لون الحدود عند التركيز */
+}
+
+/* تأثير عندما يضغط المستخدم على الأزرار */
+.quantity-btn:active {
+    transform: scale(0.95); /* تصغير الأزرار قليلاً عند الضغط */
+}
+/* تحسينات للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .quantity-selector h3 {
+        font-size: 0.9rem; /* تصغير حجم العنوان */
+    }
+
+    .quantity-controls {
+        gap: 11px; /* تقليل المسافة بين العناصر */
+    }
+
+    .quantity-btn {
+        width: 35px; /* تصغير الأزرار */
+        height: 35px;
+        font-size: 1rem; /* تصغير حجم النص داخل الأزرار */
+    }
+
+    #quantity {
+        width: 36px; /* تصغير عرض المدخل */
+        height: 27px; /* تصغير ارتفاع المدخل */
+        font-size: 0.9rem; /* تصغير حجم النص داخل المدخل */
+    }
+}
+
+
+/* Improve touch targets for mobile */
+@media (max-width: 426px) {
+    .quantity-btn {
+        width: 35px;
+        height: 35px;
+    }
+    
+    input[type="radio"] {
+        transform: scale(1.2);
+        margin: 0 5px;
+    }
+    .quantity-controls {
+    display: flex;
+    align-items: center;
+    max-width: 165px; /* تعديل العرض ليعطي مساحة أكبر مع أزرار صغيرة */
+    justify-content: center;
+}
+    .radio-group label {
+        font-size: 1rem;
+        padding: 6px 0;
+    }
+}
+/* إزالة الأسهم من إدخال الأرقام في جميع المتصفحات */
+#quantity {
+    appearance: textfield; /* خاصية قياسية لمنع الأسهم */
+    -webkit-appearance: none; /* لمنع الأسهم في كروم وإيدج */
+    -moz-appearance: textfield; /* لمنع الأسهم في فايرفوكس */
+    padding-right: 10px; /* مسافة إضافية على اليمين لمنع السحب */
+}
+
+/* إخفاء شريط التمرير الداخلي في فايرفوكس وكروم */
+#quantity::-webkit-scrollbar {
+    display: none;
+}
+
+/* إزالة الأسهم من إدخال الأرقام في كروم وإيدج */
 #quantity::-webkit-outer-spin-button,
 #quantity::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-/* عند تعيين اللغة الفرنسية */
-html[lang="fr"] #phone {
-    direction: ltr; /* ضبط اتجاه النص ليكون من اليسار لليمين */
-    text-align: left; /* محاذاة النص إلى اليسار */
-}
+
 
 
 /* Button Styles */
@@ -1372,23 +1440,7 @@ html[lang="fr"] #phone {
    
 }
 
-/* Improve touch targets for mobile */
-@media (max-width: 767px) {
-    .quantity-btn {
-        width: 45px;
-        height: 45px;
-    }
-    
-    input[type="radio"] {
-        transform: scale(1.2);
-        margin: 0 5px;
-    }
-    
-    .radio-group label {
-        font-size: 1rem;
-        padding: 5px 0;
-    }
-}
+
 
 /* Fix for the image modal on mobile */
 @media (max-width: 767px) {
@@ -1693,11 +1745,6 @@ h1, h2, h3, h4, h5, h6 {
     .feature-item {
         padding-bottom: 5px;
         margin-bottom: 5px;
-    }
-    
-    /* Reduce quantity selector margins */
-    .quantity-selector {
-        margin-bottom: 12px;
     }
     
     /* Order form */
