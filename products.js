@@ -14,13 +14,13 @@ var productsData = [
    oldPrice: 7599,
    discount: 30,
    images: [
-     "kukaring2pro/kukiring2pro-1.webp",
      "kukaring2pro/kukiring2pro-2.webp",
-     "kukaring2pro/kukiring2pro-3.webp",
-     "kukaring2pro/kukiring2pro-4.webp",
      "kukaring2pro/kukiring2pro-5.webp",
      "kukaring2pro/kukiring2pro-6.webp",
      "kukaring2pro/kukiring2pro-7.webp",
+     "kukaring2pro/kukiring2pro-1.webp",
+     "kukaring2pro/kukiring2pro-3.webp",
+     "kukaring2pro/kukiring2pro-4.webp",
    ],
   features: [
   {
