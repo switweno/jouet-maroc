@@ -29,12 +29,12 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #404E65;
+  background-color:  #FF8C00;
 
     color: #ffffff;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(51, 51, 51, 0.16);
+    box-shadow: 0 3px 10px rgba(51, 51, 51, 0.44);
     position: fixed; /* تثبيت الهيدر في الأعلى */
     top: 0; /* تعيين الهيدر في أعلى الصفحة */
     left: 0;
@@ -54,7 +54,7 @@ header {
 
 /* أنماط زر القائمة */
 .menu-toggle {
-    background-color: transparent;
+     background-color: rgba(214, 210, 210, 0.19);
     border: none;
     color: white;
     font-size: 1.1rem;
@@ -69,7 +69,7 @@ header {
 }
 
 .menu-toggle:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(214, 210, 210, 0.1);
 }
 
 .menu-toggle i {
@@ -110,11 +110,11 @@ header {
 }
 
 .site-logo {
-    height: 32px; /* تعديل الحجم حسب الشعار */
+    height: 24px; /* تعديل الحجم حسب الشعار */
     width: auto;
-    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.07)); /* إضافة ظل جميل للوغو */
+    filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.22)); /* إضافة ظل جميل للوغو */
     transition: transform 0.3s ease-in-out;
-    margin-left: 1px; /* إضافة مسافة على اليمين لتحريك النص */
+    margin-left: 9px; /* إضافة مسافة على اليمين لتحريك النص */
     
 }
 
@@ -147,7 +147,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #404E65;
+    background-color:  #FF8C00;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -2658,7 +2658,7 @@ footer .social-icons a:hover {
 }
 
 .footer-links button {
-    background: var(--primary-color, #404E65);
+    background: var(--primary-color,  rgb(255, 140, 0));
     color: white;
     border: none;
     padding: 10px 16px;
@@ -2669,7 +2669,7 @@ footer .social-icons a:hover {
 }
 
 .footer-links button:hover {
-    background: #de1a1a;
+    background:  #bd6902;
 }
 
 /* تحسين المظهر في الشاشات الصغيرة */
