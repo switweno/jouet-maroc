@@ -925,8 +925,8 @@ header {
 
 /* تغيير مظهر الزر عند التركيز عليه بلوحة المفاتيح */
 .accordion-toggle:focus {
-    outline: 2px solid  #959ba2;
-    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0);
+  font-size: 1rem;
+    color:  #e0e1dc;
 }
 
 /* تطبيق دوران للأيقونة بناءً على حالة aria-expanded */
@@ -1192,6 +1192,16 @@ header {
     font-family: 'Cairo', 'Tajawal', sans-serif;
 }
 
+.primary2-btn {
+    background-color:#077aee;
+    color: #ffffff;
+}
+
+.primary2-btn:hover {
+    background-color: #0064c9;
+    transform: translateY(-2px);
+    color: white;
+}
 
 .primary-btn {
     background-color:#1EA252;
@@ -1204,15 +1214,7 @@ header {
     color: white;
 }
 
-.secondary-btn {
-    background-color: #1EA252;
-    color: white;
-}
 
-.secondary-btn:hover {
-    background-color:#1EA252;
-    transform: translateY(-2px);
-}
 
 /* Order Form Styles */
 .order-section {

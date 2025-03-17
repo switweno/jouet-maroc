@@ -168,6 +168,7 @@
                     <button class="scroll-arrow arrow-right" onclick="navigateImages(1)" aria-label="التالي">
                         <i class="fas fa-chevron-right"></i>
                     </button>
+                    
                 </div>
                 <div class="thumbnails-container">
                     <div class="thumbnails" id="thumbnails-slider">
@@ -181,7 +182,7 @@
                 </div>
             </div>
             
-            
+           
 
             
             <div class="product-info">
@@ -282,7 +283,7 @@
                 
                 
                 <div class="cta-buttons">
-                    <button id="buy-now-btn" class="btn primary-btn" onclick="scrollToForm()">
+                    <button id="buy-now-btn" class="btn primary2-btn" onclick="scrollToForm()">
                         <i class="fas fa-shopping-cart"></i> اطلب الآن
                     </button>
                     <!-- Removing separate WhatsApp button as per requirement -->
@@ -417,60 +418,7 @@
     </div>
     <!-- End of Order Confirmation Modal -->
         
-        
-        
-        
-     <!-- زر الدردشة العائم -->
-    <button id="chatButton" onclick="toggleChatWindow()" aria-label="فتح نافذة الأسئلة الشائعة">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-      </svg>
-    </button>
-
-    <!-- نافذة الدردشة -->
-    <div id="chatWindow" class="chat-window">
-      <div class="chat-header">
-        <h2>الأسئلة الشائعة</h2>
-        <button onclick="toggleChatWindow()" class="close-button" aria-label="إغلاق">×</button>
-      </div>
-      <div class="chat-content">
-        <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-             ما هي مدة التسليم؟
-            </button>
-          <div class="faq-answer">
-           
-
-توصيل سريع في جميع أنحاء المغرب.
-
-استلم طلبك في نفس اليوم في الدار البيضاء،
-
-24-48 ساعة للمدن الأخرى.
-
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-            هل يمكنني الدفع عند الاستلام؟
-          </button>
-          <div class="faq-answer">
-           نعم، يمكنك دفع طلبك عند استلام الطرد.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-            كيف يمكنني طلب المنتج؟
-          </button>
-          <div class="faq-answer">
-           اختَر المنتج الذي ترغب فيه، ثم أرسل لنا طلبك وسنتواصل معك في أقرب وقت لتأكيد التفاصيل وإتمام عملية الشراء.
-          </div>
-        </div>
-      </div>
-    </div>
-
-
+  
        <!-- تحسين قسم المنتجات ذات الصلة -->
 <div class="related-products">
     <h2>منتجاتنا المميزة</h2>
@@ -556,6 +504,55 @@
 </div>
 </main>
     
+<!-- زر الدردشة العائم -->
+    <button id="chatButton" onclick="toggleChatWindow()" aria-label="فتح نافذة الأسئلة الشائعة">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+    </button>
+
+    <!-- نافذة الدردشة -->
+    <div id="chatWindow" class="chat-window">
+      <div class="chat-header">
+        <h2>الأسئلة الشائعة</h2>
+        <button onclick="toggleChatWindow()" class="close-button" aria-label="إغلاق">×</button>
+      </div>
+      <div class="chat-content">
+        <div class="faq-item">
+          <button onclick="toggleAnswer(this)" class="faq-question">
+             ما هي مدة التسليم؟
+            </button>
+          <div class="faq-answer">
+           
+
+توصيل سريع في جميع أنحاء المغرب.
+
+استلم طلبك في نفس اليوم في الدار البيضاء،
+
+24-48 ساعة للمدن الأخرى.
+
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button onclick="toggleAnswer(this)" class="faq-question">
+            هل يمكنني الدفع عند الاستلام؟
+          </button>
+          <div class="faq-answer">
+           نعم، يمكنك دفع طلبك عند استلام الطرد.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button onclick="toggleAnswer(this)" class="faq-question">
+            كيف يمكنني طلب المنتج؟
+          </button>
+          <div class="faq-answer">
+           اختَر المنتج الذي ترغب فيه، ثم أرسل لنا طلبك وسنتواصل معك في أقرب وقت لتأكيد التفاصيل وإتمام عملية الشراء.
+          </div>
+        </div>
+      </div>
+    </div>
 
     
     <footer>
