@@ -102,7 +102,7 @@ header {
 @media (max-width: 768px) {
     .main-image-discount-badge {
         border-radius: 14px;
-        font-size: 12px; /* تصغير الخط */
+        font-size: 0.8rem; /* تصغير الخط */
         padding: 4px 8px; /* تقليل المساحة */
         top: 11px; /* ضبط الموضع للأعلى */
         left: 10px; /* ضبط الموضع لليسار */
@@ -112,7 +112,7 @@ header {
 @media (max-width: 480px) {
     .main-image-discount-badge {
         border-radius: 14px;
-        font-size: 10px; /* تصغير الخط أكثر */
+        font-size: 0.8rem; /* تصغير الخط أكثر */
         padding: 3px 6px; /* تقليل الحواف */
         top: 10px; /* تحريك الموضع */
         left: 5px;
@@ -3188,7 +3188,7 @@ footer .copyright {
     left: 12px;
     background-color: #7f1fa6;
     color: white;
-    font-size: 0.85rem;
+    font-size: 0.84rem;
     font-weight: 700;
     padding: 4px 10px;
     border-radius: 20px;
@@ -3285,7 +3285,7 @@ footer .copyright {
     .product-link {
         width: 60%;
         margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 150px;
+         max-width: 130px;
          
     }
     
@@ -3299,7 +3299,7 @@ footer .copyright {
     }
     
     .related-product h3 {
-        font-size: 0.85rem;
+        font-size: 0.84rem;
         margin: 8px 4px;
         height: 40px;
         padding: 0 3px;
@@ -3324,9 +3324,16 @@ footer .copyright {
    
     .product-link {
         width: 100%;
-        max-width: 135px;
+        max-width: 130px;
           
         
+    }
+    
+    .related-discount-badge {
+        top: 8px;
+        left: 8px;
+        font-size: 0.66rem;
+        padding: 3px 8px;
     }
     
     .related-product img {
