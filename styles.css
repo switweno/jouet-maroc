@@ -97,9 +97,9 @@ header {
     font-weight: 700;
      margin: 0;
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #c3160d;
+    color: #278ccd;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.23);
-    background:  #c3160d;;
+    background:  #278ccd;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -212,7 +212,7 @@ header {
 
 .sidebar-category i {
     font-size: 1.3rem;
-    color:  #c3160d;
+    color:  #278ccd;
     width: 25px;
     text-align: center;
 }
@@ -345,7 +345,7 @@ header {
 }
 
 .popup-product-price {
-    color:#c3160d;
+    color:#278ccd;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -763,8 +763,8 @@ header {
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 1.1rem;
+    color: #031112;
     padding-bottom: 8px;
     margin-bottom: 8px;
     border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
@@ -780,7 +780,7 @@ header {
     margin-bottom: 15px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #c4bdbd;
     width: 100%;
 }
 
@@ -800,13 +800,13 @@ header {
 .current-price {
     font-size: 1.2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
-    color: #c3160d;
+    color: #278ccd;
     
 }
 
 .old-price {
     text-decoration: line-through;
-    color: #999;
+    color: #76193d;
     font-size: 1rem;
 }
 
@@ -1549,7 +1549,7 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     padding-top: 10px;
-    color:  #c3160d;
+    color:  #278ccd;
 }
 
 .customer-info {
@@ -3174,14 +3174,14 @@ footer .copyright {
 }
 
 .related-price {
-    color: #c3160d;
+    color: #278ccd;
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 4px;
 }
 
 .related-old-price {
-    color: #777;
+    color: #76193d;
     text-decoration: line-through;
     font-size: 1rem;
     position: relative;
