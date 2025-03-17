@@ -10,7 +10,7 @@ body {
     color: #504d4d;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    padding-top: 70px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    padding-top: 68px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
@@ -2162,33 +2162,19 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .accordion-header h4 {
         padding: 14px 8px; /* زيادة التباعد العمودي */
-        width: 109%;
+        width: 114%;
         font-size: 1.05rem;
     }
-
-
 /* تحسين حاوية مميزات المنتج للشاشات الصغيرة */
 @media (max-width: 767px) {
-   
+    /* زيادة المساحة الداخلية للحاويات */
+    .feature-category {
+        margin-bottom: 12px;
+        padding: 3px;
+        border-radius: 10px; /* زيادة استدارة الحواف */
+    }
     
     /* توسيع منطقة النقر للعنوان بأكمله */
     .accordion-header {
@@ -2204,7 +2190,7 @@ select {
     
     /* توسيع منطقة الزر ليكون أسهل للنقر */
     .accordion-toggle {
-        width: 26px;
+        width: 36px;
         height: 36px;
         right: 10px;
     }
@@ -2237,7 +2223,25 @@ select {
     }
 }
 
-
+/* تحسينات إضافية للهواتف الصغيرة جدًا */
+@media (max-width: 480px) {
+    .feature-category {
+        margin-left: -3px;
+        margin-right: -3px;
+        width: calc(100% + 10px);
+    }
+    
+    .accordion-header h4 {
+        padding: 12px 13px 12px 2px; /* زيادة المساحة على اليسار للزر */
+        font-size: 1rem;
+    }
+    
+    .feature-highlight {
+        margin-left: -3px;
+        margin-right: -3px;
+        width: calc(100% + 6px);
+    }
+}
 
 
 
@@ -2475,18 +2479,20 @@ footer .social-icons a:hover {
 
 .footer-links button {
     background: rgba(246, 85, 77, 0);
-    color: white;
+    color: #dcd7d7;
     border: none;
     padding: 10px 16px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease; /* إضافة تأثير التغيير على النص */
 }
 
 .footer-links button:hover {
-    background:  rgba(218, 93, 87, 0);
+    background: rgba(218, 93, 87, 0); /* تغيير الخلفية */
+    color: #ffffff; /* تغيير لون النص عند hover */
 }
+
 
 /* تحسين المظهر في الشاشات الصغيرة */
 @media (max-width: 768px) {
@@ -2496,7 +2502,7 @@ footer .social-icons a:hover {
 
     .footer-links button {
         padding: 8px 12px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
@@ -2504,10 +2510,12 @@ footer .social-icons a:hover {
     .footer-links {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .footer-links button {
         width: 90%;
+        font-size: 0.9rem;
     }
 }
 
