@@ -2163,110 +2163,32 @@ select {
 
 
 
-/* تنسيق سلايدر قسم "لماذا تختارنا" */
-.features-slider {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
-.slider-container {
-    overflow: hidden;
-    margin: 20px 0;
-}
 
-.slider-track {
-    display: flex;
-    transition: transform 0.5s ease;
-    direction: ltr; /* ضبط اتجاه السلايدر للتأكد من عمله بشكل صحيح */
-}
 
-/* تعديل الشرائح لمراعاة اتجاه RTL */
-.feature-slide {
-    flex: 0 0 100%;
-    padding: 0 15px;
-    box-sizing: border-box;
-    direction: rtl; /* إعادة اتجاه المحتوى إلى RTL */
-}
 
-/* على الشاشات الكبيرة، نعرض كل البطاقات بجوار بعضها */
-@media (min-width: 768px) {
-    .feature-slide {
-        flex: 0 0 33.333%;
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion-header h4 {
+        padding: 14px 8px; /* زيادة التباعد العمودي */
+        width: 109%;
+        font-size: 1.05rem;
     }
-    
-    /* إخفاء أزرار التحكم على الشاشات الكبيرة */
-    .slider-controls {
-        display: none !important;
-    }
-}
-
-/* تنسيق التحكم في السلايدر */
-.slider-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.slider-nav {
-    background-color: #e9f2ff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    color:  #2F5E8C;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 0 10px;
-}
-
-.slider-nav:hover {
-    background-color:  #2F5E8C;
-    color: white;
-}
-
-.slider-indicators {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 15px;
-}
-
-.indicator {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    opacity: 0.6;
-}
-
-.indicator.active {
-    background-color:  #2F5E8C;
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-
 
 
 /* تحسين حاوية مميزات المنتج للشاشات الصغيرة */
 @media (max-width: 767px) {
-    /* زيادة المساحة الداخلية للحاويات */
-    .feature-category {
-        margin-bottom: 12px;
-        padding: 3px;
-        border-radius: 10px; /* زيادة استدارة الحواف */
-    }
+   
     
     /* توسيع منطقة النقر للعنوان بأكمله */
     .accordion-header {
@@ -2282,7 +2204,7 @@ select {
     
     /* توسيع منطقة الزر ليكون أسهل للنقر */
     .accordion-toggle {
-        width: 36px;
+        width: 26px;
         height: 36px;
         right: 10px;
     }
@@ -2315,148 +2237,14 @@ select {
     }
 }
 
-/* تحسينات إضافية للهواتف الصغيرة جدًا */
-@media (max-width: 480px) {
-    .feature-category {
-        margin-left: -3px;
-        margin-right: -3px;
-        width: calc(100% + 10px);
-    }
-    
-    .accordion-header h4 {
-        padding: 12px 13px 12px 2px; /* زيادة المساحة على اليسار للزر */
-        font-size: 1rem;
-    }
-    
-    .feature-highlight {
-        margin-left: -3px;
-        margin-right: -3px;
-        width: calc(100% + 6px);
-    }
-}
 
 
 
-/* تحسينات على حاوية الصور المصغرة للشاشات الكبيرة */
-@media (min-width: 768px) {
-    .product-gallery {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .thumbnails-container {
-        width: 100%;
-        max-width: 100%; /* تأكيد عدم تجاوز عرض الصورة الرئيسية */
-        margin: -14px auto 0;
-    }
-    
-    .thumbnails {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        justify-content: center; /* توسيط الصور المصغرة */
-        gap: 10px;
-        padding: 8px 0;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    
-    /* تعديل حجم وعرض الصور المصغرة للشاشات الكبيرة */
-    .thumbnail {
-        width: 80px;
-        height: 80px;
-        flex: 0 0 80px;
-    }
-    
-    /* تحسين مؤشرات التمرير */
-    .thumbnails::-webkit-scrollbar {
-        height: 6px;
-        background-color: #f0f0f0;
-        border-radius: 3px;
-    }
-    
-    .thumbnails::-webkit-scrollbar-thumb {
-        background-color:  #2F5E8C;
-        border-radius: 3px;
-    }
-}
 
 
 
-/* تحسينات إضافية للشاشات المتوسطة والصغيرة */
-@media (max-width: 991px) and (min-width: 768px) {
-    .thumbnail {
-        width: 70px;
-        height: 70px;
-        flex: 0 0 70px;
-    }
-}
-
-/* تحسين مؤشرات التمرير في الشاشات الكبيرة جداً */
-@media (min-width: 1200px) {
-    .thumbnails-container::before,
-    .thumbnails-container::after {
-        width: 30px; /* زيادة عرض تدرج الظل */
-    }
-    
-    .thumbnail {
-        transition: all 0.25s ease;
-    }
-    
-    .thumbnail:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    }
-}
 
 
-
-@keyframes fadeInImage {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes slideLeft {
-    from {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideRight {
-    from {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-/* Thumbnail click animation */
-.thumbnail {
-    transition: border-color 0.2s ease; /* تقليل التأثيرات وإزالة التكبير */
-}
-
-/* تحسينات حركات السلايدر - متغيرات لتسهيل التخصيص */
-:root {
-    --slider-transition-duration: 0.4s; /* زيادة المدة لجعل الحركة أكثر وضوحاً */
-    --slider-transition-timing: cubic-bezier(0.22, 0.61, 0.36, 1); /* منحنى حركة أكثر سلاسة */
-    --slider-enter-distance: 100%; /* استخدام 100% لتأثير دفع كامل */
-    --image-hover-scale: 1.03; /* نسبة التكبير عند تمرير المؤشر فوق الصورة */
-}
 
 /* تحسين استجابة حركة الصورة الرئيسية */
 .main-image img {
