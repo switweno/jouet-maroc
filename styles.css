@@ -2280,11 +2280,11 @@ select {
     .feature-category {
         margin-left: -3px;
         margin-right: -3px;
-        width: calc(100% + 6px);
+        width: calc(100% + 10px);
     }
     
     .accordion-header h4 {
-        padding: 12px 12px 12px 6px; /* زيادة المساحة على اليسار للزر */
+        padding: 12px 13px 12px 2px; /* زيادة المساحة على اليسار للزر */
         font-size: 1rem;
     }
     
@@ -2295,25 +2295,7 @@ select {
     }
 }
 
-/* تحسينات على صورة المنتج الرئيسية وأيقونة التكبير */
-.main-image {
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    overflow: hidden; /* منع خروج المحتوى من الحاوية */
-    border-radius: 5px;
-}
 
-
-.main-image img {
-    max-width: 100%;
-    width: 100%; /* تأكيد العرض الكامل للصورة */
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block; /* منع المساحة الفارغة تحت الصورة */
-    transition: opacity 0.2s ease; /* تسريع الانتقال */
-}
 
 /* تحسينات على حاوية الصور المصغرة للشاشات الكبيرة */
 @media (min-width: 768px) {
