@@ -2312,24 +2312,50 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
-
-// إرسال عبر واتساب
-document.getElementById("whatsappSend1").addEventListener("click", function(event) {
+// إرسال عبر البريد الإلكتروني
+document.getElementById("contactForm1").addEventListener("submit", function (event) {
     event.preventDefault();
-    
     let name = document.getElementById("name1").value;
     let email = document.getElementById("email1").value;
     let message = document.getElementById("message1").value;
 
-    let whatsappMessage = `*رسالة جديدة من موقعك*\n\n*الاسم:* ${name}\n*البريد الإلكتروني:* ${email}\n*الرسالة:* ${message}`;
-    
-    // تحويل الرابط إلى صيغة واتساب مع البيانات
-    let whatsappLink = `https://wa.me/212762609147?text=${encodeURIComponent(whatsappMessage)}`;
-    
+    let mailtoLink = `mailto:jouet_maroc@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
+    window.location.href = mailtoLink;
+});
+
+// إرسال عبر WhatsApp
+document.getElementById("whatsappSend1").addEventListener("click", function () {
+    let name = document.getElementById("name1").value;
+    let email = document.getElementById("email1").value;
+    let message = document.getElementById("message1").value;
+
+    // تكوين الرسالة
+    let whatsappMessage = `مرحبًا، أنا ${name}.%0Aالبريد الإلكتروني: ${email}.%0Aالرسالة: ${message}`;
+
+    // تغيير الرقم هنا إلى رقم هاتفك الخاص
+    let phoneNumber = "212762609147"; // استبدل هذا برقم هاتفك
+
+    // إنشاء الرابط
+    let whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+
     // فتح الرابط في نافذة جديدة
     window.open(whatsappLink, "_blank");
+});
+
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: "smooth"
+            });
+        }
+    });
 });
 
 
