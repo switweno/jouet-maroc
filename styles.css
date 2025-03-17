@@ -81,14 +81,45 @@ header {
 }
 
 
+
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
-      visibility: hidden;
+    visibility: visible; /* عرض الشارة */
     position: absolute;
     top: 15px;
-    left: 4px;
-    
+    left: 15px;
+    background-color: #7f1fa6; /* لون جذاب */
+    color: white; /* لون النص */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 14px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
+
+/* تحسين التصميم للهواتف */
+@media (max-width: 768px) {
+    .main-image-discount-badge {
+        border-radius: 14px;
+        font-size: 12px; /* تصغير الخط */
+        padding: 4px 8px; /* تقليل المساحة */
+        top: 11px; /* ضبط الموضع للأعلى */
+        left: 10px; /* ضبط الموضع لليسار */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-image-discount-badge {
+        border-radius: 14px;
+        font-size: 10px; /* تصغير الخط أكثر */
+        padding: 3px 6px; /* تقليل الحواف */
+        top: 10px; /* تحريك الموضع */
+        left: 5px;
+    }
+}
+
+
 
 
 
@@ -141,7 +172,7 @@ header {
 .sidebar-menu.open {
     right: 0; /* القائمة تظهر */
     width: 100%; /* عرض القائمة عند الفتح */
-    background-color: rgba(255, 255, 255, 0.92); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
+    background-color: rgb(255, 255, 255); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
     z-index: 1000; /* تأكد من أن القائمة أعلى من السلايدر */
     transition: right 0.3s ease;
 }
@@ -201,7 +232,7 @@ header {
     align-items: center;
     gap: 12px;
     padding: 15px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #bebcbc;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -212,7 +243,7 @@ header {
 
 .sidebar-category i {
     font-size: 1.3rem;
-    color:  #278ccd;
+    color:  #F6554D;
     width: 25px;
     text-align: center;
 }
@@ -811,7 +842,7 @@ header {
 }
 
 .discount {
-    background-color: #4ba506;
+    background-color: #7f1fa6;
     color: white;
     padding: 3px 8px;
     border-radius: 50px;
@@ -959,7 +990,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 8px;
-    color:  #EEE7DF;
+    color:  #dfdbde;
 }
 
 .feature-category ul {
@@ -3153,7 +3184,7 @@ footer .copyright {
     position: absolute;
     top: 12px;
     left: 12px;
-    background-color: #4ba506;
+    background-color: #7f1fa6;
     color: white;
     font-size: 0.85rem;
     font-weight: 700;
