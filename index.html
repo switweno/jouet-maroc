@@ -627,6 +627,8 @@
         </form>
     </div>
 </div>
+<!-- رسالة تأكيد -->
+<p id="successMessage" style="display: none; color: green;">✅ تم إرسال رسالتك بنجاح!</p>
 
 
 
@@ -727,7 +729,22 @@
 
 <!-- إضافة jQuery لسهولة التنقل بين المنتجات -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // منع إعادة تحميل الصفحة
+    let form = event.target;
 
+    fetch("/", {
+        method: "POST",
+        body: new FormData(form),
+    })
+    .then(() => {
+        form.style.display = "none"; // إخفاء النموذج
+        document.getElementById("successMessage").style.display = "block"; // إظهار رسالة النجاح
+    })
+    .catch(error => console.error("حدث خطأ:", error));
+});
+</script>
 
     <!-- تعديل ترتيب تحميل ملفات JavaScript لضمان تعريف المتغير products قبل استخدامه -->
     <script src="products.js"></script>
