@@ -1792,6 +1792,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%; /* Full width */
         padding: 0 3px; /* Minimal padding */
     }
+     /* Product details section */
     
     .product-gallery,
     .product-info {
@@ -2842,13 +2843,7 @@ footer .copyright {
     }
    
    
-    .product-video-section,
-    .related-products,
-    .order-section {
-        padding: 20px 20px !important;
-        margin-bottom: 15px !important;
-        
-    }
+    
 }
 
 /* تعديلات للهواتف الصغيرة جداً مع الحفاظ على مظهر جيد */
@@ -3420,6 +3415,9 @@ footer .copyright {
     right: 10px;
 }
 
+.scroll-arrow {
+    will-change: transform;
+}
 
 
 
