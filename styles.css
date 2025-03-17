@@ -114,7 +114,7 @@ header {
     width: auto;
     filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.22)); /* إضافة ظل جميل للوغو */
     transition: transform 0.3s ease-in-out;
-    margin-left: 9px; /* إضافة مسافة على اليمين لتحريك النص */
+    margin-left: 2px; /* إضافة مسافة على اليمين لتحريك النص */
     
 }
 
