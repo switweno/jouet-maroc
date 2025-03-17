@@ -2738,12 +2738,7 @@ footer .copyright {
 
 
 
-/* تحسينات حركة سلايدر الصور - متغيرات CSS */
-:root {
-    --image-transition-duration: 0.5s;
-    --image-transition-timing: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    --image-slide-distance: 50px;
-}
+
 
 /* حاوية الصورة الرئيسية مع تحسينات للحركة الانتقالية */
 .main-image {
