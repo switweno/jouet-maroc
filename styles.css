@@ -579,7 +579,7 @@ header {
     flex-direction: column;
     background-color: #fff;
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
-    
+    outline: 3px dashed #7a2727; /* خط متقطع حول العنصر */
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
@@ -1931,6 +1931,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Product Video Section Styles */
 .product-video-section {
     background-color: #fff;
+     outline: 3px dashed #7a2727; /* خط متقطع حول العنصر */
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 25px;
@@ -2899,7 +2900,7 @@ footer .copyright {
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-     
+     outline: 3px dashed #7a2727; /* خط متقطع حول العنصر */
 }
 
 .related-products h2 {
