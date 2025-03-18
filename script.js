@@ -19,27 +19,27 @@ function preloadImages(images) {
  */
 function changeImage(src, direction = null) {
     if (!src) return;
-    
+
     const currentImage = document.getElementById('current-image');
     if (!currentImage) return;
-    
+
     // تحديد اتجاه الانتقال بناءً على موقع الصورة المصغرة
     if (!direction) {
         const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
         const activeIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
         const newIndex = thumbnails.findIndex(thumb => thumb.src === src);
-        
+
         if (activeIndex !== -1 && newIndex !== -1) {
             direction = newIndex > activeIndex ? 'right' : 'left';
         } else {
             direction = 'fade'; // الانتقال الافتراضي
         }
     }
-    
+
     // تخزين مصدر الصورة الحالية ومصدر الصورة الجديدة
     const oldImageSrc = currentImage.src;
     const newImageSrc = src;
-    
+
     // التحميل المسبق للصورة الجديدة
     const preloadImage = new Image();
     preloadImage.src = newImageSrc;
@@ -47,7 +47,7 @@ function changeImage(src, direction = null) {
         // إنشاء حاوية للصور المتغيرة إذا لم تكن موجودة
         const mainImageContainer = currentImage.parentNode;
         let slidingImagesContainer = mainImageContainer.querySelector('.sliding-images-container');
-        
+
         if (!slidingImagesContainer) {
             slidingImagesContainer = document.createElement('div');
             slidingImagesContainer.className = 'sliding-images-container';
@@ -58,10 +58,11 @@ function changeImage(src, direction = null) {
             slidingImagesContainer.style.height = '100%';
             slidingImagesContainer.style.overflow = 'hidden';
             slidingImagesContainer.style.zIndex = '2';
+            slidingImagesContainer.style.willChange = 'transform, opacity'; // تسريع الأجهزة
             mainImageContainer.style.position = 'relative';
             mainImageContainer.appendChild(slidingImagesContainer);
         }
-        
+
         // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
         const oldImageClone = document.createElement('img');
         oldImageClone.src = oldImageSrc;
@@ -73,8 +74,9 @@ function changeImage(src, direction = null) {
         oldImageClone.style.height = '100%';
         oldImageClone.style.objectFit = 'cover';
         oldImageClone.style.zIndex = '1';
+        oldImageClone.style.willChange = 'transform, opacity'; // تسريع الأجهزة
         slidingImagesContainer.appendChild(oldImageClone);
-        
+
         // إنشاء الصورة الجديدة وإضافتها إلى الحاوية
         const newImageElement = document.createElement('img');
         newImageElement.src = newImageSrc;
@@ -85,97 +87,75 @@ function changeImage(src, direction = null) {
         newImageElement.style.height = '100%';
         newImageElement.style.objectFit = 'cover';
         newImageElement.style.zIndex = '2';
-        
+        newImageElement.style.willChange = 'transform, opacity'; // تسريع الأجهزة
+
         // تعيين موقع البداية للصورة الجديدة حسب الاتجاه
         if (direction === 'right') {
-            newImageElement.style.left = '100%';
+            newImageElement.style.transform = 'translateX(100%)';
         } else if (direction === 'left') {
-            newImageElement.style.left = '-100%';
+            newImageElement.style.transform = 'translateX(-100%)';
         } else {
-            // تأثير الظهور التدريجي
-            newImageElement.style.left = '0';
             newImageElement.style.opacity = '0';
         }
-        
+
         slidingImagesContainer.appendChild(newImageElement);
-        
-        // تطبيق تأثير الانتقال
-        setTimeout(() => {
-            // تحريك الصورة القديمة خارج المشهد
-            if (direction === 'right') {
-                oldImageClone.style.transition = 'transform 0.5s ease-out';
-                oldImageClone.style.transform = 'translateX(-100%)';
-            } else if (direction === 'left') {
-                oldImageClone.style.transition = 'transform 0.5s ease-out';
-                oldImageClone.style.transform = 'translateX(100%)';
-            } else {
-                // تلاشي الصورة القديمة
-                oldImageClone.style.transition = 'opacity 0.5s ease-out';
-                oldImageClone.style.opacity = '0';
+
+        // بدء الانتقال السلس
+        animateTransition(oldImageClone, newImageElement, direction, () => {
+            currentImage.src = newImageSrc;
+
+            // تنظيف حاوية الصور المتحركة
+            while (slidingImagesContainer.firstChild) {
+                slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
             }
-            
-            // تحريك الصورة الجديدة للمركز
-            if (direction === 'right') {
-                newImageElement.style.transition = 'transform 0.5s ease-out';
-                newImageElement.style.transform = 'translateX(-100%)';
-            } else if (direction === 'left') {
-                newImageElement.style.transition = 'transform 0.5s ease-out';
-                newImageElement.style.transform = 'translateX(100%)';
-            } else {
-                // ظهور الصورة الجديدة تدريجياً
-                newImageElement.style.transition = 'opacity 0.5s ease-out';
-                newImageElement.style.opacity = '1';
-            }
-            
-            // تغيير الصورة الرئيسية بعد انتهاء التأثير
-            setTimeout(() => {
-                currentImage.src = newImageSrc;
-                
-                // تنظيف حاوية الصور المتحركة
-                while (slidingImagesContainer.firstChild) {
-                    slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
-                }
-                
-                // تحديث الصورة المصغرة النشطة
-                updateActiveThumbnail(src);
-            }, 550); // زمن أطول قليلاً من مدة الانتقال
-        }, 50);
-        
-        // إزالة أي تأثيرات سابقة من الصورة الرئيسية
-        currentImage.classList.remove(
-            'image-slide-enter-from-right', 
-            'image-slide-enter-from-left', 
-            'image-zoom-in',
-            'image-fade-in'
-        );
-        
-        // إيقاف أي رسوم متحركة قيد التنفيذ
-        window.clearTimeout(currentImage.animationTimeout);
+
+            // تحديث الصورة المصغرة النشطة
+            updateActiveThumbnail(src);
+        });
     };
 }
 
-// دالة محسنة لتحديث الصورة المصغرة النشطة
+// دالة لتطبيق الانتقال السلس باستخدام requestAnimationFrame
+function animateTransition(oldImage, newImage, direction, onComplete) {
+    const duration = 500; // مدة الانتقال بالمللي ثانية
+    const start = performance.now();
+
+    function step(timestamp) {
+        const elapsed = timestamp - start;
+        const progress = Math.min(elapsed / duration, 1); // نسبة التقدم (0 إلى 1)
+
+        if (direction === 'right') {
+            oldImage.style.transform = `translateX(-${progress * 100}%)`;
+            newImage.style.transform = `translateX(${(1 - progress) * 100}%)`;
+        } else if (direction === 'left') {
+            oldImage.style.transform = `translateX(${progress * 100}%)`;
+            newImage.style.transform = `translateX(-${(1 - progress) * 100}%)`;
+        } else {
+            oldImage.style.opacity = 1 - progress;
+            newImage.style.opacity = progress;
+        }
+
+        if (progress < 1) {
+            requestAnimationFrame(step);
+        } else {
+            onComplete(); // استدعاء الدالة عند انتهاء الانتقال
+        }
+    }
+
+    requestAnimationFrame(step);
+}
+
+// دالة لتحديث الصورة المصغرة النشطة
 function updateActiveThumbnail(src) {
     const thumbnails = document.querySelectorAll('.thumbnail');
     thumbnails.forEach(thumb => {
-        // إزالة الفئة النشطة من جميع الصور المصغرة
         thumb.classList.remove('active');
-        
-        // إضافة الفئة النشطة للصورة المطابقة
         if (thumb.src === src) {
             thumb.classList.add('active');
-            
-            // تمرير الصورة المصغرة النشطة إلى المنتصف بشكل فوري
-            requestAnimationFrame(() => {
-                try {
-                    thumb.scrollIntoView({
-                        behavior: 'auto', // تغيير إلى 'auto' بدلاً من 'smooth' للانتقال الفوري
-                        block: 'nearest', 
-                        inline: 'center'
-                    });
-                } catch (e) {
-                    console.error('Error scrolling thumbnail into view:', e);
-                }
+            thumb.scrollIntoView({
+                behavior: 'smooth',
+                block: 'nearest',
+                inline: 'center'
             });
         }
     });
