@@ -109,7 +109,7 @@ header {
 }
 
 .site-logo {
-    height: 24px; /* تعديل الحجم حسب الشعار */
+    height: 20px; /* تعديل الحجم حسب الشعار */
     width: auto;
     filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.22)); /* إضافة ظل جميل للوغو */
     transition: transform 0.3s ease-in-out;
