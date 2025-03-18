@@ -142,16 +142,10 @@ function changeImage(src, direction = null) {
                 
                 // تحديث الصورة المصغرة النشطة
                 updateActiveThumbnail(src);
-            }, 500); // زمن أطول قليلاً من مدة الانتقال
+            }, 550); // زمن أطول قليلاً من مدة الانتقال
         }, 50);
         
-        // إزالة أي تأثيرات سابقة من الصورة الرئيسية
-        currentImage.classList.remove(
-            'image-slide-enter-from-right', 
-            'image-slide-enter-from-left', 
-            'image-zoom-in',
-            'image-fade-in'
-        );
+       
         
         // إيقاف أي رسوم متحركة قيد التنفيذ
         window.clearTimeout(currentImage.animationTimeout);
