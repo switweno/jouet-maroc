@@ -1,7 +1,3 @@
-
-
-
-
 // تحميل مسبق للصور لتجنب الوميض
 function preloadImages(images) {
     if (!images || !images.length) return;
@@ -16,29 +12,42 @@ function preloadImages(images) {
     return preloadedImages;
 }
 
-
+/**
+ * تحسين دالة تغيير الصور مع تأثير دفع الصور بشكل أفضل
+ * @param {string} src - مصدر الصورة الجديدة
+ * @param {string} direction - الاتجاه (right, left) أو null للاكتشاف التلقائي
+ */
 function changeImage(src, direction = null) {
     if (!src) return;
-
+    
     const currentImage = document.getElementById('current-image');
     if (!currentImage) return;
-
-    // تحديد الاتجاه
+    
+    // تحديد اتجاه الانتقال بناءً على موقع الصورة المصغرة
     if (!direction) {
         const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
         const activeIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
         const newIndex = thumbnails.findIndex(thumb => thumb.src === src);
-
-        direction = newIndex > activeIndex ? 'right' : 'left';
+        
+        if (activeIndex !== -1 && newIndex !== -1) {
+            direction = newIndex > activeIndex ? 'right' : 'left';
+        } else {
+            direction = 'fade'; // الانتقال الافتراضي
+        }
     }
-
+    
+    // تخزين مصدر الصورة الحالية ومصدر الصورة الجديدة
+    const oldImageSrc = currentImage.src;
+    const newImageSrc = src;
+    
     // التحميل المسبق للصورة الجديدة
     const preloadImage = new Image();
-    preloadImage.src = src;
+    preloadImage.src = newImageSrc;
     preloadImage.onload = () => {
+        // إنشاء حاوية للصور المتغيرة إذا لم تكن موجودة
         const mainImageContainer = currentImage.parentNode;
         let slidingImagesContainer = mainImageContainer.querySelector('.sliding-images-container');
-
+        
         if (!slidingImagesContainer) {
             slidingImagesContainer = document.createElement('div');
             slidingImagesContainer.className = 'sliding-images-container';
@@ -52,84 +61,121 @@ function changeImage(src, direction = null) {
             mainImageContainer.style.position = 'relative';
             mainImageContainer.appendChild(slidingImagesContainer);
         }
-
-        // إنشاء العناصر
-        const oldImage = document.createElement('img');
-        const newImage = document.createElement('img');
-
-        oldImage.src = currentImage.src;
-        newImage.src = src;
-
-        oldImage.style.position = newImage.style.position = 'absolute';
-        oldImage.style.top = newImage.style.top = '0';
-        oldImage.style.width = newImage.style.width = '100%';
-        oldImage.style.height = newImage.style.height = '100%';
-        oldImage.style.objectFit = newImage.style.objectFit = 'cover';
-        oldImage.style.zIndex = '1';
-        newImage.style.zIndex = '2';
-
-        // تعيين مواقع البداية
+        
+        // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
+        const oldImageClone = document.createElement('img');
+        oldImageClone.src = oldImageSrc;
+        oldImageClone.className = 'exiting-image';
+        oldImageClone.style.position = 'absolute';
+        oldImageClone.style.top = '0';
+        oldImageClone.style.left = '0';
+        oldImageClone.style.width = '100%';
+        oldImageClone.style.height = '100%';
+        oldImageClone.style.objectFit = 'cover';
+        oldImageClone.style.zIndex = '1';
+        slidingImagesContainer.appendChild(oldImageClone);
+        
+        // إنشاء الصورة الجديدة وإضافتها إلى الحاوية
+        const newImageElement = document.createElement('img');
+        newImageElement.src = newImageSrc;
+        newImageElement.className = 'entering-image';
+        newImageElement.style.position = 'absolute';
+        newImageElement.style.top = '0';
+        newImageElement.style.width = '100%';
+        newImageElement.style.height = '100%';
+        newImageElement.style.objectFit = 'cover';
+        newImageElement.style.zIndex = '2';
+        
+        // تعيين موقع البداية للصورة الجديدة حسب الاتجاه
         if (direction === 'right') {
-            newImage.style.transform = 'translateX(100%)';
+            newImageElement.style.left = '100%';
         } else if (direction === 'left') {
-            newImage.style.transform = 'translateX(-100%)';
+            newImageElement.style.left = '-100%';
         } else {
-            newImage.style.opacity = '0';
+            // تأثير الظهور التدريجي
+            newImageElement.style.left = '0';
+            newImageElement.style.opacity = '0';
         }
-
-        slidingImagesContainer.appendChild(oldImage);
-        slidingImagesContainer.appendChild(newImage);
-
-        // بدء الانتقال
-        animateTransition(oldImage, newImage, direction);
-
+        
+        slidingImagesContainer.appendChild(newImageElement);
+        
+        // تطبيق تأثير الانتقال
         setTimeout(() => {
-            currentImage.src = src;
-            while (slidingImagesContainer.firstChild) {
-                slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
+            // تحريك الصورة القديمة خارج المشهد
+            if (direction === 'right') {
+                oldImageClone.style.transition = 'transform 0.5s ease-out';
+                oldImageClone.style.transform = 'translateX(-100%)';
+            } else if (direction === 'left') {
+                oldImageClone.style.transition = 'transform 0.5s ease-out';
+                oldImageClone.style.transform = 'translateX(100%)';
+            } else {
+                // تلاشي الصورة القديمة
+                oldImageClone.style.transition = 'opacity 0.5s ease-out';
+                oldImageClone.style.opacity = '0';
             }
-            updateActiveThumbnail(src);
-        }, 550);
+            
+            // تحريك الصورة الجديدة للمركز
+            if (direction === 'right') {
+                newImageElement.style.transition = 'transform 0.5s ease-out';
+                newImageElement.style.transform = 'translateX(-100%)';
+            } else if (direction === 'left') {
+                newImageElement.style.transition = 'transform 0.5s ease-out';
+                newImageElement.style.transform = 'translateX(100%)';
+            } else {
+                // ظهور الصورة الجديدة تدريجياً
+                newImageElement.style.transition = 'opacity 0.5s ease-out';
+                newImageElement.style.opacity = '1';
+            }
+            
+            // تغيير الصورة الرئيسية بعد انتهاء التأثير
+            setTimeout(() => {
+                currentImage.src = newImageSrc;
+                
+                // تنظيف حاوية الصور المتحركة
+                while (slidingImagesContainer.firstChild) {
+                    slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
+                }
+                
+                // تحديث الصورة المصغرة النشطة
+                updateActiveThumbnail(src);
+            }, 550); // زمن أطول قليلاً من مدة الانتقال
+        }, 50);
+        
+        // إزالة أي تأثيرات سابقة من الصورة الرئيسية
+        currentImage.classList.remove(
+            'image-slide-enter-from-right', 
+            'image-slide-enter-from-left', 
+            'image-zoom-in',
+            'image-fade-in'
+        );
+        
+        // إيقاف أي رسوم متحركة قيد التنفيذ
+        window.clearTimeout(currentImage.animationTimeout);
     };
 }
 
-function animateTransition(oldImage, newImage, direction) {
-    const duration = 500;
-    const start = performance.now();
-
-    function step(timestamp) {
-        const elapsed = timestamp - start;
-        const progress = Math.min(elapsed / duration, 1);
-
-        if (direction === 'right') {
-            oldImage.style.transform = `translateX(-${progress * 100}%)`;
-            newImage.style.transform = `translateX(-${(1 - progress) * 100}%)`;
-        } else if (direction === 'left') {
-            oldImage.style.transform = `translateX(${progress * 100}%)`;
-            newImage.style.transform = `translateX(${(1 - progress) * 100}%)`;
-        } else {
-            oldImage.style.opacity = 1 - progress;
-            newImage.style.opacity = progress;
-        }
-
-        if (progress < 1) {
-            requestAnimationFrame(step);
-        }
-    }
-
-    requestAnimationFrame(step);
-}
-
+// دالة محسنة لتحديث الصورة المصغرة النشطة
 function updateActiveThumbnail(src) {
     const thumbnails = document.querySelectorAll('.thumbnail');
     thumbnails.forEach(thumb => {
+        // إزالة الفئة النشطة من جميع الصور المصغرة
         thumb.classList.remove('active');
+        
+        // إضافة الفئة النشطة للصورة المطابقة
         if (thumb.src === src) {
             thumb.classList.add('active');
-            thumb.scrollIntoView({
-                behavior: 'smooth',
-                block: 'nearest',
-                inline: 'center'
+            
+            // تمرير الصورة المصغرة النشطة إلى المنتصف بشكل فوري
+            requestAnimationFrame(() => {
+                try {
+                    thumb.scrollIntoView({
+                        behavior: 'auto', // تغيير إلى 'auto' بدلاً من 'smooth' للانتقال الفوري
+                        block: 'nearest', 
+                        inline: 'center'
+                    });
+                } catch (e) {
+                    console.error('Error scrolling thumbnail into view:', e);
+                }
             });
         }
     });
@@ -432,7 +478,54 @@ function resetZoom() {
     updateZoomStatus();
 }
 
-
+// Change zoom level with zoom status display
+function changeZoom(amount) {
+    const prevZoom = zoomLevel;
+    const zoomContainer = document.querySelector('.zoom-container');
+    const modalImage = document.getElementById('modal-image');
+    
+    // Retain the position of the center point before zooming
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+    
+    // Calculate the distance between the center and the current position
+    const offsetX = translateX;
+    const offsetY = translateY;
+    
+    // Change zoom level
+    zoomLevel += amount;
+    
+    // Limit zoom level
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > 4) zoomLevel = 4;
+    
+    // Do not proceed if zoom level did not change
+    if (prevZoom === zoomLevel) return;
+    
+    // Calculate new position to maintain the center point
+    if (prevZoom !== 1 && zoomLevel !== 1) {
+        // Update offset based on zoom level change
+        translateX = (offsetX / prevZoom) * zoomLevel;
+        translateY = (offsetY / prevZoom) * zoomLevel;
+    } else if (zoomLevel === 1) {
+        // Center image when zooming out to normal size
+        translateX = 0;
+        translateY = 0;
+    }
+    
+    // Apply changes
+    updateImageTransform();
+    
+    // Update zoom status
+    updateZoomStatus();
+    
+    // Add highlight class if zoom level is greater than 1
+    if (zoomLevel > 1) {
+        zoomContainer.classList.add('zoomed');
+    } else {
+        zoomContainer.classList.remove('zoomed');
+    }
+}
 
 // Image drag functions
 function startDrag(e) {
@@ -710,7 +803,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "kukarin-g2-pro"; // Default product
+            productId = "voiture_range_rover_police"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -755,24 +848,11 @@ function cleanupEventHandlers() {
 
 // تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
 function updateProductDisplay(product) {
-    // تحديث عنوان المنتج وتفاصيله
+    // Update product title and details
     document.querySelector('.product-title').textContent = product.title;
     document.querySelector('.product-brand').textContent = "العلامة التجارية: " + product.brand;
     document.querySelector('.product-category').textContent = "الفئة: " + product.category;
     document.querySelector('.product-availability').textContent = product.availability;
-
-    // تحديث اللون بناءً على حالة التوفر
-    var availabilityElement = document.querySelector('.product-availability');
-    
-    if (product.availability === "متوفر في المخزون") {
-        availabilityElement.style.color = "#28a745"; // اللون الأخضر
-    } else if (product.availability === "غير متوفر") {
-        availabilityElement.style.color = "#6c757d"; // اللون الرمادي
-    } else {
-        availabilityElement.style.color = "#000"; // اللون الافتراضي (إذا كان التوفر غير معروف)
-    }
-
-
     
     // Update ratings
     const ratingsContainer = document.querySelector('.ratings');
@@ -1551,6 +1631,52 @@ document.addEventListener('DOMContentLoaded', function() {
     // ...existing code...
 });
 
+// تحسين وظيفة إظهار حالة التكبير
+function updateZoomStatus() {
+    const zoomStatus = document.querySelector('.zoom-status');
+    if (!zoomStatus) return;
+    
+    zoomStatus.textContent = `${Math.round(zoomLevel * 100)}%`;
+    zoomStatus.classList.add('show');
+    
+    if (timeoutId) clearTimeout(timeoutId);
+    
+    timeoutId = setTimeout(() => {
+        zoomStatus.classList.remove('show');
+    }, 1500);
+}
+
+// تحسين التأكد من وجود عناصر النافذة المنبثقة
+function ensureModalElements() {
+    const modalContent = document.querySelector('.modal-content');
+    if (!modalContent) return;
+    
+    // التحقق من وجود عنصر إرشادات التكبير وإنشائه إذا لم يكن موجودًا
+    if (!document.querySelector('.zoom-instructions')) {
+        const instructions = document.createElement('div');
+        instructions.className = 'zoom-instructions';
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
+        modalContent.appendChild(instructions);
+    }
+    
+    // التحقق من وجود عنصر حالة التكبير وإنشائه إذا لم يكن موجودًا
+    if (!document.querySelector('.zoom-status')) {
+        const zoomStatus = document.createElement('div');
+        zoomStatus.className = 'zoom-status';
+        modalContent.appendChild(zoomStatus);
+    }
+}
+
+// تحسين وظيفة إعادة ضبط التكبير
+function resetZoom() {
+    zoomLevel = 1;
+    translateX = 0;
+    translateY = 0;
+    updateImageTransform();
+    
+    // تحديث حالة التكبير
+    updateZoomStatus();
+}
 
 // تحسين وظيفة تحديث تحويل الصورة
 function updateImageTransform() {
@@ -1677,9 +1803,150 @@ function drag(e) {
     startY = currentY;
 }
 
+// تحسين فتح نافذة تكبير الصورة للهواتف
+function openImageModal() {
+    const modal = document.getElementById('image-modal');
+    const currentImage = document.getElementById('current-image');
+    const modalImage = document.getElementById('modal-image');
+    const zoomContainer = document.querySelector('.zoom-container');
+    
+    // جمع كل صور المنتج
+    allImages = [];
+    document.querySelectorAll('.thumbnail').forEach(thumbnail => {
+        allImages.push(thumbnail.src);
+    });
+    
+    // إضافة الصورة الرئيسية إذا لم تكن موجودة في الصور المصغرة
+    if (!allImages.includes(currentImage.src)) {
+        allImages.unshift(currentImage.src);
+    }
+    
+    // تحديد الصورة الحالية
+    currentImageIndex = allImages.indexOf(currentImage.src);
+    if (currentImageIndex === -1) currentImageIndex = 0;
+    
+    // تعيين مصدر الصورة في النافذة
+    modalImage.src = currentImage.src;
+    
+    // إعادة ضبط التكبير والموضع
+    resetZoom();
+    
+    // اكتشاف نوع الجهاز
+    const isMobile = window.innerWidth <= 768 || ('ontouchstart' in window);
+    
+    // إظهار النافذة
+    modal.style.display = 'block';
+    
+    // منع التمرير في الخلفية
+    document.body.style.overflow = 'hidden';
+    
+    // إضافة إرشادات التكبير والتمرير
+    showZoomInstructions(isMobile);
+    
+    // فحص اتجاه الصورة بعد تحميلها
+    modalImage.onload = function() {
+        // التحقق مما إذا كانت الصورة عمودية أو أفقية
+        if (this.naturalHeight > this.naturalWidth) {
+            zoomContainer.classList.add('vertical-image');
+        } else {
+            zoomContainer.classList.remove('vertical-image');
+        }
+        
+        // التأكد من تمركز الصورة
+        centerModalImage();
+    };
+    
+    // تتبع الحدث باستخدام Facebook Pixel إذا كان متاحًا
+    if (typeof fbq === 'function') {
+        fbq('track', 'ViewContent', {
+            content_type: 'product_image',
+            content_ids: ['PROD12345']
+        });
+    }
+}
 
+// تحسين وظيفة إظهار إرشادات التكبير للهواتف
+function showZoomInstructions(isMobile) {
+    const modalContent = document.querySelector('.modal-content');
+    if (!modalContent) return;
+    
+    // التأكد من حذف أي إرشادات قديمة
+    const existingInstructions = document.querySelector('.zoom-instructions');
+    if (existingInstructions) {
+        existingInstructions.remove();
+    }
+    
+    // إنشاء إرشادات جديدة
+    const instructions = document.createElement('div');
+    instructions.className = 'zoom-instructions';
+    
+    // تغيير النص حسب نوع الجهاز
+    if (isMobile) {
+        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> انقر مرتين للتكبير، اسحب للتحريك';
+    } else {
+        instructions.innerHTML = '<i class="fas fa-search-plus"></i> استخدم أزرار التكبير أو عجلة الماوس';
+    }
+    
+    modalContent.appendChild(instructions);
+    
+    // عرض الإرشادات بعد التأكد من وجود النافذة
+    setTimeout(() => {
+        instructions.classList.add('show');
+        
+        // إخفاء الإرشادات تلقائيًا بعد 4 ثوانٍ
+        setTimeout(() => {
+            instructions.classList.remove('show');
+        }, 4000);
+    }, 300);
+}
 
-
+// تحسين وظيفة التكبير للاستجابة بشكل أفضل على الهواتف
+function changeZoom(amount) {
+    const prevZoom = zoomLevel;
+    const zoomContainer = document.querySelector('.zoom-container');
+    const modalImage = document.getElementById('modal-image');
+    
+    // تعديل كمية التكبير للهواتف
+    const isMobile = window.innerWidth <= 768;
+    const zoomStep = isMobile ? (amount * 0.8) : amount; // تقليل قيمة التكبير للهواتف
+    
+    // تغيير مستوى التكبير
+    zoomLevel += zoomStep;
+    
+    // تحديد حدود التكبير (تقليل الحد الأقصى على الهواتف)
+    if (zoomLevel < 1) zoomLevel = 1;
+    if (zoomLevel > (isMobile ? 3 : 4)) zoomLevel = (isMobile ? 3 : 4);
+    
+    // عدم التنفيذ إذا لم يتغير مستوى التكبير
+    if (prevZoom === zoomLevel) return;
+    
+    // حفظ موضع المركز قبل التكبير
+    const centerX = translateX;
+    const centerY = translateY;
+    
+    // إعادة حساب الموضع للحفاظ على نقطة المركز
+    if (prevZoom !== 1 && zoomLevel !== 1) {
+        translateX = (centerX / prevZoom) * zoomLevel;
+        translateY = (centerY / prevZoom) * zoomLevel;
+    } else if (zoomLevel === 1) {
+        // إعادة الصورة للمركز عند التصغير للحجم الطبيعي
+        translateX = 0;
+        translateY = 0;
+    }
+    
+    // تطبيق التغييرات
+    updateImageTransform();
+    
+    // تحديث حالة التكبير
+    updateZoomStatus();
+    
+    // إضافة فئة للتمييز عند التكبير
+    if (zoomLevel > 1) {
+        zoomContainer.classList.add('zoomed');
+    } else {
+        zoomContainer.classList.remove('zoomed');
+    }
+}
 
 // تحسين وظيفة السحب على الهواتف
 function drag(e) {
@@ -1743,7 +2010,59 @@ function drag(e) {
     startY = currentY;
 }
 
-
+// تحسين تجربة النقر المزدوج للتكبير على الهواتف
+document.addEventListener('DOMContentLoaded', function() {
+    // ...existing code...
+    
+    const modalImage = document.getElementById('modal-image');
+    if (modalImage) {
+        // تحسين تجربة النقر المزدوج على الهواتف
+        let lastTap = 0;
+        let touchTimeout;
+        
+        modalImage.addEventListener('touchend', function(e) {
+            const currentTime = new Date().getTime();
+            const tapLength = currentTime - lastTap;
+            
+            // تحسين اكتشاف النقر المزدوج على الهواتف
+            clearTimeout(touchTimeout);
+            
+            if (tapLength < 400 && tapLength > 0) {
+                // نقر مزدوج - تبديل حالة التكبير
+                if (zoomLevel === 1) {
+                    // مستوى تكبير أقل للهواتف
+                    changeZoom(window.innerWidth <= 768 ? 1 : 1.5);
+                } else {
+                    resetZoom();
+                }
+                
+                e.preventDefault();
+            } else {
+                // انتظار لفترة قصيرة للتحقق من النقر المزدوج
+                touchTimeout = setTimeout(() => {
+                    // إجراء للنقر الفردي إذا احتجنا
+                }, 300);
+            }
+            
+            lastTap = currentTime;
+        });
+        
+        // إضافة تكبير بعجلة الماوس للأجهزة المكتبية
+        modalImage.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            
+            // تغيير التكبير بناءً على اتجاه عجلة الماوس
+            if (e.deltaY < 0) {
+                // تصغير قيمة التغيير للحصول على تجربة أكثر سلاسة
+                changeZoom(0.25);
+            } else {
+                changeZoom(-0.25);
+            }
+        });
+    }
+    
+    // ...existing code...
+});
 
 // ...existing code...
 
@@ -1974,8 +2293,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-
 // إرسال عبر البريد الإلكتروني
 document.getElementById("contactForm1").addEventListener("submit", function (event) {
     event.preventDefault();
@@ -2005,16 +2322,6 @@ document.getElementById("whatsappSend1").addEventListener("click", function () {
     // فتح الرابط في نافذة جديدة
     window.open(whatsappLink, "_blank");
 });
-
-
-
-
-
-
-
-
-
-
 
 
 
