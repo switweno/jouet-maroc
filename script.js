@@ -1,3 +1,21 @@
+
+
+
+
+// تحميل مسبق للصور لتجنب الوميض
+function preloadImages(images) {
+    if (!images || !images.length) return;
+    
+    const preloadedImages = [];
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+        preloadedImages.push(img);
+    });
+    
+    return preloadedImages;
+}
+
 // تحميل مسبق للصور لتجنب الوميض
 function preloadImages(images) {
     if (!images || !images.length) return;
@@ -783,7 +801,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "voiture_range_rover_police"; // Default product
+            productId = "kukarin-g2-pro"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -828,11 +846,24 @@ function cleanupEventHandlers() {
 
 // تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
 function updateProductDisplay(product) {
-    // Update product title and details
+    // تحديث عنوان المنتج وتفاصيله
     document.querySelector('.product-title').textContent = product.title;
     document.querySelector('.product-brand').textContent = "العلامة التجارية: " + product.brand;
     document.querySelector('.product-category').textContent = "الفئة: " + product.category;
     document.querySelector('.product-availability').textContent = product.availability;
+
+    // تحديث اللون بناءً على حالة التوفر
+    var availabilityElement = document.querySelector('.product-availability');
+    
+    if (product.availability === "متوفر في المخزون") {
+        availabilityElement.style.color = "#28a745"; // اللون الأخضر
+    } else if (product.availability === "غير متوفر") {
+        availabilityElement.style.color = "#6c757d"; // اللون الرمادي
+    } else {
+        availabilityElement.style.color = "#000"; // اللون الافتراضي (إذا كان التوفر غير معروف)
+    }
+
+
     
     // Update ratings
     const ratingsContainer = document.querySelector('.ratings');
@@ -2305,4 +2336,17 @@ document.getElementById("whatsappSend1").addEventListener("click", function () {
 
 
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: "smooth"
+            });
+        }
+    });
+});
 
