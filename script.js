@@ -1636,26 +1636,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// ...existing code...
-let lastScrollTop = 0;
-const navbar = document.getElementById("navbar");
-const scrollThreshold = 0; // الحد الأدنى للحركة قبل التفاعل
 
-window.addEventListener("scroll", function() {
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    
-    if (Math.abs(scrollTop - lastScrollTop) > scrollThreshold) {  
-        if (scrollTop > lastScrollTop) {
-            // إخفاء القائمة عند التمرير لأسفل
-            navbar.style.top = "-60px";
-        } else {
-            // إظهار القائمة عند التمرير لأعلى
-            navbar.style.top = "0";
-        }
-    }
-
-    lastScrollTop = scrollTop;
-});
 
 
 

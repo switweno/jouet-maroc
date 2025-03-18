@@ -10,7 +10,7 @@ body {
     color: #504d4d;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    padding-top: 61px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+   
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
@@ -37,7 +37,7 @@ header {
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(51, 51, 51, 0);
-    position: fixed; /* تثبيت الهيدر في الأعلى */
+  
     top: 0; /* تعيين الهيدر في أعلى الصفحة */
     left: 0;
     width: 100%; /* ضمان أن الهيدر يأخذ عرض الشاشة بالكامل */
