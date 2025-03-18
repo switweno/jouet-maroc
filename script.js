@@ -1,21 +1,4 @@
 
-
-
-
-// تحميل مسبق للصور لتجنب الوميض
-function preloadImages(images) {
-    if (!images || !images.length) return;
-    
-    const preloadedImages = [];
-    images.forEach(src => {
-        const img = new Image();
-        img.src = src;
-        preloadedImages.push(img);
-    });
-    
-    return preloadedImages;
-}
-
 // تحميل مسبق للصور لتجنب الوميض
 function preloadImages(images) {
     if (!images || !images.length) return;
@@ -135,7 +118,7 @@ function changeImage(src, direction = null) {
 
 // دالة لتطبيق الانتقال السلس باستخدام requestAnimationFrame
 function animateTransition(oldImage, newImage, direction, onComplete) {
-    const duration = 500; // مدة الانتقال بالمللي ثانية
+    const duration = 400; // مدة الانتقال بالمللي ثانية
     const start = performance.now();
 
     function step(timestamp) {
