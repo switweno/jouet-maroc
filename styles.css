@@ -14,7 +14,10 @@ body {
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
-
+/* عكس التمرير عند RTL */
+body[dir="rtl"] .thumbnails-container {
+    direction: rtl;
+}
 
 
 /* تعديل الحاوية الرئيسية */
@@ -1119,7 +1122,7 @@ header {
 .order-section {
     background-color: #fff;
     padding: 25px;
-     outline: 1px dashed #219f2a; /* خط متقطع حول العنصر */
+     outline: 2px dashed #219f2a; /* خط متقطع حول العنصر */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
      margin-bottom: 20px;
@@ -2377,12 +2380,13 @@ footer .social-icons a:hover {
     gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    
    
 
 }
 
 .footer-links button {
-    background: rgba(246, 85, 77, 0);
+    background: rgba(127, 19, 14, 0);
     color: #dcd7d7;
     border: none;
     padding: 10px 16px;
@@ -2390,6 +2394,8 @@ footer .social-icons a:hover {
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s ease, color 0.3s ease; /* إضافة تأثير التغيير على النص */
+    
+     
 }
 
 .footer-links button:hover {
@@ -2414,6 +2420,7 @@ footer .social-icons a:hover {
     .footer-links {
         flex-direction: column;
         align-items: center;
+       
         
     }
 
@@ -2436,6 +2443,7 @@ footer .social-icons a:hover {
     background-color: #ffffff; /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
+     
 }
 
 /* محتوى النافذة المنبثقة */
@@ -2451,16 +2459,17 @@ footer .social-icons a:hover {
     overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
     margin-left: 5px; /* هوامش جانبية */
     margin-right: 5px; /* هوامش جانبية */
+    outline: 2px dashed #c30707; /* خط متقطع حول العنصر */
 }
 
 /* عنوان رئيسي */
 .modal-content h2 {
     font-size: 29px; /* حجم أكبر للعنوان */
-    color: #f20505; /* لون نص داكن */
-    margin-bottom: 20px; /* مسافة أكبر أسفل العنوان */
+    color: #4c93ff; /* لون نص داكن */
+    margin-bottom: 40px; /* مسافة أكبر أسفل العنوان */
     text-align: center; /* توسيط العنوان */
      padding: 0 10px; /* مسافة جانبية صغيرة */
-    margin-top: 20px; /* مسافة من الأعلى */
+    margin-top: 19px; /* مسافة من الأعلى */
 }
 
 /* العناوين الفرعية */
