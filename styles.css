@@ -10,7 +10,7 @@ body {
     color: #504d4d;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    padding-top: 70px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
+    padding-top: 61px; /* المسافة بين المحتوى العلوي وبقية الصفحة */
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
@@ -76,7 +76,7 @@ header {
 }
 
 .menu-toggle i {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 
