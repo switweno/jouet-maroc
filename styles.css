@@ -1101,7 +1101,8 @@ header {
 .primary2-btn {
     background-color: #077aee;
     color: #ffffff;
-    animation: shake 1s infinite ease-in-out;  /* إضافة حركة الارتعاش المستمرة */
+    animation: shake 2.5s ease-in-out infinite;  /* تحريك الزر بسرعة خلال 0.5 ثانية */
+    animation-delay: 10s;  /* التأخير لمدة 4.5 ثوانٍ قبل البدء في الحركة */
 }
 
 /* تأثير hover */
@@ -1119,6 +1120,10 @@ header {
   75% { transform: translateX(-10px); }
   100% { transform: translateX(0); }
 }
+
+
+
+
 
 
 .primary-btn {
@@ -3078,107 +3083,7 @@ footer .copyright {
 
 
 
-/* تحسين حاوية الصورة الرئيسية للسلايدر */
-.main-image {
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    overflow: hidden; /* منع خروج المحتوى من الحاوية عند الانتقال */
-    border-radius: 5px;
-    background-color: #fafafa; /* خلفية خفيفة لمنع ظهور الفراغ أثناء التبديل */
-}
 
-/* تحسين حركة انتقالية أساسية للصورة الرئيسية */
-.main-image img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block;
-    will-change: transform, opacity;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-property: transform, opacity;
-    transition-duration: var(--slider-transition-duration);
-    transition-timing-function: var(--slider-transition-timing);
-}
-
-
-
-/* تحسين حركة انتقالية أساسية للصور */
-.main-image img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: block;
-    will-change: transform, opacity;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    transition-property: transform, opacity;
-    transition-duration: var(--slider-transition-duration);
-    transition-timing-function: var(--slider-transition-timing);
-}
-
-/* تأثيرات حركية محسنة للصور - خروج الصور */
-.image-slide-exit-left {
-    opacity: 0;
-    transform: translateX(calc(-1 * var(--slider-enter-distance))) scale(0.95) rotate(-1deg);
-    transition-duration: calc(var(--slider-transition-duration) * 0.6);
-}
-
-.image-slide-exit-right {
-    opacity: 0;
-    transform: translateX(var(--slider-enter-distance)) scale(0.95) rotate(1deg);
-    transition-duration: calc(var(--slider-transition-duration) * 0.6);
-}
-
-
-
-/* تأثيرات حركية محسنة للصور - دخول الصور بأنماط متعددة */
-@keyframes enterFromRight {
-    from {
-        opacity: 0;
-        transform: translateX(var(--slider-enter-distance)) scale(0.95) rotate(1deg);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0) scale(1) rotate(0);
-    }
-}
-
-@keyframes enterFromLeft {
-    from {
-        opacity: 0;
-        transform: translateX(calc(-1 * var(--slider-enter-distance))) scale(0.95) rotate(-1deg);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0) scale(1) rotate(0);
-    }
-}
-
-@keyframes enterWithZoom {
-    from {
-        opacity: 0;
-        transform: scale(1.08);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
-@keyframes enterWithFade {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 
 
