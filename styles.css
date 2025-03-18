@@ -1079,13 +1079,16 @@ header {
     gap: 15px;
 }
 
+
+
+/* أساسي لتنسيق الزر */
 .btn {
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: 600; /* اختر القيمة المناسبة هنا */
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1094,16 +1097,29 @@ header {
     font-family: 'Cairo', 'Tajawal', sans-serif;
 }
 
+/* زر بتصميم أساسي */
 .primary2-btn {
-    background-color:#077aee;
+    background-color: #077aee;
     color: #ffffff;
+    animation: shake 1s infinite ease-in-out;  /* إضافة حركة الارتعاش المستمرة */
 }
 
+/* تأثير hover */
 .primary2-btn:hover {
     background-color: #0064c9;
     transform: translateY(-2px);
     color: white;
 }
+
+/* إضافة تأثير الارتعاش */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
 
 .primary-btn {
     background-color:#1EA252;
