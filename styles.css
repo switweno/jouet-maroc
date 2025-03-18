@@ -574,7 +574,7 @@ header {
     transition: border-color 0.2s ease; /* تقليل التأثيرات وإزالة التكبير */
     object-fit: cover;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    filter: brightness(0.95); /* تعديل السطوع بشكل طفيف */
+    filter: brightness(0.9); /* تعديل السطوع بشكل طفيف */
 }
 
 /* إزالة التأثير عند تحويم المؤشر */
@@ -585,7 +585,7 @@ header {
 
 /* تعديل الصورة النشطة بدون تكبير */
 .thumbnail.active {
-    border-color:  #2F5E8C;
+    border-color:  #f7f7f7;
     transform: none; /* إزالة تأثير التكبير */
     box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.12);
     filter: brightness(1.05); /* زيادة السطوع فقط قليلاً */
@@ -610,7 +610,7 @@ header {
 
 .thumbnails-container::before {
     left: 0;
-    background: linear-gradient(to right, rgba(255,255,255,0.9), transparent);
+    background: linear-gradient(to right, rgba(253, 253, 253, 0.9), transparent);
 }
 
 .thumbnails-container::after {
@@ -1122,7 +1122,7 @@ header {
 .order-section {
     background-color: #fff;
     padding: 25px;
-     outline: 2px dashed #219f2a; /* خط متقطع حول العنصر */
+     outline: 1px dashed #219f2a; /* خط متقطع حول العنصر */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
      margin-bottom: 20px;
