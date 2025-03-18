@@ -482,54 +482,7 @@ function resetZoom() {
     updateZoomStatus();
 }
 
-// Change zoom level with zoom status display
-function changeZoom(amount) {
-    const prevZoom = zoomLevel;
-    const zoomContainer = document.querySelector('.zoom-container');
-    const modalImage = document.getElementById('modal-image');
-    
-    // Retain the position of the center point before zooming
-    const centerX = window.innerWidth / 2;
-    const centerY = window.innerHeight / 2;
-    
-    // Calculate the distance between the center and the current position
-    const offsetX = translateX;
-    const offsetY = translateY;
-    
-    // Change zoom level
-    zoomLevel += amount;
-    
-    // Limit zoom level
-    if (zoomLevel < 1) zoomLevel = 1;
-    if (zoomLevel > 4) zoomLevel = 4;
-    
-    // Do not proceed if zoom level did not change
-    if (prevZoom === zoomLevel) return;
-    
-    // Calculate new position to maintain the center point
-    if (prevZoom !== 1 && zoomLevel !== 1) {
-        // Update offset based on zoom level change
-        translateX = (offsetX / prevZoom) * zoomLevel;
-        translateY = (offsetY / prevZoom) * zoomLevel;
-    } else if (zoomLevel === 1) {
-        // Center image when zooming out to normal size
-        translateX = 0;
-        translateY = 0;
-    }
-    
-    // Apply changes
-    updateImageTransform();
-    
-    // Update zoom status
-    updateZoomStatus();
-    
-    // Add highlight class if zoom level is greater than 1
-    if (zoomLevel > 1) {
-        zoomContainer.classList.add('zoomed');
-    } else {
-        zoomContainer.classList.remove('zoomed');
-    }
-}
+
 
 // Image drag functions
 function startDrag(e) {
