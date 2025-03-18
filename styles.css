@@ -145,10 +145,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 13px;
+    padding: 12.8px;
     background-color:  #F6554D;
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .sidebar-header span {
@@ -2480,7 +2480,8 @@ footer .social-icons a:hover {
     overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
     margin-left: 5px; /* هوامش جانبية */
     margin-right: 5px; /* هوامش جانبية */
-    outline: 2px dashed #c30707; /* خط متقطع حول العنصر */
+    outline: 1px dashed #0a60f3; /* خط متقطع حول العنصر */
+     margin-top: 5px;
 }
 
 /* عنوان رئيسي */

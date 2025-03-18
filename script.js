@@ -1639,7 +1639,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ...existing code...
 let lastScrollTop = 0;
 const navbar = document.getElementById("navbar");
-const scrollThreshold = 5; // الحد الأدنى للحركة قبل التفاعل
+const scrollThreshold = 0; // الحد الأدنى للحركة قبل التفاعل
 
 window.addEventListener("scroll", function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -1647,7 +1647,7 @@ window.addEventListener("scroll", function() {
     if (Math.abs(scrollTop - lastScrollTop) > scrollThreshold) {  
         if (scrollTop > lastScrollTop) {
             // إخفاء القائمة عند التمرير لأسفل
-            navbar.style.top = "-70px";
+            navbar.style.top = "-60px";
         } else {
             // إظهار القائمة عند التمرير لأعلى
             navbar.style.top = "0";
@@ -1762,4 +1762,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
 
