@@ -3359,6 +3359,14 @@ footer .copyright {
     will-change: transform;
 }
 
+/* Styling for wholesale label in confirmation modal */
+.wholesale-label {
+    color: #7f1fa6;
+    font-size: 0.85rem;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
 
 
 

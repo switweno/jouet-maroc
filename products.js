@@ -270,13 +270,13 @@ var productsData = [
    oldPrice: 10999,
    discount: 35,
    images: [
-     "product1.webp",
-     "product2.webp",
-     "product3.webp",
-     "product4.webp",
-     "product5.webp",
-     "product6.webp",
-     "product8.webp"
+     "likebike-harley-u9/product1.webp",
+     "likebike-harley-u9/product2.webp",
+     "likebike-harley-u9/product3.webp",
+     "likebike-harley-u9/product4.webp",
+     "likebike-harley-u9/product5.webp",
+     "likebike-harley-u9/product6.webp",
+     "likebike-harley-u9/product8.webp"
    ],
    features: [
      {

@@ -185,6 +185,18 @@ function scrollToForm() {
 }
 
 
+// Function to get the current product data
+function getCurrentProductData() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let productId = urlParams.get('product');
+    
+    if (!productId) {
+        productId = "TROTTINETTE-Mi-Electric-Scooter-Essential"; // Default product
+    }
+    
+    return products.find(p => p.id === productId) || products[0];
+}
+
 // Form submission via WhatsApp with confirmation
 function submitFormViaWhatsApp(event) {
     event.preventDefault();
@@ -195,7 +207,7 @@ function submitFormViaWhatsApp(event) {
         const phone = document.getElementById('phone').value;
         const address = document.getElementById('address').value;
         const city = document.getElementById('city').value;
-        const quantity = document.getElementById('quantity').value;
+        const quantity = parseInt(document.getElementById('quantity').value);
         
         // Fix: Properly define paymentMethod variable
         const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
@@ -208,22 +220,43 @@ function submitFormViaWhatsApp(event) {
         
         // Phone validation - ensure it contains only numbers
        if (!/^[\d+]+$/.test(phone.replace(/\s+/g, ''))) {
-    alert("رقم الهاتف يجب أن يحتوي على أرقام فقط ورمز + إذا كان دوليًا");
-    return;
-}
-
+            alert("رقم الهاتف يجب أن يحتوي على أرقام فقط ورمز + إذا كان دوليًا");
+            return;
+        }
         
         // Get product information
+        const productData = getCurrentProductData();
         const productName = document.querySelector('.product-title').textContent;
-        const price = document.querySelector('.current-price').textContent;
-        const priceValue = parseFloat(price);
-        const totalPrice = parseInt(quantity) * priceValue;
+        const regularPrice = productData.currentPrice;
         const productImage = document.getElementById('current-image').src;
+        
+        // Calculate price based on wholesale or regular
+        let unitPrice = regularPrice;
+        let isWholesale = false;
+        
+        // Check if product has wholesale pricing and quantity meets minimum requirement
+        if (productData.wholesalePrice && 
+            productData.wholesalePrice.minQuantity && 
+            productData.wholesalePrice.pricePerUnit && 
+            quantity >= productData.wholesalePrice.minQuantity) {
+            unitPrice = productData.wholesalePrice.pricePerUnit;
+            isWholesale = true;
+        }
+        
+        const totalPrice = quantity * unitPrice;
         
         // Populate confirmation modal
         document.getElementById('summary-product-image').src = productImage;
         document.getElementById('summary-product-name').textContent = productName;
-        document.getElementById('summary-product-price').textContent = price;
+        
+        // Update to show wholesale or regular price
+        if (isWholesale) {
+            document.getElementById('summary-product-price').innerHTML = 
+                `<span>${unitPrice} درهم</span> <small class="wholesale-label">(سعر الجملة)</small>`;
+        } else {
+            document.getElementById('summary-product-price').textContent = unitPrice + " درهم";
+        }
+        
         document.getElementById('summary-product-quantity').textContent = quantity;
         document.getElementById('summary-total-price').textContent = totalPrice + " درهم";
         
@@ -244,6 +277,10 @@ function submitFormViaWhatsApp(event) {
         document.getElementById('confirm-order-btn').onclick = function() {
             try {
                 // Create WhatsApp message with form data
+                const priceInfo = isWholesale ? 
+                    `السعر: ${unitPrice} درهم (سعر الجملة)` : 
+                    `السعر: ${unitPrice} درهم`;
+                
                 const message = encodeURIComponent(
                     `*طلب جديد*\n\n` +
                     `*معلومات العميل:*\n` +
@@ -255,23 +292,23 @@ function submitFormViaWhatsApp(event) {
                     `*تفاصيل الطلب:*\n` +
                     `المنتج: ${productName}\n` +
                     `الكمية: ${quantity}\n` +
-                    `السعر: ${price}\n` +
+                    `${priceInfo}\n` +
                     `المجموع: ${totalPrice} درهم`
                 );
                 
                 // Track event in Facebook Pixel
                 if (typeof fbq === 'function') {
                     fbq('track', 'Purchase', {
-                        value: priceValue,
+                        value: totalPrice,
                         currency: 'MAD',
                         content_name: productName,
                         content_type: 'product',
-                        content_ids: ['PROD12345'],
+                        content_ids: [productData.id],
                         contents: [
                             {
-                                id: 'PROD12345',
-                                quantity: parseInt(quantity),
-                                item_price: priceValue
+                                id: productData.id,
+                                quantity: quantity,
+                                item_price: unitPrice
                             }
                         ]
                     });
