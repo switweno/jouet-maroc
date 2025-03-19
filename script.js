@@ -578,54 +578,41 @@ function toggleAccordionItem(category, toggleBtn) {
 // إضافة متغير لتتبع ما إذا كان هذا هو التحميل الأول للصفحة
 let firstLoad = true;
 
-// تحسين تهيئة الصور المصغرة لإزالة تأثيرات الانتقال الزائدة
+// تبسيط تهيئة الصور المصغرة بإزالة جميع التعديلات
 function setupThumbnailScrolling() {
     const thumbnailsContainer = document.querySelector('.thumbnails');
     if (!thumbnailsContainer) return;
     
-    // تعيين خصائص التمرير بشكل مباشر
-    thumbnailsContainer.style.overflowX = 'auto';
-    thumbnailsContainer.style.webkitOverflowScrolling = 'touch';
-    thumbnailsContainer.style.touchAction = 'pan-x'; // تحسين التمرير الأفقي باللمس
+    // إزالة أي أنماط قد تعيق التمرير
+    if (thumbnailsContainer.style.touchAction) {
+        thumbnailsContainer.style.touchAction = "";
+    }
     
-    // تعيين سلوك التمرير لتكون أكثر سلاسة
+    // تحميل مسبق للصور فقط بدون إضافة أي معالجات أحداث جديدة
+    const allThumbnails = document.querySelectorAll('.thumbnail');
+    const imagesToPreload = Array.from(allThumbnails).map(thumb => thumb.src);
+    preloadImages(imagesToPreload);
+    
+    // عدم إضافة أي معالجات أحداث لمس جديدة للصور المصغرة
+    // استخدام معالجات الأحداث الأصلية المعرفة في HTML
+    
+    firstLoad = false;
+}
+
+// تحسين تهيئة الصور المصغرة بإزالة التعديلات المخصصة وتركها تعمل بشكل طبيعي
+function setupThumbnailScrolling() {
+    const thumbnailsContainer = document.querySelector('.thumbnails');
+    if (!thumbnailsContainer) return;
+    
+    // يتم الاكتفاء بتعيين خصائص أساسية مع ترك خاصية التمرير للمتصفح
     thumbnailsContainer.style.scrollBehavior = 'smooth';
-    
-    // متغيرات تتبع حركة اللمس
-    let isDragging = false;
-    let startX, scrollLeft;
-    
-    // إضافة معالجات أحداث اللمس
-    thumbnailsContainer.addEventListener('touchstart', function(e) {
-        isDragging = true;
-        startX = e.touches[0].pageX - thumbnailsContainer.offsetLeft;
-        scrollLeft = thumbnailsContainer.scrollLeft;
-        // منع السلوك الافتراضي لتجنب التمرير العام للصفحة
-        e.stopPropagation();
-    }, { passive: true });
-    
-    thumbnailsContainer.addEventListener('touchend', function() {
-        isDragging = false;
-    }, { passive: true });
-    
-    thumbnailsContainer.addEventListener('touchcancel', function() {
-        isDragging = false;
-    }, { passive: true });
-    
-    thumbnailsContainer.addEventListener('touchmove', function(e) {
-        if (!isDragging) return;
-        
-        const x = e.touches[0].pageX - thumbnailsContainer.offsetLeft;
-        const walk = (x - startX) * 1.5; // سرعة التمرير
-        thumbnailsContainer.scrollLeft = scrollLeft - walk;
-    }, { passive: true });
     
     // تحميل مسبق لجميع الصور لمنع الوميض
     const allThumbnails = document.querySelectorAll('.thumbnail');
     const imagesToPreload = Array.from(allThumbnails).map(thumb => thumb.src);
     preloadImages(imagesToPreload);
     
-    // إضافة معالجات النقر للصور المصغرة مع تحسين الأداء
+    // الاكتفاء بإضافة معالجات النقر للصور المصغرة فقط
     allThumbnails.forEach((thumb, index) => {
         thumb.addEventListener('click', function(e) {
             e.stopPropagation();
@@ -639,7 +626,7 @@ function setupThumbnailScrolling() {
             } else {
                 changeImage(this.src);
             }
-        }, { passive: true });
+        });
     });
     
     // تعيين متغير التحميل الأول إلى false
@@ -718,7 +705,7 @@ function cleanupEventHandlers() {
 }
 
 // تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
-function updateProductDisplay(product) {
+let updateProductDisplay = function(product) {
     // تحديث عنوان المنتج وتفاصيله
     document.querySelector('.product-title').textContent = product.title;
     document.querySelector('.product-brand').textContent = "العلامة التجارية: " + product.brand;
@@ -909,8 +896,11 @@ function updateProductDisplay(product) {
             const firstToggle = firstCategory.querySelector('.accordion-toggle');
             toggleAccordionItem(firstCategory, firstToggle);
         }
+        
+        // إضافة دعم التمرير باللمس للصورة الرئيسية
+        setupMainImageTouch();
     }, 200);
-}
+};
 
 // اضافة معالج لأحداث النقر على روابط المنتجات ذات معلمات URL
 function setupProductLinks() {
@@ -1959,58 +1949,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // تهيئة العرض الأولي
     updateSlidesToShow();
-    
-    // إضافة وظيفة التمرير باللمس لشهادات العملاء
-    function setupTestimonialsTouch() {
-        const testimonialsContainer = document.querySelector('.testimonials-container');
-        if (!testimonialsContainer) return;
-        
-        let startX, endX;
-        let isMoving = false;
-        const threshold = 50; // القيمة المطلوبة للسحب لتغيير الشريحة
-        
-        testimonialsContainer.addEventListener('touchstart', function(e) {
-            startX = e.touches[0].clientX;
-            isMoving = true;
-        }, { passive: true });
-        
-        testimonialsContainer.addEventListener('touchmove', function(e) {
-            if (!isMoving) return;
-            endX = e.touches[0].clientX;
-            
-            // منع التمرير العمودي للصفحة أثناء السحب الأفقي
-            if (Math.abs(endX - startX) > 10) {
-                e.preventDefault();
-            }
-        }, { passive: false });
-        
-        testimonialsContainer.addEventListener('touchend', function() {
-            if (!isMoving || !startX || !endX) return;
-            
-            const diffX = startX - endX;
-            
-            if (Math.abs(diffX) > threshold) {
-                if (diffX > 0) {
-                    // سحب لليسار - المنتج التالي
-                    goToSlide(currentIndex + slidesToShow);
-                } else {
-                    // سحب لليمين - المنتج السابق
-                    goToSlide(currentIndex - slidesToShow);
-                }
-            }
-            
-            // إعادة ضبط القيم
-            startX = null;
-            endX = null;
-            isMoving = false;
-        }, { passive: true });
-    }
-    
-    // تهيئة العرض الأولي وإضافة دعم اللمس
-    updateSlidesToShow();
-    setupTestimonialsTouch();
 });
 
 // ...existing code...
+
 
 

@@ -402,13 +402,6 @@ header {
     }
 }
 
-
-
-
-
-
-
-
 /* سلايدر العروض */
 .offers-slider {
     width: 100%;
@@ -526,17 +519,14 @@ header {
 /* تحسين حاويات التمرير */
 .thumbnails {
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch; /* تمرير أكثر سلاسة على أجهزة iOS */
+    -webkit-overflow-scrolling: touch; /* للحصول على تمرير سلس على iOS */
     overflow-x: auto; /* السماح بالتمرير الأفقي */
     overflow-y: hidden; /* منع التمرير العمودي */
-    touch-action: pan-x; /* تحسين التمرير الأفقي باللمس */
     scrollbar-width: none; /* إخفاء شريط التمرير في Firefox */
-}
-
-.thumbnails::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-    display: none; /* إخفاء شريط التمرير في المتصفحات الأخرى */
+    display: flex;
+    gap: 12px;
+    padding: 8px 5px;
+    flex-wrap: nowrap !important;
 }
 
 /* Improved Thumbnail Styles with Better Scrolling */
@@ -548,40 +538,20 @@ header {
     padding: 2px 0; /* Add some padding */
 }
 
+/* تبسيط خصائص التمرير للصور المصغرة للعمل بشكل افتراضي */
 .thumbnails {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* للحصول على تمرير سلس على iOS */
+    overflow-x: auto; /* السماح بالتمرير الأفقي */
+    overflow-y: hidden; /* منع التمرير العمودي */
+    scrollbar-width: none; /* إخفاء شريط التمرير في Firefox */
     display: flex;
-    overflow-x: auto; /* Critical for horizontal scrolling */
-    overflow-y: hidden;
     gap: 12px;
     padding: 8px 5px;
-    /* Removed -webkit-overflow-scrolling: touch; as it is not supported by most browsers */
-    scroll-behavior: smooth;
-    flex-wrap: nowrap !important; 
-        &::-webkit-scrollbar {
-            width: 0;
-            height: 0;
-        }
-        &::-webkit-scrollbar {
-            display: none; /* Hide scrollbar in WebKit browsers */
-        }
-        &::-webkit-scrollbar {
-            width: 0;
-            height: 0;
-        }
-        &::-webkit-scrollbar {
-            display: none; /* Hide scrollbar in WebKit browsers */
-        }
-    }
-    
-    .thumbnails::-webkit-scrollbar {
-        width: 0;
-        height: 0;
-        display: none; /* Hide scrollbar in WebKit browsers */
-    touch-action: manipulation; /* تغيير من pan-x إلى manipulation للسماح بالتمرير في كلا الاتجاهين */
-    margin-bottom: 5px; /* Add bottom margin */
+    flex-wrap: nowrap !important;
 }
 
-/* Hide scrollbar while preserving functionality */
+/* إخفاء شريط التمرير مع الحفاظ على وظيفة التمرير */
 .thumbnails::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -2180,13 +2150,6 @@ select {
     }
 }
 
-
-
-
-
-
-
-
 /* تحسين استجابة حركة الصورة الرئيسية */
 .main-image img {
     max-width: 100%;
@@ -2673,15 +2636,6 @@ footer .copyright {
     }
 }
 
-
-
-
-
-
-
-
-
-
 /* حاوية الصورة الرئيسية مع تحسينات للحركة الانتقالية */
 .main-image {
     position: relative;
@@ -2749,10 +2703,6 @@ footer .copyright {
         transform: translateX(0);
     }
 }
-
-
-
-
 
 /* هوامش مخصصة للشاشات الصغيرة جداً - توازن بين المساحة والجمالية */
 @media (max-width: 480px) {
@@ -3216,16 +3166,6 @@ footer .copyright {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 /* إعدادات الأيقونة العائمة */
 /* زر الدردشة */
 #chatButton {
@@ -3633,42 +3573,7 @@ footer .copyright {
     }
 }
 
-/* تحسينات أحداث اللمس للأزرار */
-.accordion-toggle,
-.testimonial-nav,
-.quantity-btn,
-.btn,
-.product-link {
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
-}
 
-/* تحسين التفاعل باللمس في شهادات العملاء */
-.testimonials-container {
-    touch-action: pan-x;
-    -webkit-overflow-scrolling: touch;
-    cursor: grab;
-}
-
-.testimonials-container:active {
-    cursor: grabbing;
-}
-
-
-/* تحسينات عامة لتجربة اللمس */
-* {
-    -webkit-touch-callout: none; /* منع قائمة السياق عند الضغط المطول على iOS */
-}
-
-/* تحسينات للهواتف ذات الشاشات الصغيرة */
-@media (max-width: 375px) {
-    .testimonial-nav,
-    .quantity-btn,
-    button.accordion-toggle {
-        min-width: 20px;
-        min-height: 30px;
-    }
-}
 
 
 
