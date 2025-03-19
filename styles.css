@@ -31,7 +31,7 @@ body[dir="rtl"] .thumbnails-container {
 
 /* Header Styles */
 header {
-  background-color:  #F6554D   ;
+  background: linear-gradient(135deg, #ff0057, #ff1e48);
 
     color: #ffffff;
     padding: 15px 0;
@@ -146,7 +146,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 12.8px;
-    background-color:  #F6554D;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -479,7 +479,7 @@ header {
     flex-direction: column;
     background-color: #fff;
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
-    outline: 1px dashed #7a2727; /* خط متقطع حول العنصر */
+    outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px ;
@@ -814,7 +814,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color:  #e0e1dc;
+    color:  #e3e3e3;
     cursor: pointer;
     transition: transform 0.3s ease;
     width: 30px; /* زيادة المساحة للنقر */
@@ -893,7 +893,7 @@ header {
     font-size: 1.1rem;
     color:#f4fafb;
     margin-bottom: 12px;
-    background-color: #F6554D   ;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
     padding: 8px 15px;
     border-radius: 5px;
     position: relative;
@@ -901,7 +901,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 3px;
-    color:  #def5e6;
+    color:  #f9f9f9;
 }
 
 .feature-category ul {
@@ -1027,30 +1027,14 @@ header {
         font-size: 0.9rem; /* تصغير حجم النص داخل المدخل */
     }
 }
-
-
 /* Improve touch targets for mobile */
 @media (max-width: 426px) {
     .quantity-btn {
         width: 35px;
-        height: 30px;
-    }
-    
-    input[type="radio"] {
-        transform: scale(1.2);
-        margin: 0 5px;
-    }
-    .quantity-controls {
-    display: flex;
-    align-items: center;
-    max-width: 136px; /* تعديل العرض ليعطي مساحة أكبر مع أزرار صغيرة */
-    justify-content: center;
-}
-    .radio-group label {
-        font-size: 1rem;
-        padding: 6px 0;
+        height: 29px;
     }
 }
+
 /* إزالة الأسهم من إدخال الأرقام في جميع المتصفحات */
 #quantity {
     appearance: textfield; /* خاصية قياسية لمنع الأسهم */
@@ -1219,7 +1203,7 @@ header {
 .radio-group {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
 }
 
 .radio-group input[type="radio"] {
@@ -1808,7 +1792,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .radio-group {
-        padding: 8px 0;
+        padding: 10px 0;
     }
     
     .submit-btn {
@@ -1818,6 +1802,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 14px;
     }
 }
+
 
 @media (max-width: 480px) {
     .order-section {
@@ -1853,7 +1838,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Product Video Section Styles */
 .product-video-section {
     background-color: #fff;
-     outline: 1px dashed #7a2727; /* خط متقطع حول العنصر */
+     outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 25px;
@@ -2480,7 +2465,7 @@ footer .social-icons a:hover {
     overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
     margin-left: 5px; /* هوامش جانبية */
     margin-right: 5px; /* هوامش جانبية */
-    outline: 1px dashed #0a60f3; /* خط متقطع حول العنصر */
+    outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
      margin-top: 5px;
 }
 
@@ -2823,7 +2808,7 @@ footer .copyright {
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-     outline: 1px dashed #7a2727; /* خط متقطع حول العنصر */
+     outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
 }
 
 .related-products h2 {
@@ -3246,7 +3231,6 @@ footer .copyright {
 .scroll-arrow {
     will-change: transform;
 }
-
 
 
 
