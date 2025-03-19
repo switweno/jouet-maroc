@@ -1790,6 +1790,12 @@ document.addEventListener('DOMContentLoaded', function() {
         dotsContainer.innerHTML = '';
         const maxDots = Math.ceil(totalSlides / slidesToShow);
         
+        // تعريف الدالة خارج حلقة التكرار
+        function dotClickHandler() {
+            const index = parseInt(this.dataset.slideIndex, 10);
+            goToSlide(index * slidesToShow);
+        }
+        
         for (let i = 0; i < maxDots; i++) {
             const dot = document.createElement('div');
             dot.className = 'testimonial-dot';
@@ -1797,9 +1803,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 dot.classList.add('active');
             }
             
-            dot.addEventListener('click', () => {
-                goToSlide(i * slidesToShow);
-            });
+            // تخزين الفهرس كخاصية بيانات
+            dot.dataset.slideIndex = i;
+            
+            // استخدام الدالة المعرفة خارج الحلقة بدلاً من تعريف دالة جديدة في كل تكرار
+            dot.addEventListener('click', dotClickHandler);
             
             dotsContainer.appendChild(dot);
         }
