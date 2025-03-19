@@ -580,169 +580,62 @@
     
     
 <footer>
-    <div class="footer-content">
-        <div class="footer-logo">
-            <img src="logo.png" alt="Logo" width="120" height="120">
-        </div>
-    </div>
-        <!-- أزرار النوافذ المنبثقة -->
-<div class="footer-links">
-    <button class="open-modal" data-modal="faq">الأسئلة المتكررة</button>
-    <button class="open-modal" data-modal="contactModal">اتصل بنا</button>
-    <button class="open-modal" data-modal="about">عن المتجر</button>
-    <button class="open-modal" data-modal="shipping">الشحن والتوصيل</button>
-    <button class="open-modal" data-modal="privacy">سياسة الخصوصية</button>
-    <button class="open-modal" data-modal="payment">طرق الدفع</button>
-</div>
-        <!-- نوافذ منبثقة -->
-<div id="faq" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-      <h2>الأسئلة المتكررة</h2>
-
-<h3>كيف يمكنني الطلب؟</h3>
-<p>يمكنك الطلب بسهولة عن طريق تصفح المنتجات واختيار ما يناسبك، ثم الضغط على زر "اطلب الآن".</p>
-
-<h3>ما هي مدة التسليم؟</h3>
-<p>التوصيل سريع لجميع أنحاء المغرب:<br>
-استلم طلبك في نفس اليوم داخل الدار البيضاء،<br>
-وفي غضون 24-48 ساعة للمدن الأخرى.</p>
-
-<h3>كيف يمكنني تتبع طلبي؟</h3>
-<p>بعد إتمام عملية الشراء، يتم إرسال ورقة الإرسال عبر واتساب إلى المشتري، والتي تحتوي على جميع التفاصيل، بما في ذلك رقم تتبع الشحنة عبر أمانة إكسبريس، مما يتيح متابعة حالة الطلب بسهولة.</p>
-
-<h3>هل يمكنني الدفع عند الاستلام؟</h3>
-<p>نعم، يتوفر الدفع عند الاستلام لجميع الطلبات في جميع أنحاء المغرب. يمكنك الدفع نقدًا عند استلام الشحنة من مندوب التوصيل.</p>
-
-<h3>هل توجد رسوم شحن إضافية؟</h3>
-<p>لا، التوصيل مجاني 100% بدون أي رسوم إضافية.</p>
-
-<h3>ماذا أفعل إذا وصلني منتج به عيب أو خطأ في الطلب؟</h3>
-<p>في حالة وجود أي مشكلة في المنتج، يمكنك التواصل معنا فورًا عبر واتساب، وسنقوم بحل المشكلة بأسرع وقت ممكن، سواء بالتبديل أو الاسترجاع وفقًا لسياسة الاستبدال والإرجاع.</p>
-
-<h3>ما هي سياسة الاستبدال والإرجاع؟</h3>
-<p>يمكنك إرجاع المنتج أو استبداله خلال <strong>14</strong> أيام من الاستلام، بشرط أن يكون في حالته الأصلية مع جميع الملحقات والتغليف. لمزيد من التفاصيل، يرجى التواصل معنا.</p>
-
-
-    </div>
-</div>
-
-<div id="contactModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>اتصل بنا</h2>
-        <p>سنكون سعداء بالتواصل معكم والإجابة عن أسئلتكم.</p>
-        <form id="contactForm1" action="https://formsubmit.co/your-email@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="رسالة جديدة من موقعك">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- About Us Column -->
+            <div class="footer-about">
+                <h3>من نحن</h3>
+                <p>شركة JOUET MAROC هي شركة رائدة في مجال بيع الألعاب والمنتجات المبتكرة في المغرب. مقرنا الرئيسي في الدار البيضاء، ونحن نحرص على تقديم أفضل المنتجات ذات الجودة العالية لتلبية احتياجات عملائنا وتوفير تجربة تسوق ممتعة وآمنة.</p>
+            </div>
             
-            <label for="name1">الاسم</label>
-            <input type="text" id="name1" name="name" required>
+            <!-- Newsletter Column -->
+            <div class="footer-newsletter">
+                <h3>النشرة الإخبارية</h3>
+                <p>اشترك في نشرتنا الإخبارية للحصول على أحدث العروض والمنتجات الجديدة</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                    <button type="submit">اشترك</button>
+                </form>
+                <div class="newsletter-success" id="newsletter-success">
+                    تم الاشتراك بنجاح! شكراً لك.
+                </div>
+            </div>
             
-            <label for="email1">البريد الإلكتروني</label>
-            <input type="email" id="email1" name="email" required>
-            
-            <label for="message1">رسالتك</label>
-            <textarea id="message1" name="message" rows="4" required></textarea>
-            
-            <button type="submit">إرسال عبر البريد</button>
-            <button type="button" id="whatsappSend1" class="whatsapp-btn">إرسال عبر واتساب</button>
-        </form>
-    </div>
-</div>
-
-
-
-
-
-
-<div id="about" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>عن المتجر</h2>
-
-<h3>من نحن؟</h3>
-<p>متجرنا الإلكتروني هو وجهتك المثالية لاكتشاف أحدث المنتجات عالية الجودة. نحن نسعى جاهدين لتوفير تجربة تسوق سلسة ومريحة لجميع عملائنا.</p>
-
-<h3>لماذا تختارنا؟</h3>
-<p>نوفر لك مجموعة متنوعة من المنتجات عالية الجودة بأسعار تنافسية لن تجدها في أي مكان آخر. نقدم تجربة تسوق ممتعة وآمنة، مع تسهيلات شاملة في اختيار المنتج، طرق الدفع، وعمليات الشحن.</p>
-
-    </div>
-</div>
-
-<div id="shipping" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-       <h2>الشحن والتوصيل</h2>
-
-<h3>كيف يتم شحن الطلبات؟</h3>
-<p>بعد تأكيد عملية الشراء، نقوم بشحن وإرسال المنتج عبر الطريقة التي تم اختيارها، سواء عبر مسؤول الشحن الخاص بنا أو من خلال خدمة أمانة إكسبريس.</p>
-
-<h3>ما هي طرق الشحن المتاحة؟</h3>
-<p><strong>مسؤول الشحن:</strong> متجرنا يتعاقد مع مجموعة من مسؤولي الشحن في مختلف المدن، ويقومون بإيصال المنتجات في مدة تتراوح بين يوم و3 أيام.</p>
-
-    </div>
-</div>
-
-<div id="privacy" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-
-        <!-- عنوان رئيسي -->
-        <h2>سياسة الخصوصية</h2>
-
-        <!-- القسم الأول: مقدمة -->
-        <h3>مقدمة</h3>
-        <p>
-            موقعنا يحترم خصوصيّتك ويسعى لحماية بياناتك الشخصية. توضح سياسة الخصوصيّة كيفية جمع واستخدام بياناتك الشخصية (تحت ظروفٍ معينةٍ). كما تذكرُ أيضًا الإجراءات المتبعة لضمان خصوصية معلوماتك. وأخيرًا، تُحدّد هذه السياسة الخيارات المتاحة لكَ فيما يتعلَّق بجمع البيانات الشخصية واستخدامها والكشف عنها.
-        </p>
-
-        <!-- القسم الثاني: البيانات التي نجمعها -->
-        <h3>1. البيانات التي نجمعها</h3>
-        <p>
-            قد نحتاج لجمع المعلومات الخاصة بكَ إذا أردت تسجيل طلب شراء لسلعة من موقعنا. ونقوم بجمع وتخزين ومعالجة بياناتك الازمة لمتابعة شرائك من موقعنا لتأمين أية مطالب محتملة قد تظهر لاحقاً، ولتزويدكَ بالخدمات المتوفرة لدينا.
-        </p>
-
-        <!-- القسم الثالث: استخدامات أخرى لمعلوماتك الشخصية -->
-        <h3>2. استخدامات أخرى </h3>
-        <p>
-            قد نستخدم معلوماتك الشخصيَّة في استطلاعات الرأي وأبحاث التسويق، بناءً على رغبتك، لأغراضٍ إحصائية مع ضمان سريتها التامة.
-        </p>
-    </div>
-</div>
-
-
-
-
-<div id="payment" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>طرق الدفع</h2>
-<p>نوفر طريقتين للدفع لتسهيل عملية الشراء:</p>
-<p>✅ الدفع عند الاستلام.</p>
-<p>✅ الدفع عبر التحويل البنكي.</p>
-
-    </div>
-</div>
-
- <div class="social-links">
-          
-            <div class="social-icons">
-                <a href="https://www.facebook.com/jouetmaroc2" target="_blank" rel="noopener" aria-label="فيسبوك">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="إنستغرام">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="يوتيوب">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://wa.me/212762609147" target="_blank" rel="noopener" aria-label="واتساب">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
+            <!-- Social Column -->
+            <div class="footer-social">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Logo" width="120" height="120">
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jouetmaroc2" target="_blank" rel="noopener" aria-label="فيسبوك">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="إنستغرام">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="يوتيوب">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/212762609147" target="_blank" rel="noopener" aria-label="واتساب">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    <div class="copyright">
-       © 2025 Jouet Maroc. Tous les droits sont réservés 
+        
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <button class="open-modal" data-modal="faq">الأسئلة المتكررة</button>
+            <button class="open-modal" data-modal="contactModal">اتصل بنا</button>
+            <button class="open-modal" data-modal="about">عن المتجر</button>
+            <button class="open-modal" data-modal="shipping">الشحن والتوصيل</button>
+            <button class="open-modal" data-modal="privacy">سياسة الخصوصية</button>
+            <button class="open-modal" data-modal="payment">طرق الدفع</button>
+        </div>
+        
+        <div class="copyright">
+            © 2025 Jouet Maroc. Tous les droits sont réservés 
+        </div>
     </div>
 </footer>
   <script>

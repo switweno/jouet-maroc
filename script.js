@@ -1898,5 +1898,38 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Newsletter form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterSuccess = document.getElementById('newsletter-success');
+    
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simulate form submission (in a real application, you would send this to your server)
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value;
+            
+            // Simple validation
+            if (email && email.includes('@') && email.includes('.')) {
+                // Hide form and show success message
+                newsletterForm.style.display = 'none';
+                newsletterSuccess.style.display = 'block';
+                
+                // Optional: Log to console for demo purposes
+                console.log('Newsletter subscription:', email);
+                
+                // Reset form
+                setTimeout(() => {
+                    emailInput.value = '';
+                    newsletterForm.style.display = 'flex';
+                    newsletterSuccess.style.display = 'none';
+                }, 5000);
+            }
+        });
+    }
+});
+
 
 
