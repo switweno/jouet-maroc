@@ -1964,51 +1964,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/* تنسيق حقوق النشر - تحسين التمركز للشاشات الكبيرة والصغيرة */
-.copyright {
-    margin-top: 20px;
-    color: #aaa;
-    font-size: 0.9rem;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-    width: 100%;
-    display: block;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-    position: relative;
-}
 
-/* تأكيد المحاذاة المركزية للشاشات الكبيرة */
-@media (min-width: 768px) {
-    .copyright {
-        text-align: center !important;
-        margin: 20px auto 0;
-        max-width: 100%;
-        float: none;
-        display: block;
-    }
-    
-    footer .container {
-        text-align: center;
-    }
-}
-
-/* تنسيق حقوق النشر - تحسين التمركز */
-.copyright {
-    margin-top: 20px;
-    color: #aaa;
-    font-size: 0.9rem;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-    width: 100%;
-    display: block;
-    direction: rtl;
-}
 
 
     
@@ -2330,7 +2286,7 @@ footer {
     color: white;
     text-align: center;
     padding: 30px 0;
-    margin-top: 2px; /* تقليل المسافة من 40px إلى 10px */
+    margin-top: 5px; /* تقليل المسافة من 40px إلى 10px */
     position: relative;
     right: 0;
     left: 0;
@@ -2532,14 +2488,12 @@ footer .social-icons a:hover {
     right: 15px;
     font-size: 34px; /* تكبير الزر */
     cursor: pointer;
-    color: #aaa;
+    color: #1daadb;
 }
 
 .close:hover {
     color: #000;
 }
-
-
 
 
 
@@ -2606,73 +2560,6 @@ footer .social-icons a:hover {
     background: #1EA252; /* لون أغ darker عند التحويم */
 }
 
-footer .copyright {
-    color: #aaa;
-    font-size: 1rem;
-    padding-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* تعديلات الفوتر للشاشات المختلفة */
-@media (max-width: 768px) {
-    footer {
-        padding: 20px 0;
-        margin-top: 3px; /* تقليل المسافة في الشاشات المتوسطة */
-    }
-    
-    footer .footer-content {
-        gap: 15px;
-        margin-bottom: 15px;
-    }
-    
-    footer .footer-logo {
-        width: 100px;
-        height: 100px;
-    }
-    
-    footer .social-icons {
-        gap: 15px;
-    }
-    
-    footer .social-icons a {
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@media (max-width: 480px) {
-    footer {
-        padding: 15px 0;
-        margin-top: 3px; /* تقليل المسافة في الشاشات الصغيرة */
-    }
-    
-    footer .footer-content {
-        gap: 12px;
-        margin-bottom: 20px;
-    }
-    
-    footer .footer-logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    footer .social-icons {
-        gap: 12px;
-    }
-    
-    footer .social-icons a {
-        width: 32px;
-        height: 32px;
-    }
-    
-    footer .copyright {
-        font-size: 0.8rem;
-        padding-top: 12px;
-    }
-}
 
 /* حاوية الصورة الرئيسية مع تحسينات للحركة الانتقالية */
 .main-image {
@@ -3376,7 +3263,7 @@ footer {
     padding: 40px 0 30px;
     position: relative;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 2px;
 }
 
 footer .container {
