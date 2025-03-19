@@ -586,15 +586,39 @@ function setupThumbnailScrolling() {
     // تعيين خصائص التمرير بشكل مباشر
     thumbnailsContainer.style.overflowX = 'auto';
     thumbnailsContainer.style.webkitOverflowScrolling = 'touch';
-    thumbnailsContainer.style.touchAction = 'manipulation';
+    thumbnailsContainer.style.touchAction = 'pan-x'; // تحسين التمرير الأفقي باللمس
     
-    // تعيين سلوك التمرير لتكون أسرع
-    thumbnailsContainer.style.scrollBehavior = 'auto'; // تغيير من 'smooth' إلى 'auto'
+    // تعيين سلوك التمرير لتكون أكثر سلاسة
+    thumbnailsContainer.style.scrollBehavior = 'smooth';
     
-    // إزالة أي معالجات أحداث سابقة
-    thumbnailsContainer.onmouseenter = null;
-    thumbnailsContainer.onmouseleave = null;
-    thumbnailsContainer.onmousemove = null;
+    // متغيرات تتبع حركة اللمس
+    let isDragging = false;
+    let startX, scrollLeft;
+    
+    // إضافة معالجات أحداث اللمس
+    thumbnailsContainer.addEventListener('touchstart', function(e) {
+        isDragging = true;
+        startX = e.touches[0].pageX - thumbnailsContainer.offsetLeft;
+        scrollLeft = thumbnailsContainer.scrollLeft;
+        // منع السلوك الافتراضي لتجنب التمرير العام للصفحة
+        e.stopPropagation();
+    }, { passive: true });
+    
+    thumbnailsContainer.addEventListener('touchend', function() {
+        isDragging = false;
+    }, { passive: true });
+    
+    thumbnailsContainer.addEventListener('touchcancel', function() {
+        isDragging = false;
+    }, { passive: true });
+    
+    thumbnailsContainer.addEventListener('touchmove', function(e) {
+        if (!isDragging) return;
+        
+        const x = e.touches[0].pageX - thumbnailsContainer.offsetLeft;
+        const walk = (x - startX) * 1.5; // سرعة التمرير
+        thumbnailsContainer.scrollLeft = scrollLeft - walk;
+    }, { passive: true });
     
     // تحميل مسبق لجميع الصور لمنع الوميض
     const allThumbnails = document.querySelectorAll('.thumbnail');
@@ -615,7 +639,7 @@ function setupThumbnailScrolling() {
             } else {
                 changeImage(this.src);
             }
-        });
+        }, { passive: true });
     });
     
     // تعيين متغير التحميل الأول إلى false
@@ -676,6 +700,21 @@ function cleanupEventHandlers() {
             el.parentNode.replaceChild(newEl, el);
         }
     });
+    
+    // تنظيف معالجات أحداث الصورة الرئيسية
+    const mainImage = document.getElementById('current-image');
+    if (mainImage) {
+        const mainImageContainer = mainImage.parentNode;
+        if (mainImageContainer) {
+            const newContainer = mainImageContainer.cloneNode(true);
+            // الاحتفاظ بالأزرار وعناصر التنقل
+            const arrows = mainImageContainer.querySelectorAll('.scroll-arrow');
+            arrows.forEach(arrow => {
+                newContainer.querySelector(`.scroll-arrow.${arrow.classList[1]}`).onclick = arrow.onclick;
+            });
+            mainImageContainer.parentNode.replaceChild(newContainer, mainImageContainer);
+        }
+    }
 }
 
 // تحسين دالة تحديث المنتج لتحسين طريقة التعامل مع الصور المصغرة
@@ -1483,9 +1522,76 @@ function ensureModalElements() {
     }
 }
 
+// دالة جديدة لإعداد التمرير باللمس للصورة الرئيسية
+function setupMainImageTouch() {
+    const mainImage = document.getElementById('current-image');
+    const mainImageContainer = document.querySelector('.main-image');
+    
+    if (!mainImage || !mainImageContainer) return;
+    
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const swipeThreshold = 50; // عتبة المسافة اللازمة لاعتبار الحركة سحبًا
+    
+    // معالجة بداية اللمس
+    mainImageContainer.addEventListener('touchstart', function(e) {
+        touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+    
+    // معالجة نهاية اللمس
+    mainImageContainer.addEventListener('touchend', function(e) {
+        touchEndX = e.changedTouches[0].clientX;
+        handleSwipe();
+    }, { passive: true });
+    
+    // دالة معالجة السحب
+    function handleSwipe() {
+        const swipeDistance = touchEndX - touchStartX;
+        
+        // تجاهل النقرات والسحبات القصيرة جدًا
+        if (Math.abs(swipeDistance) < swipeThreshold) return;
+        
+        if (swipeDistance > 0) {
+            // سحب من اليسار إلى اليمين (السابق)
+            navigateImages(-1);
+        } else {
+            // سحب من اليمين إلى اليسار (التالي)
+            navigateImages(1);
+        }
+    }
+}
 
-
-
+// تحسين المعالج الرئيسي لإضافة التمرير باللمس للصورة الرئيسية
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        // ...existing code...
+        
+        // تحميل بيانات المنتج حسب معلمة URL
+        loadProductFromURL();
+        
+        // إعداد روابط المنتجات إن وجدت
+        setupProductLinks();
+        
+        // إضافة دعم التمرير باللمس للصورة الرئيسية
+        setupMainImageTouch();
+        
+        // ...existing code...
+        
+        // إضافة الدعم اللمسي كل مرة يتم فيها تحديث عرض المنتج
+        const updateProductDisplayOriginal = updateProductDisplay;
+        updateProductDisplay = function(product) {
+            updateProductDisplayOriginal(product);
+            // إضافة تأخير قصير للتأكد من اكتمال تحميل الصورة
+            setTimeout(() => {
+                setupMainImageTouch();
+            }, 200);
+        };
+        
+        // ...existing code...
+    } catch (error) {
+        console.error("Error initializing page:", error);
+    }
+});
 
 // ...existing code...
 
@@ -1853,6 +1959,56 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // تهيئة العرض الأولي
     updateSlidesToShow();
+    
+    // إضافة وظيفة التمرير باللمس لشهادات العملاء
+    function setupTestimonialsTouch() {
+        const testimonialsContainer = document.querySelector('.testimonials-container');
+        if (!testimonialsContainer) return;
+        
+        let startX, endX;
+        let isMoving = false;
+        const threshold = 50; // القيمة المطلوبة للسحب لتغيير الشريحة
+        
+        testimonialsContainer.addEventListener('touchstart', function(e) {
+            startX = e.touches[0].clientX;
+            isMoving = true;
+        }, { passive: true });
+        
+        testimonialsContainer.addEventListener('touchmove', function(e) {
+            if (!isMoving) return;
+            endX = e.touches[0].clientX;
+            
+            // منع التمرير العمودي للصفحة أثناء السحب الأفقي
+            if (Math.abs(endX - startX) > 10) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+        
+        testimonialsContainer.addEventListener('touchend', function() {
+            if (!isMoving || !startX || !endX) return;
+            
+            const diffX = startX - endX;
+            
+            if (Math.abs(diffX) > threshold) {
+                if (diffX > 0) {
+                    // سحب لليسار - المنتج التالي
+                    goToSlide(currentIndex + slidesToShow);
+                } else {
+                    // سحب لليمين - المنتج السابق
+                    goToSlide(currentIndex - slidesToShow);
+                }
+            }
+            
+            // إعادة ضبط القيم
+            startX = null;
+            endX = null;
+            isMoving = false;
+        }, { passive: true });
+    }
+    
+    // تهيئة العرض الأولي وإضافة دعم اللمس
+    updateSlidesToShow();
+    setupTestimonialsTouch();
 });
 
 // ...existing code...
