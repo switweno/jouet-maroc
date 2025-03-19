@@ -19,6 +19,14 @@ body[dir="rtl"] .thumbnails-container {
     direction: rtl;
 }
 
+button, a {
+  touch-action: manipulation;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+}
 
 /* تعديل الحاوية الرئيسية */
 .container {
@@ -27,6 +35,10 @@ body[dir="rtl"] .thumbnails-container {
     margin: 0 auto;
     padding: 0 14px;
     overflow-x: hidden;
+}
+html, body {
+  touch-action: manipulation; /* يحسن الاستجابة للنقرات */
+  -webkit-tap-highlight-color: transparent; /* إزالة التأثير الأزرق عند اللمس */
 }
 
 /* Header Styles */
