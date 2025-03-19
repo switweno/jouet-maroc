@@ -1805,6 +1805,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
 // إرسال عبر البريد الإلكتروني
 document.getElementById("contactForm1").addEventListener("submit", function (event) {
     event.preventDefault();
