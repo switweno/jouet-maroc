@@ -646,7 +646,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "kukarin-g2-pro"; // Default product
+            productId = "TROTTINETTE-Mi-Electric-Scooter-Essential"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -774,6 +774,18 @@ let updateProductDisplay = function(product) {
         discountBadge.className = 'main-image-discount-badge';
         discountBadge.textContent = `-${product.discount}%`;
         mainImageContainer.appendChild(discountBadge);
+    }
+    // تحديث سعر الجملة
+    const wholesalePriceElement = document.querySelector('.product-wholesale-price');
+    const wholesalePriceValueElement = document.getElementById('wholesale-price-value');
+    
+    if (product.wholesalePrice) {
+        // عرض سعر الجملة إذا كان متاحًا
+        wholesalePriceElement.style.display = 'block';
+        wholesalePriceValueElement.textContent = `${product.wholesalePrice.pricePerUnit} درهم (ابتداء من ${product.wholesalePrice.minQuantity} قطع)`;
+    } else {
+        // إخفاء سعر الجملة إذا لم يكن متاحًا
+        wholesalePriceElement.style.display = 'none';
     }
     
     // تحديث الصور المصغرة بأسلوب يمنع تداخل الأحداث

@@ -743,6 +743,44 @@ header {
     direction: initial;
 }
 
+/* تنسيق سعر الجملة */
+.product-wholesale-price {
+    padding-right: 10px;
+    font-size: 1.1rem;
+    color: #031112;
+    padding-bottom: 8px; /* مسافة أسفل النص */
+    margin-bottom: 8px; /* مسافة إضافية أسفل العنصر */
+    border-bottom: 1px solid #f0f0f0; /* خط فاصل رقيق مشابه للعناصر الأخرى */
+    width: 100%; /* تأكيد عرض كامل للعنصر */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* مسافة بين النصوص */
+}
+
+.wholesale-label {
+    font-weight: 600; /* جعل النص أكثر وضوحًا */
+    color: #7f1fa6; /* نفس اللون المستخدم في شارة الخصم */
+}
+
+#wholesale-price-value {
+    font-weight: 700; /* جعل السعر أكثر وضوحًا */
+    color: #fa0e0e; /* نفس لون السعر الحالي */
+}
+
+/* تحسين التصميم للهواتف */
+@media (max-width: 768px) {
+    .product-wholesale-price {
+        font-size: 1rem; /* تصغير الخط */
+        padding-right: 5px; /* تقليل المساحة */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-wholesale-price {
+        font-size: 1rem; /* تصغير الخط أكثر */
+        padding-right: 3px; /* تقليل المساحة أكثر */
+    }
+}
 /* تحسين التصميم للهواتف */
 @media (max-width: 768px) {
     .main-image-discount-badge {

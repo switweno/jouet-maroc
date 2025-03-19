@@ -2,7 +2,7 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
-    {
+{
    id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
    title: "TROTTINETTE Mi Electric Scooter Essential",
    brand: "Xiaomi Essential",
@@ -12,7 +12,11 @@ var productsData = [
    reviewCount: 165,
    currentPrice: 2699,
    oldPrice: 3509,
-   discount: 30,
+   discount: 30, // إضافة فاصلة هنا
+   wholesalePrice: {
+      minQuantity: 3, // الحد الأدنى لكمية الجملة
+      pricePerUnit: 2375 // السعر لكل وحدة عند الشراء بالجملة
+   },
    images: [
      "Xiaomi Essential/xiaomi-essential-01.webp",
      "Xiaomi Essential/xiaomi-essential-02.webp",
@@ -21,6 +25,7 @@ var productsData = [
      "Xiaomi Essential/xiaomi-essential-05.webp",
      "Xiaomi Essential/xiaomi-essential-06.webp",
    ],
+
   features: [
   {
     title: "MOTEUR & PERFORMANCE",
