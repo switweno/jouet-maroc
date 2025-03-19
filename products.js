@@ -2,6 +2,71 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
+    {
+   id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
+   title: "TROTTINETTE Mi Electric Scooter Essential",
+   brand: "Xiaomi Essential",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 165,
+   currentPrice: 2699,
+   oldPrice: 3509,
+   discount: 30,
+   images: [
+     "Xiaomi Essential/xiaomi-essential-01.webp",
+     "Xiaomi Essential/xiaomi-essential-02.webp",
+     "Xiaomi Essential/xiaomi-essential-03.webp",
+     "Xiaomi Essential/xiaomi-essential-04.webp",
+     "Xiaomi Essential/xiaomi-essential-05.webp",
+     "Xiaomi Essential/xiaomi-essential-06.webp",
+   ],
+  features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "500W max" },
+      { key: "Vitesse", value: "20 km/h min - 25 km/h max" },
+      { key: "Mode de conduite", value: "3 vitesses réglables" },
+      { key: "Démarrage", value: "Accélérateur électrique + klaxon intégré" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 36V 5100mAh / 183Wh" },
+      { key: "Autonomie", value: "15 km min - 20 km max" },
+      { key: "Charge rapide", value: "Compatible 42V" },
+      { key: "Charge maximale", value: "100 kg" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONTRÔLE",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freinage", value: "Disque arrière & Electrique + E-ABS" },
+      { key: "Matériau", value: "Aluminium" }, // استبدال Suspension بمادة التصنيع
+      { key: "Éclairage", value: "LED AV/AR (feu stop et feu avant)" },
+      { key: "Étanchéité", value: "IPX5" }
+    ]
+  },
+  {
+    title: "TECHNOLOGIE & CONFORT",
+    icon: "fa-mobile-alt",
+    items: [
+      { key: "Affichage", value: "écran LCD avec application mobile📱 (DISPLAY EY2)" },
+      { key: "Pneus", value: "8,5 pouces" },
+      { key: "Conception", value: "Pliable" },
+      { key: "Tableau de bord", value: "Indicateur de batterie" }
+    ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "kukarin-g2-pro",
    title: "TROTTINETTE KUKIRIN G2 PRO",
