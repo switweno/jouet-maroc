@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F7F8F3;
-    color: #504d4d;
+    color: #6b6969;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
    
@@ -649,7 +649,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #333;;
+    color: #110101;
    
     font-weight: 700;
     letter-spacing: -0.5px;
@@ -668,7 +668,7 @@ header {
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
     font-size: 1.1rem;
-    color: #031112;
+    color: #7f1fa6;
     padding-bottom: 8px;
     margin-bottom: 8px;
     border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
