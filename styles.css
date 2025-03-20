@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F7F8F3;
+    background-color: #ffffff;
     color: #6b6969;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -1160,7 +1160,7 @@ header {
 .order-section {
     background-color: #fff;
     padding: 25px;
-     outline: 1px dashed #219f2a; /* خط متقطع حول العنصر */
+    
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
      margin-bottom: 20px;
