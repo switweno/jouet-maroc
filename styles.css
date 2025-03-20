@@ -16,7 +16,7 @@ body {
 
 /* عكس التمرير عند RTL */
 body[dir="rtl"] .thumbnails-container {
-    direction: rtl;
+    direction: ltr;
 }
 
 button, a {

@@ -760,15 +760,20 @@ let updateProductDisplay = function(product) {
     // تحديث حالة التوفر
     document.querySelector('.product-availability').textContent = product.availability;
 
-    // تحديث اللون بناءً على حالة التوفر
-    var availabilityElement = document.querySelector('.product-availability');
-    if (product.availability === "متوفر في المخزون") {
-        availabilityElement.style.color = "#28a745"; // اللون الأخضر
-    } else if (product.availability === "غير متوفر") {
-        availabilityElement.style.color = "#6c757d"; // اللون الرمادي
-    } else {
-        availabilityElement.style.color = "#000"; // اللون الافتراضي
-    }
+   // تحديث اللون وحجم الخط بناءً على حالة التوفر
+var availabilityElement = document.querySelector('.product-availability');
+
+if (product.availability === "متوفر في المخزون") {
+    availabilityElement.style.color = "#28a745"; // اللون الأخضر
+    availabilityElement.style.fontSize = "1.0rem"; // زيادة حجم الخط
+} else if (product.availability === "غير متوفر") {
+    availabilityElement.style.color = "#6c757d"; // اللون الرمادي
+    availabilityElement.style.fontSize = "1rem"; // الحجم الافتراضي
+} else {
+    availabilityElement.style.color = "#000"; // اللون الافتراضي
+    availabilityElement.style.fontSize = "1rem"; // الحجم الافتراضي
+}
+
 
     
     // Update ratings
