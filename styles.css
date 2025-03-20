@@ -665,8 +665,8 @@ header {
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
     margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
-    border-bottom: 1px solid #e6e6e6; /* خط فاصل خفيف */
-     font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #b5b5b5; /* خط فاصل خفيف */
+    
 }
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
