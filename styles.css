@@ -49,7 +49,8 @@ html, body {
 
 /* Header Styles */
 header {
-  background: linear-gradient(135deg, #ff0057, #ff1e48);
+ background: linear-gradient(135deg, #ff0057, #ff1e48);
+
 
     color: #ffffff;
     padding: 10px 0;
@@ -123,9 +124,10 @@ header {
 .site-logo {
     height: 20px; /* تعديل الحجم حسب الشعار */
     width: auto;
-    filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.22)); /* إضافة ظل جميل للوغو */
+   
     transition: transform 0.3s ease-in-out;
     margin-left: -1px; /* إضافة مسافة على اليمين لتحريك النص */
+    background-color: rgba(255, 255, 255, 0.19); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
     
 }
 
@@ -809,24 +811,26 @@ header {
     border-radius: 8px;
     padding: 15px;
     border: 1px solid #eee;
-    
+     
 }
 
 .product-description h3 {
     margin-bottom: 2px;
     color: #1aa8e3;
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
     border-bottom: 2px solid  rgba(0, 102, 204, 0);
     padding-bottom: 15px;
 }
 
-/* Accordion Styles for Product Features */
+/* تحسين شريط الميزات */
 .feature-category {
-    margin-bottom: 12px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
     overflow: hidden;
+    background: #fff; /* إضافة خلفية بيضاء لمزيد من الوضوح */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* تحسين الظلال */
 }
 
 .accordion-header {
@@ -834,148 +838,110 @@ header {
     cursor: pointer;
     padding: 0;
     margin-bottom: 0;
-   
 }
 
-
-
+/* تحسين زر التبديل */
 .accordion-toggle {
     position: absolute;
-    right: 12px;
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
     background: transparent;
     border: none;
-    font-size: 1rem;
-    color:  #e3e3e3;
+    font-size: 1.2rem;
+    color: #dcd9d9;
     cursor: pointer;
-    transition: transform 0.3s ease;
-    width: 30px; /* زيادة المساحة للنقر */
-    height: 30px; /* زيادة المساحة للنقر */
+    transition: transform 0.3s ease, color 0.3s ease;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* جعل منطقة النقر دائرية */
+    border-radius: 50%;
 }
 
-/* تغيير مظهر الزر عند التركيز عليه بلوحة المفاتيح */
-.accordion-toggle:focus {
-  font-size: 1rem;
-    color:  #e0e1dc;
+.accordion-toggle:hover {
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0);
 }
 
-/* تطبيق دوران للأيقونة بناءً على حالة aria-expanded */
+/* تحريك الأيقونة عند الفتح */
 .accordion-toggle[aria-expanded="true"] {
     transform: translateY(-50%) rotate(180deg);
 }
 
-/* تعديل سلوك الهوفر للأجهزة التي تدعم الهوفر */
-@media (hover: hover) {
-    .accordion-toggle:hover {
-        background-color: rgba(0, 86, 179, 0.1);
-    }
-}
-
-/* تحسين مظهر المنطقة النشطة للأزرار لمستخدمي أجهزة اللمس */
-@media (hover: none) {
-    .accordion-toggle:active {
-        background-color: rgba(0, 86, 179, 0.2);
-    }
-}
-
-.feature-category.expanded .accordion-toggle {
-    transform: translateY(-50%) rotate(180deg);
-}
-
+/* تحسين محتوى الوصف */
 .accordion-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
-    padding: 0 15px;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0 18px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
 }
 
+/* عند التمدد */
 .feature-category.expanded .accordion-content {
-    max-height: 500px; /* Large enough to fit content */
-    padding: 12px 15px;
+    max-height: 700px; /* مرونة في الارتفاع */
+    padding: 15px 20px;
 }
 
-.french-heading {
-    text-align: left;
-    direction: ltr;
-}
-
-.french-heading i {
-    margin-right: 8px;
-    margin-left: 0;
-}
-
-.feature-list {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.feature-category:last-child {
-    border-bottom: none;
-}
-
+/* تحسين عنوان الفئة */
 .feature-category h4 {
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
-    color:#f4fafb;
-    margin-bottom: 12px;
+    font-size: 1.2rem;
+    color: #fff;
     background: linear-gradient(135deg, #ff0057, #ff1e48);
-    padding: 8px 15px;
-    border-radius: 5px;
-    position: relative;
+
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 .feature-category h4 i {
-    margin-left: 3px;
-    color:  #f9f9f9;
+    margin-left: 5px;
+    color: #fff;
 }
 
+/* تحسين قائمة الميزات */
 .feature-category ul {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .feature-category li {
-    margin-bottom: 8px;
-    line-height: 1.4;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: rgba(68, 68, 68, 0.89);
 }
 
 .feature-category li strong {
-    color: #1aa8e3;
+    color: #007bff;
 }
 
+/* تحسين المميزات البارزة */
 .feature-highlight {
     background-color: #fffaeb;
-    border: 1px solid #ffeeba;
-    border-radius: 6px;
-    padding: 12px;
-    margin-top: 15px;
+    border: 1px solid #ffcc80;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 18px;
     text-align: center;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-    direction: ltr;
 }
 
 .feature-highlight i {
     color: #28a745;
-    font-size: 1.3rem;
-    margin-right: 8px;
-    margin-left: 0;
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 
-.feature-highlight span {
-    font-family: 'Cairo', 'Tajawal', sans-serif;
-    font-weight: 600;
-}
 
 /* Quantity Selector Styles */
 .quantity-selector {
