@@ -1931,5 +1931,42 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+let currentIndex = 0; // الفهرس الحالي للعرض
+let autoScroll; // متغير لتخزين الـ Interval
+
+function scrollOffers(direction) {
+    const offerSlider = document.querySelector('.offer-slider');
+    const offerItems = document.querySelectorAll('.offer-item');
+    const totalItems = offerItems.length;
+
+    if (direction === 'next') {
+        currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : 0; // انتقل إلى العرض التالي
+    } else if (direction === 'prev') {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalItems - 1; // انتقل إلى العرض السابق
+    }
+
+    // تحريك الشريط
+    const offset = -currentIndex * 100; // حساب الإزاحة
+    offerSlider.style.transform = `translateX(${offset}%)`;
+}
+
+// تفعيل الحركة التلقائية
+function startAutoScroll() {
+    autoScroll = setInterval(() => {
+        scrollOffers('next'); // يتحرك تلقائيًا إلى العرض التالي
+    }, 4000); // تغيير كل 4 ثوانٍ (يمكن تعديل الوقت)
+}
+
+// إيقاف الحركة التلقائية عند تفاعل المستخدم (عند الضغط على الأسهم)
+function stopAutoScroll() {
+    clearInterval(autoScroll);
+}
+
+// تشغيل الحركة التلقائية عند تحميل الصفحة
+document.addEventListener("DOMContentLoaded", startAutoScroll);
+
+// إيقاف الحركة عند تمرير الماوس فوق الشريط (لإعطاء المستخدم تحكمًا)
+document.querySelector('.offer-slider').addEventListener('mouseenter', stopAutoScroll);
+document.querySelector('.offer-slider').addEventListener('mouseleave', startAutoScroll);
 
 
