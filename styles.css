@@ -3118,15 +3118,20 @@ footer .social-icons a {
     transition: transform 0.3s ease;
 }
 
-footer .social-icons a:nth-child(1) { background-color: #ff0057; } /* فيسبوك */
-footer .social-icons a:nth-child(2) { background: #ff0057; } /* انستغرام */
-footer .social-icons a:nth-child(3) { background-color: #ff0057; } /* يوتيوب */
-footer .social-icons a:nth-child(4) {  background-color: #ff0057;  } /* واتساب */
+footer .social-icons a:nth-child(1) { background-color: #1877f2; } /* فيسبوك */
+footer .social-icons a:nth-child(2) { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); } /* انستغرام */
+footer .social-icons a:nth-child(3) { background-color: #FF0000; } /* يوتيوب */
+footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتساب */
 
-footer .social-icons a:hover {
-    transform: translateY(-3px);
+.social-icons a {
+    text-decoration: none; /* إزالة الخط تحت الأيقونات */
+    color: #000; /* تحديد لون الأيقونة */
 }
 
+.social-icons a:hover {
+    text-decoration: underline; /* إضافة الخط عند التمرير */
+    color: #636262; /* تغيير اللون عند التمرير */
+}
 
 
 .footer-links {
