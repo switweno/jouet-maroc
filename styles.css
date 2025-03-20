@@ -15,7 +15,7 @@ body {
 }
 
 /* عكس التمرير عند RTL */
-body[dir="rtl"] .thumbnails-container .main-image  {
+body[dir="rtl"] .thumbnails-container   {
     direction: rtl;
 }
 
@@ -105,9 +105,9 @@ header {
     font-weight: 700;
      margin: 0;
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #fa0e0e;
+    color: #0538b1;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.23);
-    background:  #fa0e0e;;
+    background:  #0538b1;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -367,7 +367,7 @@ header {
 }
 
 .popup-product-price {
-    color:#fa0e0e;
+    color:#0538b1;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -709,7 +709,7 @@ header {
 .current-price {
     font-size: 1.2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
-    color: #fa0e0e;
+    color: #0538b1;
     
 }
 
@@ -769,7 +769,7 @@ header {
 
 #wholesale-price-value {
     font-weight: 700; /* جعل السعر أكثر وضوحًا */
-    color: #fa0e0e; /* نفس لون السعر الحالي */
+    color: #0538b1; /* نفس لون السعر الحالي */
 }
 
 /* تحسين التصميم للهواتف */
@@ -936,6 +936,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+     direction: ltr;
 }
 
 .feature-highlight i {
@@ -1500,7 +1501,7 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     padding-top: 10px;
-    color:  #fa0e0e;
+    color:  #0538b1;
 }
 
 .customer-info {
@@ -2877,7 +2878,7 @@ footer .social-icons a:hover {
 }
 
 .related-price {
-    color: #fa0e0e;
+    color: #0538b1;
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 4px;
