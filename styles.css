@@ -485,7 +485,7 @@ header {
     flex-direction: column;
     background-color: #fff;
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
-    outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
+    outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px ;
@@ -1871,7 +1871,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Product Video Section Styles */
 .product-video-section {
     background-color: #fff;
-     outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
+         outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 25px;
@@ -2386,7 +2386,7 @@ footer .social-icons a:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff; /* خلفية شفافة */
+    background-color: rgb(51, 51, 51); /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
      
@@ -2394,7 +2394,7 @@ footer .social-icons a:hover {
 
 /* محتوى النافذة المنبثقة */
 .modal-content {
-    background-color: #ffffff;
+    background-color: #333;
     padding: 10px; /* هوامش داخلية */
     border-radius: 8px;
     width: 100%;
@@ -2405,7 +2405,7 @@ footer .social-icons a:hover {
     overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
     margin-left: 5px; /* هوامش جانبية */
     margin-right: 5px; /* هوامش جانبية */
-    outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
+       
      margin-top: 5px;
 }
 
@@ -2422,7 +2422,7 @@ footer .social-icons a:hover {
 /* العناوين الفرعية */
 .modal-content h3 {
     font-size: 18px; /* حجم مناسب للعناوين الفرعية */
-    color: #2F5E8C; /* لون نص أغمق قليلاً */
+    color: #4589cc; /* لون نص أغمق قليلاً */
     margin-bottom: 20px; /* مسافة بين العناوين والفقرات */
     font-weight: bold; /* خط غامق */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2433,7 +2433,7 @@ footer .social-icons a:hover {
 .modal-content p {
     font-size: 16px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: #676666; /* لون نص مريح للعين */
+    color: #a3a3a3; /* لون نص مريح للعين */
     margin-bottom: 20px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2666,7 +2666,7 @@ footer .social-icons a:hover {
     margin-bottom: 30px; /* Increased bottom margin */
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-    outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
+        outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
 }
 
 .related-products h2 {
@@ -2770,7 +2770,7 @@ footer .social-icons a:hover {
 @media (max-width: 380px) {
     .products-grid {
         gap: 10px; /* Reduced from 19px */
-        row-gap: 20px; /* Specific row gap for vertical spacing */
+        row-gap: 25px; /* Specific row gap for vertical spacing */
     }
    
     .product-link {
@@ -2791,7 +2791,7 @@ footer .social-icons a:hover {
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-     outline: 1px dashed #f90a5b; /* خط متقطع حول العنصر */
+         outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
 }
 
 .related-products h2 {
@@ -2937,111 +2937,109 @@ footer .social-icons a:hover {
 /* تعديلات للأجهزة المحمولة */
 @media (max-width: 767px) {
     .products-grid {
-        gap: 16px;
+        gap: 12px; /* تقليل المسافة بين المنتجات */
+        padding: 0 10px; /* تقليل الحاشية الجانبية لتوسيع المساحة */
     }
-    
+
     .product-link {
-        width: 48%;
-        margin-bottom: 15px; /* تقليل الهامش السفلي على الشاشات المتوسطة */
+        width: calc(50% - 10px); /* توزيع المنتجات بالتساوي */
+        margin-bottom: 12px; /* تحسين المسافة السفلية */
     }
-    
+
     .related-product {
-        border-radius: 10px;
-        margin-bottom: 10px; /* تقليل الهامش السفلي على الشاشات المتوسطة */
+        border-radius: 8px;
+        margin-bottom: 8px;
     }
-    
+
     .related-product img {
-        height: 300px;
+        height: 280px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
-    
+
     .related-product h3 {
-        font-size: 0.95rem;
-        margin: 10px 5px;
-        height: 44px;
+        font-size: 0.92rem;
+        margin: 8px 4px;
+        height: 42px;
         line-height: 1.3;
     }
-    
+
     .related-price {
-        font-size: 1.1rem;
+        font-size: 1.05rem;
     }
-    
+
     .related-old-price {
-        font-size: 0.85rem;
+        font-size: 0.82rem;
     }
-    
+
     .related-discount-badge {
-        top: 8px;
-        left: 8px;
-        font-size: 0.75rem;
-        padding: 3px 8px;
+        top: 6px;
+        left: 6px;
+        font-size: 0.7rem;
+        padding: 2px 6px;
     }
 }
 
+/* تحسينات للشاشات الصغيرة جداً */
 @media (max-width: 480px) {
     .products-grid {
-        gap: 33px;
-       
-   
+        gap: 10px;
+        padding: 0 5px; /* تقليل الحاشية الجانبية أكثر */
     }
 
     .product-link {
-        width: 60%;
-        margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-         max-width: 130px;
-         
+        width: calc(50% - 5px); /* جعل العرض أكبر وتوزيع المنتجات */
+        max-width: none; /* إزالة الحد الأقصى للعرض */
+        margin-bottom: 5px;
     }
-    
+
     .related-product {
-        margin-bottom: 5px; /* تقليل الهامش السفلي على الشاشات الصغيرة */
-        
+        margin-bottom: 5px;
     }
-    
+
     .related-product img {
-        height: 180px;
+        height: 170px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
-    
+
     .related-product h3 {
-        font-size: 0.84rem;
-        margin: 8px 4px;
-        height: 40px;
-        padding: 0 3px;
+        font-size: 0.85rem;
+        margin: 6px 3px;
+        height: 38px;
+        padding: 0 2px;
     }
-    
+
     .related-price {
         font-size: 1rem;
     }
-    
+
     .related-old-price {
-        font-size: 0.8rem;
+        font-size: 0.78rem;
     }
 }
+
 
 /* تحسينات للمنتجات ذات الصلة على الهواتف الصغيرة */
 @media (max-width: 380px) {
     .products-grid {
-        gap: 19px;
-       
-  
+        gap: 10px; /* تقليل المسافة بين المنتجات */
+        padding: 0 1px; /* تقليل الحاشية الجانبية للحاوية */
     }
-   
+
     .product-link {
-        width: 100%;
-        max-width: 130px;
-          
-        
+        width: calc(50% - 5px); /* جعل العرض أكبر وتناسب العناصر داخل الحاوية */
+        max-width: none; /* إزالة الحد الأقصى للعرض */
+    }
+
+    .related-product img {
+        height: 140px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
         top: 8px;
-        left: 8px;
+        left: 5px;
         font-size: 0.66rem;
-        padding: 3px 8px;
+        padding: 3px 5px;
     }
     
-    .related-product img {
-        height: 130px;
-        
-    }
+ 
     
     .related-product h3 {
         height: auto;
