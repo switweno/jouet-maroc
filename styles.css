@@ -3481,7 +3481,7 @@ footer .container {
     height: 33px; /* التحكم في الارتفاع */
     line-height: 35px; /* محاذاة النص عموديًا */
     background-color: #161616;
-    padding: 0 7px; /* تقليل التباعد الداخلي */
+    padding: 0 5px; /* تقليل التباعد الداخلي */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
     direction: rtl; /* اتجاه النص من اليمين لليسار */
@@ -3494,8 +3494,9 @@ footer .container {
 
 /* تنسيق حاوية العروض */
 .offer-container {
-    width: 80%;
+    width: 90%;
     overflow: hidden;
+     max-width: 1200px;
    
 }
 
@@ -3525,8 +3526,8 @@ footer .container {
     background-color: rgba(127, 31, 166, 0);
     border: none;
     color: white;
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1rem;
+    
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s ease;
@@ -3537,11 +3538,11 @@ footer .container {
 }
 
 .left-arrow {
-    margin-right: 5px;
+    margin-right: 1px;
 }
 
 .right-arrow {
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 
