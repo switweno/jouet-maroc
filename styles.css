@@ -1160,7 +1160,7 @@ header {
 .order-section {
     background-color: #fff;
     padding: 25px;
-    
+    outline: 2px dashed #219f2a; /* خط متقطع حول العنصر */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
      margin-bottom: 20px;
@@ -3220,7 +3220,7 @@ footer {
     padding: 40px 0 30px;
     position: relative;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 footer .container {
