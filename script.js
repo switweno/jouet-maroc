@@ -753,12 +753,12 @@ let updateProductDisplay = function(product) {
 
     // تحديث العلامة التجارية والفئة مع تغيير الألوان
     document.querySelector('.product-brand').innerHTML = `
-        <span style="color: #007bff; font-weight: 600;">العلامة التجارية:</span>
+        <span style="color: #7f1fa6; font-weight: 600;">العلامة التجارية:</span>
         <span style="color: #031112; margin-right: 5px;">${product.brand}</span>
     `;
 
     document.querySelector('.product-category').innerHTML = `
-        <span style="color: #007bff; font-weight: 600;">الفئة:</span>
+        <span style="color: #7f1fa6; font-weight: 600;">الفئة:</span>
         <span style="color: #031112; margin-right: 5px;">${product.category}</span>
     `;
 
@@ -769,7 +769,7 @@ let updateProductDisplay = function(product) {
 var availabilityElement = document.querySelector('.product-availability');
 
 if (product.availability === "متوفر في المخزون") {
-    availabilityElement.style.color = "#01ec37"; // اللون الأخضر
+    availabilityElement.style.color = "#14b93a"; // اللون الأخضر
     availabilityElement.style.fontSize = "1.0rem"; // زيادة حجم الخط
 } else if (product.availability === "غير متوفر") {
     availabilityElement.style.color = "#6c757d"; // اللون الرمادي

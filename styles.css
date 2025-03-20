@@ -105,9 +105,9 @@ header {
     font-weight: 700;
      margin: 0;
     margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #20ab38;
+    color: #00d4e1;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.23);
-    background:  #20ab38;;
+    background:  #00d4e1;;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -367,7 +367,7 @@ header {
 }
 
 .popup-product-price {
-    color:#20ab38;
+    color:#eb0861;
     font-weight: 700;
     font-size: 1.1rem;
 }
@@ -673,7 +673,7 @@ header {
 .product-brand, .product-category, .product-availability {
     padding-right: 10px;
     font-size: 1.1rem;
-    color: #007bff;
+    color: #7f1fa6;
     padding-bottom: 8px;
     margin-bottom: 8px;
     border-bottom: 1px solid #f0f0f0; /* خط فاصل أخف */
@@ -709,7 +709,7 @@ header {
 .current-price {
     font-size: 1.2rem;
     font-weight: 700; /* يمكن استخدام 700 بدلاً من 'bold' */
-    color: #20ab38;
+    color: #eb0861;
     
 }
 
@@ -718,9 +718,7 @@ header {
     color: #8e8488;
     font-size: 1rem;
 }
-.discount {
-    display: none;
-}
+
 
 .discount {
     background-color: #7f1fa6;
@@ -772,7 +770,7 @@ header {
 
 #wholesale-price-value {
     font-weight: 700; /* جعل السعر أكثر وضوحًا */
-    color: #20ab38; /* نفس لون السعر الحالي */
+    color: #eb0861; /* نفس لون السعر الحالي */
 }
 
 /* تحسين التصميم للهواتف */
@@ -821,8 +819,8 @@ header {
 
 .product-description h3 {
     margin-bottom: 2px;
-    color: #1aa8e3;
-    font-size: 1rem;
+    color: #0278f8;
+    font-size: 1.3rem;
     text-align: center;
     border-bottom: 2px solid  rgba(0, 102, 204, 0);
     padding-bottom: 15px;
@@ -924,7 +922,7 @@ header {
 }
 
 .feature-category li strong {
-    color: #007bff;
+    color: #7f1fa6;
 }
 
 /* تحسين المميزات البارزة */
@@ -1143,9 +1141,9 @@ header {
 .order-section h2 {
     margin-bottom: 30px;
     text-align: center;
-    color: #1aa8e3;
+    color: #0278f8;
     
-    font-size: 1.4rem;
+    font-size: 1.3rem;
      
     
 }
@@ -1354,7 +1352,7 @@ header {
     
     /* Product description */
     .product-description h3 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     
     /* Buttons */
@@ -1504,7 +1502,7 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     padding-top: 10px;
-    color:  #20ab38;
+    color:  #eb0861;
 }
 
 .customer-info {
@@ -1852,8 +1850,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-video-section h2 {
-    color:#1aa8e3;
-    font-size: 1.4rem;
+    color:#0278f8;
+    font-size: 1.3rem;
     margin-bottom: 20px;
     position: relative;
     display: inline-block;
@@ -2642,8 +2640,8 @@ footer .social-icons a:hover {
 }
 
 .related-products h2 {
-    color: #1aa8e3;
-    font-size: 1.5rem;
+    color: #0278f8;
+    font-size: 1.3rem;
     margin-bottom: 25px; /* Increased bottom margin from 15px to 25px */
     position: relative;
     display: inline-block;
@@ -2767,8 +2765,8 @@ footer .social-icons a:hover {
 }
 
 .related-products h2 {
-    color:  #1aa8e3;
-    font-size: 1.5rem;
+    color:  #0278f8;
+    font-size: 1.3rem;
     margin-bottom: 15px;
     position: relative;
     display: inline-block;
@@ -2881,7 +2879,7 @@ footer .social-icons a:hover {
 }
 
 .related-price {
-    color: #20ab38;
+    color: #eb0861;
     font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 4px;
