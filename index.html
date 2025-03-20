@@ -29,32 +29,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
- <style>
-        /* شاشة التحميل */
-        #loading-screen {
-            position: fixed;
-            width: 100%;
-            height: 100vh;
-            background: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-
-        /* صورة التحميل */
-        #loading-screen img {
-            width: 100px; /* حجم الصورة */
-            height: 100px;
-        }
-
-        /* إخفاء المحتوى الأساسي أثناء التحميل */
-        #main-content {
-            display: none;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+ 
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -109,11 +84,7 @@
           title="Google Tag Manager"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
-   <!-- شاشة التحميل -->
-    <div id="loading-screen">
-        <img src="loading.gif" alt="جارٍ التحميل...">
-    </div>
-   
+  
 
     
 
@@ -769,13 +740,6 @@
         </div>
     </div>
 </footer>
-  <script>
-        // إخفاء شاشة التحميل بعد 3 ثوانٍ وعرض الصفحة
-        setTimeout(function() {
-            document.getElementById("loading-screen").style.display = "none";
-            document.getElementById("main-content").style.display = "block";
-        }, 2000); // 3 ثوانٍ
-    </script>
 <!-- إضافة Bootstrap JS في نهاية الصفحة لتحسين الأداء -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
