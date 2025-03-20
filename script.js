@@ -207,6 +207,7 @@ function submitFormViaWhatsApp(event) {
         const phone = document.getElementById('phone').value;
         const address = document.getElementById('address').value;
         const city = document.getElementById('city').value;
+        const notes = document.getElementById('notes').value;
         const quantity = parseInt(document.getElementById('quantity').value);
         
         // Fix: Properly define paymentMethod variable
@@ -264,7 +265,8 @@ function submitFormViaWhatsApp(event) {
         document.getElementById('summary-customer-phone').textContent = phone;
         document.getElementById('summary-customer-address').textContent = address;
         document.getElementById('summary-customer-city').textContent = city;
-        document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod;
+        document.getElementById('summary-customer-notes').textContent = notes || "لا توجد ملاحظات";
+        document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : 'الدفع عبر التحويل البنكي';
         
         // Show confirmation modal
         const confirmationModal = document.getElementById('confirmation-modal');
@@ -281,6 +283,8 @@ function submitFormViaWhatsApp(event) {
                     `السعر: ${unitPrice} درهم (سعر الجملة)` : 
                     `السعر: ${unitPrice} درهم`;
                 
+                const notesText = notes ? `ملاحظات: ${notes}\n` : '';
+                
                 const message = encodeURIComponent(
                     `*طلب جديد*\n\n` +
                     `*معلومات العميل:*\n` +
@@ -288,7 +292,8 @@ function submitFormViaWhatsApp(event) {
                     `رقم الهاتف: ${phone}\n` +
                     `العنوان: ${address}\n` +
                     `المدينة: ${city}\n` +
-                    `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : paymentMethod}\n\n` +
+                    `${notesText}` +
+                    `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : 'الدفع عبر التحويل البنكي'}\n\n` +
                     `*تفاصيل الطلب:*\n` +
                     `المنتج: ${productName}\n` +
                     `الكمية: ${quantity}\n` +
