@@ -2,6 +2,83 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
+  
+    {
+   id: "TROTTINETTE-JOYOR-48V-17.5AH",
+   title: "TROTTINETTE JOYOR 48V 17.5AH",
+   brand: "JOYOR Y 6 S",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 121,
+   currentPrice: 5490,
+   oldPrice: 6299,
+   discount: 30,
+   images: [
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-03.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-05.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-02.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-04.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-01.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-07.webp",
+     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"
+   ],
+   features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "1000 W" },
+      { key: "Vitesse", value: "50-56 km/h" },
+      { key: "Mode de conduite", value: "3 vitesses" },
+      { key: "Démarrage", value: "Accélérateur + pédale" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 48V 17.5AH" },
+      { key: "Autonomie", value: "45-60 km" },
+      { key: "Charge rapide", value: "Compatible 54V" },
+      { key: "Charge max", value: "110 kg" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONTRÔLE",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freinage", value: "Disques AV/AR + E-ABS" },
+      { key: "Suspension", value: "AV/AR réglables" },
+      { key: "Éclairage", value: "LED AV/AR + clignotants" },
+      { key: "Étanchéité", value: "IPX5" }
+    ]
+  },
+  {
+    title: "TECHNOLOGIE & CONFORT",
+    icon: "fa-mobile-alt",
+    items: [
+      { key: "Affichage", value: "DISPLAY EY2 (app mobile) 📱" },
+      { key: "Pneus", value: "10\" chambre à air" },
+      { key: "Conception", value: "Pliable avec klaxon" },
+      { key: "Tableau", value: "Digital multifonction" }
+    ]
+  },
+  {
+    title: "CADEAUX INCLUS",
+    icon: "fa-gift",
+    items: [
+      { key: "Cadeau 1", value: "Sac offert 🎁" },
+      { key: "Cadeau 2", value: "Chambre à air 🎁" },
+      { key: "Cadeau 3", value: "Verrouillage inclus 🎁" }
+    ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
+ },
+  
+  
 {
    id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
    title: "TROTTINETTE Mi Electric Scooter Essential",

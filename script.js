@@ -191,7 +191,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "TROTTINETTE-Mi-Electric-Scooter-Essential"; // Default product
+        productId = "TROTTINETTE-JOYOR-48V-17.5AH"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -688,7 +688,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "TROTTINETTE-Mi-Electric-Scooter-Essential"; // Default product
+            productId = "TROTTINETTE-JOYOR-48V-17.5AH"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
