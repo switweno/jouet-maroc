@@ -719,7 +719,7 @@ header {
     background-color: #7f1fa6;
     color: white;
     font-weight: bold;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
     padding: 3px 8px;
     border-radius: 50px;
     font-size: 0.8rem;
