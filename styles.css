@@ -15,8 +15,8 @@ body {
 }
 
 /* عكس التمرير عند RTL */
-body[dir="rtl"] .thumbnails-container {
-    direction: ltr;
+body[dir="rtl"] .thumbnails-container .main-image  {
+    direction: rtl;
 }
 
 button, a {
@@ -516,6 +516,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0); /* تدرج لوني خفيف على الخلفية */
+     transition: all 0.3s ease-in-out; /* إضافة تأثيرات انتقالية عند التفاعل مع الصورة */
     
 }
 
