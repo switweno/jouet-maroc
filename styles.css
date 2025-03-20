@@ -655,7 +655,7 @@ header {
 .product-title {
     font-size: 1.6rem;
     color: #110101;
-   
+   font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 700;
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
@@ -771,6 +771,7 @@ header {
 #wholesale-price-value {
     font-weight: 700; /* جعل السعر أكثر وضوحًا */
     color: #eb0861; /* نفس لون السعر الحالي */
+    
 }
 
 /* تحسين التصميم للهواتف */
@@ -785,6 +786,7 @@ header {
     .product-wholesale-price {
         font-size: 1rem; /* تصغير الخط أكثر */
         padding-right: 3px; /* تقليل المساحة أكثر */
+        
     }
 }
 /* تحسين التصميم للهواتف */
