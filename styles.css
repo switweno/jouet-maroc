@@ -3040,7 +3040,7 @@ select {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #ffffff;
     font-size: 1.6rem;
@@ -3057,7 +3057,7 @@ select {
 }
 
 .scroll-arrow:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .arrow-left {
