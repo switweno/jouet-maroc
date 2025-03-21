@@ -40,6 +40,11 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 	
     <!-- أضف باقي المنتجات هنا -->
 </urlset>
