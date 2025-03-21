@@ -2167,16 +2167,6 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* النافذة المنبثقة الأساسية */
 .modal {
     display: none; /* مخفي افتراضيًا */
@@ -2189,134 +2179,259 @@ select {
     background-color: rgb(51, 51, 51); /* خلفية شفافة */
     align-items: flex-start; /* جعل النصوص تبدأ من الأعلى */
     justify-content: center;
-     
+    
 }
 
 /* محتوى النافذة المنبثقة */
 .modal-content {
     background-color: #333;
-    padding: 10px; /* هوامش داخلية */
-    border-radius: 8px;
-    width: 100%;
-    max-width: 500px;
-    text-align: justify; /* لجعل النصوص أكثر تنظيمًا */
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    animation: fadeIn 0.3s ease-in-out;
-    overflow-y: auto; /* لتجنب أي مشاكل في التمرير إذا كان المحتوى طويلًا */
-    margin-left: 5px; /* هوامش جانبية */
-    margin-right: 5px; /* هوامش جانبية */
-       
-     margin-top: 5px;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+ 
 }
 
-/* عنوان رئيسي */
+.modal.show-modal {
+    opacity: 1;
+}
+.show-modal .modal-content {
+    transform: translateY(0);
+}
+
 .modal-content h2 {
-    font-size: 29px; /* حجم أكبر للعنوان */
-    color: #4c93ff; /* لون نص داكن */
-    margin-bottom: 40px; /* مسافة أكبر أسفل العنوان */
-    text-align: center; /* توسيط العنوان */
-     padding: 0 10px; /* مسافة جانبية صغيرة */
-    margin-top: 19px; /* مسافة من الأعلى */
+    font-size: 28px;
+    font-weight: 700;
+    color: #4c93ff;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(76, 147, 255, 0.3);
 }
 
-/* العناوين الفرعية */
 .modal-content h3 {
-    font-size: 18px; /* حجم مناسب للعناوين الفرعية */
-    color: #4589cc; /* لون نص أغمق قليلاً */
-    margin-bottom: 20px; /* مسافة بين العناوين والفقرات */
-    font-weight: bold; /* خط غامق */
-    padding: 0 10px; /* مسافة جانبية صغيرة */
-    
+    font-size: 20px;
+    color: #4589cc;
+    margin: 25px 0 15px;
+    font-weight: 600;
 }
 
-/* الفقرات */
 .modal-content p {
-    font-size: 16px; /* حجم مناسب للنص */
-    line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: #a3a3a3; /* لون نص مريح للعين */
-    margin-bottom: 20px; /* مسافة بين الفقرات */
-    text-align: justify; /* توزيع النص بشكل متساوٍ */
-    padding: 0 10px; /* مسافة جانبية صغيرة */
-    
+    font-size: 16px;
+    line-height: 1.8;
+    color: #a3a3a3;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
-/* زر الإغلاق */
 .close {
     position: absolute;
     top: 10px;
-    right: 15px;
-    font-size: 34px; /* تكبير الزر */
-    cursor: pointer;
+    right: 20px;
+    font-size: 34px;
     color: #1daadb;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 .close:hover {
-    color: #000;
+    color: #fff;
+    background-color: rgba(29, 170, 219, 0.2);
 }
 
 
 
-/* نموذج الاتصال */
+
+/* تنسيق نموذج الاتصال */
 #contactForm1 {
-    padding: 20px; /* هوامش داخلية للنموذج */
-    background-color: rgba(249, 249, 249, 0); /* خلفية فاتحة */
-    border-radius: 8px; /* حواف مدورة */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
-    margin-top: 20px; /* مسافة من الأعلى */
+    padding: 20px 0;
 }
 
-/* العناوين الفرعية (labels) */
 #contactForm1 label {
     display: block;
-    text-align: right;
-    margin-top: 15px; /* مسافة بين العناصر */
-    font-weight: bold;
-    color: #a0a0a0; /* لون نص داكن */
+    margin-bottom: 8px;
+    color: #a3a3a3;
+    font-weight: 600;
 }
 
-/* حقول الإدخال (inputs) وحقل النص (textarea) */
 #contactForm1 input,
 #contactForm1 textarea {
-    width: 100%; /* عرض كامل */
-    padding: 12px; /* مساحة داخلية أكبر */
-    margin-top: 8px; /* مسافة بين العناصر */
-    border: 1px solid #ccc; /* حدود رقيقة */
-    border-radius: 6px; /* حواف مدورة */
-    font-size: 14px; /* حجم مناسب للنص */
-    box-sizing: border-box; /* ضمان أن الـ padding لا يؤثر على العرض */
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s;
 }
 
-/* أزرار الإرسال */
+#contactForm1 input:focus,
+#contactForm1 textarea:focus {
+    border-color: #1daadb;
+    outline: none;
+}
+
 #contactForm1 button {
-    margin-top: 20px; /* مسافة أعلى الزر */
-    width: 100%; /* عرض كامل */
-    padding: 12px; /* مساحة داخلية أكبر */
-    font-size: 16px; /* حجم مناسب للنص */
+    padding: 12px 20px;
+    margin-right: 10px;
     border: none;
-    border-radius: 6px; /* حواف مدورة */
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s ease; /* تأثير عند التحويم */
+    transition: background-color 0.3s;
 }
 
-/* زر إرسال عبر البريد */
 #contactForm1 button[type="submit"] {
-    background: #1EA252; /* لون واتساب */
+    background-color: #1daadb;
     color: white;
 }
 
 #contactForm1 button[type="submit"]:hover {
-    background: #1EA252; /* لون أغمق عند التحويم */
+    background-color: #1890bb;
 }
 
-/* زر إرسال عبر واتساب */
 #contactForm1 .whatsapp-btn {
-    background: #1EA252; /* لون واتساب */
+    background-color: #25D366;
     color: white;
-    margin-top: 10px; /* مسافة بين الزرين */
 }
 
 #contactForm1 .whatsapp-btn:hover {
-    background: #1EA252; /* لون أغ darker عند التحويم */
+    background-color: #1faa52;
+}
+
+
+
+.direct-contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.direct-contact p {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.whatsapp-direct {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-direct:hover {
+    background-color: #1faa52;
+}
+
+.whatsapp-direct i {
+    margin-right: 8px;
+}
+
+/* تصحيح أنماط Newsletter */
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    padding: 0 20px;
+    background-color: #1EA252;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #19803f;
+}
+
+.newsletter-success {
+    display: none;
+    padding: 15px;
+    background-color: rgba(30, 162, 82, 0.1);
+    border: 1px solid #1EA252;
+    border-radius: 8px;
+    color: #1EA252;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* تعديلات لتحسين الاستجابة للأجهزة المحمولة */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .modal-content h2 {
+        font-size: 24px;
+    }
+    
+    .modal-content h3 {
+        font-size: 18px;
+    }
+    
+    .chat-window {
+        width: 90%;
+        max-width: 350px;
+        right: 5%;
+    }
+    
+    #contactForm1 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 15px;
+    }
+    
+    .modal-content h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .chat-window {
+        bottom: 80px;
+        width: 90%;
+        right: 5%;
+        left: 5%;
+        max-width: none;
+    }
 }
 
 
@@ -3444,6 +3559,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     height: 100%;
     overflow-y: auto;
     background-color: white;
+   
 }
 
 .order-form-content {
@@ -3475,13 +3591,13 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 15px;
     font-size: 30px;
     font-weight: bold;
-    color: #888;
+    color: #4c93ff;
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .order-form-close:hover {
-    color: #333;
+    color: #f61010;
 }
 
 /* Responsive adjustments for order form modal */
@@ -3496,7 +3612,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 @media (max-width: 480px) {
     .order-form-content {
         width: 95%;
-        margin: 5% auto;
+        margin: 1% auto;
         padding: 15px;
     }
 }
@@ -3507,7 +3623,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     text-align: center; /* توسيطه */
     margin-top: 20px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
-    color: #333; /* تغيير اللون */
+    color: #4c93ff; /* تغيير اللون */
 }
 
 
