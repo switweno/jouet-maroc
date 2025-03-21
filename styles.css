@@ -122,7 +122,7 @@ header {
 }
 
 .site-logo {
-    height: 22px; /* تعديل الحجم حسب الشعار */
+    height: 20px; /* تعديل الحجم حسب الشعار */
     width: auto;
    
     transition: transform 0.3s ease-in-out;
