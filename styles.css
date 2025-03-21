@@ -2213,11 +2213,18 @@ select {
 .modal-content h2 {
     font-size: 29px; /* حجم أكبر للعنوان */
     color: #4c93ff; /* لون نص داكن */
-    margin-bottom: 40px; /* مسافة أكبر أسفل العنوان */
+    margin-bottom: 29px; /* مسافة بين النص والخط */
     text-align: center; /* توسيط العنوان */
-     padding: 0 10px; /* مسافة جانبية صغيرة */
-    margin-top: 19px; /* مسافة من الأعلى */
+    padding: 0 10px; /* مسافة جانبية صغيرة */
+    margin-top: 20px; /* مسافة من الأعلى */
+    border-bottom: 2px solid #626365; /* سمك الخط 3px */
+    width: 100%; /* طول الخط 80% من العرض */
+    margin-left: auto; /* توسيط الخط تحت العنوان */
+    margin-right: auto; /* توسيط الخط تحت العنوان */
+    padding-bottom: 13px; /* زيادة المسافة بين العنوان والخط */
 }
+
+
 
 /* العناوين الفرعية */
 .modal-content h3 {
@@ -2262,7 +2269,7 @@ select {
     background-color: rgba(249, 249, 249, 0); /* خلفية فاتحة */
     border-radius: 8px; /* حواف مدورة */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
-    margin-top: 20px; /* مسافة من الأعلى */
+    margin-top: 3px; /* مسافة من الأعلى */
 }
 
 /* العناوين الفرعية (labels) */
