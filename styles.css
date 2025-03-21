@@ -2213,15 +2213,15 @@ select {
 .modal-content h2 {
     font-size: 29px; /* حجم أكبر للعنوان */
     color: #4c93ff; /* لون نص داكن */
-    margin-bottom: 29px; /* مسافة بين النص والخط */
+    margin-bottom: 30px; /* مسافة بين النص والخط */
     text-align: center; /* توسيط العنوان */
     padding: 0 10px; /* مسافة جانبية صغيرة */
     margin-top: 20px; /* مسافة من الأعلى */
-    border-bottom: 2px solid #626365; /* سمك الخط 3px */
-    width: 100%; /* طول الخط 80% من العرض */
+    border-bottom: 2px solid #4d4e52; /* سمك الخط 3px */
+    width: 90%; /* طول الخط 80% من العرض */
     margin-left: auto; /* توسيط الخط تحت العنوان */
     margin-right: auto; /* توسيط الخط تحت العنوان */
-    padding-bottom: 13px; /* زيادة المسافة بين العنوان والخط */
+    padding-bottom: 12px; /* زيادة المسافة بين العنوان والخط */
 }
 
 
@@ -2240,8 +2240,8 @@ select {
 .modal-content p {
     font-size: 16px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: #a3a3a3; /* لون نص مريح للعين */
-    margin-bottom: 20px; /* مسافة بين الفقرات */
+    color: #dfdede; /* لون نص مريح للعين */
+    margin-bottom: 5px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
     padding: 0 10px; /* مسافة جانبية صغيرة */
     
