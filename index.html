@@ -297,7 +297,7 @@
                 
                 
                 <div class="cta-buttons">
-                    <button id="buy-now-btn" class="btn primary2-btn" onclick="scrollToForm()">
+                    <button id="buy-now-btn" class="btn primary2-btn" onclick="openOrderFormModal()">
                         <i class="fas fa-shopping-cart"></i> اطلب الآن
                     </button>
                     <!-- Removing separate WhatsApp button as per requirement -->
@@ -311,108 +311,110 @@
             </div>
         </div>
         
-
-
+        <!-- Remove the order section from here and put it in a modal below -->
         
-        <!-- Fix duplicate ID by changing the section ID -->
-        <div class="order-section" id="order-section">
-    <h2>املأ النموذج للطلب</h2>
-    <form id="order-form" onsubmit="submitFormViaWhatsApp(event)" autocomplete="on">
-        <div class="form-group">
-            <label for="name" class="required-field">الاسم الكامل</label>
-            <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required autocomplete="name">
-        </div>
-        <div class="form-group">
-            <label for="phone" class="required-field">رقم الهاتف</label>
-            <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required autocomplete="tel">
-        </div>
-        <div class="form-group">
-            <label for="address" class="required-field">العنوان</label>
-            <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required autocomplete="address-line1"></textarea>
-        </div>
-        <div class="form-group">
-            <label for="city" class="required-field">المدينة</label>
-            <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required autocomplete="address-level2">
-        </div>
-        
-       <div class="form-group">
-    <label for="notes">ملاحظات</label>
-    <textarea id="notes" name="notes" style="text-align: right; direction: rtl; width: 100%;" placeholder="ملاحظات إضافية (اختياري)" autocomplete="off"></textarea>
-</div>
-
-        
-        <div class="form-group payment-method">
-            <label class="required-field">طريقة الدفع</label>
-            <div class="radio-group">
-                <input type="radio" id="cod" name="payment" value="cod" checked>
-                <label for="cod">الدفع عند الاستلام</label>
-            </div>
-            
-            <div class="radio-group">
-                <input type="radio" id="bank-transfer" name="payment" value="bank-transfer">
-                <label for="bank-transfer">الدفع عبر التحويل البنكي</label>
-            </div>
-            
-            <div class="quantity-selector">
-                    <h3>الكمية</h3> 
-                    <div class="quantity-controls">
-                       <button type="button" class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
-                        <input type="number" id="quantity" value="1" min="1" max="10" title="الكمية" placeholder="أدخل الكمية">
-                        <button type="button" class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
+        <!-- Order Form Modal -->
+        <div id="order-form-modal" class="order-form-modal">
+            <div class="order-form-content">
+                <span class="order-form-close" onclick="closeOrderFormModal()">&times;</span>
+                <h2>املأ النموذج للطلب</h2>
+                <form id="order-form" onsubmit="submitFormViaWhatsApp(event)" autocomplete="on">
+                    <div class="form-group">
+                        <label for="name" class="required-field">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" dir="ltr" placeholder="Votre nom complet" required autocomplete="name">
                     </div>
-                </div>
-        </div>
-        <button type="submit" class="btn primary-btn submit-btn">
-            <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
-        </button>
-    </form>
-</div>
-        
-      <!-- Order Confirmation Modal - Fix empty src attribute -->
-    <div id="confirmation-modal" class="confirmation-modal">
-        <div class="confirmation-content">
-            <h3>تأكيد الطلب</h3>
-            <div class="order-summary">
-                <div class="summary-product">
-                    <div class="summary-image">
-                        <img id="summary-product-image" src="product1.webp" alt="صورة المنتج">
+                    <div class="form-group">
+                        <label for="phone" class="required-field">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" dir="ltr" placeholder="Numéro de téléphone" required autocomplete="tel">
                     </div>
-                    <div class="summary-details">
-                        <h4 id="summary-product-name"></h4>
-                        <div class="summary-price">
-                            <span>السعر: </span>
-                            <span id="summary-product-price"></span>
+                    <div class="form-group">
+                        <label for="address" class="required-field">العنوان</label>
+                        <textarea id="address" name="address" dir="ltr" placeholder="Votre adresse complète" required autocomplete="address-line1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="city" class="required-field">المدينة</label>
+                        <input type="text" id="city" name="city" dir="ltr" placeholder="Entrez votre ville" required autocomplete="address-level2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">ملاحظات</label>
+                        <textarea id="notes" name="notes" style="text-align: right; direction: rtl; width: 100%;" placeholder="ملاحظات إضافية (اختياري)" autocomplete="off"></textarea>
+                    </div>
+                    
+                    <div class="form-group payment-method">
+                        <label class="required-field">طريقة الدفع</label>
+                        <div class="radio-group">
+                            <input type="radio" id="cod" name="payment" value="cod" checked>
+                            <label for="cod">الدفع عند الاستلام</label>
                         </div>
-                        <div class="summary-quantity">
-                            <span>الكمية: </span>
-                            <span id="summary-product-quantity"></span>
+                        
+                        <div class="radio-group">
+                            <input type="radio" id="bank-transfer" name="payment" value="bank-transfer">
+                            <label for="bank-transfer">الدفع عبر التحويل البنكي</label>
+                        </div>
+                        
+                        <div class="quantity-selector">
+                            <h3>الكمية</h3> 
+                            <div class="quantity-controls">
+                                <button type="button" class="quantity-btn minus" onclick="updateQuantity(-1)">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="10" title="الكمية" placeholder="أدخل الكمية">
+                                <button type="button" class="quantity-btn plus" onclick="updateQuantity(1)">+</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="summary-total">
-                    <span>المجموع الكلي: </span>
-                    <span id="summary-total-price"></span>
-                </div>
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
+                    </button>
+                </form>
             </div>
-            
-            <div class="customer-info">
-                <h4>معلومات العميل:</h4>
-                <p><strong>الاسم:</strong> <span id="summary-customer-name"></span></p>
-                <p><strong>الهاتف:</strong> <span id="summary-customer-phone"></span></p>
-                <p><strong>العنوان:</strong> <span id="summary-customer-address"></span></p>
-                <p><strong>المدينة:</strong> <span id="summary-customer-city"></span></p>
-                <p><strong>ملاحظات:</strong> <span id="summary-customer-notes" dir="rtl" class="rtl-text"></span></p>
-                <p><strong>طريقة الدفع:</strong> <span id="summary-payment-method"></span></p>
-            </div>
-            
-            <div class="confirmation-buttons">
-                <button class="btn primary-btn" id="confirm-order-btn">
-                    <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
-                </button>
-                <!-- إصلاح زر إلغاء الطلب - الوسم كان مغلقاً بشكل خاطئ -->
-                <button class="btn secondary-btn" id="cancel-order-btn">
-                    <i class="fas fa-times"></i> إلغاء الطلب
-                </button>
+        </div>
+      
+        <!-- Order Confirmation Modal - Fix empty src attribute -->
+        <div id="confirmation-modal" class="confirmation-modal">
+            <div class="confirmation-content">
+                <h3>تأكيد الطلب</h3>
+                <div class="order-summary">
+                    <div class="summary-product">
+                        <div class="summary-image">
+                            <img id="summary-product-image" src="product1.webp" alt="صورة المنتج">
+                        </div>
+                        <div class="summary-details">
+                            <h4 id="summary-product-name"></h4>
+                            <div class="summary-price">
+                                <span>السعر: </span>
+                                <span id="summary-product-price"></span>
+                            </div>
+                            <div class="summary-quantity">
+                                <span>الكمية: </span>
+                                <span id="summary-product-quantity"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="summary-total">
+                        <span>المجموع الكلي: </span>
+                        <span id="summary-total-price"></span>
+                    </div>
+                </div>
+                
+                <div class="customer-info">
+                    <h4>معلومات العميل:</h4>
+                    <p><strong>الاسم:</strong> <span id="summary-customer-name"></span></p>
+                    <p><strong>الهاتف:</strong> <span id="summary-customer-phone"></span></p>
+                    <p><strong>العنوان:</strong> <span id="summary-customer-address"></span></p>
+                    <p><strong>المدينة:</strong> <span id="summary-customer-city"></span></p>
+                    <p><strong>ملاحظات:</strong> <span id="summary-customer-notes" dir="rtl" class="rtl-text"></span></p>
+                    <p><strong>طريقة الدفع:</strong> <span id="summary-payment-method"></span></p>
+                </div>
+                
+                <div class="confirmation-buttons">
+                    <button class="btn primary-btn" id="confirm-order-btn">
+                        <i class="fab fa-whatsapp"></i> تأكيد الطلب عبر واتساب
+                    </button>
+                    <!-- إصلاح زر إلغاء الطلب - الوسم كان مغلقاً بشكل خاطئ -->
+                    <button class="btn secondary-btn" id="cancel-order-btn">
+                        <i class="fas fa-times"></i> إلغاء الطلب
+                    </button>
+                </div>
             </div>
         </div>
     </div>

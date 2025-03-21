@@ -175,15 +175,43 @@ function updateQuantity(change) {
     quantityInput.value = currentValue;
 }
 
-// Scroll to order form
+// Updated function to open order form modal instead of scrolling to form
 function scrollToForm() {
-    const orderSection = document.getElementById('order-section');
-    window.scrollTo({
-        top: orderSection.offsetTop - 5,  // تعديل المسافة هنا (يمكنك زيادة أو تقليل الرقم حسب الحاجة)
-        behavior: 'smooth'  // التمرير السلس
-    });
+    openOrderFormModal();
 }
 
+// Function to open the order form modal
+function openOrderFormModal() {
+    const modal = document.getElementById('order-form-modal');
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Prevent scrolling behind modal
+    
+    // Reset form when opening (optional)
+    // document.getElementById('order-form').reset();
+}
+
+// Function to close the order form modal
+function closeOrderFormModal() {
+    const modal = document.getElementById('order-form-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Re-enable scrolling
+}
+
+// Close order form modal when clicking outside the form
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('order-form-modal');
+    if (event.target === modal) {
+        closeOrderFormModal();
+    }
+});
+
+// Add ESC key handler to close the order form modal
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeOrderFormModal();
+        closeConfirmationModal();
+    }
+});
 
 // Function to get the current product data
 function getCurrentProductData() {
@@ -197,7 +225,7 @@ function getCurrentProductData() {
     return products.find(p => p.id === productId) || products[0];
 }
 
-// Form submission via WhatsApp with confirmation
+// Form submission via WhatsApp with confirmation - update to close the order form modal
 function submitFormViaWhatsApp(event) {
     event.preventDefault();
     
@@ -271,6 +299,9 @@ function submitFormViaWhatsApp(event) {
         // Show confirmation modal
         const confirmationModal = document.getElementById('confirmation-modal');
         confirmationModal.style.display = 'block';
+        
+        // Close the order form modal when showing confirmation
+        closeOrderFormModal();
         
         // Prevent scrolling on background
         document.body.style.overflow = 'hidden';
@@ -350,7 +381,7 @@ function submitFormViaWhatsApp(event) {
     }
 }
 
-// Close confirmation modal
+// Close confirmation modal - update to restore scrolling
 function closeConfirmationModal() {
     document.getElementById('confirmation-modal').style.display = 'none';
     document.body.style.overflow = 'auto';
