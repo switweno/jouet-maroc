@@ -3454,9 +3454,10 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     
 }
 
+/* Order Form Content */
 .order-form-content {
     background-color: #fff;
-    margin: 5% auto;
+    margin: 0 auto; /* إزالة المسافة العلوية وتحديد المسافات الجانبية فقط */
     padding: 25px;
     border-radius: 10px;
     width: 90%;
@@ -3464,8 +3465,9 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
     animation: modalFadeIn 0.4s ease-in-out;
-  
+    margin-top: 2px; /* المسافة من أعلى النافذة (يمكنك تعديل هذه القيمة) */
 }
+
 
 @keyframes modalFadeIn {
     from {
@@ -3480,7 +3482,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .order-form-close {
     position: absolute;
-    top: 10px;
+    top: 1px;
     right: 29px;
     font-size: 30px;
     font-weight: bold;
@@ -3497,7 +3499,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 @media (max-width: 768px) {
     .order-form-content {
         width: 95%;
-        margin: 10% auto;
+      
         padding: 20px;
     }
 }
@@ -3514,7 +3516,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     font-size: 22px; /* تكبير النص */
     font-weight: bold; /* جعله غامقًا */
     text-align: center; /* توسيطه */
-    margin-top: 20px; /* تجنب التداخل مع زر الإغلاق */
+    margin-top: 10px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
     color: #2383e9; /* تغيير اللون */
 }
