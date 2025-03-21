@@ -399,6 +399,75 @@ var productsData = [
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
  },
+  
+  {
+   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
+   title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
+   brand: "LIKEBIKE",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 136,
+   currentPrice: 8099,
+   oldPrice: 10999,
+   discount: 30,
+   images: [
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-06.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-03.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-05.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-07.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-04.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-02.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp"
+   ],
+  features: [
+    {
+        title: "MOTEUR & PERFORMANCE",
+        icon: "fa-bolt",
+        items: [
+            { key: "Puissance", value: "500 W MIN - 720 W MAX" },
+            { key: "Vitesse max", value: "51 km/h" },
+            { key: "Démarrage", value: "Contact électrique" }
+        ]
+    },
+    {
+        title: "BATTERIE & AUTONOMIE",
+        icon: "fa-battery-full",
+        items: [
+            { key: "Batterie", value: "Lithium 48V 18.2AH" },
+            { key: "Autonomie normale", value: "45-60 km MAX" },
+            { key: "Mode assistance", value: "100 km MAX" },
+            { key: "Charge rapide", value: "54V compatible" }
+        ]
+    },
+    {
+        title: "SÉCURITÉ & CONFORT",
+        icon: "fa-shield-alt",
+        items: [
+            { key: "Freinage", value: "Avant et arrière" },
+            { key: "Amortisseurs", value: "Réglables avant et arrière" },
+            { key: "Éclairage", value: "LED avant et arrière + signal à droite et à gauche" },
+            { key: "Pneus", value: "20.4\" avec garde-boue" },
+            { key: "Klaxon", value: "Électrique" },
+            { key: "Charge maximale", value: "130 kg" }
+        ]
+    },
+    {
+        title: "ÉQUIPEMENT & DESIGN",
+        icon: "fa-cogs",
+        items: [
+            { key: "Affichage", value: "Tableau digital multifonction" },
+            { key: "Transmission", value: "Changement Shimano, 7 vitesses" },
+            { key: "Confort", value: "Siège cuir, 2 places" },
+            { key: "Pièces", value: "Shimano de haute qualité" }
+        ]
+    }
+],
+   warranty: "Garantie de 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
+ },
+  
+  
  {
    id: "trottinette-bison-gt-1000",
    title: "TROTTINETTE BISON GT 1000",
