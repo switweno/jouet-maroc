@@ -2789,7 +2789,7 @@ select {
     }
 
     .related-product img {
-        height: 170px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+        height: 180px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
 
     .related-product h3 {
