@@ -840,7 +840,9 @@ if (product.availability === "متوفر في المخزون") {
     // Update price
     document.querySelector('.current-price').textContent = product.currentPrice + " درهم";
     document.querySelector('.old-price').textContent = product.oldPrice + " درهم";
-    document.querySelector('.discount').textContent = "-" + product.discount + "%";
+    document.querySelector('.discount').textContent = "خصم " + product.discount + "%";
+
+
     
     // Update main image with discount badge
     const mainImage = document.getElementById('current-image');
