@@ -2,6 +2,7 @@
 
 // تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
 var productsData = [
+
   
     {
    id: "TROTTINETTE-JOYOR-48V-17.5AH",
@@ -600,6 +601,8 @@ var productsData = [
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   },
+  
+  
   {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
