@@ -3109,12 +3109,12 @@ select {
 
 .scroll-arrow {
     position: absolute;
-    top: 50%;
+    top: 92%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #ffffff;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
