@@ -2465,130 +2465,9 @@ select {
     box-sizing: border-box;
 }
 
-/* قسم المنتجات ذات الصلة - تحسينات المظهر */
-.related-products {
-    background-color: #fff;
-    border-radius: 12px;
-    padding: 25px 20px; /* Increased padding for better inner spacing */
-    margin-bottom: 30px; /* Increased bottom margin */
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-    text-align: center;
-        outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
-}
 
-.related-products h2 {
-    color: #0278f8;
-    font-size: 1.3rem;
-    margin-bottom: 25px; /* Increased bottom margin from 15px to 25px */
-    position: relative;
-    display: inline-block;
-    font-weight: 700;
-    padding: 0 10px; /* Added horizontal padding */
-}
 
-.products-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px; /* Increased gap between products from 20px to 30px */
-    margin-top: 30px; /* Increased top margin from 20px to 30px */
-    padding: 0 10px; /* Added horizontal padding */
-}
 
-.product-link {
-    text-decoration: none !important;
-    color: inherit !important;
-    display: block;
-    width: 280px;
-    max-width: 100%;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-bottom: 20px; /* Increased from 15px to 20px */
-}
-
-.related-product {
-    background-color: #ffffff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: box-shadow 0.3s ease;
-    border: 1px solid rgba(0, 0, 0, 0.04);
-    margin-bottom: 15px; /* Increased from 12px to 15px */
-    padding-bottom: 10px; /* Added padding at the bottom */
-}
-
-.related-product h3 {
-    margin: 15px 12px 10px; /* Modified margins (top, sides, bottom) */
-    font-size: 1.15rem;
-    color: #333;
-    text-align: center;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Cairo', 'Tajawal', sans-serif;
-    font-weight: 600;
-    padding: 0 8px; /* Increased horizontal padding */
-    line-height: 1.4;
-}
-
-.related-price-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0 15px; /* Increased top and bottom margins */
-    padding: 0 15px;
-}
-
-/* Media queries for responsive design */
-@media (max-width: 767px) {
-    .products-grid {
-        gap: 20px; /* Increased from 16px to 20px */
-        padding: 0 5px; /* Reduced horizontal padding for medium screens */
-    }
-    
-    .product-link {
-        width: 46%; /* Slightly reduced from 48% to create more space */
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .related-products {
-        padding: 20px 10px; /* Adjusted padding for small screens */
-    }
-    
-    .products-grid {
-        gap: 15px; /* Reduced from 33px for better spacing */
-        row-gap: 25px; /* Added specific row gap for vertical spacing */
-    }
-
-    .product-link {
-        width: 45%; /* Changed from 60% for better alignment */
-        margin-bottom: 5px;
-        max-width: 150px; /* Increased from 130px for slightly larger thumbnails */
-    }
-}
-
-@media (max-width: 380px) {
-    .products-grid {
-        gap: 10px; /* Reduced from 19px */
-        row-gap: 25px; /* Specific row gap for vertical spacing */
-    }
-   
-    .product-link {
-        width: 45%; /* Changed from 100% */
-        max-width: 140px; /* Increased from 130px */
-    }
-    
-    .related-product img {
-        height: 140px; /* Increased from 130px */
-    }
-}
 
 /* قسم المنتجات ذات الصلة - تحسينات المظهر */
 .related-products {
@@ -2709,23 +2588,13 @@ select {
 }
 
 .related-old-price {
-    color: #67062d;
+    color: rgb(103, 6, 45);
     text-decoration: line-through;
     font-size: 1rem;
     position: relative;
     display: inline-block;
 }
 
-.related-old-price::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background-color: #777;
-    top: 50%;
-    left: 0;
-    transform: rotate(-8deg);
-}
 
 /* تعديلات للأجهزة المحمولة */
 @media (max-width: 767px) {
@@ -2745,7 +2614,7 @@ select {
     }
 
     .related-product img {
-        height: 280px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 350px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -2789,7 +2658,7 @@ select {
     }
 
     .related-product img {
-        height: 180px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+        height: 210px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
 
     .related-product h3 {
@@ -2822,7 +2691,7 @@ select {
     }
 
     .related-product img {
-        height: 140px; /* تكبير الصورة قليلاً */
+        height: 160px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
