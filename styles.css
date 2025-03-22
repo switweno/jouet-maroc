@@ -358,12 +358,12 @@ header {
 /* أنماط نافذة المنتجات المنبثقة */
 .category-popup {
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     width: 90%;
-    max-width: 800px;
-    max-height: 80vh;
+    max-width: 1200px;
+    max-height: 85vh;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -374,6 +374,7 @@ header {
     transition: all 0.3s;
     direction: rtl; /* تحديد اتجاه RTL بشكل صريح */
 }
+
 
 .category-popup.show {
     display: block;
@@ -443,12 +444,7 @@ header {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* التنسيق الافتراضي للشاشات الكبيرة */
-.popup-product img {
-    width: 100%;
-    height: 316px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
-    object-fit: cover;
-}
+
 
 .popup-product-info {
     padding: 12px;
@@ -478,17 +474,33 @@ header {
     font-size: 1.1rem;
 }
 
-/* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
-@media (max-width: 812px) {
-    .popup-products {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-    
+
+
+/* التنسيق الافتراضي للشاشات الكبيرة */
+.popup-product img {
+    width: auto; /* يحافظ على النسبة الأصلية */
+    max-width: 100%; /* يمنع الصورة من الخروج عن الإطار */
+    height: 316px; /* يحدد ارتفاعًا مناسبًا */
+    object-fit: cover; /* يملأ الإطار مع اقتصاص الأجزاء غير المهمة */
+    object-position: top; /* يركز على الجزء السفلي من الصورة ويقص الجزء العلوي */
+    display: block;
+    margin: 0 auto; /* يوسّط الصورة أفقيًا */
+}
+
+/* للشاشات المتوسطة (الأجهزة اللوحية) */
+@media (max-width: 1024px) {
     .popup-product img {
-        width: 50%;
-    height: 152px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
+        height: 250px;
     }
 }
+
+/* للشاشات الصغيرة (الهواتف) */
+@media (max-width: 768px) {
+    .popup-product img {
+        height: 150px;
+    }
+}
+
 
 /* تحسين القائمة الأفقية في الشاشات الكبيرة */
 .desktop-categories {
