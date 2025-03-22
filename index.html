@@ -87,7 +87,7 @@
   
  <!-- شريط العروض -->
     <div class="offer-bar">
-        <button class="arrow left-arrow" onclick="scrollOffers('next')">&#10094;</button>
+        <button class="arrow left-arrow" onclick="scrollOffers('prev')">&#10094;</button>
         <div class="offer-container">
             <div class="offer-slider">
                 <div class="offer-item">التوصيل مجاني لجميع المدن المغربية</div>
@@ -95,7 +95,7 @@
                 <div class="offer-item">عروض نهاية الموسم - وفر حتى 50%</div>
             </div>
         </div>
-        <button class="arrow right-arrow" onclick="scrollOffers('prev')">&#10095;</button>
+        <button class="arrow right-arrow" onclick="scrollOffers('next')">&#10095;</button>
     </div>
 
 <header id="navbar">
@@ -192,12 +192,12 @@
         <div class="product-details">
             <div class="product-gallery">
                 <div class="main-image">
-                    <button class="scroll-arrow arrow-left" onclick="navigateImages(-1)" aria-label="السابق">
-                        <i class="fas fa-chevron-left"></i>
+                    <button class="scroll-arrow arrow-right" onclick="navigateImages(-1)" aria-label="السابق">
+                        <i class="fas fa-chevron-right"></i>
                     </button>
                     <img id="current-image" src="product1.webp" alt="الصورة الرئيسية">
-                    <button class="scroll-arrow arrow-right" onclick="navigateImages(1)" aria-label="التالي">
-                        <i class="fas fa-chevron-right"></i>
+                    <button class="scroll-arrow arrow-left" onclick="navigateImages(1)" aria-label="التالي">
+                        <i class="fas fa-chevron-left"></i>
                     </button>
                     
                 </div>
