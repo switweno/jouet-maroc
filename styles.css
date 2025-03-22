@@ -2882,7 +2882,7 @@ select {
     }
 
     .related-product img {
-        height: 317px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 361px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -2926,7 +2926,7 @@ select {
     }
 
     .related-product img {
-        height: 210px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+        height: 229px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
 
     .related-product h3 {
@@ -2959,7 +2959,7 @@ select {
     }
 
     .related-product img {
-        height: 160px; /* تكبير الصورة قليلاً */
+        height: 185px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
