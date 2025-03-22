@@ -415,12 +415,9 @@ header {
 .popup-content {
     padding: 20px;
     overflow-y: auto;
-    max-height: calc(97vh - 100px); /* الحد الأقصى حسب الشاشة */
-    min-height: fit-content; /* يجعلها تتمدد تلقائيًا */
-    height: auto; /* يسمح لها بالتمدد حسب المحتوى */
-    text-align: center;
+    max-height: calc(97vh - 100px);
+   text-align: center;
 }
-
 
 .popup-products {
     display: grid;
