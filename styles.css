@@ -359,7 +359,7 @@ header {
     transform: translate(-50%, -50%) scale(0.9);
     width: 90%;
     max-width: 1200px;
-    max-height: 85vh;
+    max-height: 95vh;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -368,14 +368,14 @@ header {
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s;
-    direction: rtl; /* تحديد اتجاه RTL بشكل صريح */
+     
 }
 
 
 .category-popup.show {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -55%) scale(1);
 }
 
 .popup-header {
