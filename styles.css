@@ -69,9 +69,113 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row; /* تغيير إلى row بدلاً من row-reverse */
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
 }
 
+/* تنسيق اللوغو ووضعه في موضع ثابت في اليسار */
+.site-brand {
+    position: absolute;
+    left: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    height: 20px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* أنماط زر القائمة - ضبطه في الجانب الأيمن */
+.menu-toggle {
+    order: 1;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: rgba(214, 210, 210, 0);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 5px 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* وضع قائمة التصنيفات الأفقية في اليمين */
+.desktop-categories {
+    order: 1;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* تحسينات للقائمة الأفقية في الشاشات المختلفة */
+@media (min-width: 992px) {
+    /* إظهار القائمة الأفقية في الشاشات الكبيرة */
+    .desktop-categories {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 15px;
+    }
+    
+    /* تأكيد موضع اللوغو في الشاشات الكبيرة */
+    .site-brand {
+        position: absolute;
+        left: 15px;
+    }
+}
+
+/* تعديلات خاصة للشاشات الصغيرة والمتوسطة */
+@media (max-width: 991px) {
+    .site-brand {
+        left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .site-brand {
+        left: 5px;
+    }
+    
+    .site-logo {
+        height: 18px;
+    }
+}
+
+/* تحسينات القائمة الأفقية في الشاشات الكبيرة */
+@media (min-width: 992px) {
+    /* إظهار القائمة الأفقية في الشاشات الكبيرة */
+    .desktop-categories {
+        display: flex;
+        justify-content: flex-end; /* محاذاة القائمة إلى اليمين */
+        align-items: center;
+    }
+    
+    .desktop-categories ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+    
+    /* ...existing code... */
+    
+    /* توسيط شعار الموقع مع منح مساحة كافية للقائمة */
+    .site-brand {
+        margin-right: auto; /* دفع اللوغو إلى اليسار */
+        margin-left: 10px; /* إضافة مسافة صغيرة من اليسار */
+    }
+}
 
 /* أنماط زر القائمة */
 .menu-toggle {
@@ -239,7 +343,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgb(255, 255, 255);
     z-index: 999;
     display: none;
     transition: opacity 0.3s;
@@ -315,14 +419,14 @@ header {
     padding: 20px;
     overflow-y: auto;
     max-height: calc(80vh - 70px);
-    direction: rtl; /* تأكيد اتجاه RTL للمحتوى */
+   text-align: center;
 }
 
 .popup-products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15px;
-    text-align: right; /* محاذاة النص إلى اليمين */
+    text-align: center; /* محاذاة النص إلى اليمين */
 }
 
 .popup-product {
@@ -342,13 +446,13 @@ header {
 /* التنسيق الافتراضي للشاشات الكبيرة */
 .popup-product img {
     width: 100%;
-    height: 200px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
+    height: 316px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
     object-fit: cover;
 }
 
 .popup-product-info {
     padding: 12px;
-    text-align: right; /* محاذاة النص إلى اليمين */
+    text-align: center; /* محاذاة النص إلى اليمين */
 }
 
 .popup-product-title {
@@ -375,13 +479,14 @@ header {
 }
 
 /* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .popup-products {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
     
     .popup-product img {
-        height: 150px;
+        width: 50%;
+    height: 152px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
     }
 }
 
@@ -738,7 +843,7 @@ header {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
     padding: 0.3em 0.8em;
     font-size: 0.8rem;
-    direction:;
+   
     border-radius: 0 20px 0 20px; /* انحناء في الأعلى اليمين والأسفل اليسار */
 }
 
@@ -1144,14 +1249,6 @@ header {
     color: white;
 }
 
-/* إضافة تأثير الارتعاش */
-@keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-10px); }
-  50% { transform: translateX(10px); }
-  75% { transform: translateX(-10px); }
-  100% { transform: translateX(0); }
-}
 
 
 
@@ -2846,7 +2943,7 @@ select {
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    z-index: 999; /* أعلى من z-index لزر العودة */
+    z-index: 998; /* أعلى من z-index لزر العودة */
 }
 
 #chatButton:hover {
@@ -2883,7 +2980,7 @@ select {
   border-radius: 12px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  z-index: 999; /* تأكد من أن النافذة تظهر فوق العناصر الأخرى */
+  z-index: 996; /* تأكد من أن النافذة تظهر فوق العناصر الأخرى */
 }
 
 .chat-header {
