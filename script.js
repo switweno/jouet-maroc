@@ -403,7 +403,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11"; // Default product
+        productId = "kukarin-g2-pro"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -903,7 +903,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11"; // Default product
+            productId = "kukarin-g2-pro"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم

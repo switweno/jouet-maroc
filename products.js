@@ -228,10 +228,10 @@ var productsData = [
    oldPrice: 8499,
    discount: 30,
    images: [
-     "dualtron-pop/dualtron-pop_52v_02.webp",
+     "dualtron-pop/dualtron-pop_52v_04.webp",
      "dualtron-pop/dualtron-pop_52v_01.webp",
      "dualtron-pop/dualtron-pop_52v_03.webp",
-     "dualtron-pop/dualtron-pop_52v_04.webp",
+     "dualtron-pop/dualtron-pop_52v_02.webp",
      "dualtron-pop/dualtron-pop_52v_05.webp",
      "dualtron-pop/dualtron-pop_52v_06.webp",
      "dualtron-pop/dualtron-pop_52v_07.webp"
@@ -481,13 +481,13 @@ var productsData = [
    oldPrice: 7099,
    discount: 20,
    images: [
-     "bison-gt-1000-1.webp",
-     "bison-gt-1000-2.webp",
-     "bison-gt-1000-3.webp",
-     "bison-gt-1000-4.webp",
-     "bison-gt-1000-5.webp",
-     "bison-gt-1000-6.webp",
-     "bison-gt-1000-7.webp"
+     "bison-gt/bison-gt-1000-1.webp",
+     "bison-gt/bison-gt-1000-2.webp",
+     "bison-gt/bison-gt-1000-3.webp",
+     "bison-gt/bison-gt-1000-4.webp",
+     "bison-gt/bison-gt-1000-5.webp",
+     "bison-gt/bison-gt-1000-6.webp",
+     "bison-gt/bison-gt-1000-7.webp"
    ],
    features: [
      {
@@ -542,13 +542,14 @@ var productsData = [
    oldPrice: 4199,
    discount: 30,
    images: [
-     "ecoxtrem-linear-01.webp",
-     "ecoxtrem-linear-02.webp",
-     "ecoxtrem-linear-03.webp",
-     "ecoxtrem-linear-04.webp",
-     "ecoxtrem-linear-05.webp",
-     "ecoxtrem-linear-06.webp",
-     "ecoxtrem-linear-07.webp"
+     "ecoxtrem-linear/ecoxtrem-linear-01.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-08.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-02.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-03.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-04.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-05.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-06.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-07.webp"
    ],
    features: [
      {
@@ -615,11 +616,11 @@ var productsData = [
    oldPrice: 2350,
    discount: 30,
    images: [
-     "voiture_range_rover_police/voiture_range_rover_police-01.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-05.webp",
      "voiture_range_rover_police/voiture_range_rover_police-02.webp",
      "voiture_range_rover_police/voiture_range_rover_police-03.webp",
      "voiture_range_rover_police/voiture_range_rover_police-04.webp",
-     "voiture_range_rover_police/voiture_range_rover_police-05.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-01.webp",
      "voiture_range_rover_police/voiture_range_rover_police-06.webp",
      "voiture_range_rover_police/voiture_range_rover_police-07.webp"
    ],
