@@ -268,6 +268,7 @@ header {
     overflow: hidden;
     opacity: 0;
     transition: all 0.3s;
+    direction: rtl; /* تحديد اتجاه RTL بشكل صريح */
 }
 
 .category-popup.show {
@@ -288,7 +289,8 @@ header {
 .popup-header h3 {
     margin: 0;
     font-size: 1.3rem;
-    color:  #1f0201;
+    color: #1f0201;
+    font-family: 'Cairo', 'Tajawal', sans-serif; /* تحسين الخط للعربية */
 }
 
 .popup-close {
@@ -305,22 +307,22 @@ header {
     justify-content: center;
     border-radius: 50%;
     transition: background-color 0.3s;
-}
-
-.popup-close:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 0; /* تصحيح الهامش في وضع RTL */
+    margin-left: auto; /* ضبط المحاذاة في وضع RTL */
 }
 
 .popup-content {
     padding: 20px;
     overflow-y: auto;
-    max-height: calc(80vh - 70px); /* ارتفاع النافذة ناقص ارتفاع الهيدر */
+    max-height: calc(80vh - 70px);
+    direction: rtl; /* تأكيد اتجاه RTL للمحتوى */
 }
 
 .popup-products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15px;
+    text-align: right; /* محاذاة النص إلى اليمين */
 }
 
 .popup-product {
@@ -329,6 +331,7 @@ header {
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .popup-product:hover {
@@ -339,24 +342,13 @@ header {
 /* التنسيق الافتراضي للشاشات الكبيرة */
 .popup-product img {
     width: 100%;
-    height: 300px;
+    height: 200px; /* ارتفاع ثابت أصغر للصور في النافذة المنبثقة */
     object-fit: cover;
 }
 
-/* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
-@media (max-width: 768px) {
-    .popup-product img {
-        width: 50%;
-        height: 150px;
-        object-fit: cover;
-        transform: translate(-50%, 0%);
-    }
-}
-
-
 .popup-product-info {
-    padding: 10px;
-    text-align: center;
+    padding: 12px;
+    text-align: right; /* محاذاة النص إلى اليمين */
 }
 
 .popup-product-title {
@@ -364,16 +356,99 @@ header {
     font-weight: 600;
     margin: 0 0 8px;
     color: #333;
+    font-family: 'Cairo', 'Tajawal', sans-serif; /* تحسين الخط للعربية */
 }
 
 .popup-product-price {
-    color:#eb0861;
+    color: #eb0861;
     font-weight: 700;
     font-size: 1.1rem;
 }
 
-/* التأثير عند الفتح والإغلاق */
-@media (max-width: 767px) {
+/* رسالة عدم وجود منتجات */
+.no-products-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
+@media (max-width: 768px) {
+    .popup-products {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .popup-product img {
+        height: 150px;
+    }
+}
+
+/* تحسين القائمة الأفقية في الشاشات الكبيرة */
+.desktop-categories {
+    display: none; /* إخفاء افتراضي */
+}
+
+@media (min-width: 992px) {
+    /* إظهار القائمة الأفقية في الشاشات الكبيرة */
+    .desktop-categories {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .desktop-categories ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+    
+    .desktop-category {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .desktop-category:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .desktop-category i {
+        font-size: 1.1rem;
+    }
+    
+    .desktop-category span {
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+    
+    /* إخفاء زر القائمة في الشاشات الكبيرة */
+    .menu-toggle {
+        display: none;
+    }
+    
+    /* توسيع الهيدر ليناسب القائمة الأفقية */
+    .header-content {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    
+    /* توسيط شعار الموقع مع منح مساحة كافية للقائمة */
+    .site-brand {
+        margin-left: auto;
+    }
+}
+
+/* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
+@media (max-width: 768px) {
     .sidebar-menu {
         width: 46%; /* عرض مناسب للأجهزة المحمولة */
     }
@@ -425,29 +500,30 @@ header {
         align-items: stretch;
     }
     
-    /* تحديد نسب محددة للعناصر على الشاشات الكبيرة */
+    /* تحديد نسب متساوية تماماً على جميع الشاشات الكبيرة */
     .product-gallery {
-        flex: 0 0 50%; /* لا تسمح بالتقلص، 50% من العرض */
+        flex: 1 0 50%; /* تحديد النسبة إلى 50% بالضبط */
         max-width: 50%;
+        width: 50%;
+        box-sizing: border-box;
     }
     
     .product-info {
-        flex: 0 0 50%; /* لا تسمح بالتقلص، 50% من العرض */
+        flex: 1 0 50%; /* تحديد النسبة إلى 50% بالضبط */
         max-width: 50%;
-        min-width: 400px; /* الحد الأدنى للعرض لضمان سهولة القراءة */
+        width: 50%;
+        box-sizing: border-box;
+        min-width: 0; /* إزالة الحد الأدنى للعرض الذي قد يتسبب في المشكلة */
     }
 }
 
-/* للشاشات الأكبر، تحسين النسب أكثر */
+/* إزالة الأحجام المختلفة للشاشات الكبيرة جداً لضمان ثبات النسب على 50% */
 @media (min-width: 1200px) {
-    .product-gallery {
-        flex: 0 0 45%; /* تقليل حجم المعرض قليلاً على الشاشات الكبيرة جداً */
-        max-width: 45%;
-    }
-    
+    .product-gallery,
     .product-info {
-        flex: 0 0 55%; /* زيادة مساحة التفاصيل */
-        max-width: 55%;
+        flex: 1 0 50%;
+        max-width: 50%;
+        width: 50%;
     }
 }
 
@@ -3430,6 +3506,69 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     margin-top: 10px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
     color: #2383e9; /* تغيير اللون */
+}
+
+/* تنسيق القائمة الأفقية في الشاشات الكبيرة */
+.desktop-categories {
+    display: none; /* إخفاء افتراضي */
+}
+
+@media (min-width: 992px) {
+    /* إظهار القائمة الأفقية في الشاشات الكبيرة */
+    .desktop-categories {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .desktop-categories ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+    }
+    
+    .desktop-category {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .desktop-category:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .desktop-category i {
+        font-size: 1.1rem;
+    }
+    
+    .desktop-category span {
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+    
+    /* إخفاء زر القائمة في الشاشات الكبيرة */
+    .menu-toggle {
+        display: none;
+    }
+    
+    /* توسيع الهيدر ليناسب القائمة الأفقية */
+    .header-content {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    
+    /* توسيط شعار الموقع مع منح مساحة كافية للقائمة */
+    .site-brand {
+        margin-left: auto;
+    }
 }
 
 

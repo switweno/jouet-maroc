@@ -2012,6 +2012,209 @@ document.addEventListener("DOMContentLoaded", startAutoScroll);
 document.querySelector('.offer-slider').addEventListener('mouseenter', stopAutoScroll);
 document.querySelector('.offer-slider').addEventListener('mouseleave', startAutoScroll);
 
+// إضافة مستمعات الأحداث للقائمة الأفقية في الشاشات الكبيرة
+document.addEventListener('DOMContentLoaded', function() {
+    // الكود الموجود...
+    
+    // إضافة مستمعات الأحداث للفئات في القائمة الأفقية
+    const desktopCategories = document.querySelectorAll('.desktop-category');
+    desktopCategories.forEach(category => {
+        category.addEventListener('click', function() {
+            const categoryName = this.getAttribute('data-category');
+            showCategoryPopup(categoryName);
+        });
+    });
+    
+    // دالة لعرض نافذة الفئة (يمكن استخدام نفس الدالة الموجودة)
+    function showCategoryPopup(categoryName) {
+        // إذا كانت الدالة موجودة بالفعل، استخدمها
+        if (typeof showCategoryProducts === 'function') {
+            showCategoryProducts(categoryName);
+        } else {
+            // إنشاء دالة بديلة إذا لم تكن موجودة
+            const categoryTitle = document.getElementById('popup-category-title');
+            const popupProducts = document.getElementById('popup-products');
+            
+            // تعيين عنوان الفئة
+            categoryTitle.textContent = getCategoryTitle(categoryName);
+            
+            // عرض منتجات الفئة (هذا يعتمد على بنية البيانات الخاصة بك)
+            popupProducts.innerHTML = ''; // مسح المحتوى السابق
+            
+            // عرض النافذة المنبثقة
+            document.getElementById('category-popup').classList.add('show');
+            document.getElementById('overlay').classList.add('show');
+        }
+    }
+    
+    // دالة مساعدة للحصول على عنوان الفئة
+    function getCategoryTitle(categoryName) {
+        const titles = {
+            'electric-bikes': 'الدراجات الكهربائية',
+            'scooters': 'تروتنيت',
+            'bikes': 'الدراجات الهوائية',
+            'electric-cars': 'سيارات كهربائية'
+        };
+        return titles[categoryName] || 'منتجات الفئة';
+    }
+});
+
+// تحسين دالة تحميل منتجات الفئات للنافذة المنبثقة
+function showCategoryProducts(categoryId) {
+    const categoryPopup = document.getElementById('category-popup');
+    const popupCategoryTitle = document.getElementById('popup-category-title');
+    const popupProducts = document.getElementById('popup-products');
+    const overlay = document.getElementById('overlay');
+    
+    // تعيين عنوان الفئة
+    popupCategoryTitle.textContent = getCategoryTitle(categoryId);
+    
+    // تنظيف المحتوى السابق
+    popupProducts.innerHTML = '';
+    
+    // الحصول على منتجات الفئة المحددة
+    const categoryProducts = filterProductsByCategory(getCategoryName(categoryId));
+    
+    // إضافة رسالة إذا لم تكن هناك منتجات
+    if (categoryProducts.length === 0) {
+        const noProductsMessage = document.createElement('div');
+        noProductsMessage.className = 'no-products-message';
+        noProductsMessage.textContent = 'لا توجد منتجات في هذه الفئة حالياً';
+        popupProducts.appendChild(noProductsMessage);
+    } else {
+        // إضافة المنتجات إلى النافذة المنبثقة
+        categoryProducts.forEach(product => {
+            // إنشاء عنصر المنتج
+            const productEl = createProductElement(product);
+            popupProducts.appendChild(productEl);
+        });
+    }
+    
+    // عرض النافذة المنبثقة والخلفية
+    categoryPopup.classList.add('show');
+    overlay.classList.add('show');
+    
+    // منع التمرير في الخلفية
+    document.body.style.overflow = 'hidden';
+}
+
+// دالة مساعدة للحصول على عنوان الفئة
+function getCategoryTitle(categoryId) {
+    const titles = {
+        'electric-bikes': 'الدراجات الكهربائية',
+        'scooters': 'تروتنيت',
+        'bikes': 'الدراجات الهوائية',
+        'electric-cars': 'سيارات كهربائية'
+    };
+    return titles[categoryId] || 'منتجات الفئة';
+}
+
+// دالة مساعدة للحصول على اسم الفئة
+function getCategoryName(categoryId) {
+    const names = {
+        'electric-bikes': 'دراجات كهربائية',
+        'scooters': 'تروتنيت',
+        'bikes': 'دراجات هواىية', // تصحيح: استخدام الألف المقصورة "ى" بدلاً من "ي"
+        'electric-cars': 'سيارات كهربائية'
+    };
+    return names[categoryId] || '';
+}
+
+// فلترة المنتجات حسب الفئة
+function filterProductsByCategory(category) {
+    // استخدام المتغير العام products إذا كان موجوداً، أو مصفوفة فارغة إذا لم يكن
+    const allProducts = window.products || [];
+    
+    // طباعة قائمة المنتجات وفئاتها للتشخيص
+    console.log("جميع الفئات المتاحة:", allProducts.map(p => p.category).filter((v, i, a) => a.indexOf(v) === i));
+    
+    // البحث عن المنتجات حسب الفئة
+    const filteredProducts = allProducts.filter(product => product.category === category);
+    
+    // طباعة عدد المنتجات التي تم العثور عليها
+    console.log(`تم العثور على ${filteredProducts.length} منتج في فئة "${category}"`);
+    
+    return filteredProducts;
+}
+
+// إنشاء عنصر منتج للنافذة المنبثقة
+function createProductElement(product) {
+    const productDiv = document.createElement('div');
+    productDiv.className = 'popup-product';
+    
+    // إضافة الصورة والمعلومات
+    productDiv.innerHTML = `
+        <img src="${product.images[0]}" alt="${product.title}">
+        <div class="popup-product-info">
+            <h4 class="popup-product-title">${product.title}</h4>
+            <div class="popup-product-price">${product.currentPrice} درهم</div>
+        </div>
+    `;
+    
+    // إضافة معالج النقر
+    productDiv.addEventListener('click', function() {
+        // تغيير عنوان URL والانتقال إلى صفحة المنتج
+        window.location.href = `?product=${product.id}`;
+        
+        // إغلاق النافذة المنبثقة
+        document.getElementById('category-popup').classList.remove('show');
+        document.getElementById('overlay').classList.remove('show');
+        document.body.style.overflow = 'auto';
+    });
+    
+    return productDiv;
+}
+
+// تعديل معالج أحداث القائمتين (الجانبية والأفقية)
+document.addEventListener('DOMContentLoaded', function() {
+    // ...existing code...
+    
+    // إضافة مستمعات الأحداث للفئات في القائمة الجانبية
+    const sidebarCategories = document.querySelectorAll('.sidebar-category');
+    sidebarCategories.forEach(category => {
+        category.addEventListener('click', function() {
+            const categoryId = this.getAttribute('data-category');
+            // إغلاق القائمة الجانبية عند اختيار فئة
+            document.getElementById('sidebar-menu').classList.remove('open');
+            showCategoryProducts(categoryId);
+        });
+    });
+    
+    // إضافة مستمعات الأحداث للفئات في القائمة الأفقية
+    const desktopCategories = document.querySelectorAll('.desktop-category');
+    desktopCategories.forEach(category => {
+        category.addEventListener('click', function() {
+            const categoryId = this.getAttribute('data-category');
+            showCategoryProducts(categoryId);
+        });
+    });
+    
+    // إغلاق النافذة المنبثقة عند النقر على زر الإغلاق
+    const popupClose = document.getElementById('popup-close');
+    if (popupClose) {
+        popupClose.addEventListener('click', function() {
+            document.getElementById('category-popup').classList.remove('show');
+            document.getElementById('overlay').classList.remove('show');
+            document.body.style.overflow = 'auto';
+        });
+    }
+    
+    // إغلاق النافذة المنبثقة عند النقر على الخلفية
+    const overlay = document.getElementById('overlay');
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            const categoryPopup = document.getElementById('category-popup');
+            if (categoryPopup.classList.contains('show')) {
+                categoryPopup.classList.remove('show');
+                this.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
+
+// ...existing code...
+
 
 
 
