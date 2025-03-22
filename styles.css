@@ -354,7 +354,7 @@ header {
 /* أنماط نافذة المنتجات المنبثقة */
 .category-popup {
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     width: 90%;
@@ -375,7 +375,7 @@ header {
 .category-popup.show {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -55%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .popup-header {
@@ -415,9 +415,12 @@ header {
 .popup-content {
     padding: 20px;
     overflow-y: auto;
-    max-height: calc(80vh - 70px);
-   text-align: center;
+    max-height: calc(97vh - 100px); /* الحد الأقصى حسب الشاشة */
+    min-height: fit-content; /* يجعلها تتمدد تلقائيًا */
+    height: auto; /* يسمح لها بالتمدد حسب المحتوى */
+    text-align: center;
 }
+
 
 .popup-products {
     display: grid;
