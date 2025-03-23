@@ -489,8 +489,7 @@ features: [
     icon: "fa-bolt",
     items: [
       { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse", value: "50 km/h MAX" },
-      { key: "Démarrage", value: "Contact électrique" }
+      { key: "Vitesse Max", value: "50 km/h MAX" }
     ]
   },
   {
@@ -498,32 +497,46 @@ features: [
     icon: "fa-battery-full",
     items: [
       { key: "Batterie", value: "Lithium 48V 13AH" },
-      { key: "Autonomie normale", value: "45-55 km MAX" },
-      { key: "Charge rapide", value: "54V compatible" }
+      { key: "Autonomie", value: "45-55 km" },
+      { key: "Charge rapide", value: "Compatible 54V" }
+    ]
+  },
+  {
+    title: "TABLEAU DIGITAL & SYSTÈME ÉLECTRIQUE",
+    icon: "fa-desktop",
+    items: [
+      { key: "Affichage", value: "Digital multifonction" },
+      { key: "Vitesses moteur", value: "5 vitesses (5E)" }
     ]
   },
   {
     title: "SÉCURITÉ & CONFORT",
     icon: "fa-shield-alt",
     items: [
-      { key: "Freins", value: "Avant et arrière" },
-      { key: "Amortisseurs", value: "Réglable avant" },
-      { key: "Éclairage", value: "LED avant et arrière + klaxon" },
-      { key: "Pneus", value: "20 pouces avec garde-boue" },
+      { key: "Freins", value: "AV/AR" },
+      { key: "Amortisseurs", value: "Réglable AV" },
+      { key: "Éclairage", value: "LED AV/AR + klaxon" },
+      { key: "Pneus", value: "20'' avec garde-boue" },
       { key: "Siège", value: "Cuir confortable" }
     ]
   },
   {
-    title: "ÉQUIPEMENT & DESIGN",
+    title: "TRANSMISSION MANUELLE",
     icon: "fa-cogs",
     items: [
-      { key: "Affichage", value: "Tableau digital multifonction" },
-      { key: "Transmission", value: "Changement Shimano (5e et 7e vitesse)" },
-      { key: "Confort", value: "Siège cuir, porte-bagage" },
-      { key: "Charge maximale", value: "130 kg" }
+      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
+      { key: "Système", value: "Changement Shimano" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT & DESIGN",
+    icon: "fa-cube",
+    items: [
+      { key: "Confort", value: "Porte-bagage inclus" },
+      { key: "Charge max", value: "130 kg" }
     ]
   }
-   ],
+],
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
  },
@@ -557,8 +570,7 @@ features: [
     icon: "fa-bolt",
     items: [
       { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse", value: "50 km/h MAX" },
-      { key: "Démarrage", value: "Contact électrique" }
+      { key: "Vitesse Max", value: "50 km/h MAX" }
     ]
   },
   {
@@ -566,8 +578,16 @@ features: [
     icon: "fa-battery-full",
     items: [
       { key: "Batterie", value: "Lithium 48V 13AH" },
-      { key: "Autonomie normale", value: "45-55 km MAX" },
-      { key: "Charge rapide", value: "54V compatible" }
+      { key: "Autonomie", value: "45-55 km MAX" },
+      { key: "Charge rapide", value: "Compatible 54V" }
+    ]
+  },
+  {
+    title: "TABLEAU DIGITAL & SYSTÈME ÉLECTRIQUE",
+    icon: "fa-desktop",
+    items: [
+      { key: "Affichage", value: "Digital multifonction" },
+      { key: "Vitesses moteur", value: "5 vitesses (5E)" }
     ]
   },
   {
@@ -582,16 +602,24 @@ features: [
     ]
   },
   {
-    title: "ÉQUIPEMENT & DESIGN",
+    title: "TRANSMISSION MANUELLE",
     icon: "fa-cogs",
     items: [
-      { key: "Affichage", value: "Tableau digital multifonction" },
-      { key: "Transmission", value: "Changement Shimano (5e et 7e vitesse)" },
-      { key: "Confort", value: "Siège cuir, porte-bagage inclus" },
-      { key: "Charge maximale", value: "130 kg" }
+      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
+      { key: "Système", value: "Changement Shimano" },
+      { key: "Pièces", value: "Pièces Shimano" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT & DESIGN",
+    icon: "fa-cube",
+    items: [
+      { key: "Porte-bagage", value: "Inclus" },
+      { key: "Charge max", value: "130 kg" }
     ]
   }
    ],
+   
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
  },
@@ -628,38 +656,38 @@ features: [
     icon: "fa-bolt",
     items: [
       { key: "Puissance", value: "400 W MAX" },
-      { key: "Vitesse", value: "46 km/h MAX" },
-      { key: "Démarrage", value: "Contact électrique" }
+      { key: "Vitesse Max", value: "46 KM" },
+      { key: "Démarrage", value: "Contact" }
     ]
   },
   {
     title: "BATTERIE & AUTONOMIE",
     icon: "fa-battery-full",
     items: [
-      { key: "Batterie", value: "Lithium 48V 15.6AH" },
-      { key: "Autonomie normale", value: "45-55 km MAX" },
-      { key: "Charge rapide", value: "54V compatible" }
+      { key: "Batterie", value: "48V 15.6AH Lithium" },
+      { key: "Autonomie", value: "45-55 KM MAX" },
+      { key: "Charge", value: "54V compatible" }
     ]
   },
   {
     title: "SÉCURITÉ & CONFORT",
     icon: "fa-shield-alt",
     items: [
-      { key: "Freins", value: "Avant et arrière" },
-      { key: "Amortisseurs", value: "Double amortisseur" },
-      { key: "Éclairage", value: "LED avant et arrière" },
+      { key: "Freins", value: "AV/AR" },
+      { key: "Amortisseurs", value: "Double" },
+      { key: "LED", value: "AV/AR" },
       { key: "Pneus", value: "14 pouces" },
-      { key: "Siège", value: "2 places en cuir confortable" }
+      { key: "Siège", value: "2 places cuir" }
     ]
   },
   {
     title: "ÉQUIPEMENT & DESIGN",
     icon: "fa-cogs",
     items: [
-      { key: "Affichage", value: "Tableau digital multifonction" },
-      { key: "Transmission", value: "3 niveaux de vitesse + 1 vitesse pédale" },
-      { key: "Confort", value: "Vélo pliable, double amortisseur" },
-      { key: "Charge maximale", value: "120 kg" }
+      { key: "Affichage", value: "TABLEAU DIGITAL" },
+      { key: "Vitesse", value: "3 niveaux + 1 pédale" },
+      { key: "Confort", value: "Vélo pliable" },
+      { key: "Charge max", value: "120 kg" }
     ]
   }
 ],
