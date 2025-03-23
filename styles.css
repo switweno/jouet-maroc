@@ -461,7 +461,7 @@ header {
 .popup-product-price {
     color: #eb0861;
     font-weight: 700;
-     font-size: 0.9rem;
+     font-size: 1rem;
 }
 
 /* رسالة عدم وجود منتجات */
@@ -1415,7 +1415,7 @@ header {
     }
     
     .current-price {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     
     .product-description {
@@ -2728,7 +2728,7 @@ select {
     }
 
     .related-price {
-        font-size: 1.05rem;
+        font-size: 1.2rem;
     }
 
     .related-old-price {
@@ -2774,7 +2774,7 @@ select {
     }
 
     .related-price {
-        font-size: 0.98rem;
+        font-size: 1.1rem;
     }
 
     .related-old-price {
@@ -2818,7 +2818,7 @@ select {
     }
 
     .related-price {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .related-old-price {
