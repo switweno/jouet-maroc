@@ -361,34 +361,27 @@ features: [
      "vtt_27/vtt_27_02.webp",
      "vtt_27/vtt_27_01.webp"
    ],
-   features: [
+  features: [
   {
-    title: "PRINCIPAL",
-    icon: "fa-bicycle",
-    items: [
-      { key: "Matériau", value: "VÉLO ALUMINIUM" },
-      { key: "Roues", value: "27 POUCES" },
-      { key: "Matériau", value: "ROUE DE VÉLO ALUMINIUM" },
-      { key: "Changement", value: "CHANGEMENT LXYANG" },
-      { key: "Vitesse", value: "VITESSE 3×7=21" },
-      { key: "Plateau", value: "PLATEAU LXYANG‏" }
+    "title": "PRINCIPAL",
+    "icon": "fa-bicycle",
+    "items": [
+      { "key": "ROUES", "value": "26 pouces" },
+      { "key": "MATÉRIAU", "value": "Aluminium" },
+      { "key": "QUALITÉ", "value": "BMX GTR 1E" },
+      { "key": "ROUE", "value": "Aluminium" },
+      { "key": "CHANGEMENT DE VITESSE", "value": "Sunrise" },
+      { "key": "VITESSE", "value": "3×7 = 21 vitesses" },
+      { "key": "PLATEAU", "value": "Sunrise" }
     ]
   },
   {
-    title: "SÉCURITÉ & CONFORT",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "Freins", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
-      { key: "Amortisseur", value: "AMORTISSEUR AVANT" },
-      { key: "Siège", value: "SIÈGE SPORT CUIR" }
-    ]
-  },
-  {
-    title: "PROTECTION & DESIGN",
-    icon: "fa-umbrella",
-    items: [
-      { key: "Gardes-boue", value: "LES GARDES-BOUES AV ET AR" },
-      { key: "Couleurs Disponibles", value: "COLOR 🔵🔴🟢🟠" }
+    "title": "SÉCURITÉ & CONFORT",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "FREINS", "value": "Disques avant et arrière" },
+      { "key": "AMORTISSEUR", "value": "Amortisseur avant" },
+      { "key": "SIÈGE", "value": "Siège sport en cuir" }
     ]
   }
 ],
@@ -792,43 +785,44 @@ features: [
      "bison-gt/bison-gt-1000-6.webp",
      "bison-gt/bison-gt-1000-7.webp"
    ],
-   features: [
-     {
-       title: "Moteur et performance",
-       icon: "fa-tachometer-alt",
-       items: [
-         { key: "Marque", value: "BISON GT ORIGINAL" },
-         { key: "Moteur", value: "1000 W MAX " },
-         { key: "VITESSE", value: "MAX 50 KM" }
-       ]
-     },
-     {
-       title: "Batterie et autonomie",
-       icon: "fa-battery-full",
-       items: [
-         { key: "BATTERIE", value: "48 V 13 AH LITHIUM" },
-         { key: "AUTONOMIE", value: "40 km MAX" },
-         { key: "CHARGE MAX", value: "120 kg" }
-       ]
-     },
-     {
-       title: "Sécurité et durabilité",
-       icon: "fa-shield-alt",
-       items: [
-         { key: "FREIN", value: "DISQUE AVANT ET ARRIÈRE + E-ABS" },
-         { key: "PNEU", value: "10 POUCES OFF-ROAD" },
-         { key: "AMORTISSEUR", value: "DOUBLE AMORTISSEUR" }
-       ]
-     },
-     {
-       title: "Bénéfices en plus",
-       icon: "fa-cogs",
-       items: [
-         { key: "TABLEAU", value: "DIGITAL" },
-         { key: "LUMIÈRE LED", value: "AVANT ET ARRIÈRE" },
-         { key: "PLIABLE KLAXON", value: "OUI" }
-       ]
-     }
+features: [
+  {
+    "title": "MOTEUR & PERFORMANCE",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      { "key": "MARQUE", "value": "BISON GT ORIGINAL" },
+      { "key": "MOTEUR", "value": "1000W MAX" },
+      { "key": "VITESSE", "value": "Jusqu'à 50 km/h" }
+    ]
+  },
+  {
+    "title": "BATTERIE & AUTONOMIE",
+    "icon": "fa-battery-full",
+    "items": [
+      { "key": "BATTERIE", "value": "48V 13Ah Lithium" },
+      { "key": "AUTONOMIE", "value": "Jusqu'à 40 km" },
+      { "key": "CHARGE MAX", "value": "120 kg" }
+    ]
+  },
+  {
+    "title": "SÉCURITÉ & DURABILITÉ",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "FREINS", "value": "Disques avant et arrière + E-ABS" },
+      { "key": "PNEUS", "value": "10 pouces Off-road" },
+      { "key": "AMORTISSEURS", "value": "Double suspension" }
+    ]
+  },
+  {
+    "title": "FONCTIONNALITÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "TABLEAU DE BORD", "value": "Écran digital" },
+      { "key": "LUMIÈRES LED", "value": "Avant & arrière" },
+      { "key": "PLIABLE", "value": "Oui" },
+      { "key": "KLAXON", "value": "Oui" }
+    ]
+  }
    ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
@@ -854,53 +848,53 @@ features: [
      "ecoxtrem-linear/ecoxtrem-linear-06.webp",
      "ecoxtrem-linear/ecoxtrem-linear-07.webp"
    ],
-   features: [
-     {
-       title: "MOTEUR ET PERFORMANCE",
-       icon: "fa-tachometer-alt",
-       items: [
-         { key: "MARQUE", value: "EcoXtrem LINEAR" },
-         { key: "MOTEUR", value: "350W min - 700W max" },
-         { key: "VITESSE", value: "25 km/h min - 30 km/h max" }
-       ]
-     },
-     {
-       title: "BATTERIE ET AUTONOMIE",
-       icon: "fa-battery-full",
-       items: [
-         { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
-         { key: "AUTONOMIE", value: "15 km min - 25 km max" },
-         { key: "CHARGE MAX", value: "100 kg" }
-       ]
-     },
-     {
-       title: "SÉCURITÉ ET DURABILITÉ",
-       icon: "fa-shield-alt",
-       items: [
-         { key: "FREIN", value: "À disque arrière & Électrique" },
-         { key: "ROUE", value: "10 pouces Tubeless" },
-         { key: "ÉTANCHÉITÉ", value: "IPX5" }
-       ]
-     },
-     {
-       title: "FONCTIONNALITÉS AVANCÉES",
-       icon: "fa-cogs",
-       items: [
-         { key: "ÉCRAN", value: "LCD avec affichage EY2" },
-         { key: "VITESSE RÉGLABLE", value: "3 niveaux" },
-         { key: "FEUX LED", value: "Avant + Stop arrière" },
-         { key: "SIGNALISATION", value: "Clignotants gauche/droite" },
-         { key: "KLAXON", value: "Oui" },
-         { key: "PLIABLE", value: "Oui" }
-       ]
-     },
-     {
-       title: "BÉNÉFICES EN PLUS",
-       icon: "fa-gift",
-       items: [
-         { key: "CADEAU", value: "Sac offert 🎁" }
-       ]
-     }
+features: [
+  {
+    "title": "MOTEUR & PERFORMANCE",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      { "key": "MARQUE", "value": "EcoXtrem LINEAR" },
+      { "key": "MOTEUR", "value": "350W - 700W max" },
+      { "key": "VITESSE", "value": "25 - 30 km/h" }
+    ]
+  },
+  {
+    "title": "BATTERIE & AUTONOMIE",
+    "icon": "fa-battery-full",
+    "items": [
+      { "key": "BATTERIE", "value": "36V 7,8AH Lithium" },
+      { "key": "AUTONOMIE", "value": "15 - 25 km" },
+      { "key": "CHARGE MAX", "value": "100 kg" }
+    ]
+  },
+  {
+    "title": "SÉCURITÉ & DURABILITÉ",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "FREIN", "value": "Disque arrière + Électrique" },
+      { "key": "ROUES", "value": "10 pouces Tubeless" },
+      { "key": "ÉTANCHÉITÉ", "value": "IPX5" }
+    ]
+  },
+  {
+    "title": "FONCTIONNALITÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "ÉCRAN", "value": "LCD EY2" },
+      { "key": "VITESSE", "value": "3 niveaux réglables" },
+      { "key": "LED", "value": "Avant + Stop arrière" },
+      { "key": "SIGNAL", "value": "Clignotants gauche/droite" },
+      { "key": "KLAXON", "value": "Oui" },
+      { "key": "PLIABLE", "value": "Oui" }
+    ]
+  },
+  {
+    "title": "EXTRAS",
+    "icon": "fa-gift",
+    "items": [
+      { "key": "CADEAU", "value": "Sac offert 🎁" }
+    ]
+  }
    ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
@@ -927,51 +921,51 @@ features: [
      "voiture_range_rover_police/voiture_range_rover_police-06.webp",
      "voiture_range_rover_police/voiture_range_rover_police-07.webp"
    ],
-   features: [
+features: [
   {
-    title: "MOTEUR ET VITESSE",
-    icon: "fa-tachometer-alt",
-    items: [
-      { key: "MARQUE", value: "modèle enfant" },
-      { key: "MOTEUR", value: "5 moteurs puissants" },
-      { key: "VITESSE", value: "3 vitesses" }
+    "title": "MOTEUR & VITESSE",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      { "key": "MARQUE", "value": "Modèle enfant" },
+      { "key": "MOTEUR", "value": "5 moteurs puissants" },
+      { "key": "VITESSE", "value": "3 niveaux" }
     ]
   },
   {
-    title: "BATTERIE ET UTILISATION",
-    icon: "fa-battery-full",
-    items: [
-      { key: "BATTERIE", value: "12V rechargeable" },
-      { key: "AUTONOMIE", value: "Jusqu'à 1-2 heures de jeu" },
-      { key: "CHARGE MAX", value: "Adaptée pour enfants (jusqu'à 30 kg)" }
+    "title": "BATTERIE & AUTONOMIE",
+    "icon": "fa-battery-full",
+    "items": [
+      { "key": "BATTERIE", "value": "12V rechargeable" },
+      { "key": "AUTONOMIE", "value": "1-2h de jeu" },
+      { "key": "CHARGE MAX", "value": "Jusqu'à 30 kg" }
     ]
   },
   {
-    title: "SÉCURITÉ POUR ENFANTS",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "CEINTURE DE SÉCURITÉ", value: "Incluse pour une conduite sûre" },
-      { key: "ROUES", value: "Antidérapantes et durables" },
-      { key: "PROTECTION", value: "Résistante aux éclaboussures" }
+    "title": "SÉCURITÉ",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "CEINTURE", "value": "Incluse" },
+      { "key": "ROUES", "value": "Antidérapantes" },
+      { "key": "PROTECTION", "value": "Résistante" }
     ]
   },
   {
-    title: "FONCTIONNALITÉS MULTIMÉDIA",
-    icon: "fa-cogs",
-    items: [
-      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
-      { key: "FEUX LED", value: "Avant et arrière pour un style unique" },
-      { key: "KLAXON", value: "Son de police réaliste inclus" },
-      { key: "BALANÇOIRE", value: "Effet de balançoire amusant" }
+    "title": "MULTIMÉDIA",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "MUSIQUE", "value": "Bluetooth, USB, AUX" },
+      { "key": "LED", "value": "Avant & arrière" },
+      { "key": "KLAXON", "value": "Son réaliste" },
+      { "key": "BALANÇOIRE", "value": "Effet intégré" }
     ]
   },
   {
-    title: "ACCESSOIRES INCLUS",
-    icon: "fa-gift",
-    items: [
-      { key: "TÉLÉCOMMANDE", value: "Contrôle parental manuel inclus 🎁" }
-       ]
-     }
+    "title": "ACCESSOIRES",
+    "icon": "fa-gift",
+    "items": [
+      { "key": "TÉLÉCOMMANDE", "value": "Parentale" }
+    ]
+  }
    ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
@@ -997,52 +991,52 @@ features: [
      "voiture-Lamborghini-original/voiture-lamborghini-original-06.webp",
      "voiture-Lamborghini-original/voiture-lamborghini-original-07.webp"
    ],
-   features: [
+features: [
   {
-    title: "MOTEUR ET PERFORMANCE",
-    icon: "fa-tachometer-alt",
-    items: [
-      { key: "MARQUE", value: "Nouveau modèle enfant" },
-      { key: "MOTEUR", value: "3 moteurs puissants" },
-      { key: "VITESSE", value: "3 vitesses avec balançoire amusante" }
+    "title": "MOTEUR & PERFORMANCE",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      { "key": "MARQUE", "value": "Modèle enfant" },
+      { "key": "MOTEUR", "value": "3 moteurs puissants" },
+      { "key": "VITESSE", "value": "3 vitesses + bascule" }
     ]
   },
   {
-    title: "BATTERIE ET UTILISATION",
-    icon: "fa-battery-full",
-    items: [
-      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
-      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
-      { key: "AUTONOMIE", value: "Adaptée pour une utilisation de 1-2 heures" },
-      { key: "ÂGE RECOMMANDÉ", value: "1 à 6 ans" }
+    "title": "BATTERIE & USAGE",
+    "icon": "fa-battery-full",
+    "items": [
+      { "key": "BATTERIE", "value": "2x 6V rechargeables" },
+      { "key": "CHARGEUR", "value": "Inclus (12V)" },
+      { "key": "AUTONOMIE", "value": "1-2h" },
+      { "key": "ÂGE", "value": "1-6 ans" }
     ]
   },
   {
-    title: "SÉCURITÉ POUR ENFANTS",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "CEINTURE DE SÉCURITÉ", value: "Incluse pour une conduite sûre" },
-      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
-      { key: "ROUES", value: "Antidérapantes et durables" },
-      { key: "PROTECTION", value: "Résistante aux éclaboussures" }
+    "title": "SÉCURITÉ",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "CEINTURE", "value": "Incluse" },
+      { "key": "AMORTISSEURS", "value": "Oui" },
+      { "key": "ROUES", "value": "Antidérapantes" },
+      { "key": "PROTECTION", "value": "Résistante" }
     ]
   },
   {
-    title: "FONCTIONNALITÉS MULTIMÉDIA",
-    icon: "fa-cogs",
-    items: [
-      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
-      { key: "FEUX LED", value: "Avant et arrière pour un style unique" },
-      { key: "KLAXON", value: "Son amusant inclus" },
-      { key: "BALANÇOIRE", value: "Effet de balançoire intégré" }
+    "title": "MULTIMÉDIA",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "MUSIQUE", "value": "Bluetooth, USB, AUX" },
+      { "key": "LED", "value": "Avant & arrière" },
+      { "key": "KLAXON", "value": "Oui" },
+      { "key": "BALANÇOIRE", "value": "Oui" }
     ]
   },
   {
-    title: "ACCESSOIRES INCLUS",
-    icon: "fa-gift",
-    items: [
-      { key: "TÉLÉCOMMANDE", value: "Contrôle parental manuel inclus 🎁" },
-      { key: "SIÈGE", value: "1 place confortable incluse" }
+    "title": "ACCESSOIRES",
+    "icon": "fa-gift",
+    "items": [
+      { "key": "TÉLÉCOMMANDE", "value": "Parentale" },
+      { "key": "SIÈGE", "value": "Confortable" }
     ]
   }
 ],
@@ -1070,47 +1064,53 @@ features: [
      "Moteur-HARLEY-6V/moteur-harley-6v-06.webp",
      "Moteur-HARLEY-6V/moteur-harley-6v-07.webp"
    ],
-  features: [
+features: [
   {
-    title: "MOTEUR ET PERFORMANCE",
-    icon: "fa-tachometer-alt",
-    items: [
-      { key: "MARQUE", value: "Harley" },
-      { key: "MOTEUR", value: "2 moteurs puissants" },
-      { key: "VITESSE", value: "3 vitesses" }
+    "title": "MOTEUR ET PERFORMANCE",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      { "key": "MARQUE", "value": "HARLEY modèle enfant" },
+      { "key": "MOTEUR", "value": "2 moteurs puissants" },
+      { "key": "VITESSE", "value": "3 vitesses" }
     ]
   },
   {
-    title: "BATTERIE ET UTILISATION",
-    icon: "fa-battery-full",
-    items: [
-      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
-      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
-      { key: "AUTONOMIE", value: "Adaptée pour une utilisation de 1-6 ans" }
+    "title": "BATTERIE ET UTILISATION",
+    "icon": "fa-battery-full",
+    "items": [
+      { "key": "BATTERIE", "value": "2 batteries 6V rechargeables" },
+      { "key": "CHARGEUR", "value": "Chargeur 12 volts inclus" }
     ]
   },
   {
-    title: "CONFORT ET SÉCURITÉ",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "SIÈGE", value: "1 place en cuir confortable" },
-      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
-      { key: "ÉCLAIRAGE", value: "LED avant et arrière pour plus de visibilité" }
+    "title": "CONFORT ET SÉCURITÉ",
+    "icon": "fa-shield-alt",
+    "items": [
+      { "key": "SIÈGE", "value": "1 place en cuir confortable" },
+      { "key": "AMORTISSEURS", "value": "Inclus pour un confort optimal" },
+      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière pour plus de visibilité" }
     ]
   },
   {
-    title: "FONCTIONNALITÉS MULTIMÉDIA",
-    icon: "fa-cogs",
-    items: [
-      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
-      { key: "EFFETS SONORES", value: "Manuel inclus pour une expérience immersive" }
+    "title": "FONCTIONNALITÉS MULTIMÉDIA",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "MUSIQUE", "value": "Bluetooth, USB et câble auxiliaire" },
+      { "key": "EFFETS SONORES", "value": "Effets intégrés pour une expérience immersive" }
     ]
   },
   {
-    title: "ACCESSOIRES INCLUS",
-    icon: "fa-gift",
-    items: [
-      { key: "GUIDE UTILISATEUR", value: "Manuel d'utilisation inclus 🎁" }
+    "title": "ACCESSOIRES INCLUS",
+    "icon": "fa-gift",
+    "items": [
+      { "key": "GUIDE UTILISATEUR", "value": "Manuel d'utilisation inclus 🎁" }
+    ]
+  },
+  {
+    "title": "SPÉCIFICATIONS",
+    "icon": "fa-info-circle",
+    "items": [
+      { "key": "ÂGE", "value": "Adaptée pour une utilisation de 1 à 6 ans" }
     ]
   }
 ],
