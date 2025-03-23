@@ -468,6 +468,75 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
  },
   
+ {
+   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
+   title: "VÉLO ÉLECTRIQUE 2025 ",
+   brand: "LIKEBIKE",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 165,
+   currentPrice: 5499,
+   oldPrice: 7099,
+   discount: 30,
+   images: [
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-01.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-02.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-03.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-04.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-05.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-06.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-07.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-08.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-09.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-10.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp"
+   ],
+features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "400 W MAX" },
+      { key: "Vitesse", value: "46 km/h MAX" },
+      { key: "Démarrage", value: "Contact électrique" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 48V 15.6AH" },
+      { key: "Autonomie normale", value: "45-55 km MAX" },
+      { key: "Charge rapide", value: "54V compatible" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONFORT",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "Avant et arrière" },
+      { key: "Amortisseurs", value: "Double amortisseur" },
+      { key: "Éclairage", value: "LED avant et arrière" },
+      { key: "Pneus", value: "14 pouces" },
+      { key: "Siège", value: "2 places en cuir confortable" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT & DESIGN",
+    icon: "fa-cogs",
+    items: [
+      { key: "Affichage", value: "Tableau digital multifonction" },
+      { key: "Transmission", value: "3 niveaux de vitesse + 1 vitesse pédale" },
+      { key: "Confort", value: "Vélo pliable, double amortisseur" },
+      { key: "Charge maximale", value: "120 kg" }
+    ]
+  }
+],
+   warranty: "Garantie de 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
