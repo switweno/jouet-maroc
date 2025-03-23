@@ -451,7 +451,7 @@ header {
 }
 
 .popup-product-title {
-    font-size: 0.95rem;
+    font-size: 0.86rem;
     font-weight: 600;
     margin: 0 0 8px;
     color: #333;
@@ -461,7 +461,7 @@ header {
 .popup-product-price {
     color: #eb0861;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* رسالة عدم وجود منتجات */
@@ -786,7 +786,7 @@ header {
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
     direction: ltr; /* جعل اتجاه النص من اليسار لليمين */
-    text-align:center; /* محاذاة النص إلى اليسار */
+    text-align:left; /* محاذاة النص إلى اليسار */
     padding-left: 10px; /* إضافة مسافة لليسار */
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
@@ -2737,7 +2737,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 
@@ -2812,7 +2812,7 @@ select {
 .related-price {
     color: #eb0861;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 4px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2937,7 +2937,7 @@ select {
     }
 
     .related-product h3 {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         margin: 6px 3px;
         height: 38px;
         padding: 0 2px;
@@ -2948,7 +2948,7 @@ select {
     }
 
     .related-old-price {
-        font-size: 0.78rem;
+        font-size: 0.77rem;
     }
 }
 
@@ -3118,7 +3118,7 @@ select {
     position: absolute;
     top: 92%;
     transform: translateY(-50%);
-     background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: #ffffff;
     font-size: 1.2rem;
@@ -3133,6 +3133,20 @@ select {
     justify-content: center;
     transition: background-color 0.3s;
 }
+
+@media (max-width: 480px) {
+    .scroll-arrow{
+       width: 30px;
+    height: 30px;  
+           
+    }
+
+    .footer-links button {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
 
 .scroll-arrow:hover {
     background-color: rgba(0, 0, 0, 0.3);
