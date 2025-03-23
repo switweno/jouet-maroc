@@ -739,6 +739,74 @@ features: [
    ],
    warranty: "",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "Moteur-HARLEY-6V",
+   title: "Moteur HARLEY 6V",
+   brand: "HARLEY",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 260,
+   currentPrice: 999,
+   oldPrice: 1550,
+   discount: 30,
+   images: [
+     "Moteur-HARLEY-6V/moteur-harley-6v-01.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-02.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-03.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-04.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-05.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-06.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-07.webp"
+   ],
+  features: [
+  {
+    title: "MOTEUR ET PERFORMANCE",
+    icon: "fa-tachometer-alt",
+    items: [
+      { key: "MARQUE", value: "Harley" },
+      { key: "MOTEUR", value: "2 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses" }
+    ]
+  },
+  {
+    title: "BATTERIE ET UTILISATION",
+    icon: "fa-battery-full",
+    items: [
+      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
+      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
+      { key: "AUTONOMIE", value: "Adaptée pour une utilisation de 1-6 ans" }
+    ]
+  },
+  {
+    title: "CONFORT ET SÉCURITÉ",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "SIÈGE", value: "1 place en cuir confortable" },
+      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière pour plus de visibilité" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-cogs",
+    items: [
+      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
+      { key: "EFFETS SONORES", value: "Manuel inclus pour une expérience immersive" }
+    ]
+  },
+  {
+    title: "ACCESSOIRES INCLUS",
+    icon: "fa-gift",
+    items: [
+      { key: "GUIDE UTILISATEUR", value: "Manuel d'utilisation inclus 🎁" }
+    ]
+  }
+],
+   warranty: "",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  }
   
 ]; // إزالة أي فواصل زائدة في نهاية المصفوفة
@@ -746,7 +814,6 @@ features: [
 
 // تعيين المتغير global للصفحة
 window.products = productsData;
-
 
 
 
