@@ -846,7 +846,7 @@ header {
 .old-price {
     text-decoration: line-through;
     color: #67062d;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 
