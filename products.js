@@ -657,7 +657,7 @@ features: [
     items: [
       { key: "Puissance", value: "400 W MAX" },
       { key: "Vitesse Max", value: "46 KM" },
-      { key: "Démarrage", value: "Contact" }
+      { key: "Démarrage", value: "Contact électrique" }
     ]
   },
   {
