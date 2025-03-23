@@ -784,12 +784,12 @@ header {
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
     direction: ltr; /* جعل اتجاه النص من اليسار لليمين */
-    text-align:left; /* محاذاة النص إلى اليسار */
+    text-align:center; /* محاذاة النص إلى اليسار */
     padding-left: 10px; /* إضافة مسافة لليسار */
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
     margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
-    border-bottom: 1px solid #b5b5b5; /* خط فاصل خفيف */
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
     
     
 }
