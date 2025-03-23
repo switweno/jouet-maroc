@@ -60,6 +60,11 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?velo-electrique-likebike-shine</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 	
     <!-- أضف باقي المنتجات هنا -->
 </urlset>

@@ -469,6 +469,75 @@ features: [
  },
   
  {
+   id: "velo-electrique-likebike-shine",
+   title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE",
+   brand: "LIKEBIKE",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 269,
+   currentPrice: 7199,
+   oldPrice: 10099,
+   discount: 30,
+   images: [
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-01.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-02.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-03.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-04.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-05.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-06.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-07.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-08.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-09.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-10.webp"
+   ],
+features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "500 W MAX" },
+      { key: "Vitesse", value: "50 km/h MAX" },
+      { key: "Démarrage", value: "Contact électrique" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 48V 13AH" },
+      { key: "Autonomie normale", value: "45-55 km MAX" },
+      { key: "Charge rapide", value: "54V compatible" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONFORT",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "Avant et arrière" },
+      { key: "Amortisseurs", value: "Réglable avant" },
+      { key: "Éclairage", value: "LED avant et arrière + klaxon" },
+      { key: "Pneus", value: "20 pouces avec garde-boue" },
+      { key: "Siège", value: "Cuir confortable" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT & DESIGN",
+    icon: "fa-cogs",
+    items: [
+      { key: "Affichage", value: "Tableau digital multifonction" },
+      { key: "Transmission", value: "Changement Shimano (5e et 7e vitesse)" },
+      { key: "Confort", value: "Siège cuir, porte-bagage inclus" },
+      { key: "Charge maximale", value: "130 kg" }
+    ]
+  }
+   ],
+   warranty: "Garantie de 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+ {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
    title: "VÉLO ÉLECTRIQUE 2025 ",
    brand: "LIKEBIKE",
@@ -490,7 +559,8 @@ features: [
      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-08.webp",
      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-09.webp",
      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-10.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp"
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp",
+     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-12.webp"
    ],
 features: [
   {
