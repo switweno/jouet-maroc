@@ -225,7 +225,7 @@ var productsData = [
    ratings: 4.5,
    reviewCount: 192,
    currentPrice: 7490,
-   oldPrice: 8499,
+   oldPrice: 8999,
    discount: 30,
    images: [
      "dualtron-pop/dualtron-pop_52v_04.webp",
@@ -281,6 +281,65 @@ var productsData = [
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
  },
+  
+ {
+   id: "VÉLO-BMX-GTR -ALUMINIUM",
+   title: "VÉLO BMX GTR ALUMINIUM 26",
+   brand: "HAOMENG",
+   category: "دراجات هواىية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 325,
+   currentPrice: 1699,
+   oldPrice: 2199,
+   discount: 30,
+   images: [
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-01.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-02.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-03.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-04.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-05.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-06.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-07.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-08.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-09.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-10.webp",
+     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-11.webp"
+   ],
+features: [
+  {
+    title: "PRINCIPAL",
+    icon: "fa-bicycle",
+    items: [
+      { key: "Roues", value: "26 POUCES" },
+      { key: "Matériau", value: "VÉLO ALUMINIUM" },
+      { key: "Qualité", value: "BMX GTR 1E QUALITÉ " },
+      { key: "Roues Matériau", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "Changement", value: "CHANGEMENT SUNRISE" },
+      { key: "Vitesse", value: "VITESSE 3×7=21" },
+      { key: "Plateau", value: "PLATEAU SUNRISE‏" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONFORT",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+      { key: "Amortisseur", value: "AMORTISSEUR AVANT" },
+      { key: "Siège", value: "SIÈGE SPORT CUIR" }
+    ]
+  },
+  {
+    title: "PROTECTION",
+    icon: "fa-umbrella",
+    items: [
+      { key: "Gardes-boue", value: "LES GARDES-BOUES AV ET AR" }
+    ]
+  }
+],
+   warranty: "Garantie de 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
+ },
  
  {
    id: "velo-vtt-haomeng-27.5",
@@ -303,35 +362,36 @@ var productsData = [
      "vtt_27/vtt_27_01.webp"
    ],
    features: [
-     {
-        title: "CADRE & TRANSMISSION",
-   icon: "fa-bicycle",
-   items: [
-     { key: "Roues", value: "27.5 pouces en aluminium " },
-     { key: "Transmission", value: "3×7 vitesses (21 vitesses) " },
-     { key: "Dérailleur", value: "LXYANG haute précision " },
-     { key: "Plateau", value: "LXYANG renforcé " }
-   ]
- },
- {
-   title: "FREINS & AMORTISSEURS",
-   icon: "fa-shield-alt",
-   items: [
-     { key: "Freins", value: "À disque hydrauliques AV/AR " },
-     { key: "Amortisseur", value: "Avant réglable " },
-     { key: "Pneus", value: "Anticrevaison avec garde-boue intégrés " }
-   ]
- },
- {
-   title: "ÉQUIPEMENT",
-   icon: "fa-cogs",
-   items: [
-     { key: "Éclairage", value: "LED AV/AR haute luminosité " },
-     { key: "Siège", value: "Cuir sport confort 2 places " },
-     { key: "Charge maximale", value: "130 kg " }
-       ]
-     }
-   ],
+  {
+    title: "PRINCIPAL",
+    icon: "fa-bicycle",
+    items: [
+      { key: "Matériau", value: "VÉLO ALUMINIUM" },
+      { key: "Roues", value: "27 POUCES" },
+      { key: "Matériau", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "Changement", value: "CHANGEMENT LXYANG" },
+      { key: "Vitesse", value: "VITESSE 3×7=21" },
+      { key: "Plateau", value: "PLATEAU LXYANG‏" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONFORT",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+      { key: "Amortisseur", value: "AMORTISSEUR AVANT" },
+      { key: "Siège", value: "SIÈGE SPORT CUIR" }
+    ]
+  },
+  {
+    title: "PROTECTION & DESIGN",
+    icon: "fa-umbrella",
+    items: [
+      { key: "Gardes-boue", value: "LES GARDES-BOUES AV ET AR" },
+      { key: "Couleurs Disponibles", value: "COLOR 🔵🔴🟢🟠" }
+    ]
+  }
+],
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
  },
