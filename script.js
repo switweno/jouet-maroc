@@ -2176,7 +2176,7 @@ function scrollOffers(direction) {
 function startAutoScroll() {
     autoScroll = setInterval(() => {
         scrollOffers('next'); // يتحرك تلقائيًا إلى العرض التالي
-    }, 20000); // تغيير كل 4 ثوانٍ (يمكن تعديل الوقت)
+    }, 4000); // تغيير كل 4 ثوانٍ (يمكن تعديل الوقت)
 }
 
 // إيقاف الحركة التلقائية عند تفاعل المستخدم (عند الضغط على الأسهم)

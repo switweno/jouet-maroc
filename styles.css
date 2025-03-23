@@ -3121,7 +3121,7 @@ select {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
@@ -3132,20 +3132,19 @@ select {
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s;
+    
+     
 }
 
 @media (max-width: 480px) {
     .scroll-arrow{
        width: 30px;
     height: 30px;  
-           
+        font-size: 1rem;
+    
     }
 
-    .footer-links button {
-        width: 90%;
-        font-size: 0.9rem;
-    }
-}
+}  
 
 
 .scroll-arrow:hover {
@@ -3537,7 +3536,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     padding: 0 5px; /* تقليل التباعد الداخلي */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
-    direction: rtl; /* اتجاه النص من اليمين لليسار */
+    
     white-space: nowrap; /* منع انكسار النص داخل الشريط */
     font-size: 1.1rem; /* تحسين حجم الخط */
     font-weight: bold; /* جعل النص أكثر وضوحًا */
