@@ -375,7 +375,7 @@ header {
 .category-popup.show {
     display: block;
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -56%) scale(1);
 }
 
 .popup-header {
