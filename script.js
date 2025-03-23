@@ -37,13 +37,8 @@ const CATEGORIES_CONFIG = {
         displayName: 'سيارات كهربائية',
         databaseName: 'سيارات كهربائية',
         icon: 'fa-car'
-    },
-    'children-toys': {  // إضافة الفئة الجديدة
-        id: 'children-toys',
-        displayName: 'ألعاب أطفال',
-        databaseName: 'ألعاب أطفال',
-        icon: 'fa-cogs'  // يمكنك تغيير الأيقونة كما تفضل
     }
+    
     // يمكن إضافة فئات جديدة هنا بسهولة
     // 'new-category': {
     //     id: 'new-category',
