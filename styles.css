@@ -3551,66 +3551,69 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     color: #2383e9; /* تغيير اللون */
 }
 
-/* تنسيق القائمة الأفقية في الشاشات الكبيرة */
-.desktop-categories {
-    display: none; /* إخفاء افتراضي */
+/* أنماط فواصل تصنيف المنتجات */
+.category-divider {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (min-width: 992px) {
-    /* إظهار القائمة الأفقية في الشاشات الكبيرة */
-    .desktop-categories {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 20px;
-    }
-    
-    .desktop-categories ul {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        gap: 20px;
-    }
-    
-    .desktop-category {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        cursor: pointer;
-        color: white;
-        padding: 8px 12px;
-        border-radius: 4px;
-        transition: background-color 0.3s ease;
-    }
-    
-    .desktop-category:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-    
-    .desktop-category i {
-        font-size: 1.1rem;
-    }
-    
-    .desktop-category span {
+.category-divider::before, 
+.category-divider::after {
+    content: "";
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.15), transparent);
+    flex: 1;
+}
+
+.category-divider h3 {
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    margin: 0 15px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+    min-width: 140px;
+}
+
+.category-divider .category-icon {
+    margin-left: 8px;
+    font-size: 0.9em;
+}
+
+/* تعديلات للشاشات الصغيرة */
+@media (max-width: 767px) {
+    .category-divider h3 {
         font-size: 0.95rem;
-        font-weight: 500;
+        padding: 6px 15px;
+        margin: 0 10px;
+        min-width: 120px;
     }
     
-    /* إخفاء زر القائمة في الشاشات الكبيرة */
-    .menu-toggle {
-        display: none;
+    .category-divider {
+        margin: 25px 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-divider h3 {
+        font-size: 0.85rem;
+        padding: 5px 12px;
+        margin: 0 8px;
+        min-width: 100px;
     }
     
-    /* توسيع الهيدر ليناسب القائمة الأفقية */
-    .header-content {
-        justify-content: space-between;
-        padding: 0 10px;
-    }
-    
-    /* توسيط شعار الموقع مع منح مساحة كافية للقائمة */
-    .site-brand {
-        margin-left: auto;
+    .category-divider {
+        margin: 20px 0 12px;
     }
 }
 
