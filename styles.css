@@ -822,7 +822,7 @@ header {
 .ratings i {
     color: #ffc107; /* تعديل لون النجوم إلى اللون الذهبي */
     margin-left: 2px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .price {
@@ -1411,7 +1411,7 @@ header {
     }
     
     .product-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
     .current-price {
