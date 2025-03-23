@@ -722,7 +722,7 @@ features: [
       "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-13.webp",
      "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-14.webp",
      "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-15.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp"
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-16.webp"
    ],
   features: [
     {
