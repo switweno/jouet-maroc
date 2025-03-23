@@ -743,7 +743,7 @@ features: [
   {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
-   brand: "Range-Rover",
+   brand: "Range-Rover modèle enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -765,7 +765,7 @@ features: [
     title: "MOTEUR ET VITESSE",
     icon: "fa-tachometer-alt",
     items: [
-      { key: "MARQUE", value: "Range-Rover police" },
+      { key: "MARQUE", value: "modèle enfant" },
       { key: "MOTEUR", value: "5 moteurs puissants" },
       { key: "VITESSE", value: "3 vitesses" }
     ]
@@ -806,14 +806,87 @@ features: [
        ]
      }
    ],
-   warranty: "",
+   warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "voiture-Lamborghini-2025",
+   title: "Voiture Lamborghini 2025",
+   brand: "Lamborghini modèle enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 192,
+   currentPrice: 1590,
+   oldPrice: 2000,
+   discount: 30,
+   images: [
+     "voiture-Lamborghini-original/voiture-lamborghini-original-01.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-02.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-03.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-04.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-05.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-06.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-07.webp"
+   ],
+   features: [
+  {
+    title: "MOTEUR ET PERFORMANCE",
+    icon: "fa-tachometer-alt",
+    items: [
+      { key: "MARQUE", value: "Nouveau modèle enfant" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses avec balançoire amusante" }
+    ]
+  },
+  {
+    title: "BATTERIE ET UTILISATION",
+    icon: "fa-battery-full",
+    items: [
+      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
+      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
+      { key: "AUTONOMIE", value: "Adaptée pour une utilisation de 1-2 heures" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 6 ans" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ POUR ENFANTS",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "CEINTURE DE SÉCURITÉ", value: "Incluse pour une conduite sûre" },
+      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
+      { key: "ROUES", value: "Antidérapantes et durables" },
+      { key: "PROTECTION", value: "Résistante aux éclaboussures" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-cogs",
+    items: [
+      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
+      { key: "FEUX LED", value: "Avant et arrière pour un style unique" },
+      { key: "KLAXON", value: "Son amusant inclus" },
+      { key: "BALANÇOIRE", value: "Effet de balançoire intégré" }
+    ]
+  },
+  {
+    title: "ACCESSOIRES INCLUS",
+    icon: "fa-gift",
+    items: [
+      { key: "TÉLÉCOMMANDE", value: "Contrôle parental manuel inclus 🎁" },
+      { key: "SIÈGE", value: "1 place confortable incluse" }
+    ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1179274147225695%2F&show_text=false&width=267&t=0"
  },
   
 {
    id: "Moteur-HARLEY-6V",
    title: "Moteur HARLEY 6V",
-   brand: "HARLEY",
+   brand: "HARLEY modèle enfant ",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -874,7 +947,7 @@ features: [
     ]
   }
 ],
-   warranty: "",
+   warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  }
   
