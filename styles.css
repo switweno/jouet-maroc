@@ -3557,7 +3557,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 .arrow {
     background-color: rgba(127, 31, 166, 0);
     border: none;
-    color: white;
+    color: #a3a1a1;
     font-size: 1rem;
     
     cursor: pointer;

@@ -402,6 +402,73 @@ var productsData = [
  },
   
   {
+   id: "velo-electrique-likebike-shine-s",
+   title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
+   brand: "LIKEBIKE",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 232,
+   currentPrice: 7199,
+   oldPrice: 10099,
+   discount: 30,
+   images: [
+     "likebike-shine-s/likebike-shine-s-09.webp",
+     "likebike-shine-s/likebike-shine-s-02.webp",
+     "likebike-shine-s/likebike-shine-s-03.webp",
+     "likebike-shine-s/likebike-shine-s-04.webp",
+     "likebike-shine-s/likebike-shine-s-05.webp",
+     "likebike-shine-s/likebike-shine-s-06.webp",
+     "likebike-shine-s/likebike-shine-s-07.webp",
+     "likebike-shine-s/likebike-shine-s-08.webp",
+     "likebike-shine-s/likebike-shine-s-01.webp"
+   ],
+features: [
+  {
+    title: "MOTEUR & PERFORMANCE",
+    icon: "fa-bolt",
+    items: [
+      { key: "Puissance", value: "500 W MAX" },
+      { key: "Vitesse", value: "50 km/h MAX" },
+      { key: "Démarrage", value: "Contact électrique" }
+    ]
+  },
+  {
+    title: "BATTERIE & AUTONOMIE",
+    icon: "fa-battery-full",
+    items: [
+      { key: "Batterie", value: "Lithium 48V 13AH" },
+      { key: "Autonomie normale", value: "45-55 km MAX" },
+      { key: "Charge rapide", value: "54V compatible" }
+    ]
+  },
+  {
+    title: "SÉCURITÉ & CONFORT",
+    icon: "fa-shield-alt",
+    items: [
+      { key: "Freins", value: "Avant et arrière" },
+      { key: "Amortisseurs", value: "Réglable avant" },
+      { key: "Éclairage", value: "LED avant et arrière + klaxon" },
+      { key: "Pneus", value: "20 pouces avec garde-boue" },
+      { key: "Siège", value: "Cuir confortable" }
+    ]
+  },
+  {
+    title: "ÉQUIPEMENT & DESIGN",
+    icon: "fa-cogs",
+    items: [
+      { key: "Affichage", value: "Tableau digital multifonction" },
+      { key: "Transmission", value: "Changement Shimano (5e et 7e vitesse)" },
+      { key: "Confort", value: "Siège cuir, porte-bagage" },
+      { key: "Charge maximale", value: "130 kg" }
+    ]
+  }
+   ],
+   warranty: "Garantie de 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
    brand: "LIKEBIKE",
