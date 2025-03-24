@@ -1276,26 +1276,20 @@ header {
     margin: 0;
 }
 
-
-
-
-
-
-
 /* أساسي لتنسيق الزر */
 .btn {
     padding: 12px 25px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     transition: all 0.3s ease;
-    font-family: 'Cairo', 'Tajawal', sans-serif;
+   font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 /* زر بتصميم أخضر مميز */
