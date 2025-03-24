@@ -75,17 +75,6 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
    
     <script src="products.js"></script>
-    <!-- إضافة مكتبة Fuse.js للبحث -->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-    
-    <script>
-        // تعريف متغير عالمي لمسار الصور، يمكن تغييره حسب هيكل المشروع
-        const BASE_IMAGE_PATH = './images/';
-    </script>
-    
-    <!-- تأكد من أن ملف المنتجات يتم تحميله قبل ملف السكريبت الرئيسي -->
-    <script src="products.js"></script>
-    <script src="script.js" defer></script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -150,16 +139,7 @@
     </div>
 </header>
 
-<!-- إضافة حاوية البحث -->
-<div class="search-container">
-    <div class="search-box">
-        <input type="text" id="search-input" placeholder="ابحث عن المنتجات..." autocomplete="off">
-        <button id="search-button"><i class="fas fa-search"></i></button>
-    </div>
-    <div class="search-results" id="search-results">
-        <!-- نتائج البحث ستظهر هنا -->
-    </div>
-</div>
+
 
 <!-- إضافة هيكل القائمة الجانبية -->
 <div id="sidebar-menu" class="sidebar-menu">
@@ -204,21 +184,12 @@
         </div>
     </div>
 </div>
+    
+    
+   
 
-<!-- إضافة محرك البحث -->
-<div class="search-container">
-    <div class="container">
-        <div class="search-box">
-            <input type="text" id="search-input" placeholder="ابحث عن المنتجات..." autocomplete="off">
-            <button id="search-button"><i class="fas fa-search"></i></button>
-        </div>
-        <div id="search-results" class="search-results">
-            <!-- نتائج البحث ستظهر هنا -->
-        </div>
-    </div>
-</div>
 
-<main class="container">
+    <main class="container">
         <div class="product-details">
             <div class="product-gallery">
                 <div class="main-image">
@@ -546,8 +517,6 @@
             </div>
         </a>
         
-        
-        
         <!-- فاصل تصنيف: التروتنيت -->
         <div class="category-divider">
             <h3><i class="fas fa-motorcycle category-icon"></i> التروتنيت</h3>
@@ -630,8 +599,6 @@
                 <div class="related-discount-badge">-30%</div>
             </div>
         </a>
-        
-        
         
         <!-- فاصل تصنيف: السيارات الكهربائية -->
         <div class="category-divider">
