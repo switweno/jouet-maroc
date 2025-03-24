@@ -134,7 +134,7 @@ const products = [
     ],
     features: [
       {
-        title: "CARACTÉRISTIQUES TECHNIQUES",
+        title: "المواصفات التقنية",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "1200W" },
@@ -146,7 +146,7 @@ const products = [
         ]
       },
       {
-        title: "CARACTÉRISTIQUES SUPPLÉMENTAIRES",
+         title: "المميزات الإضافية",
         icon: "fa-star",
         items: [
           { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
