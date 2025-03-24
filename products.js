@@ -189,34 +189,36 @@ features: [
      "dualtron-pop/dualtron-pop_52v_06.webp",
      "dualtron-pop/dualtron-pop_52v_07.webp"
    ],
-   features: [
-    {
-      title: "المواصفات التقنية",
-      icon: "fa-cogs",
-      items: [
-        { key: "Puissance", value: "1000W min - 1450W max " },
-        { key: "Vitesse", value: "50 km/h min - 67 km/h max " },
-        { key: "Mode de conduite", value: "3 vitesses réglables " },
-        { key: "Batterie", value: "Lithium 52V 14AH " },
-        { key: "Autonomie", value: "30 km min - 40 km max " },
-        { key: "Charge maximale", value: "120 kg " },
-        { key: "Freinage", value: "Disques AV/AR + E-ABS " }
-      ]
-    },
-    {
-      title: "المميزات الإضافية",
-      icon: "fa-star",
-      items: [
-        { key: "Suspension", value: "Avant et arrière réglables " },
-        { key: "Éclairage", value: "LED AV/AR + clignotants directionnels " },
-        { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) " },
-        { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) " },
-        { key: "Pneus", value: "9\" chambre à air renforcés " },
-        { key: "Conception", value: "Pliable avec klaxon intégré " },
-        { key: "Tableau de bord", value: "Digital multifonction " }
-      ]
-    }
-   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "Puissance", value: "1000W min - 1450W max" },
+      { key: "Vitesse", value: "50-67 km/h" },
+      { key: "Mode de conduite", value: "3 vitesses" },
+      { key: "Batterie", value: "Lithium 52V 14AH" },
+      { key: "Autonomie", value: "30-40 km" },
+      { key: "Charge maximale", value: "120 kg" },
+      { key: "Freinage", value: "Disques AV/AR + E-ABS" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "Suspension", value: "Avant et arrière" },
+      { key: "Éclairage", value: "LED AV/AR + clignotants" },
+      { key: "Étanchéité", value: "IPX5" },
+      { key: "Waterproof", value: "IPX4" },
+      { key: "Affichage", value: "DISPLAY EY2" },
+      { key: "Pneus", value: "9\" renforcés" },
+      { key: "Conception", value: "Pliable avec klaxon" },
+      { key: "Tableau de bord", value: "Digital" }
+    ]
+  }
+],
+
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
  },
