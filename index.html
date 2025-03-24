@@ -74,7 +74,7 @@
     <!-- Add favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
    
-    <script src="products.js"></script>
+  
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -186,19 +186,7 @@
 </div>
     
     
-   <!-- إضافة محرك البحث -->
-<div class="search-container">
-    <div class="container">
-        <div class="search-box">
-            <input type="text" id="search-input" placeholder="ابحث عن المنتجات..." autocomplete="off">
-            <button id="search-button"><i class="fas fa-search"></i></button>
-        </div>
-        <div id="search-results" class="search-results">
-            <!-- نتائج البحث ستظهر هنا -->
-        </div>
-    </div>
-</div>
-
+   
 
 
     <main class="container">
@@ -945,30 +933,9 @@ document.addEventListener("touchstart", function(event) {
 }, { passive: true });
 </script>
     
-    <!-- تعديل ترتيب تحميل ملفات JavaScript لضمان تعريف المتغير products قبل استخدامه -->
-    <script src="products.js"></script>
-    <script src="script.js"></script>
-    
-        <script>
-    if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadScripts);
-} else {
-    loadScripts();
-}
+<script src="products.js"></script>
+<script src="script.js"></script>
 
-function loadScripts() {
-    // تحميل سكربت المنتجات أولاً
-    var script1 = document.createElement('script');
-    script1.src = 'products.js';
-    script1.onload = function() {
-        // بعد تحميل products.js، تحميل السكربت الثاني (script.js)
-        var script2 = document.createElement('script');
-        script2.src = 'script.js';
-        document.body.appendChild(script2);
-    };
-    document.body.appendChild(script1);
-}
-</script>
 
 </body>
 </html>
