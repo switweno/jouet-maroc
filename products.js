@@ -4,557 +4,541 @@ const products = [
   
     {
    id: "TROTTINETTE-JOYOR-48V-17.5AH",
-   title: "TROTTINETTE JOYOR 48V 17.5AH",
-   brand: "JOYOR Y 6 S",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 121,
-   currentPrice: 5490,
-   oldPrice: 6299,
-   discount: 30,
-   images: [
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-03.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-05.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-02.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-04.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-01.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-07.webp",
-     "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"
-   ],
-   features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "1000 W" },
-      { key: "Vitesse", value: "50-56 km/h" },
-      { key: "Mode de conduite", value: "3 vitesses" },
-      { key: "Batterie", value: "Lithium 48V 17.5AH" },
-      { key: "Autonomie", value: "45-60 km" },
-      { key: "Charge max", value: "110 kg" },
-      { key: "Freinage", value: "Disques AV/AR + E-ABS" }
-    ]
+    title: "TROTTINETTE JOYOR 48V 17.5AH",
+    brand: "JOYOR Y 6 S",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 121,
+    currentPrice: 5490,
+    oldPrice: 6299,
+    discount: 30,
+    images: [
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-03.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-05.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-02.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-04.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-01.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-07.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1000 W" },
+          { key: "VITESSE", value: "50-56 KM/H" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+          { key: "BATTERIE", value: "LITHIUM 48V 17.5AH" },
+          { key: "AUTONOMIE", value: "45-60 KM" },
+          { key: "CHARGE MAX", value: "110 KG" },
+          { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "DISPLAY EY2 (APPLICATION MOBILE) 📱" },
+          { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + إشارات" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "KLAXON", value: "OUI" },
+          { key: "CADEAU 1", value: "حقيبة هدية 🎁" },
+          { key: "CADEAU 2", value: "غرفة هواء هدية 🎁" },
+          { key: "CADEAU 3", value: "قفل مرفق هدية 🎁" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Affichage", value: "DISPLAY EY2 (تطبيق موبايل) 📱" },
-      { key: "Suspension", value: "AV/AR réglables" },
-      { key: "Éclairage", value: "LED AV/AR + إشارات" },
-      { key: "Étanchéité", value: "IPX5" },
-     { key: "Conception", value: "Pliable" },
-      { key: "Klaxon", value: "Oui" },
-      { key: "Cadeau 1", value: "حقيبة هدية 🎁" },
-      { key: "Cadeau 2", value: "غرفة هواء هدية 🎁" },
-      { key: "Cadeau 3", value: "قفل مرفق هدية 🎁" }
-    ]
-  }
-],
-
-   warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
- },
-  
-  
-{
-   id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
-   title: "TROTTINETTE Mi Electric Scooter Essential",
-   brand: "Xiaomi Essential",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 165,
-   currentPrice: 2699,
-   oldPrice: 3509,
-   discount: 30,
-   wholesalePrice: {
+    id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
+    title: "TROTTINETTE Mi Electric Scooter Essential",
+    brand: "Xiaomi Essential",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 165,
+    currentPrice: 2699,
+    oldPrice: 3509,
+    discount: 30,
+    wholesalePrice: {
       minQuantity: 3,
       pricePerUnit: 2375
-   },
-   images: [
-     "Xiaomi Essential/xiaomi-essential-01.webp",
-     "Xiaomi Essential/xiaomi-essential-02.webp",
-     "Xiaomi Essential/xiaomi-essential-03.webp",
-     "Xiaomi Essential/xiaomi-essential-04.webp",
-     "Xiaomi Essential/xiaomi-essential-05.webp",
-     "Xiaomi Essential/xiaomi-essential-06.webp",
-   ],
-
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "500W max" },
-      { key: "Vitesse", value: "20 km/h min - 25 km/h max" },
-      { key: "Mode de conduite", value: "3 vitesses réglables" },
-      { key: "Batterie", value: "Lithium 36V 5100mAh / 183Wh" },
-      { key: "Autonomie", value: "15 km min - 20 km max" },
-      { key: "Charge max", value: "100 kg" },
-      { key: "Freinage", value: "Disque AR & Electrique + E-ABS" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Matériau", value: "Aluminium" },
-      { key: "Éclairage", value: "LED AV/AR" },
-      { key: "Feu stop", value: "LED" },
-      { key: "Feu avant", value: "LED" },
-      { key: "Étanchéité", value: "IPX5" },
-      { key: "Affichage", value: "LCD avec app mobile📱" },
-      { key: "Pneus", value: "8,5 pouces" },
-      { key: "Conception", value: "Pliable" },
-      { key: "Indicateur", value: "Batterie" },
-      { key: "Béquille", value: "Klaxon inclus" }
-    ]
-  }
-  ],
-   warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
- },
-  
-  {
-   id: "kukarin-g2-pro",
-   title: "TROTTINETTE KUKIRIN G2 PRO",
-   brand: "KUKIRIN",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 256,
-   currentPrice: 6390,
-   oldPrice: 7599,
-   discount: 30,
-   images: [
-     "kukaring2pro/kukiring2pro-2.webp",
-     "kukaring2pro/kukiring2pro-5.webp",
-     "kukaring2pro/kukiring2pro-6.webp",
-     "kukaring2pro/kukiring2pro-7.webp",
-     "kukaring2pro/kukiring2pro-1.webp",
-     "kukaring2pro/kukiring2pro-3.webp",
-     "kukaring2pro/kukiring2pro-4.webp",
-   ],
-features: [
-  {
-    title: "Caractéristiques techniques",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "1200W" },
-      { key: "Vitesse", value: "50-57 km/h" },
-      { key: "Batterie", value: "48V 15AH" },
-      { key: "Autonomie", value: "40-50 km" },
-      { key: "Charge max", value: "120 kg" },
-      { key: "Frein", value: "Disques AV/AR" }
-    ]
-  },
-  {
-    title: "Caractéristiques supplémentaires",
-    icon: "fa-star",
-    items: [
-      { key: "Suspension", value: "AV/AR réglables" },
-      { key: "Éclairage", value: "LED AV/AR + clignotants" },
-      { key: "Étanchéité", value: "IPX5" },
-      { key: "Affichage", value: "Écran LCD multifonction" },
-      { key: "Pneus", value: "Off-Road 8.5\" renforcés" },
-      { key: "Conception", value: "Pliable avec siège en cuir" },
-      { key: "Indicateur", value: "Indicateur de batterie + clignotants" },
-       { key: "Cadeau", value: "🎁 Surprise offerte !" }
-   ]
-  }
-  ],
-   warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
- },
-  
-  {
-   id: "dualtron-pop-54v",
-   title: "TROTTINETTE DUALTRON POP 52V",
-   brand: "DUALTRON",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 192,
-   currentPrice: 7490,
-   oldPrice: 8999,
-   discount: 30,
-   images: [
-     "dualtron-pop/dualtron-pop_52v_04.webp",
-     "dualtron-pop/dualtron-pop_52v_01.webp",
-     "dualtron-pop/dualtron-pop_52v_03.webp",
-     "dualtron-pop/dualtron-pop_52v_02.webp",
-     "dualtron-pop/dualtron-pop_52v_05.webp",
-     "dualtron-pop/dualtron-pop_52v_06.webp",
-     "dualtron-pop/dualtron-pop_52v_07.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "1000W min - 1450W max" },
-      { key: "Vitesse", value: "50-67 km/h" },
-      { key: "Mode de conduite", value: "3 vitesses" },
-      { key: "Batterie", value: "Lithium 52V 14AH" },
-      { key: "Autonomie", value: "30-40 km" },
-      { key: "Charge maximale", value: "120 kg" },
-      { key: "Freinage", value: "Disques AV/AR + E-ABS" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Suspension", value: "Avant et arrière" },
-      { key: "Éclairage", value: "LED AV/AR + clignotants" },
-      { key: "Étanchéité", value: "IPX5" },
-      { key: "Waterproof", value: "IPX4" },
-      { key: "Affichage", value: "DISPLAY EY2" },
-      { key: "Pneus", value: "9\" renforcés" },
-      { key: "Conception", value: "Pliable avec klaxon" },
-      { key: "Tableau de bord", value: "Digital" }
-    ]
-  }
-],
-
-   warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
- },
-  
- {
-   id: "VÉLO-BMX-GTR -ALUMINIUM",
-   title: "VÉLO BMX GTR ALUMINIUM 26",
-   brand: "HAOMENG",
-   category: "دراجات هواىية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 325,
-   currentPrice: 1699,
-   oldPrice: 2199,
-   discount: 30,
-   images: [
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-01.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-02.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-03.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-04.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-05.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-06.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-07.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-08.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-09.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-10.webp",
-     "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-11.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Roues", value: "26 POUCES" },
-      { key: "Matériau", value: "VÉLO ALUMINIUM" },
-      { key: "Qualité", value: "BMX GTR 1E QUALITÉ " },
-      { key: "Roues Matériau", value: "ROUE DE VÉLO ALUMINIUM" },
-      { key: "Changement", value: "CHANGEMENT SUNRISE" },
-      { key: "Vitesse", value: "VITESSE 3×7=21" },
-      { key: "Plateau", value: "PLATEAU SUNRISE‏" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Freins", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
-      { key: "Amortisseur", value: "AMORTISSEUR AVANT" },
-      { key: "Siège", value: "SIÈGE SPORT CUIR" },
-      { key: "Gardes-boue", value: "LES GARDES-BOUES AV ET AR" }
-    ]
-  }
-],
-   warranty: "Garantie de 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
- },
- 
- {
-   id: "velo-vtt-haomeng-27.5",
-   title: "VÉLO VTT HAOMENG 27.5",
-   brand: "HAOMENG",
-   category: "دراجات هواىية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 266,
-   currentPrice: 1549,
-   oldPrice: 1899,
-   discount: 30,
-   images: [
-     "vtt_27/vtt_27_07.webp",
-     "vtt_27/vtt_27_06.webp",
-     "vtt_27/vtt_27_03.webp",
-     "vtt_27/vtt_27_04.webp",
-     "vtt_27/vtt_27_05.webp",
-     "vtt_27/vtt_27_02.webp",
-     "vtt_27/vtt_27_01.webp"
-   ],
-  features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "ROUES", value: "26 pouces" },
-      { key: "MATÉRIAU", value: "Aluminium" },
-      { key: "QUALITÉ", value: "BMX GTR 1E" },
-      { key: "ROUE", value: "Aluminium" },
-      { key: "CHANGEMENT DE VITESSE", value: "Sunrise" },
-      { key: "VITESSE", value: "3×7 = 21 vitesses" },
-      { key: "PLATEAU", value: "Sunrise" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "FREINS", value: "Disques avant et arrière" },
-      { key: "AMORTISSEUR", value: "Amortisseur avant" },
-      { key: "SIÈGE", value: "Siège sport en cuir" }
-    ]
-  }
-],
-   warranty: "Garantie de 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
- },
- 
- {
-   id: "velo-electrique-harley-u9",
-   title: "VÉLO ÉLECTRIQUE HARLEY U9",
-   brand: "LIKEBIKE",
-   category: "دراجات كهربائية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 120,
-   currentPrice: 8499,
-   oldPrice: 10999,
-   discount: 35,
-   images: [
-     "likebike-harley-u9/likebike-u9-01.webp",
-     "likebike-harley-u9/likebike-u9-02.webp",
-     "likebike-harley-u9/likebike-u9-03.webp",
-     "likebike-harley-u9/likebike-u9-04.webp",
-     "likebike-harley-u9/likebike-u9-05.webp",
-     "likebike-harley-u9/likebike-u9-06.webp",
-     "likebike-harley-u9/likebike-u9-07.webp",
-     "likebike-harley-u9/likebike-u9-08.webp",
-     "likebike-harley-u9/likebike-u9-09.webp",
-     "likebike-harley-u9/likebike-u9-10.webp",
-     "likebike-harley-u9/likebike-u9-11.webp",
-     "likebike-harley-u9/likebike-u9-12.webp",
-      "likebike-harley-u9/likebike-u9-13.webp",
-     "likebike-harley-u9/likebike-u9-14.webp"
-   ],
-  features: [
-    {
-      title: "المواصفات التقنية",
-      icon: "fa-cogs",
-      items: [
-        { key: "Puissance", value: "750 W MAX" },
-        { key: "Batterie", value: "Lithium 48V 18.2AH" },
-        { key: "Charge rapide", value: "Compatible 54V" },
-        { key: "Charge maximale", value: "130 kg" },
-        { key: "Autonomie normale", value: "45-60 km" },
-        { key: "Mode assistance", value: "100 km MAX" },
-        { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX" },
-        { key: "Freins", value: "Disques AV/AR" }
-      ]
     },
-    {
-      title: "المميزات الإضافية",
-      icon: "fa-star",
-      items: [
-        { key: "Affichage", value: "Écran LCD multifonction" },
-        { key: "Niveaux de vitesse", value: "5 niveaux" },
-        { key: "Transmission", value: "7 vitesses Shimano" },
-        { key: "Éclairage", value: "LED AV/AR + clignotants" },
-        { key: "Amortisseurs", value: "Réglables AV/AR" },
-        { key: "Confort", value: "Siège cuir 2 places" },
-        { key: "Démarrage", value: "Contact" },
-        { key: "Pneus", value: "20.4\" avec garde-boue" },
-        { key: "Klaxon", value: "Électrique" },
-        { key: "Pièces", value: "Shimano" }
-      ]
-    }
-  ],
-
-   warranty: "Garantie de 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
- },
-  
+    images: [
+      "Xiaomi Essential/xiaomi-essential-01.webp",
+      "Xiaomi Essential/xiaomi-essential-02.webp",
+      "Xiaomi Essential/xiaomi-essential-03.webp",
+      "Xiaomi Essential/xiaomi-essential-04.webp",
+      "Xiaomi Essential/xiaomi-essential-05.webp",
+      "Xiaomi Essential/xiaomi-essential-06.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500W MAX" },
+          { key: "VITESSE", value: "20 KM/H MIN - 25 KM/H MAX" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES RÉGLABLES" },
+          { key: "BATTERIE", value: "LITHIUM 36V 5100MAH / 183WH" },
+          { key: "AUTONOMIE", value: "15 KM MIN - 20 KM MAX" },
+          { key: "CHARGE MAX", value: "100 KG" },
+          { key: "FREINAGE", value: "DISQUE AR & ELECTRIQUE + E-ABS" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "MATÉRIAU", value: "ALUMINIUM" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR" },
+          { key: "FEU STOP", value: "LED" },
+          { key: "FEU AVANT", value: "LED" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "AFFICHAGE", value: "LCD AVEC APP MOBILE 📱" },
+          { key: "PNEUS", value: "8,5 POUCES" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "INDICATEUR", value: "BATTERIE" },
+          { key: "BÉQUILLE", value: "KLAXON INCLUS" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
+  },
   {
-   id: "velo-electrique-likebike-shine-s",
-   title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
-   brand: "LIKEBIKE",
-   category: "دراجات كهربائية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 232,
-   currentPrice: 7199,
-   oldPrice: 10099,
-   discount: 30,
-   images: [
-     "likebike-shine-s/likebike-shine-s-09.webp",
-     "likebike-shine-s/likebike-shine-s-02.webp",
-     "likebike-shine-s/likebike-shine-s-03.webp",
-     "likebike-shine-s/likebike-shine-s-04.webp",
-     "likebike-shine-s/likebike-shine-s-05.webp",
-     "likebike-shine-s/likebike-shine-s-06.webp",
-     "likebike-shine-s/likebike-shine-s-07.webp",
-     "likebike-shine-s/likebike-shine-s-08.webp",
-     "likebike-shine-s/likebike-shine-s-01.webp"
-   ],
+    id: "kukarin-g2-pro",
+    title: "TROTTINETTE KUKIRIN G2 PRO",
+    brand: "KUKIRIN",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 256,
+    currentPrice: 6390,
+    oldPrice: 7599,
+    discount: 30,
+    images: [
+      "kukaring2pro/kukiring2pro-2.webp",
+      "kukaring2pro/kukiring2pro-5.webp",
+      "kukaring2pro/kukiring2pro-6.webp",
+      "kukaring2pro/kukiring2pro-7.webp",
+      "kukaring2pro/kukiring2pro-1.webp",
+      "kukaring2pro/kukiring2pro-3.webp",
+      "kukaring2pro/kukiring2pro-4.webp"
+    ],
+    features: [
+      {
+        title: "CARACTÉRISTIQUES TECHNIQUES",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1200W" },
+          { key: "VITESSE", value: "50-57 KM/H" },
+          { key: "BATTERIE", value: "48V 15AH" },
+          { key: "AUTONOMIE", value: "40-50 KM" },
+          { key: "CHARGE MAX", value: "120 KG" },
+          { key: "FREIN", value: "DISQUES AV/AR" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES SUPPLÉMENTAIRES",
+        icon: "fa-star",
+        items: [
+          { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "AFFICHAGE", value: "ÉCRAN LCD MULTIFONCTION" },
+          { key: "PNEUS", value: "OFF-ROAD 8.5\" RENFORCÉS" },
+          { key: "CONCEPTION", value: "PLIABLE AVEC SIÈGE EN CUIR" },
+          { key: "INDICATEUR", value: "INDICATEUR DE BATTERIE + CLIGNOTANTS" },
+          { key: "CADEAU", value: "🎁 SURPRISE OFFERTE !" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "dualtron-pop-54v",
+    title: "TROTTINETTE DUALTRON POP 52V",
+    brand: "DUALTRON",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 192,
+    currentPrice: 7490,
+    oldPrice: 8999,
+    discount: 30,
+    images: [
+      "dualtron-pop/dualtron-pop_52v_04.webp",
+      "dualtron-pop/dualtron-pop_52v_01.webp",
+      "dualtron-pop/dualtron-pop_52v_03.webp",
+      "dualtron-pop/dualtron-pop_52v_02.webp",
+      "dualtron-pop/dualtron-pop_52v_05.webp",
+      "dualtron-pop/dualtron-pop_52v_06.webp",
+      "dualtron-pop/dualtron-pop_52v_07.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1000W MIN - 1450W MAX" },
+          { key: "VITESSE", value: "50-67 KM/H" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+          { key: "BATTERIE", value: "LITHIUM 52V 14AH" },
+          { key: "AUTONOMIE", value: "30-40 KM" },
+          { key: "CHARGE MAXIMALE", value: "120 KG" },
+          { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "WATERPROOF", value: "IPX4" },
+          { key: "AFFICHAGE", value: "DISPLAY EY2" },
+          { key: "PNEUS", value: "9\" RENFORCÉS" },
+          { key: "CONCEPTION", value: "PLIABLE AVEC KLAXON" },
+          { key: "TABLEAU DE BORD", value: "DIGITAL" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "VÉLO-BMX-GTR -ALUMINIUM",
+    title: "VÉLO BMX GTR ALUMINIUM 26",
+    brand: "HAOMENG",
+    category: "دراجات هواىية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 325,
+    currentPrice: 1699,
+    oldPrice: 2199,
+    discount: 30,
+    images: [
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-01.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-02.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-03.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-04.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-05.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-06.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-07.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-08.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-09.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-10.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-11.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "MATÉRIAU", value: "VÉLO ALUMINIUM" },
+          { key: "QUALITÉ", value: "BMX GTR 1E QUALITÉ " },
+          { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SUNRISE" },
+          { key: "VITESSE", value: "VITESSE 3×7=21" },
+          { key: "PLATEAU", value: "PLATEAU SUNRISE‏" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+          { key: "GARDES-BOUE", value: "LES GARDES-BOUES AV ET AR" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-vtt-haomeng-27.5",
+    title: "VÉLO VTT HAOMENG 27.5",
+    brand: "HAOMENG",
+    category: "دراجات هواىية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 266,
+    currentPrice: 1549,
+    oldPrice: 1899,
+    discount: 30,
+    images: [
+      "vtt_27/vtt_27_07.webp",
+      "vtt_27/vtt_27_06.webp",
+      "vtt_27/vtt_27_03.webp",
+      "vtt_27/vtt_27_04.webp",
+      "vtt_27/vtt_27_05.webp",
+      "vtt_27/vtt_27_02.webp",
+      "vtt_27/vtt_27_01.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "MATÉRIAU", value: "ALUMINIUM" },
+          { key: "QUALITÉ", value: "BMX GTR 1E" },
+          { key: "ROUE", value: "ALUMINIUM" },
+          { key: "CHANGEMENT DE VITESSE", value: "SUNRISE" },
+          { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+          { key: "PLATEAU", value: "SUNRISE" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-electrique-harley-u9",
+    title: "VÉLO ÉLECTRIQUE HARLEY U9",
+    brand: "LIKEBIKE",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 8499,
+    oldPrice: 10999,
+    discount: 35,
+    images: [
+      "likebike-harley-u9/likebike-u9-01.webp",
+      "likebike-harley-u9/likebike-u9-02.webp",
+      "likebike-harley-u9/likebike-u9-03.webp",
+      "likebike-harley-u9/likebike-u9-04.webp",
+      "likebike-harley-u9/likebike-u9-05.webp",
+      "likebike-harley-u9/likebike-u9-06.webp",
+      "likebike-harley-u9/likebike-u9-07.webp",
+      "likebike-harley-u9/likebike-u9-08.webp",
+      "likebike-harley-u9/likebike-u9-09.webp",
+      "likebike-harley-u9/likebike-u9-10.webp",
+      "likebike-harley-u9/likebike-u9-11.webp",
+      "likebike-harley-u9/likebike-u9-12.webp",
+      "likebike-harley-u9/likebike-u9-13.webp",
+      "likebike-harley-u9/likebike-u9-14.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "750 W MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 18.2AH" },
+          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "CHARGE MAXIMALE", value: "130 KG" },
+          { key: "AUTONOMIE NORMALE", value: "45-60 KM" },
+          { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+          { key: "VITESSE", value: "50 KM/H MIN - 62 KM/H MAX" },
+          { key: "FREINS", value: "DISQUES AV/AR" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "ÉCRAN LCD MULTIFONCTION" },
+          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" },
+          { key: "TRANSMISSION", value: "7 VITESSES SHIMANO" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "AMORTISSEURS", value: "RÉGLABLES AV/AR" },
+          { key: "CONFORT", value: "SIÈGE CUIR 2 PLACES" },
+          { key: "DÉMARRAGE", value: "CONTACT" },
+          { key: "PNEUS", value: "20.4\" AVEC GARDE-BOUE" },
+          { key: "KLAXON", value: "ÉLECTRIQUE" },
+          { key: "PIÈCES", value: "SHIMANO" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-electrique-likebike-shine-s",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
+    brand: "LIKEBIKE",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 232,
+    currentPrice: 7199,
+    oldPrice: 10099,
+    discount: 30,
+    images: [
+      "likebike-shine-s/likebike-shine-s-09.webp",
+      "likebike-shine-s/likebike-shine-s-02.webp",
+      "likebike-shine-s/likebike-shine-s-03.webp",
+      "likebike-shine-s/likebike-shine-s-04.webp",
+      "likebike-shine-s/likebike-shine-s-05.webp",
+      "likebike-shine-s/likebike-shine-s-06.webp",
+      "likebike-shine-s/likebike-shine-s-07.webp",
+      "likebike-shine-s/likebike-shine-s-08.webp",
+      "likebike-shine-s/likebike-shine-s-01.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500 W MAX" },
+          { key: "VITESSE MAX", value: "50 KM/H MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
+          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "AUTONOMIE", value: "45-55 KM" },
+          { key: "VITESSES MOTEUR", value: "5 NIVEAUX DE VITESSE" },
+          { key: "FREINS", value: "AV/AR" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "شاشة رقمية متعددة الوظائف" },
+          { key: "AMORTISSEURS", value: "RÉGLABLE AV" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + KLAXON" },
+          { key: "PNEUS", value: "20'' AVEC GARDE-BOUE" },
+          { key: "SIÈGE", value: "CUIR CONFORTABLE" },
+          { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
+          { key: "VITESSES", value: "7 VITESSES" },
+          { key: "CONFORT", value: "PORTE-BAGAGE INCLUS" },
+          { key: "CHARGE MAX", value: "130 KG" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-electrique-likebike-shine",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE",
+    brand: "LIKEBIKE",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 269,
+    currentPrice: 7199,
+    oldPrice: 10099,
+    discount: 30,
+    images: [
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-01.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-02.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-03.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-04.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-05.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-06.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-07.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-08.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-09.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-10.webp"
+    ],
+    features: [
+      {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500 W MAX" },
+          { key: "VITESSE MAX", value: "50 KM/H MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
+          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "AUTONOMIE", value: "45-55 KM MAX" },
+          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX DE VITESSE" },
+          { key: "FREINS", value: "AVANT ET ARRIÈRE" }
+        ]
+      },
+      {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "DIGITAL MULTIFONCTION" },
+          { key: "AMORTISSEURS", value: "RÉGLABLE AVANT" },
+          { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE + KLAXON" },
+          { key: "PNEUS", value: "20 POUCES AVEC GARDE-BOUE" },
+          { key: "SIÈGE", value: "CUIR CONFORTABLE" },
+          { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
+          { key: "VITESSES", value: "7 VITESSES SHIMANO" },
+          { key: "PIÈCES", value: "PIÈCES SHIMANO" },
+          { key: "PORTE-BAGAGE", value: "INCLUS" },
+          { key: "CHARGE MAX", value: "130 KG" }
+        ]
+      }
+    ],
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
+    title: "VÉLO ÉLECTRIQUE 2025 ",
+    brand: "LIKEBIKE",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 165,
+    currentPrice: 5499,
+    oldPrice: 7099,
+    discount: 30,
+    images: [
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-01.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-02.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-03.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-04.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-05.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-06.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-07.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-08.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-09.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-10.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-12.webp"
+    ],
 features: [
   {
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse Max", value: "50 km/h MAX" },
-      { key: "Batterie", value: "Lithium 48V 13AH" },
-      { key: "Charge rapide", value: "Compatible 54V" },
-      { key: "Autonomie", value: "45-55 km" },
-      { key: "Vitesses moteur", value: "5 niveaux de vitesse" },
-      { key: "Freins", value: "AV/AR" }
+      { key: "PUISSANCE", value: "400 W MAX" },
+      { key: "VITESSE MAX", value: "46 KM" },
+      { key: "DÉMARRAGE", value: "CONTACT ÉLECTRIQUE" },
+      { key: "BATTERIE", value: "48V 15.6AH LITHIUM" },
+      { key: "AUTONOMIE", value: "45-55 KM MAX" },
+      { key: "FREINS", value: "AV/AR" },
+      { key: "VITESSE", value: "3 NIVEAUX + 1 PÉDALE" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "Affichage", value: "شاشة رقمية متعددة الوظائف" },
-      { key: "Amortisseurs", value: "Réglable AV" },
-      { key: "Éclairage", value: "LED AV/AR + klaxon" },
-      { key: "Pneus", value: "20'' avec garde-boue" },
-      { key: "Siège", value: "Cuir confortable" },
-      { key: "Système", value: "Changement Shimano" },
-      { key: "Vitesses", value: "7 vitesses" },
-      { key: "Confort", value: "Porte-bagage inclus" },
-      { key: "Charge max", value: "130 kg" }
-    ]
-  }
-],
-
-   warranty: "Garantie de 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
- },
-  
- {
-   id: "velo-electrique-likebike-shine",
-   title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE",
-   brand: "LIKEBIKE",
-   category: "دراجات كهربائية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 269,
-   currentPrice: 7199,
-   oldPrice: 10099,
-   discount: 30,
-   images: [
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-01.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-02.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-03.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-04.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-05.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-06.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-07.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-08.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-09.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-10.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse Max", value: "50 km/h MAX" },
-      { key: "Batterie", value: "Lithium 48V 13AH" },
-      { key: "Charge rapide", value: "Compatible 54V" },
-      { key: "Autonomie", value: "45-55 km MAX" },
-      { key: "Niveaux de vitesse", value: "5 niveaux de vitesse" },
-      { key: "Freins", value: "Avant et arrière" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Affichage", value: "Digital multifonction" },
-      { key: "Amortisseurs", value: "Réglable avant" },
-      { key: "Éclairage", value: "LED avant et arrière + klaxon" },
-      { key: "Pneus", value: "20 pouces avec garde-boue" },
-      { key: "Siège", value: "Cuir confortable" },
-      { key: "Système", value: "Changement Shimano" },
-      { key: "Vitesses", value: "7 vitesses Shimano" },
-      { key: "Pièces", value: "Pièces Shimano" },
-      { key: "Porte-bagage", value: "Inclus" },
-      { key: "Charge max", value: "130 kg" }
-    ]
-  }
-],
-
-   warranty: "Garantie de 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
- },
-  
- {
-   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
-   title: "VÉLO ÉLECTRIQUE 2025 ",
-   brand: "LIKEBIKE",
-   category: "دراجات كهربائية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 165,
-   currentPrice: 5499,
-   oldPrice: 7099,
-   discount: 30,
-   images: [
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-01.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-02.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-03.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-04.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-05.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-06.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-07.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-08.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-09.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-10.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp",
-     "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-12.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Puissance", value: "400 W MAX" },
-      { key: "Vitesse Max", value: "46 KM" },
-      { key: "Démarrage", value: "Contact" },
-      { key: "Batterie", value: "48V 15.6AH Lithium" },
-      { key: "Charge", value: "54V compatible" },
-      { key: "Autonomie", value: "45-55 KM MAX" },
-      { key: "Freins", value: "AV/AR" },
-      { key: "Vitesse", value: "3 niveaux" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Amortisseurs", value: "Double" },
+      { key: "CHARGE", value: "54V COMPATIBLE" },
+      { key: "AMORTISSEURS", value: "DOUBLE" },
       { key: "LED", value: "AV/AR" },
-      { key: "Pneus", value: "14 pouces" },
-      { key: "Siège", value: "2 places cuir" },
-      { key: "Affichage", value: "TABLEAU DIGITAL" },
-      { key: "Confort", value: "Vélo pliable" },
-      { key: "Charge max", value: "120 kg" }
+      { key: "PNEUS", value: "14 POUCES" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "CONFORT", value: "VÉLO PLIABLE" },
+      { key: "CHARGE MAX", value: "120 KG" }
     ]
   }
 ],
@@ -598,7 +582,7 @@ features: [
       items: [
         { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
         { key: "BATTERIE", value: "48 V 18,2 AH - LITHIUM" },
-        { key: "CHARGE MAX", value: "130 kg" },
+        { key: "CHARGE MAX", value: "130 KG" },
         { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
         { key: "AUTONOMIE", value: "45 KM - 60 KM MAX" },
         { key: "MODE ASSISTANCE", value: "100 KM MAX" },
@@ -611,7 +595,7 @@ features: [
       icon: "fa-star",
       items: [
         { key: "TABLEAU", value: "DIGITAL" },
-        { key: "NIVEAUX DE VITESSE", value: "5 niveaux" }, 
+        { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" }, 
         { key: "CHANGEMENT SHIMANO", value: "7E VITESSE" },
         { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
         { key: "SIGNAL", value: "À DROITE ET À GAUCHE" },
@@ -656,23 +640,23 @@ features: [
     items: [
       { key: "MARQUE", value: "BISON GT ORIGINAL" },
       { key: "MOTEUR", value: "1000W MAX" },
-      { key: "VITESSE", value: "Jusqu'à 50 km/h" },
-      { key: "BATTERIE", value: "48V 13Ah Lithium" },
-      { key: "AUTONOMIE", value: "Jusqu'à 40 km" },
-      { key: "CHARGE MAX", value: "120 kg" },
-      { key: "FREINS", value: "Disques avant et arrière + E-ABS" }
+      { key: "VITESSE", value: "JUSQU'À 50 KM/H" },
+      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+      { key: "AUTONOMIE", value: "JUSQU'À 40 KM" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE + E-ABS" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "PNEUS", value: "10 pouces Off-road" },
-      { key: "AMORTISSEURS", value: "Double suspension" },
-      { key: "TABLEAU DE BORD", value: "Écran digital" },
-      { key: "LUMIÈRES LED", value: "Avant & arrière" },
-      { key: "PLIABLE", value: "Oui" },
-      { key: "KLAXON", value: "Oui" }
+      { key: "PNEUS", value: "10 POUCES OFF-ROAD" },
+      { key: "AMORTISSEURS", value: "DOUBLE SUSPENSION" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN DIGITAL" },
+      { key: "LUMIÈRES LED", value: "AVANT & ARRIÈRE" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "KLAXON", value: "OUI" }
     ]
   }
 ],
@@ -705,28 +689,28 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MARQUE", value: "EcoXtrem LINEAR" },
-      { key: "MOTEUR", value: "350W - 700W max" },
-      { key: "VITESSE", value: "25 - 30 km/h" },
-      { key: "BATTERIE", value: "36V 7,8AH Lithium" },
-      { key: "AUTONOMIE", value: "15 - 25 km" },
-      { key: "CHARGE MAX", value: "100 kg" },
-      { key: "FREIN", value: "Disque arrière + Électrique" }
+      { key: "MARQUE", value: "ECOXTREM LINEAR" },
+      { key: "MOTEUR", value: "350W - 700W MAX" },
+      { key: "VITESSE", value: "25 - 30 KM/H" },
+      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+      { key: "AUTONOMIE", value: "15 - 25 KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "DISQUE ARRIÈRE + ÉLECTRIQUE" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "ROUES", value: "10 pouces Tubeless" },
+      { key: "ROUES", value: "10 POUCES TUBELESS" },
       { key: "ÉTANCHÉITÉ", value: "IPX5" },
       { key: "ÉCRAN", value: "LCD EY2" },
-      { key: "VITESSE", value: "3 niveaux réglables" },
-      { key: "LED", value: "Avant + Stop arrière" },
-      { key: "SIGNAL", value: "Clignotants gauche/droite" },
-      { key: "KLAXON", value: "Oui" },
-      { key: "PLIABLE", value: "Oui" },
-      { key: "CADEAU", value: "Sac offert 🎁" }
+      { key: "VITESSE", value: "3 NIVEAUX RÉGLABLES" },
+      { key: "LED", value: "AVANT + STOP ARRIÈRE" },
+      { key: "SIGNAL", value: "CLIGNOTANTS GAUCHE/DROITE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "CADEAU", value: "SAC OFFERT 🎁" }
     ]
   }
 ],
@@ -759,25 +743,25 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MOTEUR", value: "5 moteurs puissants" },
-      { key: "VITESSE", value: "3 niveaux" },
-      { key: "BATTERIE", value: "12V rechargeable" },
-      { key: "AUTONOMIE", value: "1-2h de jeu" },
-      { key: "CHARGE MAX", value: "Jusqu'à 30 kg" }
+      { key: "MOTEUR", value: "5 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 NIVEAUX" },
+      { key: "BATTERIE", value: "12V RECHARGEABLE" },
+      { key: "AUTONOMIE", value: "1-2H DE JEU" },
+      { key: "CHARGE MAX", value: "JUSQU'À 30 KG" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "CEINTURE", value: "Incluse" },
-      { key: "ROUES", value: "Antidérapantes" },
-      { key: "PROTECTION", value: "Résistante" },
-      { key: "MUSIQUE", value: "Bluetooth, USB, AUX" },
-      { key: "LED", value: "Avant & arrière" },
-      { key: "KLAXON", value: "Son réaliste" },
-      { key: "BALANÇOIRE", value: "Effet intégré" },
-      { key: "TÉLÉCOMMANDE", value: "Parentale" }
+      { key: "CEINTURE", value: "INCLUSE" },
+      { key: "ROUES", value: "ANTIDÉRAPANTES" },
+      { key: "PROTECTION", value: "RÉSISTANTE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, AUX" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "KLAXON", value: "SON RÉALISTE" },
+      { key: "BALANÇOIRE", value: "EFFET INTÉGRÉ" },
+      { key: "TÉLÉCOMMANDE", value: "PARENTALE" }
     ]
   }
 ],
@@ -810,28 +794,28 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MOTEUR", value: "3 moteurs puissants" },
-      { key: "VITESSE", value: "3 vitesses + bascule" },
-      { key: "BATTERIE", value: "2x 6V rechargeables" },
-      { key: "CHARGEUR", value: "Inclus (12V)" },
-      { key: "AUTONOMIE", value: "1-2h" },
-      { key: "ÂGE", value: "1-6 ans" }
+      { key: "MOTEUR", value: "3 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 VITESSES + BASCULE" },
+      { key: "BATTERIE", value: "2X 6V RECHARGEABLES" },
+      { key: "CHARGEUR", value: "INCLUS (12V)" },
+      { key: "AUTONOMIE", value: "1-2H" },
+      { key: "ÂGE", value: "1-6 ANS" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "CEINTURE", value: "Incluse" },
-      { key: "AMORTISSEURS", value: "Oui" },
-      { key: "ROUES", value: "Antidérapantes" },
-      { key: "PROTECTION", value: "Résistante" },
-      { key: "MUSIQUE", value: "Bluetooth, USB, AUX" },
-      { key: "LED", value: "Avant & arrière" },
-      { key: "KLAXON", value: "Oui" },
-      { key: "BALANÇOIRE", value: "Oui" },
-      { key: "TÉLÉCOMMANDE", value: "Parentale" },
-      { key: "SIÈGE", value: "Confortable" }
+      { key: "CEINTURE", value: "INCLUSE" },
+      { key: "AMORTISSEURS", value: "OUI" },
+      { key: "ROUES", value: "ANTIDÉRAPANTES" },
+      { key: "PROTECTION", value: "RÉSISTANTE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, AUX" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "BALANÇOIRE", value: "OUI" },
+      { key: "TÉLÉCOMMANDE", value: "PARENTALE" },
+      { key: "SIÈGE", value: "CONFORTABLE" }
     ]
   }
 ],
@@ -861,29 +845,30 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "CARACTÉRISTIQUES TECHNIQUES",
     icon: "fa-cogs",
     items: [
-      { key: "MOTEUR", value: "2 moteurs puissants" },
-      { key: "VITESSE", value: "3 vitesses" },
-      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
-      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
-      { key: "ÂGE", value: "Adaptée pour une utilisation de 1 à 6 ans" }
+      { key: "MOTEUR", value: "2 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 VITESSES" },
+      { key: "BATTERIE", value: "2 BATTERIES 6V RECHARGEABLES" },
+      { key: "CHARGEUR", value: "CHARGEUR 12V INCLUS" },
+      { key: "ÂGE", value: "POUR ENFANTS DE 1 À 6 ANS" }
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "ATOUTS SUPPLÉMENTAIRES",
     icon: "fa-star",
     items: [
-      { key: "SIÈGE", value: "1 place en cuir confortable" },
-      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
-      { key: "ÉCLAIRAGE", value: "LED avant et arrière pour plus de visibilité" },
-      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
-      { key: "EFFETS SONORES", value: "Effets intégrés pour une expérience immersive" },
-      { key: "GUIDE UTILISATEUR", value: "Manuel d'utilisation inclus 🎁" }
+      { key: "SIÈGE", value: "SIÈGE EN CUIR CONFORTABLE" },
+      { key: "AMORTISSEURS", value: "AMORTISSEURS INTÉGRÉS" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, CÂBLE AUX" },
+      { key: "SONS", value: "EFFETS SONORES IMMERSIFS" },
+      { key: "GUIDE", value: "MANUEL INCLUS 🎁" }
     ]
   }
 ],
+
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  }
