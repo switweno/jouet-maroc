@@ -675,7 +675,7 @@ header {
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
     color: #674c4c; /* لون النص */
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
@@ -690,7 +690,7 @@ header {
 @media (max-width: 600px) {
     .product-description h3 {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
-        font-size: 1rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
 
@@ -878,9 +878,7 @@ header {
 
 /* Responsive Styles */
 @media (max-width: 767px) {
-    .cta-buttons {
-        flex-direction: column;
-    }
+    
     
     .product-gallery,
     .container {
@@ -918,6 +916,9 @@ header {
         font-size: 0.9rem;
     }
 }
+.discount {
+    display: none;
+}
 
 /* تصميم شارة التخفيض */
 .discount {
@@ -933,21 +934,19 @@ header {
 
 
 
-.main-image-discount-badge {
-    display: none; /* إخفاء الشارة افتراضيًا */
-}
+
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
     visibility: visible; /* عرض الشارة */
     position: absolute;
     top: clamp(10px, 2vw, 15px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: #7f1fa6;
-    color: white;
-    font-size: clamp(12px, 1vw, 14px); /* يتغير مع حجم الشاشة */
+    background-color: #FF0E50;
+    color: #f7f7f7;
+    font-size: clamp(17px, 1vw, 21px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
     padding: clamp(3px, 0.5vw, 5px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
-    border-radius: 0 20px 0 20px; /* انحناء في الأعلى اليمين والأسفل اليسار */
+     font-family: 'sans-serif', 'Cairo', sans-serif;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 10;
     direction: initial;
@@ -956,7 +955,7 @@ header {
 /* تحسين التصميم للهواتف */
 @media (max-width: 768px) {
     .main-image-discount-badge {
-        font-size: 0.8rem; /* تصغير الخط */
+        font-size: 1.1rem; /* تصغير الخط */
         padding: 4px 8px;
         top: 12px;
         left: 10px;
@@ -965,7 +964,7 @@ header {
 
 @media (max-width: 480px) {
     .main-image-discount-badge {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding: 3px 6px;
         top: 10px;
         left: 5px;
@@ -1316,8 +1315,14 @@ header {
     font-size: 1.2rem; /* تكبير حجم الأيقونة قليلاً */
 }
 
-
-
+@media (max-width: 767px) {
+    .cta-buttons {
+        flex-direction: column;
+         margin-top: 5px; /* تعديل الرقم حسب الحاجة */
+        
+          
+    }
+}
 /* Button Styles */
 .cta-buttons {
     display: flex;
@@ -1894,9 +1899,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex; /* تفعيل Flexbox */
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
-    margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
+    margin-bottom: 20px; /* زيادة المسافة أسفل الشريط */
     color: #674c4c; /* لون النص */
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
@@ -1905,13 +1910,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 90%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
+     
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
 @media (max-width: 600px) {
     .product-video-section h2 {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
-        font-size: 1rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
 
@@ -1919,46 +1925,40 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.product-video-section h2:after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70%;
-    height: 3px;
-    background-color:  rgba(0, 102, 204, 0);
-}
 
-/* Product Video Section Styles */
-.product-video-section {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 25px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
+
 
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 400px; /* عرض مناسب للنسبة العمودية */
+    max-width: 400px;
     margin: 0 auto;
-    aspect-ratio: 9/16; /* نسبة عمودية افتراضية */
+    aspect-ratio: 9/16;
+    padding: 8px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #FF0B52, #FED700, #FF0D51,  #FED700, #FED700);
+    background-size: 300% 300%;
+    animation: borderAnimation 4s infinite alternate; /* حركة التدرج */
+}
+
+@keyframes borderAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+    top: 8px;
+    left: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    object-fit: cover; /* تغطية المساحة مع الحفاظ على النسب */
+    object-fit: cover;
 }
+
+
 
 /* استجابة للشاشات الكبيرة */
 @media (min-width: 768px) {
@@ -2626,9 +2626,9 @@ select {
     display: flex; /* تفعيل Flexbox */
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
-    margin-bottom: 2px; /* زيادة المسافة أسفل الشريط */
+    margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
     color: #674c4c; /* لون النص */
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
@@ -2644,7 +2644,7 @@ select {
 @media (max-width: 600px) {
     .related-products h2 {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
-        font-size: 1rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
 
