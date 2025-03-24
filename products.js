@@ -352,8 +352,9 @@ features: [
       items: [
         { key: "Puissance", value: "750 W MAX " },
         { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX " },
-        { key: "Démarrage", value: "Contact électrique " },
+        { key: "Démarrage", value: "Contact " },
         { key: "Batterie", value: "Lithium 48V 18.2AH " },
+        { key: "Charge rapide", value: "Compatible 54V" },
         { key: "Autonomie normale", value: "45-60 km " },
         { key: "Mode assistance", value: "100 km MAX " },
         { key: "Freins", value: "Disques AV/AR " }
@@ -407,23 +408,25 @@ features: [
       { key: "Puissance", value: "500 W MAX" },
       { key: "Vitesse Max", value: "50 km/h MAX" },
       { key: "Batterie", value: "Lithium 48V 13AH" },
+      { key: "Charge rapide", value: "Compatible 54V" },
       { key: "Autonomie", value: "45-55 km" },
       { key: "Vitesses moteur", value: "5 vitesses (5E)" },
       { key: "Freins", value: "AV/AR" },
-      { key: "Vitesses manuelles", value: "7 vitesses (7E)" }
+     
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "Charge rapide", value: "Compatible 54V" },
+     
       { key: "Affichage", value: "Digital multifonction" },
       { key: "Amortisseurs", value: "Réglable AV" },
       { key: "Éclairage", value: "LED AV/AR + klaxon" },
       { key: "Pneus", value: "20'' avec garde-boue" },
       { key: "Siège", value: "Cuir confortable" },
       { key: "Système", value: "Changement Shimano" },
+       { key: "Vitesses", value: "7 vitesses" },
       { key: "Confort", value: "Porte-bagage inclus" },
       { key: "Charge max", value: "130 kg" }
     ]
@@ -464,9 +467,9 @@ features: [
       { key: "Puissance", value: "500 W MAX" },
       { key: "Vitesse Max", value: "50 km/h MAX" },
       { key: "Batterie", value: "Lithium 48V 13AH" },
+      { key: "Charge rapide", value: "Compatible 54V" },
       { key: "Autonomie", value: "45-55 km MAX" },
       { key: "Vitesses moteur", value: "5 vitesses (5E)" },
-      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
       { key: "Freins", value: "Avant et arrière" }
     ]
   },
@@ -474,13 +477,13 @@ features: [
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "Charge rapide", value: "Compatible 54V" },
       { key: "Affichage", value: "Digital multifonction" },
       { key: "Amortisseurs", value: "Réglable avant" },
       { key: "Éclairage", value: "LED avant et arrière + klaxon" },
       { key: "Pneus", value: "20 pouces avec garde-boue" },
       { key: "Siège", value: "Cuir confortable" },
       { key: "Système", value: "Changement Shimano" },
+      { key: "Vitesses", value: "7 vitesses" },
       { key: "Pièces", value: "Pièces Shimano" },
       { key: "Porte-bagage", value: "Inclus" },
       { key: "Charge max", value: "130 kg" }
@@ -523,18 +526,18 @@ features: [
     items: [
       { key: "Puissance", value: "400 W MAX" },
       { key: "Vitesse Max", value: "46 KM" },
-      { key: "Démarrage", value: "Contact électrique" },
+      { key: "Démarrage", value: "Contact" },
       { key: "Batterie", value: "48V 15.6AH Lithium" },
+      { key: "Charge", value: "54V compatible" },
       { key: "Autonomie", value: "45-55 KM MAX" },
       { key: "Freins", value: "AV/AR" },
-      { key: "Vitesse", value: "3 niveaux + 1 pédale" }
+      { key: "Vitesse", value: "3 niveaux" }
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "Charge", value: "54V compatible" },
       { key: "Amortisseurs", value: "Double" },
       { key: "LED", value: "AV/AR" },
       { key: "Pneus", value: "14 pouces" },
@@ -585,8 +588,9 @@ features: [
       items: [
         { key: "Puissance", value: "500 W MIN - 720 W MAX" },
         { key: "Vitesse max", value: "51 km/h" },
-        { key: "Démarrage", value: "Contact électrique" },
+        { key: "Démarrage", value: "Contact" },
         { key: "Batterie", value: "Lithium 48V 18.2AH" },
+        { key: "Charge rapide", value: "54V compatible" },
         { key: "Autonomie normale", value: "45-60 km MAX" },
         { key: "Mode assistance", value: "100 km MAX" },
         { key: "Freinage", value: "Avant et arrière" }
@@ -596,7 +600,6 @@ features: [
       title: "المميزات الإضافية",
       icon: "fa-star",
       items: [
-        { key: "Charge rapide", value: "54V compatible" },
         { key: "Amortisseurs", value: "Réglables avant et arrière" },
         { key: "Éclairage", value: "LED avant et arrière + signal à droite et à gauche" },
         { key: "Pneus", value: "20.4\" avec garde-boue" },
