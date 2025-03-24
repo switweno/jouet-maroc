@@ -1041,6 +1041,10 @@ header {
 
 
 
+.feature-category ul {
+    list-style: none; /* إزالة النقطة */
+    padding-left: 0;  /* إزالة المسافة الزائدة */
+}
 
 
 /* تحسين شريط الميزات */
@@ -1943,7 +1947,9 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 9/16;
     padding: 8px;
     border-radius: 12px;
-    background: linear-gradient(45deg, #FF0B52, #FED700, #FF0D51,  #FED700, #FED700);
+ background: linear-gradient(45deg, #6a11cb, #2575fc, #ff0099, #ff0b52);
+
+
     background-size: 300% 200%;
     animation: borderAnimation 4s infinite alternate; /* حركة التدرج */
 }
@@ -2607,6 +2613,7 @@ select {
     text-align: center;
          outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
     
+     
 }
 
 .related-products h2 {
@@ -2625,6 +2632,7 @@ select {
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
     
+    
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2632,6 +2640,11 @@ select {
     .related-products h2 {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
         font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
+        }
+        .related-products {
+             margin-top: -5px;
+        
+        
     }
 }
 
