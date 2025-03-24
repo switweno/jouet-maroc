@@ -1933,44 +1933,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.product-video-section h2:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 3px;
+    background-color:  rgba(0, 102, 204, 0);
+}
 
-
-
-
-
+/* Product Video Section Styles */
+.product-video-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* تأكد من أن العرض لا يتجاوز هذا الحد */
     margin: 0 auto;
     aspect-ratio: 9/16;
-    padding: 8px;
-    border-radius: 12px;
- background: linear-gradient(45deg, #6a11cb, #2575fc, #ff0099, #ff0b52);
-
-
-    background-size: 300% 200%;
-    animation: borderAnimation 4s infinite alternate; /* حركة التدرج */
-}
-
-@keyframes borderAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    padding: 5px; /* تقليل المسافة حول الفيديو */
+    background:  #ff0057; /* لون الإطار */
+    border-radius: 12px; /* زوايا دائرية للإطار */
 }
 
 .video-container iframe {
     position: absolute;
-    top: 8px;
-    left: 8px;
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
+    top: 5px; /* تعويض padding */
+    left: 5px;
+    width: calc(100% - 10px); /* ضبط العرض ليكون أقل بـ 10px */
+    height: calc(100% - 10px); /* ضبط الارتفاع ليكون أقل بـ 10px */
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     object-fit: cover;
 }
-
 
 
 /* استجابة للشاشات الكبيرة */
@@ -1990,6 +1994,13 @@ h1, h2, h3, h4, h5, h6 {
         aspect-ratio: 9/16; /* نسبة عمودية للهواتف */
     }
 }
+
+/* تحسين مسافات حقول النموذج على الموبايل */
+@media (max-width: 767px) {
+    .product-info {
+        padding: 15px 20px;
+    }
+ }   
 
 
     
