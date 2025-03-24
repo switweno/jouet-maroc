@@ -1,7 +1,5 @@
-
-
-// تعريف جديد للمتغير productsData بدلاً من products لتجنب التعارض
-var productsData = [
+// تعريف المنتجات باسم واحد فقط لتجنب التضارب
+const products = [
 
   
     {
@@ -25,56 +23,35 @@ var productsData = [
      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"
    ],
    features: [
-  {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
-    items: [
-      { key: "Puissance", value: "1000 W" },
-      { key: "Vitesse", value: "50-56 km/h" },
-      { key: "Mode de conduite", value: "3 vitesses" },
-      { key: "Démarrage", value: "Accélérateur + pédale" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
-      { key: "Batterie", value: "Lithium 48V 17.5AH" },
-      { key: "Autonomie", value: "45-60 km" },
-      { key: "Charge rapide", value: "Compatible 54V" },
-      { key: "Charge max", value: "110 kg" }
-    ]
-  },
-  {
-    title: "SÉCURITÉ & CONTRÔLE",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "Freinage", value: "Disques AV/AR + E-ABS" },
-      { key: "Suspension", value: "AV/AR réglables" },
-      { key: "Éclairage", value: "LED AV/AR + clignotants" },
-      { key: "Étanchéité", value: "IPX5" }
-    ]
-  },
-  {
-    title: "TECHNOLOGIE & CONFORT",
-    icon: "fa-mobile-alt",
-    items: [
-      { key: "Affichage", value: "DISPLAY EY2 (app mobile) 📱" },
-      { key: "Pneus", value: "10\" chambre à air" },
-      { key: "Conception", value: "Pliable avec klaxon" },
-      { key: "Tableau", value: "Digital multifonction" }
-    ]
-  },
-  {
-    title: "CADEAUX INCLUS",
-    icon: "fa-gift",
-    items: [
-      { key: "Cadeau 1", value: "Sac offert 🎁" },
-      { key: "Cadeau 2", value: "Chambre à air 🎁" },
-      { key: "Cadeau 3", value: "Verrouillage inclus 🎁" }
-    ]
-  }
-],
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "1000 W" },
+        { key: "Vitesse", value: "50-56 km/h" },
+        { key: "Mode de conduite", value: "3 vitesses" },
+        { key: "Batterie", value: "Lithium 48V 17.5AH" },
+        { key: "Autonomie", value: "45-60 km" },
+        { key: "Charge max", value: "110 kg" },
+        { key: "Freinage", value: "Disques AV/AR + E-ABS" }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Affichage", value: "DISPLAY EY2 (app mobile) 📱" },
+        { key: "Suspension", value: "AV/AR réglables" },
+        { key: "Éclairage", value: "LED AV/AR + clignotants" },
+        { key: "Étanchéité", value: "IPX5" },
+        { key: "Pneus", value: "10\" chambre à air" },
+        { key: "Conception", value: "Pliable avec klaxon" },
+        { key: "Cadeau 1", value: "Sac offert 🎁" },
+        { key: "Cadeau 2", value: "Chambre à air 🎁" },
+        { key: "Cadeau 3", value: "Verrouillage inclus 🎁" }
+      ]
+    }
+  ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
  },
@@ -90,10 +67,10 @@ var productsData = [
    reviewCount: 165,
    currentPrice: 2699,
    oldPrice: 3509,
-   discount: 30, // إضافة فاصلة هنا
+   discount: 30,
    wholesalePrice: {
-      minQuantity: 3, // الحد الأدنى لكمية الجملة
-      pricePerUnit: 2375 // السعر لكل وحدة عند الشراء بالجملة
+      minQuantity: 3,
+      pricePerUnit: 2375
    },
    images: [
      "Xiaomi Essential/xiaomi-essential-01.webp",
@@ -105,47 +82,33 @@ var productsData = [
    ],
 
   features: [
-  {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
-    items: [
-      { key: "Puissance", value: "500W max" },
-      { key: "Vitesse", value: "20 km/h min - 25 km/h max" },
-      { key: "Mode de conduite", value: "3 vitesses réglables" },
-      { key: "Démarrage", value: "Accélérateur électrique + klaxon intégré" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
-      { key: "Batterie", value: "Lithium 36V 5100mAh / 183Wh" },
-      { key: "Autonomie", value: "15 km min - 20 km max" },
-      { key: "Charge rapide", value: "Compatible 42V" },
-      { key: "Charge maximale", value: "100 kg" }
-    ]
-  },
-  {
-    title: "SÉCURITÉ & CONTRÔLE",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "Freinage", value: "Disque arrière & Electrique + E-ABS" },
-      { key: "Matériau", value: "Aluminium" }, // استبدال Suspension بمادة التصنيع
-      { key: "Éclairage", value: "LED AV/AR (feu stop et feu avant)" },
-      { key: "Étanchéité", value: "IPX5" }
-    ]
-  },
-  {
-    title: "TECHNOLOGIE & CONFORT",
-    icon: "fa-mobile-alt",
-    items: [
-      { key: "Affichage", value: "écran LCD avec application mobile📱 (DISPLAY EY2)" },
-      { key: "Pneus", value: "8,5 pouces" },
-      { key: "Conception", value: "Pliable" },
-      { key: "Tableau de bord", value: "Indicateur de batterie" }
-    ]
-  }
-],
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "500W max" },
+        { key: "Vitesse", value: "20 km/h min - 25 km/h max" },
+        { key: "Mode de conduite", value: "3 vitesses réglables" },
+        { key: "Batterie", value: "Lithium 36V 5100mAh / 183Wh" },
+        { key: "Autonomie", value: "15 km min - 20 km max" },
+        { key: "Charge maximale", value: "100 kg" },
+        { key: "Freinage", value: "Disque arrière & Electrique + E-ABS" }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Matériau", value: "Aluminium" },
+        { key: "Éclairage", value: "LED AV/AR (feu stop et feu avant)" },
+        { key: "Étanchéité", value: "IPX5" },
+        { key: "Affichage", value: "écran LCD avec application mobile📱 (DISPLAY EY2)" },
+        { key: "Pneus", value: "8,5 pouces" },
+        { key: "Conception", value: "Pliable" },
+        { key: "Tableau de bord", value: "Indicateur de batterie" }
+      ]
+    }
+  ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
  },
@@ -171,47 +134,33 @@ var productsData = [
      "kukaring2pro/kukiring2pro-4.webp",
    ],
   features: [
-  {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
-    items: [
-      { key: "Puissance", value: "1200W max" },
-      { key: "Vitesse", value: "50 km/h min - 57 km/h max" },
-      { key: "Mode de conduite", value: "3 vitesses réglables" },
-      { key: "Démarrage", value: "Accélérateur électrique + klaxon intégré" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
-      { key: "Batterie", value: "Lithium 48V 15AH" },
-      { key: "Autonomie", value: "40 km min - 50 km max" },
-      { key: "Charge rapide", value: "Compatible 54V" },
-      { key: "Charge maximale", value: "120 kg" }
-    ]
-  },
-  {
-    title: "SÉCURITÉ & CONTRÔLE",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "Freinage", value: "Disques AV/AR" },
-      { key: "Suspension", value: "Avant et arrière réglables" },
-      { key: "Éclairage", value: "LED AV/AR + clignotants directionnels" },
-      { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps)" }
-    ]
-  },
-  {
-    title: "TECHNOLOGIE & CONFORT",
-    icon: "fa-mobile-alt",
-    items: [
-      { key: "Affichage", value: "écran LCD digital multifonction" },
-      { key: "Pneus", value: "Off-Road 8,5 pouces renforcés" },
-      { key: "Conception", value: "Pliable avec siège cuir intégré" },
-      { key: "Tableau de bord", value: "Indicateur de batterie et signal à gauche/droite" }
-    ]
-  }
-],
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "1200W max" },
+        { key: "Vitesse", value: "50 km/h min - 57 km/h max" },
+        { key: "Mode de conduite", value: "3 vitesses réglables" },
+        { key: "Batterie", value: "Lithium 48V 15AH" },
+        { key: "Autonomie", value: "40 km min - 50 km max" },
+        { key: "Charge maximale", value: "120 kg" },
+        { key: "Freinage", value: "Disques AV/AR" }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Suspension", value: "Avant et arrière réglables" },
+        { key: "Éclairage", value: "LED AV/AR + clignotants directionnels" },
+        { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps)" },
+        { key: "Affichage", value: "écran LCD digital multifonction" },
+        { key: "Pneus", value: "Off-Road 8,5 pouces renforcés" },
+        { key: "Conception", value: "Pliable avec siège cuir intégré" },
+        { key: "Tableau de bord", value: "Indicateur de batterie et signal à gauche/droite" }
+      ]
+    }
+  ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
  },
@@ -237,46 +186,32 @@ var productsData = [
      "dualtron-pop/dualtron-pop_52v_07.webp"
    ],
    features: [
- {
-   title: "MOTEUR & PERFORMANCE",
-   icon: "fa-bolt",
-   items: [
-     { key: "Puissance", value: "1000W min - 1450W max " },
-     { key: "Vitesse", value: "50 km/h min - 67 km/h max " },
-     { key: "Mode de conduite", value: "3 vitesses réglables " },
-     { key: "Démarrage", value: "Accélérateur électrique + pédale d'assistance " }
-   ]
- },
- {
-   title: "BATTERIE & AUTONOMIE",
-   icon: "fa-battery-full",
-   items: [
-     { key: "Batterie", value: "Lithium 52V 14AH " },
-     { key: "Autonomie", value: "30 km min - 40 km max " },
-     { key: "Charge rapide", value: "Compatible 58V " },
-     { key: "Charge maximale", value: "120 kg " }
-   ]
- },
- {
-   title: "SÉCURITÉ & CONTRÔLE",
-   icon: "fa-shield-alt",
-   items: [
-     { key: "Freinage", value: "Disques AV/AR + E-ABS " },
-     { key: "Suspension", value: "Avant et arrière réglables " },
-     { key: "Éclairage", value: "LED AV/AR + clignotants directionnels " },
-     { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) " }
-   ]
- },
- {
-   title: "TECHNOLOGIE & CONFORT",
-   icon: "fa-mobile-alt",
-   items: [
-     { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) " },
-     { key: "Pneus", value: "9\" chambre à air renforcés " },
-     { key: "Conception", value: "Pliable avec klaxon intégré " },
-     { key: "Tableau de bord", value: "Digital multifonction " }
-       ]
-     }
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "1000W min - 1450W max " },
+        { key: "Vitesse", value: "50 km/h min - 67 km/h max " },
+        { key: "Mode de conduite", value: "3 vitesses réglables " },
+        { key: "Batterie", value: "Lithium 52V 14AH " },
+        { key: "Autonomie", value: "30 km min - 40 km max " },
+        { key: "Charge maximale", value: "120 kg " },
+        { key: "Freinage", value: "Disques AV/AR + E-ABS " }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Suspension", value: "Avant et arrière réglables " },
+        { key: "Éclairage", value: "LED AV/AR + clignotants directionnels " },
+        { key: "Étanchéité", value: "IPX5 (batterie) / IPX4 (corps) " },
+        { key: "Affichage", value: "DISPLAY EY2 connecté (application mobile) " },
+        { key: "Pneus", value: "9\" chambre à air renforcés " },
+        { key: "Conception", value: "Pliable avec klaxon intégré " },
+        { key: "Tableau de bord", value: "Digital multifonction " }
+      ]
+    }
    ],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
@@ -308,8 +243,8 @@ var productsData = [
    ],
 features: [
   {
-    title: "PRINCIPAL",
-    icon: "fa-bicycle",
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
     items: [
       { key: "Roues", value: "26 POUCES" },
       { key: "Matériau", value: "VÉLO ALUMINIUM" },
@@ -321,18 +256,12 @@ features: [
     ]
   },
   {
-    title: "SÉCURITÉ & CONFORT",
-    icon: "fa-shield-alt",
+    title: "المميزات الإضافية",
+    icon: "fa-star",
     items: [
       { key: "Freins", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
       { key: "Amortisseur", value: "AMORTISSEUR AVANT" },
-      { key: "Siège", value: "SIÈGE SPORT CUIR" }
-    ]
-  },
-  {
-    title: "PROTECTION",
-    icon: "fa-umbrella",
-    items: [
+      { key: "Siège", value: "SIÈGE SPORT CUIR" },
       { key: "Gardes-boue", value: "LES GARDES-BOUES AV ET AR" }
     ]
   }
@@ -363,25 +292,25 @@ features: [
    ],
   features: [
   {
-    "title": "PRINCIPAL",
-    "icon": "fa-bicycle",
-    "items": [
-      { "key": "ROUES", "value": "26 pouces" },
-      { "key": "MATÉRIAU", "value": "Aluminium" },
-      { "key": "QUALITÉ", "value": "BMX GTR 1E" },
-      { "key": "ROUE", "value": "Aluminium" },
-      { "key": "CHANGEMENT DE VITESSE", "value": "Sunrise" },
-      { "key": "VITESSE", "value": "3×7 = 21 vitesses" },
-      { "key": "PLATEAU", "value": "Sunrise" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 pouces" },
+      { key: "MATÉRIAU", value: "Aluminium" },
+      { key: "QUALITÉ", value: "BMX GTR 1E" },
+      { key: "ROUE", value: "Aluminium" },
+      { key: "CHANGEMENT DE VITESSE", value: "Sunrise" },
+      { key: "VITESSE", value: "3×7 = 21 vitesses" },
+      { key: "PLATEAU", value: "Sunrise" }
     ]
   },
   {
-    "title": "SÉCURITÉ & CONFORT",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "FREINS", "value": "Disques avant et arrière" },
-      { "key": "AMORTISSEUR", "value": "Amortisseur avant" },
-      { "key": "SIÈGE", "value": "Siège sport en cuir" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "FREINS", value: "Disques avant et arrière" },
+      { key: "AMORTISSEUR", value: "Amortisseur avant" },
+      { key: "SIÈGE", value: "Siège sport en cuir" }
     ]
   }
 ],
@@ -417,46 +346,33 @@ features: [
      "likebike-harley-u9/likebike-u9-14.webp"
    ],
    features: [
-     {
-       title: "MOTEUR & PERFORMANCE",
-       icon: "fa-bolt",
-       items: [
-         { key: "Puissance", value: "750 W MAX " },
-         { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX " },
-         { key: "Démarrage", value: "Contact électrique " }
-       ]
-     },
-     {
-       title: "BATTERIE & AUTONOMIE",
-       icon: "fa-battery-full",
-       items: [
-         { key: "Batterie", value: "Lithium 48V 18.2AH " },
-         { key: "Autonomie normale", value: "45-60 km " },
-         { key: "Mode assistance", value: "100 km MAX " },
-         { key: "Charge rapide", value: "54V compatible " }
-       ]
-     },
-     {
-       title: "SÉCURITÉ & CONFORT",
-       icon: "fa-shield-alt",
-       items: [
-         { key: "Freins", value: "Disques AV/AR " },
-         { key: "Amortisseurs", value: "Réglables AV/AR " },
-         { key: "Éclairage", value: "LED AV/AR + clignotants " },
-         { key: "Pneus", value: "20.4\" avec garde-boue " }
-       ]
-     },
-     {
-       title: "ÉQUIPEMENT & DESIGN",
-       icon: "fa-cogs",
-       items: [
-         { key: "Affichage", value: "Écran LCD multifonction " },
-         { key: "Transmission", value: "7 vitesses Shimano " },
-         { key: "Confort", value: "Siège cuir 2 places " },
-         { key: "Charge maximale", value: "130 kg " }
-       ]
-     }
-   ],
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "750 W MAX " },
+        { key: "Vitesse", value: "50 km/h MIN - 62 km/h MAX " },
+        { key: "Démarrage", value: "Contact électrique " },
+        { key: "Batterie", value: "Lithium 48V 18.2AH " },
+        { key: "Autonomie normale", value: "45-60 km " },
+        { key: "Mode assistance", value: "100 km MAX " },
+        { key: "Freins", value: "Disques AV/AR " }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Amortisseurs", value: "Réglables AV/AR " },
+        { key: "Éclairage", value: "LED AV/AR + clignotants " },
+        { key: "Pneus", value: "20.4\" avec garde-boue " },
+        { key: "Affichage", value: "Écran LCD multifonction " },
+        { key: "Transmission", value: "7 vitesses Shimano " },
+        { key: "Confort", value: "Siège cuir 2 places " },
+        { key: "Charge maximale", value: "130 kg " }
+      ]
+    }
+  ],
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
  },
@@ -485,53 +401,29 @@ features: [
    ],
 features: [
   {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
     items: [
       { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse Max", value: "50 km/h MAX" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
+      { key: "Vitesse Max", value: "50 km/h MAX" },
       { key: "Batterie", value: "Lithium 48V 13AH" },
       { key: "Autonomie", value: "45-55 km" },
-      { key: "Charge rapide", value: "Compatible 54V" }
-    ]
-  },
-  {
-    title: "TABLEAU DIGITAL & SYSTÈME ÉLECTRIQUE",
-    icon: "fa-desktop",
-    items: [
-      { key: "Affichage", value: "Digital multifonction" },
-      { key: "Vitesses moteur", value: "5 vitesses (5E)" }
-    ]
-  },
-  {
-    title: "SÉCURITÉ & CONFORT",
-    icon: "fa-shield-alt",
-    items: [
+      { key: "Vitesses moteur", value: "5 vitesses (5E)" },
       { key: "Freins", value: "AV/AR" },
+      { key: "Vitesses manuelles", value: "7 vitesses (7E)" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "Charge rapide", value: "Compatible 54V" },
+      { key: "Affichage", value: "Digital multifonction" },
       { key: "Amortisseurs", value: "Réglable AV" },
       { key: "Éclairage", value: "LED AV/AR + klaxon" },
       { key: "Pneus", value: "20'' avec garde-boue" },
-      { key: "Siège", value: "Cuir confortable" }
-    ]
-  },
-  {
-    title: "TRANSMISSION MANUELLE",
-    icon: "fa-cogs",
-    items: [
-      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
-      { key: "Système", value: "Changement Shimano" }
-    ]
-  },
-  {
-    title: "ÉQUIPEMENT & DESIGN",
-    icon: "fa-cube",
-    items: [
+      { key: "Siège", value: "Cuir confortable" },
+      { key: "Système", value: "Changement Shimano" },
       { key: "Confort", value: "Porte-bagage inclus" },
       { key: "Charge max", value: "130 kg" }
     ]
@@ -566,64 +458,38 @@ features: [
    ],
 features: [
   {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
     items: [
       { key: "Puissance", value: "500 W MAX" },
-      { key: "Vitesse Max", value: "50 km/h MAX" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
+      { key: "Vitesse Max", value: "50 km/h MAX" },
       { key: "Batterie", value: "Lithium 48V 13AH" },
       { key: "Autonomie", value: "45-55 km MAX" },
-      { key: "Charge rapide", value: "Compatible 54V" }
+      { key: "Vitesses moteur", value: "5 vitesses (5E)" },
+      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
+      { key: "Freins", value: "Avant et arrière" }
     ]
   },
   {
-    title: "TABLEAU DIGITAL & SYSTÈME ÉLECTRIQUE",
-    icon: "fa-desktop",
+    title: "المميزات الإضافية",
+    icon: "fa-star",
     items: [
+      { key: "Charge rapide", value: "Compatible 54V" },
       { key: "Affichage", value: "Digital multifonction" },
-      { key: "Vitesses moteur", value: "5 vitesses (5E)" }
-    ]
-  },
-  {
-    title: "SÉCURITÉ & CONFORT",
-    icon: "fa-shield-alt",
-    items: [
-      { key: "Freins", value: "Avant et arrière" },
       { key: "Amortisseurs", value: "Réglable avant" },
       { key: "Éclairage", value: "LED avant et arrière + klaxon" },
       { key: "Pneus", value: "20 pouces avec garde-boue" },
-      { key: "Siège", value: "Cuir confortable" }
-    ]
-  },
-  {
-    title: "TRANSMISSION MANUELLE",
-    icon: "fa-cogs",
-    items: [
-      { key: "Vitesses manuelles", value: "7 vitesses (7E)" },
+      { key: "Siège", value: "Cuir confortable" },
       { key: "Système", value: "Changement Shimano" },
-      { key: "Pièces", value: "Pièces Shimano" }
-    ]
-  },
-  {
-    title: "ÉQUIPEMENT & DESIGN",
-    icon: "fa-cube",
-    items: [
+      { key: "Pièces", value: "Pièces Shimano" },
       { key: "Porte-bagage", value: "Inclus" },
       { key: "Charge max", value: "130 kg" }
     ]
   }
-   ],
-   
+],
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
  },
-  
   
  {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
@@ -652,40 +518,28 @@ features: [
    ],
 features: [
   {
-    title: "MOTEUR & PERFORMANCE",
-    icon: "fa-bolt",
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
     items: [
       { key: "Puissance", value: "400 W MAX" },
       { key: "Vitesse Max", value: "46 KM" },
-      { key: "Démarrage", value: "Contact électrique" }
-    ]
-  },
-  {
-    title: "BATTERIE & AUTONOMIE",
-    icon: "fa-battery-full",
-    items: [
+      { key: "Démarrage", value: "Contact électrique" },
       { key: "Batterie", value: "48V 15.6AH Lithium" },
       { key: "Autonomie", value: "45-55 KM MAX" },
-      { key: "Charge", value: "54V compatible" }
+      { key: "Freins", value: "AV/AR" },
+      { key: "Vitesse", value: "3 niveaux + 1 pédale" }
     ]
   },
   {
-    title: "SÉCURITÉ & CONFORT",
-    icon: "fa-shield-alt",
+    title: "المميزات الإضافية",
+    icon: "fa-star",
     items: [
-      { key: "Freins", value: "AV/AR" },
+      { key: "Charge", value: "54V compatible" },
       { key: "Amortisseurs", value: "Double" },
       { key: "LED", value: "AV/AR" },
       { key: "Pneus", value: "14 pouces" },
-      { key: "Siège", value: "2 places cuir" }
-    ]
-  },
-  {
-    title: "ÉQUIPEMENT & DESIGN",
-    icon: "fa-cogs",
-    items: [
+      { key: "Siège", value: "2 places cuir" },
       { key: "Affichage", value: "TABLEAU DIGITAL" },
-      { key: "Vitesse", value: "3 niveaux + 1 pédale" },
       { key: "Confort", value: "Vélo pliable" },
       { key: "Charge max", value: "120 kg" }
     ]
@@ -726,51 +580,38 @@ features: [
    ],
   features: [
     {
-        title: "MOTEUR & PERFORMANCE",
-        icon: "fa-bolt",
-        items: [
-            { key: "Puissance", value: "500 W MIN - 720 W MAX" },
-            { key: "Vitesse max", value: "51 km/h" },
-            { key: "Démarrage", value: "Contact électrique" }
-        ]
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "Puissance", value: "500 W MIN - 720 W MAX" },
+        { key: "Vitesse max", value: "51 km/h" },
+        { key: "Démarrage", value: "Contact électrique" },
+        { key: "Batterie", value: "Lithium 48V 18.2AH" },
+        { key: "Autonomie normale", value: "45-60 km MAX" },
+        { key: "Mode assistance", value: "100 km MAX" },
+        { key: "Freinage", value: "Avant et arrière" }
+      ]
     },
     {
-        title: "BATTERIE & AUTONOMIE",
-        icon: "fa-battery-full",
-        items: [
-            { key: "Batterie", value: "Lithium 48V 18.2AH" },
-            { key: "Autonomie normale", value: "45-60 km MAX" },
-            { key: "Mode assistance", value: "100 km MAX" },
-            { key: "Charge rapide", value: "54V compatible" }
-        ]
-    },
-    {
-        title: "SÉCURITÉ & CONFORT",
-        icon: "fa-shield-alt",
-        items: [
-            { key: "Freinage", value: "Avant et arrière" },
-            { key: "Amortisseurs", value: "Réglables avant et arrière" },
-            { key: "Éclairage", value: "LED avant et arrière + signal à droite et à gauche" },
-            { key: "Pneus", value: "20.4\" avec garde-boue" },
-            { key: "Klaxon", value: "Électrique" },
-            { key: "Charge maximale", value: "130 kg" }
-        ]
-    },
-    {
-        title: "ÉQUIPEMENT & DESIGN",
-        icon: "fa-cogs",
-        items: [
-            { key: "Affichage", value: "Tableau digital multifonction" },
-            { key: "Transmission", value: "Changement Shimano, 7 vitesses" },
-            { key: "Confort", value: "Siège cuir, 2 places" },
-            { key: "Pièces", value: "Shimano de haute qualité" }
-        ]
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+        { key: "Charge rapide", value: "54V compatible" },
+        { key: "Amortisseurs", value: "Réglables avant et arrière" },
+        { key: "Éclairage", value: "LED avant et arrière + signal à droite et à gauche" },
+        { key: "Pneus", value: "20.4\" avec garde-boue" },
+        { key: "Klaxon", value: "Électrique" },
+        { key: "Charge maximale", value: "130 kg" },
+        { key: "Affichage", value: "Tableau digital multifonction" },
+        { key: "Transmission", value: "Changement Shimano, 7 vitesses" },
+        { key: "Confort", value: "Siège cuir, 2 places" },
+        { key: "Pièces", value: "Shimano de haute qualité" }
+      ]
     }
-],
+  ],
    warranty: "Garantie de 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
-  
   
  {
    id: "trottinette-bison-gt-1000",
@@ -794,43 +635,31 @@ features: [
    ],
 features: [
   {
-    "title": "MOTEUR & PERFORMANCE",
-    "icon": "fa-tachometer-alt",
-    "items": [
-      { "key": "MARQUE", "value": "BISON GT ORIGINAL" },
-      { "key": "MOTEUR", "value": "1000W MAX" },
-      { "key": "VITESSE", "value": "Jusqu'à 50 km/h" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "BISON GT ORIGINAL" },
+      { key: "MOTEUR", value: "1000W MAX" },
+      { key: "VITESSE", value: "Jusqu'à 50 km/h" },
+      { key: "BATTERIE", value: "48V 13Ah Lithium" },
+      { key: "AUTONOMIE", value: "Jusqu'à 40 km" },
+      { key: "CHARGE MAX", value: "120 kg" },
+      { key: "FREINS", value: "Disques avant et arrière + E-ABS" }
     ]
   },
   {
-    "title": "BATTERIE & AUTONOMIE",
-    "icon": "fa-battery-full",
-    "items": [
-      { "key": "BATTERIE", "value": "48V 13Ah Lithium" },
-      { "key": "AUTONOMIE", "value": "Jusqu'à 40 km" },
-      { "key": "CHARGE MAX", "value": "120 kg" }
-    ]
-  },
-  {
-    "title": "SÉCURITÉ & DURABILITÉ",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "FREINS", "value": "Disques avant et arrière + E-ABS" },
-      { "key": "PNEUS", "value": "10 pouces Off-road" },
-      { "key": "AMORTISSEURS", "value": "Double suspension" }
-    ]
-  },
-  {
-    "title": "FONCTIONNALITÉS",
-    "icon": "fa-cogs",
-    "items": [
-      { "key": "TABLEAU DE BORD", "value": "Écran digital" },
-      { "key": "LUMIÈRES LED", "value": "Avant & arrière" },
-      { "key": "PLIABLE", "value": "Oui" },
-      { "key": "KLAXON", "value": "Oui" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "PNEUS", value: "10 pouces Off-road" },
+      { key: "AMORTISSEURS", value: "Double suspension" },
+      { key: "TABLEAU DE BORD", value: "Écran digital" },
+      { key: "LUMIÈRES LED", value: "Avant & arrière" },
+      { key: "PLIABLE", value: "Oui" },
+      { key: "KLAXON", value: "Oui" }
     ]
   }
-   ],
+],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
@@ -857,56 +686,37 @@ features: [
    ],
 features: [
   {
-    "title": "MOTEUR & PERFORMANCE",
-    "icon": "fa-tachometer-alt",
-    "items": [
-      { "key": "MARQUE", "value": "EcoXtrem LINEAR" },
-      { "key": "MOTEUR", "value": "350W - 700W max" },
-      { "key": "VITESSE", "value": "25 - 30 km/h" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "EcoXtrem LINEAR" },
+      { key: "MOTEUR", value: "350W - 700W max" },
+      { key: "VITESSE", value: "25 - 30 km/h" },
+      { key: "BATTERIE", value: "36V 7,8AH Lithium" },
+      { key: "AUTONOMIE", value: "15 - 25 km" },
+      { key: "CHARGE MAX", value: "100 kg" },
+      { key: "FREIN", value: "Disque arrière + Électrique" }
     ]
   },
   {
-    "title": "BATTERIE & AUTONOMIE",
-    "icon": "fa-battery-full",
-    "items": [
-      { "key": "BATTERIE", "value": "36V 7,8AH Lithium" },
-      { "key": "AUTONOMIE", "value": "15 - 25 km" },
-      { "key": "CHARGE MAX", "value": "100 kg" }
-    ]
-  },
-  {
-    "title": "SÉCURITÉ & DURABILITÉ",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "FREIN", "value": "Disque arrière + Électrique" },
-      { "key": "ROUES", "value": "10 pouces Tubeless" },
-      { "key": "ÉTANCHÉITÉ", "value": "IPX5" }
-    ]
-  },
-  {
-    "title": "FONCTIONNALITÉS",
-    "icon": "fa-cogs",
-    "items": [
-      { "key": "ÉCRAN", "value": "LCD EY2" },
-      { "key": "VITESSE", "value": "3 niveaux réglables" },
-      { "key": "LED", "value": "Avant + Stop arrière" },
-      { "key": "SIGNAL", "value": "Clignotants gauche/droite" },
-      { "key": "KLAXON", "value": "Oui" },
-      { "key": "PLIABLE", "value": "Oui" }
-    ]
-  },
-  {
-    "title": "EXTRAS",
-    "icon": "fa-gift",
-    "items": [
-      { "key": "CADEAU", "value": "Sac offert 🎁" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "ROUES", value: "10 pouces Tubeless" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "ÉCRAN", value: "LCD EY2" },
+      { key: "VITESSE", value: "3 niveaux réglables" },
+      { key: "LED", value: "Avant + Stop arrière" },
+      { key: "SIGNAL", value: "Clignotants gauche/droite" },
+      { key: "KLAXON", value: "Oui" },
+      { key: "PLIABLE", value: "Oui" },
+      { key: "CADEAU", value: "Sac offert 🎁" }
     ]
   }
-   ],
+],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   },
-  
   
   {
    id: "voiture_range_rover_police",
@@ -930,50 +740,32 @@ features: [
    ],
 features: [
   {
-    "title": "MOTEUR & VITESSE",
-    "icon": "fa-tachometer-alt",
-    "items": [
-      { "key": "MARQUE", "value": "Modèle enfant" },
-      { "key": "MOTEUR", "value": "5 moteurs puissants" },
-      { "key": "VITESSE", "value": "3 niveaux" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "Modèle enfant" },
+      { key: "MOTEUR", value: "5 moteurs puissants" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "BATTERIE", value: "12V rechargeable" },
+      { key: "AUTONOMIE", value: "1-2h de jeu" },
+      { key: "CHARGE MAX", value: "Jusqu'à 30 kg" }
     ]
   },
   {
-    "title": "BATTERIE & AUTONOMIE",
-    "icon": "fa-battery-full",
-    "items": [
-      { "key": "BATTERIE", "value": "12V rechargeable" },
-      { "key": "AUTONOMIE", "value": "1-2h de jeu" },
-      { "key": "CHARGE MAX", "value": "Jusqu'à 30 kg" }
-    ]
-  },
-  {
-    "title": "SÉCURITÉ",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "CEINTURE", "value": "Incluse" },
-      { "key": "ROUES", "value": "Antidérapantes" },
-      { "key": "PROTECTION", "value": "Résistante" }
-    ]
-  },
-  {
-    "title": "MULTIMÉDIA",
-    "icon": "fa-cogs",
-    "items": [
-      { "key": "MUSIQUE", "value": "Bluetooth, USB, AUX" },
-      { "key": "LED", "value": "Avant & arrière" },
-      { "key": "KLAXON", "value": "Son réaliste" },
-      { "key": "BALANÇOIRE", "value": "Effet intégré" }
-    ]
-  },
-  {
-    "title": "ACCESSOIRES",
-    "icon": "fa-gift",
-    "items": [
-      { "key": "TÉLÉCOMMANDE", "value": "Parentale" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Incluse" },
+      { key: "ROUES", value: "Antidérapantes" },
+      { key: "PROTECTION", value: "Résistante" },
+      { key: "MUSIQUE", value: "Bluetooth, USB, AUX" },
+      { key: "LED", value: "Avant & arrière" },
+      { key: "KLAXON", value: "Son réaliste" },
+      { key: "BALANÇOIRE", value: "Effet intégré" },
+      { key: "TÉLÉCOMMANDE", value: "Parentale" }
     ]
   }
-   ],
+],
    warranty: "Garantie 3 mois",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
  },
@@ -1000,50 +792,32 @@ features: [
    ],
 features: [
   {
-    "title": "MOTEUR & PERFORMANCE",
-    "icon": "fa-tachometer-alt",
-    "items": [
-      { "key": "MARQUE", "value": "Modèle enfant" },
-      { "key": "MOTEUR", "value": "3 moteurs puissants" },
-      { "key": "VITESSE", "value": "3 vitesses + bascule" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "Modèle enfant" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses + bascule" },
+      { key: "BATTERIE", value: "2x 6V rechargeables" },
+      { key: "CHARGEUR", value: "Inclus (12V)" },
+      { key: "AUTONOMIE", value: "1-2h" },
+      { key: "ÂGE", value: "1-6 ans" }
     ]
   },
   {
-    "title": "BATTERIE & USAGE",
-    "icon": "fa-battery-full",
-    "items": [
-      { "key": "BATTERIE", "value": "2x 6V rechargeables" },
-      { "key": "CHARGEUR", "value": "Inclus (12V)" },
-      { "key": "AUTONOMIE", "value": "1-2h" },
-      { "key": "ÂGE", "value": "1-6 ans" }
-    ]
-  },
-  {
-    "title": "SÉCURITÉ",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "CEINTURE", "value": "Incluse" },
-      { "key": "AMORTISSEURS", "value": "Oui" },
-      { "key": "ROUES", "value": "Antidérapantes" },
-      { "key": "PROTECTION", "value": "Résistante" }
-    ]
-  },
-  {
-    "title": "MULTIMÉDIA",
-    "icon": "fa-cogs",
-    "items": [
-      { "key": "MUSIQUE", "value": "Bluetooth, USB, AUX" },
-      { "key": "LED", "value": "Avant & arrière" },
-      { "key": "KLAXON", "value": "Oui" },
-      { "key": "BALANÇOIRE", "value": "Oui" }
-    ]
-  },
-  {
-    "title": "ACCESSOIRES",
-    "icon": "fa-gift",
-    "items": [
-      { "key": "TÉLÉCOMMANDE", "value": "Parentale" },
-      { "key": "SIÈGE", "value": "Confortable" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Incluse" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ROUES", value: "Antidérapantes" },
+      { key: "PROTECTION", value: "Résistante" },
+      { key: "MUSIQUE", value: "Bluetooth, USB, AUX" },
+      { key: "LED", value: "Avant & arrière" },
+      { key: "KLAXON", value: "Oui" },
+      { key: "BALANÇOIRE", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Parentale" },
+      { key: "SIÈGE", value: "Confortable" }
     ]
   }
 ],
@@ -1073,51 +847,27 @@ features: [
    ],
 features: [
   {
-    "title": "MOTEUR ET PERFORMANCE",
-    "icon": "fa-tachometer-alt",
-    "items": [
-      { "key": "MARQUE", "value": "HARLEY modèle enfant" },
-      { "key": "MOTEUR", "value": "2 moteurs puissants" },
-      { "key": "VITESSE", "value": "3 vitesses" }
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "HARLEY modèle enfant" },
+      { key: "MOTEUR", value: "2 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses" },
+      { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
+      { key: "CHARGEUR", value: "Chargeur 12 volts inclus" },
+      { key: "ÂGE", value: "Adaptée pour une utilisation de 1 à 6 ans" }
     ]
   },
   {
-    "title": "BATTERIE ET UTILISATION",
-    "icon": "fa-battery-full",
-    "items": [
-      { "key": "BATTERIE", "value": "2 batteries 6V rechargeables" },
-      { "key": "CHARGEUR", "value": "Chargeur 12 volts inclus" }
-    ]
-  },
-  {
-    "title": "CONFORT ET SÉCURITÉ",
-    "icon": "fa-shield-alt",
-    "items": [
-      { "key": "SIÈGE", "value": "1 place en cuir confortable" },
-      { "key": "AMORTISSEURS", "value": "Inclus pour un confort optimal" },
-      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière pour plus de visibilité" }
-    ]
-  },
-  {
-    "title": "FONCTIONNALITÉS MULTIMÉDIA",
-    "icon": "fa-cogs",
-    "items": [
-      { "key": "MUSIQUE", "value": "Bluetooth, USB et câble auxiliaire" },
-      { "key": "EFFETS SONORES", "value": "Effets intégrés pour une expérience immersive" }
-    ]
-  },
-  {
-    "title": "ACCESSOIRES INCLUS",
-    "icon": "fa-gift",
-    "items": [
-      { "key": "GUIDE UTILISATEUR", "value": "Manuel d'utilisation inclus 🎁" }
-    ]
-  },
-  {
-    "title": "SPÉCIFICATIONS",
-    "icon": "fa-info-circle",
-    "items": [
-      { "key": "ÂGE", "value": "Adaptée pour une utilisation de 1 à 6 ans" }
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "SIÈGE", value: "1 place en cuir confortable" },
+      { key: "AMORTISSEURS", value: "Inclus pour un confort optimal" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière pour plus de visibilité" },
+      { key: "MUSIQUE", value: "Bluetooth, USB et câble auxiliaire" },
+      { key: "EFFETS SONORES", value: "Effets intégrés pour une expérience immersive" },
+      { key: "GUIDE UTILISATEUR", value: "Manuel d'utilisation inclus 🎁" }
     ]
   }
 ],
@@ -1125,11 +875,10 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  }
   
-]; // إزالة أي فواصل زائدة في نهاية المصفوفة
-
+]; 
 
 // تعيين المتغير global للصفحة
-window.products = productsData;
+window.products = products;
 
 
 
