@@ -38,10 +38,6 @@ html, body {
     padding: 0 14px;
     overflow-x: hidden;
 }
-html, body {
-  touch-action: manipulation; /* يحسن الاستجابة للنقرات */
-  -webkit-tap-highlight-color: transparent; /* إزالة التأثير الأزرق عند اللمس */
-}
 
 /* Header Styles */
 header {
@@ -606,7 +602,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.21);
     margin-bottom: 25px ;
 }
 
