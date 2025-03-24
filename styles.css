@@ -3482,11 +3482,26 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
     white-space: nowrap; /* منع انكسار النص داخل الشريط */
-    font-size: 1.1rem; /* تحسين حجم الخط */
+    font-size: 1.3rem; /* تحسين حجم الخط */
     font-weight: bold; /* جعل النص أكثر وضوحًا */
     color: #e3e3e3; /* لون النص */
     
 }
+
+/* إظهار .offer-bar على الشاشات الكبيرة فقط */
+@media (min-width: 768px) {
+    .offer-bar {
+        display: flex; /* استخدام flex عند الظهور */
+    }
+}
+
+/* إخفاء .offer-bar على الهواتف */
+@media (max-width: 767px) {
+    .offer-bar {
+        display: none;
+    }
+}
+
 
 /* تنسيق حاوية العروض */
 .offer-container {
@@ -3508,7 +3523,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 .offer-item {
     flex: 0 0 100%;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.96);
     white-space: nowrap;
