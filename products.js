@@ -401,13 +401,20 @@ features: [
    oldPrice: 10999,
    discount: 35,
    images: [
-     "likebike-harley-u9/product1.webp",
-     "likebike-harley-u9/product2.webp",
-     "likebike-harley-u9/product3.webp",
-     "likebike-harley-u9/product4.webp",
-     "likebike-harley-u9/product5.webp",
-     "likebike-harley-u9/product6.webp",
-     "likebike-harley-u9/product8.webp"
+     "likebike-harley-u9/likebike-u9-01.webp",
+     "likebike-harley-u9/likebike-u9-02.webp",
+     "likebike-harley-u9/likebike-u9-03.webp",
+     "likebike-harley-u9/likebike-u9-04.webp",
+     "likebike-harley-u9/likebike-u9-05.webp",
+     "likebike-harley-u9/likebike-u9-06.webp",
+     "likebike-harley-u9/likebike-u9-07.webp",
+     "likebike-harley-u9/likebike-u9-08.webp",
+     "likebike-harley-u9/likebike-u9-09.webp",
+     "likebike-harley-u9/likebike-u9-10.webp",
+     "likebike-harley-u9/likebike-u9-11.webp",
+     "likebike-harley-u9/likebike-u9-12.webp",
+      "likebike-harley-u9/likebike-u9-13.webp",
+     "likebike-harley-u9/likebike-u9-14.webp"
    ],
    features: [
      {
