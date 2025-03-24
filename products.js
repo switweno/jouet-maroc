@@ -721,7 +721,7 @@ features: [
   {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
-   brand: "Range-Rover modèle enfant",
+   brand: "Modèle enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -743,7 +743,6 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MARQUE", value: "Modèle enfant" },
       { key: "MOTEUR", value: "5 moteurs puissants" },
       { key: "VITESSE", value: "3 niveaux" },
       { key: "BATTERIE", value: "12V rechargeable" },
@@ -773,7 +772,7 @@ features: [
 {
    id: "voiture-Lamborghini-2025",
    title: "Voiture Lamborghini 2025",
-   brand: "Lamborghini modèle enfant",
+   brand: "Modèle enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -795,7 +794,6 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MARQUE", value: "Modèle enfant" },
       { key: "MOTEUR", value: "3 moteurs puissants" },
       { key: "VITESSE", value: "3 vitesses + bascule" },
       { key: "BATTERIE", value: "2x 6V rechargeables" },
@@ -850,7 +848,6 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "MARQUE", value: "HARLEY modèle enfant" },
       { key: "MOTEUR", value: "2 moteurs puissants" },
       { key: "VITESSE", value: "3 vitesses" },
       { key: "BATTERIE", value: "2 batteries 6V rechargeables" },
@@ -879,10 +876,3 @@ features: [
 
 // تعيين المتغير global للصفحة
 window.products = products;
-
-
-
-
-
-
-

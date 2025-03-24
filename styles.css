@@ -2990,12 +2990,12 @@ select {
 
 .scroll-arrow {
     position: absolute;
-    top: 92%;
+    top: 90%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(222, 210, 210, 0.41);
     border: none;
-    color: #ffffff;
-    font-size: 1.3rem;
+    color: #ff0057;
+    font-size: 1.9rem;
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
@@ -3014,7 +3014,7 @@ select {
     .scroll-arrow{
        width: 33px;
     height: 33px;  
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     
     }
 
@@ -3022,7 +3022,8 @@ select {
 
 
 .scroll-arrow:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+     background-color: rgba(222, 210, 210, 0.41);
+     color: #b1003d;
 }
 
 .arrow-left {
@@ -3615,195 +3616,6 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     .category-divider {
         margin: 20px 0 12px;
     }
-}
-
-/* Search Bar Styles */
-.search-container {
-    background-color: #f8f8f8;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 15px;
-}
-
-.search-box {
-    display: flex;
-    align-items: center;
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    border: 1px solid #eee;
-}
-
-.search-box:focus-within {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-color: rgba(255, 0, 87, 0.3);
-}
-
-#search-input {
-    flex: 1;
-    border: none;
-    padding: 12px 20px;
-    font-size: 1rem;
-    border-radius: 30px;
-    background-color: transparent;
-    width: 100%;
-    color: #333;
-    font-family: 'Cairo', 'Tajawal', sans-serif;
-}
-
-#search-input:focus {
-    outline: none;
-    box-shadow: none !important;
-    border: none !important;
-}
-
-#search-button {
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
-    color: white;
-    border: none;
-    border-radius: 0 30px 30px 0;
-    padding: 12px 20px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-#search-button:hover {
-    opacity: 0.9;
-}
-
-#search-button i {
-    font-size: 1.1rem;
-}
-
-.search-results {
-    position: absolute;
-    width: 100%;
-    max-width: 700px;
-    max-height: 400px;
-    overflow-y: auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    margin-top: 10px;
-    display: none;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.search-result-item {
-    padding: 12px 15px;
-    border-bottom: 1px solid #eee;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    display: flex;
-    align-items: center;
-}
-
-.search-result-item:last-child {
-    border-bottom: none;
-}
-
-.search-result-item:hover {
-    background-color: #f9f9f9;
-}
-
-.search-result-image {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-.search-result-info {
-    flex: 1;
-}
-
-.search-result-title {
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 5px;
-    font-size: 0.95rem;
-}
-
-.search-result-price {
-    color: #eb0861;
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
-.search-result-category {
-    font-size: 0.8rem;
-    color: #666;
-    display: block;
-}
-
-.no-results {
-    padding: 20px;
-    text-align: center;
-    color: #666;
-}
-
-.highlighted {
-    background-color: rgba(255, 0, 87, 0.1);
-    color: #ff0057;
-    padding: 0 2px;
-    border-radius: 3px;
-}
-
-/* Responsive adjustments for search bar */
-@media (max-width: 767px) {
-    .search-container {
-        padding: 10px 0;
-    }
-    
-    .search-box {
-        max-width: 95%;
-    }
-    
-    #search-input {
-        padding: 10px 15px;
-        font-size: 0.9rem;
-    }
-    
-    #search-button {
-        padding: 10px 15px;
-    }
-    
-    .search-results {
-        max-width: 95%;
-    }
-    
-    .search-result-image {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .search-result-title {
-        font-size: 0.85rem;
-    }
-}
-
-/* Animation for search results */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px) translateX(-50%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0) translateX(-50%);
-    }
-}
-
-.search-results.show {
-    display: block;
-    animation: fadeIn 0.3s ease forwards;
 }
 
 
