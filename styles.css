@@ -77,13 +77,9 @@ header {
     align-items: center;
 }
 
-.site-logo {
-    height: 20px;
-    width: auto;
-    transition: transform 0.3s ease-in-out;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0);
-}
+
+
+
 
 /* أنماط زر القائمة - ضبطه في الجانب الأيمن */
 .menu-toggle {
@@ -139,9 +135,7 @@ header {
         left: 5px;
     }
     
-    .site-logo {
-        height: 18px;
-    }
+    
 }
 
 /* تحسينات القائمة الأفقية في الشاشات الكبيرة */
@@ -197,36 +191,44 @@ header {
 
 
 
-.site-brand h1 {
-    font-size: 17px;
-    font-weight: 700;
-     margin: 0;
-    margin-left: 4px; /* إضافة مسافة على اليمين لتحريك النص */
-    color: #00d4e1;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.23);
-    background:  #00d4e1;;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-     direction: ltr; /* التأكد من أن النص في الاتجاه من اليسار لليمين */ 
-   
-}
-/* تنسيق اللوغو */
-.logo-container {
-    display: flex;
-    align-items: center;
-   
-}
+
 
 .site-logo {
-    height: 20px; /* تعديل الحجم حسب الشعار */
+    height: 26px; /* الحجم الافتراضي */
     width: auto;
-   
     transition: transform 0.3s ease-in-out;
-    margin-left: -1px; /* إضافة مسافة على اليمين لتحريك النص */
-    background-color: rgba(255, 255, 255, 0); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
-    
+    margin-left: -1px; /* ضبط المسافة */
+    background-color: rgba(255, 255, 255, 0); /* الشفافية */
 }
+
+/* الشاشات الصغيرة (الموبايل) */
+@media (max-width: 480px) {
+    .site-logo {
+        height: 20px;
+    }
+}
+
+/* التابلت */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .site-logo {
+        height: 22px;
+    }
+}
+
+/* اللابتوب والكمبيوتر */
+@media (min-width: 1025px) {
+    .site-logo {
+        height: 22px;
+    }
+}
+
+/* شاشات كبيرة جدًا (4K وما فوق) */
+@media (min-width: 1440px) {
+    .site-logo {
+        height: 22px;
+    }
+}
+
 
 
 /* أنماط القائمة الجانبية */
