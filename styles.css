@@ -1899,7 +1899,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex; /* تفعيل Flexbox */
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
-    margin-bottom: 20px; /* زيادة المسافة أسفل الشريط */
+    margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
     color: #674c4c; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
