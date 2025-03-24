@@ -1925,7 +1925,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
-@media (max-width: 600px) {
+@media (max-width: 741px) {
     .product-video-section h2 {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
         font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
@@ -2631,12 +2631,12 @@ select {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #674c4c; /* لون النص */
+    color: #ffffff; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-    background: #FED700; /* التدرج الأصفر */
+    background: #0072fe; /* التدرج الأصفر */
     border-radius: 10px;
     width: 90%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
