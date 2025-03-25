@@ -2680,7 +2680,7 @@ select {
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
-    margin: 25px 0;
+    margin: 10px 0;
 }
 
 
@@ -2712,7 +2712,6 @@ select {
 .related-products h2:after {
     content: "";
     position: absolute;
-    bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
@@ -2727,7 +2726,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: -3px;
+    margin-top: 30px;
     
 }
 
@@ -2738,7 +2737,7 @@ select {
     width: 244px;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-bottom: 7px; /* زيادة الهامش السفلي من 10px إلى 20px */
+    margin-bottom: 10px; /* زيادة الهامش السفلي من 10px إلى 20px */
 }
 
 .product-link:hover {
