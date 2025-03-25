@@ -2754,15 +2754,15 @@ select {
     font-size: 1.1rem;
     margin-bottom: 4px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+     color: #190303; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
 }
 
 .related-old-price {
-    color: rgb(103, 6, 45);
+    color: rgb(67, 61, 63);
     text-decoration: line-through;
     font-size: 1.2rem;
     position: relative;
