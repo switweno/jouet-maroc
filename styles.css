@@ -1967,7 +1967,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-    background: #FED700; /* التدرج الأصفر */
+    background: rgba(254, 215, 0, 0.99); /* التدرج الأصفر */
     border-radius: 10px;
     width: 50%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2676,19 +2676,13 @@ select {
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-         outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
-    
-     
+         outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */    
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
-.related-products {
-    text-align: center; /* محاذاة العناصر في المنتصف */
-    margin: 30px 0;
-}
 
 .related-products h2 {
     display: inline-block;
@@ -2733,7 +2727,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 15px;
+    margin-top: -3px;
     
 }
 
@@ -2744,7 +2738,7 @@ select {
     width: 244px;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-bottom: 15px; /* زيادة الهامش السفلي من 10px إلى 20px */
+    margin-bottom: 7px; /* زيادة الهامش السفلي من 10px إلى 20px */
 }
 
 .product-link:hover {
@@ -2762,7 +2756,7 @@ select {
     position: relative;
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
-    margin-bottom: 12px; /* إضافة هامش سفلي جديد */
+    margin-bottom: 15px; /* إضافة هامش سفلي جديد */
 }
 
 .product-link:hover .related-product {
@@ -2811,8 +2805,8 @@ select {
     font-size: 1.1rem;
     margin-bottom: 4px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     color: white; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+     color: #110101; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -2982,6 +2976,7 @@ select {
     .related-product h3 {
         height: auto;
         min-height: 36px;
+         
        
     }
 }
