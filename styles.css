@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: rgb(107, 105, 105);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -2710,7 +2710,7 @@ select {
         font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
         }
         .related-products {
-             margin-top: -9px;
+             margin-top: -5px;
         
         
     }
