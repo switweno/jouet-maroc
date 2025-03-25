@@ -771,6 +771,64 @@ features: [
   },
   
   {
+   id: "Voiture-Mercedes-Classe-G",
+   title: "Voiture Mercedes Classe G",
+   brand: "Modèle enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 45,
+   currentPrice: 2199,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-01.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-02.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-03.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-04.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-05.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-06.webp",
+     "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-07.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-08.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-09.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-10.webp"
+   ],
+    
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 VOLTS" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "MOTEUR", value: "5 MOTEURS" },
+      { key: "ÉCLAIRAGE", value: "LED" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "VITESSE", value: "3 NIVEAUX" }
+    ]
+  },
+ {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "DE SÉCURITÉ" },
+      { key: "MUSIQUE", value: "USB, CÂBLE AUXILIAIRE" },
+      { key: "BLUETOOTH", value: "INTÉGRÉ" },
+      { key: "BALANÇOIRE", value: "EFFET INTÉGRÉ" },
+      { key: "AMORTISSEURS", value: "INCLUS" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "TÉLÉCOMMANDE", value: "MANUELLE" },
+      { key: "ÂGE", value: "1 - 7 ANS" },
+      { key: "COULEUR", value: "BLANC & GRIS" }
+  ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F7634644423325903%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
    brand: "Modèle enfant",
@@ -814,7 +872,7 @@ features: [
       { key: "KLAXON", value: "SON RÉALISTE" },
       { key: "BALANÇOIRE", value: "EFFET INTÉGRÉ" },
       { key: "TÉLÉCOMMANDE", value: "PARENTALE" }
-    ]
+     ]
   }
 ],
    warranty: "Garantie 3 mois",

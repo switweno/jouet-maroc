@@ -71,7 +71,12 @@
         <priority>0.8</priority>
     </url>
 	<url>
-        <loc>https://jouet-maroc.com/?VÉLO-VTT-YOUMEIG-20 -ALUMINIUM</loc>
+        <loc>https://jouet-maroc.com/?VÉLO-VTT-YOUMEIG-20</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?Voiture-Mercedes-Classe-G</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
