@@ -29,7 +29,7 @@ const CATEGORIES_CONFIG = {
     'bikes': {
         id: 'bikes',
         displayName: 'الدراجات الهوائية',
-        databaseName: 'دراجات هواىية',
+        databaseName: 'دراجات هوائية',
         icon: 'fa-bicycle'
     },
     'electric-cars': {
@@ -1996,7 +1996,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case 'scooters':
                 return filterProductsByCategory('تروتنيت');
             case 'bikes':
-                return filterProductsByCategory('دراجات هواىية');
+                return filterProductsByCategory('دراجات هوائية');
             case 'electric-cars':
                 return filterProductsByCategory('سيارات كهربائية');
             default:
