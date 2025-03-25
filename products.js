@@ -310,7 +310,7 @@ const products = [
         title: "المميزات الإضافية",
         icon: "fa-star",
         items: [
-            { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+            { key: "AMORTISSEUR", value: "AVANT" },
             { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
             { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" }
         ]
@@ -319,6 +319,60 @@ const products = [
 
     warranty: "GARANTIE DE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
+  },
+  
+    {
+    id: "VÉLO-VTT-ITALIANO-20",
+    title: "VÉLO VTT ITALIANO 20",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 9,
+    currentPrice: 1190,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-01.webp",
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-02.webp",
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-03.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-04.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-05.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-06.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-07.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-08.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-09.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-10.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-11.webp"
+    ],
+      
+    features: [
+    {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+             { key: "ROUES", value: "20 POUCES" },
+      { key: "GARDES-BOUES", value: "AV ET AR" },
+      { key: "QUALITÉ", value: "ITALIANO QUALITÉ 100%" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+      { key: "VITESSE", value: "1×7" },
+      { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+           { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" }
+        ]
+    }
+],
+
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1745763942639295%2F&show_text=false&width=267&t=0"
   },
   {
     id: "velo-vtt-haomeng-27.5",
