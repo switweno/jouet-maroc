@@ -76,7 +76,9 @@ const products = [
       "Xiaomi Essential/xiaomi-essential-03.webp",
       "Xiaomi Essential/xiaomi-essential-04.webp",
       "Xiaomi Essential/xiaomi-essential-05.webp",
-      "Xiaomi Essential/xiaomi-essential-06.webp"
+      "Xiaomi Essential/xiaomi-essential-06.webp",
+      "Xiaomi Essential/xiaomi-essential-07.webp",
+      "Xiaomi Essential/xiaomi-essential-08.webp"
     ],
     features: [
       {
