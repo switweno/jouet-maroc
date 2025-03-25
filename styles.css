@@ -166,6 +166,31 @@ header {
     }
 }
 
+/* تخصيص ألوان حسب الفئة */
+.sidebar-category[data-category="electric-bikes"] i {
+    color: #28a745; /* لون أخضر للدراجات الكهربائية */
+}
+
+.sidebar-category[data-category="scooters"] i {
+    color: #ff5733; /* لون برتقالي للتروتنيت */
+}
+
+.sidebar-category[data-category="bikes"] i {
+    color: #17a2b8; /* لون سماوي للدراجات الهوائية */
+}
+
+.sidebar-category[data-category="electric-cars"] i {
+    color: #ffc107; /* لون أصفر للسيارات الكهربائية */
+}
+
+/* تأثير عند تمرير الماوس */
+.sidebar-category:hover i {
+    color: #000; /* اللون الأسود عند التمرير */
+}
+
+
+
+
 /* أنماط زر القائمة */
 .menu-toggle {
      background-color: rgba(214, 210, 210, 0);
@@ -519,7 +544,17 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+         .desktop-category i {
+        color: #c3c3c3 !important; /* غيّر اللون حسب رغبتك */
+        transition: color 0.3s ease;
+             }
+         .desktop-category:hover i {
+        color: #ffffff !important; /* لون عند التمرير */
     }
+    }
+
+
+
     
     .desktop-categories ul {
         display: flex;
@@ -542,7 +577,7 @@ header {
     }
     
     .desktop-category:hover {
-        background-color: rgba(88, 77, 77, 0.18);
+        background-color: rgba(88, 77, 77, 0.1);
     }
     
     .desktop-category i {
@@ -1939,7 +1974,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
     background: #FED700; /* التدرج الأصفر */
     border-radius: 10px;
-    width: 90%; /* طول الشريط */
+    width: 50%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      
@@ -1952,6 +1987,8 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
+
+
 
 
 .product-video-section h2:after {
@@ -2648,38 +2685,40 @@ select {
     
      
 }
+.related-products {
+    text-align: center; /* محاذاة العناصر في المنتصف */
+    margin: 30px 0;
+}
+
+.related-products {
+    text-align: center; /* محاذاة العناصر في المنتصف */
+    margin: 30px 0;
+}
 
 .related-products h2 {
-    display: flex; /* تفعيل Flexbox */
-    justify-content: center; /* محاذاة النص أفقيًا */
-    align-items: center; /* محاذاة النص عموديًا */
-    margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #ffffff; /* لون النص */
-    font-size: 1.5rem;
-    text-align: center;
-    border-bottom: 2px solid rgba(0, 102, 204, 0);
-    padding: 10px 0;
-    background: #0072fe; /* التدرج الأصفر */
-    border-radius: 10px;
-    width: 90%; /* طول الشريط */
-    margin-left: auto; /* محاذاة العنصر في المنتصف */
-    margin-right: auto; /* محاذاة العنصر في المنتصف */
-    
-    
+    display: inline-block;
+    position: relative;
+    color: #674c4c;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #FED700;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
-/* استعلام وسائط للشاشات الصغيرة */
-@media (max-width: 600px) {
+
+/* تحسينات للشاشات الصغيرة */
+@media (max-width: 768px) {
     .related-products h2 {
-        width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
-        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
-        }
-        .related-products {
-             margin-top: -5px;
-        
-        
+        font-size: 1.3rem;
+        padding: 8px 15px;
     }
+
 }
+
+
 
 .related-products h2:after {
     content: "";
