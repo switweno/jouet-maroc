@@ -943,13 +943,13 @@ header {
 .main-image-discount-badge {
     visibility: visible; /* عرض الشارة */
     position: absolute;
-    top: clamp(10px, 2vw, 15px); /* يتغير حسب حجم الشاشة */
+    top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
     background-color: #FF0E50;
     color: #f7f7f7;
-    font-size: clamp(17px, 1vw, 21px); /* يتغير مع حجم الشاشة */
+    font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
-    padding: clamp(3px, 0.5vw, 5px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
+    padding: clamp(3px, 0.5vw, 2px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
      font-family: 'sans-serif', 'Cairo', sans-serif;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 10;
