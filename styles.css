@@ -10,7 +10,7 @@ body {
     color: rgb(107, 105, 105);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-   
+  
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
@@ -648,7 +648,7 @@ header {
 /* Product Gallery Styles */
 .product-gallery {
     flex: 1;
-    padding: 15px;
+    padding: 16px;
     overflow: hidden; /* منع تجاوز المحتوى للحاوية */
 }
 
@@ -1048,6 +1048,12 @@ header {
 .feature-category ul {
     list-style: none; /* إزالة النقطة */
     padding-left: 0;  /* إزالة المسافة الزائدة */
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.3s ease;
+    padding: 0 18px; /* يتم الحفاظ عليه حتى لا يختفي عند الإغلاق */
 }
 
 
@@ -3713,7 +3719,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     background-color: #ffffff;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .search-box {

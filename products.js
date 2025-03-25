@@ -267,6 +267,57 @@ const products = [
     warranty: "GARANTIE DE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
   },
+  
+  {
+    id: "VÉLO-VTT-YOUMEIG-20",
+    title: " VÉLO VTT YOUMEIG 20",
+    brand: "YOUMEIG",
+    category: "دراجات هواىية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 1149,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-01.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-02.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-03.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-04.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-05.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-06.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-07.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-08.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-09.webp"
+    ],
+    features: [
+    {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "20 POUCES" },
+            { key: "GARDES-BOUES", value: "AV ET AR" },
+            { key: "QUALITÉ", value: "YOUMEIG 1E QUALITÉ" },
+            { key: "ROUE", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+            { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+            { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+            { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" }
+        ]
+    }
+],
+
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
+  },
   {
     id: "velo-vtt-haomeng-27.5",
     title: "VÉLO VTT HAOMENG 27.5",
