@@ -1338,7 +1338,7 @@ header {
 /* أساسي لتنسيق الزر */
 .btn {
     padding: 12px 25px;
-    border: 5px solid #FFD700; /* حدود ذهبية حول الزر *
+    border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1rem;
@@ -1348,23 +1348,28 @@ header {
     justify-content: center;
     gap: 10px;
     transition: all 0.3s ease;
-   font-family: 'Cairo', 'Cairo', sans-serif;
+   font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 #buy-now-btn {
-    background-color:  #47ff00; /* لون مختلف */
-    color: #000000; /* لون النص */
-    font-size: 1.1rem; /* حجم خط أكبر */
-    
+    background-color:  #1F883D; /* لون مختلف */
+    color: white; /* لون النص */
+    font-size: 1.2rem; /* حجم خط أكبر */
+    padding: 12px 30px; /* تعديل الحواف */
     border-radius: 50px; /* تدوير الحواف أكثر */
 }
 
-
+/* زر بتصميم أخضر مميز */
+.primary2-btn {
+    background-color: #28a745; /* أخضر زاهي */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.5); /* إضافة تأثير ظل */
+}
 
 /* تأثير hover */
 .primary2-btn:hover {
-    background-color: #fffd09; /* أخضر داكن عند التمرير */
+    background-color: #218838; /* أخضر داكن عند التمرير */
     transform: translateY(-4px); /* رفع الزر عند التمرير */
-    box-shadow: 0 6px 12px rgba(18, 233, 70, 0.7); /* زيادة ظل الزر */
+    box-shadow: 0 6px 12px rgba(40, 167, 69, 0.7); /* زيادة ظل الزر */
 }
 
 /* إضافة تأثير عند الضغط */
@@ -2676,7 +2681,7 @@ select {
     margin-bottom: 25px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
-         outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */    
+     outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */    
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
@@ -2698,15 +2703,18 @@ select {
 }
 
 
-/* تحسينات للشاشات الصغيرة */
-@media (max-width: 768px) {
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 600px) {
     .related-products h2 {
-        font-size: 1.2rem;
-        padding: 8px 15px;
+        width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
+        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
+        }
+        .related-products {
+             margin-top: -9px;
+        
+        
     }
-
 }
-
 
 
 .related-products h2:after {
