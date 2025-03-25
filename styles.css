@@ -391,7 +391,7 @@ header {
 .popup-header h3 {
     margin: 0;
     font-size: 1.3rem;
-    color: #1f0201;
+    color: #ff1e48;
     font-family: 'Cairo', 'Tajawal', sans-serif; /* تحسين الخط للعربية */
 }
 
@@ -459,9 +459,13 @@ header {
 }
 
 .popup-product-price {
-    color: #eb0861;
+    font-size: 1rem;
     font-weight: 700;
-     font-size: 1rem;
+    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #ff1e48; /* لون الخلفية */
+    padding: 5px 10px; /* إضافة تباعد داخلي */
+    border-radius: 5px; /* زوايا دائرية */
+    display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
 }
 
 /* رسالة عدم وجود منتجات */
@@ -1967,22 +1971,26 @@ h1, h2, h3, h4, h5, h6 {
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 400px; /* عرض مناسب للنسبة العمودية */
+    max-width: 400px; /* تأكد من أن العرض لا يتجاوز هذا الحد */
     margin: 0 auto;
-    aspect-ratio: 9/16; /* نسبة عمودية افتراضية */
+    aspect-ratio: 9/16;
+    padding: 5px; /* تقليل المسافة حول الفيديو */
+    background: #FED700; /* لون الإطار */
+    border-radius: 12px; /* زوايا دائرية للإطار */
 }
 
 .video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+    top: 5px; /* تعويض padding */
+    left: 5px;
+    width: calc(100% - 10px); /* ضبط العرض ليكون أقل بـ 10px */
+    height: calc(100% - 10px); /* ضبط الارتفاع ليكون أقل بـ 10px */
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    object-fit: cover; /* تغطية المساحة مع الحفاظ على النسب */
+    object-fit: cover;
 }
+
+
 
 
 
