@@ -52,7 +52,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
@@ -111,7 +111,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
   },
   {
@@ -162,7 +162,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
   },
   {
@@ -214,7 +214,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
   {
@@ -588,7 +588,8 @@ const products = [
           { key: "DÉMARRAGE", value: "CONTACT" },
           { key: "PNEUS", value: "20.4\" AVEC GARDE-BOUE" },
           { key: "KLAXON", value: "ÉLECTRIQUE" },
-          { key: "PIÈCES", value: "SHIMANO" }
+          { key: "PIÈCES", value: "SHIMANO" },
+          { "key": "GARANTIE", "value": "3 MOIS" }
         ]
       }
     ],
@@ -635,7 +636,7 @@ const products = [
         title: "المميزات الإضافية",
         icon: "fa-star",
         items: [
-          { key: "AFFICHAGE", value: "شاشة رقمية متعددة الوظائف" },
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
           { key: "AMORTISSEURS", value: "RÉGLABLE AV" },
           { key: "ÉCLAIRAGE", value: "LED AV/AR + KLAXON" },
           { key: "PNEUS", value: "20'' AVEC GARDE-BOUE" },
@@ -643,7 +644,8 @@ const products = [
           { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
           { key: "VITESSES", value: "7 VITESSES" },
           { key: "CONFORT", value: "PORTE-BAGAGE INCLUS" },
-          { key: "CHARGE MAX", value: "130 KG" }
+          { key: "CHARGE MAX", value: "130 KG" },
+          { "key": "GARANTIE", "value": "3 MOIS" }
         ]
       }
     ],
@@ -691,7 +693,7 @@ const products = [
         title: "المميزات الإضافية",
         icon: "fa-star",
         items: [
-          { key: "AFFICHAGE", value: "DIGITAL MULTIFONCTION" },
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
           { key: "AMORTISSEURS", value: "RÉGLABLE AVANT" },
           { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE + KLAXON" },
           { key: "PNEUS", value: "20 POUCES AVEC GARDE-BOUE" },
@@ -700,7 +702,8 @@ const products = [
           { key: "VITESSES", value: "7 VITESSES SHIMANO" },
           { key: "PIÈCES", value: "PIÈCES SHIMANO" },
           { key: "PORTE-BAGAGE", value: "INCLUS" },
-          { key: "CHARGE MAX", value: "130 KG" }
+          { key: "CHARGE MAX", value: "130 KG" },
+           { "key": "GARANTIE", "value": "3 MOIS" }
         ]
       }
     ],
@@ -737,13 +740,19 @@ features: [
     title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
-      { key: "PUISSANCE", value: "400 W MAX" },
-      { key: "VITESSE MAX", value: "46 KM" },
-      { key: "DÉMARRAGE", value: "CONTACT ÉLECTRIQUE" },
-      { key: "BATTERIE", value: "48V 15.6AH LITHIUM" },
-      { key: "AUTONOMIE", value: "45-55 KM MAX" },
-      { key: "FREINS", value: "AV/AR" },
-      { key: "VITESSE", value: "3 NIVEAUX + 1 PÉDALE" }
+       { "key": "PUISSANCE", "value": "400 W MAX " },
+      { "key": "BATTERIE", "value": "48V 15.6AH LITHIUM " },
+      { "key": "CHARGE MAX", "value": "120 KG " },
+      { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
+      { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
+      { "key": "VITESSE MAX", "value": "46 KM/H " },
+      { "key": "TABLEAU DIGITAL", "value": "ÉCRAN DIGITAL " },
+      { "key": "NIVEAUX DE VITESSE", "value": "3 NIVEAUX" },
+      { "key": "VITESSE PÉDALE", "value": "1E VITESSE MANUELLE" },
+      { "key": "BATTERIE TYPE", "value": "LITHIUM " },
+      { "key": "VÉLO", "value": "PLIABILE" },
+      { "key": "DÉMARRAGE", "value": "CONTACT ÉLECTRIQUE" },
+      { "key": "GARANTIE", "value": "3 MOIS" }
     ]
   },
   {
@@ -758,6 +767,7 @@ features: [
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
       { key: "CONFORT", value: "VÉLO PLIABLE" },
       { key: "CHARGE MAX", value: "120 KG" }
+      
     ]
   }
 ],
@@ -823,7 +833,8 @@ features: [
         { key: "PNEU", value: "20,4 POUCES" },
         { key: "KLAXON", value: "ÉLECTRIQUE" },
         { key: "PIÈCES", value: "SHIMANO" },
-        { key: "GARDE-BOUE", value: "AV ET AR" }
+        { key: "GARDE-BOUE", value: "AV ET AR" },
+        { "key": "GARANTIE", "value": "3 MOIS" }
       ]
     }
   ],
@@ -880,7 +891,7 @@ features: [
     ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
  {
@@ -934,7 +945,7 @@ features: [
     ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   },
   
@@ -961,33 +972,33 @@ features: [
     
 features: [
   {
-     title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "Batterie", value: "12V 10AH" },
-      { key: "Chargeur", value: "12 volts" },
-      { key: "Siège", value: "2 places cuir" },
-      { key: "Moteur", value: "5 moteurs" },
-      { key: "Vitesse", value: "3 niveaux" },
-      { key: "Éclairage", value: "LED avant & arrière" },
-      { key: "Tableau de bord", value: "Digital" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "Ceinture", value: "De sécurité" },
-      { key: "Musique", value: "USB, câble auxiliaire" },
-      { key: "Bluetooth", value: "Intégré" },
-      { key: "Balançoire", value: "Effet intégré" },
-      { key: "Amortisseurs", value: "Inclus" },
-      { key: "Télécommande", value: "Manuelle + contrôle via téléphone" },
-      { key: "Âge", value: "1 - 9 ans" }
+  "title": "المواصفات التقنية",
+  "icon": "fa-cogs",
+  "items": [
+    { "key": "BATTERIE", "value": "12V 10AH" },
+    { "key": "CHARGEUR", "value": "12 VOLTS" },
+    { "key": "SIÈGE", "value": "2 PLACES CUIR" },
+    { "key": "MOTEUR", "value": "5 MOTEURS" },
+    { "key": "VITESSE", "value": "3 NIVEAUX" },
+    { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+    { "key": "TABLEAU DE BORD", "value": "DIGITAL" }
+  ]
+},
+{
+  "title": "المميزات الإضافية",
+  "icon": "fa-star",
+  "items": [
+    { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+    { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+    { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+    { "key": "BALANÇOIRE", "value": "EFFET INTÉGRÉ" },
+    { "key": "AMORTISSEURS", "value": "INCLUS" },
+    { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE VIA TÉLÉPHONE" },
+    { "key": "ÂGE", "value": "1 - 9 ANS" }
   ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1356692908792031%2F&show_text=false&width=267&t=0"
  },
   
@@ -1045,7 +1056,7 @@ features: [
   ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"
  },
   
@@ -1096,7 +1107,7 @@ features: [
      ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
  },
   
@@ -1122,34 +1133,34 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "5 motor" },
-      { key: "VITESSE", value: "3E vitesse" },
-      { key: "BATTERIE", value: "Batterie 12V" },
-      { key: "TÉLÉCOMMANDE", value: "Télécommande manuel" },
-      { key: "BLUETOOTH", value: "Bluetooth" },
-      { key: "TÉLÉPHONE", value: "Maîtrisé depuis le téléphone 📲" },
-      { key: "CHARGEUR", value: "Chargeur 12 volts" },
-      { key: "PLACES", value: "2 place mini" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "CEINTURE", value: "ceinture de sécurité" },
-      { key: "ROUES", value: "Les amortisseurs" },
-      { key: "PROTECTION", value: "RÉSISTANTE" },
-      { key: "MUSIQUE", value: "Music+USB+câble auxiliaire" },
-      { key: "LED", value: "Led avant" },
-      { key: "BALANÇOIRE", value: "Balançoire" },
-      { key: "ÂGE", value: "l'AG 1 - 6 ans" }
-     ]
+  "title": "المواصفات التقنية",
+  "icon": "fa-cogs",
+  "items": [
+    { "key": "MOTEUR", "value": "5 MOTOR" },
+    { "key": "VITESSE", "value": "3E VITESSE" },
+    { "key": "BATTERIE", "value": "BATTERIE 12V" },
+    { "key": "TÉLÉCOMMANDE", "value": "TÉLÉCOMMANDE MANUEL" },
+    { "key": "BLUETOOTH", "value": "BLUETOOTH" },
+    { "key": "TÉLÉPHONE", "value": "MAÎTRISÉ DEPUIS LE TÉLÉPHONE 📲" },
+    { "key": "CHARGEUR", "value": "CHARGEUR 12 VOLTS" },
+    { "key": "PLACES", "value": "2 PLACES MINI" }
+  ]
+},
+{
+  "title": "المميزات الإضافية",
+  "icon": "fa-star",
+  "items": [
+    { "key": "CEINTURE", "value": "CEINTURE DE SÉCURITÉ" },
+    { "key": "ROUES", "value": "LES AMORTISSEURS" },
+    { "key": "PROTECTION", "value": "RÉSISTANTE" },
+    { "key": "MUSIQUE", "value": "MUSIC+USB+CÂBLE AUXILIAIRE" },
+    { "key": "LED", "value": "LED AVANT" },
+    { "key": "BALANÇOIRE", "value": "BALANÇOIRE" },
+    { "key": "ÂGE", "value": "L'ÂGE 1 - 6 ANS" }
+  ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"
  },
   
@@ -1203,7 +1214,7 @@ features: [
     ]
   }
 ],
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1179274147225695%2F&show_text=false&width=267&t=0"
  },
   
@@ -1253,7 +1264,7 @@ features: [
   }
 ],
 
-   warranty: "Garantie 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  }
   
