@@ -266,7 +266,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
   },
   
@@ -317,7 +317,7 @@ const products = [
     }
 ],
 
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
   },
   
@@ -369,7 +369,7 @@ const products = [
     }
 ],
 
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F492294450206178%2F&show_text=false&width=267&t=0"
   },
   
@@ -428,7 +428,7 @@ const products = [
     }
 ],
 
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1146905996905695%2F&show_text=false&width=267&t=0"
   },
   
@@ -483,7 +483,7 @@ const products = [
     }
 ],
 
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1745763942639295%2F&show_text=false&width=267&t=0"
   },
   {
@@ -530,7 +530,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
   },
   {
@@ -572,20 +572,20 @@ const products = [
           { key: "AUTONOMIE NORMALE", value: "45-60 KM" },
           { key: "MODE ASSISTANCE", value: "100 KM MAX" },
           { key: "VITESSE", value: "50 KM/H MIN - 62 KM/H MAX" },
-          { key: "FREINS", value: "DISQUES AV/AR" }
+          { key: "FREINS", value: "DISQUES AV/AR" },
+          { key: "DÉMARRAGE", value: "CONTACT" }
         ]
       },
       {
         title: "المميزات الإضافية",
         icon: "fa-star",
         items: [
-          { key: "AFFICHAGE", value: "ÉCRAN LCD MULTIFONCTION" },
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
           { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" },
           { key: "TRANSMISSION", value: "7 VITESSES SHIMANO" },
           { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
           { key: "AMORTISSEURS", value: "RÉGLABLES AV/AR" },
           { key: "CONFORT", value: "SIÈGE CUIR 2 PLACES" },
-          { key: "DÉMARRAGE", value: "CONTACT" },
           { key: "PNEUS", value: "20.4\" AVEC GARDE-BOUE" },
           { key: "KLAXON", value: "ÉLECTRIQUE" },
           { key: "PIÈCES", value: "SHIMANO" },
@@ -593,7 +593,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
   {
@@ -649,7 +649,7 @@ const products = [
         ]
       }
     ],
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
   },
   {
@@ -686,7 +686,8 @@ const products = [
           { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
           { key: "AUTONOMIE", value: "45-55 KM MAX" },
           { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX DE VITESSE" },
-          { key: "FREINS", value: "AVANT ET ARRIÈRE" }
+          { key: "FREINS", value: "AVANT ET ARRIÈRE" },
+          { key: "CHARGE MAX", value: "130 KG" }
         ]
       },
       {
@@ -702,12 +703,11 @@ const products = [
           { key: "VITESSES", value: "7 VITESSES SHIMANO" },
           { key: "PIÈCES", value: "PIÈCES SHIMANO" },
           { key: "PORTE-BAGAGE", value: "INCLUS" },
-          { key: "CHARGE MAX", value: "130 KG" },
            { "key": "GARANTIE", "value": "3 MOIS" }
         ]
       }
     ],
-    warranty: "GARANTIE DE 3 MOIS",
+    warranty: "Livraison Gratuite",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
   },
   {
@@ -766,12 +766,13 @@ features: [
       { key: "SIÈGE", value: "2 PLACES CUIR" },
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
       { key: "CONFORT", value: "VÉLO PLIABLE" },
-      { key: "CHARGE MAX", value: "120 KG" }
+      { key: "CHARGE MAX", value: "120 KG" },
+       { "key": "GARANTIE", "value": "3 MOIS" }
       
     ]
   }
 ],
-   warranty: "Garantie de 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
  },
   
@@ -815,21 +816,22 @@ features: [
         { key: "AUTONOMIE", value: "45 KM - 60 KM MAX" },
         { key: "MODE ASSISTANCE", value: "100 KM MAX" },
         { key: "VITESSE MAX", value: "51 KM/H" },
-        { key: "CHARGE RAPIDE", value: "54V" }
+        { key: "CHARGE RAPIDE", value: "54V" },
+        { key: "DÉMARRAGE", value: "CONTACT" },
+         { key: "TABLEAU", value: "DIGITAL" }
       ]
     },
     {
       title: "المميزات الإضافية",
       icon: "fa-star",
       items: [
-        { key: "TABLEAU", value: "DIGITAL" },
+       
         { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" }, 
         { key: "CHANGEMENT SHIMANO", value: "7E VITESSE" },
         { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
         { key: "SIGNAL", value: "À DROITE ET À GAUCHE" },
         { key: "AMORTISSEUR", value: "AVANT ET ARRIÈRE" },
         { key: "SIÈGE", value: "CUIR - 2 PLACES EN CUIR" },
-        { key: "DÉMARRAGE", value: "CONTACT" },
         { key: "PNEU", value: "20,4 POUCES" },
         { key: "KLAXON", value: "ÉLECTRIQUE" },
         { key: "PIÈCES", value: "SHIMANO" },
@@ -838,7 +840,7 @@ features: [
       ]
     }
   ],
-   warranty: "Garantie de 3 mois",
+   warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
