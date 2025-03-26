@@ -321,6 +321,65 @@ const products = [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
   },
   
+      {
+    id: "VÉLO-MADAME-ITALIANO-28",
+    title: "VÉLO MADAME ITALIANO 28",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 9,
+    currentPrice: 1749,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-01.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-02.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-03.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-04.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-05.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-06.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-07.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-08.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-09.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-10.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-11.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-12.webp"
+    ],
+      
+    features: [
+    {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "28 POUCES" },
+            { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+            { key: "SIÈGE", value: "CUIRE" },
+            { key: "PORTE-BAGAGE", value: "INCLUS" },
+            { key: "KLAXON", value: "INCLUS" },
+            { key: "FEU STOP ARRIÈRE", value: "INCLUS" },
+            { key: "LED", value: "AVANT ET ARRIÈRE" },
+            { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+            { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+            { key: "VERROUILLAGE", value: "OFFERT AVEC LE VÉLO 🎁" }
+        ]
+    }
+],
+
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1146905996905695%2F&show_text=false&width=267&t=0"
+  },
+  
+  
     {
     id: "VÉLO-VTT-ITALIANO-20",
     title: "VÉLO VTT ITALIANO 20",
