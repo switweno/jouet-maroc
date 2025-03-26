@@ -848,7 +848,7 @@ features: [
    id: "moteur-cross-42V",
    title: "Moteur cross 42V",
    brand: "Cross",
-   category: "Moteur cross",
+   category: "moteur-cross",
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 25,
@@ -857,7 +857,6 @@ features: [
    discount: 30,
    images: [
      "moteur-cross-42V/moteur-cross-42v-01.webp",
-    
      "moteur-cross-42V/moteur-cross-42v-03.webp",
      "moteur-cross-42V/moteur-cross-42v-04.webp",
     "moteur-cross-42V/moteur-cross-42v-05.webp",

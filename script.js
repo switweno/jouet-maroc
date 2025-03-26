@@ -12,6 +12,7 @@ function preloadImages(images) {
     return preloadedImages;
 }
 
+
 // إضافة كائن مركزي لتكوين الفئات - أضف هذا في بداية الملف
 const CATEGORIES_CONFIG = {
     'electric-bikes': {
@@ -37,8 +38,14 @@ const CATEGORIES_CONFIG = {
         displayName: 'سيارات كهربائية',
         databaseName: 'سيارات كهربائية',
         icon: 'fa-car'
-    }
-    
+    },
+   
+    'moteur-cross': {
+    id: 'moteur-cross',
+    displayName: 'moteur-cross',
+    databaseName: 'moteur-cross',
+    icon: 'fa-motorcycle'
+     }   
     // يمكن إضافة فئات جديدة هنا بسهولة
     // 'new-category': {
     //     id: 'new-category',
@@ -47,6 +54,7 @@ const CATEGORIES_CONFIG = {
     //     icon: 'fa-icon-name'
     // }
 };
+
 
 
 

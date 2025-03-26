@@ -196,9 +196,9 @@ header {
      background-color: rgba(214, 210, 210, 0);
     border: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
-    padding: 5px 6px;
+    padding: 5px 5px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -212,16 +212,40 @@ header {
     background-color: rgba(214, 210, 210, 0.1);
 }
 
+/* تخصيص الأيقونة */
 .menu-toggle i {
-    font-size: 1.3rem;
+    font-size: 1.4rem; /* الحجم الافتراضي للأيقونة */
+}
+
+/* شاشات أكبر من 768px (الأجهزة اللوحية وما فوق) */
+@media (min-width: 768px) {
+    .menu-toggle i {
+        font-size: 1.5rem; /* حجم أكبر للأيقونة على الشاشات الكبيرة */
+    }
+}
+
+/* شاشات أكبر من 1024px (أجهزة الكمبيوتر المكتبية) */
+@media (min-width: 1024px) {
+    .menu-toggle i {
+        font-size: 1.7rem; /* حجم أكبر للأيقونة على أجهزة الكمبيوتر */
+    }
+}
+
+/* شاشات أصغر من 576px (الهواتف المحمولة الصغيرة) */
+@media (max-width: 575px) {
+    .menu-toggle i {
+        font-size: 1.2rem; /* حجم أصغر للأيقونة على الهواتف الصغيرة */
+    }
 }
 
 
 
 
 
+
+
 .site-logo {
-    height: 26px; /* الحجم الافتراضي */
+    height: 20px; /* الحجم الافتراضي */
     width: auto;
     transition: transform 0.3s ease-in-out;
     margin-left: -1px; /* ضبط المسافة */
@@ -238,21 +262,21 @@ header {
 /* التابلت */
 @media (min-width: 481px) and (max-width: 1024px) {
     .site-logo {
-        height: 22px;
+        height: 20px;
     }
 }
 
 /* اللابتوب والكمبيوتر */
 @media (min-width: 1025px) {
     .site-logo {
-        height: 22px;
+        height: 27px;
     }
 }
 
 /* شاشات كبيرة جدًا (4K وما فوق) */
 @media (min-width: 1440px) {
     .site-logo {
-        height: 22px;
+        height: 26px;
     }
 }
 
@@ -275,12 +299,18 @@ header {
 
 .sidebar-menu.open {
     right: 0; /* القائمة تظهر */
-    width: 40%; /* عرض القائمة عند الفتح */
+    width: 27%; /* عرض القائمة عند الفتح */
     background-color: rgba(255, 255, 255, 0.95); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
     z-index: 1000; /* تأكد من أن القائمة أعلى من السلايدر */
     transition: right 0.3s ease;
 }
+@media (max-width: 978px) {
+    
 
+    .sidebar-menu.open {
+        width: 35%; /* عرض أكبر عند فتح القائمة */
+    }
+}
 .sidebar-header {
     display: flex;
     justify-content: space-between;
@@ -293,7 +323,7 @@ header {
 }
 
 .sidebar-header span {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     
 }
@@ -345,7 +375,7 @@ header {
 }
 
 .sidebar-category:hover {
-    background-color: #ffffff;
+    background-color: #eaeaea;
 }
 
 .sidebar-category i {
@@ -361,6 +391,62 @@ header {
     font-weight: 500;
 }
 
+/* تخصيص الشاشات الأصغر (الهواتف) */
+@media (max-width: 575px) {
+    .sidebar-header span {
+        font-size: 1rem;  /* تصغير الخط على الهواتف الصغيرة */
+    }
+
+    .sidebar-close {
+        font-size: 1.5rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
+    }
+
+    .sidebar-category i {
+        font-size: 1.1rem;  /* تصغير حجم الأيقونة */
+    }
+
+    .sidebar-category span {
+        font-size: 1rem;  /* تصغير الخط */
+    }
+}
+
+/* تخصيص الشاشات الأكبر (الأجهزة اللوحية) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .sidebar-header span {
+        font-size: 1.1rem;  /* تقليص الخط قليلاً للأجهزة اللوحية */
+    }
+
+    .sidebar-close {
+        font-size: 1.8rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
+    }
+
+    .sidebar-category i {
+        font-size: 1.2rem;  /* تقليص الأيقونة قليلاً */
+    }
+
+    .sidebar-category span {
+        font-size: 1.05rem;  /* تقليص الخط قليلاً */
+    }
+}
+
+/* تخصيص الشاشات الأكبر (أجهزة الكمبيوتر) */
+@media (min-width: 768px) {
+    .sidebar-header span {
+        font-size: 1.3rem;  /* زيادة حجم الخط للأجهزة الأكبر */
+    }
+
+    .sidebar-close {
+        font-size: 2.2rem;  /* زيادة حجم زر الإغلاق */
+    }
+
+    .sidebar-category i {
+        font-size: 1.4rem;  /* زيادة حجم الأيقونة */
+    }
+
+    .sidebar-category span {
+        font-size: 1.2rem;  /* زيادة حجم الخط */
+    }
+}
 /* الخلفية المعتمة */
 .overlay {
     position: fixed;
@@ -368,7 +454,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.76);
     z-index: 999;
     display: none;
     transition: opacity 0.3s;
@@ -590,10 +676,7 @@ header {
         font-weight: 500;
     }
     
-    /* إخفاء زر القائمة في الشاشات الكبيرة */
-    .menu-toggle {
-        display: none;
-    }
+   
     
     /* توسيع الهيدر ليناسب القائمة الأفقية */
     .header-content {
@@ -610,18 +693,18 @@ header {
 /* عند تصغير الشاشة (أقل من 768px، أي للهواتف) */
 @media (max-width: 768px) {
     .sidebar-menu {
-        width: 46%; /* عرض مناسب للأجهزة المحمولة */
+        width: 42%; /* عرض مناسب للأجهزة المحمولة */
     }
 
     .sidebar-menu.open {
-        width: 55%; /* عرض أكبر عند فتح القائمة */
+        width: 50%; /* عرض أكبر عند فتح القائمة */
     }
 }
 
 /* الشاشات الصغيرة (450px أو أقل) */
-@media (max-width: 450px) {
+@media (max-width: 511px) {
     .sidebar-menu {
-        width: 46%; /* عرض أصغر عند الشاشات الصغيرة */
+        width: 50%; /* عرض أصغر عند الشاشات الصغيرة */
     }
 
     .sidebar-menu.open {
