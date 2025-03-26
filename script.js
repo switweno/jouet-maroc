@@ -399,7 +399,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "Voiture-Mercedes-Classe-G"; // Default product
+        productId = "voiture-jeep-bougie"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -899,7 +899,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "Voiture-Mercedes-Classe-G"; // Default product
+            productId = "voiture-jeep-bougie"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -2450,13 +2450,17 @@ function highlightText(text, query) {
     return text.replace(regex, '<span class="highlighted">$1</span>');
 }
 
-// منع الإرسال عند الضغط على زر البحث
-document.getElementById('search-button').addEventListener('click', (e) => {
-    e.preventDefault();
-});
+// دالة Debouncing
+function debounce(func, delay) {
+    let timer;
+    return function (...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => func.apply(this, args), delay);
+    };
+}
 
-// تفعيل البحث عند الكتابة
-searchInput.addEventListener('input', () => {
+// دالة البحث الرئيسية
+function performSearch() {
     const query = searchInput.value.trim().toLowerCase();
 
     if (query === '') {
@@ -2471,6 +2475,20 @@ searchInput.addEventListener('input', () => {
 
     // عرض النتائج
     displayResults(filteredProducts);
+}
+
+// ربط البحث مع Debouncing
+const debouncedSearch = debounce(performSearch, 300); // تأخير لمدة 300 مللي ثانية
+
+// منع الإرسال عند الضغط على زر البحث
+document.getElementById('search-button').addEventListener('click', (e) => {
+    e.preventDefault();
+    performSearch(); // تنفيذ البحث فورًا عند الضغط على الزر
+});
+
+// تفعيل البحث عند الكتابة باستخدام Debouncing
+searchInput.addEventListener('input', () => {
+    debouncedSearch();
 });
 
 // إخفاء النتائج عند الضغط خارج منطقة البحث
@@ -2484,3 +2502,37 @@ document.addEventListener('click', (e) => {
 window.addEventListener('DOMContentLoaded', () => {
     loadProducts();
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.querySelector(".modal");
+    const closeModal = document.querySelector(".close");
+    const openModalButton = document.querySelector("#openModalButton");
+
+    function openModal() {
+        modal.classList.remove("hide");
+        modal.classList.add("show");
+        modal.style.display = "flex"; // تأكد من إظهار النافذة في كل مرة يتم فتحها
+    }
+
+    function closeModalFunc() {
+        modal.classList.remove("show");
+        modal.classList.add("hide");
+
+        // بعد انتهاء الأنيميشن، نخفي النافذة من الـ DOM
+        setTimeout(() => {
+            modal.style.display = "none"; // نخفيها بعد انتهاء التأثير
+        }, 300); // نفس مدة الأنيميشن
+    }
+
+    closeModal.addEventListener("click", closeModalFunc);
+
+    openModalButton.addEventListener("click", function () {
+        if (modal.style.display === "none" || !modal.style.display) {
+            openModal();
+        }
+    });
+});
+
+
+
