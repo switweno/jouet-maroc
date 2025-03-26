@@ -49,6 +49,7 @@ const CATEGORIES_CONFIG = {
 };
 
 
+
 // دالة مساعدة للحصول على تكوينات جميع الفئات
 function getAllCategories() {
     return Object.values(CATEGORIES_CONFIG);
@@ -2376,5 +2377,110 @@ document.addEventListener('DOMContentLoaded', function() {
 // ...existing code...
 
 
+// الحصول على العناصر DOM
+const searchInput = document.getElementById('search-input');
+const searchResults = document.getElementById('search-results');
+const productsGrid = document.getElementById('products-grid');
 
+// تحميل بيانات المنتجات من ملف products.js
+function loadProducts() {
+    products.forEach(product => {
+        const productCard = createProductCard(product);
+        productsGrid.appendChild(productCard);
+    });
+}
 
+// إنشاء بطاقة منتج ديناميكية
+function createProductCard(product) {
+    const card = document.createElement('a');
+    card.href = `?product=${encodeURIComponent(product.id)}`;
+    card.className = 'product-link';
+
+    card.innerHTML = `
+        <div class="related-product">
+            <img src="${product.images[0]}" alt="${product.title}">
+            <h3>${product.title}</h3>
+            <div class="related-price-container">
+                <div class="related-price">${product.currentPrice} درهم</div>
+                <div class="related-old-price">${product.oldPrice} درهم</div>
+            </div>
+            <div class="related-discount-badge">-${product.discount}%</div>
+        </div>
+    `;
+
+    return card;
+}
+
+// دالة لعرض نتائج البحث
+function displayResults(results) {
+    // مسح النتائج السابقة
+    searchResults.innerHTML = '';
+
+    if (results.length === 0) {
+        searchResults.innerHTML = '<div class="no-results">لم يتم العثور على نتائج</div>';
+        searchResults.style.display = 'block';
+        return;
+    }
+
+    // إنشاء عناصر النتائج
+    results.forEach(product => {
+        const resultItem = document.createElement('a');
+        resultItem.href = `?product=${encodeURIComponent(product.id)}`;
+        resultItem.classList.add('search-result-item');
+
+        resultItem.innerHTML = `
+            <img src="${product.images[0]}" alt="${product.title}" class="search-result-image">
+            <div class="search-result-info">
+                <div class="search-result-title">${highlightText(product.title, searchInput.value)}</div>
+                <div class="search-result-price">${product.currentPrice} درهم</div>
+                <div class="search-result-category">${product.category}</div>
+            </div>
+        `;
+
+        searchResults.appendChild(resultItem);
+    });
+
+    // عرض النتائج
+    searchResults.style.display = 'block';
+}
+
+// دالة لتظليل النص المتطابق
+function highlightText(text, query) {
+    const regex = new RegExp(`(${query})`, 'gi');
+    return text.replace(regex, '<span class="highlighted">$1</span>');
+}
+
+// منع الإرسال عند الضغط على زر البحث
+document.getElementById('search-button').addEventListener('click', (e) => {
+    e.preventDefault();
+});
+
+// تفعيل البحث عند الكتابة
+searchInput.addEventListener('input', () => {
+    const query = searchInput.value.trim().toLowerCase();
+
+    if (query === '') {
+        searchResults.style.display = 'none';
+        return;
+    }
+
+    // تصفية المنتجات بناءً على الاستعلام
+    const filteredProducts = products.filter(product =>
+        product.title.toLowerCase().includes(query)
+    );
+
+    // عرض النتائج
+    displayResults(filteredProducts);
+});
+
+// إخفاء النتائج عند الضغط خارج منطقة البحث
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-box')) {
+        searchResults.style.display = 'none';
+    }
+});
+
+// تحميل المنتجات عند تحميل الصفحة
+window.addEventListener('DOMContentLoaded', () => {
+    loadProducts();
+});
