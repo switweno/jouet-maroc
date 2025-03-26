@@ -2488,22 +2488,7 @@ select {
     }
 }
 
-/* عند فتح النافذة */
-.modal.show {
-    display: flex;
-    animation: fadeIn 0.3s ease-in-out forwards;
-}
 
-/* عند إغلاق النافذة */
-.modal.hide {
-    animation: fadeOut 0.3s ease-in-out forwards;
-}
-
-/* بعد انتهاء الإغلاق يتم إخفاء النافذة */
-.modal.hide {
-    animation: fadeOut 0.3s ease-in-out forwards;
-    pointer-events: none;
-}
 
 
 /* نموذج الاتصال */
