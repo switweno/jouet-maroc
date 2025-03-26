@@ -988,6 +988,59 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
  },
   
+  {
+   id: "Voiture-Mercedes-mini-44",
+   title: "Voiture Mercedes mini 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 23,
+   currentPrice: 1149 ,
+   oldPrice: 1550,
+   discount: 30,
+   images: [
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-01.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-02.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-03.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-04.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-05.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-06.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-07.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "5 motor" },
+      { key: "VITESSE", value: "3E vitesse" },
+      { key: "BATTERIE", value: "Batterie 12V" },
+      { key: "TÉLÉCOMMANDE", value: "Télécommande manuel" },
+      { key: "BLUETOOTH", value: "Bluetooth" },
+      { key: "TÉLÉPHONE", value: "Maîtrisé depuis le téléphone 📲" },
+      { key: "CHARGEUR", value: "Chargeur 12 volts" },
+      { key: "PLACES", value: "2 place mini" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "ceinture de sécurité" },
+      { key: "ROUES", value: "Les amortisseurs" },
+      { key: "PROTECTION", value: "RÉSISTANTE" },
+      { key: "MUSIQUE", value: "Music+USB+câble auxiliaire" },
+      { key: "LED", value: "Led avant" },
+      { key: "BALANÇOIRE", value: "Balançoire" },
+      { key: "ÂGE", value: "l'AG 1 - 6 ans" }
+     ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
+ },
+  
 {
    id: "voiture-Lamborghini-2025",
    title: "Voiture Lamborghini 2025",
