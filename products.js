@@ -828,7 +828,7 @@ features: [
   
    {
    id: "voiture-jeep-bougie",
-   title: "voiture jeep bougie 2025",
+   title: "Voiture jeep bougie 2025",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
