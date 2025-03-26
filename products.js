@@ -321,6 +321,59 @@ const products = [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
   },
   
+   {
+    id: "VÉLO-MADAME-HADMENG-26",
+    title: "VÉLO MADAME HADMENG 26",
+    brand: "HADMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 56,
+    currentPrice: 1699,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-01.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-02.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-03.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-04.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-05.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-06.webp",
+    ],
+      
+    features: [
+    {
+        title: "المواصفات التقنية",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "26 POUCES" },
+            { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "المميزات الإضافية",
+        icon: "fa-star",
+        items: [
+            { key: "AMORTISSEUR", value: "AVANT" },  
+            { key: "SIÈGE", value: "CUIRE AVEC AMORTISSEUR" }, 
+            { key: "PORTE-BAGAGE", value: "INCLUS" },
+            { key: "KLAXON", value: "INCLUS" },
+            { key: "FEU STOP ARRIÈRE", value: "INCLUS" },
+            { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+            { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+            { key: "VERROUILLAGE", value: "DE VÉLO cadeau 🎁🎁" }
+        ]
+    }
+],
+
+    warranty: "GARANTIE DE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F492294450206178%2F&show_text=false&width=267&t=0"
+  },
+  
+  
       {
     id: "VÉLO-MADAME-ITALIANO-28",
     title: "VÉLO MADAME ITALIANO 28",

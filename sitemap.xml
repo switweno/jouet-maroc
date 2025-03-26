@@ -66,7 +66,7 @@
         <priority>0.8</priority>
     </url>
 	<url>
-        <loc>https://jouet-maroc.com/?VÉLO-BMX-GTR -ALUMINIUM</loc>
+        <loc>https://jouet-maroc.com/?VÉLO-BMX-GTR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -92,6 +92,16 @@
     </url>
 	<url>
         <loc>https://jouet-maroc.com/?Voiture-Mercedes-mini-44</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?VÉLO-MADAME-ITALIANO-28</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?VÉLO-MADAME-HADMENG-26</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
