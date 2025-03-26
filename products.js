@@ -934,7 +934,7 @@ features: [
   }
 ],
    warranty: "Garantie 3 mois",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F7634644423325903%2F&show_text=false&width=267&t=0"
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"
  },
   
   {
