@@ -829,7 +829,7 @@ features: [
   {
    id: "Voiture-Mercedes-Classe-G",
    title: "Voiture Mercedes Classe G",
-   brand: "Modèle enfant",
+   brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -887,7 +887,7 @@ features: [
   {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
-   brand: "Modèle enfant",
+   brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -938,7 +938,7 @@ features: [
 {
    id: "voiture-Lamborghini-2025",
    title: "Voiture Lamborghini 2025",
-   brand: "Modèle enfant",
+   brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -992,7 +992,7 @@ features: [
 {
    id: "Moteur-HARLEY-6V",
    title: "Moteur HARLEY 6V",
-   brand: "HARLEY modèle enfant ",
+   brand: "Marque enfant ",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -1011,7 +1011,7 @@ features: [
    ],
 features: [
   {
-    title: "CARACTÉRISTIQUES TECHNIQUES",
+    title: "المواصفات التقنية",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "2 MOTEURS PUISSANTS" },
@@ -1022,7 +1022,7 @@ features: [
     ]
   },
   {
-    title: "ATOUTS SUPPLÉMENTAIRES",
+    title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
       { key: "SIÈGE", value: "SIÈGE EN CUIR CONFORTABLE" },
