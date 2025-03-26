@@ -826,6 +826,59 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   },
   
+   {
+   id: "voiture-jeep-bougie",
+   title: "voiture jeep bougie 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 55,
+   currentPrice: 2599,
+   oldPrice: 3300,
+   discount: 30,
+   images: [
+     "voiture-jeep-bougie/voiture-jeep-bougie-01.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-02.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-03.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-04.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-05.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-06.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-07.webp"
+   ],
+    
+features: [
+  {
+     title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "Batterie", value: "12V 10AH" },
+      { key: "Chargeur", value: "12 volts" },
+      { key: "Siège", value: "2 places cuir" },
+      { key: "Moteur", value: "5 moteurs" },
+      { key: "Vitesse", value: "3 niveaux" },
+      { key: "Éclairage", value: "LED avant & arrière" },
+      { key: "Tableau de bord", value: "Digital" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "Ceinture", value: "De sécurité" },
+      { key: "Musique", value: "USB, câble auxiliaire" },
+      { key: "Bluetooth", value: "Intégré" },
+      { key: "Balançoire", value: "Effet intégré" },
+      { key: "Amortisseurs", value: "Inclus" },
+      { key: "Télécommande", value: "Manuelle + contrôle via téléphone" },
+      { key: "Âge", value: "1 - 9 ans" }
+  ]
+  }
+],
+   warranty: "Garantie 3 mois",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1356692908792031%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "Voiture-Mercedes-Classe-G",
    title: "Voiture Mercedes Classe G",

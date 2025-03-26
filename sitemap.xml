@@ -80,9 +80,13 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-	
 	<url>
         <loc>https://jouet-maroc.com/?VÉLO-VTT-ITALIANO-20</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-jeep-bougie</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
