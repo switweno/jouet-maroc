@@ -1356,7 +1356,7 @@ header {
     font-size: 1.2rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
     border-radius: 50px; /* تدوير الحواف أكثر */
-    border: 5px solid #ff8400;
+    border: 3px solid #ff8400;
 }
 
 
@@ -3117,9 +3117,9 @@ select {
     position: absolute;
     top: 90%;
     transform: translateY(-50%);
-    background-color: rgba(220, 220, 220, 0.41);
+    background-color: rgba(106, 106, 106, 0.41);
     border: none;
-    color: #050002;
+    color: #ffffff;
     font-size: 1.9rem;
     cursor: pointer;
     padding: 10px;
@@ -3147,8 +3147,8 @@ select {
 
 
 .scroll-arrow:hover {
-     background-color: rgba(222, 210, 210, 0.41);
-     color: #000000;
+     background-color: rgba(154, 154, 154, 0.41);
+     color: #ffffff;
 }
 
 .arrow-left {
