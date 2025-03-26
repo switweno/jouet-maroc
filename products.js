@@ -844,6 +844,63 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
+   {
+   id: "moteur-cross-42V",
+   title: "Moteur cross 42V",
+   brand: "Cross",
+   category: "Moteur cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 25,
+   currentPrice: 3699,
+   oldPrice: 4690,
+   discount: 30,
+   images: [
+     "moteur-cross-42V/moteur-cross-42v-01.webp",
+    
+     "moteur-cross-42V/moteur-cross-42v-03.webp",
+     "moteur-cross-42V/moteur-cross-42v-04.webp",
+    "moteur-cross-42V/moteur-cross-42v-05.webp",
+    "moteur-cross-42V/moteur-cross-42v-06.webp",
+    "moteur-cross-42V/moteur-cross-42v-07.webp",
+    "moteur-cross-42V/moteur-cross-42v-08.webp",
+    "moteur-cross-42V/moteur-cross-42v-09.webp",
+    "moteur-cross-42V/moteur-cross-42v-10.webp"
+   ],
+features: [
+    {
+      title: "المواصفات التقنية",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "1000 W MAX" },
+            { key: "BATTERIE", value: "LITHIUM 42 V 12AH" },
+            { key: "CHARGE MAX", value: "70 KG" },
+            { key: "FREINAGE", value: "ARRIÈRE" },
+            { key: "AUTONOMIE", value: "10 KM MIN - 15 KM MAX" },
+            { key: "VITESSE", value: "15 KM MIN - 25 KM MAX" },
+            { key: "CHARGE", value: "42V" }
+      ]
+    },
+    {
+      title: "المميزات الإضافية",
+      icon: "fa-star",
+      items: [
+       
+         { key: "VITESSES", value: "3E VITESSE" },
+            { key: "BLUETOOTH", value: "MUSIC BLUETOOTH" },
+            { key: "SIÈGE", value: "CUIR" },
+            { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+            { key: "LED", value: "AMBIANCE" },
+            { key: "KLAXON", value: "ÉLECTRIQUE" },
+            { key: "COLOR", value: "🔴🔵" }
+      ]
+    }
+  ],
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
+ },
+  
+  
  {
    id: "trottinette-bison-gt-1000",
    title: "TROTTINETTE BISON GT 1000",
