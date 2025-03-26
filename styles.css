@@ -545,7 +545,7 @@ header {
         justify-content: center;
         align-items: center;
          .desktop-category i {
-        color: #c3c3c3 !important; /* غيّر اللون حسب رغبتك */
+        color: #eaeaea !important; /* غيّر اللون حسب رغبتك */
         transition: color 0.3s ease;
              }
          .desktop-category:hover i {
@@ -581,7 +581,7 @@ header {
     }
     
     .desktop-category i {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         
     }
     
@@ -1351,25 +1351,20 @@ header {
    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 #buy-now-btn {
-    background-color:  rgb(0, 255, 38); /* لون مختلف */
-    color: rgb(32, 31, 31); /* لون النص */
+    background-color:  rgb(255, 255, 255); /* لون مختلف */
+    color: rgb(81, 80, 80); /* لون النص */
     font-size: 1.2rem; /* حجم خط أكبر */
-    padding: 12px 30px; /* تعديل الحواف */
+    padding: 10px 30px; /* تعديل الحواف */
     border-radius: 50px; /* تدوير الحواف أكثر */
+    border: 5px solid #ff8400;
 }
 
-/* زر بتصميم أخضر مميز */
-.primary2-btn {
-    background-color: #28a745; /* أخضر زاهي */
-    color: #ffffff;
-    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.5); /* إضافة تأثير ظل */
-}
 
 /* تأثير hover */
 .primary2-btn:hover {
     background-color: #218838; /* أخضر داكن عند التمرير */
     transform: translateY(-4px); /* رفع الزر عند التمرير */
-    box-shadow: 0 6px 12px rgba(40, 167, 69, 0.7); /* زيادة ظل الزر */
+    box-shadow: 0 6px 12px rgba(147, 142, 146, 0.7); /* زيادة ظل الزر */
 }
 
 /* إضافة تأثير عند الضغط */
@@ -1972,7 +1967,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-    background: rgba(254, 215, 0, 0.99); /* التدرج الأصفر */
+    background: #FED700; /* التدرج الأصفر */
     border-radius: 10px;
     width: 50%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2700,6 +2695,7 @@ select {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    border: 5px solid #e3e3e3;
 }
 
 
@@ -3775,12 +3771,16 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     color: #FFD700; /* اللون الذهبي اللامع عند التمرير */
 }
 
+
+
+
 /* Search Bar Styles */
 .search-container {
     background-color: #ffffff;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     margin-bottom: 10px;
+    
 }
 
 .search-box {
@@ -3811,12 +3811,14 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     width: 100%;
     color: #333;
     font-family: 'Cairo', 'Tajawal', sans-serif;
+     direction: ltr; /* تعيين الاتجاه داخل حاوية البحث */
 }
 
 #search-input:focus {
     outline: none;
     box-shadow: none !important;
     border: none !important;
+     direction: ltr; /* تعيين الاتجاه داخل حاوية البحث */
 }
 
 #search-button {
