@@ -2465,6 +2465,45 @@ select {
     color: #1daadb;
 }
 
+/* تأثير فتح وإغلاق النافذة */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+/* عند فتح النافذة */
+.modal.show {
+    display: flex;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+/* عند إغلاق النافذة */
+.modal.hide {
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+/* بعد انتهاء الإغلاق يتم إخفاء النافذة */
+.modal.hide {
+    animation: fadeOut 0.3s ease-in-out forwards;
+    pointer-events: none;
+}
 
 
 /* نموذج الاتصال */
