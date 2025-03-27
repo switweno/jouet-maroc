@@ -804,8 +804,8 @@ var availabilityElement = document.querySelector('.product-availability');
 if (product.availability === "متوفر في المخزون") {
     availabilityElement.style.color = "#14b93a"; // اللون الأخضر
     availabilityElement.style.fontSize = "1.0rem"; // زيادة حجم الخط
-} else if (product.availability === "غير متوفر") {
-    availabilityElement.style.color = "#6c757d"; // اللون الرمادي
+} else if (product.availability === "غير متوفر في المخزون") {
+    availabilityElement.style.color = "#0a0000"; // اللون الرمادي
     availabilityElement.style.fontSize = "1rem"; // الحجم الافتراضي
 } else {
     availabilityElement.style.color = "#000"; // اللون الافتراضي

@@ -119,7 +119,7 @@ const products = [
     title: "TROTTINETTE KUKIRIN G2 PRO",
     brand: "KUKIRIN",
     category: "تروتنيت",
-    availability: "غير متوفر",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 256,
     currentPrice: 6390,
