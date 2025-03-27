@@ -952,6 +952,82 @@ features: [
    warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
+  
+  
+
+  {
+   id: "trottinette-Tank-m41",
+   title: "TROTTINETTE Tank M41",
+   brand: "Ecoxtrem tank",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 6500,
+   oldPrice: 7899,
+   discount: 30,
+   images: [
+     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-10.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W min - 2400W MAX" },
+      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35km min - 60km max" },
+      { key: "VITESSE", value: "55 km/h max" },
+      { key: "CHARGE MAX", value: "150 KG" },
+      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Digital" },
+      { key: "VITESSE", value: "3 niveaux" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
+      { key: "CONNECTIVITÉ", value: "Maîtrisé depuis le téléphone 📱" },
+      { key: "ROUES", value: "Off-road 11 pouces" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  },
+  {
+    title: "الملحقات والمزايا الإضافية",
+    icon: "fa-gift",
+    items: [
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "ALARME", value: "Système de sécurité intégré" },
+      { key: "SUPPORT TÉLÉPHONE", value: "Compatible avec l'application mobile" },
+      { key: "DESIGN", value: "Ergonomique et moderne" },
+      { key: "CADEAU", value: "Sac offert 🎁" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
+  }, 
+  
  {
    id: "trottinette-EcoXtrem-liner",
    title: "TROTTINETTE EcoXtrem LINEAR",
