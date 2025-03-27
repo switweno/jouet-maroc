@@ -269,14 +269,14 @@ header {
 /* الشاشات الصغيرة (الموبايل) */
 @media (max-width: 480px) {
     .site-logo {
-        height: 20px;
+        height: 22px;
     }
 }
 
 /* التابلت */
 @media (min-width: 481px) and (max-width: 1024px) {
     .site-logo {
-        height: 20px;
+        height: 22px;
     }
 }
 
