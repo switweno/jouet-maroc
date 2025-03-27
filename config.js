@@ -8,7 +8,7 @@ const CATEGORIES_CONFIG = {
     },
     'scooters': {
         id: 'scooters',
-        displayName: 'تروتنيت',
+        displayName: 'التروتنيت',
         databaseName: 'تروتنيت',
         icon: 'fa-motorcycle'
     },
@@ -20,17 +20,24 @@ const CATEGORIES_CONFIG = {
     },
     'electric-cars': {
         id: 'electric-cars',
-        displayName: 'سيارات كهربائية',
+        displayName: 'السيارات الكهربائية',
         databaseName: 'سيارات كهربائية',
         icon: 'fa-car'
     },
    
     'moteur-cross': {
     id: 'moteur-cross',
-    displayName: 'moteur-cross',
+    displayName: 'Moteur Cross',
     databaseName: 'moteur-cross',
     icon: 'fa-motorcycle'
-     }   
+     },   
+    
+    'siege-auto': {
+        id: 'siege-auto',
+        displayName: 'Siege auto',
+        databaseName: 'Siege auto',
+        icon: 'fa-chair'
+    }
     // يمكن إضافة فئات جديدة هنا بسهولة
     // 'new-category': {
     //     id: 'new-category',

@@ -1379,6 +1379,56 @@ features: [
 
    warranty: "Livraison Gratuite",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-my-bébé",
+   title: "SIÈGE AUTO My bébé",
+   brand: "My bébé ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 260,
+   currentPrice: 1199,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "siège-auto-my-bébé/siège-auto-my-bébé-01.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-02.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-03.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-04.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-05.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-06.webp"
+   ],
+features: [
+  {
+    title: "مواصفات المنتج",
+    icon: "fa-cogs",
+    items: [
+      { key: "MODÈLE", value: "SIÈGE AUTO My bébé 0 À 12 ANS ROTATIF 360°" },
+      { key: "TYPE", value: "Siège auto Groupe 0/1/2/3" },
+      { key: "ROTATION", value: "360°" },
+      { key: "INSTALLATION", value: "Connecteurs ISOFIX" },
+      { key: "ÂGE", value: "0 - 12 ans" },
+      { key: "CONFORT", value: "Rembourrage optimal" },
+      { key: "SÉCURITÉ", value: "Haute protection pour bébé/enfant" }
+    ]
+  },
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "ÉVOLUTIF", value: "Utilisable dès la naissance jusqu'à 12 ans" },
+      { key: "INSTALLATION", value: "Facile avec ISOFIX" },
+      { key: "PROTECTION", value: "Sécurité maximale en voiture" },
+      { key: "CONFORT", value: "Matériaux doux et rembourrés" },
+      { key: "ADAPTABILITÉ", value: "S'adapte à la croissance de l'enfant" }
+    ]
+  }
+],
+
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
  }
   
 ]; 

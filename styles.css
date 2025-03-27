@@ -15,6 +15,7 @@ body {
 }
 
 
+
 button, a {
   touch-action: manipulation;
   user-select: none;
@@ -183,10 +184,23 @@ header {
     color: #ffc107; /* لون أصفر للسيارات الكهربائية */
 }
 
+/* إضافة لون جديد ل fa-motorcycle */
+.sidebar-category[data-category="moteur-cross"] i {
+    color: #6f42c1; /* لون بنفسجي للدراجات النارية */
+}
+
+/* إضافة لون جديد ل fa-chair */
+.sidebar-category[data-category="siege-auto"] i {
+    color: #e83e8c; /* لون وردي لكرسي السيارة */
+}
+
 /* تأثير عند تمرير الماوس */
 .sidebar-category:hover i {
     color: #000; /* اللون الأسود عند التمرير */
 }
+
+
+
 
 
 

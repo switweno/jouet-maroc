@@ -1810,22 +1810,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 400);
     }
     
-    // الحصول على منتجات فئة محددة
-    function getCategoryProducts(categoryId) {
-        // تحديد المنتجات حسب الفئة
-        switch(categoryId) {
-            case 'electric-bikes':
-                return filterProductsByCategory('دراجات كهربائية');
-            case 'scooters':
-                return filterProductsByCategory('تروتنيت');
-            case 'bikes':
-                return filterProductsByCategory('دراجات هوائية');
-            case 'electric-cars':
-                return filterProductsByCategory('سيارات كهربائية');
-            default:
-                return [];
-        }
-    }
+   
     
     // فلترة المنتجات حسب الفئة
     function filterProductsByCategory(category) {
