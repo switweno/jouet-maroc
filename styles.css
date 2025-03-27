@@ -4091,10 +4091,21 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
         }
 
-        .card i {
-            font-size: 3rem;
-            color: #ff1e48;
-            margin-bottom: 15px;
+        .icon-container {
+            width: 70px;
+            height: 70px;
+            background-color: #e0e0e0; /* خلفية رمادية */
+            border-radius: 50%; /* شكل دائري */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px auto; /* مسافة بين الأيقونة والنص */
+            
+        }
+
+        .icon-container i {
+            font-size: 2rem;
+            color: #ff1e48; /* لون الأيقونة */
         }
 
         .card h3 {
