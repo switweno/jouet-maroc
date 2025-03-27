@@ -320,12 +320,13 @@ header {
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     font-family: 'Montserrat', 'Cairo', sans-serif;
+    
 }
 
 .sidebar-header span {
     font-size: 1.2rem;
     font-weight: 600;
-    
+  padding: 0 10px; /* يمكن إضافة Padding حسب الحاجة */
 }
 
 .site-brand a {
