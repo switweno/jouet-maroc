@@ -1,7 +1,65 @@
 // تعريف المنتجات باسم واحد فقط لتجنب التضارب
 const products = [
 
-  
+    {
+   id: "trottinette-joyor-48v",
+    title: "TROTTINETTE JOYOR 48V",
+    brand: "JOYOR K4",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 71,
+    currentPrice: 4490,
+    oldPrice: 5399,
+    discount: 30,
+    images: [
+      "trottinette-joyor-48v/trottinette-joyor-48v-01.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-02.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-03.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-04.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-05.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-06.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-07.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-08.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-09.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-10.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-11.webp",
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MIN - 1000W MAX" },
+      { key: "BATTERIE", value: "48V 10AH LITHIUM" },
+      { key: "AUTONOMIE", value: "20KM MIN - 30KM MAX" },
+      { key: "VITESSE", value: "40KM MIN - 45KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "DISQUE ARRIÈRE + E-ABS" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "MODES DE CONDUITE", value: "3 VITESSES" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "CONCEPTION", value: "PLIABLE" },
+      { key: "SIÈGE", value: "SIÈGE EN CUIR" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" },
+      { key: "KLAXON", value: "OUI" }
+    ]
+  }
+ 
+],
+
+    warranty: "Livraison Gratuite",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
+  },
     {
    id: "TROTTINETTE-JOYOR-48V-17.5AH",
     title: "TROTTINETTE JOYOR 48V 17.5AH",
@@ -46,9 +104,9 @@ const products = [
           { key: "ÉTANCHÉITÉ", value: "IPX5" },
           { key: "CONCEPTION", value: "PLIABLE" },
           { key: "KLAXON", value: "OUI" },
-          { key: "CADEAU 1", value: "حقيبة هدية 🎁" },
-          { key: "CADEAU 2", value: "غرفة هواء هدية 🎁" },
-          { key: "CADEAU 3", value: "قفل مرفق هدية 🎁" }
+          { key: "CADEAU 1", value: "SAC 🎁" },
+          { key: "CADEAU 2", value: "Chambre à air 🎁" },
+          { key: "CADEAU 3", value: "VERROUILLAGE 🎁" }
         ]
       }
     ],
