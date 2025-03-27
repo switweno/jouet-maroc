@@ -1324,97 +1324,134 @@ header {
 }
 
 
-/* Quantity Selector Styles */
+/* General Styles */
 .quantity-selector {
     margin-bottom: 20px;
     color: #2b2323;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .quantity-selector h3 {
-    margin-bottom: 10px;
+    margin-bottom: -4px;
     font-size: 1rem;
     font-weight: bold;
-    color: #333; /* تعديل اللون ليظهر بشكل أفضل */
+    color: #333;
+    letter-spacing: 0.5px;
 }
 
 .quantity-controls {
     display: flex;
     align-items: center;
-    max-width: 170px; /* تعديل العرض ليعطي مساحة أكبر مع أزرار صغيرة */
-    justify-content: center;
+    justify-content: right;
+    gap: 13px;
 }
 
 .quantity-btn {
-    width: 40px; /* تصغير الحجم قليلاً */
+    width: 40px;
     height: 40px;
-    background-color: #fff; /* تغيير اللون إلى الأبيض */
-    border: 1px solid #333; /* حدود رقيقة باللون الأسود */
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1), -4px -4px 6px rgba(255, 255, 255, 0.8);
     font-size: 1.3rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px; /* انحناء الجوانب بشكل أكبر */
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 .quantity-btn:hover {
-    background-color: #f7f7f7; /* لون فاتح عند المرور على الأزرار */
-    transform: scale(1.1); /* تكبير الأزرار قليلاً عند المرور عليها */
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15), -6px -6px 8px rgba(255, 255, 255, 0.9);
+}
+
+.quantity-btn:active {
+    transform: scale(0.95) translateY(0);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1), -2px -2px 4px rgba(255, 255, 255, 0.8);
 }
 
 #quantity {
-    width: 63px; /* زيادة عرض المدخل قليلاً */
-    height: 32px; /* تصغير الارتفاع قليلاً */
+    width: 63px;
+    height: 40px;
     text-align: center;
-    font-size: 1.4rem;
-    border: 1px solid #333; /* حدود رقيقة باللون الأسود */
-    margin: 0 1px; /* المسافة بين الأزرار والمدخل */
-    border-radius: 5px; /* انحناء الجوانب بشكل أكبر */
+    font-size: 1rem;
+    border: none;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1), -4px -4px 6px rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
     outline: none;
-    background-color: #fff; /* خلفية بيضاء للمدخل */
-    transition: border-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #quantity:focus {
-    border-color: #73061d; /* تغيير لون الحدود عند التركيز */
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.15), -6px -6px 8px rgba(255, 255, 255, 0.9);
 }
 
-/* تأثير عندما يضغط المستخدم على الأزرار */
-.quantity-btn:active {
-    transform: scale(0.95); /* تصغير الأزرار قليلاً عند الضغط */
-}
-/* تحسينات للشاشات الصغيرة */
-@media (max-width: 768px) {
-    .quantity-selector h3 {
-        font-size: 0.9rem; /* تصغير حجم العنوان */
+
+/* Small Screen Adjustments */
+@media (max-width: 762px) {
+    .quantity-container {
+        display: flex; /* تحويل الحاوية إلى Flexbox */
+        justify-content: center; /* توسيط العناصر أفقياً */
+        width: 100%; /* عرض كامل للحاوية */
+        padding: 20px 0; /* إضافة مساحة عمودية */
+        box-sizing: border-box; /* ضمان عدم تجاوز العرض المحدد */
     }
 
-    .quantity-controls {
-        gap: 14px; /* تقليل المسافة بين العناصر */
-    }
+     .quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
 
     .quantity-btn {
-        width: 35px; /* تصغير الأزرار */
-        height: 35px;
-        font-size: 1rem; /* تصغير حجم النص داخل الأزرار */
+        width: 50px; /* تصغير الأزرار */
+        height: 46px;
+        font-size: 1.4rem; /* تصغير حجم النص داخل الأزرار */
     }
 
     #quantity {
-        width: 36px; /* تصغير عرض المدخل */
+        width: 100px; /* تصغير عرض المدخل */
+        height: 37px; /* تصغير ارتفاع المدخل */
+        font-size: 0.9rem; /* تصغير حجم النص داخل المدخل */
+    }
+}
+
+/* Small Screen Adjustments */
+@media (max-width: 426px) {
+    .quantity-container {
+        display: flex; /* تحويل الحاوية إلى Flexbox */
+        justify-content: center; /* توسيط العناصر أفقياً */
+        width: 100%; /* عرض كامل للحاوية */
+        padding: 20px 0; /* إضافة مساحة عمودية */
+        box-sizing: border-box; /* ضمان عدم تجاوز العرض المحدد */
+    }
+
+   .quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+
+    .quantity-btn {
+        width: 50px; /* تصغير الأزرار */
+        height: 35px;
+        font-size: 1.3rem; /* تصغير حجم النص داخل الأزرار */
+    }
+
+    #quantity {
+        width: 100px; /* تصغير عرض المدخل */
         height: 30px; /* تصغير ارتفاع المدخل */
         font-size: 0.9rem; /* تصغير حجم النص داخل المدخل */
     }
 }
-/* Improve touch targets for mobile */
-@media (max-width: 426px) {
-    .quantity-btn {
-        width: 36px;
-        height: 29px;
-    }
-}
-
 /* إزالة الأسهم من إدخال الأرقام في جميع المتصفحات */
 #quantity {
     appearance: textfield; /* خاصية قياسية لمنع الأسهم */
