@@ -2071,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
     background: #FED700; /* التدرج الأصفر */
     border-radius: 10px;
-    width: 50%; /* طول الشريط */
+    width: 30%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      

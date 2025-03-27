@@ -1382,8 +1382,61 @@ features: [
  },
   
 {
+   id: "siège-auto-mastela",
+   title: "SIÈGE AUTO MASTELA ROTATIF 360°",
+   brand: "MASTELA ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 140,
+   currentPrice: 1330,
+   oldPrice: 1500,
+   discount: 30,
+   images: [
+    "siège-auto-mastela/siège-auto-mastela-01.webp",
+    "siège-auto-mastela/siège-auto-mastela-02.webp",
+    "siège-auto-mastela/siège-auto-mastela-03.webp",
+    "siège-auto-mastela/siège-auto-mastela-04.webp",
+    "siège-auto-mastela/siège-auto-mastela-05.webp",
+    "siège-auto-mastela/siège-auto-mastela-06.webp",
+    "siège-auto-mastela/siège-auto-mastela-07.webp",
+    "siège-auto-mastela/siège-auto-mastela-08.webp",
+    "siège-auto-mastela/siège-auto-mastela-09.webp",
+   ],
+features: [
+  {
+    title: "مواصفات المنتج",
+    icon: "fa-cogs",
+    items: [
+      { key: "MODÈLE", value: "SIÈGE AUTO Mastela 0-12 ANS ROTATIF 360°" },
+      { key: "TYPE", value: "Groupe 0/1/2/3" },
+      { key: "ROTATION", value: "360° avec ISOFIX" },
+      { key: "INSTALLATION", value: "ISOFIX rapide et sécurisé" },
+      { key: "ÂGE", value: "0 - 12 ans" },
+      { key: "CONFORT", value: "Rembourrage doux" },
+      { key: "SÉCURITÉ", value: "Protection maximale" }
+    ]
+  },
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "ÉVOLUTIF", value: "Utilisable de 0 à 12 ans" },
+      { key: "INSTALLATION", value: "ISOFIX facile et rapide" },
+      { key: "PROTECTION", value: "Sécurité renforcée" },
+      { key: "CONFORT", value: "Matériaux doux et confortables" },
+      { key: "ADAPTABILITÉ", value: "S'adapte à la croissance de l'enfant" }
+    ]
+  }
+],
+
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1394153574894158%2F&show_text=false&width=267&t=0"
+ },
+  
+{
    id: "siège-auto-my-bébé",
-   title: "SIÈGE AUTO My bébé",
+   title: "SIÈGE AUTO My bébé ROTATIF 360° ",
    brand: "My bébé ",
    category: "Siege auto",
    availability: "متوفر في المخزون",
