@@ -1222,6 +1222,61 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"
  },
   
+ {
+   id: "voiture-Jeep-police-2025",
+   title: "Voiture Jeep police 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 59,
+   currentPrice: 2449,
+   oldPrice:  3249,
+   discount: 30,
+   images: [
+      "voiture-Jeep-police-2025/voiture-jeep-police-2025-12.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-02.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-03.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-04.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-05.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-06.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-07.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-08.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-09.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-10.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-11.webp"
+    
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V 10Ah" },
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 PLACES" },
+      { key: "MOTEURS", value: "5 MOTEURS" },
+      { key: "VITESSE", value: "3 VITESSES" },
+      { key: "ÂGE", value: "1 - 8 ANS" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+       { key: "CEINTURE", value: "CEINTURE DE SÉCURITÉ" },
+      { key: "MUSIQUE", value: "USB, CÂBLE AUXILIAIRE" },
+      { key: "BALANÇOIRE", value: "OUI" },
+      { key: "AMORTISSEURS", value: "OUI" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "TÉLÉCOMMANDE", value: "MANUELLE & CONTRÔLE PAR TÉLÉPHONE" }
+    ]
+  }
+],
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1027785836036512%2F&show_text=false&width=267&t=0"
+ }, 
+  
 {
    id: "voiture-Lamborghini-2025",
    title: "Voiture Lamborghini 2025",
