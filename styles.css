@@ -234,7 +234,7 @@ header {
 /* شاشات أصغر من 576px (الهواتف المحمولة الصغيرة) */
 @media (max-width: 575px) {
     .menu-toggle i {
-        font-size: 1.2rem; /* حجم أصغر للأيقونة على الهواتف الصغيرة */
+        font-size: 1.5rem; /* حجم أصغر للأيقونة على الهواتف الصغيرة */
     }
 }
 
@@ -394,26 +394,26 @@ header {
 /* تخصيص الشاشات الأصغر (الهواتف) */
 @media (max-width: 575px) {
     .sidebar-header span {
-        font-size: 1rem;  /* تصغير الخط على الهواتف الصغيرة */
+        font-size: 1.1rem;  /* تصغير الخط على الهواتف الصغيرة */
     }
 
     .sidebar-close {
-        font-size: 1.5rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
+        font-size: 2rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
     }
 
     .sidebar-category i {
-        font-size: 1.1rem;  /* تصغير حجم الأيقونة */
+        font-size: 1.2rem;  /* تصغير حجم الأيقونة */
     }
 
     .sidebar-category span {
-        font-size: 1rem;  /* تصغير الخط */
+        font-size: 1.2rem;  /* تصغير الخط */
     }
 }
 
 /* تخصيص الشاشات الأكبر (الأجهزة اللوحية) */
 @media (min-width: 576px) and (max-width: 767px) {
     .sidebar-header span {
-        font-size: 1.1rem;  /* تقليص الخط قليلاً للأجهزة اللوحية */
+        font-size: 1.2rem;  /* تقليص الخط قليلاً للأجهزة اللوحية */
     }
 
     .sidebar-close {
@@ -421,11 +421,11 @@ header {
     }
 
     .sidebar-category i {
-        font-size: 1.2rem;  /* تقليص الأيقونة قليلاً */
+        font-size: 1.3rem;  /* تقليص الأيقونة قليلاً */
     }
 
     .sidebar-category span {
-        font-size: 1.05rem;  /* تقليص الخط قليلاً */
+        font-size: 1.18rem;  /* تقليص الخط قليلاً */
     }
 }
 
