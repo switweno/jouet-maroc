@@ -1569,6 +1569,62 @@ features: [
  },
   
 {
+   id: "siège-auto-kidilo-1400",
+   title: "Siège auto KIDILO 360° Isofix ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 24,
+   currentPrice: 1399,
+   oldPrice:  1800,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-01.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-02.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-03.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-04.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-05.webp",
+  "siège-auto-kidilo-1400/siège-auto-kidilo-1400-06.webp",
+   "siège-auto-kidilo-1400/siège-auto-kidilo-1400-07.webp",
+   "siège-auto-kidilo-1400/siège-auto-kidilo-1400-08.webp"
+   
+   ],
+
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège Auto KIDILO naissance à 12 ans Rotatif- Isofix Grp 0/1/2/3" },
+        { "key": "TYPE", "value": "Groupe 0/1/2/3" },
+        { "key": "ROTATION", "value": "360° pivotant avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX et ceinture de sécurité" },
+        { "key": "ÂGE", "value": "Naissance - 12 ans" },
+        { "key": "CONFORT", "value": "Appui-tête réglable, rembourrage doux" },
+        { "key": "SÉCURITÉ", "value": "Harnais à 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ROTATION 360°", "value": "Accès facile des deux côtés" },
+        { "key": "UTILISATION", "value": "Dos à la route jusqu’à 18 kg, face de 9 à 36 kg" },
+        { "key": "CONFORT", "value": "Rembourrage doux et tissu respirant" },
+        { "key": "RÉGLAGE", "value": "Appui-tête ajustable, dossier inclinable" },
+        { "key": "SÉCURITÉ", "value": "Harnais sécurisé à 5 points" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1192338492420647%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+{
    id: "siège-auto-kidilo-g406b",
    title: "Siège Auto KIDILO 360° Isofix G406B ",
    brand: "KIDILO ",
