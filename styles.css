@@ -3727,7 +3727,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 /* تحسين استجابة الشريط للشاشات الصغيرة */
 @media (max-width: 768px) {
     .offer-bar {
-        height: 40px;
+        height: 45px;
         line-height: 40px;
         font-size: 1rem;
     }
@@ -3751,8 +3751,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 @media (max-width: 421px) {
     .offer-bar {
-        height: 35px;
-        line-height: 35px;
+        height: 40px;
+        line-height: 40px;
     }
     .offer-item {
     flex: 0 0 100%;
@@ -3774,9 +3774,9 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     margin-left: 1px;
 }
     .arrow {
-        width: 28px;
-        height: 28px;
-        font-size: 0.9rem;
+        width: 5px;
+        height: 30px;
+        font-size: 0.8rem;
     }
 }
 
