@@ -3855,7 +3855,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     text-align: center; /* توسيطه */
     margin-top: 10px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
-    color: #2F5E8C; /* تغيير اللون */
+    color: rgb(46, 46, 46); /* تغيير اللون */
 }
 
 /* أنماط فواصل تصنيف المنتجات */
