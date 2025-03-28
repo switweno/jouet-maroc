@@ -57,7 +57,7 @@ features: [
  
 ],
 
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
     {
@@ -110,7 +110,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
@@ -169,7 +169,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
   },
   {
@@ -220,7 +220,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
   },
   {
@@ -272,7 +272,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
   {
@@ -646,12 +646,12 @@ features: [
           { key: "CONFORT", value: "SIÈGE CUIR 2 PLACES" },
           { key: "PNEUS", value: "20.4\" AVEC GARDE-BOUE" },
           { key: "KLAXON", value: "ÉLECTRIQUE" },
-          { key: "PIÈCES", value: "SHIMANO" },
-          { "key": "GARANTIE", "value": "3 MOIS" }
+          { key: "PIÈCES", value: "SHIMANO" }
+        
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
   {
@@ -702,12 +702,12 @@ features: [
           { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
           { key: "VITESSES", value: "7 VITESSES" },
           { key: "CONFORT", value: "PORTE-BAGAGE INCLUS" },
-          { key: "CHARGE MAX", value: "130 KG" },
-          { "key": "GARANTIE", "value": "3 MOIS" }
+          { key: "CHARGE MAX", value: "130 KG" }
+         
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
   },
   {
@@ -760,12 +760,12 @@ features: [
           { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
           { key: "VITESSES", value: "7 VITESSES SHIMANO" },
           { key: "PIÈCES", value: "PIÈCES SHIMANO" },
-          { key: "PORTE-BAGAGE", value: "INCLUS" },
-           { "key": "GARANTIE", "value": "3 MOIS" }
+          { key: "PORTE-BAGAGE", value: "INCLUS" }
+           
         ]
       }
     ],
-    warranty: "Livraison Gratuite",
+    warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
   },
   {
@@ -824,13 +824,13 @@ features: [
       { key: "SIÈGE", value: "2 PLACES CUIR" },
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
       { key: "CONFORT", value: "VÉLO PLIABLE" },
-      { key: "CHARGE MAX", value: "120 KG" },
-       { "key": "GARANTIE", "value": "3 MOIS" }
+      { key: "CHARGE MAX", value: "120 KG" }
+       
       
     ]
   }
 ],
-   warranty: "Livraison Gratuite",
+   warranty: "GARANTIE 3 MOIS",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
  },
   
@@ -893,12 +893,12 @@ features: [
         { key: "PNEU", value: "20,4 POUCES" },
         { key: "KLAXON", value: "ÉLECTRIQUE" },
         { key: "PIÈCES", value: "SHIMANO" },
-        { key: "GARDE-BOUE", value: "AV ET AR" },
-        { "key": "GARANTIE", "value": "3 MOIS" }
+        { key: "GARDE-BOUE", value: "AV ET AR" }
+       
       ]
     }
   ],
-   warranty: "Livraison Gratuite",
+   warranty: "GARANTIE 3 MOIS",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
@@ -1007,7 +1007,7 @@ features: [
     ]
   }
 ],
-   warranty: "Livraison Gratuite",
+   warranty: "GARANTIE 3 MOIS",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
   
@@ -1082,7 +1082,7 @@ features: [
 ],
 
 
-   warranty: "Livraison Gratuite",
+   warranty: "GARANTIE 3 MOIS",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1378998756445240%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -1137,7 +1137,7 @@ features: [
     ]
   }
 ],
-   warranty: "Livraison Gratuite",
+   warranty: "GARANTIE 3 MOIS",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   },
   
