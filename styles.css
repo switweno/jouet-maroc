@@ -100,13 +100,7 @@ header {
     transition: background-color 0.3s;
 }
 
-/* وضع قائمة التصنيفات الأفقية في اليمين */
-.desktop-categories {
-    order: 1;
-    margin-right: 0;
-    margin-left: auto;
-    
-}
+
 
 /* تحسينات للقائمة الأفقية في الشاشات المختلفة */
 @media (min-width: 992px) {
@@ -1490,12 +1484,12 @@ header {
    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 #buy-now-btn {
-    background-color:  rgb(255, 255, 255); /* لون مختلف */
-    color: rgb(81, 80, 80); /* لون النص */
+    background-color:  #FED700; /* لون مختلف */
+    color: rgb(46, 46, 46); /* لون النص */
     font-size: 1.2rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
     border-radius: 50px; /* تدوير الحواف أكثر */
-    border: 3px solid #ff8400;
+    border: 3px solid rgba(242, 242, 242, 0);
      
     margin-bottom: 20px;
 }
@@ -2082,7 +2076,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(244, 244, 244); /* التدرج الأصفر */
+    background:rgb(241, 241, 241); /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -3884,7 +3878,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #0072fe;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
