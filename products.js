@@ -1569,6 +1569,59 @@ features: [
  },
   
 {
+   id: "siège-auto-kidilo-1299",
+   title: "Siège auto KIDILO ROTATIF 360°",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 58,
+   currentPrice: 1299,
+   oldPrice: 1600,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-01.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-02.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-03.webp",
+   "siège-auto-kidilo-1299/siège-auto-kidilo-1299-04.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-05.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-06.webp",
+   "siège-auto-kidilo-1299/siège-auto-kidilo-1299-07.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-08.webp"
+  
+   ],
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
+        { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
+        { "key": "ROTATION", "value": "360° avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX + ceinture selon groupe" },
+        { "key": "ÂGE", "value": "0 - 12 ans" },
+        { "key": "CONFORT", "value": "Housse rembourrée, appui-tête réglable" },
+        { "key": "SÉCURITÉ", "value": "Ceinture 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "0-12 ans" },
+        { "key": "INSTALLATION", "value": "Dos route 0-18 Kg, face route dès 9 Kg" },
+        { "key": "PROTECTION", "value": "Sécurité renforcée" },
+        { "key": "CONFORT", "value": "Matériaux doux" },
+        { "key": "ADAPTABILITÉ", "value": "Suit la croissance" }
+    ]
+  }
+],
+
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1649431872601282%2F&show_text=false&width=264&t=0"
+ },
+  
+{
    id: "siège-auto-my-bébé",
    title: "SIÈGE AUTO My bébé ROTATIF 360° ",
    brand: "My bébé ",
@@ -1618,6 +1671,8 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
  }
   
+
+ //اضافة المنتوجات 
 ]; 
 
 // تعيين المتغير global للصفحة
