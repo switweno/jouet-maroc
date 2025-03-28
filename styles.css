@@ -823,7 +823,7 @@ header {
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-    background:rgb(246, 246, 246); /* التدرج الأصفر */
+     background:rgb(244, 244, 244); /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2077,17 +2077,17 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #674c4c; /* لون النص */
+    color: #000000; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(246, 246, 246); /* التدرج الأصفر */
+    background:rgb(244, 244, 244); /* التدرج الأصفر */
     border-radius: 10px;
-    width: 30%; /* طول الشريط */
+    width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
-    
+     border: 3px solid rgba(81, 84, 81, 0);
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2806,17 +2806,21 @@ select {
 
 
 .related-products h2 {
-    display: inline-block;
-    position: relative;
-    color: #160404;
-    font-size: 1.4rem;
-    font-weight: bold;
-    padding: 10px 20px;
-    background:rgb(246, 246, 246);
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-   
+ display: flex; /* تفعيل Flexbox */
+    justify-content: center; /* محاذاة النص أفقيًا */
+    align-items: center; /* محاذاة النص عموديًا */
+    margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
+    color: #000000; /* لون النص */
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 102, 204, 0);
+    padding: 8px 0;
+    background:rgb(244, 244, 244); /* التدرج الأصفر */
+    border-radius: 10px;
+    width: 100%; /* طول الشريط */
+    margin-left: auto; /* محاذاة العنصر في المنتصف */
+    margin-right: auto; /* محاذاة العنصر في المنتصف */
+     border: 3px solid rgba(81, 84, 81, 0);
 }
 
 
@@ -4118,7 +4122,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
         }
         .icon-container i {
             font-size: 2rem;
-            color: #545454; /* لون الأيقونة */
+            color: #ff1e48; /* لون الأيقونة */
         }
 
         .card h3 {
