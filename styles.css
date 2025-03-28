@@ -3669,10 +3669,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     transition: background-color 0.3s ease;
 }
 
-/* تغيير لون الشريط عند تمرير الماوس */
-.offer-bar:hover {
-    background-color: #3C3B4F;
-}
+
 
 /* حاوية العروض */
 .offer-container {
@@ -3717,11 +3714,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     margin: 0 5px;
 }
 
-/* تأثير عند تمرير الماوس */
-.arrow:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    transform: scale(1.1);
-}
+
 
 /* تحسين مكان الأسهم */
 .left-arrow {
@@ -3768,8 +3761,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     font-weight: 600;
     color: rgba(255, 255, 255, 0.96);
     white-space: nowrap;
-    padding: 0 20px;
-    font-family: 'Montserrat', 'Cairo', sans-serif;
+    padding: 0 1px;
+    font-family: 'sans-serif', 'Cairo', sans-serif;
 }
     
     /* تحسين مكان الأسهم */
