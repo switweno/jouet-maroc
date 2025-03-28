@@ -1539,7 +1539,7 @@ header {
 
 
 .primary-btn {
-    background-color:#1EA252;
+    background-color:#2F5E8C;
     color: #ffffff;
 }
 
@@ -3829,7 +3829,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 29px;
     font-size: 30px;
     font-weight: bold;
-    color: #10a8ea;
+    color:#13234c;
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -3861,7 +3861,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     text-align: center; /* توسيطه */
     margin-top: 10px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
-    color: #2383e9; /* تغيير اللون */
+    color: #2F5E8C; /* تغيير اللون */
 }
 
 /* أنماط فواصل تصنيف المنتجات */
