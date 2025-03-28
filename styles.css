@@ -4068,33 +4068,40 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 
+
 .why-choose-us {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px 20px;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    max-width: auto; /* تحديد الحد الأقصى للعرض */
+    margin: 0 auto; /* يجعلها في المنتصف */
+    width: 100%; /* حتى لا تؤثر على الشاشات الصغيرة */
+}
+
 
         .card {
-            background: #fff;
+            background: rgba(255, 255, 255, 0);
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
             text-align: center;
             padding: 20px;
             width: 200px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+             border: none !important;
+    outline: none !important
         }
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-        }
+     
+        
+ 
 
         .icon-container {
             width: 70px;
             height: 70px;
-            background-color: #e0e0e0; /* خلفية رمادية */
+            background-color: #2f0606; /* خلفية رمادية */
             border-radius: 50%; /* شكل دائري */
             display: flex;
             align-items: center;
@@ -4102,14 +4109,18 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
             margin: 0 auto 15px auto; /* مسافة بين الأيقونة والنص */
             
         }
-
+.icon-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
         .icon-container i {
             font-size: 2rem;
-            color: #ff1e48; /* لون الأيقونة */
+            color: #dedede; /* لون الأيقونة */
         }
 
         .card h3 {
             font-size: 1.2rem;
+             color: #0c2653;
             font-weight: bold;
             margin-bottom: 10px;
             font-family: 'Montserrat', 'Cairo', sans-serif;
