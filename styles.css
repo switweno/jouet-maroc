@@ -1484,16 +1484,14 @@ header {
    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 #buy-now-btn {
-    background-color:  #FED700; /* لون مختلف */
-    color: rgb(46, 46, 46); /* لون النص */
+    background-color:  rgb(255, 255, 255); /* لون مختلف */
+    color: rgb(81, 80, 80); /* لون النص */
     font-size: 1.2rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
     border-radius: 50px; /* تدوير الحواف أكثر */
-    border: 1px solid rgba(251, 0, 166, 0);
-    
+    border: 2px solid #ff8400;
     margin-bottom: 20px;
 }
-
 
 /* تأثير hover */
 .primary2-btn:hover {
@@ -3663,7 +3661,19 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     transition: background-color 0.3s ease;
 }
 
+/* إظهار .offer-bar على الشاشات الكبيرة فقط */
+@media (min-width: 768px) {
+    .offer-bar {
+        display: flex; /* استخدام flex عند الظهور */
+    }
+}
 
+/* إخفاء .offer-bar على الهواتف */
+@media (max-width: 767px) {
+    .offer-bar {
+        display: none;
+    }
+}
 
 /* حاوية العروض */
 .offer-container {
