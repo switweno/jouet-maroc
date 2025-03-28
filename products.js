@@ -1569,6 +1569,58 @@ features: [
  },
   
 {
+   id: "siège-auto-kidilo-g301",
+   title: "Siège auto KIDILO G301 ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 4,
+   currentPrice: 799,
+   oldPrice:  999,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-01.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-02.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-03.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-04.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-05.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-06.webp"
+   
+   ],
+
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 9-36kg / 1-12 ans" },
+        { "key": "TYPE", "value": "Groupe 1/2/3 (9-36 Kg)" },
+        { "key": "INSTALLATION", "value": "Ceinture de sécurité du véhicule" },
+        { "key": "ÂGE", "value": "1 - 12 ans" },
+        { "key": "CONFORT", "value": "Coussins rembourrés, support ergonomique" },
+        { "key": "SÉCURITÉ", "value": "Conforme aux standards de sécurité" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "Convient de 1 à 12 ans" },
+        { "key": "SÉCURITÉ", "value": "Protection optimale" },
+        { "key": "INSTALLATION", "value": "Fixation stable avec ceinture de sécurité" },
+        { "key": "CONFORT", "value": "Matériaux doux et confortables" },
+        { "key": "ADAPTABILITÉ", "value": "Ajustement parfait pour la croissance" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1695601351316004%2F&show_text=false&width=267&t=0"
+ },
+  
+{
    id: "siège-auto-kidilo-1199",
    title: "Siège auto isofix rotatif 360°",
    brand: "KIDILO ",
