@@ -1465,9 +1465,9 @@ header {
 
    .quantity-controls {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 13px;
+    align-items: right;
+    justify-content: right;
+    gap: -2px;
 }
 
 
@@ -1554,11 +1554,6 @@ header {
     }
 }
 
-/* Button Styles */
-.cta-buttons {
-    display: flex;
-    gap: 15px;
-}
 
 
 .primary-btn {
