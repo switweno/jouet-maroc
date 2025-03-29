@@ -1732,6 +1732,61 @@ features: [
  },
   
 {
+   id: "siège-auto-kidilo",
+   title: "Siège auto KIDILO isofix rotatif  360° ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 96,
+   currentPrice: 1249,
+   oldPrice:  1550,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo/siège-auto-kidilo-01.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-02.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-03.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-04.webp",
+   "siège-auto-kidilo/siège-auto-kidilo-05.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-06.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-07.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-08.webp",
+     "siège-auto-kidilo/siège-auto-kidilo-09.webp"
+   
+   ],
+
+
+ "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
+        { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
+        { "key": "INSTALLATION", "value": "Isofix + Top Tether (G0+), Ceinture (G1/2/3)" },
+        { "key": "SÉCURITÉ", "value": "Dos route 0-18 Kg, Face route dès 9 Kg" },
+        { "key": "CONFORT", "value": "Positions assise/couchée, appui-tête réglable" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "Convient de 0 à 12 ans" },
+        { "key": "SÉCURITÉ", "value": "Protection optimale" },
+        { "key": "INSTALLATION", "value": "Fixation stable avec Isofix et ceinture" },
+        { "key": "CONFORT", "value": "Matériaux doux et ergonomiques" },
+        { "key": "ADAPTABILITÉ", "value": "Ajustement parfait pour la croissance" }
+      ]
+    }
+  
+  ],
+ 
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1030215162489009%2F&show_text=false&width=264&t=0"
+ },
+  
+{
    id: "siège-auto-kidilo-1199",
    title: "Siège auto isofix rotatif 360°",
    brand: "KIDILO ",
