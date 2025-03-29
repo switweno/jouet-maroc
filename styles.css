@@ -1554,7 +1554,7 @@ header {
 #buy-now-btn {
     background-color:  #1EA252; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
-    font-size: 1.1rem; /* حجم خط أكبر */
+    font-size: 1rem; /* حجم خط أكبر */
     padding: 8px 30px; /* تعديل الحواف */
     border-radius: 8px; /* تدوير الحواف أكثر */
     border: 2px solid #1EA252;
@@ -3867,6 +3867,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     position: relative;
     animation: modalFadeIn 0.4s ease-in-out;
     margin-top: 2px; /* المسافة من أعلى النافذة (يمكنك تعديل هذه القيمة) */
+    outline: 3px dashed #219f2a;
 }
 
 
@@ -3919,7 +3920,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     text-align: center; /* توسيطه */
     margin-top: 10px; /* تجنب التداخل مع زر الإغلاق */
     padding: 10px 0; /* إضافة بعض المساحة */
-    color: rgb(28, 130, 197); /* تغيير اللون */
+    color: rgb(22, 179, 93); /* تغيير اللون */
 }
 
 /* أنماط فواصل تصنيف المنتجات */
