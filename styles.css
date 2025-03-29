@@ -3483,7 +3483,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 0;
     width: 40px;
     height: 2px;
-    background: linear-gradient(135deg, #FED700, #FED700);
+   background: linear-gradient(135deg, #ff0057, #ff1e48);
 }
 
 .footer-about p {
@@ -3514,7 +3514,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 0;
     width: 40px;
     height: 2px;
-    background: linear-gradient(135deg, #FED700, #FED700);
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
 }
 
 .footer-newsletter p {
@@ -3546,8 +3546,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .newsletter-form button {
     padding: 0 20px;
-    background: linear-gradient(135deg, #FED700, #FED700);
-    color: #333333;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    color: #ffffff;
     border: none;
     border-radius: 0 4px 4px 0;
     font-size: 0.9rem;
@@ -4029,7 +4029,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .search-box:focus-within {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-color: rgba(255, 0, 87, 0.3);
+    border-color: #FED700;
 }
 
 #search-input {
