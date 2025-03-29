@@ -1879,7 +1879,7 @@ features: [
       "icon": "fa-star",
       "items": [
         { "key": "ÉVOLUTIF", "value": "0-12 ans" },
-        { "key": "INSTALLATION", "value": "Dos route 0-18 Kg, face route dès 9 Kg" },
+        { "key": "POIDS", "value": "Dos route 0-18 Kg, face route dès 9 Kg" },
         { "key": "PROTECTION", "value": "Sécurité renforcée" },
         { "key": "CONFORT", "value": "Matériaux doux" },
         { "key": "ADAPTABILITÉ", "value": "Suit la croissance" }
