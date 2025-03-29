@@ -71,10 +71,10 @@ html, body {
 
 /* Header Styles */
 header {
- background: linear-gradient(135deg, #ff0057, #ff1e48);
+ background: linear-gradient(135deg, #FED700, #FED700);
 
 
-    color: #ffffff;
+    color: #010101;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(51, 51, 51, 0);
@@ -118,7 +118,7 @@ header {
     margin-right: 10px;
     background-color: rgba(214, 210, 210, 0);
     border: none;
-    color: white;
+    color: #010101;
     font-size: 1.1rem;
     cursor: pointer;
     padding: 5px 6px;
@@ -232,7 +232,7 @@ header {
 .menu-toggle {
      background-color: rgba(214, 210, 210, 0);
     border: none;
-    color: white;
+    color: #010101;
     font-size: 1.2rem;
     cursor: pointer;
     padding: 5px 5px;
@@ -353,8 +353,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 12.8px;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
-    color: white;
+    background: linear-gradient(135deg, #FED700, #FED700);
+    color: #010101;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     font-family: 'Montserrat', 'Cairo', sans-serif;
     
@@ -418,7 +418,7 @@ header {
 
 .sidebar-category i {
     font-size: 1.3rem;
-    color:  #ff1e48;
+    color:  #FED700;
     width: 25px;
     text-align: center;
     
@@ -613,8 +613,8 @@ header {
 .popup-product-price {
     font-size: 0.8rem;
     font-weight: 700;
-    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+    color: #333333; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -1032,7 +1032,7 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
+    color: white; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #ff1e48; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
@@ -1248,7 +1248,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1.2rem;
-    color: #d9d9d9;
+    color: #010101;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1260,7 +1260,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #f7f9fb;
+    color: #010101;
     background-color: rgba(0, 123, 255, 0);
 }
 
@@ -1291,8 +1291,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    color: #fff;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    color: #010101;
+    background: linear-gradient(135deg, #FED700, #FED700);
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1301,7 +1301,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 10px;
-    color: #ffffff;
+    color: #333333;
 }
 
 /* تحسين قائمة الميزات */
@@ -3483,7 +3483,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 0;
     width: 40px;
     height: 2px;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    background: linear-gradient(135deg, #FED700, #FED700);
 }
 
 .footer-about p {
@@ -3514,7 +3514,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 0;
     width: 40px;
     height: 2px;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    background: linear-gradient(135deg, #FED700, #FED700);
 }
 
 .footer-newsletter p {
@@ -3546,8 +3546,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .newsletter-form button {
     padding: 0 20px;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
-    color: white;
+    background: linear-gradient(135deg, #FED700, #FED700);
+    color: #333333;
     border: none;
     border-radius: 0 4px 4px 0;
     font-size: 0.9rem;
@@ -4053,8 +4053,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 #search-button {
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
-    color: white;
+    background: linear-gradient(135deg, #FED700, #FED700);
+    color: #010101;
     border: none;
     border-radius: 0 30px 30px 0;
     padding: 12px 20px;
@@ -4228,7 +4228,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
         }
         .icon-container i {
             font-size: 2rem;
-            color: #ff1e48; /* لون الأيقونة */
+            color: #0ba004; /* لون الأيقونة */
         }
 
         .card h3 {
