@@ -1337,10 +1337,10 @@ header {
 /* تخصيص الشاشات المتوسطة (مثل التابلت) */
 @media (max-width: 768px) {
     .feature-category li {
-        font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
+        font-size: 0.9rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
     }
     .feature-category li strong {
-        font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
+        font-size: 0.9rem !important; /* تغيير حجم الخط للنصوص المهمة */
     }
 }
 
