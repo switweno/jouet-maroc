@@ -851,7 +851,7 @@ header {
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */ 
-    
+    font-family: 'Montserrat', 'Cairo', sans-serif; 
      
 }
 
@@ -2157,6 +2157,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
+     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2890,6 +2891,7 @@ select {
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
+     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 
