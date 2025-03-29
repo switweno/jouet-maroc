@@ -3866,7 +3866,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
     animation: modalFadeIn 0.4s ease-in-out;
-    margin-top: 2px; /* المسافة من أعلى النافذة (يمكنك تعديل هذه القيمة) */
+    margin-top: 10px; /* المسافة من أعلى النافذة (يمكنك تعديل هذه القيمة) */
     outline: 3px dashed #219f2a;
 }
 
@@ -3884,11 +3884,11 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .order-form-close {
     position: absolute;
-    top: 1px;
-    right: 29px;
+    top: 4px;
+    right: 19px;
     font-size: 30px;
     font-weight: bold;
-    color:#000000;
+    color:#1c56f0;
     cursor: pointer;
     transition: color 0.3s;
 }
