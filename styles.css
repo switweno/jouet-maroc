@@ -3286,12 +3286,12 @@ select {
 
 .scroll-arrow {
     position: absolute;
-    top: 90%;
+    top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(106, 106, 106, 0.41);
+    background-color: rgba(255, 255, 255, 0.72);
     border: none;
-    color: #ffffff;
-    font-size: 1.9rem;
+    color: #595959;
+    font-size: 1.2rem;
     cursor: pointer;
     padding: 10px;
     border-radius: 50%;
@@ -3310,7 +3310,7 @@ select {
     .scroll-arrow{
        width: 33px;
     height: 33px;  
-        font-size: 1.4rem;
+        font-size: 1rem;
     
     }
 
@@ -3318,8 +3318,8 @@ select {
 
 
 .scroll-arrow:hover {
-     background-color: rgba(154, 154, 154, 0.41);
-     color: #ffffff;
+     background-color: rgba(255, 255, 255, 0.46);
+     color: #262625;
 }
 
 .arrow-left {
