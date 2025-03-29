@@ -118,7 +118,7 @@ header {
     margin-right: 10px;
     background-color: rgba(214, 210, 210, 0);
     border: none;
-    color: #010101;
+    color: #333E48;
     font-size: 1.1rem;
     cursor: pointer;
     padding: 5px 6px;
@@ -4054,7 +4054,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 #search-button {
     background: linear-gradient(135deg, #FED700, #FED700);
-    color: #010101;
+    color: #333E48;
     border: none;
     border-radius: 0 30px 30px 0;
     padding: 12px 20px;
