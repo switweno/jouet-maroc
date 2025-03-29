@@ -374,8 +374,8 @@ header {
 .sidebar-close {
     background: none;
     border: none;
-    color: white;
-    font-size: 2rem;
+    color: #525050;
+    font-size: 1rem;
     cursor: pointer;
     padding: 0;
     width: 30px;
@@ -432,11 +432,11 @@ header {
 /* تخصيص الشاشات الأصغر (الهواتف) */
 @media (max-width: 575px) {
     .sidebar-header span {
-        font-size: 1.1rem;  /* تصغير الخط على الهواتف الصغيرة */
+        font-size: 1.2rem;  /* تصغير الخط على الهواتف الصغيرة */
     }
 
     .sidebar-close {
-        font-size: 2rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
+        font-size: 2.5rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
     }
 
     .sidebar-category i {
@@ -455,7 +455,7 @@ header {
     }
 
     .sidebar-close {
-        font-size: 1.8rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
+        font-size: 2.4rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
     }
 
     .sidebar-category i {
@@ -841,8 +841,8 @@ header {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #1f65ad; /* لون النص */
-    font-size: 1.5rem;
+    color: #0D6EFD; /* لون النص */
+    font-size: 1.3rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
@@ -851,7 +851,7 @@ header {
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */ 
-    font-family: 'Montserrat', 'Cairo', sans-serif; 
+    font-family: 'Cairo', 'Cairo', sans-serif; 
      
 }
 
@@ -2121,18 +2121,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #1f65ad; /* لون النص */
+    color: #0D6EFD; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(241, 241, 241); /* التدرج الأصفر */
+    background:#FED700; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
-     font-family: 'Montserrat', 'Cairo', sans-serif;
+     font-family: 'Cairo', 'Cairo', sans-serif; 
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2855,18 +2855,18 @@ select {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-   color: #674c4c; /* لون النص */
+   color: #0D6EFD; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(244, 244, 244); /* التدرج الأصفر */
+    background:#FED700; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
-     font-family: 'Montserrat', 'Cairo', sans-serif;
+     font-family: 'Cairo', 'Cairo', sans-serif; 
 }
 
 

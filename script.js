@@ -239,8 +239,7 @@ function submitFormViaWhatsApp(event) {
         const city = document.getElementById('city').value;
         const quantity = parseInt(document.getElementById('quantity').value);
         
-        // Fix: Properly define paymentMethod variable
-        const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
+       
         
         // Form validation
         if (!name || !phone || !address || !city) {
@@ -293,7 +292,7 @@ function submitFormViaWhatsApp(event) {
         document.getElementById('summary-customer-phone').textContent = phone;
         document.getElementById('summary-customer-address').textContent = address;
         document.getElementById('summary-customer-city').textContent = city;
-        document.getElementById('summary-payment-method').textContent = paymentMethod === 'cod' ? 'الدفع عند الاستلام' : 'الدفع عبر التحويل البنكي';
+        
         
         // Show confirmation modal
         const confirmationModal = document.getElementById('confirmation-modal');
@@ -322,8 +321,6 @@ function submitFormViaWhatsApp(event) {
                     `رقم الهاتف: ${phone}\n` +
                     `العنوان: ${address}\n` +
                     `المدينة: ${city}\n` +
-                    
-                    `طريقة الدفع: ${paymentMethod === 'cod' ? 'الدفع عند الاستلام' : 'الدفع عبر التحويل البنكي'}\n\n` +
                     `*تفاصيل الطلب:*\n` +
                     `المنتج: ${productName}\n` +
                     `الكمية: ${quantity}\n` +
@@ -402,7 +399,7 @@ function submitForm(event) {
     const address = document.getElementById('address').value;
     const city = document.getElementById('city').value;
     const quantity = document.getElementById('quantity').value;
-    const paymentMethod = document.querySelector('input[name="payment"]:checked').value;
+    
     
     // Here you would normally send this data to your server
     // This is just a demonstration
