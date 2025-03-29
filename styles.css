@@ -2782,12 +2782,12 @@ select {
     }
     
     .product-description {
-        padding: 1px !important;
-        margin-bottom: 2px !important;
+        padding: -1px !important;
+        margin-bottom: 8px !important;
     }
     
     .feature-category {
-        margin-bottom: 6px !important; /* تقليل المساحة بين خصائص المنتج */
+        margin-bottom: 8px !important; /* تقليل المساحة بين خصائص المنتج */
     }
    
    
