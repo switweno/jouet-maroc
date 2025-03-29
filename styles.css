@@ -1064,13 +1064,13 @@ header {
     }
     
     .current-price {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding: 4px 7px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     }
     
     .old-price {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     }
     
     .product-description {
