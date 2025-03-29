@@ -35,7 +35,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    background-color: white;
     color: rgb(107, 105, 105);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -771,7 +771,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     margin-bottom: 25px ;
 }
 
@@ -841,12 +841,12 @@ header {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #0D6EFD; /* لون النص */
+    color: white; /* لون النص */
     font-size: 1.3rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-     background:rgb(244, 244, 244); /* التدرج الأصفر */
+     background:#3C3B4F; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2111,7 +2111,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 25px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
     
 }
@@ -2121,12 +2121,12 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #0D6EFD; /* لون النص */
+    color: white; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:#FED700; /* التدرج الأصفر */
+    background:#3C3B4F; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2855,12 +2855,12 @@ select {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-   color: #0D6EFD; /* لون النص */
+   color: white; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:#FED700; /* التدرج الأصفر */
+    background:#3C3B4F; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
