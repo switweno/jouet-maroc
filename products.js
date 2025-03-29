@@ -1764,7 +1764,7 @@ features: [
         { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
         { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
         { "key": "INSTALLATION", "value": "Isofix + Top Tether (G0+), Ceinture (G1/2/3)" },
-        { "key": "SÉCURITÉ", "value": "Dos route 0-18 Kg, Face route dès 9 Kg" },
+        { "key": "POSITIONNEMENT", "value": "Dos route 0-18 Kg, Face route dès 9 Kg" },
         { "key": "CONFORT", "value": "Positions assise/couchée, appui-tête réglable" }
       ]
     },
