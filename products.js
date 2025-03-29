@@ -414,8 +414,7 @@ features: [
     {
         title: "المميزات الإضافية",
         icon: "fa-star",
-        items: [
-            { key: "AMORTISSEUR", value: "AVANT" },  
+        items: [  
             { key: "SIÈGE", value: "CUIRE AVEC AMORTISSEUR" }, 
             { key: "PORTE-BAGAGE", value: "INCLUS" },
             { key: "KLAXON", value: "INCLUS" },
@@ -684,9 +683,9 @@ features: [
           { key: "PUISSANCE", value: "500 W MAX" },
           { key: "VITESSE MAX", value: "50 KM/H MAX" },
           { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
-          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "CHARGE RAPIDE", value: "54V" },
           { key: "AUTONOMIE", value: "45-55 KM" },
-          { key: "VITESSES MOTEUR", value: "5 NIVEAUX DE VITESSE" },
+          { key: "VITESSES MOTEUR", value: "5 NIVEAUX" },
           { key: "FREINS", value: "AV/AR" }
         ]
       },
@@ -741,9 +740,9 @@ features: [
           { key: "PUISSANCE", value: "500 W MAX" },
           { key: "VITESSE MAX", value: "50 KM/H MAX" },
           { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
-          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "CHARGE RAPIDE", value: "54V" },
           { key: "AUTONOMIE", value: "45-55 KM MAX" },
-          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX DE VITESSE" },
+          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" },
           { key: "FREINS", value: "AVANT ET ARRIÈRE" },
           { key: "CHARGE MAX", value: "130 KG" }
         ]
@@ -804,25 +803,24 @@ features: [
       { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
       { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
       { "key": "VITESSE MAX", "value": "46 KM/H " },
-      { "key": "TABLEAU DIGITAL", "value": "ÉCRAN DIGITAL " },
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
       { "key": "NIVEAUX DE VITESSE", "value": "3 NIVEAUX" },
       { "key": "VITESSE PÉDALE", "value": "1E VITESSE MANUELLE" },
       { "key": "BATTERIE TYPE", "value": "LITHIUM " },
       { "key": "VÉLO", "value": "PLIABILE" },
-      { "key": "DÉMARRAGE", "value": "CONTACT ÉLECTRIQUE" },
-      { "key": "GARANTIE", "value": "3 MOIS" }
+      { "key": "DÉMARRAGE", "value": "CONTACT" }
+      
     ]
   },
   {
     title: "المميزات الإضافية",
     icon: "fa-star",
     items: [
-      { key: "CHARGE", value: "54V COMPATIBLE" },
+      { key: "CHARGE", value: "54V" },
       { key: "AMORTISSEURS", value: "DOUBLE" },
       { key: "LED", value: "AV/AR" },
       { key: "PNEUS", value: "14 POUCES" },
       { key: "SIÈGE", value: "2 PLACES CUIR" },
-      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
       { key: "CONFORT", value: "VÉLO PLIABLE" },
       { key: "CHARGE MAX", value: "120 KG" }
        
