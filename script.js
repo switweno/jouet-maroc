@@ -119,7 +119,7 @@ function changeImage(src, direction = null) {
 
 // دالة لتطبيق الانتقال السلس باستخدام requestAnimationFrame
 function animateTransition(oldImage, newImage, direction, onComplete) {
-    const duration = 300; // مدة الانتقال بالمللي ثانية
+    const duration = 500; // مدة الانتقال بالمللي ثانية
     const start = performance.now();
 
     function step(timestamp) {
