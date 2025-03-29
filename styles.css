@@ -1944,7 +1944,7 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Product details section */
     .product-details {
-        padding: 5px; /* Reduce padding */
+        padding: -1px; /* Reduce padding */
         margin-bottom: 20px; /* Reduce margin bottom */
     }
     
@@ -1974,7 +1974,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 10px; /* Reduce padding */
-        margin-top: 15px;
+        margin-top: 10px;
     }
     
     /* Order form section */
@@ -1997,7 +1997,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .product-gallery,
     .product-info {
-        padding: 5px; /* Further reduce padding */
+        padding: -1px; /* Further reduce padding */
     }
     
     /* Adjust accordion header padding */
@@ -3593,7 +3593,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     height: 100%;
     border-radius: 8px;
     background-color: white;
-    padding: 5px;
+    padding: -1px;
     object-fit: contain;
 }
 
