@@ -799,7 +799,6 @@ features: [
     items: [
        { "key": "PUISSANCE", "value": "400 W MAX " },
       { "key": "BATTERIE", "value": "48V 15.6AH LITHIUM " },
-      { "key": "CHARGE MAX", "value": "120 KG " },
       { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
       { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
       { "key": "VITESSE MAX", "value": "46 KM/H " },
