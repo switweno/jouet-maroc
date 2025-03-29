@@ -35,7 +35,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #fafafa;
     color: rgb(107, 105, 105);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -71,10 +71,10 @@ html, body {
 
 /* Header Styles */
 header {
- background: linear-gradient(135deg, #FED700, #FED700);
+ background: linear-gradient(135deg, #ff0057, #ff1e48);
 
 
-    color: #010101;
+    color: #ffffff;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(51, 51, 51, 0);
@@ -118,7 +118,7 @@ header {
     margin-right: 10px;
     background-color: rgba(214, 210, 210, 0);
     border: none;
-    color: #333E48;
+    color: white;
     font-size: 1.1rem;
     cursor: pointer;
     padding: 5px 6px;
@@ -232,7 +232,7 @@ header {
 .menu-toggle {
      background-color: rgba(214, 210, 210, 0);
     border: none;
-    color: #010101;
+    color: white;
     font-size: 1.2rem;
     cursor: pointer;
     padding: 5px 5px;
@@ -353,8 +353,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 12.8px;
-    background: linear-gradient(135deg, #FED700, #FED700);
-    color: #010101;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    color: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     font-family: 'Montserrat', 'Cairo', sans-serif;
     
@@ -374,8 +374,8 @@ header {
 .sidebar-close {
     background: none;
     border: none;
-    color: #525050;
-    font-size: 1rem;
+    color: white;
+    font-size: 2rem;
     cursor: pointer;
     padding: 0;
     width: 30px;
@@ -418,7 +418,7 @@ header {
 
 .sidebar-category i {
     font-size: 1.3rem;
-    color:  #FED700;
+    color:  #ff1e48;
     width: 25px;
     text-align: center;
     
@@ -432,11 +432,11 @@ header {
 /* تخصيص الشاشات الأصغر (الهواتف) */
 @media (max-width: 575px) {
     .sidebar-header span {
-        font-size: 1.2rem;  /* تصغير الخط على الهواتف الصغيرة */
+        font-size: 1.1rem;  /* تصغير الخط على الهواتف الصغيرة */
     }
 
     .sidebar-close {
-        font-size: 2.5rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
+        font-size: 2rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
     }
 
     .sidebar-category i {
@@ -455,7 +455,7 @@ header {
     }
 
     .sidebar-close {
-        font-size: 2.4rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
+        font-size: 1.8rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
     }
 
     .sidebar-category i {
@@ -613,8 +613,8 @@ header {
 .popup-product-price {
     font-size: 0.8rem;
     font-weight: 700;
-    color: #333333; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #FED700; /* لون الخلفية */
+    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #ff1e48; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -771,7 +771,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px ;
 }
 
@@ -841,17 +841,17 @@ header {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #241f1f; /* لون النص */
+    color: #1f65ad; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-    background:rgba(107, 105, 105, 0.1);/* التدرج الأصفر */
+     background:rgb(244, 244, 244); /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */ 
-    font-family: 'Cairo', 'Cairo', sans-serif; 
+    font-family: 'Montserrat', 'Cairo', sans-serif; 
      
 }
 
@@ -1032,7 +1032,7 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: white; /* اجعل النص بلون أبيض ليكون واضحًا */
+    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #ff1e48; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
@@ -1248,7 +1248,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1.2rem;
-    color: #010101;
+    color: #d9d9d9;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1260,7 +1260,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #010101;
+    color: #f7f9fb;
     background-color: rgba(0, 123, 255, 0);
 }
 
@@ -1291,8 +1291,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    color: #010101;
-    background: linear-gradient(135deg, #FED700, #FED700);
+    color: #fff;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1301,7 +1301,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 10px;
-    color: #333333;
+    color: #ffffff;
 }
 
 /* تحسين قائمة الميزات */
@@ -1944,7 +1944,7 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Product details section */
     .product-details {
-        padding: -1px; /* Reduce padding */
+        padding: 5px; /* Reduce padding */
         margin-bottom: 20px; /* Reduce margin bottom */
     }
     
@@ -1974,7 +1974,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 10px; /* Reduce padding */
-        margin-top: 10px;
+        margin-top: 15px;
     }
     
     /* Order form section */
@@ -1997,7 +1997,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .product-gallery,
     .product-info {
-        padding: -1px; /* Further reduce padding */
+        padding: 5px; /* Further reduce padding */
     }
     
     /* Adjust accordion header padding */
@@ -2111,7 +2111,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 25px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     
 }
@@ -2121,18 +2121,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #292525; /* لون النص */
+    color: #1f65ad; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgba(107, 105, 105, 0.1); /* التدرج الأصفر */
+    background:rgb(241, 241, 241); /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
-     font-family: 'Cairo', 'Cairo', sans-serif; 
+     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2855,18 +2855,18 @@ select {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-   color: #2c2c2c; /* لون النص */
+   color: #674c4c; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgba(107, 105, 105, 0.1); /* التدرج الأصفر */
+    background:rgb(244, 244, 244); /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
-     font-family: 'Cairo', 'Cairo', sans-serif; 
+     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 
@@ -3483,7 +3483,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     right: 0;
     width: 40px;
     height: 2px;
-   background: linear-gradient(135deg, #ff0057, #ff1e48);
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
 }
 
 .footer-about p {
@@ -3547,7 +3547,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 .newsletter-form button {
     padding: 0 20px;
     background: linear-gradient(135deg, #ff0057, #ff1e48);
-    color: #ffffff;
+    color: white;
     border: none;
     border-radius: 0 4px 4px 0;
     font-size: 0.9rem;
@@ -3593,7 +3593,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     height: 100%;
     border-radius: 8px;
     background-color: white;
-    padding: -1px;
+    padding: 5px;
     object-fit: contain;
 }
 
@@ -4029,7 +4029,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 .search-box:focus-within {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-color: #FED700;
+    border-color: rgba(255, 0, 87, 0.3);
 }
 
 #search-input {
@@ -4053,8 +4053,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 #search-button {
-    background: linear-gradient(135deg, #FED700, #FED700);
-    color: #333E48;
+    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    color: white;
     border: none;
     border-radius: 0 30px 30px 0;
     padding: 12px 20px;
@@ -4228,7 +4228,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
         }
         .icon-container i {
             font-size: 2rem;
-            color: #0ba004; /* لون الأيقونة */
+            color: #ff1e48; /* لون الأيقونة */
         }
 
         .card h3 {
