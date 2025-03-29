@@ -1378,27 +1378,6 @@ header {
     font-size: 1.5rem;
     margin-right: 10px;
 }
-.old-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.old-image.fade-out {
-    opacity: 0;
-}
-
-#current-image.transitioning {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-#current-image {
-    opacity: 1;
-}
 
 
 /* General Styles */
@@ -1648,6 +1627,7 @@ header {
     font-weight: bold;
     color: #555;
     padding-right: 5px; /* إضافة مسافة للتباعد عن الحافة */
+    font-family: 'Cairo', 'Cairo', sans-serif;
 }
 
 .form-group input,
@@ -1668,6 +1648,7 @@ header {
     font-weight: bold;
     font-size: 1.1em;
     margin-right: 3px; /* For RTL layout */
+    
 }
 
 /* Remove the previous ::before version if it exists */
