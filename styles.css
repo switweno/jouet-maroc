@@ -1,7 +1,36 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 body {
     margin: 0;
@@ -812,7 +841,7 @@ header {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #674c4c; /* لون النص */
+    color: #1f65ad; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
@@ -944,7 +973,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #110101;
+    color: #1f65ad;
    font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 700;
     letter-spacing: -0.5px;
@@ -1048,13 +1077,9 @@ header {
         padding: 10px;
     }
     
-    .feature-category h4 {
-        font-size: 1rem;
-    }
+   
     
-    .feature-category li {
-        font-size: 0.9rem;
-    }
+   
 }
 .discount {
     display: none;
@@ -1223,7 +1248,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1.2rem;
-    color: #dcd9d9;
+    color: #d9d9d9;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1288,13 +1313,48 @@ header {
 .feature-category li {
     margin-bottom: 10px;
     line-height: 1.6;
-    font-size: 1rem;
-    color: rgba(68, 68, 68, 0.89);
+    font-size: 0.9rem !important;
+    color: rgb(4, 2, 2);
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .feature-category li strong {
-    color: #4a2a57;
+    color: #1f65ad;
+    font-size: 0.9rem !important;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
+
+/* تخصيص الشاشات الصغيرة (مثل الهواتف) */
+@media (max-width: 402px) {
+    .feature-category li {
+        font-size: 1rem !important; /* تغيير حجم الخط للأجهزة الصغيرة */
+    }
+    .feature-category li strong {
+        font-size: 0.7rem !important; /* تغيير حجم الخط للنصوص المهمة */
+    }
+}
+
+/* تخصيص الشاشات المتوسطة (مثل التابلت) */
+@media (max-width: 768px) {
+    .feature-category li {
+        font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
+    }
+    .feature-category li strong {
+        font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
+    }
+}
+
+/* تخصيص الشاشات الكبيرة (مثل الشاشات الكبيرة أو الكمبيوتر المكتبي) */
+@media (min-width: 769px) {
+    .feature-category li {
+        font-size: 1rem !important; /* تغيير حجم الخط للأجهزة الكبيرة */
+    }
+    .feature-category li strong {
+        font-size: 1rem !important; /* تغيير حجم الخط للنصوص المهمة */
+    }
+}
+
+
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
@@ -2086,7 +2146,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-    color: #674c4c; /* لون النص */
+    color: #1f65ad; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
@@ -4158,9 +4218,9 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 
         .card {
-            background: rgba(255, 255, 255, 0);
+            background: rgb(255, 255, 255);
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.17);
             text-align: center;
             padding: 20px;
             width: 200px;
