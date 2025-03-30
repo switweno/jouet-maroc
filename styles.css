@@ -1165,7 +1165,7 @@ header {
 @media (max-width: 480px) {
     .product-wholesale-price {
         font-size: 0.8rem; /* تصغير الخط أكثر */
-        padding-right: 3px; /* تقليل المساحة أكثر */
+        padding-right: 5px; /* تقليل المساحة أكثر */
         
     }
 }
@@ -1267,11 +1267,11 @@ header {
 
     padding: 12px 18px;
     border-radius: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .feature-category h4 i {
-    margin-left: 10px;
+    margin-left: 5px;
     color: #ffffff;
 }
 
@@ -2118,7 +2118,7 @@ h1, h2, h3, h4, h5, h6 {
 .product-video-section h2:after {
     content: "";
     position: absolute;
-    bottom: 2px;
+    bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
@@ -2170,7 +2170,7 @@ h1, h2, h3, h4, h5, h6 {
 /* استجابة للهواتف */
 @media (max-width: 767px) {
     .product-video-section {
-        padding: 5px 5px;
+        padding: 5px 10px;
     }
     
     .video-container {
