@@ -1526,15 +1526,16 @@ header {
     gap: 10px;
     transition: all 0.3s ease;
    font-family: 'Cairo', 'Cairo', sans-serif;
+   
 }
 #buy-now-btn {
     background-color:  #1EA252; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
     font-size: 1rem; /* حجم خط أكبر */
-    padding: 8px 30px; /* تعديل الحواف */
+    padding: 10px 30px; /* تعديل الحواف */
     border-radius: 8px; /* تدوير الحواف أكثر */
-    border: 2px solid #1EA252;
     margin-bottom: 10px;
+    
 }
 
 /* تأثير hover */
@@ -1542,6 +1543,7 @@ header {
     background-color: #218838; /* أخضر داكن عند التمرير */
     transform: translateY(-4px); /* رفع الزر عند التمرير */
     box-shadow: 0 6px 12px rgba(147, 142, 146, 0.7); /* زيادة ظل الزر */
+   
 }
 
 /* إضافة تأثير عند الضغط */
@@ -1552,6 +1554,7 @@ header {
 /* تغيير الأيقونة */
 .primary2-btn i {
     font-size: 1.2rem; /* تكبير حجم الأيقونة قليلاً */
+    
 }
 
 @media (max-width: 767px) {
@@ -2905,7 +2908,7 @@ select {
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
-    outline: 1px dashed #333;
+    outline: 1px dashed rgb(151, 151, 151);
 }
 
 .product-link:hover .related-product {
@@ -4183,7 +4186,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
             width: 200px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
              border: none !important;
-    outline: none !important
+    outline: 1px dashed rgb(151, 151, 151);
+        
         }
 
      
