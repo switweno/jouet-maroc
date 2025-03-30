@@ -825,7 +825,7 @@ header {
 @media (max-width: 600px) {
     .product-description h3 {
         
-        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.1rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
 
@@ -1299,20 +1299,20 @@ header {
 /* تخصيص الشاشات الصغيرة (مثل الهواتف) */
 @media (max-width: 402px) {
     .feature-category li {
-        font-size: 1rem !important; /* تغيير حجم الخط للأجهزة الصغيرة */
+        font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة الصغيرة */
     }
     .feature-category li strong {
-        font-size: 0.7rem !important; /* تغيير حجم الخط للنصوص المهمة */
+        font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
     }
 }
 
 /* تخصيص الشاشات المتوسطة (مثل التابلت) */
 @media (max-width: 768px) {
     .feature-category li {
-        font-size: 0.9rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
+        font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
     }
     .feature-category li strong {
-        font-size: 0.9rem !important; /* تغيير حجم الخط للنصوص المهمة */
+        font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
     }
 }
 
@@ -2108,7 +2108,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 741px) {
     .product-video-section h2 {
         
-        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.2rem; /* تقليص حجم الخط إذا لزم الأمر */
     }
 }
 
@@ -2836,7 +2836,7 @@ select {
 @media (max-width: 600px) {
     .related-products h2 {
        
-        font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
+        font-size: 1.2rem; /* تقليص حجم الخط إذا لزم الأمر */
         }
         
 }
