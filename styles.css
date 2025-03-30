@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: rgb(107, 105, 105);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -32,7 +32,7 @@ html, body {
 
 /* تعديل الحاوية الرئيسية */
 .container {
-    width: 90%;
+    width: 102%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 14px;
@@ -738,11 +738,11 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
+    border-radius: 0 0 1px 1px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 25px ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    margin-bottom: 10px ;
 }
 
 @media (min-width: 768px) {
@@ -811,12 +811,12 @@ header {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 15px; /* زيادة المسافة أسفل الشريط */
-    color: #1f65ad; /* لون النص */
+    color: white; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 10px 0;
-     background:rgb(244, 244, 244); /* التدرج الأصفر */
+     background:#993db7; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -1921,7 +1921,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Product details section */
     .product-details {
         padding: 5px; /* Reduce padding */
-        margin-bottom: 20px; /* Reduce margin bottom */
+        margin-bottom: 10px; /* Reduce margin bottom */
     }
     
     .product-gallery,
@@ -2097,12 +2097,12 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 15px; /* زيادة المسافة أسفل الشريط */
-    color: #1f65ad; /* لون النص */
+    color: white; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(241, 241, 241); /* التدرج الأصفر */
+    background:#0c6ef8; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2138,7 +2138,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     text-align: center;
 }
@@ -2177,7 +2177,7 @@ h1, h2, h3, h4, h5, h6 {
 /* استجابة للهواتف */
 @media (max-width: 767px) {
     .product-video-section {
-        padding: 20px 15px;
+        padding: 5px 5px;
     }
     
     .video-container {
@@ -2188,7 +2188,7 @@ h1, h2, h3, h4, h5, h6 {
 /* تحسين مسافات حقول النموذج على الموبايل */
 @media (max-width: 767px) {
     .product-info {
-        padding: 15px 20px;
+        padding: 15px 16px;
     }
  }   
 
@@ -2814,15 +2814,15 @@ select {
 .related-products {
     background-color: #fff;
     border-radius: 12px;
-    padding: 20px 15px;
-    margin-bottom: 25px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    padding: 4px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0);
     text-align: center;
      outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */    
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
-    margin: 10px 0;
+    
 }
 
 
@@ -2831,12 +2831,12 @@ select {
     justify-content: center; /* محاذاة النص أفقيًا */
     align-items: center; /* محاذاة النص عموديًا */
     margin-bottom: 10px; /* زيادة المسافة أسفل الشريط */
-   color: #674c4c; /* لون النص */
+   color: #ffffff; /* لون النص */
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 2px solid rgba(0, 102, 204, 0);
     padding: 8px 0;
-    background:rgb(244, 244, 244); /* التدرج الأصفر */
+    background:#f8510c; /* التدرج الأصفر */
     border-radius: 10px;
     width: 100%; /* طول الشريط */
     margin-left: auto; /* محاذاة العنصر في المنتصف */
@@ -2852,11 +2852,7 @@ select {
         width: 100%; /* جعل طول الشريط 100% على الشاشات الصغيرة */
         font-size: 1.3rem; /* تقليص حجم الخط إذا لزم الأمر */
         }
-        .related-products {
-             margin-top: -5px;
         
-        
-    }
 }
 
 
@@ -2876,8 +2872,8 @@ select {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
-    margin-top: 30px;
+    gap: 10px;
+    margin-top: 10px;
     
 }
 
@@ -2885,7 +2881,7 @@ select {
     text-decoration: none !important;
     color: inherit !important;
     display: block;
-    width: 244px;
+    width: 270px;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     margin-bottom: 10px; /* زيادة الهامش السفلي من 10px إلى 20px */
@@ -2897,16 +2893,16 @@ select {
 
 .related-product {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 25px;
     overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
     height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
-    margin-bottom: 15px; /* إضافة هامش سفلي جديد */
+    margin-bottom: 10px; /* إضافة هامش سفلي جديد */
 }
 
 .product-link:hover .related-product {
@@ -2973,22 +2969,22 @@ select {
 /* تعديلات للأجهزة المحمولة */
 @media (max-width: 1064px) {
     .products-grid {
-        gap: 45px; /* تقليل المسافة بين المنتجات */
+        gap: 10px; /* تقليل المسافة بين المنتجات */
         padding: 0 10px; /* تقليل الحاشية الجانبية لتوسيع المساحة */
     }
 
     .product-link {
-        width: calc(30% - 10px); /* توزيع المنتجات بالتساوي */
+        width: calc(33% - 7px); /* توزيع المنتجات بالتساوي */
         margin-bottom: 12px; /* تحسين المسافة السفلية */
     }
 
     .related-product {
-        border-radius: 8px;
+        border-radius: 34px;
         margin-bottom: 8px;
     }
 
     .related-product img {
-        height: 320px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 369px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -3029,7 +3025,7 @@ select {
     }
 
     .related-product {
-        border-radius: 8px;
+        border-radius: 35px;
         margin-bottom: 8px;
     }
 
@@ -3064,7 +3060,7 @@ select {
 @media (max-width: 480px) {
     .products-grid {
         gap: 10px;
-        padding: 0 5px; /* تقليل الحاشية الجانبية أكثر */
+        padding: 0 2px; /* تقليل الحاشية الجانبية أكثر */
     }
 
     .product-link {
@@ -3072,8 +3068,11 @@ select {
         max-width: none; /* إزالة الحد الأقصى للعرض */
         margin-bottom: 5px;
     }
+    
+
 
     .related-product {
+         border-radius: 15px;
         margin-bottom: 5px;
     }
 
@@ -3111,7 +3110,7 @@ select {
     }
 
     .related-product img {
-        height: 185px; /* تكبير الصورة قليلاً */
+        height: 183px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
