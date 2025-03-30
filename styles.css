@@ -2822,7 +2822,7 @@ select {
     font-size: 1.5rem;
     text-align: right; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #ff4e00; /* لون الشريط الأساسي */
+    background: #ff2e06; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2867,7 +2867,7 @@ select {
     background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 8px rgba(229, 229, 229, 0.98);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -4159,14 +4159,32 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
         
         }
 
-     
+     .card .icon-container i.fas.fa-headset {
+    color: #ff5733; /* لون مخصص لأيقونة الدعم الفني */
+}
+
+.card .icon-container i.fas.fa-bullseye {
+    color: #33aaff; /* لون مخصص لأيقونة المهمة */
+}
+
+.card .icon-container i.fas.fa-award {
+    color: #00c9af; /* لون مخصص لأيقونة الجودة */
+}
+
+.card .icon-container i.fas.fa-handshake {
+    color: #ffcc00; /* لون مخصص لأيقونة النزاهة */
+}
+
+.card .icon-container i.fas.fa-truck {
+    color: #33aaff; /* لون مخصص لأيقونة الشحن */
+}
         
  
 
         .icon-container {
             width: 70px;
             height: 70px;
-            background-color: rgba(208, 208, 208, 0.39); /* خلفية رمادية */
+            background-color: rgb(40, 7, 7); /* خلفية رمادية */
             border-radius: 50%; /* شكل دائري */
             display: flex;
             align-items: center;
