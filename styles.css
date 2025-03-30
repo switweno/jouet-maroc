@@ -1,36 +1,6 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
 
 body {
     margin: 0;
@@ -1964,7 +1934,7 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Product description */
     .product-description {
-        padding: 8px; /* Reduce padding */
+        padding: 2px; /* Reduce padding */
         margin-bottom: 15px; /* Reduce margin */
     }
     
@@ -2110,8 +2080,8 @@ h1, h2, h3, h4, h5, h6 {
          outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */
     border-radius: 10px;
     padding: 30px;
-    margin-bottom: 25px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     text-align: center;
     
 }
@@ -2149,7 +2119,7 @@ h1, h2, h3, h4, h5, h6 {
 .product-video-section h2:after {
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: 2px;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
@@ -2161,9 +2131,9 @@ h1, h2, h3, h4, h5, h6 {
 .product-video-section {
     background-color: #fff;
     border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 25px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     text-align: center;
 }
 
@@ -2783,7 +2753,7 @@ select {
     
     .product-description {
         padding: -1px !important;
-        margin-bottom: 8px !important;
+        margin-bottom: 6px !important;
     }
     
     .feature-category {
@@ -2797,14 +2767,14 @@ select {
 /* تعديلات للهواتف الصغيرة جداً مع الحفاظ على مظهر جيد */
 @media (max-width: 360px) {
     .container {
-        width: 98% !important; /* زيادة العرض قليلاً */
-        padding: 0 4px !important; /* تقليل الهوامش بشكل معتدل */
+        width: 100% !important; /* زيادة العرض قليلاً */
+        padding: 0 1px !important; /* تقليل الهوامش بشكل معتدل */
       
     }
     
     .product-gallery,
     .product-info {
-        padding: 6px !important;
+        padding: 4px !important;
           
     }
     
