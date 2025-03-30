@@ -7,7 +7,7 @@ body {
     padding: 0;
     background-color: #ffffff;
     color: rgb(107, 105, 105);
-    line-height: 1.6;
+    line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
   
     font-family: 'Tajawal', 'Cairo', sans-serif;
@@ -2873,7 +2873,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     
 }
 
@@ -3110,7 +3110,7 @@ select {
     }
 
     .related-product img {
-        height: 183px; /* تكبير الصورة قليلاً */
+        height: 211px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
