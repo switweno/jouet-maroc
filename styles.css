@@ -822,7 +822,7 @@ header {
     margin-left: auto; /* محاذاة العنصر في المنتصف */
     margin-right: auto; /* محاذاة العنصر في المنتصف */ 
     font-family: 'Montserrat', 'Cairo', sans-serif; 
-     
+     outline: 1px dashed #333;
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2109,6 +2109,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
      font-family: 'Montserrat', 'Cairo', sans-serif;
+    outline: 1px dashed #333;
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2843,6 +2844,7 @@ select {
     margin-right: auto; /* محاذاة العنصر في المنتصف */
      border: 3px solid rgba(81, 84, 81, 0);
      font-family: 'Montserrat', 'Cairo', sans-serif;
+    outline: 1px dashed #333;
 }
 
 
@@ -2893,9 +2895,9 @@ select {
 
 .related-product {
     background-color: #ffffff;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -2903,6 +2905,7 @@ select {
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
+    outline: 1px dashed #333;
 }
 
 .product-link:hover .related-product {
@@ -2931,6 +2934,7 @@ select {
     padding: 0 5px;
     line-height: 1.4;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+    
 }
 
 
@@ -2979,7 +2983,7 @@ select {
     }
 
     .related-product {
-        border-radius: 34px;
+        border-radius: 10px;
         margin-bottom: 8px;
     }
 
@@ -3025,7 +3029,7 @@ select {
     }
 
     .related-product {
-        border-radius: 35px;
+        border-radius: 10px;
         margin-bottom: 8px;
     }
 
@@ -3072,7 +3076,7 @@ select {
 
 
     .related-product {
-         border-radius: 15px;
+         border-radius: 8px;
         margin-bottom: 5px;
     }
 
