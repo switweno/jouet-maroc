@@ -1105,14 +1105,12 @@ header {
 
 
 
-.related-discount-badge {
-    display: none; /* إخفاء الشارة افتراضيًا */
-}
+
 .related-discount-badge {
     position: absolute;
     top: 12px;
     left: 12px;
-    background-color: #7f1fa6;
+    background-color: #ff1e48;
     color: white;
     font-size: 0.84rem;
     font-weight: 700;
