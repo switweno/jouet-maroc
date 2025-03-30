@@ -1200,6 +1200,7 @@ header {
     overflow: hidden;
     background: #fff; /* إضافة خلفية بيضاء لمزيد من الوضوح */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* تحسين الظلال */
+    
 }
 
 .accordion-header {
@@ -1207,6 +1208,7 @@ header {
     cursor: pointer;
     padding: 0;
     margin-bottom: 0;
+    
 }
 
 /* تحسين زر التبديل */
@@ -1227,11 +1229,13 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+     
 }
 
 .accordion-toggle:hover {
     color: #f7f9fb;
     background-color: rgba(0, 123, 255, 0);
+   
 }
 
 /* تحريك الأيقونة عند الفتح */
@@ -1248,6 +1252,7 @@ header {
     font-size: 1rem;
     line-height: 1.6;
     color: #333;
+    
 }
 
 /* عند التمدد */
@@ -1276,8 +1281,9 @@ header {
 
 /* تحسين قائمة الميزات */
 .feature-category ul {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
 }
 
 .feature-category li {
