@@ -1762,10 +1762,12 @@ header {
 
 .summary-total {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-top: 10px;
     color:  #eb0861;
+    font-family: 'Cairo', 'Cairo', sans-serif;
 }
+
 
 .customer-info {
     margin-bottom: 20px;
@@ -2801,7 +2803,7 @@ select {
 .related-products {
     background-color: #fff;
     border-radius: 12px;
-    padding: 4px 5px;
+    padding: 10px 5px;
     margin-bottom: 20px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     text-align: center;
@@ -2820,7 +2822,7 @@ select {
     font-size: 1.5rem;
     text-align: right; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #ff2d00; /* لون الشريط الأساسي */
+    background: #ff4e00; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -3869,6 +3871,8 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     padding: 10px 0; /* إضافة بعض المساحة */
     color: rgb(22, 179, 93); /* تغيير اللون */
 }
+
+
 
 /* أنماط فواصل تصنيف المنتجات */
 .category-divider {
