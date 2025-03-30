@@ -1164,7 +1164,7 @@ header {
 
 @media (max-width: 480px) {
     .product-wholesale-price {
-        font-size: 0.8rem; /* تصغير الخط أكثر */
+        font-size: 0.9rem; /* تصغير الخط أكثر */
         padding-right: 5px; /* تقليل المساحة أكثر */
         
     }
@@ -1216,7 +1216,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1.2rem;
-    color: #d9d9d9;
+    color: #d6d6d6;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1261,18 +1261,19 @@ header {
 .feature-category h4 {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem!important;
     color: #fff;
     background: linear-gradient(135deg, #ff0057, #ff1e48);
 
     padding: 12px 18px;
     border-radius: 6px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 .feature-category h4 i {
     margin-left: 5px;
     color: #ffffff;
+    
 }
 
 /* تحسين قائمة الميزات */
@@ -1296,21 +1297,14 @@ header {
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
-/* تخصيص الشاشات الصغيرة (مثل الهواتف) */
-@media (max-width: 402px) {
-    .feature-category li {
-        font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة الصغيرة */
-    }
-    .feature-category li strong {
-        font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
-    }
-}
+
 
 /* تخصيص الشاشات المتوسطة (مثل التابلت) */
 @media (max-width: 768px) {
     .feature-category li {
         font-size: 0.8rem !important; /* تغيير حجم الخط للأجهزة المتوسطة */
     }
+   
     .feature-category li strong {
         font-size: 0.8rem !important; /* تغيير حجم الخط للنصوص المهمة */
     }
