@@ -741,7 +741,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.11);
+    box-shadow: 0 5px 15px rgba(221, 221, 221, 0.75);
     margin-bottom: 10px ;
 }
 
@@ -2082,7 +2082,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.19);
     text-align: center;
     
 }
@@ -2119,7 +2119,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 70%;
     height: 3px;
-    background-color:  rgba(0, 102, 204, 0);
+    background-color:  rgba(140, 255, 184, 0);
 }
 
 /* Product Video Section Styles */
@@ -2128,18 +2128,20 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 6px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(221, 221, 221, 0.75);
     text-align: center;
 }
-
+/* حاوية الفيديو */
 .video-container {
     position: relative;
-    width: 100%;
+    width: 100%; /* اجعل العرض كامل */
     max-width: 400px; /* عرض مناسب للنسبة العمودية */
-    margin: 0 auto;
+    margin: 0 auto; /* توسيط الحاوية أفقياً */
+    display: block; /* جعل الحاوية عنصر كتلة */
     aspect-ratio: 9/16; /* نسبة عمودية افتراضية */
 }
 
+/* الفيديو داخل الحاوية */
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -2149,9 +2151,8 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    object-fit: cover; /* تغطية المساحة مع الحفاظ على النسب */
+    object-fit: cover; /* يجعل الفيديو يغطي المساحة بالكامل مع الحفاظ على النسب */
 }
-
 
 
 
@@ -2166,7 +2167,7 @@ h1, h2, h3, h4, h5, h6 {
 /* استجابة للهواتف */
 @media (max-width: 767px) {
     .product-video-section {
-        padding: 5px 10px;
+        padding: 10px 10px;
     }
     
     .video-container {
