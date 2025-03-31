@@ -2336,25 +2336,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// إظهار النافذة المنبثقة عند تحميل الصفحة
-window.onload = function() {
-    document.getElementById('popup1').style.display = 'flex';
-};
 
-// إغلاق النافذة عند الضغط على زر الإغلاق
-document.getElementById('close-btn').onclick = function() {
-    document.getElementById('popup1').style.display = 'none';
-};
-
-
-
-const carousel = document.querySelector(".carousel-container");
-const slide = document.querySelector(".carousel-slide");
-
-function handleCarouselMove(positive = true) {
-  const slideWidth = slide.clientWidth;
-  carousel.scrollLeft = positive ? carousel.scrollLeft + slideWidth : carousel.scrollLeft - slideWidth;
-}
 
 
    
