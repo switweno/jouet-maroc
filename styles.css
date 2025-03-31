@@ -583,8 +583,8 @@ header {
 .popup-product-price {
     font-size: 0.8rem;
     font-weight: 700;
-    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+    color: #3b3b3b; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -810,7 +810,7 @@ header {
     display: inline-block; /* تقليص الطول تلقائيًا حسب النص */
     position: relative;
     color: white; /* لون النص */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: right; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #993db7; /* لون الشريط الأساسي */
@@ -998,8 +998,8 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+    color: #3b3b3b; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -2091,7 +2091,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block; /* تقليص الطول تلقائيًا حسب النص */
     position: relative;
     color: white; /* لون النص */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: right; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
@@ -2819,7 +2819,7 @@ select {
     display: inline-block; /* تقليص الطول تلقائيًا حسب النص */
     position: relative;
     color: white; /* لون النص */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: right; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #ff2e06; /* لون الشريط الأساسي */
@@ -4224,7 +4224,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
         }
 
 
-.popup {
+.popup1 {
     display: none; /* نخبئ النافذة في البداية */
     position: fixed;
     top: 0;
@@ -4237,7 +4237,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     align-items: center;
 }
 
-.popup-content {
+.popup1-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -4247,7 +4247,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     position: relative; /* إضافة هذا لجعل الزر داخل النافذة */
 }
 
-.popup img {
+.popup1 img {
     width: 100%;
     max-width: 300px;
     margin-bottom: 20px;

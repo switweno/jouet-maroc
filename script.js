@@ -2338,11 +2338,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // إظهار النافذة المنبثقة عند تحميل الصفحة
 window.onload = function() {
-    document.getElementById('popup').style.display = 'flex';
+    document.getElementById('popup1').style.display = 'flex';
 };
 
 // إغلاق النافذة عند الضغط على زر الإغلاق
 document.getElementById('close-btn').onclick = function() {
-    document.getElementById('popup').style.display = 'none';
+    document.getElementById('popup1').style.display = 'none';
 };
 
