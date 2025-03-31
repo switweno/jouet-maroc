@@ -799,7 +799,7 @@ if (product.availability === "متوفر في المخزون") {
     availabilityElement.style.color = "#14b93a"; // اللون الأخضر
     availabilityElement.style.fontSize = "1.0rem"; // زيادة حجم الخط
 } else if (product.availability === "غير متوفر في المخزون") {
-    availabilityElement.style.color = "#0a0000"; // اللون الرمادي
+    availabilityElement.style.color = "#ff0000"; // اللون الرمادي
     availabilityElement.style.fontSize = "1rem"; // الحجم الافتراضي
 } else {
     availabilityElement.style.color = "#000"; // اللون الافتراضي
