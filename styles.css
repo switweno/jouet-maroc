@@ -2480,15 +2480,6 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-
 /* النافذة المنبثقة الأساسية */
 .modal {
     display: none; /* مخفي افتراضيًا */
@@ -2808,7 +2799,7 @@ select {
     margin-bottom: 20px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0);
     text-align: center;
-     outline: 1px dashed rgba(249, 10, 91, 0);  /* خط متقطع حول العنصر */    
+       
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
@@ -2826,6 +2817,7 @@ select {
     background: #ff2e06; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+    
 }
 
 
@@ -2876,7 +2868,7 @@ select {
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
-    
+     outline: 1px dashed #f1ff00;  /* خط متقطع حول العنصر */ 
 }
 
 .product-link:hover .related-product {
@@ -2959,7 +2951,7 @@ select {
     }
 
     .related-product img {
-        height: 369px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 350px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -3005,7 +2997,7 @@ select {
     }
 
     .related-product img {
-        height: 361px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 260px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -3085,7 +3077,7 @@ select {
     }
 
     .related-product img {
-        height: 211px; /* تكبير الصورة قليلاً */
+        height: 174px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
@@ -4265,3 +4257,12 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     z-index: 1100; /* ضمان ظهور الزر فوق النافذة */
 }
  
+
+
+
+
+
+
+
+
+
