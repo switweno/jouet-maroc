@@ -2099,7 +2099,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -2815,7 +2815,7 @@ select {
     position: relative;
     color: white; /* لون النص */
     font-size: 1.2rem;
-    text-align: right; /* محاذاة لليمين للغة العربية */
+    text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #ff4209; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
@@ -2841,7 +2841,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 7px;
+    
     
 }
 
@@ -2863,7 +2863,7 @@ select {
     background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 3px 8px rgba(167, 167, 167, 0.21);
     height: 100%;
     display: flex;
     flex-direction: column;
