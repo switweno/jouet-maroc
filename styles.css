@@ -998,8 +998,8 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #3b3b3b; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #FED700; /* لون الخلفية */
+    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #ff1e48; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -2860,7 +2860,7 @@ select {
     background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(229, 229, 229, 0.98);
+    box-shadow: 0 3px 8px rgba(236, 255, 3, 0.14);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -2868,7 +2868,7 @@ select {
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
-     outline: 1px dashed #f1ff00;  /* خط متقطع حول العنصر */ 
+     outline: 1px dashed rgba(241, 255, 0, 0.17);  /* خط متقطع حول العنصر */ 
 }
 
 .product-link:hover .related-product {
