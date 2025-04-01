@@ -1272,7 +1272,7 @@ header {
 }
 
 .feature-category h4 i {
-    margin-left: -4px;
+    margin-left: 5px;
     color: #ffffff;
     
 }
@@ -2393,7 +2393,7 @@ select {
     border: 2px solid transparent;
     transition: border-color 0.2s ease; /* تقليل التأثيرات وإزالة التكبير */
     object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
     filter: brightness(0.95); /* تعديل السطوع بشكل طفيف */
 }
 
@@ -2407,7 +2407,7 @@ select {
 .thumbnail.active {
     border-color:  rgba(0, 0, 0, 0.1);
     transform: none; /* إزالة تأثير التكبير */
-    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2);
+    box-shadow: 0 0 0 2px rgba(180, 181, 184, 0.28);
     filter: brightness(1.05); /* زيادة السطوع فقط قليلاً */
 }
 
@@ -2817,7 +2817,7 @@ select {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #ff4209; /* لون الشريط الأساسي */
+    background: #ef1558; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2860,10 +2860,10 @@ select {
 }
 
 .related-product {
-    background-color: #ffffff;
+    background-color: #ef1558;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(167, 167, 167, 0.21);
+    box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -2871,7 +2871,7 @@ select {
     transition: box-shadow 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.04);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
-     outline: 1px dashed rgba(33, 33, 25, 0);  /* خط متقطع حول العنصر */ 
+     outline: 1px dashed rgba(163, 163, 163, 0);  /* خط متقطع حول العنصر */ 
 }
 
 .product-link:hover .related-product {
@@ -2883,14 +2883,14 @@ select {
     height: 356px;
     object-fit: cover;
     transition: transform 0.5s ease;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 
 .related-product h3 {
     margin: 15px 12px;
     font-size: 1.15rem;
-    color: #007cff;
+    color: #ffffff;
     text-align: center;
     height: 50px;
     display: flex;
@@ -2929,7 +2929,7 @@ select {
 }
 
 .related-old-price {
-    color: rgb(67, 61, 63);
+    color: rgb(222, 222, 222);
     text-decoration: line-through;
     font-size: 1.2rem;
     position: relative;
@@ -3047,7 +3047,7 @@ select {
     }
 
     .related-product img {
-        height: 229px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+        height: 258px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
 
     .related-product h3 {
@@ -3080,7 +3080,7 @@ select {
     }
 
     .related-product img {
-        height: 174px; /* تكبير الصورة قليلاً */
+        height: 165px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
