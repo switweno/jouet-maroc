@@ -3940,7 +3940,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 /* تغيير لون الأيقونات */
 .category-divider .category-icon {
-    color: #FFD700; /* اللون الأصفر الذهبي المميز */
+    color: white; /* اللون الأصفر الذهبي المميز */
     margin-right: 10px; /* إضافة مسافة بين الأيقونة والنص */
 }
 
