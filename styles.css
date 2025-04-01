@@ -940,7 +940,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #17232f;
+    color: #292a2b;
    font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 700;
     letter-spacing: -0.5px;
@@ -1008,7 +1008,7 @@ header {
 
 .old-price {
     text-decoration: line-through;
-    color: #67062d;
+    color: #615b5d;
     font-size: 1.3rem;
 }
 
@@ -1264,7 +1264,7 @@ header {
     align-items: center;
     font-size: 1rem!important;
     color: #fff;
-    background: linear-gradient(135deg, #ff0057, #ff1e48);
+    background: #ef1558;
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -3940,13 +3940,13 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 /* تغيير لون الأيقونات */
 .category-divider .category-icon {
-    color: #dfdfdf; /* اللون الأصفر الذهبي المميز */
+    color: #FFD700; /* اللون الأصفر الذهبي المميز */
     margin-right: 10px; /* إضافة مسافة بين الأيقونة والنص */
 }
 
 /* تغيير لون الأيقونات عند التمرير (hover) */
 .category-divider:hover .category-icon {
-    color: #FFD700; /* اللون الذهبي اللامع عند التمرير */
+    color: #e5c30a; /* اللون الذهبي اللامع عند التمرير */
 }
 
 
