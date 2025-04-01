@@ -812,7 +812,7 @@ header {
     position: relative;
     color: white; /* لون النص */
     font-size: 1.2rem;
-    text-align: right; /* محاذاة لليمين للغة العربية */
+    text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
@@ -2094,7 +2094,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     color: white; /* لون النص */
     font-size: 1.2rem;
-    text-align: right; /* محاذاة لليمين للغة العربية */
+    text-align:center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
