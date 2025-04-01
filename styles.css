@@ -2130,7 +2130,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 6px;
-    box-shadow: 0 5px 15px rgba(221, 221, 221, 0);
+    box-shadow: 0 5px 15px rgba(221, 221, 221, 0.75);
     text-align: center;
 }
 /* حاوية الفيديو */
