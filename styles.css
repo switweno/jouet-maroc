@@ -3080,7 +3080,7 @@ select {
     }
 
     .related-product img {
-        height: 165px; /* تكبير الصورة قليلاً */
+        height: 170px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
