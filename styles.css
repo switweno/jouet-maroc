@@ -741,7 +741,12 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(221, 221, 221, 0.75);
+   box-shadow: 5px -5px 15px rgba(221, 221, 221, 0.75), 
+            -5px -5px 15px rgba(221, 221, 221, 0.75), 
+            5px 0 15px rgba(221, 221, 221, 0.75), 
+            -5px 0 15px rgba(221, 221, 221, 0.75);
+
+
     margin-bottom: 10px ;
 }
 
@@ -813,7 +818,7 @@ header {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
-    padding: 10px 15px;
+    padding: 15px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
@@ -2083,7 +2088,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 20px rgba(134, 77, 77, 0);
     text-align: center;
     
 }
@@ -2095,7 +2100,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
-    padding: 10px 15px;
+    padding: 15px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
@@ -2130,7 +2135,10 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 6px;
-    box-shadow: 0 5px 15px rgba(221, 221, 221, 0.75);
+    box-shadow: 5px 5px 15px rgba(221, 221, 221, 0.75), 
+            -5px 5px 15px rgba(221, 221, 221, 0.75), 
+            0 5px 15px rgba(221, 221, 221, 0.75);
+
     text-align: center;
 }
 /* حاوية الفيديو */
@@ -2799,9 +2807,12 @@ select {
     border-radius: 12px;
     padding: 10px 5px;
     margin-bottom: 20px;
-     box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+     box-shadow: 5px 5px 15px rgba(221, 221, 221, 0.75), 
+            -5px 5px 15px rgba(221, 221, 221, 0.75), 
+            0 5px 15px rgba(221, 221, 221, 0.75);
+
     text-align: center;
-       
+     margin-top: 10px;
 }
 .related-products {
     text-align: center; /* محاذاة العناصر في المنتصف */
@@ -2816,10 +2827,11 @@ select {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
-    padding: 10px 15px;
+    padding: 15px 15px;
     background: #ef1558; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+  
 }
 
 
@@ -2852,7 +2864,7 @@ select {
     width: 270px;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    margin-bottom: 10px; /* زيادة الهامش السفلي من 10px إلى 20px */
+    margin-bottom: 12px!important; /* زيادة الهامش السفلي من 10px إلى 20px */
 }
 
 .product-link:hover {
