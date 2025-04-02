@@ -2960,7 +2960,7 @@ select {
     }
 
     .related-product img {
-        height: 350px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 319px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -3006,7 +3006,7 @@ select {
     }
 
     .related-product img {
-        height: 260px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+        height: 300px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
     }
 
     .related-product h3 {
@@ -3053,7 +3053,7 @@ select {
     }
 
     .related-product img {
-        height: 191px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+        height: 226px; /* تصغير الصورة قليلاً لملاءمة المساحة */
     }
 
     .related-product h3 {
@@ -3086,7 +3086,7 @@ select {
     }
 
     .related-product img {
-        height: 170px; /* تكبير الصورة قليلاً */
+        height: 180px; /* تكبير الصورة قليلاً */
     }
     
     .related-discount-badge {
