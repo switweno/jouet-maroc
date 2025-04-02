@@ -741,7 +741,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
- box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
+ box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
 
 
     margin-bottom: 10px ;
@@ -816,7 +816,7 @@ header {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #2a62cd; /* لون الشريط الأساسي */
+    background: #5e1769; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2098,7 +2098,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #2a62cd; /* لون الشريط الأساسي */
+    background: #5e1769; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
     margin-bottom: 10px;
@@ -2132,7 +2132,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 6px;
-  box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
+ box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
 
     text-align: center;
 }
@@ -2802,7 +2802,7 @@ select {
     border-radius: 12px;
     padding: 10px 5px;
     margin-bottom: 20px;
-    box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
+    box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
           
 
     text-align: center;
@@ -2822,7 +2822,7 @@ select {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #ef1558; /* لون الشريط الأساسي */
+    background: #5e1769; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
   
@@ -2866,16 +2866,16 @@ select {
 }
 
 .related-product {
-    background-color: #ef1558;
+    background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
+    box-shadow: 0 3px 8px rgba(149, 149, 149, 0.36);
     height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     transition: box-shadow 0.3s ease;
-    border: 1px solid rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(90, 90, 90, 0.17);
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
      outline: 1px dashed rgba(163, 163, 163, 0);  /* خط متقطع حول العنصر */ 
 }
@@ -2889,14 +2889,14 @@ select {
     height: 314px;
     object-fit: cover;
     transition: transform 0.5s ease;
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(215, 215, 215);
 }
 
 
 .related-product h3 {
     margin: 15px 12px;
     font-size: 1.15rem;
-    color: #ffffff;
+    color: #5e1769;
     text-align: center;
     height: 50px;
     display: flex;
@@ -2927,7 +2927,7 @@ select {
     font-size: 1.1rem;
     margin-bottom: 4px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     color: #110101; /* اجعل النص بلون أبيض ليكون واضحًا */
+     color: #5e1769; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
@@ -2935,7 +2935,7 @@ select {
 }
 
 .related-old-price {
-    color: rgb(222, 222, 222);
+    color: #5e1769;
     text-decoration: line-through;
     font-size: 1.2rem;
     position: relative;
