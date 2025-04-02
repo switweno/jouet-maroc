@@ -3657,12 +3657,12 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     line-height: 45px;
     background-color:  #4E67EB;
     padding: 0 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
     white-space: nowrap;
     font-size: clamp(1rem, 2.5vw, 1.4rem); /* حجم متجاوب */
     font-weight: bold;
-    color: #e3e3e3;
+    color: rgba(227, 227, 227, 0);
     text-transform: uppercase; /* جعل النص بأحرف كبيرة */
     transition: background-color 0.3s ease;
 }
