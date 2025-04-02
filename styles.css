@@ -741,10 +741,7 @@ header {
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
     overflow: hidden;
-   box-shadow: 5px -5px 15px rgba(221, 221, 221, 0.75), 
-            -5px -5px 15px rgba(221, 221, 221, 0.75), 
-            5px 0 15px rgba(221, 221, 221, 0.75), 
-            -5px 0 15px rgba(221, 221, 221, 0.75);
+ box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
 
 
     margin-bottom: 10px ;
@@ -818,7 +815,7 @@ header {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
-    padding: 15px 15px;
+    padding: 10px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
@@ -2100,7 +2097,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
-    padding: 15px 15px;
+    padding: 10px 15px;
     background: #2a62cd; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
@@ -2135,9 +2132,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 6px;
-    box-shadow: 5px 5px 15px rgba(221, 221, 221, 0.75), 
-            -5px 5px 15px rgba(221, 221, 221, 0.75), 
-            0 5px 15px rgba(221, 221, 221, 0.75);
+  box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
 
     text-align: center;
 }
@@ -2807,9 +2802,8 @@ select {
     border-radius: 12px;
     padding: 10px 5px;
     margin-bottom: 20px;
-     box-shadow: 5px 5px 15px rgba(221, 221, 221, 0.75), 
-            -5px 5px 15px rgba(221, 221, 221, 0.75), 
-            0 5px 15px rgba(221, 221, 221, 0.75);
+    box-shadow: 0 3px 8px rgba(172, 10, 255, 0.27);
+          
 
     text-align: center;
      margin-top: 10px;
@@ -2827,7 +2821,7 @@ select {
     color: white; /* لون النص */
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
-    padding: 15px 15px;
+    padding: 10px 15px;
     background: #ef1558; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
