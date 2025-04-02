@@ -1919,7 +1919,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Product details section */
     .product-details {
         padding: 5px; /* Reduce padding */
-        margin-bottom: 10px; /* Reduce margin bottom */
+        margin-bottom: 15px; /* Reduce margin bottom */
     }
     
     .product-gallery,
@@ -1939,7 +1939,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Product description */
     .product-description {
         padding: 5px; /* Reduce padding */
-        margin-bottom: 15px; /* Reduce margin */
+        margin-bottom: -10px; /* Reduce margin */
     }
     
     .feature-category {
@@ -1947,7 +1947,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .feature-highlight {
-        padding: 10px; /* Reduce padding */
+        padding: 5px; /* Reduce padding */
         margin-top: 15px;
     }
     
