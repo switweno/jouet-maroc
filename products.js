@@ -1,5 +1,117 @@
 // تعريف المنتجات باسم واحد فقط لتجنب التضارب
 const products = [
+  
+   {
+   id: "trottinette-pro-edition-36v",
+    title: "TROTTINETTE PRO-EDITION 36V 15AH",
+    brand: "PRO-EDITION",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 3849,
+    oldPrice: 4799,
+    discount: 30,
+    images: [
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-01.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-02.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-03.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-04.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-05.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-06.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-07.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-08.webp"
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W - 700W MAX" },
+      { key: "BATTERIE", value: "36V 15AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "25KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "AVANT ET ARRIÈRE & ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+ 
+],
+
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F696236402972322%2F&show_text=false&width=264&t=0"
+  },
+  
+   {
+   id: "trottinette-scooter-36V",
+    title: "TROTTINETTE Scooter 36V 15AH",
+    brand: "SCOOTER",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 3999,
+    oldPrice: 4799,
+    discount: 30,
+    images: [
+      "trottinette-scooter-36V/trottinette-scooter-36v-01.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-02.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-03.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-04.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-05.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-06.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-07.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-08.webp"
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W - 700W MAX" },
+      { key: "BATTERIE", value: "36V 15AH LITHIUM" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+      { key: "AUTONOMIE", value: "35KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "25KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "AVANT ET ARRIÈRE & ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "MAÎTRISÉ DEPUIS LE TÉLÉPHONE📱" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+ 
+],
+
+    warranty: "GARANTIE 3 MOIS",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1790742958137283%2F&show_text=false&width=264&t=0"
+  },
 
     {
    id: "trottinette-joyor-48v",
@@ -1185,7 +1297,7 @@ features: [
  },
   
  {
-   id: "voiture -bmw-4x4-2025",
+   id: "voiture-bmw-4x4-2025",
    title: "Voiture BMW 4*4 2025",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
