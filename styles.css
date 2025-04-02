@@ -3112,7 +3112,7 @@ select {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: #0088cc;
+    background-color: #ff1e48;
     color: white;
     width: 60px;
     height: 60px;
@@ -3128,7 +3128,7 @@ select {
 }
 
 #chatButton:hover {
-  background-color: #006699;
+  background-color: #d22142;
   transform: scale(1.1);
 }
 
@@ -3896,7 +3896,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #007cff;
+    background: #ff1e48;
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
