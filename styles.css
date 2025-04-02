@@ -816,7 +816,7 @@ header {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #5e1769; /* لون الشريط الأساسي */
+    background: #4E67EB; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2098,7 +2098,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #5e1769; /* لون الشريط الأساسي */
+    background: #4E67EB; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
     margin-bottom: 10px;
@@ -2822,7 +2822,7 @@ select {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #5e1769; /* لون الشريط الأساسي */
+    background: #4E67EB; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
   
@@ -2866,7 +2866,7 @@ select {
 }
 
 .related-product {
-    background-color: #ffffff;
+    background-color:white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 3px 8px rgba(149, 149, 149, 0.36);
@@ -2896,7 +2896,7 @@ select {
 .related-product h3 {
     margin: 15px 12px;
     font-size: 1.15rem;
-    color: #5e1769;
+    color: #2383e9;
     text-align: center;
     height: 50px;
     display: flex;
@@ -2927,7 +2927,7 @@ select {
     font-size: 1.1rem;
     margin-bottom: 4px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     color: #5e1769; /* اجعل النص بلون أبيض ليكون واضحًا */
+     color: #000000; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #FED700; /* لون الخلفية */
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
@@ -2935,7 +2935,7 @@ select {
 }
 
 .related-old-price {
-    color: #5e1769;
+    color: #000000;
     text-decoration: line-through;
     font-size: 1.2rem;
     position: relative;
@@ -3655,7 +3655,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     max-width: 100vw;
     height: 45px; /* زيادة الارتفاع قليلاً */
     line-height: 45px;
-    background-color: #3C3B4F;
+    background-color:  #4E67EB;
     padding: 0 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -3667,19 +3667,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     transition: background-color 0.3s ease;
 }
 
-/* إظهار .offer-bar على الشاشات الكبيرة فقط */
-@media (min-width: 768px) {
-    .offer-bar {
-        display: flex; /* استخدام flex عند الظهور */
-    }
-}
 
-/* إخفاء .offer-bar على الهواتف */
-@media (max-width: 767px) {
-    .offer-bar {
-        display: none;
-    }
-}
 
 /* حاوية العروض */
 .offer-container {
@@ -3899,7 +3887,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 .category-divider h3 {
     background: #ff1e48;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 10px 21px;
     margin: 0 15px;
@@ -3919,7 +3907,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 /* تعديلات للشاشات الصغيرة */
 @media (max-width: 767px) {
     .category-divider h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 6px 15px;
         margin: 0 10px;
         min-width: 120px;
