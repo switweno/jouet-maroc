@@ -1031,7 +1031,8 @@ features: [
      "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-10.webp"
+      "trottinette-Tank-m41/trottinette-tank-m41-10.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-11.webp"
    ],
 features: [
   {
@@ -1040,14 +1041,15 @@ features: [
     items: [
       { key: "MOTEUR", value: "1200W min - 2400W MAX" },
       { key: "BATTERIE", value: "48V 16AH LITHIUM" },
-      { key: "AUTONOMIE", value: "35km min - 60km max" },
+      { key: "AUTONOMIE", value: "35km - 60km" },
       { key: "VITESSE", value: "55 km/h max" },
       { key: "CHARGE MAX", value: "150 KG" },
       { key: "MATÉRIEL", value: "Alliage d'aluminium" },
       { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
       { key: "SUSPENSION", value: "Avant & Arrière" },
       { key: "TABLEAU", value: "Digital" },
-      { key: "VITESSE", value: "3 niveaux" }
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "CHARGE", value: "54V" }
     ]
   },
   {
@@ -1059,28 +1061,19 @@ features: [
       { key: "PLIABLE", value: "OUI" },
       { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
       { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
-      { key: "CONNECTIVITÉ", value: "Maîtrisé depuis le téléphone 📱" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
       { key: "ROUES", value: "Off-road 11 pouces" },
-      { key: "CHARGE", value: "54V" }
-    ]
-  },
-  {
-    title: "الملحقات والمزايا الإضافية",
-    icon: "fa-gift",
-    items: [
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
-      { key: "ALARME", value: "Système de sécurité intégré" },
-      { key: "SUPPORT TÉLÉPHONE", value: "Compatible avec l'application mobile" },
-      { key: "DESIGN", value: "Ergonomique et moderne" },
       { key: "CADEAU", value: "Sac offert 🎁" }
     ]
   }
+ 
 ],
 
 
    warranty: "GARANTIE 3 MOIS",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1378998756445240%2F&show_text=false&width=267&t=0"
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
   }, 
   
  {
