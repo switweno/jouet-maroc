@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة مصممة بالصور</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1081px;
+            margin: auto;
+            background: white;
+           
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-image, .bottom-image {
+            width: 100%;
+            max-width: 1081px;
+            height: auto;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-in forwards;
+        }
+        .order-form {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transform: translateY(30px);
+            opacity: 0;
+            animation: slideUp 1s ease-out 1s forwards;
+            text-align: right;
+        }
+        .order-form h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .input-group i {
+            margin-left: 10px;
+            color: #28a745;
+        }
+        .input-group input {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+            font-size: 16px;
+        }
+        .order-form button {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            animation: pulse 1.5s infinite;
+        }
+        .order-form button:hover {
+            background: #218838;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="1.jpg" alt="الصورة الأولى" class="main-image">
+        
+        <div class="order-form">
+            <h2>نموذج الطلب</h2>
+            <form id="orderForm">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder="الاسم" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" name="phone" placeholder="رقم الهاتف" required pattern="[0-9]{10,15}">
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" name="address" placeholder="العنوان" required>
+                </div>
+                <input type="hidden" name="product" value="shine s">
+                <input type="hidden" name="price" value="7199 درهم">
+                <button type="submit">إرسال الطلب</button>
+            </form>
+        </div>
+        
+        <img src="0.jpg" alt="الصورة الثانية" class="bottom-image">
+    </div>
+
+    <script>
+        document.getElementById("orderForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let name = this.name.value;
+            let phone = this.phone.value;
+            let address = this.address.value;
+            let product = this.product.value;
+            let price = this.price.value;
+            
+            let message = `طلب جديد:\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالعنوان: ${address}\nالمنتج: ${product}\nالسعر: ${price}`;
+            
+            let whatsappURL = `https://wa.me/0762609147?text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, "_blank");
+        });
+    </script>
+</body>
+</html>
