@@ -184,37 +184,39 @@
     </div>
 
     <script>
-        let selectedColor = '';
+    let selectedColor = ''; // لتخزين كود اللون (غير ضروري الآن)
+    let selectedColorName = ''; // لتخزين اسم اللون
 
-        function selectColor(color, colorName) {
-            selectedColor = color;
-            document.getElementById('selectedColor').innerText = `اللون المختار: ${colorName}`;
-            document.getElementById('colorInput').value = color;
-            const colorBoxes = document.querySelectorAll('.color-box');
-            colorBoxes.forEach(box => box.classList.remove('selected'));
-            event.target.classList.add('selected');
+    function selectColor(color, colorName) {
+        selectedColor = color; // تخزين كود اللون (للتوافق مع الكود السابق)
+        selectedColorName = colorName; // تخزين اسم اللون
+        document.getElementById('selectedColor').innerText = `اللون المختار: ${colorName}`;
+        document.getElementById('colorInput').value = colorName; // تحديث القيمة المرسلة إلى اسم اللون
+        const colorBoxes = document.querySelectorAll('.color-box');
+        colorBoxes.forEach(box => box.classList.remove('selected'));
+        event.target.classList.add('selected');
+    }
+
+    document.getElementById("orderForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        let name = this.name.value;
+        let phone = this.phone.value;
+        let address = this.address.value;
+        let city = this.city.value;
+        let product = this.product.value;
+        let price = this.price.value;
+        let color = this.color.value;
+
+        if (!selectedColorName) { // التحقق من اختيار اللون باستخدام اسم اللون
+            alert('يرجى اختيار لون المنتج!');
+            return;
         }
 
-        document.getElementById("orderForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            let name = this.name.value;
-            let phone = this.phone.value;
-            let address = this.address.value;
-            let city = this.city.value;
-            let product = this.product.value;
-            let price = this.price.value;
-            let color = this.color.value;
+        let message = `طلب جديد:\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالعنوان: ${address}\nالمدينة: ${city}\nالمنتج: ${product}\nالسعر: ${price}\nاللون: ${selectedColorName}`; // استخدام اسم اللون هنا
 
-            if (!selectedColor) {
-                alert('يرجى اختيار لون المنتج!');
-                return;
-            }
-
-            let message = `طلب جديد:\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالعنوان: ${address}\nالمدينة: ${city}\nالمنتج: ${product}\nالسعر: ${price}\nاللون: ${color}`;
-
-            let whatsappURL = `https://wa.me/212762609147?text=${encodeURIComponent(message)}`;
-            window.open(whatsappURL, "_blank");
-        });
-    </script>
+        let whatsappURL = `https://wa.me/212762609147?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, "_blank");
+    });
+</script>
 </body>
 </html>
