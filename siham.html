@@ -6,10 +6,12 @@
     <title>صفحة مصممة بالصور</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
     <style>
         body {
             text-align: center;
-            font-family: 'Cairo', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -27,19 +29,24 @@
             opacity: 0;
             animation: fadeIn 1.5s ease-in forwards;
         }
-        .order-form {
-            padding: 20px;
-            background: #fff;
-            margin-top: -8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transform: translateY(30px);
-            opacity: 0;
-            animation: slideUp 1s ease-out 1s forwards;
-            text-align: right;
-        }
+       .order-form {
+    padding: 20px;
+    background: #fff;
+    margin-top: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideUp 1s ease-out 1s forwards;
+    text-align: right;
+    outline: 3px dashed #219f2a; /* خط متقطع حول العنصر */
+    outline-offset: -10px; /* يبعد الخط شوية باش يبان مزيان */
+    border-radius: 27px; /* يعطي جمالية أكثر خصوصا في الهواتف */
+}
+
         .order-form h3 {
             text-align: center;
             margin-bottom: 15px;
+            
         }
         .input-group {
             display: flex;
@@ -49,6 +56,7 @@
             margin-bottom: 10px;
             padding: 10px;
             background: #f9f9f9;
+           
         }
         .input-group i {
             margin-left: 10px;
@@ -65,7 +73,7 @@
         .order-form button {
             width: 100%;
             padding: 12px;
-            background: #28a745;
+            background: #008e21;
             color: white;
             font-size: 18px;
             cursor: pointer;
@@ -75,7 +83,7 @@
             font-family: 'Cairo', sans-serif;
         }
         .order-form button:hover {
-            background: #898989;
+            background: #2ece00;
         }
        .color-options {
     display: flex;
@@ -116,7 +124,7 @@
     <h1 style="color:#28a745; font-size:24px; margin-bottom:10px;">🎉 عرض محدود على TROTTINETTE Tank M41 🔥</h1>
 
     <div class="container">
-        <img src="1.jpg" alt="الصورة الأولى" class="main-image">
+        <img src="3.png" alt="الصورة الأولى" class="main-image">
         
         <div class="order-form">
             <h3>عرض محدود!</h3>
@@ -125,7 +133,7 @@
             <form id="orderForm">
                 <div class="input-group">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder="الاسم" required>
+                    <input type="text" name="name" placeholder=" الاسم الكامل" required>
                 </div>
                 <div class="input-group">
                     <i class="fas fa-phone"></i>
