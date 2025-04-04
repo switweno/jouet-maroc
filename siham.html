@@ -9,7 +9,7 @@
     <style>
         body {
             text-align: center;
-             font-family: 'Cairo', sans-serif;
+            font-family: 'Cairo', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -18,7 +18,6 @@
             max-width: 1081px;
             margin: auto;
             background: white;
-           
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .main-image, .bottom-image {
@@ -32,14 +31,13 @@
             padding: 20px;
             background: #fff;
             margin-top: -8px;
-            
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transform: translateY(30px);
             opacity: 0;
             animation: slideUp 1s ease-out 1s forwards;
             text-align: right;
         }
-        .order-form h2 {
+        .order-form h3 {
             text-align: center;
             margin-bottom: 15px;
         }
@@ -77,27 +75,27 @@
             font-family: 'Cairo', sans-serif;
         }
         .order-form button:hover {
-            background: #218838;
+            background: #898989;
         }
-        
-         .product-description {
-            text-align: center;
-            font-size: 17px;
-            margin: 5px 0;
-            padding: 3px;
-            background: #f9f9f9;
-            border-radius: 10px;
-             direction: ltr;
-        }
-        .product-description h2 {
-            color: #28a745;
-            margin-bottom: 10px;
-        }
-        .product-description p {
-            margin: 15px 0;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 8px;
-        }
+       .color-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.color-box {
+    width: 40px; /* زيادة العرض للحصول على مربعات أكبر */
+    height: 40px; /* زيادة الارتفاع للحصول على مربعات أكبر */
+    margin: 0 5px;
+    border-radius: 5px; /* زوايا مستديرة قليلاً بدلاً من دائري بالكامل */
+    cursor: pointer;
+    border: 2px solid #ccc; /* حدود رمادية افتراضية */
+    transition: border-color 0.3s ease; /* تأثير انسيابي لتغيير لون الحدود */
+}
+
+.color-box.selected {
+    border: 2px solid #010c03; /* تغيير لون الحدود عند التحديد */
+}
         /* Animations */
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -115,11 +113,15 @@
     </style>
 </head>
 <body>
+    <h1 style="color:#28a745; font-size:24px; margin-bottom:10px;">🎉 عرض محدود على TROTTINETTE Tank M41 🔥</h1>
+
     <div class="container">
         <img src="1.jpg" alt="الصورة الأولى" class="main-image">
         
         <div class="order-form">
-            <h2>املأ الاستمارة للطلب</h2>
+            <h3>عرض محدود!</h3>
+            <h3>التوصيل مجاني لجميع مدن المغرب</h3>
+            <h3>6499 MAD</h3>
             <form id="orderForm">
                 <div class="input-group">
                     <i class="fas fa-user"></i>
@@ -133,56 +135,83 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="text" name="address" placeholder="العنوان" required>
                 </div>
-                <input type="hidden" name="product" value="shine s">
-                <input type="hidden" name="price" value="7199 درهم">
+                <div class="input-group">
+                    <i class="fas fa-city"></i>
+                    <input type="text" name="city" placeholder="المدينة" required>
+                </div>
+                <div class="color-options">
+                    <div class="color-box" style="background-color: #faca2f;" onclick="selectColor('#ff5733', 'ذهبي')"></div>
+                    <div class="color-box" style="background-color: #00e629;" onclick="selectColor('#33ff57', 'أخضر')"></div>
+                    <div class="color-box" style="background-color: #3357ff;" onclick="selectColor('#3357ff', 'أزرق')"></div>
+                </div>
+                <div class="selected-color" id="selectedColor">اللون المختار: لم يتم اختيار لون بعد</div>
+                <input type="hidden" name="color" id="colorInput">
+                <input type="hidden" name="product" value="TROTTINETTE Tank M41">
+                <input type="hidden" name="price" value="6499 درهم">
                 <button type="submit">إرسال الطلب</button>
             </form>
         </div>
-        <div class="product-description">
-            <h2>💫 JOUET MAROC 💫</h2>
-            <p>✅ OFFRE SPÉCIALE M41 TANK 🔥</p>
-            <p>➡ TROTTINETTE Tank M41</p>
-            <p>➡ MARQUE Ecoxtrem tank</p>
-            <p>➡ Moteur 1200W min - 2400W MAX</p>
-            <p>➡ Batterie 48 V 16AH</p>
-            <p>➡ Frein de sécurité</p>
-            <p>➡ Suspension avant et arrière</p>
-            <p>➡ Charge max 150 kg</p>
-            <p>➡ Freinage: disque Avant et arrière + E-ABS</p>
-            <p>➡ Autonomie 35km min - 60km max</p>
-            <p>➡ Vitesse 55 km max</p>
-            <p>➡ Matériel Alliage d'aluminium</p>
-            <p>➡ Batterie lithium</p>
-            <p>➡ Tableau digital</p>
-            <p>➡ 3e vitesse</p>
-            <p>➡ Led avant et arrière</p>
-            <p>➡ Eclairage Phare LED + feu arrière + led lateral</p>
-            <p>➡ Etanchéité IP54</p>
-            <p>➡ WATERPROOF IPX4</p>
-            <p>➡ PLIABLE OUI</p>
-            <p>➡ Autre Feu signal - Clé de contact NFC</p>
-            <p>➡ Signal à gauche et à droite</p>
-            <p>➡ Maîtrisé depuis le téléphone 📱</p>
-            <p>➡ Taille des roues Off-road 11 pouces</p>
-            <p>➡ Charge 54V</p>
-            <p>➡ Sac de Trottinette cadeau 🎁 🎁</p>
-        </div>
-        
-        
+        <div class="product-description" dir="ltr">
+    <h2>💫 JOUET MAROC 💫</h2>
+    <p>✅ OFFRE SPÉCIALE M41 TANK 🔥</p>
+    <p>➡ TROTTINETTE Tank M41</p>
+    <p>➡ MARQUE Ecoxtrem tank</p>
+    <p>➡ Moteur 1200W min - 2400W MAX</p>
+    <p>➡ Batterie 48 V 16AH</p>
+    <p>➡ Frein de sécurité</p>
+    <p>➡ Suspension avant et arrière</p>
+    <p>➡ Charge max 150 kg</p>
+    <p>➡ Freinage: disque Avant et arrière + E-ABS</p>
+    <p>➡ Autonomie 35km min - 60km max</p>
+    <p>➡ Vitesse 55 km/h max</p>
+    <p>➡ Matériel Alliage d'aluminium</p>
+    <p>➡ Batterie lithium</p>
+    <p>➡ Tableau digital</p>
+    <p>➡ 3 vitesses</p>
+    <p>➡ Led avant et arrière</p>
+    <p>➡ Éclairage Phare LED + feu arrière + led latéral</p>
+    <p>➡ Étanchéité IP54</p>
+    <p>➡ WATERPROOF IPX4</p>
+    <p>➡ PLIABLE OUI</p>
+    <p>➡ Autre Feu signal - Clé de contact NFC</p>
+    <p>➡ Signal à gauche et à droite</p>
+    <p>➡ Contrôlé depuis le téléphone 📱</p>
+    <p>➡ Taille des roues Off-road 11 pouces</p>
+    <p>➡ Charge 54V</p>
+    <p>➡ Sac de Trottinette cadeau 🎁 🎁</p>
+</div>
         <img src="2.jpg" alt="الصورة الثانية" class="bottom-image">
     </div>
 
     <script>
+        let selectedColor = '';
+
+        function selectColor(color, colorName) {
+            selectedColor = color;
+            document.getElementById('selectedColor').innerText = `اللون المختار: ${colorName}`;
+            document.getElementById('colorInput').value = color;
+            const colorBoxes = document.querySelectorAll('.color-box');
+            colorBoxes.forEach(box => box.classList.remove('selected'));
+            event.target.classList.add('selected');
+        }
+
         document.getElementById("orderForm").addEventListener("submit", function(event) {
             event.preventDefault();
             let name = this.name.value;
             let phone = this.phone.value;
             let address = this.address.value;
+            let city = this.city.value;
             let product = this.product.value;
             let price = this.price.value;
-            
-            let message = `طلب جديد:\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالعنوان: ${address}\nالمنتج: ${product}\nالسعر: ${price}`;
-            
+            let color = this.color.value;
+
+            if (!selectedColor) {
+                alert('يرجى اختيار لون المنتج!');
+                return;
+            }
+
+            let message = `طلب جديد:\nالاسم: ${name}\nرقم الهاتف: ${phone}\nالعنوان: ${address}\nالمدينة: ${city}\nالمنتج: ${product}\nالسعر: ${price}\nاللون: ${color}`;
+
             let whatsappURL = `https://wa.me/212762609147?text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, "_blank");
         });
