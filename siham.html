@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحة مصممة بالصور</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <style>
         body {
             text-align: center;
-            font-family: Arial, sans-serif;
+             font-family: 'Cairo', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -30,8 +31,8 @@
         .order-form {
             padding: 20px;
             background: #fff;
-            margin-top: 20px;
-            border-radius: 10px;
+            margin-top: -8px;
+            
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transform: translateY(30px);
             opacity: 0;
@@ -61,6 +62,7 @@
             outline: none;
             background: transparent;
             font-size: 16px;
+            font-family: 'Cairo', sans-serif;
         }
         .order-form button {
             width: 100%;
@@ -71,12 +73,31 @@
             cursor: pointer;
             border: none;
             border-radius: 5px;
-            animation: pulse 1.5s infinite;
+            animation: pulse 2.9s infinite;
+            font-family: 'Cairo', sans-serif;
         }
         .order-form button:hover {
             background: #218838;
         }
         
+         .product-description {
+            text-align: center;
+            font-size: 17px;
+            margin: 5px 0;
+            padding: 3px;
+            background: #f9f9f9;
+            border-radius: 10px;
+             direction: ltr;
+        }
+        .product-description h2 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        .product-description p {
+            margin: 15px 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
         /* Animations */
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -88,7 +109,7 @@
         }
         @keyframes pulse {
             0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+            50% { transform: scale(1.02); }
             100% { transform: scale(1); }
         }
     </style>
@@ -98,7 +119,7 @@
         <img src="1.jpg" alt="الصورة الأولى" class="main-image">
         
         <div class="order-form">
-            <h2>نموذج الطلب</h2>
+            <h2>املأ الاستمارة للطلب</h2>
             <form id="orderForm">
                 <div class="input-group">
                     <i class="fas fa-user"></i>
@@ -117,8 +138,38 @@
                 <button type="submit">إرسال الطلب</button>
             </form>
         </div>
+        <div class="product-description">
+            <h2>💫 JOUET MAROC 💫</h2>
+            <p>✅ OFFRE SPÉCIALE M41 TANK 🔥</p>
+            <p>➡ TROTTINETTE Tank M41</p>
+            <p>➡ MARQUE Ecoxtrem tank</p>
+            <p>➡ Moteur 1200W min - 2400W MAX</p>
+            <p>➡ Batterie 48 V 16AH</p>
+            <p>➡ Frein de sécurité</p>
+            <p>➡ Suspension avant et arrière</p>
+            <p>➡ Charge max 150 kg</p>
+            <p>➡ Freinage: disque Avant et arrière + E-ABS</p>
+            <p>➡ Autonomie 35km min - 60km max</p>
+            <p>➡ Vitesse 55 km max</p>
+            <p>➡ Matériel Alliage d'aluminium</p>
+            <p>➡ Batterie lithium</p>
+            <p>➡ Tableau digital</p>
+            <p>➡ 3e vitesse</p>
+            <p>➡ Led avant et arrière</p>
+            <p>➡ Eclairage Phare LED + feu arrière + led lateral</p>
+            <p>➡ Etanchéité IP54</p>
+            <p>➡ WATERPROOF IPX4</p>
+            <p>➡ PLIABLE OUI</p>
+            <p>➡ Autre Feu signal - Clé de contact NFC</p>
+            <p>➡ Signal à gauche et à droite</p>
+            <p>➡ Maîtrisé depuis le téléphone 📱</p>
+            <p>➡ Taille des roues Off-road 11 pouces</p>
+            <p>➡ Charge 54V</p>
+            <p>➡ Sac de Trottinette cadeau 🎁 🎁</p>
+        </div>
         
-        <img src="0.jpg" alt="الصورة الثانية" class="bottom-image">
+        
+        <img src="2.jpg" alt="الصورة الثانية" class="bottom-image">
     </div>
 
     <script>
