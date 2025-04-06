@@ -161,7 +161,22 @@
         <priority>0.8</priority>
     </url>
 	<url>
-        <loc>https://jouet-maroc.com/?voiture -bmw-4x4-2025</loc>
+        <loc>https://jouet-maroc.com/?voiture-bmw-4x4-2025</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?trottinette-scooter-36V</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?trottinette-pro-edition-36v</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?trottinette-ienyrid-m9</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

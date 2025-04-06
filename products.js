@@ -1120,7 +1120,65 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
   
-  
+  {
+   id: "trottinette-ienyrid-m9",
+   title: "TROTTINETTE IENYRID M9",
+   brand: "IENYRID",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 65,
+   currentPrice: 6249,
+   oldPrice: 6900,
+   discount: 30,
+   images: [
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-02.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-03.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-04.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-05.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-06.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-07.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-08.webp",
+    "trottinette-ienyrid-m9/trottinette-ienyrid-m9-09.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W MAX " },
+      { key: "BATTERIE", value: "48V 18AH LITHIUM " },
+      { key: "AUTONOMIE", value: "40km min - 50km max" },
+      { key: "VITESSE MAX", value: "51 km/h " },
+      { key: "CHARGE MAX", value: "130 KG " },
+      { key: "FREIN", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Double Amortisseur " },
+      { key: "TABLEAU", value: "Digital " },
+      { key: "VITESSE", value: "3 niveaux " },
+      { key: "PNEU", value: "11 pouces Off-road tubeless " },
+      { key: "KLAXON", value: "Électrique " }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière " },
+      { key: "ÉCLAIRAGE", value: "LED Avant & Feu Arrière" },
+      { key: "AFFICHEUR", value: "Grand Afficheur LED" },
+      { key: "SIÈGE", value: "Inclus + Box arrière (siège enfant)" },
+      { key: "PLIABLE", value: "OUI " },
+      { key: "SIGNAL", value: "Gauche & Droite" }
+    ]
+  }
+],
+
+
+
+   warranty: "GARANTIE 3 MOIS",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
+  }, 
 
   {
    id: "trottinette-Tank-m41",

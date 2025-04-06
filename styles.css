@@ -816,7 +816,7 @@ header {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #4E67EB; /* لون الشريط الأساسي */
+    background: #0e757b; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -2098,7 +2098,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #4E67EB; /* لون الشريط الأساسي */
+    background: #0e757b; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
     margin-bottom: 10px;
@@ -2822,7 +2822,7 @@ select {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #4E67EB; /* لون الشريط الأساسي */
+    background: #0e757b; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
   
@@ -3655,7 +3655,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     max-width: 100vw;
     height: 45px; /* زيادة الارتفاع قليلاً */
     line-height: 45px;
-    background-color:  #4E67EB;
+    background-color:  #0e757b;
     padding: 0 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -3897,7 +3897,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #4E67EB;
+    background: #0e757b;
     color: white;
     font-size: 1rem;
     font-weight: 600;
