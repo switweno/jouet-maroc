@@ -1302,6 +1302,60 @@ features: [
   },
   
    {
+   id: "moteur-police-12v",
+   title: " Moteur Police 12V 👮🏼",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 1949,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "moteur-police-12v/moteur-police-12v-01.webp",
+     "moteur-police-12v/moteur-police-12v-02.webp",
+     "moteur-police-12v/moteur-police-12v-03.webp",
+     "moteur-police-12v/moteur-police-12v-04.webp",
+     "moteur-police-12v/moteur-police-12v-05.webp",
+     "moteur-police-12v/moteur-police-12v-06.webp",
+     "moteur-police-12v/moteur-police-12v-07.webp",
+     "moteur-police-12v/moteur-police-12v-08.webp",
+     "moteur-police-12v/moteur-police-12v-09.webp",
+     "moteur-police-12v/moteur-police-12v-10.webp"
+   ],
+    
+features: [
+  {
+    "title": "المواصفات التقنية",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "2 GRANDS MOTEURS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "LUMIÈRE", "value": "DE LA POLICE" },
+      { "key": "ÂGE", "value": "3 - 11 ANS" },
+      { "key": "COULEUR", "value": "⚪" }
+    ]
+  },
+  {
+    "title": "المميزات الإضافية",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "EFFETS SONORES", "value": "MUSIQUE POLICE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" }
+  ]
+  }
+],
+   warranty: "Livraison Gratuite",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1008831804520859%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
    id: "voiture-jeep-bougie",
    title: "Voiture jeep bougie 2025",
    brand: "Marque enfant",
