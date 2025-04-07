@@ -1075,9 +1075,9 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 136,
-   currentPrice: 5890,
+   currentPrice: 5490,
    oldPrice: 7099,
-   discount: 20,
+   discount: 40,
    images: [
      "bison-gt/bison-gt-1000-1.webp",
      "bison-gt/bison-gt-1000-2.webp",
