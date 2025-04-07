@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
         body {
             text-align: center;
-           font-family: 'Montserrat', 'Cairo', sans-serif;
+           font-family: 'Cairo', 'Cairo', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -160,95 +160,7 @@ button {
             
         }
 
-.why-choose-us {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-   
-    background: rgba(255, 255, 255, 0);
-    max-width: auto; /* تحديد الحد الأقصى للعرض */
-    margin: 0 auto; /* يجعلها في المنتصف */
-    width: 100%; /* حتى لا تؤثر على الشاشات الصغيرة */
-}
-
-
-        .card {
-            background: rgba(255, 255, 255, 0);
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(201, 201, 201, 0);
-            text-align: center;
-            padding: 20px;
-            width: 200px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-             border: none !important;
-  
         
-        }
-
-     .card .icon-container i.fas.fa-headset {
-    color: #ff5733; /* لون مخصص لأيقونة الدعم الفني */
-}
-
-.card .icon-container i.fas.fa-bullseye {
-    color: #33aaff; /* لون مخصص لأيقونة المهمة */
-}
-
-.card .icon-container i.fas.fa-award {
-    color: #00c9af; /* لون مخصص لأيقونة الجودة */
-}
-
-.card .icon-container i.fas.fa-handshake {
-    color: #ffcc00; /* لون مخصص لأيقونة النزاهة */
-}
-
-.card .icon-container i.fas.fa-truck {
-    color: #ff8a00; /* لون مخصص لأيقونة الشحن */
-}
-        
- 
-
-        .icon-container {
-            width: 70px;
-            height: 70px;
-            background-color: rgb(40, 7, 7); /* خلفية رمادية */
-            border-radius: 50%; /* شكل دائري */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 15px auto; /* مسافة بين الأيقونة والنص */
-            
-        }
-.icon-container:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.17);
-        }
-        .icon-container i {
-            font-size: 2rem;
-            color: #ff1e48; /* لون الأيقونة */
-        }
-
-        .card h3 {
-            font-size: 1.2rem;
-             color: #494949;
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-family: 'Montserrat', 'Cairo', sans-serif;
-        }
-
-        .card p {
-            font-size: 0.9rem;
-            color: #555;
-            font-family: 'Montserrat', 'Cairo', sans-serif;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .card {
-                width: 100%;
-                max-width: 283px;
-            }
-        }
 .price-box {
   display: flex;
   flex-direction: column;
@@ -322,7 +234,7 @@ button {
                 <input type="hidden" name="color" id="colorInput">
                 <input type="hidden" name="product" value="TROTTINETTE Tank M41">
                 <input type="hidden" name="price" value="6499 درهم">
-                <button type="submit">إرسال الطلب</button>
+                <button type="submit">إرسال طلب عبر الواتساب</button>
             </form>
         </div>
         <div class="product-description" dir="ltr">
@@ -360,47 +272,7 @@ button {
 
         <img src="12.jpg" alt="الصورة الثانية" class="bottom-image">
     </div>
-<section class="why-choose-us">
-        <div class="card">
-            <div class="icon-container">
-                <i class="fas fa-headset"></i>
-            </div>
-            <h3>دعم فني 24/7</h3>
-            <p>فريق دعم فني متاح دائمًا لمساعدتك.</p>
-        </div>
 
-        <div class="card">
-            <div class="icon-container">
-                <i class="fas fa-bullseye fa"></i>
-            </div>
-            <h3>مهمتنا</h3>
-            <p>تقديم منتجات عالية الجودة بأسعار تنافسية مع توفير تجربة تسوق سلسة ومريحة.</p>
-        </div>
-
-        <div class="card">
-            <div class="icon-container">
-                <i class="fas fa-award fa"></i>
-            </div>
-            <h3>الجودة</h3>
-            <p>نقدم منتجات عالية الجودة تلبي احتياجات عملائنا.</p>
-        </div>
-
-        <div class="card">
-            <div class="icon-container">
-                <i class="fas fa-handshake"></i>
-            </div>
-            <h3>النزاهة</h3>
-            <p>نحن نتعامل بصدق وشفافية مع جميع عملائنا وشركائنا.</p>
-        </div>
-
-        <div class="card">
-            <div class="icon-container">
-                <i class="fas fa-truck"></i>
-            </div>
-            <h3>شحن سريع</h3>
-            <p>نوفر خدمة شحن سريع وموثوق بها.</p>
-        </div>
-    </section>
     <script>
     let selectedColor = ''; // لتخزين كود اللون (غير ضروري الآن)
     let selectedColorName = ''; // لتخزين اسم اللون
