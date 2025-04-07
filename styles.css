@@ -32,11 +32,11 @@ html, body {
 
 /* تعديل الحاوية الرئيسية */
 .container {
-    width: 102%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 14px;
-    overflow-x: hidden;
+    
 }
 
 /* Header Styles */
@@ -1947,7 +1947,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .feature-highlight {
-        padding: 5px; /* Reduce padding */
+        padding: 10px; /* Reduce padding */
         margin-top: 15px;
     }
     
