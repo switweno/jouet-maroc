@@ -943,6 +943,72 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
  },
   
+ {
+    id: "vélo-éléctrique-likebike-a10",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE A10",
+    brand: "LIKEBIKE A10 ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 68,
+    currentPrice: 5499,
+    oldPrice: 7099,
+    discount: 30,
+    images: [
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-01.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-02.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-03.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-04.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-05.webp",
+     "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-06.webp",
+     "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-07.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-08.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-09.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-10.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-11.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-12.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-13.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-14.webp"
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+       { "key": "PUISSANCE", "value": "400 W MAX " },
+      { "key": "BATTERIE", "value": "48V 18AH LITHIUM " },
+      { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
+      { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
+      { "key": "VITESSE MAX", "value": "46 KM/H " },
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { "key": "NIVEAUX DE VITESSE", "value": "3 NIVEAUX" },
+      { "key": "VITESSE PÉDALE", "value": "1E VITESSE MANUELLE" },
+      { "key": "BATTERIE TYPE", "value": "LITHIUM " },
+      { "key": "VÉLO", "value": "PLIABILE" },
+      { "key": "DÉMARRAGE", "value": "CONTACT" }
+      
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "CHARGE", value: "54V" },
+      { key: "AMORTISSEURS", value: "DOUBLE" },
+      { key: "LED", value: "AV/AR" },
+      { key: "PNEUS", value: "14 POUCES" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "CONFORT", value: "VÉLO PLIABLE" },
+      { key: "CHARGE MAX", value: "120 KG" }
+       
+      
+    ]
+  }
+],
+   warranty: "GARANTIE 3 MOIS",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F977083681237253%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
