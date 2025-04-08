@@ -801,7 +801,7 @@ header {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #0e757b; /* لون الشريط الأساسي */
+    background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
@@ -1312,8 +1312,8 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #fffaeb;
-    border: 1px solid #ffcc80;
+    background-color: #FED700;
+    border: 1px solid rgba(197, 197, 197, 0.75);
     border-radius: 8px;
     padding: 14px;
     margin-top: 10px;
@@ -1323,12 +1323,12 @@ header {
     align-items: center;
     justify-content: center;
      direction: ltr;
-     
-    
+     color: rgb(13, 13, 13);
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .feature-highlight i {
-    color: #28a745;
+    color: rgb(40, 167, 69);
     font-size: 1.1rem;
     margin-right: 10px;
 }
@@ -1507,7 +1507,7 @@ header {
    
 }
 #buy-now-btn {
-    background-color:  #1EA252; /* لون مختلف */
+    background-color:  #347f08; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
     font-size: 1rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
@@ -2083,7 +2083,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     text-align:center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #0e757b; /* لون الشريط الأساسي */
+    background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
     margin-bottom: 10px;
@@ -2807,7 +2807,7 @@ select {
     font-size: 1.2rem;
     text-align: center; /* محاذاة لليمين للغة العربية */
     padding: 10px 15px;
-    background: #0e757b; /* لون الشريط الأساسي */
+    background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
   
@@ -2854,13 +2854,13 @@ select {
     background-color:rgba(240, 240, 240, 0.47);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 8px rgba(42, 167, 145, 0.43);
+    box-shadow: 0 3px 8px rgba(62, 35, 209, 0.43);
     height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     transition: box-shadow 0.3s ease;
-    border: 1px solid #0e757b;
+    border: 1px solid #670a67;
     margin-bottom: 10px; /* إضافة هامش سفلي جديد */
      outline: 1px dashed rgba(163, 163, 163, 0);  /* خط متقطع حول العنصر */ 
 }
@@ -2874,7 +2874,7 @@ select {
     height: 314px;
     object-fit: cover;
     transition: transform 0.5s ease;
-    border-bottom: 1px solid #0e757b;
+    border-bottom: 1px solid #670a67;
 }
 
 
@@ -3640,7 +3640,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
     max-width: 100vw;
     height: 45px; /* زيادة الارتفاع قليلاً */
     line-height: 45px;
-    background-color:  #0e757b;
+    background-color:  #670a67;
     padding: 0 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -3882,7 +3882,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #0e757b;
+    background: #670a67;
     color: white;
     font-size: 1rem;
     font-weight: 600;
