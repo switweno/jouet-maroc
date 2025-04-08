@@ -1204,7 +1204,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: #d6d6d6;
+    color: #201c1c;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1217,7 +1217,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #f7f9fb;
+    color: #000000;
     background-color: rgba(0, 123, 255, 0);
    
 }
@@ -1250,8 +1250,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 1rem!important;
-    color: #fff;
-    background: #ef1558;
+    color: #5c5353;
+    background: rgba(239, 239, 239, 0.45);
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1260,7 +1260,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 5px;
-    color: #ffffff;
+    color: #3161ad;
     
 }
 
@@ -3882,7 +3882,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #670a67;
+    background: #ff1e48;
     color: white;
     font-size: 1rem;
     font-weight: 600;
