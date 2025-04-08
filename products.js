@@ -387,6 +387,122 @@ features: [
     warranty: "GARANTIE 3 MOIS",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
+  
+  {
+    id: "madame-youmeig-26",
+    title: "VÉLO MADAME YOUMEIG 26",
+    brand: "YOUMEIG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 325,
+    currentPrice: 1299,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-madame-youmeig-26/madame-youmeig-26-01.webp",
+     "vélo-madame-youmeig-26/madame-youmeig-26-02.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-03.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-04.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-05.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-06.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-07.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-08.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-09.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-10.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-11.webp"
+    ],
+    features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 1×7" },
+      { key: "PLATEAU", value: "PLATEAU SHIMANO‏" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
+      { key: "SIÈGE", value: "SIÈGE CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "KLAXON", value: "INCLUS" },
+      { key: "FEU STOP", value: "FEU STOP ARRIÈRE" },
+      { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+      { key: "FREINS", value: "FREINAGE AVANT ET ARRIÈRE" },
+      { key: "COULEUR", value: "Mauve, Jaune, Bleu" }
+
+    ]
+  }
+],
+
+    
+    
+    warranty: "Livraison Gratuite",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F619757167599413%2F&show_text=false&width=267&t=0"
+  },
+  
+    {
+    id: "vélo-madame-youmeig-26p",
+    title: "VÉLO MADAME YOUMEIG 26",
+    brand: "YOUMEIG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 25,
+    currentPrice: 1349,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-01.webp",
+     "vélo-madame-youmeig-26p/madame-youmeig-26p-02.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-03.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-04.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-05.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-06.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-07.webp"
+    ],
+    features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 1×7" },
+      { key: "PLATEAU", value: "PLATEAU SHIMANO‏" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
+      { key: "SIÈGE", value: "SIÈGE CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "KLAXON", value: "INCLUS" },
+      { key: "FEU STOP", value: "FEU STOP ARRIÈRE" },
+      { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+      { key: "FREINS", value: "FREINAGE AVANT ET ARRIÈRE" },
+     { key: "COULEUR", value: "Bleu, Blanc, Gris" }
+
+    ]
+  }
+],
+
+    
+    
+    warranty: "Livraison Gratuite",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
+  },
+  
+  
   {
     id: "VÉLO-BMX-GTR -ALUMINIUM",
     title: "VÉLO BMX GTR ALUMINIUM 26",
