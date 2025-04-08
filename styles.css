@@ -995,7 +995,7 @@ header {
 
 .old-price {
     text-decoration: line-through;
-    color: #615b5d;
+    color: #424242;
     font-size: 1.3rem;
 }
 
@@ -1019,7 +1019,7 @@ header {
     
     .current-price {
         font-size: 1.1rem;
-        padding: 4px 7px; /* إضافة تباعد داخلي */
+        padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     }
     
