@@ -25,7 +25,7 @@ const products = [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "800W MAX" },
@@ -39,7 +39,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
@@ -84,7 +84,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "1300W MAX" },
@@ -98,7 +98,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
@@ -141,7 +141,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "500W - 700W MAX" },
@@ -153,7 +153,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
@@ -196,7 +196,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "500W - 700W MAX" },
@@ -209,7 +209,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
@@ -256,7 +256,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "500W MIN - 1000W MAX" },
@@ -269,7 +269,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APPLICATION MOBILE 📱" },
@@ -311,7 +311,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "1000 W" },
@@ -324,7 +324,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "AFFICHAGE", value: "DISPLAY EY2 (APPLICATION MOBILE) 📱" },
@@ -369,7 +369,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "500W MAX" },
@@ -382,7 +382,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "MATÉRIAU", value: "ALUMINIUM" },
@@ -423,7 +423,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "1200W" },
@@ -435,7 +435,7 @@ features: [
         ]
       },
       {
-         title: "المميزات الإضافية",
+         title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
@@ -478,7 +478,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "1000W MIN - 1450W MAX" },
@@ -491,7 +491,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
@@ -533,7 +533,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MARQUE", value: "BISON GT ORIGINAL" },
@@ -546,7 +546,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "PNEUS", value: "10 POUCES OFF-ROAD" },
@@ -586,7 +586,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "1200W MAX " },
@@ -603,7 +603,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "LED", value: "Avant + Arrière " },
@@ -648,7 +648,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "1200W min - 2400W MAX" },
@@ -665,7 +665,7 @@ features: [
     ]
   },
   {
-    title: "المزايا المتقدمة",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "LED", value: "Avant + Arrière + Latéral" },
@@ -711,7 +711,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MARQUE", value: "ECOXTREM LINEAR" },
@@ -724,7 +724,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "ROUES", value: "10 POUCES TUBELESS" },
@@ -769,7 +769,7 @@ features: [
     ],
     features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "ROUES", value: "26 POUCES" },
@@ -780,7 +780,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
@@ -824,7 +824,7 @@ features: [
     ],
     features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "ROUES", value: "26 POUCES" },
@@ -835,7 +835,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
@@ -882,7 +882,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "ROUES", value: "26 POUCES" },
@@ -895,7 +895,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
@@ -933,7 +933,7 @@ features: [
     ],
     features: [
     {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
             { key: "ROUES", value: "20 POUCES" },
@@ -946,7 +946,7 @@ features: [
         ]
     },
     {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
             { key: "AMORTISSEUR", value: "AVANT" },
@@ -982,7 +982,7 @@ features: [
       
     features: [
     {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
             { key: "ROUES", value: "26 POUCES" },
@@ -993,7 +993,7 @@ features: [
         ]
     },
     {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [  
             { key: "SIÈGE", value: "CUIRE AVEC AMORTISSEUR" }, 
@@ -1040,7 +1040,7 @@ features: [
       
     features: [
     {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
             { key: "ROUES", value: "28 POUCES" },
@@ -1051,7 +1051,7 @@ features: [
         ]
     },
     {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
             { key: "SIÈGE", value: "CUIRE" },
@@ -1098,7 +1098,7 @@ features: [
       
     features: [
     {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
              { key: "ROUES", value: "20 POUCES" },
@@ -1111,7 +1111,7 @@ features: [
         ]
     },
     {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
            { key: "AMORTISSEUR", value: "AVANT" },
@@ -1146,7 +1146,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "ROUES", value: "26 POUCES" },
@@ -1159,7 +1159,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" },
@@ -1200,7 +1200,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "750 W MAX" },
@@ -1215,7 +1215,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
@@ -1258,7 +1258,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "500 W MAX" },
@@ -1271,7 +1271,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
@@ -1315,7 +1315,7 @@ features: [
     ],
     features: [
       {
-        title: "المواصفات التقنية",
+        title: "AVANTAGES AVANCÉS",
         icon: "fa-cogs",
         items: [
           { key: "PUISSANCE", value: "500 W MAX" },
@@ -1329,7 +1329,7 @@ features: [
         ]
       },
       {
-        title: "المميزات الإضافية",
+        title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
           { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
@@ -1375,7 +1375,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
        { "key": "PUISSANCE", "value": "400 W MAX " },
@@ -1393,7 +1393,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "CHARGE", value: "54V" },
@@ -1441,7 +1441,7 @@ features: [
     ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
        { "key": "PUISSANCE", "value": "400 W MAX " },
@@ -1459,7 +1459,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "CHARGE", value: "54V" },
@@ -1508,7 +1508,7 @@ features: [
    ],
 features: [
     {
-      title: "المواصفات التقنية",
+      title: "AVANTAGES AVANCÉS",
       icon: "fa-cogs",
       items: [
         { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
@@ -1524,7 +1524,7 @@ features: [
       ]
     },
     {
-      title: "المميزات الإضافية",
+      title: "CARACTÉRISTIQUES",
       icon: "fa-star",
       items: [
        
@@ -1570,7 +1570,7 @@ features: [
    ],
 features: [
     {
-      title: "المواصفات التقنية",
+      title: "AVANTAGES AVANCÉS",
       icon: "fa-cogs",
       items: [
         { key: "MOTEUR", value: "1000 W MAX" },
@@ -1583,7 +1583,7 @@ features: [
       ]
     },
     {
-      title: "المميزات الإضافية",
+      title: "CARACTÉRISTIQUES",
       icon: "fa-star",
       items: [
        
@@ -1630,7 +1630,7 @@ features: [
     
 features: [
   {
-    "title": "المواصفات التقنية",
+    "title": "AVANTAGES AVANCÉS",
     "icon": "fa-cogs",
     "items": [
       { "key": "BATTERIE", "value": "12V" },
@@ -1644,7 +1644,7 @@ features: [
     ]
   },
   {
-    "title": "المميزات الإضافية",
+    "title": "CARACTÉRISTIQUES",
     "icon": "fa-star",
     "items": [
       { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
@@ -1681,7 +1681,7 @@ features: [
     
 features: [
   {
-  "title": "المواصفات التقنية",
+  "title": "AVANTAGES AVANCÉS",
   "icon": "fa-cogs",
   "items": [
     { "key": "BATTERIE", "value": "12V 10AH" },
@@ -1694,7 +1694,7 @@ features: [
   ]
 },
 {
-  "title": "المميزات الإضافية",
+  "title": "CARACTÉRISTIQUES",
   "icon": "fa-star",
   "items": [
     { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
@@ -1734,7 +1734,7 @@ features: [
     
 features: [
   {
-    "title": "المواصفات التقنية",
+    "title": "AVANTAGES AVANCÉS",
     "icon": "fa-cogs",
     "items": [
       { "key": "BATTERIE", "value": "12V" },
@@ -1746,7 +1746,7 @@ features: [
     ]
   },
   {
-    "title": "المميزات الإضافية",
+    "title": "CARACTÉRISTIQUES",
     "icon": "fa-star",
     "items": [
       { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
@@ -1790,7 +1790,7 @@ features: [
     
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "BATTERIE", value: "12V" },
@@ -1803,7 +1803,7 @@ features: [
     ]
   },
  {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "CEINTURE", value: "DE SÉCURITÉ" },
@@ -1844,7 +1844,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "5 MOTEURS PUISSANTS" },
@@ -1855,7 +1855,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "CEINTURE", value: "INCLUSE" },
@@ -1895,7 +1895,7 @@ features: [
    ],
 features: [
   {
-  "title": "المواصفات التقنية",
+  "title": "AVANTAGES AVANCÉS",
   "icon": "fa-cogs",
   "items": [
     { "key": "MOTEUR", "value": "5 MOTOR" },
@@ -1909,7 +1909,7 @@ features: [
   ]
 },
 {
-  "title": "المميزات الإضافية",
+  "title": "CARACTÉRISTIQUES",
   "icon": "fa-star",
   "items": [
     { "key": "CEINTURE", "value": "CEINTURE DE SÉCURITÉ" },
@@ -1953,7 +1953,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "BATTERIE", value: "12V 10Ah" },
@@ -1965,7 +1965,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
        { key: "CEINTURE", value: "CEINTURE DE SÉCURITÉ" },
@@ -2003,7 +2003,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "3 MOTEURS PUISSANTS" },
@@ -2015,7 +2015,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "CEINTURE", value: "INCLUSE" },
@@ -2057,7 +2057,7 @@ features: [
    ],
 features: [
   {
-    title: "المواصفات التقنية",
+    title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
       { key: "MOTEUR", value: "2 MOTEURS PUISSANTS" },
@@ -2068,7 +2068,7 @@ features: [
     ]
   },
   {
-    title: "المميزات الإضافية",
+    title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
       { key: "SIÈGE", value: "SIÈGE EN CUIR CONFORTABLE" },
