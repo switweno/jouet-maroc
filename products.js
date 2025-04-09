@@ -1,6 +1,123 @@
 // تعريف المنتجات باسم واحد فقط لتجنب التضارب
 const products = [
   
+  {
+   id: "trottinette-togo-36v",
+    title: "TROTTINETTE DUALTRON TOGO 36V",
+    brand: "DUALTRON",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 12,
+    currentPrice: 4990,
+    oldPrice: 6599,
+    discount: 30,
+    images: [
+      "trottinette-togo-36v/trottinette-togo-36v-01.webp",
+     "trottinette-togo-36v/trottinette-togo-36v-02.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-03.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-04.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-05.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-06.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-07.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-08.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-09.webp"
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "800W MAX" },
+      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+      { key: "AUTONOMIE", value: "20KM MIN - 30KM MAX" },
+      { key: "VITESSE", value: "35KM MIN - 40KM MAX" },
+      { key: "CHARGE MAX", value: "110 KG" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE 📱" },
+      { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+],
+
+
+    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+   id: "trottinette-togo-48v",
+    title: "TROTTINETTE DUALTRON TOGO 48V",
+    brand: "DUALTRON",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 56,
+    currentPrice: 6490,
+    oldPrice: 7999,
+    discount: 30,
+    images: [
+      "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+      "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-01.webp"
+    ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1300W MAX" },
+      { key: "BATTERIE", value: "48V 12AH LITHIUM" },
+      { key: "AUTONOMIE", value: "30KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "45KM MIN - 51KM MAX" },
+      { key: "CHARGE MAX", value: "110 KG" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE 📱" },
+      { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  }
+],
+
+    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+  },
+  
    {
    id: "trottinette-pro-edition-36v",
     title: "TROTTINETTE PRO-EDITION 36V 15AH",
@@ -387,6 +504,240 @@ features: [
     warranty: "التوصيل بالمجان للجميع المدن المغربية",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
+  
+ {
+   id: "trottinette-bison-gt-1000",
+   title: "TROTTINETTE BISON GT 1000",
+   brand: "Ecoxtrem",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 136,
+   currentPrice: 5490,
+   oldPrice: 7099,
+   discount: 40,
+   images: [
+     "bison-gt/bison-gt-1000-1.webp",
+     "bison-gt/bison-gt-1000-2.webp",
+     "bison-gt/bison-gt-1000-3.webp",
+     "bison-gt/bison-gt-1000-4.webp",
+     "bison-gt/bison-gt-1000-5.webp",
+     "bison-gt/bison-gt-1000-6.webp",
+     "bison-gt/bison-gt-1000-7.webp",
+     "bison-gt/bison-gt-1000-8.webp",
+     "bison-gt/bison-gt-1000-9.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "BISON GT ORIGINAL" },
+      { key: "MOTEUR", value: "1000W MAX" },
+      { key: "VITESSE", value: "JUSQU'À 50 KM/H" },
+      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+      { key: "AUTONOMIE", value: "JUSQU'À 40 KM" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE + E-ABS" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "PNEUS", value: "10 POUCES OFF-ROAD" },
+      { key: "AMORTISSEURS", value: "DOUBLE SUSPENSION" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN DIGITAL" },
+      { key: "LUMIÈRES LED", value: "AVANT & ARRIÈRE" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "KLAXON", value: "OUI" }
+    ]
+  }
+],
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "trottinette-ienyrid-m9",
+   title: "TROTTINETTE IENYRID M9",
+   brand: "IENYRID",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 65,
+   currentPrice: 6249,
+   oldPrice: 6900,
+   discount: 30,
+   images: [
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-02.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-03.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-04.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-05.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-06.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-07.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-08.webp",
+    "trottinette-ienyrid-m9/trottinette-ienyrid-m9-09.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W MAX " },
+      { key: "BATTERIE", value: "48V 18AH LITHIUM " },
+      { key: "AUTONOMIE", value: "40km min - 50km max" },
+      { key: "VITESSE MAX", value: "51 km/h " },
+      { key: "CHARGE MAX", value: "130 KG " },
+      { key: "FREIN", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Double Amortisseur " },
+      { key: "TABLEAU", value: "Digital " },
+      { key: "VITESSE", value: "3 niveaux " },
+      { key: "PNEU", value: "11 pouces Off-road tubeless " },
+      { key: "KLAXON", value: "Électrique " }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière " },
+      { key: "ÉCLAIRAGE", value: "LED Avant & Feu Arrière" },
+      { key: "AFFICHEUR", value: "Grand Afficheur LED" },
+      { key: "SIÈGE", value: "Inclus + Box arrière (siège enfant)" },
+      { key: "PLIABLE", value: "OUI " },
+      { key: "SIGNAL", value: "Gauche & Droite" }
+    ]
+  }
+],
+
+
+
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
+  }, 
+
+  {
+   id: "trottinette-Tank-m41",
+   title: "TROTTINETTE Tank M41",
+   brand: "Ecoxtrem tank",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 6500,
+   oldPrice: 7899,
+   discount: 30,
+   images: [
+     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
+      "trottinette-Tank-m41/trottinette-tank-m41-10.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-11.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W min - 2400W MAX" },
+      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35km - 60km" },
+      { key: "VITESSE", value: "55 km/h max" },
+      { key: "CHARGE MAX", value: "150 KG" },
+      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Digital" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  },
+  {
+    title: "المزايا المتقدمة",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
+      { key: "ROUES", value: "Off-road 11 pouces" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "CADEAU", value: "Sac offert 🎁" }
+    ]
+  }
+ 
+],
+
+
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
+  }, 
+  
+ {
+   id: "trottinette-EcoXtrem-liner",
+   title: "TROTTINETTE EcoXtrem LINEAR",
+   brand: "EcoXtrem",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 3490,
+   oldPrice: 4199,
+   discount: 30,
+   images: [
+     "ecoxtrem-linear/ecoxtrem-linear-01.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-08.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-02.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-03.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-04.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-05.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-06.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-07.webp"
+   ],
+features: [
+  {
+    title: "المواصفات التقنية",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "ECOXTREM LINEAR" },
+      { key: "MOTEUR", value: "350W - 700W MAX" },
+      { key: "VITESSE", value: "25 - 30 KM/H" },
+      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+      { key: "AUTONOMIE", value: "15 - 25 KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "DISQUE ARRIÈRE + ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "المميزات الإضافية",
+    icon: "fa-star",
+    items: [
+      { key: "ROUES", value: "10 POUCES TUBELESS" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "ÉCRAN", value: "LCD EY2" },
+      { key: "VITESSE", value: "3 NIVEAUX RÉGLABLES" },
+      { key: "LED", value: "AVANT + STOP ARRIÈRE" },
+      { key: "SIGNAL", value: "CLIGNOTANTS GAUCHE/DROITE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "CADEAU", value: "SAC OFFERT 🎁" }
+    ]
+  }
+],
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
+  }, 
   
   {
     id: "madame-youmeig-26",
@@ -1247,239 +1598,7 @@ features: [
  },
   
   
- {
-   id: "trottinette-bison-gt-1000",
-   title: "TROTTINETTE BISON GT 1000",
-   brand: "Ecoxtrem",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 136,
-   currentPrice: 5490,
-   oldPrice: 7099,
-   discount: 40,
-   images: [
-     "bison-gt/bison-gt-1000-1.webp",
-     "bison-gt/bison-gt-1000-2.webp",
-     "bison-gt/bison-gt-1000-3.webp",
-     "bison-gt/bison-gt-1000-4.webp",
-     "bison-gt/bison-gt-1000-5.webp",
-     "bison-gt/bison-gt-1000-6.webp",
-     "bison-gt/bison-gt-1000-7.webp",
-     "bison-gt/bison-gt-1000-8.webp",
-     "bison-gt/bison-gt-1000-9.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "MARQUE", value: "BISON GT ORIGINAL" },
-      { key: "MOTEUR", value: "1000W MAX" },
-      { key: "VITESSE", value: "JUSQU'À 50 KM/H" },
-      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
-      { key: "AUTONOMIE", value: "JUSQU'À 40 KM" },
-      { key: "CHARGE MAX", value: "120 KG" },
-      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE + E-ABS" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "PNEUS", value: "10 POUCES OFF-ROAD" },
-      { key: "AMORTISSEURS", value: "DOUBLE SUSPENSION" },
-      { key: "TABLEAU DE BORD", value: "ÉCRAN DIGITAL" },
-      { key: "LUMIÈRES LED", value: "AVANT & ARRIÈRE" },
-      { key: "PLIABLE", value: "OUI" },
-      { key: "KLAXON", value: "OUI" }
-    ]
-  }
-],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
- },
-  
-  {
-   id: "trottinette-ienyrid-m9",
-   title: "TROTTINETTE IENYRID M9",
-   brand: "IENYRID",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 65,
-   currentPrice: 6249,
-   oldPrice: 6900,
-   discount: 30,
-   images: [
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-02.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-03.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-04.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-05.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-06.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-07.webp",
-     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-08.webp",
-    "trottinette-ienyrid-m9/trottinette-ienyrid-m9-09.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "1200W MAX " },
-      { key: "BATTERIE", value: "48V 18AH LITHIUM " },
-      { key: "AUTONOMIE", value: "40km min - 50km max" },
-      { key: "VITESSE MAX", value: "51 km/h " },
-      { key: "CHARGE MAX", value: "130 KG " },
-      { key: "FREIN", value: "Disque Avant & Arrière + E-ABS" },
-      { key: "SUSPENSION", value: "Double Amortisseur " },
-      { key: "TABLEAU", value: "Digital " },
-      { key: "VITESSE", value: "3 niveaux " },
-      { key: "PNEU", value: "11 pouces Off-road tubeless " },
-      { key: "KLAXON", value: "Électrique " }
-    ]
-  },
-  {
-    title: "المزايا المتقدمة",
-    icon: "fa-star",
-    items: [
-      { key: "LED", value: "Avant + Arrière " },
-      { key: "ÉCLAIRAGE", value: "LED Avant & Feu Arrière" },
-      { key: "AFFICHEUR", value: "Grand Afficheur LED" },
-      { key: "SIÈGE", value: "Inclus + Box arrière (siège enfant)" },
-      { key: "PLIABLE", value: "OUI " },
-      { key: "SIGNAL", value: "Gauche & Droite" }
-    ]
-  }
-],
-
-
-
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
-  }, 
-
-  {
-   id: "trottinette-Tank-m41",
-   title: "TROTTINETTE Tank M41",
-   brand: "Ecoxtrem tank",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 138,
-   currentPrice: 6500,
-   oldPrice: 7899,
-   discount: 30,
-   images: [
-     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
-      "trottinette-Tank-m41/trottinette-tank-m41-10.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-11.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "1200W min - 2400W MAX" },
-      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
-      { key: "AUTONOMIE", value: "35km - 60km" },
-      { key: "VITESSE", value: "55 km/h max" },
-      { key: "CHARGE MAX", value: "150 KG" },
-      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
-      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
-      { key: "SUSPENSION", value: "Avant & Arrière" },
-      { key: "TABLEAU", value: "Digital" },
-      { key: "VITESSE", value: "3 niveaux" },
-      { key: "CHARGE", value: "54V" }
-    ]
-  },
-  {
-    title: "المزايا المتقدمة",
-    icon: "fa-star",
-    items: [
-      { key: "LED", value: "Avant + Arrière + Latéral" },
-      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
-      { key: "PLIABLE", value: "OUI" },
-      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
-      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
-      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
-      { key: "ROUES", value: "Off-road 11 pouces" },
-      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
-      { key: "FEU SIGNAL", value: "OUI" },
-      { key: "CADEAU", value: "Sac offert 🎁" }
-    ]
-  }
  
-],
-
-
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
-  }, 
-  
- {
-   id: "trottinette-EcoXtrem-liner",
-   title: "TROTTINETTE EcoXtrem LINEAR",
-   brand: "EcoXtrem",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 138,
-   currentPrice: 3490,
-   oldPrice: 4199,
-   discount: 30,
-   images: [
-     "ecoxtrem-linear/ecoxtrem-linear-01.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-08.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-02.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-03.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-04.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-05.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-06.webp",
-     "ecoxtrem-linear/ecoxtrem-linear-07.webp"
-   ],
-features: [
-  {
-    title: "المواصفات التقنية",
-    icon: "fa-cogs",
-    items: [
-      { key: "MARQUE", value: "ECOXTREM LINEAR" },
-      { key: "MOTEUR", value: "350W - 700W MAX" },
-      { key: "VITESSE", value: "25 - 30 KM/H" },
-      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
-      { key: "AUTONOMIE", value: "15 - 25 KM" },
-      { key: "CHARGE MAX", value: "100 KG" },
-      { key: "FREIN", value: "DISQUE ARRIÈRE + ÉLECTRIQUE" }
-    ]
-  },
-  {
-    title: "المميزات الإضافية",
-    icon: "fa-star",
-    items: [
-      { key: "ROUES", value: "10 POUCES TUBELESS" },
-      { key: "ÉTANCHÉITÉ", value: "IPX5" },
-      { key: "ÉCRAN", value: "LCD EY2" },
-      { key: "VITESSE", value: "3 NIVEAUX RÉGLABLES" },
-      { key: "LED", value: "AVANT + STOP ARRIÈRE" },
-      { key: "SIGNAL", value: "CLIGNOTANTS GAUCHE/DROITE" },
-      { key: "KLAXON", value: "OUI" },
-      { key: "PLIABLE", value: "OUI" },
-      { key: "CADEAU", value: "SAC OFFERT 🎁" }
-    ]
-  }
-],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
-  },
   
    {
    id: "moteur-police-12v",
