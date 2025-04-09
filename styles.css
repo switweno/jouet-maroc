@@ -807,26 +807,6 @@ header {
    
 }
 
-.main-image {
-  position: relative;
-  overflow: hidden;
-}
-
-.main-image img {
-  transition: transform 0.4s ease;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.main-image:hover img {
-  transform: scale(1.4);
-}
-
-
-
-
-
 /* استعلام وسائط للشاشات الصغيرة */
 @media (max-width: 600px) {
     .product-description h3 {

@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
-    <!-- تضمين مكتبة Font Awesome -->
+    <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<!-- Google tag (gtag.js) -->
@@ -68,7 +68,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-W8HSK5ZD');
     </script>
 <!-- End Google Tag Manager -->
-    <!-- إضافة Bootstrap CSS لتحسين التنقل بين الصفحات -->
+  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
     <link rel="stylesheet" href="styles.css">
@@ -87,7 +87,7 @@
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
   
- <!-- شريط العروض -->
+
     <div class="offer-bar">
         <button class="arrow left-arrow" onclick="scrollOffers('prev')">&#10094;</button>
         <div class="offer-container">
@@ -103,12 +103,12 @@
 <header id="navbar">
     <div class="container">
         <div class="header-content">
-            <!-- زر فتح القائمة الجانبية (على اليمين) - سيظهر فقط على الأجهزة المحمولة -->
+           
             <button id="menu-toggle" class="menu-toggle">
-                <i class="fas fa-bars"></i>   <!-- المنتجات  -->
+                <i class="fas fa-bars"></i>  
             </button>
 
-            <!-- اسم الموقع الثابت في اليسار -->
+           
             <div class="site-brand">
                 <a href="index.html">
                     <img src="logo-jouet-maroc.png" alt="JOUET MAROC Logo" class="site-logo"> <!-- استبدل logo.png برابط شعارك -->
@@ -122,7 +122,7 @@
 
 
 
-<!-- إضافة هيكل القائمة الجانبية -->
+
 <div id="sidebar-menu" class="sidebar-menu">
     <div class="sidebar-header">
         <span>تصنيفات المنتجات</span>
@@ -146,7 +146,6 @@
                 <i class="fas fa-car"></i>
                 <span>سيارات كهربائية</span>
             </li>
-            <!-- إضافة الفئات الجديدة -->
             <li class="sidebar-category" data-category="moteur-cross">
                 <i class="fas fa-motorcycle"></i>
                 <span>الدراجات النارية</span>
@@ -160,10 +159,10 @@
 </div>
 
 
-<!-- إضافة خلفية معتمة عند فتح القائمة -->
+
 <div id="overlay" class="overlay"></div>
 
-<!-- إضافة نافذة منبثقة للمنتجات -->
+
 <div id="category-popup" class="category-popup">
     <div class="popup-header">
         <h3 id="popup-category-title">منتجات الفئة</h3>
@@ -171,13 +170,13 @@
     </div>
     <div class="popup-content">
         <div id="popup-products" class="popup-products">
-            <!-- سيتم إضافة منتجات الفئة هنا ديناميكيًا -->
+            
         </div>
     </div>
 </div>
     
     
-   <!-- إضافة محرك البحث -->
+  
 <div class="search-container">
     <div class="container">
         <div class="search-box">
@@ -185,7 +184,7 @@
             <button id="search-button"><i class="fas fa-search"></i></button>
         </div>
         <div id="search-results" class="search-results">
-            <!-- نتائج البحث ستظهر هنا -->
+            
         </div>
     </div>
 </div>
@@ -263,7 +262,7 @@
                 <div class="product-description">
                     <h3>مميزات المنتج</h3>
                     <div class="features-container">
-                        <!-- First category - expanded by default -->
+                        
 <div class="feature-category expanded">
     <div class="accordion-header french-heading">
         <h4><i class="fas fa-bolt"></i> Moteur et performance</h4>
@@ -345,10 +344,10 @@
         <div class="product-video-section">
             <h2>فيديو المنتج</h2>
             <div class="video-container">
-                <!-- سيتم إضافة الإطار هنا من خلال JavaScript -->
+               
             </div>
         </div>
-        <!-- Remove the order section from here and put it in a modal below -->
+       
         
         <!-- Order Form Modal -->
         <div id="order-form-modal" class="order-form-modal">
@@ -422,7 +421,7 @@
                     <button class="btn primary-btn" id="confirm-order-btn">
                         <i class="fab fa-whatsapp"></i> أرسل الطلب عبر واتساب
                     </button>
-                    <!-- إصلاح زر إلغاء الطلب - الوسم كان مغلقاً بشكل خاطئ -->
+                   
                     <button class="btn secondary-btn" id="cancel-order-btn">
                         <i class="fas fa-times"></i> إلغاء الطلب
                     </button>
@@ -433,7 +432,7 @@
     <!-- End of Order Confirmation Modal -->
         
   
-       <!-- تعديل قسم المنتجات المميزة لإضافة فواصل التصنيف -->
+      
 <div class="related-products">
     <h2>منتجاتنا المميزة</h2>
     <div class="products-grid">
@@ -1015,12 +1014,6 @@
     
     
 
-
-
-
-  
-
-    
     
    <!-- زر الدردشة العائم -->
     <button id="chatButton" onclick="toggleChatWindow()" aria-label="فتح نافذة الأسئلة الشائعة">
@@ -1305,19 +1298,14 @@
 
 
 
-<!-- إضافة Bootstrap JS في نهاية الصفحة لتحسين الأداء -->
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 
-<!-- إضافة jQuery لسهولة التنقل بين المنتجات -->
+
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
-<script>
-document.addEventListener("touchstart", function(event) {
-    console.log("تم لمس العنصر!");
-}, { passive: true });
-</script>
-    
+ 
 <script src="products.js"></script>
 <script src="script.js"></script>
 <script src="config.js"></script>
