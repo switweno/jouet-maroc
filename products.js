@@ -464,13 +464,17 @@ features: [
     oldPrice: 8999,
     discount: 35,
     images: [
-      "dualtron-pop/dualtron-pop_52v_04.webp",
-      "dualtron-pop/dualtron-pop_52v_01.webp",
-      "dualtron-pop/dualtron-pop_52v_03.webp",
-      "dualtron-pop/dualtron-pop_52v_02.webp",
-      "dualtron-pop/dualtron-pop_52v_05.webp",
-      "dualtron-pop/dualtron-pop_52v_06.webp",
-      "dualtron-pop/dualtron-pop_52v_07.webp"
+      "dualtron-pop/dualtron-pop_52v_-01.webp",
+      "dualtron-pop/dualtron-pop_52v_-02.webp",
+      "dualtron-pop/dualtron-pop_52v_-03.webp",
+      "dualtron-pop/dualtron-pop_52v_-04.webp",
+      "dualtron-popdualtron-pop_52v_-05.webp",
+      "dualtron-pop/dualtron-pop_52v_-06.webp",
+      "dualtron-pop/dualtron-pop_52v_-07.webp",
+       "dualtron-pop/dualtron-pop_52v_-08.webp",
+       "dualtron-pop/dualtron-pop_52v_-09.webp",
+       "dualtron-pop/dualtron-pop_52v_-10.webp",
+      "dualtron-pop/dualtron-pop_52v_-11.webp"
     ],
     features: [
       {
