@@ -1251,7 +1251,7 @@ header {
 .feature-category h4 {
     display: flex;
     align-items: center;
-    font-size: 1rem!important;
+    font-size: 0.9rem!important;
     color: #ffffff;
     background: rgba(254, 2, 53, 0.7);
 
@@ -1327,7 +1327,7 @@ header {
      direction: rtl;
      color: rgb(255, 255, 255);
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
 }
 
 .feature-highlight i {
