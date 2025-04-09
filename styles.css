@@ -804,6 +804,7 @@ header {
     background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+   
 }
 
 
@@ -1213,7 +1214,7 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-     
+    
 }
 
 .accordion-toggle:hover {
@@ -1225,6 +1226,7 @@ header {
 /* تحريك الأيقونة عند الفتح */
 .accordion-toggle[aria-expanded="true"] {
     transform: translateY(-50%) rotate(180deg);
+    
 }
 
 /* تحسين محتوى الوصف */
@@ -1312,7 +1314,7 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #FED700;
+    background-color: #13670f;
     border: 1px solid rgba(197, 197, 197, 0.75);
     border-radius: 8px;
     padding: 14px;
@@ -1322,16 +1324,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-     direction: ltr;
-     color: rgb(13, 13, 13);
+     direction: rtl;
+     color: rgb(254, 254, 254);
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .feature-highlight i {
-    color: rgb(20, 37, 152);
+    color: rgb(255, 255, 255);
     font-size: 1rem;
-    margin-right: 10px;
+    margin-left: 10px;
+   
 }
+
 
 
 /* General Styles */
@@ -1509,7 +1513,7 @@ header {
 #buy-now-btn {
     background-color:  #347f08; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
-    font-size: 1rem; /* حجم خط أكبر */
+    font-size: 1.1rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
     border-radius: 8px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
