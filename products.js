@@ -343,9 +343,9 @@ features: [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 192,
-    currentPrice: 7490,
+    currentPrice: 6890,
     oldPrice: 8999,
-    discount: 30,
+    discount: 35,
     images: [
       "dualtron-pop/dualtron-pop_52v_04.webp",
       "dualtron-pop/dualtron-pop_52v_01.webp",
@@ -495,9 +495,7 @@ features: [
     ]
   }
 ],
-
-    
-    
+ 
     warranty: "التوصيل بالمجان للجميع المدن المغربية",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
   },
@@ -615,7 +613,7 @@ features: [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 56,
-    currentPrice: 1699,
+    currentPrice: 1649,
     oldPrice: 2000,
     discount: 30,
     images: [
