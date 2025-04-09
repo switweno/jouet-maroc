@@ -1183,7 +1183,7 @@ header {
     border: 1px solid #d4d4d4;
     border-radius: 10px;
     overflow: hidden;
-    background: rgba(216, 216, 216, 0); /* إضافة خلفية بيضاء لمزيد من الوضوح */
+    background: rgba(221, 236, 48, 0); /* إضافة خلفية بيضاء لمزيد من الوضوح */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* تحسين الظلال */
     
 }
@@ -1205,7 +1205,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: #fcfcfc;
+    color: #5c5c5c;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1218,7 +1218,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #989898;
+    color: #000000;
     background-color: rgba(0, 123, 255, 0);
    
 }
@@ -1252,8 +1252,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 0.9rem!important;
-    color: #ffffff;
-    background: rgba(254, 2, 53, 0.7);
+    color: #072c8e;
+    background: rgba(244, 239, 239, 0.7);
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1262,7 +1262,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 5px;
-    color: #e4e4e4;
+    color: #072c8e;
     
 }
 
