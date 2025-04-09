@@ -1310,9 +1310,7 @@ header {
     }
 }
 
-.feature-highlight {
-    display: none;
-}
+
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
@@ -1329,15 +1327,10 @@ header {
      direction: rtl;
      color: rgb(9, 9, 9);
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     font-size: 0.9rem;
+     font-size: 1rem;
 }
 
-.feature-highlight i {
-    color: rgb(247, 247, 247);
-    font-size: 1rem;
-    margin-left: 10px;
-   
-}
+
 
 
 
@@ -3104,7 +3097,7 @@ select {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: rgba(255, 30, 72, 0.84);
+    background-color: rgba(30, 177, 255, 0.84);
     color: white;
     width: 60px;
     height: 60px;
@@ -3157,7 +3150,7 @@ select {
 }
 
 .chat-header {
-  background: #00cc06;
+  background: #ff1e48;
   color: white;
   padding: 15px 20px;
   display: flex;
@@ -3889,7 +3882,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 }
 
 .category-divider h3 {
-    background: #ff1e48;
+    background:  #ff1e48;
     color: white;
     font-size: 1rem;
     font-weight: 600;
