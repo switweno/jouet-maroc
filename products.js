@@ -1651,7 +1651,7 @@ features: [
   }
 ],
    warranty: "التوصيل بالمجان للجميع المدن المغربية",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1008831804520859%2F&show_text=false&width=267&t=0"
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"
  },
   
    {
