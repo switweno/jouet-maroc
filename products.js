@@ -495,7 +495,7 @@ features: [
           { key: "ÉTANCHÉITÉ", value: "IPX5" },
           { key: "WATERPROOF", value: "IPX4" },
           { key: "AFFICHAGE", value: "DISPLAY EY2" },
-          { key: "PNEUS", value: "9\" RENFORCÉS" },
+          { key: "PNEUS", value: "9\" Tubeless" },
           { key: "CONCEPTION", value: "PLIABLE AVEC KLAXON" },
           { key: "TABLEAU DE BORD", value: "DIGITAL" }
         ]
