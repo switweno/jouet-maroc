@@ -468,7 +468,7 @@ features: [
       "dualtron-pop/dualtron-pop_52v_-02.webp",
       "dualtron-pop/dualtron-pop_52v_-03.webp",
       "dualtron-pop/dualtron-pop_52v_-04.webp",
-      "dualtron-popdualtron-pop_52v_-05.webp",
+      "dualtron-pop/dualtron-pop_52v_-05.webp",
       "dualtron-pop/dualtron-pop_52v_-06.webp",
       "dualtron-pop/dualtron-pop_52v_-07.webp",
        "dualtron-pop/dualtron-pop_52v_-08.webp",
