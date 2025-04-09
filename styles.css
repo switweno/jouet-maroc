@@ -1183,7 +1183,7 @@ header {
     border: 1px solid #d4d4d4;
     border-radius: 10px;
     overflow: hidden;
-    background: #fff; /* إضافة خلفية بيضاء لمزيد من الوضوح */
+    background: rgba(216, 216, 216, 0); /* إضافة خلفية بيضاء لمزيد من الوضوح */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* تحسين الظلال */
     
 }
@@ -1205,7 +1205,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: #201c1c;
+    color: #fcfcfc;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1218,7 +1218,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #000000;
+    color: #989898;
     background-color: rgba(0, 123, 255, 0);
    
 }
@@ -1252,8 +1252,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 1rem!important;
-    color: #5c5353;
-    background: rgba(239, 239, 239, 0.45);
+    color: #ffffff;
+    background: rgba(254, 2, 53, 0.7);
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1262,7 +1262,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 5px;
-    color: #3161ad;
+    color: #e4e4e4;
     
 }
 
@@ -1314,8 +1314,8 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #13670f;
-    border: 1px solid rgba(197, 197, 197, 0.75);
+    background-color: #394878;
+    border: 1px solid rgba(167, 140, 27, 0.75);
     border-radius: 8px;
     padding: 14px;
     margin-top: 10px;
@@ -1325,12 +1325,13 @@ header {
     align-items: center;
     justify-content: center;
      direction: rtl;
-     color: rgb(254, 254, 254);
+     color: rgb(255, 255, 255);
     font-family: 'Montserrat', 'Cairo', sans-serif;
+     font-size: 0.8rem;
 }
 
 .feature-highlight i {
-    color: rgb(255, 255, 255);
+    color: rgb(247, 247, 247);
     font-size: 1rem;
     margin-left: 10px;
    
