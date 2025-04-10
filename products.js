@@ -1615,13 +1615,13 @@ features: [
    discount: 25,
    images: [
      "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-    "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp"
+     "voiture-maserati-sport/voiture-maserati-sport-02.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-03.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-04.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-05.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-06.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-07.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-08.webp"
      
    ],
     
@@ -1669,13 +1669,13 @@ features: [
    discount: 29,
    images: [
      "voiture-maserati-sport/voiture-maserati-sport2-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-    "voiture-maserati-sport/voiture-maserati-sport-01.webp",
-     "voiture-maserati-sport/voiture-maserati-sport-01.webp"
+     "voiture-maserati-sport/voiture-maserati-sport-02.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-03.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-04.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-05.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-06.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-07.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-08.webp"
      
    ],
     
