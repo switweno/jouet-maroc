@@ -47,13 +47,28 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 3px 10px rgb(10, 2, 2);
+    box-shadow: 0 3px 10px rgba(10, 2, 2, 0.16);
   
     top: 0; /* تعيين الهيدر في أعلى الصفحة */
     left: 0;
     width: 100%; /* ضمان أن الهيدر يأخذ عرض الشاشة بالكامل */
     z-index: 1000; /* التأكد من أن الهيدر فوق العناصر الأخرى */
 	 transition: top 0.3s ease-in-out;
+}
+
+/* فقط في الشاشات الصغيرة (مثلاً الهواتف) */
+@media (max-width: 768px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  body {
+    margin-top: 60px; /* باش المحتوى مايتغطاش بالهيدر */
+  }
 }
 
 /* تعديل الحاوية الداخلية للقائمة */
