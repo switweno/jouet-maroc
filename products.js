@@ -73,14 +73,14 @@ features: [
     discount: 30,
     images: [
       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-      "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp",
-       "trottinette-togo-48v/trottinette-togo-48v-01.webp"
+      "trottinette-togo-48v/trottinette-togo-48v-02.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-03.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-04.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-05.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-06.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-07.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-08.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-09.webp"
     ],
 features: [
   {
