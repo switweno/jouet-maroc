@@ -528,8 +528,8 @@ features: [
      "bison-gt/bison-gt-1000-5.webp",
      "bison-gt/bison-gt-1000-6.webp",
      "bison-gt/bison-gt-1000-7.webp",
-     "bison-gt/bison-gt-1000-8.webp",
-     "bison-gt/bison-gt-1000-9.webp"
+     "bison-gt/bison-gt-1000-8.webp"
+    
    ],
 features: [
   {
