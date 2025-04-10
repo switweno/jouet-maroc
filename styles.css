@@ -596,6 +596,7 @@ header {
     object-position: top; /* يركز على الجزء السفلي من الصورة ويقص الجزء العلوي */
     display: block;
     margin: 0 auto; /* يوسّط الصورة أفقيًا */
+    border-bottom: 1px solid rgba(103, 10, 103, 0.21);
 }
 
 /* للشاشات المتوسطة (الأجهزة اللوحية) */
@@ -1092,7 +1093,9 @@ header {
 
 
 
-
+.related-discount-badge {
+    display: none;
+}
 
 .related-discount-badge {
     position: absolute;
@@ -2879,7 +2882,7 @@ select {
     height: 314px;
     object-fit: cover;
     transition: transform 0.5s ease;
-    border-bottom: 1px solid rgba(103, 10, 103, 0.25);
+    border-bottom: 1px solid rgba(103, 10, 103, 0.21);
 }
 
 
