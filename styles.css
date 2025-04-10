@@ -1320,11 +1320,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-     direction: rtl;
-     color: #333;
+    direction: rtl; /* النص من اليمين لليسار */
+    color: #333;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-     font-size: 1rem;
+    font-size: 1rem;
+    overflow: hidden; /* لإخفاء النص خارج الحدود */
 }
+
+/* تحريك النص فقط */
+.feature-highlight span {
+    display: inline-block;
+    white-space: nowrap; /* لضمان عدم التفاف النص */
+    animation: scroll-text 10s linear infinite; /* حركة التمرير */
+}
+
+/* تعريف حركة التمرير */
+@keyframes scroll-text {
+    0% {
+        transform: translateX(-100%); /* يبدأ من الجهة اليمنى */
+    }
+    100% {
+        transform: translateX(100%); /* يصل للنهاية اليسرى */
+    }
+}
+
+
+
 
 
 
