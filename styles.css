@@ -2734,7 +2734,7 @@ select {
     
     .product-description {
         padding: 1px !important;
-        margin-bottom: -3px !important;
+        margin-bottom: 1px !important;
     }
     
     .feature-category {
