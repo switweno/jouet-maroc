@@ -1754,6 +1754,8 @@ features: [
       { "key": "COULEUR", "value": "⚪" }
     ]
   },
+  
+
   {
     "title": "CARACTÉRISTIQUES",
     "icon": "fa-star",
@@ -1768,6 +1770,62 @@ features: [
    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"
  },
+  
+  
+{
+   id: "voiture-range-rover-police",
+   title: "Voiture Range Rover police 👮🏼",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 57,
+   currentPrice: 1820,
+   oldPrice: 2350,
+   discount: 30,
+   images: [
+     "voiture-range-rover-police/voiture-range- rover-police-01.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-02.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-03.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-04.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-05.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-06.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-07.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "AMORTISSEURS", "value": "AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "BALANÇOIRE", "value": "INCLUSE" }
+    ]
+  }
+],
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1396773761319165%2F&show_text=false&width=267&t=0"
+ },
+  
   
    {
    id: "voiture-jeep-bougie",
