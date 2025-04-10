@@ -1049,6 +1049,9 @@ header {
 
 
 
+.main-image-discount-badge {
+    display: none;
+}
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
@@ -1056,7 +1059,7 @@ header {
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: #FF0E50;
+    background-color: #7f1fa6;
     color: #f7f7f7;
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
