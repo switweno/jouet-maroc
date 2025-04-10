@@ -2336,7 +2336,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+  let lastScrollTop = 0;
+  const header = document.querySelector("header");
 
+  // نفعلو فقط إلا كانت الشاشة صغيرة (هواتف)
+  function handleScroll() {
+    if (window.innerWidth <= 768) {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        // كيهبط -> نخفي الهيدر
+        header.style.top = "-80px";
+      } else {
+        // كيطلع -> نبينو الهيدر
+        header.style.top = "0";
+      }
+
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }
+  }
+
+  window.addEventListener("scroll", handleScroll);
 
 
    
