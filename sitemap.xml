@@ -210,5 +210,15 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-maserati-sport</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-maserati-sport2</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <!-- أضف باقي المنتجات هنا -->
 </urlset>

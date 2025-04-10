@@ -1602,7 +1602,113 @@ features: [
  },
   
   
- 
+  {
+   id: "voiture-maserati-sport",
+   title: " Voiture Maserati Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 1299,
+   oldPrice: 1600,
+   discount: 25,
+   images: [
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp"
+     
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACE MINI AVEC CEINTURE" },
+      { "key": "MOTEUR", "value": "3 MOTEURS PUISSANTS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "Balançoire", "value": "OUI" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "COULEUR", "value": "⚪🔴" },
+      { "key": "AMORTISSEURS", "value": "OUI" },
+      { "key": "VITESSE", "value": "3 VITESSES" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE 📲" }
+    ]
+  }
+],
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-maserati-sport2",
+   title: " Voiture Maserati Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 1380,
+   oldPrice: 1700,
+   discount: 29,
+   images: [
+     "voiture-maserati-sport/voiture-maserati-sport2-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp"
+     
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACE MINI AVEC CEINTURE" },
+      { "key": "MOTEUR", "value": "5 MOTEURS PUISSANTS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "Balançoire", "value": "OUI" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "COULEUR", "value": "⚪🔴" },
+      { "key": "AMORTISSEURS", "value": "OUI" },
+      { "key": "VITESSE", "value": "3 VITESSES" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE 📲" }
+    ]
+  }
+],
+   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
+ },
   
    {
    id: "moteur-police-12v",
