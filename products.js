@@ -1991,6 +1991,61 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"
  },
   
+{
+   id: "voiture-mercedes-police",
+   title: "Voiture Mercedes police 👮",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 265,
+   currentPrice: 2549,
+   oldPrice: 3100,
+   discount: 30,
+   images: [
+     "voiture-mercedes-police/voiture-mercedes-police-01.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-02.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-03.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-04.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-05.webp",
+     "voiture-mercedes-police/voiture-mercedes-police-06.webp",
+    "voiture-mercedes-police/voiture-mercedes-police-07.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "BALANÇOIRE", "value": "DISPONIBLE" },
+      { "key": "AMORTISSEURS", "value": "AVANT & ARRIÈRE" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "CONTRÔLE", "value": "PAR TÉLÉPHONE" }
+    ]
+  }
+],
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1339868447361661%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
