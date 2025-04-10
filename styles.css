@@ -1333,29 +1333,22 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* General Styles */
 .quantity-selector {
     margin-bottom: 20px;
     color: #333;
     font-family: 'Arial', sans-serif;
     text-align: center;
+     padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
 }
 
 .quantity-selector h3 {
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: 500;
-    color: #444;
+    color: rgba(1, 105, 85, 0.94);
     letter-spacing: 0.8px;
+    text-align: right;
 }
 
 /* Main Container for Quantity Controls */
@@ -1369,6 +1362,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     transition: all 0.2s ease;
+    
 }
 
 .quantity-container:hover {
@@ -1386,11 +1380,11 @@ header {
 .quantity-btn {
     width: 40px;
     height: 40px;
-    background: #f3f3f3;
+    background: rgba(4, 159, 129, 0.94);
     border: none;
-    border-radius: 50%;
+    border-radius: 21%;
     font-size: 1.5rem;
-    color: #333;
+    color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1399,7 +1393,7 @@ header {
 }
 
 .quantity-btn:hover {
-    background: #c6c6c6;
+    background: #18899d;
 }
 
 .quantity-btn:active {
@@ -1413,12 +1407,13 @@ header {
     height: 35px;
     text-align: center;
     font-size: 1.1rem;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(4, 159, 129, 0.94);
     background: #fff;
     border-radius: 5px;
     color: #333;
     outline: none;
     transition: background-color 0.2s;
+     
 }
 
 #quantity:focus {
@@ -1522,6 +1517,7 @@ header {
     border-radius: 8px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
     
+    
 }
 
 /* تأثير hover */
@@ -1529,7 +1525,7 @@ header {
     background-color: #218838; /* أخضر داكن عند التمرير */
     transform: translateY(-4px); /* رفع الزر عند التمرير */
     box-shadow: 0 6px 12px rgba(147, 142, 146, 0.7); /* زيادة ظل الزر */
-   
+  
 }
 
 /* إضافة تأثير عند الضغط */
@@ -1542,12 +1538,17 @@ header {
     font-size: 1.2rem; /* تكبير حجم الأيقونة قليلاً */
     
 }
-
+.cta-buttons {
+        flex-direction: column;
+         margin-top: -8px; /* تعديل الرقم حسب الحاجة */
+        padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
+          
+    }
 @media (max-width: 767px) {
     .cta-buttons {
         flex-direction: column;
          margin-top: -8px; /* تعديل الرقم حسب الحاجة */
-        
+        padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
           
     }
 }
