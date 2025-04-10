@@ -1310,8 +1310,8 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: rgba(255, 255, 255, 0.22);
-    border: 1px solid #670a67;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 1px solid #000000;
     border-radius: 8px;
     padding: 14px;
     margin-top: 10px;
@@ -1327,22 +1327,8 @@ header {
     overflow: hidden; /* لإخفاء النص خارج الحدود */
 }
 
-/* تحريك النص فقط */
-.feature-highlight span {
-    display: inline-block;
-    white-space: nowrap; /* لضمان عدم التفاف النص */
-    animation: scroll-text 10s linear infinite; /* حركة التمرير */
-}
 
-/* تعريف حركة التمرير */
-@keyframes scroll-text {
-    0% {
-        transform: translateX(-100%); /* يبدأ من الجهة اليمنى */
-    }
-    100% {
-        transform: translateX(100%); /* يصل للنهاية اليسرى */
-    }
-}
+
 
 
 
