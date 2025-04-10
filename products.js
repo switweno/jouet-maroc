@@ -56,7 +56,7 @@ features: [
 ],
 
 
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE DUALTRON TOGO 36V",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
   },
   
@@ -114,7 +114,7 @@ features: [
   }
 ],
 
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE DUALTRON TOGO 48V",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
   },
   
@@ -169,7 +169,7 @@ features: [
  
 ],
 
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE PRO-EDITION 36V 15AH",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F696236402972322%2F&show_text=false&width=264&t=0"
   },
   
@@ -226,7 +226,7 @@ features: [
  
 ],
 
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE Scooter 36V 15AH",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1790742958137283%2F&show_text=false&width=264&t=0"
   },
 
@@ -286,7 +286,7 @@ features: [
  
 ],
 
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE JOYOR 48V",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
     {
@@ -339,7 +339,7 @@ features: [
         ]
       }
     ],
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE JOYOR 48V 17.5AH",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
@@ -398,7 +398,7 @@ features: [
         ]
       }
     ],
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "Mi Electric Scooter Essential",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
   },
   {
@@ -449,7 +449,7 @@ features: [
         ]
       }
     ],
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE KUKIRIN G2 PRO",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
   },
   {
@@ -505,7 +505,7 @@ features: [
         ]
       }
     ],
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "TROTTINETTE DUALTRON POP 52V",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
   
@@ -558,7 +558,7 @@ features: [
     ]
   }
 ],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   warranty: "TROTTINETTE BISON GT 1000",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
   
@@ -618,7 +618,7 @@ features: [
 
 
 
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   warranty: "TROTTINETTE IENYRID M9",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
   }, 
 
@@ -684,7 +684,7 @@ features: [
 ],
 
 
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   warranty: "TROTTINETTE Tank M41",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -739,7 +739,7 @@ features: [
     ]
   }
 ],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+   warranty: "TROTTINETTE EcoXtrem LINEAR",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -798,7 +798,7 @@ features: [
 
     
     
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "VÉLO MADAME YOUMEIG 26",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F619757167599413%2F&show_text=false&width=267&t=0"
   },
   
@@ -851,7 +851,7 @@ features: [
   }
 ],
  
-    warranty: "التوصيل بالمجان للجميع المدن المغربية",
+    warranty: "VÉLO MADAME YOUMEIG 26",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
   },
   
@@ -1542,7 +1542,8 @@ features: [
       ]
     }
   ],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+  warranty: " VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",  
+
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
@@ -1706,7 +1707,11 @@ features: [
     ]
   }
 ],
-   warranty: "التوصيل بالمجان للجميع المدن المغربية",
+warranty: "✔ طوموبيل مازيراتي سبور للأطفال 🤩\nوفر لولدك تجربة سياقة ما كايناش بحالها مع هاد الطوموبيل الكهربائية لي دايرا ضجة بتصميمها السبور والمميزات ديالها الزوينة.\n\n✅ بطارية قوية 12 فولت مع شارژور ديال 12 فولت\n✅ جوج بلايص صغار + صبّاط الأمان\n✅ موسيقى، USB، وكابل AUX باش يسمع وليدك الأغاني لي كيعجبوه\n✅ بلوتوث خدام\n✅ 3 ديال السرعات باش يتحكم مزيان\n✅ فيها حركة تأرجح (كتتحرك بحال الميّاحة)\n✅ أمورتيسور باش ماتحسش بالحفر\n✅ ضو LED من القدّام ومن اللور\n✅ كتخدم بالتيلكوموند ولا حتى من التليفون ديالك 📲\n\n🎯 مناسبة من 1 حتى لـ 6 سنين\n🎨 الألوان المتوفرة: ⚪🔴",
+
+
+
+
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
  },
   
