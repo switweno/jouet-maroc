@@ -1033,9 +1033,7 @@ header {
     
    
 }
-.discount {
-    display: none;
-}
+
 
 /* تصميم شارة التخفيض */
 .discount {
@@ -1091,9 +1089,7 @@ header {
 
 
 
-.related-discount-badge {
-    display: none; /* إخفاء الشارة افتراضيًا */
-}
+
 .related-discount-badge {
     position: absolute;
     top: 12px;
@@ -1249,7 +1245,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 0.9rem!important;
-    color: #072c8e;
+    color:#7f1fa6;
     background: rgba(244, 239, 239, 0.7);
 
     padding: 12px 18px;
@@ -1259,7 +1255,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 5px;
-    color: #072c8e;
+    color: #7f1fa6;
     
 }
 
@@ -1311,7 +1307,7 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.22);
     border: 1px solid #670a67;
     border-radius: 8px;
     padding: 14px;
@@ -1322,7 +1318,7 @@ header {
     align-items: center;
     justify-content: center;
      direction: rtl;
-     color: rgb(9, 9, 9);
+     color: #333;
     font-family: 'Montserrat', 'Cairo', sans-serif;
      font-size: 1rem;
 }
