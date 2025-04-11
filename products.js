@@ -855,6 +855,57 @@ features: [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
   },
   
+  {
+    id: "vélo-italiano-aluminium",
+    title: "VÉLO ITALIANO ALUMINIUM 26",
+    brand: "HAOMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 325,
+    currentPrice: 1599,
+    oldPrice: 1800,
+    discount: 10,
+    images: [
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-01.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-02.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-03.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-04.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-05.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-06.webp",
+     "vélo-italiano-aluminium/vélo-italiano-aluminium-07.webp",
+     "vélo-italiano-aluminium/vélo-italiano-aluminium-08.webp",
+     "vélo-italiano-aluminium/vélo-italiano-aluminium-09.webp",
+      "vélo-italiano-aluminium/vélo-italiano-aluminium-10.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "MATÉRIAU", value: "VÉLO ALUMINIUM" },
+          { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+          { key: "VITESSE", value: "VITESSE 3×7=21" },
+          { key: "PLATEAU", value: "PLATEAU SHIMANO" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+          { key: "GARDES-BOUE", value: "LES GARDES-BOUES AV ET AR" }
+        ]
+      }
+    ],
+    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3545953265711523%2F&show_text=false&width=267&t=0"
+  },
+  
   
   {
     id: "VÉLO-BMX-GTR -ALUMINIUM",
