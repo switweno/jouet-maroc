@@ -2047,6 +2047,58 @@ features: [
  },
   
   {
+   id: "voiture-mercedes-classique",
+   title: "voiture Mercedes classique ",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 59,
+   currentPrice: 1480,
+   oldPrice: 1800,
+   discount: 30,
+   images: [
+     "voiture-mercedes-classique/voiture-mercedes-classique-01.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-02.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-03.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-04.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-05.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-06.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-07.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-08.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V + Chargeur 12V" },
+      { key: "PLACES", value: "2 places mini" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 niveaux de vitesse" },
+      { key: "ÂGE", value: "1 à 6 ans" },
+      { key: "AMORTISSEURS", value: "Oui, intégrés" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité incluse" },
+      { key: "MUSIQUE", value: "USB, câble AUX, musique intégrée" },
+      { key: "BALANÇOIRE", value: "Effet intégré" },
+      { key: "LED", value: "Lumières avant et arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle parentale" },
+      { key: "ROUES", value: "Avec amortisseurs" }
+    ]
+  }
+],
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F422262497235704%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
    id: "voiture_range_rover_police",
    title: "Voiture Range-Rover police",
    brand: "Marque enfant",
