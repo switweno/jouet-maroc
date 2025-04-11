@@ -726,7 +726,7 @@ header {
     flex-direction: column;
     background-color: #fff;
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
-    outline: 1px dashed rgba(249, 10, 91, 0); /* خط متقطع حول العنصر */
+    
     overflow: hidden;
  box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
 
@@ -2352,33 +2352,11 @@ select {
     will-change: opacity; /* تحسين أداء تغيير الشفافية فقط */
     backface-visibility: hidden;
     
+    border: 1px solid #ccc; /* حدود رقيقة */
+    
 }
 
-/* تأثيرات خروج الصور محسنة (fade out effects) */
-.image-fade-out {
-    animation: fadeOutImage var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
 
-.image-exit-left {
-    animation: exitToLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-exit-right {
-    animation: exitToRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-/* تأثيرات دخول الصورة محسنة (fade in effects) */
-.image-fade-in {
-    animation: fadeInImage var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-enter-from-left {
-    animation: enterFromLeft var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
-
-.image-enter-from-right {
-    animation: enterFromRight var(--slider-transition-duration) var(--slider-transition-timing) forwards;
-}
 
 /* تحسين الحركات الانتقالية للصور المصغرة */
 .thumbnail {
