@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: rgba(234, 234, 234, 0.13);
     color: rgb(107, 105, 105);
     line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -1183,7 +1183,7 @@ header {
     border: 1px solid #d4d4d4;
     border-radius: 10px;
     overflow: hidden;
-    background: rgba(221, 236, 48, 0); /* إضافة خلفية بيضاء لمزيد من الوضوح */
+    background: rgba(189, 189, 189, 0.07); /* إضافة خلفية بيضاء لمزيد من الوضوح */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* تحسين الظلال */
     
 }
@@ -4144,7 +4144,7 @@ footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتس
 
 
         .card {
-            background: rgb(255, 255, 255);
+            background: rgba(255, 255, 255, 0);
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(201, 201, 201, 0);
             text-align: center;
