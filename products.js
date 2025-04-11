@@ -856,27 +856,25 @@ features: [
   },
   
   {
-    id: "vélo-italiano-aluminium",
-    title: "VÉLO ITALIANO ALUMINIUM 26",
+    id: "vélo-bmx-gtr-aluminum",
+    title: "VÉLO BMX GTR ALUMINIUM 26",
     brand: "HAOMENG",
     category: "دراجات هوائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
-    reviewCount: 325,
+    reviewCount: 64,
     currentPrice: 1599,
-    oldPrice: 1800,
+    oldPrice: 1899,
     discount: 10,
     images: [
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-01.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-02.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-03.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-04.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-05.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-06.webp",
-     "vélo-italiano-aluminium/vélo-italiano-aluminium-07.webp",
-     "vélo-italiano-aluminium/vélo-italiano-aluminium-08.webp",
-     "vélo-italiano-aluminium/vélo-italiano-aluminium-09.webp",
-      "vélo-italiano-aluminium/vélo-italiano-aluminium-10.webp"
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-01.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-02.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-03.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-04.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-05.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-06.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-07.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-08.webp"
     ],
     features: [
       {
@@ -886,9 +884,9 @@ features: [
           { key: "ROUES", value: "26 POUCES" },
           { key: "MATÉRIAU", value: "VÉLO ALUMINIUM" },
           { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
-          { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SUNRISE" },
           { key: "VITESSE", value: "VITESSE 3×7=21" },
-          { key: "PLATEAU", value: "PLATEAU SHIMANO" }
+          { key: "PLATEAU", value: "PLATEAU SUNRISE" }
         ]
       },
       {
