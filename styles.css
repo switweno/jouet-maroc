@@ -1039,9 +1039,13 @@ header {
 }
 
 
+.discount {
+    display: none;
+}
+
 /* تصميم شارة التخفيض */
 .discount {
-    background-color: rgb(127, 31, 166);
+    background-color: #4633c5;
     color: white;
     font-weight: bold;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
@@ -1052,26 +1056,22 @@ header {
 }
 
 
-
-.main-image-discount-badge {
-    display: none;
-}
-
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
     visibility: visible; /* عرض الشارة */
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: #7f1fa6;
-    color: #f7f7f7;
+    background-color: rgb(70, 51, 197);
+    color: white;
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
     padding: clamp(3px, 0.5vw, 2px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
      font-family: 'sans-serif', 'Cairo', sans-serif;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
     z-index: 10;
     direction: initial;
+    border-radius: 5px;
 }
 
 /* تحسين التصميم للهواتف */
