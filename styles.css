@@ -981,6 +981,7 @@ header {
     font-family: 'Montserrat', 'Cairo', sans-serif;
     
     
+    
 }
 
 .current-price {
@@ -991,6 +992,7 @@ header {
     padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
+    
 }
 
 .old-price {
@@ -1346,7 +1348,7 @@ header {
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: 500;
-    color: rgba(1, 105, 85, 0.94);
+    color: #333;
     letter-spacing: 0.8px;
     text-align: right;
 }
@@ -1380,20 +1382,22 @@ header {
 .quantity-btn {
     width: 40px;
     height: 40px;
-    background: rgba(4, 159, 129, 0.94);
+    background: #F0F0F0;
     border: none;
     border-radius: 21%;
     font-size: 1.5rem;
-    color: white;
+    color: #282828;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s, transform 0.2s;
+   
+
 }
 
 .quantity-btn:hover {
-    background: #18899d;
+    background: #b4b4b4;
 }
 
 .quantity-btn:active {
@@ -1407,13 +1411,14 @@ header {
     height: 35px;
     text-align: center;
     font-size: 1.1rem;
-    border: 1px solid rgba(4, 159, 129, 0.94);
+    border: 1px solid #F0F0F0;
     background: #fff;
     border-radius: 5px;
     color: #333;
     outline: none;
     transition: background-color 0.2s;
-     
+    
+
 }
 
 #quantity:focus {
@@ -1455,7 +1460,7 @@ header {
     }
 
     .quantity-controls {
-        gap: 5px;
+        gap: 10px;
         justify-content: flex-start; /* تغيير إلى اليمين */
     }
 
@@ -1466,7 +1471,7 @@ header {
     }
 
     #quantity {
-        width: 70px;
+        width: 42px;
         height: 35px;
         font-size: 1rem;
     }
@@ -1478,7 +1483,7 @@ header {
     appearance: textfield; /* خاصية قياسية لمنع الأسهم */
     -webkit-appearance: none; /* لمنع الأسهم في كروم وإيدج */
     -moz-appearance: textfield; /* لمنع الأسهم في فايرفوكس */
-    padding-right: 10px; /* مسافة إضافية على اليمين لمنع السحب */
+    padding-right: 5px; /* مسافة إضافية على اليمين لمنع السحب */
 }
 
 /* إخفاء شريط التمرير الداخلي في فايرفوكس وكروم */
