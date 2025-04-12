@@ -1331,7 +1331,7 @@ header {
     font-family: 'Montserrat', 'Cairo', sans-serif;
     font-size: 1rem;
     overflow: hidden; /* لإخفاء النص خارج الحدود */
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
 }
 
 
@@ -1930,8 +1930,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .feature-highlight {
-        padding: 10px; /* Reduce padding */
-        margin-top: 15px;
+        padding: 8px; /* Reduce padding */
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
     
     /* Order form section */
