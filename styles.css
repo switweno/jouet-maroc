@@ -1220,7 +1220,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #000000;
+    color: #d5d5d5;
     background-color: rgba(0, 123, 255, 0);
    
 }
