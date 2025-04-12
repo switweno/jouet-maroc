@@ -989,7 +989,7 @@ header {
     font-weight: 700;
     color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #ff1e48; /* لون الخلفية */
-    padding: 5px 10px; /* إضافة تباعد داخلي */
+    padding: 3px 8px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
     
@@ -1021,7 +1021,7 @@ header {
     
     .current-price {
         font-size: 1.1rem;
-        padding: 5px 10px; /* إضافة تباعد داخلي */
+        padding: 3px 8px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     }
     
