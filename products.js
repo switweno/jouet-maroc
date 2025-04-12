@@ -1596,6 +1596,58 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
+  
+   {
+   id: "moteur-cross-42V-2",
+   title: "Moteur cross 42V",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 25,
+   currentPrice: 3699,
+   oldPrice: 4690,
+   discount: 30,
+   images: [
+     "moteur-cross-42v-2/moteur-cross-42v-2-01.webp",
+     "moteur-cross-42v-2/moteur-cross-42v-2-02.webp",
+    "moteur-cross-42v-2/moteur-cross-42v-2-03.webp",
+    "moteur-cross-42v-2/moteur-cross-42v-2-04.webp",
+   "moteur-cross-42v-2/moteur-cross-42v-2-05.webp"
+   ],
+features: [
+    {
+      title: "AVANTAGES AVANCÉS",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "1000 W MAX" },
+            { key: "BATTERIE", value: "LITHIUM 42 V 12AH" },
+            { key: "CHARGE MAX", value: "70 KG" },
+            { key: "FREINAGE", value: "ARRIÈRE" },
+            { key: "AUTONOMIE", value: "10 KM MIN - 15 KM MAX" },
+            { key: "VITESSE", value: "15 KM MIN - 25 KM MAX" },
+            { key: "CHARGE", value: "42V" }
+      ]
+    },
+    {
+      title: "CARACTÉRISTIQUES",
+      icon: "fa-star",
+      items: [
+       
+         { key: "VITESSES", value: "3E VITESSE" },
+            { key: "BLUETOOTH", value: "MUSIC BLUETOOTH" },
+            { key: "SIÈGE", value: "CUIR" },
+            { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+            { key: "LED", value: "AMBIANCE" },
+            { key: "KLAXON", value: "ÉLECTRIQUE" },
+            { key: "COLOR", value: "🔴🔵" }
+      ]
+    }
+  ],
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F988696436776129%2F&show_text=false&width=267&t=0"
+ },
+  
    {
    id: "moteur-cross-42V",
    title: "Moteur cross 42V",
