@@ -858,7 +858,7 @@ features: [
   {
     id: "vélo-bmx-gtr-aluminum",
     title: "VÉLO BMX GTR ALUMINIUM 26",
-    brand: "HAOMENG",
+    brand: "BMX GTR",
     category: "دراجات هوائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
