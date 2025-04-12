@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(234, 234, 234, 0.21);
+    background-color: white;
     color: rgb(107, 105, 105);
     line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
