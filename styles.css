@@ -1207,7 +1207,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: #5c5c5c;
+    color: white;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1254,8 +1254,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 0.9rem!important;
-    color:#7f1fa6;
-    background: rgba(244, 239, 239, 0.7);
+    color:#ffffff;
+    background: #33b8c5;
 
     padding: 12px 18px;
     border-radius: 6px;
@@ -1264,7 +1264,7 @@ header {
 
 .feature-category h4 i {
     margin-left: 5px;
-    color: #7f1fa6;
+    color: #ffffff;
     
 }
 
@@ -1353,23 +1353,7 @@ header {
     text-align: right;
 }
 
-/* Main Container for Quantity Controls */
-.quantity-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f9f9f9;
-    border-radius: 5px;
-    padding: 8px 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    transition: all 0.2s ease;
-    
-}
 
-.quantity-container:hover {
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-}
 
 /* Controls Container */
 .quantity-controls {
@@ -1382,11 +1366,11 @@ header {
 .quantity-btn {
     width: 40px;
     height: 40px;
-    background: #F0F0F0;
+    background: #ebebeb;
     border: none;
     border-radius: 21%;
     font-size: 1.5rem;
-    color: #282828;
+    color: #333;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1397,7 +1381,7 @@ header {
 }
 
 .quantity-btn:hover {
-    background: #b4b4b4;
+    background: #e1e1e1;
 }
 
 .quantity-btn:active {
@@ -1411,7 +1395,7 @@ header {
     height: 35px;
     text-align: center;
     font-size: 1.1rem;
-    border: 1px solid #F0F0F0;
+    border: 1px solid #ebebeb;
     background: #fff;
     border-radius: 5px;
     color: #333;
@@ -1460,7 +1444,7 @@ header {
     }
 
     .quantity-controls {
-        gap: 10px;
+        gap: 5px;
         justify-content: flex-start; /* تغيير إلى اليمين */
     }
 
@@ -1471,7 +1455,7 @@ header {
     }
 
     #quantity {
-        width: 42px;
+        width: 60px;
         height: 35px;
         font-size: 1rem;
     }
@@ -1515,7 +1499,7 @@ header {
    
 }
 #buy-now-btn {
-    background-color:  #347f08; /* لون مختلف */
+    background-color:  #2f7f00; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
     font-size: 1.1rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
