@@ -1062,7 +1062,7 @@ header {
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: rgb(70, 51, 197);
+    background-color: #ff1e48;
     color: white;
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
