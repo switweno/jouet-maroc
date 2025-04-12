@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgba(234, 234, 234, 0.13);
     color: rgb(107, 105, 105);
     line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -1162,10 +1162,7 @@ header {
 }
 
 
- .feature-highlight {
-        padding: 10px; /* Reduce padding */
-        margin-top: -44px;
-    }
+
 .feature-category ul {
     list-style: none; /* إزالة النقطة */
     padding-left: 0;  /* إزالة المسافة الزائدة */
@@ -1317,6 +1314,25 @@ header {
 
 
 
+/* تحسين المميزات البارزة */
+.feature-highlight {
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 1px solid #e6e3e6;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl; /* النص من اليمين لليسار */
+    color: #333;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+    font-size: 1rem;
+    overflow: hidden; /* لإخفاء النص خارج الحدود */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 
 /* General Styles */
@@ -1915,7 +1931,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 10px; /* Reduce padding */
-        margin-top: -28px;
+        margin-top: 15px;
     }
     
     /* Order form section */
