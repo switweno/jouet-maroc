@@ -2336,27 +2336,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-  let lastScrollTop = 0;
-  const header = document.querySelector("header");
+// عرض وإخفاء نافذة الدردشة
+function toggleChatWindow() {
+    const chatWindow = document.getElementById("chatWindow");
+    chatWindow.style.display = chatWindow.style.display === "none" ? "block" : "none";
+}
 
-  // نفعلو فقط إلا كانت الشاشة صغيرة (هواتف)
-  function handleScroll() {
-    if (window.innerWidth <= 768) {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+// تبديل الإجابة
+function toggleAnswer(button) {
+    const faqItem = button.parentElement;
+    const answer = faqItem.querySelector(".faq-answer");
 
-      if (scrollTop > lastScrollTop) {
-        // كيهبط -> نخفي الهيدر
-        header.style.top = "-80px";
-      } else {
-        // كيطلع -> نبينو الهيدر
-        header.style.top = "0";
-      }
+    // إغلاق جميع الأسئلة الأخرى
+    document.querySelectorAll(".faq-item").forEach((item) => {
+        if (item !== faqItem) {
+            item.querySelector(".faq-question").classList.remove("open");
+            item.querySelector(".faq-answer").classList.remove("show");
+        }
+    });
 
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-    }
-  }
-
-  window.addEventListener("scroll", handleScroll);
-
-
+    // تبديل حالة السؤال الحالي
+    button.classList.toggle("open");
+    answer.classList.toggle("show");
+}
    
