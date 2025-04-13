@@ -2939,6 +2939,120 @@ features: [
    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
  },
+  
+{
+   id: "trampoline-2.42-cm",
+   title: "Trampoline 2,42 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 2290,
+   oldPrice: 2990,
+   discount: 30,
+   images: [
+     "trampoline-2.42-cm/trampoline-2.42-cm-01.webp",
+     "trampoline-2.42-cm/trampoline-2.42-cm-02.webp",
+      "trampoline-2.42-cm/trampoline-2.42-cm-03.webp",
+      "trampoline-2.42-cm/trampoline-2.42-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 100 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
+ },  
+
+{
+   id: "trampoline-3.00-cm",
+   title: "Trampoline 3,00 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 9,
+   currentPrice: 2890,
+   oldPrice: 2990,
+   discount: 30,
+   images: [
+     "trampoline-3.00-cm/trampoline-3.00-cm-01.webp",
+     "trampoline-3.00-cm/trampoline-3.00-cm-02.webp",
+      "trampoline-3.00-cm/trampoline-3.00-cm-03.webp",
+      "trampoline-3.00-cm/trampoline-3.00-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 190 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
+ },  
+  
+{
+   id: "trampoline-3.65-cm",
+   title: "Trampoline 3,65 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 2,
+   currentPrice: 3390,
+   oldPrice: 4190,
+   discount: 30,
+   images: [
+     "trampoline-3.65-cm/trampoline-3.65-cm-01.webp",
+     "trampoline-3.65-cm/trampoline-3.65-cm-02.webp",
+      "trampoline-3.65-cm/trampoline-3.65-cm-03.webp",
+      "trampoline-3.65-cm/trampoline-3.65-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 150 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
+ },
 
 {
    id: "trampoline-4,20-cm",
