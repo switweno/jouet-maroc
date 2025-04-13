@@ -3076,7 +3076,7 @@ select {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: #3d9ec7;
+    background-color: #00b4ff;
     color: white;
     width: 60px;
     height: 60px;
@@ -3092,7 +3092,7 @@ select {
 }
 
 #chatButton:hover {
-    background-color:#216f90;
+    background-color:#0daaec;
     transform: scale(1.1);
 }
 
@@ -3112,7 +3112,7 @@ select {
 }
 
 .chat-header {
-    background: #216f90;
+    background: #0daaec;
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -3171,7 +3171,7 @@ select {
 /* رمز + أو - */
 .faq-question .symbol {
     font-size: 1.5rem;
-    color: #216f90;
+    color: #595959;
     font-weight: bold;
     transition: transform 0.3s ease;
 }
