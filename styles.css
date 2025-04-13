@@ -3184,11 +3184,12 @@ select {
   background: #e5e5e5;
 }
 
-/* رمز السهم */
-.faq-question .arrow {
-  font-size: 1.2rem;
-  color: #21d22a;
-  transition: transform 0.3s ease;
+/* رمز + أو - */
+.faq-question .symbol {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    transition: transform 0.3s ease;
 }
 
 .faq-question.open .arrow {

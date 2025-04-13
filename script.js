@@ -1818,24 +1818,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// فتح وغلق نافذة الدردشة
-function toggleChatWindow() {
-    var chatWindow = document.getElementById("chatWindow");
-    chatWindow.style.display = (chatWindow.style.display === "block") ? "none" : "block";
-}
 
-// عرض وإخفاء الإجابات عند الضغط على الأسئلة
-function toggleAnswer(button) {
-    var answer = button.nextElementSibling;
-    answer.style.display = (answer.style.display === "block") ? "none" : "block";
-    
-    // تغيير خلفية السؤال عند فتحه
-    if (answer.style.display === "block") {
-        button.style.background = "#e5e5e5";
-    } else {
-        button.style.background = "#f5f5f5";
-    }
-}
 
 
 
@@ -2339,24 +2322,35 @@ document.addEventListener("DOMContentLoaded", function () {
 // عرض وإخفاء نافذة الدردشة
 function toggleChatWindow() {
     const chatWindow = document.getElementById("chatWindow");
-    chatWindow.style.display = chatWindow.style.display === "none" ? "block" : "none";
+    if (chatWindow.style.display === "none" || chatWindow.style.display === "") {
+        chatWindow.style.display = "block";
+    } else {
+        chatWindow.style.display = "none";
+    }
+}
+
+// إغلاق نافذة الدردشة باستخدام الزر "×"
+function closeChatWindow() {
+    const chatWindow = document.getElementById("chatWindow");
+    chatWindow.style.display = "none";
 }
 
 // تبديل الإجابة
 function toggleAnswer(button) {
     const faqItem = button.parentElement;
     const answer = faqItem.querySelector(".faq-answer");
+    const symbol = button.querySelector(".symbol");
 
     // إغلاق جميع الأسئلة الأخرى
     document.querySelectorAll(".faq-item").forEach((item) => {
         if (item !== faqItem) {
-            item.querySelector(".faq-question").classList.remove("open");
             item.querySelector(".faq-answer").classList.remove("show");
+            item.querySelector(".symbol").textContent = "+"; // إعادة الرمز إلى +
         }
     });
 
     // تبديل حالة السؤال الحالي
-    button.classList.toggle("open");
     answer.classList.toggle("show");
+    symbol.textContent = answer.classList.contains("show") ? "-" : "+"; // تغيير الرمز بين - و +
 }
    
