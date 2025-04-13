@@ -1703,6 +1703,56 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
  },
   
+  {
+   id: "moteur-x-adv-gs",
+   title: "Moteur X ADV GS",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 2299,
+   oldPrice: 3100,
+   discount: 25,
+   images: [
+     "moteur-x-adv-gs/moteur-x-adv-gs-07.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-02.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-03.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-04.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-05.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-06.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-01.webp" 
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 volts" },
+      { "key": "SIÈGE", "value": "2 places mini" },
+      { "key": "MOTEUR", "value": "2 grands moteurs" },
+      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+      { "key": "AMORTISSEURS", "value": "Oui" },
+      { "key": "VITESSE", "value": "3ème vitesse" },
+      { "key": "ÂGE", "value": "4 - 14 ans" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+      { "key": "BLUETOOTH", "value": "Oui" },
+      { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+    ]
+  }
+],
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1191904782566963%2F&show_text=false&width=264&t=0"
+ },
+  
   
   {
    id: "voiture-maserati-sport",
