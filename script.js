@@ -983,6 +983,38 @@ if (product.availability === "متوفر في المخزون") {
         `;
     }
     
+    // Update video section
+const videoSection = document.querySelector('.product-video-section');
+
+if (product.videoURL) {
+    const videoContainer = document.querySelector('.video-container');
+    
+    // عرض الفيديو
+    if (product.id === "trottinette-bison-gt-1000") {
+        videoContainer.classList.add('portrait-video');
+    } else {
+        videoContainer.classList.remove('portrait-video');
+    }
+
+    videoContainer.innerHTML = `
+        <iframe 
+            src="${product.videoURL}" 
+            width="${product.id === "trottinette-bison-gt-1000" ? '267' : '560'}" 
+            height="${product.id === "trottinette-bison-gt-1000" ? '476' : '314'}" 
+            style="border:none;overflow:hidden" 
+            scrolling="no" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>
+    `;
+    videoSection.style.display = "block"; // نتأكد أنه بان
+} else {
+    // ما كاينش فيديو → نخفي القسم كامل
+    document.querySelector('.product-video-section').style.display = "none";
+}
+
+    
     // تهيئة الأكورديون بعد تحديث المحتوى مع تأخير قصير للتأكد من اكتمال التحديث
     setTimeout(() => {
         setupAccordion();

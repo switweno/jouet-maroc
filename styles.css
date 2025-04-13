@@ -172,6 +172,11 @@ header {
     color: #e83e8c; /* لون وردي لكرسي السيارة */
 }
 
+/* إضافة لون جديد ل fa-chair */
+.sidebar-category[data-category="trampoline"] i {
+    color: #257ad5; /* لون ازرق ترامبولين */
+}
+
 /* تأثير عند تمرير الماوس */
 .sidebar-category:hover i {
     color: #000; /* اللون الأسود عند التمرير */
@@ -619,7 +624,7 @@ header {
     display: none; /* إخفاء افتراضي */
 }
 
-@media (min-width: 1241px) {
+@media (min-width: 1369px) {
     /* إظهار القائمة الأفقية في الشاشات الكبيرة */
     .desktop-categories {
         display: flex;

@@ -1,4 +1,3 @@
-// إضافة كائن مركزي لتكوين الفئات - أضف هذا في بداية الملف
 const CATEGORIES_CONFIG = {
     'electric-bikes': {
         id: 'electric-bikes',
@@ -24,28 +23,27 @@ const CATEGORIES_CONFIG = {
         databaseName: 'سيارات كهربائية',
         icon: 'fa-car'
     },
-   
     'moteur-cross': {
-    id: 'moteur-cross',
-    displayName: 'Moteur Cross',
-    databaseName: 'moteur-cross',
-    icon: 'fa-motorcycle'
-     },   
-    
+        id: 'moteur-cross',
+        displayName: 'Moteur Cross',
+        databaseName: 'moteur-cross',
+        icon: 'fa-motorcycle'
+    },
     'siege-auto': {
         id: 'siege-auto',
-        displayName: 'Siege auto',
+        displayName: 'Siège auto',
         databaseName: 'Siege auto',
         icon: 'fa-chair'
+    },
+    'trampoline': {
+        id: 'trampoline',
+        displayName: 'ترامبولين',
+        databaseName: 'ترامبولين',
+        icon: 'fa-baseball-ball'
     }
     // يمكن إضافة فئات جديدة هنا بسهولة
-    // 'new-category': {
-    //     id: 'new-category',
-    //     displayName: 'اسم الفئة الجديدة',
-    //     databaseName: 'اسم الفئة في قاعدة البيانات',
-    //     icon: 'fa-icon-name'
-    // }
 };
+
 
 
 

@@ -2938,6 +2938,47 @@ features: [
 
    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
+ },
+
+{
+   id: "trampoline-4,20-cm",
+   title: "Trampoline 4,20 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 3,
+   currentPrice: 3990,
+   oldPrice: 4900,
+   discount: 30,
+   images: [
+     "trampoline-4,20-cm/trampoline-4,20-cm-01.webp",
+     "trampoline-4,20-cm/trampoline-4,20-cm-02.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-03.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-04.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-05.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-06.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-07.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 210 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
  }
   
 
