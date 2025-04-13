@@ -243,9 +243,10 @@
                <span id="wholesale-price-value"></span>
                </div>
                  <div class="cta-buttons">
-       <button id="buy-now-btn" class="btn primary2-btn" onclick="openOrderFormModal()">
-    <span class="fab fa-whatsapp"></span>    أطلب الآن عبر الواتساب 
-</button>
+       <button id="buy-now-btn" class="btn primary2-btn" onclick="scrollToForm()">
+                            <i class="fas fa-shopping-cart"></i>
+                            اطلب الآن
+                        </button>
 </div>
                 
                  
@@ -1018,50 +1019,57 @@
     
 
     
-   <!-- زر الدردشة العائم -->
-    <button id="chatButton" onclick="toggleChatWindow()" aria-label="فتح نافذة الأسئلة الشائعة">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-      </svg>
-    </button> 
-   <!-- نافذة الدردشة -->
-    <div id="chatWindow" class="chat-window">
-      <div class="chat-header">
-        <h2>الأسئلة الشائعة</h2>
+<!-- زر الدردشة العائم -->
+<button id="chatButton" onclick="toggleChatWindow()">
+    <i class="fas fa-comments"></i>
+</button>
+
+<!-- نافذة الدردشة -->
+<div id="chatWindow" class="chat-window">
+    <div class="chat-header">
+        <h2>كيف يمكننا مساعدتك؟</h2>
         <button onclick="toggleChatWindow()" class="close-button" aria-label="إغلاق">×</button>
-      </div>
-      <div class="chat-content">
-          
-          <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-            كيف يمكنني طلب المنتج؟
-          </button>
-          <div class="faq-answer">
-           اختَر المنتج الذي ترغب فيه، ثم أرسل لنا طلبك عبر الواتساب وسنتواصل معك في أقرب وقت لتأكيد التفاصيل وإتمام عملية الشراء.
-          </div>
-        </div>
+    </div>
+    <div class="chat-content">
         <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-             ما هي مدة التسليم؟
+            <button onclick="toggleAnswer(this)" class="faq-question">
+                كيف يمكنني الطلب؟
+                <span class="arrow">▼</span>
             </button>
-          <div class="faq-answer">
-توصيل سريع في جميع أنحاء المغرب.
-
-استلم طلبك في نفس اليوم في الدار البيضاء،
-
-24-48 ساعة للمدن الأخرى.
-          </div>
+            <div class="faq-answer">
+                يمكنك الطلب بسهولة عن طريق النقر على زر "اطلب الآن" وملء النموذج البسيط.
+            </div>
         </div>
         <div class="faq-item">
-          <button onclick="toggleAnswer(this)" class="faq-question">
-            هل يمكنني الدفع عند الاستلام؟
-          </button>
-          <div class="faq-answer">
-          نعم، يتوفر الدفع عند الاستلام لجميع الطلبات في جميع أنحاء المغرب. يمكنك الدفع نقدًا عند استلام الشحنة من مندوب التوصيل.
-          </div>
+            <button onclick="toggleAnswer(this)" class="faq-question">
+                هل التوصيل متوفر لجميع المدن؟
+                <span class="arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+                نعم، نوفر خدمة التوصيل لجميع مدن المغرب.
+            </div>
         </div>
-      </div>
-    </div> 
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)" class="faq-question">
+                كم مدة التوصيل؟
+                <span class="arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+                يتم التوصيل خلال 24-48 ساعة حسب المدينة.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)" class="faq-question">
+                هل يمكنني الدفع عند الاستلام؟
+                <span class="arrow">▼</span>
+            </button>
+            <div class="faq-answer">
+                نعم، خدمة الدفع عند الاستلام متوفرة لجميع الطلبات.
+            </div>
+        </div>
+    </div>
+</div>
+    
     
     
 

@@ -3160,9 +3160,15 @@ select {
 /* تنسيق الأسئلة والأجوبة */
 .faq-item {
   margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: background 0.3s ease;
 }
 
 .faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   text-align: right;
   padding: 12px 15px;
@@ -3172,11 +3178,21 @@ select {
   cursor: pointer;
   font-size: 1rem;
   transition: background 0.3s ease;
-    
 }
 
 .faq-question:hover {
   background: #e5e5e5;
+}
+
+/* رمز السهم */
+.faq-question .arrow {
+  font-size: 1.2rem;
+  color: rgba(30, 177, 255, 0.84);
+  transition: transform 0.3s ease;
+}
+
+.faq-question.open .arrow {
+  transform: rotate(180deg); /* يدور السهم عند فتح الإجابة */
 }
 
 .faq-answer {
@@ -3187,6 +3203,10 @@ select {
   border-radius: 8px;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.faq-answer.show {
+  display: block; /* عرض الإجابة عند فتحها */
 }
 
 /* تحسينات للأجهزة المحمولة */
