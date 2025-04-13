@@ -3091,7 +3091,7 @@ select {
 }
 
 #chatButton:hover {
-  background-color: #d22142;
+  background-color: #21d22a;
   transform: scale(1.1);
 }
 
@@ -3128,7 +3128,7 @@ select {
 }
 
 .chat-header {
-  background: #ff1e48;
+  background: #21d22a;
   color: white;
   padding: 15px 20px;
   display: flex;
@@ -3187,7 +3187,7 @@ select {
 /* رمز السهم */
 .faq-question .arrow {
   font-size: 1.2rem;
-  color: rgba(30, 177, 255, 0.84);
+  color: #21d22a;
   transition: transform 0.3s ease;
 }
 
