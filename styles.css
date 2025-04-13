@@ -3070,12 +3070,12 @@ select {
 }
 
 /* إعدادات الأيقونة العائمة */
-/* زر الدردشة */
+/* زر الدردشة العائم */
 #chatButton {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: rgba(30, 177, 255, 0.84);
+    background-color: #3d9ec7;
     color: white;
     width: 60px;
     height: 60px;
@@ -3087,127 +3087,106 @@ select {
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    z-index: 998; /* أعلى من z-index لزر العودة */
+    z-index: 998;
 }
 
 #chatButton:hover {
-  background-color: #21d22a;
-  transform: scale(1.1);
-}
-
-/* تأثير النبض */
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 136, 204, 0.5);
-  }
-  70% {
-    box-shadow: 0 0 0 15px rgba(0, 136, 204, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(0, 136, 204, 0);
-  }
-}
-
-#chatButton {
-  animation: pulse 2s infinite;
+    background-color:#216f90;
+    transform: scale(1.1);
 }
 
 /* نافذة الدردشة */
 .chat-window {
-  display: none;
-  position: fixed;
-  bottom: 100px; /* ضبط المسافة لتكون فوق الفوتر */
-  right: 24px;
-  width: 350px;
-  max-height: 500px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  z-index: 996; /* تأكد من أن النافذة تظهر فوق العناصر الأخرى */
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 24px;
+    width: 350px;
+    max-height: 500px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 996;
 }
 
 .chat-header {
-  background: #21d22a;
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: #216f90;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .chat-header h2 {
-  margin: 0;
-  font-size: 1.2rem;
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .close-button {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 0;
-  line-height: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
 }
 
 .chat-content {
-  padding: 20px;
-  max-height: 400px;
-  overflow-y: auto;
+    padding: 21px;
+    max-height: 473px;
+    overflow-y: auto;
 }
 
 /* تنسيق الأسئلة والأجوبة */
 .faq-item {
-  margin-bottom: 15px;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: background 0.3s ease;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: background 0.3s ease;
 }
 
 .faq-question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  text-align: right;
-  padding: 12px 15px;
-  background: #f1f1f1;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    padding: 12px 15px;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
 }
 
 .faq-question:hover {
-  background: #e5e5e5;
+    background: #e5e5e5;
 }
 
 /* رمز + أو - */
 .faq-question .symbol {
     font-size: 1.5rem;
-    color: #333;
+    color: #216f90;
     font-weight: bold;
     transition: transform 0.3s ease;
 }
 
-.faq-question.open .arrow {
-  transform: rotate(180deg); /* يدور السهم عند فتح الإجابة */
-}
-
 .faq-answer {
-  display: none;
-  padding: 12px 15px;
-  margin-top: 8px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  line-height: 1.5;
+    display: none;
+    padding: 12px 15px;
+    margin-top: 8px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 .faq-answer.show {
-  display: block; /* عرض الإجابة عند فتحها */
+    display: block; /* عرض الإجابة عند فتحها */
 }
 
 /* تحسينات للأجهزة المحمولة */
