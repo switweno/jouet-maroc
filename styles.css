@@ -1354,7 +1354,7 @@ header {
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: 500;
-    color: #333;
+    color: #000000;
     letter-spacing: 0.8px;
     text-align: right;
 }
@@ -1362,59 +1362,53 @@ header {
 
 
 /* Controls Container */
+/* General Container */
 .quantity-controls {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(197, 197, 197, 0.55);
+  border-radius: 6px;
+  padding: 5px 10px;
+  width: fit-content;
+  background-color: #fff;
+  gap: 8px;
 }
 
-/* Buttons (Simple Style) */
+/* Buttons */
 .quantity-btn {
-    width: 40px;
-    height: 40px;
-    background: #ebebeb;
-    border: none;
-    border-radius: 21%;
-    font-size: 1.5rem;
-    color: #333;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s, transform 0.2s;
-   
-
+  width: 35px;
+  height: 35px;
+  background: #efefef;
+  border: none;
+  font-size: 1.4rem;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
 }
 
 .quantity-btn:hover {
-    background: #e1e1e1;
+  color: #f40e0e;
 }
 
 .quantity-btn:active {
-    background: #ccc;
-    transform: scale(0.95);
+  transform: scale(0.9);
 }
 
-/* Input field for quantity */
+/* Quantity Input */
 #quantity {
-    width: 60px;
-    height: 35px;
-    text-align: center;
-    font-size: 1.1rem;
-    border: 1px solid #ebebeb;
-    background: #fff;
-    border-radius: 5px;
-    color: #333;
-    outline: none;
-    transition: background-color 0.2s;
-    
-
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #333;
 }
 
-#quantity:focus {
-    background: #fafafa;
-    border: 1px solid #888;
-}
 
 /* Small Screen Adjustments */
 @media (max-width: 762px) {
@@ -1434,7 +1428,7 @@ header {
     }
 
     #quantity {
-        width: 80px;
+        width: 43px;
         height: 40px;
         font-size: 1.1rem;
     }
@@ -1457,12 +1451,12 @@ header {
     .quantity-btn {
         width: 35px;
         height: 35px;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     #quantity {
-        width: 60px;
-        height: 35px;
+        width: 40px;
+        height: 25px;
         font-size: 1rem;
     }
 }
@@ -1508,10 +1502,10 @@ header {
     background-color:  #4d900a; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
     font-size: 1rem; /* حجم خط أكبر */
-    padding: 10px 30px; /* تعديل الحواف */
-    border-radius: 35px; /* تدوير الحواف أكثر */
+    padding: 10px 23px; /* تعديل الحواف */
+    border-radius: 17px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
-    border: 4px solid #8ae600;
+    border: 4px solid #b6ff49;
 
     
 }
