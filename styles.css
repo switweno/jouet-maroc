@@ -1133,8 +1133,8 @@ header {
     font-size: 1.1rem;
     color: #031112;
     padding-bottom: 8px; /* مسافة أسفل النص */
-    margin-bottom: 8px; /* مسافة إضافية أسفل العنصر */
-    border-bottom: 1px solid #f0f0f0; /* خط فاصل رقيق مشابه للعناصر الأخرى */
+    margin-bottom: 9px; /* مسافة إضافية أسفل العنصر */
+    margin-top: -12px;
     width: 100%; /* تأكيد عرض كامل للعنصر */
     display: flex;
     align-items: center;
