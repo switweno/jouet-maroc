@@ -743,6 +743,91 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   }, 
   
+{
+    id: "vélo-vtt-ciclista-2025",
+    title: "VÉLO VTT CICLISTA 2025",
+    brand: "CICLISTA",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 41,
+    currentPrice: 1399,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-01.webp",
+     "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-02.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-03.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-04.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-05.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-06.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-07.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-08.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-09.webp"
+    ],
+    features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT‏" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+  },
+  
+  {
+    id: "vélo-vtt-ciclista-plus",
+    title: "VÉLO VTT CICLISTA PLUS 2025",
+    brand: "CICLISTA",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 89,
+    currentPrice: 1899,
+    oldPrice: 2599,
+    discount: 30,
+    images: [
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-01.webp",
+     "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-02.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-03.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-04.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-05.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-06.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-07.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-08.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-09.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-10.webp"
+    ],
+   features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 × 4.0 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT‏" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    
+  },
+  
   {
     id: "madame-youmeig-26",
     title: "VÉLO MADAME YOUMEIG 26",

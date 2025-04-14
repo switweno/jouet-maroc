@@ -4130,7 +4130,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
         }
 
      .card .icon-container i.fas.fa-headset {
-    color: #ff5733; /* لون مخصص لأيقونة الدعم الفني */
+    color: #ff5555; /* لون مخصص لأيقونة الدعم الفني */
 }
 
 .card .icon-container i.fas.fa-bullseye {
@@ -4146,7 +4146,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .card .icon-container i.fas.fa-truck {
-    color: #ff8a00; /* لون مخصص لأيقونة الشحن */
+    color: #dcdcdc; /* لون مخصص لأيقونة الشحن */
 }
         
  
