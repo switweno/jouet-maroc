@@ -3301,9 +3301,8 @@ footer .social-icons a {
 }
 
 footer .social-icons a:nth-child(1) { background-color: #1877f2; } /* فيسبوك */
-footer .social-icons a:nth-child(2) { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); } /* انستغرام */
-footer .social-icons a:nth-child(3) { background-color: #FF0000; } /* يوتيوب */
-footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتساب */
+
+footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتساب */
 
 .social-icons a {
     text-decoration: none; /* إزالة الخط تحت الأيقونات */
