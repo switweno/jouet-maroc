@@ -56,7 +56,7 @@ features: [
 ],
 
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
   },
   
@@ -114,7 +114,7 @@ features: [
   }
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
   },
   
@@ -169,7 +169,7 @@ features: [
  
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F696236402972322%2F&show_text=false&width=264&t=0"
   },
   
@@ -226,7 +226,7 @@ features: [
  
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1790742958137283%2F&show_text=false&width=264&t=0"
   },
 
@@ -286,7 +286,7 @@ features: [
  
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
     {
@@ -339,7 +339,7 @@ features: [
         ]
       }
     ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
@@ -398,7 +398,7 @@ features: [
         ]
       }
     ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
   },
   {
@@ -449,7 +449,7 @@ features: [
         ]
       }
     ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
   },
   {
@@ -505,7 +505,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F657273883473788%2F&show_text=false&width=267&t=0"
   },
   
@@ -558,7 +558,7 @@ features: [
     ]
   }
 ],
-  warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
  },
   
@@ -618,7 +618,7 @@ features: [
 
 
 
-  warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
   }, 
 
@@ -684,7 +684,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -739,7 +739,7 @@ features: [
     ]
   }
 ],
-  warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -798,7 +798,7 @@ features: [
 
     
     
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F619757167599413%2F&show_text=false&width=267&t=0"
   },
   
@@ -851,7 +851,7 @@ features: [
   }
 ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
   },
   
@@ -900,7 +900,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3545953265711523%2F&show_text=false&width=267&t=0"
   },
   
@@ -954,7 +954,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
   },
   
@@ -1005,7 +1005,7 @@ features: [
     }
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
   },
   
@@ -1056,7 +1056,7 @@ features: [
     }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F492294450206178%2F&show_text=false&width=267&t=0"
   },
   
@@ -1115,7 +1115,7 @@ features: [
     }
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1146905996905695%2F&show_text=false&width=267&t=0"
   },
   
@@ -1170,7 +1170,7 @@ features: [
     }
 ],
 
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1745763942639295%2F&show_text=false&width=267&t=0"
   },
   {
@@ -1217,7 +1217,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
   },
   {
@@ -1280,7 +1280,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
   {
@@ -1336,7 +1336,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
   },
   {
@@ -1394,7 +1394,7 @@ features: [
         ]
       }
     ],
-    warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
   },
   {
@@ -1457,7 +1457,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
  },
   
@@ -1523,7 +1523,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F977083681237253%2F&show_text=false&width=267&t=0"
  },
   
@@ -1644,7 +1644,7 @@ features: [
       ]
     }
   ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F988696436776129%2F&show_text=false&width=267&t=0"
  },
   
@@ -1699,7 +1699,7 @@ features: [
       ]
     }
   ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
  },
   
@@ -1749,7 +1749,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1191904782566963%2F&show_text=false&width=264&t=0"
  },
   
@@ -1804,7 +1804,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
  },
   
@@ -1918,7 +1918,7 @@ features: [
   ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"
  },
   
@@ -1973,7 +1973,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1396773761319165%2F&show_text=false&width=267&t=0"
  },
   
@@ -2027,7 +2027,7 @@ features: [
   ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1356692908792031%2F&show_text=false&width=267&t=0"
  },
   
@@ -2080,7 +2080,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F606512642121396%2F&show_text=false&width=267&t=0"
  },
   
@@ -2138,7 +2138,7 @@ features: [
   ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"
  },
   
@@ -2193,7 +2193,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1339868447361661%2F&show_text=false&width=267&t=0"
  },
   
@@ -2245,7 +2245,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F422262497235704%2F&show_text=false&width=267&t=0"
  },
   
@@ -2296,7 +2296,7 @@ features: [
      ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
  },
   
@@ -2349,7 +2349,7 @@ features: [
   ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"
  },
   
@@ -2403,7 +2403,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  }, 
   
@@ -2457,7 +2457,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  }, 
   
@@ -2512,7 +2512,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1027785836036512%2F&show_text=false&width=267&t=0"
  }, 
   
@@ -2566,7 +2566,7 @@ features: [
     ]
   }
 ],
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1179274147225695%2F&show_text=false&width=267&t=0"
  },
   
@@ -2616,7 +2616,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
  },
   
@@ -2669,7 +2669,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1394153574894158%2F&show_text=false&width=267&t=0"
  },
   
@@ -2724,7 +2724,7 @@ features: [
     }
   ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1192338492420647%2F&show_text=false&width=267&t=0"
  },
   
@@ -2780,7 +2780,7 @@ features: [
     }
   ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687673320498795%2F&show_text=false&width=264&t=0"
  },
   
@@ -2832,7 +2832,7 @@ features: [
     }
   ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1695601351316004%2F&show_text=false&width=267&t=0"
  },
   
@@ -2887,7 +2887,7 @@ features: [
   
   ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1030215162489009%2F&show_text=false&width=264&t=0"
  },
   
@@ -2941,7 +2941,7 @@ features: [
     }
   ],
  
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1668139383896057%2F&show_text=false&width=264&t=0"
  },
   
@@ -2994,7 +2994,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1649431872601282%2F&show_text=false&width=264&t=0"
  },
   
@@ -3044,7 +3044,7 @@ features: [
   }
 ],
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
  },
   
@@ -3082,7 +3082,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  },  
 
@@ -3120,7 +3120,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  },  
   
@@ -3158,7 +3158,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  },
 
@@ -3199,7 +3199,7 @@ features: [
 ],
 
 
-   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  }
   

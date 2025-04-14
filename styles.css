@@ -1324,19 +1324,18 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #fffaeb;
-    border: 1px solid #ffcc80;
+    background-color: #ffffff;
+    border: 1px solid #1c56f0;
     border-radius: 8px;
-    padding: 8px;
+    padding: 10px;
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-     direction: rtl;
+     direction: ltr;
      
-    
 }
 
 
@@ -1938,7 +1937,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 8px; /* Reduce padding */
-        margin-top: 8px;
+        margin-top: 13px;
         margin-bottom: 1px;
     }
     
