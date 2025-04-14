@@ -1507,11 +1507,12 @@ header {
 #buy-now-btn {
     background-color:  #4d900a; /* لون مختلف */
     color: rgb(255, 255, 255); /* لون النص */
-    font-size: 1.1rem; /* حجم خط أكبر */
+    font-size: 1rem; /* حجم خط أكبر */
     padding: 10px 30px; /* تعديل الحواف */
-    border-radius: 8px; /* تدوير الحواف أكثر */
+    border-radius: 35px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
-    
+    border: 5px solid #07ff11;
+
     
 }
 
