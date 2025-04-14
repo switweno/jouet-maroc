@@ -1418,7 +1418,7 @@ header {
     }
 
     .quantity-controls {
-        gap: 8px;
+        gap: 3px;
     }
 
     .quantity-btn {
@@ -1428,7 +1428,7 @@ header {
     }
 
     #quantity {
-        width: 43px;
+        width: 37px;
         height: 40px;
         font-size: 1.1rem;
     }
@@ -1499,14 +1499,14 @@ header {
    
 }
 #buy-now-btn {
-    background-color:  #4d900a; /* لون مختلف */
-    color: rgb(255, 255, 255); /* لون النص */
+    background-color:  #ffffff; /* لون مختلف */
+    color: rgb(80, 80, 80); /* لون النص */
     font-size: 1rem; /* حجم خط أكبر */
     padding: 10px 23px; /* تعديل الحواف */
     border-radius: 17px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
-    border: 4px solid #b6ff49;
-
+    border: 4px solid #218838;
+    box-shadow: 0 6px 12px rgba(147, 142, 146, 0.37); 
     
 }
 
@@ -4187,14 +4187,4 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
                 max-width: 300px;
             }
         }
-
-
-
-
-
-
-
-
-
-
 
