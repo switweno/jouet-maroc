@@ -739,9 +739,98 @@ features: [
     ]
   }
 ],
+   
+   
+  
   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   }, 
+  
+  {
+   id: "trottinette-eclipse",
+   title: "TROTTINETTE Eclipse",
+   brand: "eclipse",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 1369,
+   oldPrice: 1700,
+   discount: 30,
+   images: [
+     "trottinette-eclipse/trottinette-eclipse-01.webp",
+     "trottinette-eclipse/trottinette-eclipse-02.webp",
+     "trottinette-eclipse/trottinette-eclipse-03.webp",
+     "trottinette-eclipse/trottinette-eclipse-04.webp",
+     "trottinette-eclipse/trottinette-eclipse-05.webp",
+     "trottinette-eclipse/trottinette-eclipse-06.webp",
+     "trottinette-eclipse/trottinette-eclipse-07.webp"
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-bolt",
+    items: [
+      { key: "MOTEUR", value: "130 W MAX" },
+      { key: "BATTERIE", value: "24 V LITHIUM" },
+      { key: "CHARGE MAX", value: "50 KG" },
+      { key: "FREINAGE", value: "MOTEUR" },
+      { key: "VITESSE MAX", value: "15 KM" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "MUSIC", value: "BLUETOOTH" },
+      { key: "CHARGE", value: "24V" }
+    ]
+  }
+],
+
+   
+   
+  
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1739254930185000%2F&show_text=false&width=267&t=0"
+  }, 
+  
+    {
+   id: "trottinette-elite",
+   title: "TROTTINETTE Elite",
+   brand: "eclipse",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 17,
+   currentPrice: 1540,
+   oldPrice: 2399,
+   discount: 30,
+   images: [
+     "trottinette-elite/trottinette-elite-01.webp",
+     "trottinette-elite/trottinette-elite-02.webp",
+     "trottinette-elite/trottinette-elite-03.webp",
+     "trottinette-elite/trottinette-elite-04.webp",
+     "trottinette-elite/trottinette-elite-05.webp"
+     
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-bolt",
+    items: [
+      { key: "MOTEUR", value: "130 W MAX" },
+      { key: "BATTERIE", value: "24 V LITHIUM" },
+      { key: "CHARGE MAX", value: "55 KG" },
+      { key: "FREINAGE", value: "MOTEUR" },
+      { key: "VITESSE MAX", value: "17 KM" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "CHARGE", value: "24V" }
+    ]
+  }
+],
+
+
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F586985493781249%2F&show_text=false&width=267&t=0"
+  },  
+  
   
 {
     id: "vélo-vtt-ciclista-2025",
