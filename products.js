@@ -1210,7 +1210,7 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
     title: "VÉLO VTT ITALIANO 20",
     brand: "ITALIANO",
     category: "دراجات هوائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 9,
     currentPrice: 1190,
