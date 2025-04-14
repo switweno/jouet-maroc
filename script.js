@@ -221,7 +221,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "moteur-x-adv-gs"; // Default product
+        productId = "likebike-lander-vtt"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -715,7 +715,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "moteur-x-adv-gs"; // Default product
+            productId = "likebike-lander-vtt"; // Default product
         }
         
         // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
@@ -1898,7 +1898,7 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
     let email = document.getElementById("email1").value;
     let message = document.getElementById("message1").value;
 
-    let mailtoLink = `mailto:jouet_maroc@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
+    let mailtoLink = `mailto:marocweno@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
     window.location.href = mailtoLink;
 });
 

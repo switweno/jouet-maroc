@@ -1305,6 +1305,71 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
     warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
   },
+  
+ {
+    id: "likebike-lander-vtt",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
+    brand: "LIKEBIKE",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 8199,
+    oldPrice: 10999,
+    discount: 30,
+    images: [
+      "likebike-lander-vtt/likebike-lander-vtt-01.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-02.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-03.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-04.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-05.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-06.webp",
+     "likebike-lander-vtt/likebike-lander-vtt-07.webp",
+     "likebike-lander-vtt/likebike-lander-vtt-09.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-10.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-11.webp",
+     "likebike-lander-vtt/likebike-lander-vtt-12.webp"
+    ],
+    features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
+      { key: "BATTERIE", value: "48 V 13 AH" },
+      { key: "BATTERIE TYPE", value: "LITHIUM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "CHARGE RAPIDE", value: "54V" },
+      { key: "AUTONOMIE", value: "40 KM - 50 KM MAX" },
+      { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+      { key: "VITESSE MAX", value: "42 KM" },
+      { key: "VITESSE", value: "7E VITESSE" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "PIÈCES", value: "SHIMANO" },
+    ]
+  },
+  {
+    title: "CONFORT & ÉQUIPEMENT",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD INTELLIGENT" },
+      { key: "NIVEAUX DE VITESSE", value: "5E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "PNEUS", value: "26×4 POUCES" },
+      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
+      { key: "KLAXON", value: "ÉLECTRIQUE" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F581108468427068%2F&show_text=false&width=267&t=0"
+  }, 
+  
   {
     id: "velo-electrique-harley-u9",
     title: "VÉLO ÉLECTRIQUE HARLEY U9",
@@ -1368,6 +1433,8 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
     warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
+  
+  
   {
     id: "velo-electrique-likebike-shine-s",
     title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
