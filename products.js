@@ -2353,6 +2353,114 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"
  },
   
+{
+   id: "voiture-boogie-4x4",
+   title: "La voiture Boogie 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 214,
+   currentPrice: 2599,
+   oldPrice:  3100,
+   discount: 30,
+   images: [
+      "voiture-boogie-4x4/voiture-boogie -4x4-01.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-02.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-03.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-04.webp",
+    "voiture-boogie-4x4/voiture-boogie -4x4-05.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-06.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-07.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V 10Ah" },
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 places" },
+      { key: "MOTEURS", value: "5 moteurs" },
+      { key: "VITESSE", value: "3 vitesses" },
+      { key: "ÂGE", value: "2 - 10 ans" },
+      { key: "TABLEAU", value: "Tableau de bord digital" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité" },
+      { key: "MUSIQUE", value: "USB, Bluetooth, câble auxiliaire" },
+      { key: "BALANÇOIRE", value: "Oui" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "LED", value: "Feux avant & arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle & contrôle via téléphone" }
+    ]
+  }
+],
+
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
+ }, 
+  
+{
+   id: "voiture-toyota-4x4",
+   title: "La voiture Toyota 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 214,
+   currentPrice: 2149,
+   oldPrice:  2900,
+   discount: 30,
+   images: [
+      "voiture-toyota-4x4/voiture-toyota-4x4-01.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-02.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-03.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-04.webp",
+    "voiture-toyota-4x4/voiture-toyota-4x4-05.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-06.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-07.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-08.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-09.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 places en cuir" },
+      { key: "MOTEURS", value: "3 moteurs" },
+      { key: "VITESSE", value: "3 vitesses" },
+      { key: "ÂGE", value: "2 - 8 ans" },
+      { key: "TABLEAU", value: "Tableau de bord digital" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité" },
+      { key: "MUSIQUE", value: "USB, Bluetooth, câble auxiliaire" },
+      { key: "BALANÇOIRE", value: "Oui" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "LED", value: "Feux avant & arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle & contrôle via téléphone" }
+    ]
+  }
+],
+
+   warranty: "🚚 التوصيل بالمجان لجميع المدن المغربية، 🛍️ جيب منتوجاتنا بسهولة وأمان من أي بلاصة فالمغرب. 💨 ماتخليش الفرصة تفوتك، خذ طلبك دابا واستمتع بالتسوق من دارك 🏠! 🎉",
+   
+ }, 
+  
  {
    id: "voiture-Jeep-police-2025",
    title: "Voiture Jeep police 4*4 2025",
