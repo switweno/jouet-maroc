@@ -1748,6 +1748,139 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
  },
   
+{
+   id: "vélo-électrique-clarks-12",
+   title: "Vélo Cross Clarks 12",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 9,
+   currentPrice: 1599,
+   oldPrice: 2199,
+   discount: 30,
+   images: [
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-01.webp",
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-02.webp",
+    "vélo-électrique-clarks-12/vélo-électrique-clarks-12-03.webp",
+    "vélo-électrique-clarks-12/vélo-électrique-clarks-12-04.webp",
+   "vélo-électrique-clarks-12/vélo-électrique-clarks-12-05.webp",
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-06.webp"
+    
+   ],
+features: [
+    {
+      title: "SPÉCIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "100 W" },
+        { key: "Batterie", value: "24V 4Ah lithium" },
+        { key: "Poids", value: "9.43 kg" },
+        { key: "Charge max", value: "60 kg" },
+        { key: "Freinage", value: "arrière" },
+        { key: "Vitesse max", value: "17 km" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "12 pouces" },
+        { key: "Charge", value: "24V" }
+      ]
+    }
+  ],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F430063326821146%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "vélo-électrique-clarks-14",
+   title: "Vélo Cross Clarks 14",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 16,
+   currentPrice: 1799,
+   oldPrice: 2499,
+   discount: 30,
+   images: [
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-01.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-02.webp",
+    "vélo-électrique-clarks-14/vélo-électrique-clarks-14-03.webp",
+    "vélo-électrique-clarks-14/vélo-électrique-clarks-14-04.webp",
+   "vélo-électrique-clarks-14/vélo-électrique-clarks-14-05.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-06.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-07.webp"
+    
+   ],
+features: [
+  {
+    title: "SPÉCIFICATIONS",
+    icon: "fa-cogs",
+    items: [
+      { key: "Moteur", value: "100 W" },
+      { key: "Batterie", value: "24V 4Ah lithium" },
+      { key: "Poids", value: "9.43 kg" },
+      { key: "Charge max", value: "60 kg" },
+      { key: "Freinage", value: "arrière" },
+      { key: "Vitesse max", value: "17 km" },
+      { key: "Batterie", value: "lithium" },
+      { key: "Chambre à air", value: "14 pouces" },
+      { key: "Charge", value: "24V" }
+    ]
+  }
+],
+
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1743652863053402%2F&show_text=false&width=267&t=0"
+ },
+  
+
+  
+ {
+   id: "vélo-cross-électrique",
+   title: "Vélo Cross électrique",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 9,
+   currentPrice: 3199,
+   oldPrice: 4499,
+   discount: 30,
+   images: [
+     "vélo-cross-électrique/vélo-cross-électrique-01.webp",
+     "vélo-cross-électrique/vélo-cross-électrique-02.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-03.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-04.webp",
+   "vélo-cross-électrique/vélo-cross-électrique-05.webp",
+     "vélo-cross-électrique/vélo-cross-électrique-06.webp",
+     "vélo-cross-électrique/vélo-cross-électrique-07.webp",
+   ],
+features: [
+    {
+      title: "SPECIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "350 W" },
+        { key: "Batterie", value: "36V 5.2Ah lithium" },
+        { key: "Poids", value: "15 kg" },
+        { key: "Charge max", value: "70 kg" },
+        { key: "Freinage", value: "à disque arrière" },
+        { key: "Vitesse max", value: "25 km" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "16 pouces" },
+        { key: "Charge", value: "42V" },
+        { key: "Âge recommandé", value: "7 - 15 ans" }
+      ]
+    }
+  ],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1398555994437444%2F&show_text=false&width=267&t=0"
+ },
+  
   
    {
    id: "moteur-cross-42V-2",
