@@ -1973,7 +1973,7 @@ features: [
   
    {
    id: "moteur-cross-42V-2",
-   title: "Moteur cross 42V",
+   title: "Moteur cross 36V",
    brand: "Cross",
    category: "moteur-cross",
    availability: "متوفر في المخزون",
@@ -1994,8 +1994,8 @@ features: [
       title: "AVANTAGES AVANCÉS",
       icon: "fa-cogs",
       items: [
-        { key: "MOTEUR", value: "1000 W MAX" },
-            { key: "BATTERIE", value: "LITHIUM 42 V 12AH" },
+        { key: "MOTEUR", value: "500 W MAX" },
+            { key: "BATTERIE", value: "LITHIUM 36 V 12AH" },
             { key: "CHARGE MAX", value: "70 KG" },
             { key: "FREINAGE", value: "ARRIÈRE" },
             { key: "AUTONOMIE", value: "10 KM MIN - 15 KM MAX" },
