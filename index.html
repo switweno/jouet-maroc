@@ -1369,15 +1369,53 @@
 </footer>
 
 
-  <script>
-    const currentURL = encodeURIComponent(window.location.href);
+<script>
+  // جلب الرابط المعتمد على المعلمة `product` في URL
+  function getProductUrl() {
+    const urlParams = new URLSearchParams(window.location.search); // جلب المعاملات من URL
+    const productParam = urlParams.get('product'); // جلب اسم المنتج
+    if (productParam) {
+      // بناء رابط المنتج بشكل ديناميكي
+      return `https://jouet-maroc.com/?product=${productParam}`;
+    }
+    return window.location.href; // في حالة لم يتم العثور على المعلمة
+  }
+
+  // تحديث روابط المشاركة
+  function updateShareLinks() {
+    const productUrl = encodeURIComponent(getProductUrl()); // الحصول على الرابط بشكل مشفر
     const text = encodeURIComponent("شوف هاد المنتوج");
 
-    document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${text}%20${currentURL}`;
-    document.getElementById("facebook-btn").href = `https://www.facebook.com/sharer/sharer.php?u=${currentURL}`;
-    document.getElementById("twitter-btn").href = `https://twitter.com/intent/tweet?text=${text}&url=${currentURL}`;
-    document.getElementById("telegram-btn").href = `https://t.me/share/url?url=${currentURL}&text=${text}`;
-  </script>
+    // تحديث روابط المشاركة
+    document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${text}%20${productUrl}`;
+    document.getElementById("facebook-btn").href = `https://www.facebook.com/sharer/sharer.php?u=${productUrl}`;
+    document.getElementById("twitter-btn").href = `https://twitter.com/intent/tweet?text=${text}&url=${productUrl}`;
+    document.getElementById("telegram-btn").href = `https://t.me/share/url?url=${productUrl}&text=${text}`;
+  }
+
+  // تحديث الروابط عند تحميل الصفحة
+  window.onload = function() {
+    updateShareLinks();
+  };
+
+  // منع التأثيرات الغير مرغوب فيها عند الضغط على الأزرار
+  document.querySelectorAll('.share-btn').forEach(button => {
+    button.addEventListener('click', function(event) {
+      // منع أي إعادة تحميل للصفحة أو التأثير الغير مرغوب فيه
+      event.preventDefault();
+      
+      // تحديث الروابط مباشرة
+      updateShareLinks();
+
+      // فتح الرابط في نافذة جديدة (الجهاز سينتقل إلى الرابط المُحدد)
+      const href = this.href;
+      window.open(href, '_blank');
+    });
+  });
+</script>
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
