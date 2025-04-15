@@ -1455,7 +1455,12 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
   }
 ],
 
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+warranty: "🚴‍♂️ LIKEBIKE LANDER دراجة كهربائية عصرية، قوية ومريحة، موجهة للناس اللي باغين تنقل ذكي بلا مصاريف زايدة. بطارية ليثيوم وموتور قوي باش توصّل بعيد وبسهولة. تصميم متين، عجلات عريضة، وفرانات آمنة. مثالية للجولات والخدمة، وبثمن لا يُضاهى.",
+
+
+
+
+   
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F581108468427068%2F&show_text=false&width=267&t=0"
   }, 
   
