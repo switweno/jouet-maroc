@@ -2296,6 +2296,58 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"
  },
   
+  {
+   id: "voiture-mercedes-4x4",
+    title: "Voiture Mercedes 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 2149,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-01.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-02.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-03.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-04.webp",
+    "voiture-mercedes-4x4/voiture-mercedes-4x4-05.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V 7AH" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES EN CUIR" },
+      { "key": "MOTEUR", "value": "5 MOTEURS PUISSANTS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "BALANÇOIRE", "value": "INTÉGRÉE" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "AMORTISSEURS", "value": "SUSPENSIONS AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3 NIVEAUX" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "EFFETS", "value": "SONS POLICE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+  
   
 {
    id: "voiture-range-rover-police",
