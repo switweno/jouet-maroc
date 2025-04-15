@@ -1923,7 +1923,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Product description */
     .product-description {
         padding: 5px; /* Reduce padding */
-        margin-bottom: -10px; /* Reduce margin */
+        margin-bottom: 2px; /* Reduce margin */
     }
     
     .feature-category {
@@ -1932,8 +1932,8 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 8px; /* Reduce padding */
-        margin-top: 13px;
-        margin-bottom: 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     /* Order form section */
@@ -4188,3 +4188,40 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
             }
         }
 
+    .share-label {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.share-buttons {
+  display: flex;              /* العرض في صف واحد */
+  justify-content: right;    /* توسيط الأزرار في الوسط */
+  gap: 15px;                  /* المسافة بين الأزرار */
+  flex-wrap: nowrap;          /* عدم التفاف الأزرار تحت بعضها */
+  align-items: center;        /* توسيط الأزرار عموديًا */
+}
+
+.share-btn {
+  width: 60px;                /* تحديد العرض */
+  height: 60px;               /* تحديد الارتفاع */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+   display: flex;
+  align-items: center;        /* توسيط الأيقونة داخل الزر */
+  justify-content: center;    /* توسيط الأيقونة داخل الزر */
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+
+.share-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.share-btn img {
+  width: 41px;                /* تحديد عرض الأيقونة */
+  height: 35px;               /* تحديد ارتفاع الأيقونة */
+}
