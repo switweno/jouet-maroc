@@ -947,7 +947,7 @@ header {
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
     margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
-    border-bottom: 1px solid rgba(218, 218, 218, 0.64); /* خط فاصل خفيف */ 
+    border-bottom: 1px solid #f0f0f0; /* خط فاصل خفيف */ 
 }
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
@@ -1342,14 +1342,16 @@ header {
 
 
 
-/* General Styles */
 .quantity-selector {
     margin-bottom: 20px;
     color: #333;
     font-family: 'Arial', sans-serif;
     text-align: center;
-     padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
+    padding-right: 7px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px; /* ها هادي كتدير المسافة بين الخط والمحتوى تحت */
 }
+
 
 .quantity-selector h3 {
     margin-bottom: 10px;
@@ -1408,6 +1410,7 @@ header {
   border: none;
   outline: none;
   color: #333;
+
 }
 
 
@@ -4191,10 +4194,11 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 
 .share-label {
   font-size: 18px;
-  color: #333;
-  margin-bottom: 5px;
+  color: #2f30ba;
+  margin-bottom: -3px;
   text-align: right;  /* توسيط النص */
     padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .share-buttons {
@@ -4203,7 +4207,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   gap: 15px;
   flex-wrap: wrap; /* السماح للأزرار بالتفاف إذا كانت الشاشة صغيرة */
   margin-top: 5px;
-   padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */ 
+    
 }
 
 .share-btn {
@@ -4227,8 +4231,8 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .share-btn img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 /* تحسين التوافق مع الشاشات الصغيرة */
