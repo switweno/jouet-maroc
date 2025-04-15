@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(234, 234, 234, 0.13);
+    background-color: rgba(255, 255, 255, 0.13);
     color: rgb(107, 105, 105);
     line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -1504,13 +1504,13 @@ header {
    
 }
 #buy-now-btn {
-    background-color:  #299106; /* لون مختلف */
+    background-color:  #2F5E8C; /* لون مختلف */
     color:#ffffff; /* لون النص */
     font-size: 1rem; /* حجم خط أكبر */
     padding: 10px 23px; /* تعديل الحواف */
     border-radius: 8px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
-    border: 3px solid #c0c0c0;
+    border: 3px solid #e1e1e1;
    
     
 }
