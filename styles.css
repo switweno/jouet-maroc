@@ -1336,7 +1336,8 @@ header {
     align-items: center;
     justify-content: center;
      direction: rtl;
-     color: #555555;
+     color: #0c8547;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 
