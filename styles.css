@@ -793,7 +793,7 @@ header {
 
 /* تحسين مقروئية الوصف على الشاشات المختلفة */
 .product-description {
-    
+     
     background-color: rgba(154, 154, 151, 0);
     border-radius: 8px;
     padding: 15px;
@@ -814,7 +814,7 @@ header {
     background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-   
+  
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -1933,7 +1933,7 @@ h1, h2, h3, h4, h5, h6 {
     .feature-highlight {
         padding: 8px; /* Reduce padding */
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
     }
     
     /* Order form section */
@@ -2707,8 +2707,8 @@ select {
     }
     
     .product-description {
-        padding: 1px !important;
-        margin-bottom: 1px !important;
+        padding: 2px !important;
+        margin-bottom: 10px !important;
     }
     
     .feature-category {
@@ -4188,40 +4188,58 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
             }
         }
 
-    .share-label {
-  font-size: 17px;
+.share-label {
+  font-size: 18px;
   color: #333;
   margin-bottom: 15px;
+  text-align: center;  /* توسيط النص */
 }
 
 .share-buttons {
-  display: flex;              /* العرض في صف واحد */
-  justify-content: right;    /* توسيط الأزرار في الوسط */
-  gap: 15px;                  /* المسافة بين الأزرار */
-  flex-wrap: nowrap;          /* عدم التفاف الأزرار تحت بعضها */
-  align-items: center;        /* توسيط الأزرار عموديًا */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* السماح للأزرار بالتفاف إذا كانت الشاشة صغيرة */
+  margin-top: 10px;
 }
 
 .share-btn {
-  width: 60px;                /* تحديد العرض */
-  height: 60px;               /* تحديد الارتفاع */
+  width: 60px;
+  height: 60px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
-   display: flex;
-  align-items: center;        /* توسيط الأيقونة داخل الزر */
-  justify-content: center;    /* توسيط الأيقونة داخل الزر */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-decoration: none;
+  margin: 5px; /* إضافة هوامش بين الأزرار */
 }
 
 .share-btn:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .share-btn img {
-  width: 41px;                /* تحديد عرض الأيقونة */
-  height: 35px;               /* تحديد ارتفاع الأيقونة */
+  width: 30px;
+  height: 30px;
+}
+
+/* تحسين التوافق مع الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .share-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .share-label {
+    font-size: 16px; /* تقليل حجم الخط على الشاشات الصغيرة */
+  }
+
+  .share-buttons {
+    gap: 10px; /* تقليل المسافة بين الأزرار على الشاشات الصغيرة */
+  }
 }
