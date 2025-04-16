@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.13);
+    background-color: rgba(234, 234, 234, 0.13);
     color: rgb(107, 105, 105);
     line-height: 1.8;
     overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -105,7 +105,7 @@ header {
 }
 
 /* تعديلات خاصة للشاشات الصغيرة والمتوسطة */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .site-brand {
         left: 10px;
     }
@@ -170,11 +170,6 @@ header {
 /* إضافة لون جديد ل fa-chair */
 .sidebar-category[data-category="siege-auto"] i {
     color: #e83e8c; /* لون وردي لكرسي السيارة */
-}
-
-/* إضافة لون جديد ل fa-chair */
-.sidebar-category[data-category="trampoline"] i {
-    color: #257ad5; /* لون ازرق ترامبولين */
 }
 
 /* تأثير عند تمرير الماوس */
@@ -396,7 +391,7 @@ header {
     }
 
     .sidebar-close {
-        font-size: 2.2rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
+        font-size: 2rem;  /* تصغير زر الإغلاق على الهواتف الصغيرة */
     }
 
     .sidebar-category i {
@@ -415,7 +410,7 @@ header {
     }
 
     .sidebar-close {
-        font-size: 2.2rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
+        font-size: 1.8rem;  /* تقليص زر الإغلاق على الأجهزة اللوحية */
     }
 
     .sidebar-category i {
@@ -547,7 +542,7 @@ header {
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
     background-color: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .popup-product:hover {
@@ -624,7 +619,7 @@ header {
     display: none; /* إخفاء افتراضي */
 }
 
-@media (min-width: 1369px) {
+@media (min-width: 992px) {
     /* إظهار القائمة الأفقية في الشاشات الكبيرة */
     .desktop-categories {
         display: flex;
@@ -639,10 +634,7 @@ header {
     }
     }
 
- /* إخفاء زر القائمة في الشاشات الكبيرة */
-    .menu-toggle {
-        display: none;
-    }
+
 
     
     .desktop-categories ul {
@@ -793,15 +785,14 @@ header {
 
 /* تحسين مقروئية الوصف على الشاشات المختلفة */
 .product-description {
-     margin-bottom: 10px;
-    background-color: white;
-    border-radius: 10px;
+    
+    background-color: rgba(154, 154, 151, 0);
+    border-radius: 8px;
     padding: 15px;
     border: 1px solid #eee;
     overflow-y: auto; /* إضافة قابلية التمرير عند الحاجة */
     max-height: none; /* إزالة أي قيود على الارتفاع */
-     box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
-
+    
 }
 
 .product-description h3 {
@@ -815,7 +806,7 @@ header {
     background: #670a67; /* لون الشريط الأساسي */
     border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-  
+   
 }
 
 /* استعلام وسائط للشاشات الصغيرة */
@@ -947,7 +938,7 @@ header {
     width: 100%; /* تأكيد عرض كامل للعنصر */
     padding-bottom: 12px;
     margin-bottom: 18px; /* زيادة المسافة أسفل العنوان */
-    border-bottom: 1px solid #f0f0f0; /* خط فاصل خفيف */ 
+    border-bottom: 1px solid rgba(218, 218, 218, 0.64); /* خط فاصل خفيف */ 
 }
 
 /* تنسيق معلومات المنتج (العلامة التجارية، الفئة، التوفر) */
@@ -1134,8 +1125,8 @@ header {
     font-size: 1.1rem;
     color: #031112;
     padding-bottom: 8px; /* مسافة أسفل النص */
-    margin-bottom: 9px; /* مسافة إضافية أسفل العنصر */
-    margin-top: -12px;
+    margin-bottom: 8px; /* مسافة إضافية أسفل العنصر */
+    border-bottom: 1px solid #f0f0f0; /* خط فاصل رقيق مشابه للعناصر الأخرى */
     width: 100%; /* تأكيد عرض كامل للعنصر */
     display: flex;
     align-items: center;
@@ -1325,96 +1316,100 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #ffffff;
-    border: 1px solid rgba(106, 132, 209, 0);
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 1px solid #e6e3e6;
     border-radius: 8px;
-    padding: 10px;
+    padding: 14px;
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-     direction: rtl;
-     color: #0c8547;
+    direction: rtl; /* النص من اليمين لليسار */
+    color: #333;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+    font-size: 1rem;
+    overflow: hidden; /* لإخفاء النص خارج الحدود */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+     margin-bottom: -11px;
 }
 
 
-
-
+/* General Styles */
 .quantity-selector {
     margin-bottom: 20px;
     color: #333;
     font-family: 'Arial', sans-serif;
     text-align: center;
-    padding-right: -1px;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 10px; /* ها هادي كتدير المسافة بين الخط والمحتوى تحت */
+     padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
 }
 
-
 .quantity-selector h3 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 1rem;
     font-weight: 500;
-    color: #000000;
+    color: #333;
     letter-spacing: 0.8px;
     text-align: right;
-    padding-right: 9px;
 }
 
 
 
 /* Controls Container */
-/* General Container */
 .quantity-controls {
-  display: flex;
-  align-items: center;
-  border: 1px solid rgba(197, 197, 197, 0);
-  border-radius: 6px;
-  padding: 5px 10px;
-  width: fit-content;
-  background-color: #fff;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-/* Buttons */
+/* Buttons (Simple Style) */
 .quantity-btn {
-  width: 35px;
-  height: 35px;
-  background: #efefef;
-  border: none;
-  font-size: 1.4rem;
-  color: #333;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s;
+    width: 40px;
+    height: 40px;
+    background: #ebebeb;
+    border: none;
+    border-radius: 21%;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.2s;
+   
+
 }
 
 .quantity-btn:hover {
-  color: #f40e0e;
+    background: #e1e1e1;
 }
 
 .quantity-btn:active {
-  transform: scale(0.9);
+    background: #ccc;
+    transform: scale(0.95);
 }
 
-/* Quantity Input */
+/* Input field for quantity */
 #quantity {
-  width: 50px;
-  height: 34px;
-  text-align: center;
-  font-size: 1rem;
-  background: transparent;
-  border: 1px color ;
-  outline: none;
-  color: #333;
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    border-radius: 5px;
+    color: #333;
+    outline: none;
+    transition: background-color 0.2s;
+    
 
 }
 
+#quantity:focus {
+    background: #fafafa;
+    border: 1px solid #888;
+}
 
 /* Small Screen Adjustments */
 @media (max-width: 762px) {
@@ -1424,18 +1419,18 @@ header {
     }
 
     .quantity-controls {
-        gap: 3px;
+        gap: 8px;
     }
 
     .quantity-btn {
-        width: 43px;
+        width: 35px;
         height: 35px;
         font-size: 1.4rem;
     }
 
     #quantity {
-        width: 46px;
-        height: 35px;
+        width: 80px;
+        height: 40px;
         font-size: 1.1rem;
     }
 }
@@ -1455,13 +1450,13 @@ header {
     }
 
     .quantity-btn {
-        width: 40px;
+        width: 35px;
         height: 35px;
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 
     #quantity {
-        width: 44px;
+        width: 60px;
         height: 35px;
         font-size: 1rem;
     }
@@ -1505,14 +1500,13 @@ header {
    
 }
 #buy-now-btn {
-    background-color:  #2F5E8C; /* لون مختلف */
-    color:#ffffff; /* لون النص */
-    font-size: 1rem; /* حجم خط أكبر */
-    padding: 10px 23px; /* تعديل الحواف */
+    background-color:  #2f7f00; /* لون مختلف */
+    color: rgb(255, 255, 255); /* لون النص */
+    font-size: 1.1rem; /* حجم خط أكبر */
+    padding: 10px 30px; /* تعديل الحواف */
     border-radius: 8px; /* تدوير الحواف أكثر */
     margin-bottom: 10px;
-    border: 3px solid #e1e1e1;
-   
+    
     
 }
 
@@ -1929,7 +1923,7 @@ h1, h2, h3, h4, h5, h6 {
     /* Product description */
     .product-description {
         padding: 5px; /* Reduce padding */
-        margin-bottom: 2px; /* Reduce margin */
+        margin-bottom: -10px; /* Reduce margin */
     }
     
     .feature-category {
@@ -1938,7 +1932,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .feature-highlight {
         padding: 8px; /* Reduce padding */
-        margin-top: 10px;
+        margin-top: 8px;
         margin-bottom: 1px;
     }
     
@@ -2713,8 +2707,8 @@ select {
     }
     
     .product-description {
-        padding: 2px !important;
-        margin-bottom: 10px !important;
+        padding: 1px !important;
+        margin-bottom: 1px !important;
     }
     
     .feature-category {
@@ -3076,12 +3070,12 @@ select {
 }
 
 /* إعدادات الأيقونة العائمة */
-/* زر الدردشة العائم */
+/* زر الدردشة */
 #chatButton {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: #00b4ff;
+    background-color: rgba(30, 177, 255, 0.84);
     color: white;
     width: 60px;
     height: 60px;
@@ -3093,106 +3087,106 @@ select {
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    z-index: 998;
+    z-index: 998; /* أعلى من z-index لزر العودة */
 }
 
 #chatButton:hover {
-    background-color:#0daaec;
-    transform: scale(1.1);
+  background-color: #d22142;
+  transform: scale(1.1);
+}
+
+/* تأثير النبض */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 136, 204, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 136, 204, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 136, 204, 0);
+  }
+}
+
+#chatButton {
+  animation: pulse 2s infinite;
 }
 
 /* نافذة الدردشة */
 .chat-window {
-    display: none;
-    position: fixed;
-    bottom: 100px;
-    right: 24px;
-    width: 350px;
-    max-height: 500px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    z-index: 996;
+  display: none;
+  position: fixed;
+  bottom: 100px; /* ضبط المسافة لتكون فوق الفوتر */
+  right: 24px;
+  width: 350px;
+  max-height: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 996; /* تأكد من أن النافذة تظهر فوق العناصر الأخرى */
 }
 
 .chat-header {
-    background: #0daaec;
-    color: white;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #ff1e48;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .chat-header h2 {
-    margin: 0;
-    font-size: 1.2rem;
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .close-button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 0;
-    line-height: 1;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
 }
 
 .chat-content {
-    padding: 21px;
-    max-height: 473px;
-    overflow-y: auto;
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 /* تنسيق الأسئلة والأجوبة */
 .faq-item {
-    margin-bottom: 15px;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: background 0.3s ease;
+  margin-bottom: 15px;
 }
 
 .faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-align: right;
-    padding: 12px 15px;
-    background: #f1f1f1;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background 0.3s ease;
+  width: 100%;
+  text-align: right;
+  padding: 12px 15px;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+    
 }
 
 .faq-question:hover {
-    background: #e5e5e5;
-}
-
-/* رمز + أو - */
-.faq-question .symbol {
-    font-size: 1.5rem;
-    color: #595959;
-    font-weight: bold;
-    transition: transform 0.3s ease;
+  background: #e5e5e5;
 }
 
 .faq-answer {
-    display: none;
-    padding: 12px 15px;
-    margin-top: 8px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-.faq-answer.show {
-    display: block; /* عرض الإجابة عند فتحها */
+  display: none;
+  padding: 12px 15px;
+  margin-top: 8px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 /* تحسينات للأجهزة المحمولة */
@@ -3302,8 +3296,9 @@ footer .social-icons a {
 }
 
 footer .social-icons a:nth-child(1) { background-color: #1877f2; } /* فيسبوك */
-
-footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتساب */
+footer .social-icons a:nth-child(2) { background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); } /* انستغرام */
+footer .social-icons a:nth-child(3) { background-color: #FF0000; } /* يوتيوب */
+footer .social-icons a:nth-child(4) {  background-color: #25D366;  } /* واتساب */
 
 .social-icons a {
     text-decoration: none; /* إزالة الخط تحت الأيقونات */
@@ -3623,7 +3618,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     max-width: 100vw;
     height: 45px; /* زيادة الارتفاع قليلاً */
     line-height: 45px;
-    background-color:  #333;
+    background-color:  #4633c5;
     padding: 0 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -3635,7 +3630,19 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     transition: background-color 0.3s ease;
 }
 
+/* إظهار .offer-bar على الشاشات الكبيرة فقط */
+@media (min-width: 768px) {
+    .offer-bar {
+        display: flex; /* استخدام flex عند الظهور */
+    }
+}
 
+/* إخفاء .offer-bar على الهواتف */
+@media (max-width: 767px) {
+    .offer-bar {
+        display: none;
+    }
+}
 
 /* حاوية العروض */
 .offer-container {
@@ -3662,7 +3669,6 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     padding: 0 20px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
-
 
 /* الأسهم */
 .arrow {
@@ -3734,11 +3740,11 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     
     /* تحسين مكان الأسهم */
 .left-arrow {
-    margin-right: 5px;
+    margin-right: 1px;
 }
 
 .right-arrow {
-    margin-left: 5px;
+    margin-left: 1px;
 }
     .arrow {
         width: 5px;
@@ -3797,13 +3803,13 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     right: 19px;
     font-size: 30px;
     font-weight: bold;
-    color:#141414;
+    color:#1c56f0;
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .order-form-close:hover {
-    color: #ff1e48;
+    color: #333;
 }
 
 /* Responsive adjustments for order form modal */
@@ -4120,7 +4126,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
         }
 
      .card .icon-container i.fas.fa-headset {
-    color: #ff5555; /* لون مخصص لأيقونة الدعم الفني */
+    color: #ff5733; /* لون مخصص لأيقونة الدعم الفني */
 }
 
 .card .icon-container i.fas.fa-bullseye {
@@ -4136,7 +4142,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .card .icon-container i.fas.fa-truck {
-    color: #dcdcdc; /* لون مخصص لأيقونة الشحن */
+    color: #ff8a00; /* لون مخصص لأيقونة الشحن */
 }
         
  
@@ -4183,61 +4189,13 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
             }
         }
 
-.share-label {
-  font-size: 18px;
-  color: #2f30ba;
-  margin-bottom: -3px;
-  text-align: right;  /* توسيط النص */
-    padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
-    font-family: 'Montserrat', 'Cairo', sans-serif;
-}
 
-.share-buttons {
-  display: flex;
-  justify-content: right;
-  gap: 15px;
-  flex-wrap: wrap; /* السماح للأزرار بالتفاف إذا كانت الشاشة صغيرة */
-  margin-top: 5px;
-    
-}
 
-.share-btn {
-  width: 60px;
-  height: 60px;
-  background-color: #fff;
-  border: 1px solid rgba(221, 221, 221, 0);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  margin: 5px; /* إضافة هوامش بين الأزرار */
-}
 
-.share-btn:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
 
-.share-btn img {
-  width: 35px;
-  height: 35px;
-}
 
-/* تحسين التوافق مع الشاشات الصغيرة */
-@media (max-width: 768px) {
-  .share-btn {
-    width: 45px;
-    height: 45px;
-  }
 
-  .share-label {
-    font-size: 16px; /* تقليل حجم الخط على الشاشات الصغيرة */
-  }
 
-  .share-buttons {
-    gap: 5px; /* تقليل المسافة بين الأزرار على الشاشات الصغيرة */
-  }
-}
+
+
+
