@@ -3680,12 +3680,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     transition: all 0.3s ease;
     margin: 0 5px;
 }
-/* إخفاء الأسهم في الشاشات الصغيرة */
-@media (max-width: 768px) {
-    .arrow {
-        display: none !important;
-    }
-}
+
 
 
 /* تحسين مكان الأسهم */
@@ -3713,7 +3708,12 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     padding: 0 20px;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
-    
+    .arrow {
+        width: 30px;
+        height: 30px;
+       font-size: 1rem !important;
+
+    }
 }
 
 @media (max-width: 421px) {
@@ -3732,7 +3732,19 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     font-family: 'sans-serif', 'Cairo', sans-serif;
 }
     
- 
+    /* تحسين مكان الأسهم */
+.left-arrow {
+    margin-right: 5px;
+}
+
+.right-arrow {
+    margin-left: 5px;
+}
+    .arrow {
+        width: 5px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
 }
 
 
