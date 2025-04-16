@@ -2092,7 +2092,7 @@ features: [
    reviewCount: 5,
    currentPrice: 2299,
    oldPrice: 3100,
-   discount: 25,
+   discount: 30,
    images: [
      "moteur-x-adv-gs/moteur-x-adv-gs-07.webp",
      "moteur-x-adv-gs/moteur-x-adv-gs-02.webp",
@@ -2130,6 +2130,57 @@ features: [
 ],
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1191904782566963%2F&show_text=false&width=264&t=0"
+ },
+  
+ {
+   id: "moteur-x-adv-gs-2",
+   title: "Moteur X ADV GS",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1749,
+   oldPrice: 2250,
+   discount: 30,
+   images: [
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-01.webp",
+    "moteur-x-adv-gs-2/moteur-x-adv-gs-2-02.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-03.webp",
+    "moteur-x-adv-gs-2/moteur-x-adv-gs-2-04.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-05.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-06.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-07.webp",
+      "moteur-x-adv-gs-2/moteur-x-adv-gs-2-08.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 volts" },
+      { "key": "SIÈGE", "value": "2 places mini" },
+      { "key": "MOTEUR", "value": "2 moteurs" },
+      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+      { "key": "AMORTISSEURS", "value": "Oui" },
+      { "key": "VITESSE", "value": "3ème vitesse" },
+      { "key": "ÂGE", "value": "3 - 10 ans" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+      { "key": "BLUETOOTH", "value": "Oui" },
+      { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F934000608675390%2F&show_text=false&width=264&t=0"
  },
   
   
