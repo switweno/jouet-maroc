@@ -1082,7 +1082,7 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
   {
     id: "VÉLO-BMX-GTR -ALUMINIUM",
     title: "VÉLO BMX GTR ALUMINIUM 26",
-    brand: "HAOMENG",
+    brand: "BMX GTR",
     category: "دراجات هوائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1398,7 +1398,7 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
  {
     id: "likebike-lander-vtt",
     title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
-    brand: "LIKEBIKE",
+    brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1467,7 +1467,7 @@ warranty: "🚴‍♂️ LIKEBIKE LANDER دراجة كهربائية عصرية�
   {
     id: "velo-electrique-harley-u9",
     title: "VÉLO ÉLECTRIQUE HARLEY U9",
-    brand: "LIKEBIKE",
+    brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1532,7 +1532,7 @@ warranty: "🚴‍♂️ LIKEBIKE LANDER دراجة كهربائية عصرية�
   {
     id: "velo-electrique-likebike-shine-s",
     title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
-    brand: "LIKEBIKE",
+    brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1588,7 +1588,7 @@ warranty: "🚴‍♂️ LIKEBIKE LANDER دراجة كهربائية عصرية�
   {
     id: "velo-electrique-likebike-shine",
     title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE",
-    brand: "LIKEBIKE",
+    brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1646,7 +1646,7 @@ warranty: "🚴‍♂️ LIKEBIKE LANDER دراجة كهربائية عصرية�
   {
     id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
     title: "VÉLO ÉLECTRIQUE 2025 ",
-    brand: "LIKEBIKE",
+    brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -1776,7 +1776,7 @@ features: [
   {
    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
-   brand: "LIKEBIKE",
+   brand: "LIKEBIKE ORIGINAL",
    category: "دراجات كهربائية",
    availability: "متوفر في المخزون",
    ratings: 4.5,
