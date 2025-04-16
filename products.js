@@ -3534,7 +3534,7 @@ features: [
 {
    id: "trampoline-2.42-cm",
    title: "Trampoline 2,42 cm ",
-   brand: "CHICAGO ",
+   brand: "TPC",
    category: "ترامبولين",
    availability: "متوفر في المخزون",
    ratings: 4.5,
