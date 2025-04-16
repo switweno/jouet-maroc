@@ -13,9 +13,7 @@ body {
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
-.hidden-image {
-  display: none;
-}
+
 
 
 button, a {
@@ -1069,7 +1067,7 @@ header {
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: rgba(255, 30, 72, 0.91);
+    background-color: rgba(255, 30, 72, 0.76);
     color: white;
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
@@ -3079,7 +3077,7 @@ select {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    background-color: #00b4ff;
+    background-color: rgba(0, 180, 255, 0.73);
     color: white;
     width: 60px;
     height: 60px;
@@ -3115,7 +3113,7 @@ select {
 }
 
 .chat-header {
-    background: #0daaec;
+    background: rgb(13, 170, 236);
     color: white;
     padding: 15px 20px;
     display: flex;
