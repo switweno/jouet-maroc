@@ -2515,6 +2515,58 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F606512642121396%2F&show_text=false&width=267&t=0"
  },
   
+ {
+   id: "voiture-bmw-4x4-2025-2",
+   title: "Voiture BMW 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 55,
+   currentPrice: 2399,
+   oldPrice: 3000,
+   discount: 30,
+   images: [
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-01.webp",
+    "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-02.webp",
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-03.webp",
+      "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-04.webp",
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-05.webp",
+      "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-06.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "VITESSE", "value": "3E NIVEAUX" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "BALANÇOIRE", "value": "EFFET INTÉGRÉ" },
+      { "key": "AMORTISSEURS", "value": "INCLUS" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "CONTRÔLE", "value": "DEPUIS LE TÉLÉPHONE" },
+      { "key": "ÂGE", "value": "1 - 9 ANS" }
+    ]
+  }
+],
+   warranty: "سيارة BMW 4x4 2025 للأطفال ماشي غير لعبة، هادي تجربة قيادة بحال الكبار. كتحمس، كتشد العين وكتخلي الطفل يعيش لحظات المتعة والفخر. راكب فيها الصغير؟ حاس براسو ملك الطريق. جربها وشوف الفرحة فعيون ولدك.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F590982623819268%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "Voiture-Mercedes-Classe-G",
    title: "Voiture Mercedes Classe G",
@@ -2736,7 +2788,7 @@ features: [
    title: "Voiture Mercedes mini 4*4",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 23,
    currentPrice: 1149 ,
