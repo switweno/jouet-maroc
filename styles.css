@@ -13,6 +13,9 @@ body {
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
+.hidden-image {
+  display: none;
+}
 
 
 button, a {
