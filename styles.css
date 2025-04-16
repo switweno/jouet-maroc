@@ -3635,19 +3635,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     transition: background-color 0.3s ease;
 }
 
-/* إظهار .offer-bar على الشاشات الكبيرة فقط */
-@media (min-width: 768px) {
-    .offer-bar {
-        display: flex; /* استخدام flex عند الظهور */
-    }
-}
 
-/* إخفاء .offer-bar على الهواتف */
-@media (max-width: 767px) {
-    .offer-bar {
-        display: none;
-    }
-}
 
 /* حاوية العروض */
 .offer-container {
