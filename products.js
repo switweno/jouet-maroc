@@ -686,7 +686,7 @@ features: [
    title: "TROTTINETTE Tank M41",
    brand: "Ecoxtrem tank",
    category: "تروتنيت",
-   availability: "غير متوفر في المخزون",
+   availability: " متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 138,
    currentPrice: 6500,
