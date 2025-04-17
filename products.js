@@ -57,7 +57,7 @@ features: [
 
     warranty: "Découvrez une trottinette électrique performante et confortable, équipée d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’à 35 km et d’une vitesse maximale de 34 km/h. Grâce à ses suspensions avant et arrière, ses freins à disque avec E-ABS, et son écran LCD EY2 connecté à une application mobile, vous bénéficiez d’un contrôle total et d’un confort optimal. Pliable, avec siège en cuir, klaxon intégré, éclairage LED complet et pneus 12 pouces à chambre à air – tout est pensé pour une conduite sûre, pratique et agréable au quotidien.",
 
-    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"
   },
   
   {
