@@ -2,6 +2,65 @@
 const products = [
   
   {
+   id: "trottinette-bremer-48v",
+    title: "TROTTINETTE SCOOTER BREMER 48V",
+    brand: " BREMER",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 2,
+    currentPrice: 4990,
+    oldPrice: 5490,
+    discount: 30,
+    images: [
+      "trottinette-bremer-48v/trottinette-bremer-48v-01.webp",
+     "trottinette-bremer-48v/trottinette-bremer-48v-02.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-03.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-04.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-05.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-06.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-07.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-08.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MAX" },
+      { key: "BATTERIE", value: "48V 10AH LITHIUM" },
+      { key: "AUTONOMIE", value: "25KM MIN - 35KM MAX" },
+      { key: "VITESSE", value: "25KM MIN - 34KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREINAGE", value: "À DISQUE AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "CONCEPTION", value: "PLIABLE OUI + SIÈGE EN CUIR" },
+      { key: "SIGNALISATION", value: "KLAXON + LUMIÈRE LED" },
+      { key: "MAÎTRISE", value: "CONTRÔLE VIA MOBILE 📱" },
+      { key: "TAILLE DES ROUES", value: "12 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  }
+],
+
+
+    warranty: "Découvrez une trottinette électrique performante et confortable, équipée d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’à 35 km et d’une vitesse maximale de 34 km/h. Grâce à ses suspensions avant et arrière, ses freins à disque avec E-ABS, et son écran LCD EY2 connecté à une application mobile, vous bénéficiez d’un contrôle total et d’un confort optimal. Pliable, avec siège en cuir, klaxon intégré, éclairage LED complet et pneus 12 pouces à chambre à air – tout est pensé pour une conduite sûre, pratique et agréable au quotidien.",
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
    id: "trottinette-togo-36v",
     title: "TROTTINETTE DUALTRON TOGO 36V",
     brand: "DUALTRON",
