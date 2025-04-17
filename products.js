@@ -3699,7 +3699,7 @@ features: [
     icon: "fa-star",
     items: [
       { key: "QUALITÉ", value: "Solide et de bonne qualité" },
-      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 190 kg" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 150 kg" },
       { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
       { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
       { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
@@ -3737,7 +3737,7 @@ features: [
     icon: "fa-star",
     items: [
       { key: "QUALITÉ", value: "Solide et de bonne qualité" },
-      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 150 kg" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 190 kg" },
       { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
       { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
       { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
