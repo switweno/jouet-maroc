@@ -686,7 +686,7 @@ features: [
    title: "TROTTINETTE Tank M41",
    brand: "Ecoxtrem tank",
    category: "تروتنيت",
-   availability: " متوفر في المخزون",
+   availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 138,
    currentPrice: 6500,
@@ -2456,6 +2456,61 @@ features: [
   ]
   }
 ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+  
+ {
+   id: "voiture-mercedes-4x4-2",
+    title: "Voiture Mercedes 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 2399,
+   oldPrice: 3200,
+   discount: 30,
+   images: [
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-01.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-02.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-03.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-04.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-05.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-06.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-07.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-08.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTOR" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "BALANÇOIRE", "value": "INTÉGRÉE" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "AMORTISSEURS", "value": "LES AMORTISSEURS" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "MUSIC + USB + CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT ET ARRIÈRE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
+    ]
+  }
+],
+
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
  },
