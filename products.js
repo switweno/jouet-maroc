@@ -461,7 +461,7 @@ features: [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
   },
   {
-    id: "kukarin-g2-pro",
+    id: "kukirin-g2-pro",
     title: "TROTTINETTE KUKIRIN G2 PRO",
     brand: "KUKIRIN",
     category: "تروتنيت",
