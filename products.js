@@ -21,7 +21,7 @@ const products = [
       "trottinette-bremer-48v/trottinette-bremer-48v-06.webp",
       "trottinette-bremer-48v/trottinette-bremer-48v-07.webp",
       "trottinette-bremer-48v/trottinette-bremer-48v-08.webp",
-      "trottinette-togo-36v/trottinette-togo-36v-09.webp"
+      "trottinette-bremer-48v/trottinette-bremer-48v-09.webp"
     ],
 features: [
   {
