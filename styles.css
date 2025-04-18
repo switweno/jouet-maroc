@@ -393,7 +393,7 @@ header {
 /* تخصيص الشاشات الأصغر (الهواتف) */
 @media (max-width: 575px) {
     .sidebar-header span {
-        font-size: 1.1rem;  /* تصغير الخط على الهواتف الصغيرة */
+        font-size: 1.2rem;  /* تصغير الخط على الهواتف الصغيرة */
     }
 
     .sidebar-close {
@@ -405,7 +405,7 @@ header {
     }
 
     .sidebar-category span {
-        font-size: 1.2rem;  /* تصغير الخط */
+        font-size: 1.1rem;  /* تصغير الخط */
     }
 }
 
