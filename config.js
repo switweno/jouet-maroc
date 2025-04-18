@@ -40,9 +40,16 @@ const CATEGORIES_CONFIG = {
         displayName: 'ترامبولين',
         databaseName: 'ترامبولين',
         icon: 'fa-baseball-ball'
+    },
+    'drift-360': {
+        id: 'drift-360',
+        displayName: 'Drift 360°',
+        databaseName: 'Drift 360°',
+        icon: 'fa-sync-alt'
     }
     // يمكن إضافة فئات جديدة هنا بسهولة
 };
+
 
 
 

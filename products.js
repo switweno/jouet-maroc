@@ -3910,6 +3910,60 @@ features: [
 
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    
+ },
+  
+{
+   id: "drift-block-360-36V",
+   title: "Drift Block 360° 36V  ",
+   brand: "DRIFT ",
+   category: "Drift 360°",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 2,
+   currentPrice: 2399,
+   oldPrice: 3099,
+   discount: 30,
+   images: [
+     "drift-block-360-36V/drift-block-360-36v-01.webp",
+     "drift-block-360-36V/drift-block-360-36v-02.webp",
+      "drift-block-360-36V/drift-block-360-36v-03.webp",
+      "drift-block-360-36V/drift-block-360-36v-04.webp",
+      "drift-block-360-36V/drift-block-360-36v-05.webp",
+     "drift-block-360-36V/drift-block-360-36v-06.webp",
+     "drift-block-360-36V/drift-block-360-36v-07.webp",
+     "drift-block-360-36V/drift-block-360-36v-08.webp"
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "250W MAX" },
+      { key: "BATTERIE", value: "Lithium 36V" },
+      { key: "AUTONOMIE", value: "10KM MIN - 15KM MAX" },
+      { key: "VITESSE", value: "15KM MIN - 22KM MAX" },
+      { key: "CHARGE MAX", value: "70 KG" },
+      { key: "FREINAGE", value: "Frein moteur" },
+      { key: "MODES DE CONDUITE", value: "3 vitesses" },
+      { key: "CHARGE", value: "36V" }
+    ]
+  },
+  {
+    title: "AVANTAGES & FONCTIONNALITÉS",
+    icon: "fa-star",
+    items: [
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "KLAXON", value: "Intégré" },
+      { key: "SÉCURITÉ", value: "LED avant et arrière + casque et protections offerts 🎁" },
+      { key: "DÉMARRAGE", value: "Double contact" },
+      { key: "STYLE", value: "Design Drift 360° amusant et dynamique" }
+    ]
+  }
+],
+
+
+  warranty: "Découvrez la trottinette électrique Drift 360° 36V, un choix idéal pour les enfants et les jeunes en quête de sensations fortes. Dotée d’un moteur puissant de 250W, d’une batterie lithium 36V et d’un système de freinage moteur sécurisé, cette trottinette offre une autonomie allant jusqu’à 15 km et une vitesse maximale de 22 km/h. Grâce à ses 3 modes de conduite, son klaxon intégré, ses feux LED avant et arrière, ainsi que sa fonction Bluetooth, elle garantit une expérience de conduite amusante, sécurisée et connectée. Offerte avec casque et protections pour une sécurité maximale. Parfaite pour les balades en toute confiance ",
+   
  }
   
 
