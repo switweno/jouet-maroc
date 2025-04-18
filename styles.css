@@ -3119,6 +3119,8 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+
 }
 
 .chat-header h2 {
@@ -3157,22 +3159,24 @@ select {
     width: 100%;
     text-align: right;
     padding: 12px 15px;
-    background: #f1f1f1;
+    background: rgb(13, 170, 236);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 1rem;
     transition: background 0.3s ease;
+    color: white;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .faq-question:hover {
-    background: #e5e5e5;
+    background: rgb(10, 145, 202);
 }
 
 /* رمز + أو - */
 .faq-question .symbol {
     font-size: 1.5rem;
-    color: #595959;
+    color: white;
     font-weight: bold;
     transition: transform 0.3s ease;
 }
@@ -3185,6 +3189,7 @@ select {
     border-radius: 8px;
     font-size: 0.95rem;
     line-height: 1.5;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 .faq-answer.show {
