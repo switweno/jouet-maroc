@@ -53,11 +53,73 @@ features: [
     ]
   }
 ],
+    
+
 
 
     warranty: "Découvrez une trottinette électrique performante et confortable, équipée d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’à 35 km et d’une vitesse maximale de 34 km/h. Grâce à ses suspensions avant et arrière, ses freins à disque avec E-ABS, et son écran LCD EY2 connecté à une application mobile, vous bénéficiez d’un contrôle total et d’un confort optimal. Pliable, avec siège en cuir, klaxon intégré, éclairage LED complet et pneus 12 pouces à chambre à air – tout est pensé pour une conduite sûre, pratique et agréable au quotidien.",
 
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"
+  },
+  
+    {
+   id: "trottinette-navee-n20",
+    title: "TROTTINETTE NAVEE N20",
+    brand: " NAVEE N20",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 2,
+    currentPrice: 2890,
+    oldPrice: 3500,
+    discount: 30,
+    images: [
+      "trottinette-navee-n20/trottinette-navee-n20-01.webp",
+     "trottinette-navee-n20/trottinette-navee-n20-02.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-03.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-04.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-05.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-06.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-07.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-08.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MAX" },
+      { key: "BATTERIE", value: "36V LITHIUM" },
+      { key: "AUTONOMIE", value: "15KM MIN - 20KM MAX" },
+      { key: "VITESSE", value: "25KM MIN - 32KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "À DISQUE ARRIÈRE & ÉLECTRIQUE + E-ABS" },
+      { key: "MATÉRIEL", value: "ALUMINIUM" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "PLIAGE", value: "OUI" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "FEU AVANT + FEU STOP À LED" },
+      { key: "SIGNALISATION", value: "KLAXON + INDICATEUR DE BATTERIE" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" },
+      { key: "VERROUILLAGE", value: "CADEAU 🎁🎁" }
+    ]
+  }
+],
+
+
+  warranty: "Optez pour la trottinette électrique NAVEE N20 – un parfait mélange de puissance, sécurité et confort. Dotée d’un moteur robuste de 500W, d’une batterie lithium 36V et d’une autonomie de 15 à 20 km, elle vous accompagne efficacement dans tous vos déplacements urbains. Atteignez une vitesse de 32 km/h tout en gardant un contrôle total grâce aux freins à disque arrière, système E-ABS, écran LCD EY2 avec application mobile, et klaxon intégré. Son design pliable en aluminium, ses pneus 10 pouces à chambre à air, et son éclairage LED avant/arrière garantissent une expérience de conduite fluide et sécurisée. Étanchéité IPX5, indicateur de batterie, triple vitesse, et verrouillage offert en cadeau 🎁. Commandez maintenant – livraison gratuite dans toutes les villes !",
+
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1025522592251852%2F&show_text=false&width=267&t=0"
   },
   
   {
@@ -511,6 +573,7 @@ features: [
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
   },
+  
   {
     id: "dualtron-pop-54v",
     title: "TROTTINETTE DUALTRON POP 52V",
@@ -549,6 +612,7 @@ features: [
           { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
         ]
       },
+      
       {
         title: "CARACTÉRISTIQUES",
         icon: "fa-star",
