@@ -351,7 +351,32 @@
         <priority>0.8</priority>
     </url>
 	<url>
-        <loc>https://jouet-maroc.com/drift-block-360-36V</loc>
+        <loc>https://jouet-maroc.com/?drift-block-360-36V</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-buggy-2025</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-dacia-2025</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-jeop-4x4</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-mini-buggy-4x4</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?voiture-mini-jeep</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

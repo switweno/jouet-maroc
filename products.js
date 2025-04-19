@@ -1794,7 +1794,7 @@ features: [
     icon: "fa-cogs",
     items: [
        { "key": "PUISSANCE", "value": "400 W MAX " },
-      { "key": "BATTERIE", "value": "48V 15.6AH LITHIUM " },
+      { "key": "BATTERIE", "value": "48V 18AH LITHIUM " },
       { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
       { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
       { "key": "VITESSE MAX", "value": "46 KM/H " },
@@ -2200,6 +2200,283 @@ features: [
   ],
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-buggy-2025",
+   title: "La Voiture buggy 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 2549,
+   oldPrice: 3200,
+   discount: 30,
+   images: [
+     "voiture-buggy-2025/voiture-buggy-2025-01.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-02.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-03.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-04.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-05.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-06.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-07.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-08.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-09.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "FONCTION BALANÇOIRE", value: "Oui" },
+      { key: "ÂGE RECOMMANDÉ", value: "2 - 10 ans" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via téléphone 📲" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+  warranty: "Offrez à votre enfant une expérience de conduite exceptionnelle avec la voiture électrique Buggy 4x4. Équipée d’une batterie 12V, de 5 moteurs puissants et de 2 places confortables, cette voiture est parfaite pour les enfants de 2 à 10 ans. Elle dispose d’un système de ceinture de sécurité, de suspensions efficaces et d’un éclairage LED avant/arrière pour plus de sécurité et de style. Profitez de la musique via USB ou câble auxiliaire, du Bluetooth intégré, de la fonction balançoire et d’un contrôle total grâce à la télécommande manuelle ou via smartphone. Un buggy complet, idéal pour des aventures inoubliables. Stock limité – ne ratez pas cette occasion !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F589184594180299%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-dacia-2025",
+   title: "La voiture Dacia 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 19,
+   currentPrice: 2299,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "voiture-dacia-2025/voiture-dacia-2025-01.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-02.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-03.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-04.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-05.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 8 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+ warranty: "La voiture électrique Dacia 4x4 2025 est le choix idéal pour offrir à votre enfant une conduite à la fois amusante et sécurisée. Grâce à sa batterie 12V, ses 5 moteurs puissants et ses 2 places confortables, elle convient parfaitement aux enfants de 1 à 8 ans. Sécurisée avec ceinture, équipée de suspensions, de lumières LED avant/arrière, et d'une fonction balançoire. Pour encore plus de fun : musique via USB, Bluetooth, contrôle depuis le téléphone et télécommande manuelle. Un modèle complet pour les petites aventures du quotidien – en stock limité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1386457948914071%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-jeop-4x4",
+   title: "La Voiture JEOP 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 17,
+   currentPrice: 2449,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "voiture-jeop-4x4/voiture-jeop-4x4-01.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-02.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-03.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-04.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-05.webp",
+    "voiture-jeop-4x4/voiture-jeop-4x4-06.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-07.webp",
+     
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "2 - 10 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+
+ warranty: "Découvrez la voiture électrique JEOP 4x4 – un buggy robuste et élégant pour enfants de 2 à 10 ans. Dotée d’une batterie 12V, de 5 moteurs puissants et de deux sièges spacieux avec ceintures de sécurité. Profitez d’un confort optimal grâce aux amortisseurs, aux lumières LED avant/arrière et à la fonction balançoire. Côté divertissement : Bluetooth, port USB, musique et contrôle via smartphone ou télécommande manuelle. Une voiture complète et fiable, idéale pour des moments de joie en toute sécurité. Quantité limitée – ne laissez pas passer cette opportunité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1725280938057015%2F&show_text=false&width=267&t=0"
+ },
+  
+    {
+   id: "voiture-mini-buggy-4x4",
+   title: "La Voiture mini buggy 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 46,
+   currentPrice: 1690,
+   oldPrice: 2000,
+   discount: 30,
+   images: [
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-01.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-02.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-03.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-04.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-05.webp",
+    "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-06.webp" 
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places mini" },
+      { key: "MOTEUR", value: "3 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 7 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+
+
+warranty: "Offrez à votre enfant une aventure inoubliable avec la mini voiture buggy 4x4 électrique. Conçue pour les petits conducteurs de 1 à 7 ans, elle est équipée d’une batterie 12V, de 3 moteurs solides et de deux mini places confortables. Sécurité assurée avec ceinture, amortisseurs et contrôle via téléphone ou télécommande. Musique, USB, Bluetooth et LED rendent chaque balade encore plus fun. Un buggy compact, mais puissant, pour des moments de plaisir sécurisé. Stock limité – ne ratez pas cette merveille !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1389167992106964%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "voiture-mini-jeep",
+   title: "La Voiture mini Jeep",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 142,
+   currentPrice: 1170,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "voiture-mini-jeep/voiture-mini-jeep-01.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-02.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-03.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-04.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-05.webp",
+    "voiture-mini-jeep/voiture-mini-jeep-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "3 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 4 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+warranty: "La mini Jeep électrique pour enfants est le cadeau parfait pour les petits pilotes de 1 à 4 ans. Avec une batterie 12V et 3 moteurs puissants, elle offre une conduite stable et amusante. Son siège individuel avec ceinture assure la sécurité, et ses LED avant/arrière ajoutent une touche stylée. Contrôlable via téléphone ou télécommande, elle propose aussi musique, USB, Bluetooth et fonction balançoire. Idéale pour les premières aventures sur roues – stock limité, ne laissez pas passer cette opportunité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F2081764588991220%2F&show_text=false&width=267&t=0"
  },
   
   {
