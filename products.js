@@ -2973,8 +2973,8 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 55,
-   currentPrice: 2599,
-   oldPrice: 3400,
+   currentPrice: 2450,
+   oldPrice: 3200,
    discount: 30,
    images: [
      "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-01.webp",
