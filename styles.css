@@ -1363,6 +1363,7 @@ header {
     letter-spacing: 0.8px;
     text-align: right;
     padding-right: 9px;
+     margin-top: 5px;
 }
 
 
@@ -4220,8 +4221,8 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .share-btn {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   background-color: #fff;
   border: 1px solid rgba(221, 221, 221, 0);
   border-radius: 8px;
@@ -4229,7 +4230,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   align-items: center;
   justify-content: center;
   transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
   text-decoration: none;
   margin: 5px; /* إضافة هوامش بين الأزرار */
 }
