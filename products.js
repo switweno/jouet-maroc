@@ -998,8 +998,52 @@ features: [
 ],
 
     warranty: "Vélo de qualité supérieure fabriqué en aluminium, offrant une construction robuste et légère pour une conduite agréable. Équipé de roues de 26 pouces et d'une transmission Shimano 3×7 vitesses, ce vélo est parfait pour les trajets urbains ou les aventures en plein air. Les garde-boues avant et arrière assurent une conduite propre, même par temps humide. Le cadre en aluminium et le plateau Shimano garantissent une durabilité à long terme, tandis que l'amortisseur avant améliore le confort de conduite. Le siège sport en cuir offre un confort supplémentaire, et les freins à disque avant et arrière assurent une sécurité maximale à chaque arrêt.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F991880763052426%2F&show_text=false&width=264&t=0"
   }, 
   
+   {
+    id: "vélo-italiano-27.5",
+    title: "VÉLO VTT ITALIANO 27.5",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 59,
+    currentPrice: 1499,
+    oldPrice: 1800,
+    discount: 30,
+    images: [
+      "vélo-italiano-27.5/vélo-italiano-27.5-01.webp",
+     "vélo-italiano-27.5/vélo-italiano-27.5-02.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-03.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-04.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-05.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-06.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "27,5 POUCES" },
+      { key: "CADRE", value: "ALUMINIUM" },
+      { key: "QUALITÉ", value: "ITALIANO" },
+      { key: "JANTES", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "21 (3×7)" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT CUIR" },
+      { key: "GARDES-BOUES", value: "AV & AR" },
+      { key: "FREINS", value: "DISQUE AV & AR" }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT ITALIANO 27,5 pouces avec cadre en aluminium léger et résistant. Équipé de roues 27,5 pouces, transmission Shimano 3×7 vitesses (21 vitesses), plateau Shimano, amortisseur avant, et freins à disque avant et arrière. Selle sport en cuir pour un confort optimal. Idéal pour les terrains variés et les trajets quotidiens. Livraison gratuite dans toutes les villes marocaines.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687037813701619%2F&show_text=false&width=264&t=0"
+  }, 
   
 {
     id: "vélo-vtt-ciclista-2025",
