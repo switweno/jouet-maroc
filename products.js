@@ -955,6 +955,52 @@ features: [
   },  
   
   
+ {
+    id: "vélo-italiano-alamunium-26",
+    title: "VÉLO ITALIANO ALUMINIUM 26",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 19,
+    currentPrice: 1599,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-01.webp",
+     "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-02.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-03.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-04.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-05.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-06.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-07.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-08.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-09.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "MATERIAU", value: "VÉLO ALUMINIUM" },
+      { key: "QUALITÉ", value: "ITALIANO QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "PLATEAU SHIMANO ‏" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "GARDES-BOUES", value: "LES GARDES-BOUES AV ET AR" },
+      { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+
+    warranty: "Vélo de qualité supérieure fabriqué en aluminium, offrant une construction robuste et légère pour une conduite agréable. Équipé de roues de 26 pouces et d'une transmission Shimano 3×7 vitesses, ce vélo est parfait pour les trajets urbains ou les aventures en plein air. Les garde-boues avant et arrière assurent une conduite propre, même par temps humide. Le cadre en aluminium et le plateau Shimano garantissent une durabilité à long terme, tandis que l'amortisseur avant améliore le confort de conduite. Le siège sport en cuir offre un confort supplémentaire, et les freins à disque avant et arrière assurent une sécurité maximale à chaque arrêt.",
+  }, 
+  
+  
 {
     id: "vélo-vtt-ciclista-2025",
     title: "VÉLO VTT CICLISTA 2025",
