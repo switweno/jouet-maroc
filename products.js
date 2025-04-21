@@ -2458,6 +2458,62 @@ features: [
  },
   
     {
+   id: "karting-électrique-sport",
+   title: "Karting électrique Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 46,
+   currentPrice: 1930,
+   oldPrice: 2600,
+   discount: 30,
+   images: [
+     "karting-électrique-sport/karting-électrique-sport-01.webp",
+      "karting-électrique-sport/karting-électrique-sport-02.webp",
+      "karting-électrique-sport/karting-électrique-sport-03.webp",
+      "karting-électrique-sport/karting-électrique-sport-04.webp",
+      "karting-électrique-sport/karting-électrique-sport-05.webp",
+      "karting-électrique-sport/karting-électrique-sport-06.webp",
+      "karting-électrique-sport/karting-électrique-sport-07.webp",
+      "karting-électrique-sport/karting-électrique-sport-08.webp",
+      "karting-électrique-sport/karting-électrique-sport-09.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "3 grands moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "TABLEAU DE BORD", value: "Tableau digital" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 10 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" }
+    ]
+  }
+],
+
+
+warranty: "سيارة كهربائية رياضية للأطفال بشكل كارتينغ. مزودة ببطارية 12 فولت ومحرك قوي بثلاثة محركات. مناسبة لمقعد واحد ومجهزة بحزام الأمان لراحة الطفل. تتوفر على موسيقى، مدخل USB وكابل مساعد لتشغيل الأغاني. فيها ثلاث سرعات مختلفة ووظيفة التمايل (balançoire) للمتعة. مزودة بتقنية البلوتوث، ونظام تعليق (amortisseurs) لراحة أكثر في القيادة. فيها أضواء LED أمامية وخلفية، شاشة رقمية، وتحكم من الهاتف بالإضافة إلى جهاز تحكم يدوي. مناسبة للأطفال من 3 حتى 10 سنوات.",
+  
+ },
+  
+    {
    id: "voiture-mini-buggy-4x4",
    title: "La Voiture mini buggy 4x4",
    brand: "Marque enfant",
