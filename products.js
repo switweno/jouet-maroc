@@ -751,7 +751,7 @@ features: [
    title: "TROTTINETTE Tank M41",
    brand: "Ecoxtrem tank",
    category: "تروتنيت",
-   availability: "غير متوفر في المخزون",
+   availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 138,
    currentPrice: 6500,
@@ -866,7 +866,9 @@ features: [
    
    
   
-  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+ warranty: "⚠️ Stock très limité : il reste 1 pièce ! Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+
+
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
   }, 
   
