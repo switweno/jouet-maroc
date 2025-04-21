@@ -2477,7 +2477,10 @@ features: [
       "karting-électrique-sport/karting-électrique-sport-06.webp",
       "karting-électrique-sport/karting-électrique-sport-07.webp",
       "karting-électrique-sport/karting-électrique-sport-08.webp",
-      "karting-électrique-sport/karting-électrique-sport-09.webp"
+      "karting-électrique-sport/karting-électrique-sport-06.webp",
+      "karting-électrique-sport/karting-électrique-sport-10.webp",
+      "karting-électrique-sport/karting-électrique-sport-11.webp",
+      "karting-électrique-sport/karting-électrique-sport-12.webp"
    ],
     
 features: [
