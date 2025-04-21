@@ -629,7 +629,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   warranty: "تروتنيت كهربائية Dualtron Pop 52V قوية وعملية، مناسبة للاستعمال اليومي داخل المدينة أو للتنقلات السريعة. مزودة بمحرك بقوة تبدأ من 1000W وتصل حتى 1450W كأقصى حد، مع بطارية ليثيوم 52 فولت 14Ah تعطيك استقلالية من 30 حتى 40 كلم في الشحنة الواحدة. سرعتها تتراوح بين 50 حتى 67 كلم/س، مجهزة بنظام فرملة أمامي وخلفي مع E-ABS لسلامة أكبر. فيها تعليق (suspension) أمامي وخلفي، وأقصى وزن يمكن تحمله هو 120 كلغ. تتوفر على شاشة رقمية (DISPLAY EY2) مع تطبيق الهاتف، نظام إضاءة LED أمامي وخلفي، إشارات انعطاف يمين ويسار، قابلة للطي، مقاومة للماء بمعايير IPX4 وIPX5، وتُشحن بتيار 58V. مثالية لعشاق الأداء العالي والتكنولوجيا.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F667610599227375%2F&show_text=false&width=267&t=0"
   },
   
