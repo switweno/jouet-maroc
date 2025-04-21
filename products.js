@@ -984,14 +984,14 @@ features: [
       { key: "ROUES", value: "26 POUCES" },
       { key: "MATERIAU", value: "VÉLO ALUMINIUM" },
       { key: "QUALITÉ", value: "ITALIANO QUALITÉ" },
-      { key: "ROUE MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
-      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
       { key: "VITESSE", value: "VITESSE 3×7=21" },
-      { key: "PLATEAU", value: "PLATEAU SHIMANO ‏" },
+      { key: "PLATEAU", value: "SHIMANO ‏" },
       { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
       { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
-      { key: "GARDES-BOUES", value: "LES GARDES-BOUES AV ET AR" },
-      { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" }
+      { key: "GARDES-BOUES", value: "AV ET AR" },
+      { key: "FREINS", value: "AVANT ET ARRIÈRE" }
     ]
   }
 ],
@@ -1025,7 +1025,6 @@ features: [
     icon: "fa-cogs",
     items: [
       { key: "ROUES", value: "27,5 POUCES" },
-      { key: "CADRE", value: "ALUMINIUM" },
       { key: "QUALITÉ", value: "ITALIANO" },
       { key: "JANTES", value: "ALUMINIUM" },
       { key: "CHANGEMENT", value: "SHIMANO" },
@@ -1040,7 +1039,7 @@ features: [
 ],
 
 
-    warranty: "Vélo VTT ITALIANO 27,5 pouces avec cadre en aluminium léger et résistant. Équipé de roues 27,5 pouces, transmission Shimano 3×7 vitesses (21 vitesses), plateau Shimano, amortisseur avant, et freins à disque avant et arrière. Selle sport en cuir pour un confort optimal. Idéal pour les terrains variés et les trajets quotidiens. Livraison gratuite dans toutes les villes marocaines.",
+    warranty: "Vélo VTT ITALIANO 27,5 – Équipé de roues de 27,5 pouces, transmission Shimano 3×7 vitesses (21 vitesses), plateau Shimano, suspension avant, et freins à disque à l’avant et à l’arrière. Selle sport en cuir offrant un confort optimal. Parfait pour les terrains variés et les trajets quotidiens. Livraison gratuite dans toutes les villes marocaines",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687037813701619%2F&show_text=false&width=264&t=0"
   }, 
   
