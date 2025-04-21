@@ -1,4 +1,3 @@
-// تحميل مسبق للصور لتجنب الوميض
 function preloadImages(images) {
     if (!images || !images.length) return;
     
@@ -12,20 +11,12 @@ function preloadImages(images) {
     return preloadedImages;
 }
 
-
-
-/**
- * تحسين دالة تغيير الصور مع تأثير دفع الصور بشكل أفضل
- * @param {string} src - مصدر الصورة الجديدة
- * @param {string} direction - الاتجاه (right, left) أو null للاكتشاف التلقائي
- */
 function changeImage(src, direction = null) {
     if (!src) return;
 
     const currentImage = document.getElementById('current-image');
     if (!currentImage) return;
 
-    // تحديد اتجاه الانتقال بناءً على موقع الصورة المصغرة
     if (!direction) {
         const thumbnails = Array.from(document.querySelectorAll('.thumbnail'));
         const activeIndex = thumbnails.findIndex(thumb => thumb.classList.contains('active'));
@@ -34,19 +25,16 @@ function changeImage(src, direction = null) {
         if (activeIndex !== -1 && newIndex !== -1) {
             direction = newIndex > activeIndex ? 'right' : 'left';
         } else {
-            direction = 'fade'; // الانتقال الافتراضي
+            direction = 'fade'; 
         }
     }
 
-    // تخزين مصدر الصورة الحالية ومصدر الصورة الجديدة
     const oldImageSrc = currentImage.src;
     const newImageSrc = src;
 
-    // التحميل المسبق للصورة الجديدة
     const preloadImage = new Image();
     preloadImage.src = newImageSrc;
     preloadImage.onload = () => {
-        // إنشاء حاوية للصور المتغيرة إذا لم تكن موجودة
         const mainImageContainer = currentImage.parentNode;
         let slidingImagesContainer = mainImageContainer.querySelector('.sliding-images-container');
 
@@ -60,12 +48,11 @@ function changeImage(src, direction = null) {
             slidingImagesContainer.style.height = '100%';
             slidingImagesContainer.style.overflow = 'hidden';
             slidingImagesContainer.style.zIndex = '2';
-            slidingImagesContainer.style.willChange = 'transform, opacity'; // تسريع الأجهزة
+            slidingImagesContainer.style.willChange = 'transform, opacity'; 
             mainImageContainer.style.position = 'relative';
             mainImageContainer.appendChild(slidingImagesContainer);
         }
 
-        // إنشاء نسخة من الصورة القديمة وإضافتها إلى الحاوية
         const oldImageClone = document.createElement('img');
         oldImageClone.src = oldImageSrc;
         oldImageClone.className = 'exiting-image';
@@ -76,10 +63,9 @@ function changeImage(src, direction = null) {
         oldImageClone.style.height = '100%';
         oldImageClone.style.objectFit = 'cover';
         oldImageClone.style.zIndex = '1';
-        oldImageClone.style.willChange = 'transform, opacity'; // تسريع الأجهزة
+        oldImageClone.style.willChange = 'transform, opacity'; 
         slidingImagesContainer.appendChild(oldImageClone);
 
-        // إنشاء الصورة الجديدة وإضافتها إلى الحاوية
         const newImageElement = document.createElement('img');
         newImageElement.src = newImageSrc;
         newImageElement.className = 'entering-image';
@@ -89,9 +75,7 @@ function changeImage(src, direction = null) {
         newImageElement.style.height = '100%';
         newImageElement.style.objectFit = 'cover';
         newImageElement.style.zIndex = '2';
-        newImageElement.style.willChange = 'transform, opacity'; // تسريع الأجهزة
-
-        // تعيين موقع البداية للصورة الجديدة حسب الاتجاه
+        newImageElement.style.willChange = 'transform, opacity'; 
         if (direction === 'right') {
             newImageElement.style.transform = 'translateX(100%)';
         } else if (direction === 'left') {
@@ -102,22 +86,18 @@ function changeImage(src, direction = null) {
 
         slidingImagesContainer.appendChild(newImageElement);
 
-        // بدء الانتقال السلس
         animateTransition(oldImageClone, newImageElement, direction, () => {
             currentImage.src = newImageSrc;
 
-            // تنظيف حاوية الصور المتحركة
             while (slidingImagesContainer.firstChild) {
                 slidingImagesContainer.removeChild(slidingImagesContainer.firstChild);
             }
 
-            // تحديث الصورة المصغرة النشطة
             updateActiveThumbnail(src);
         });
     };
 }
 
-// دالة لتطبيق الانتقال السلس باستخدام requestAnimationFrame
 function animateTransition(oldImage, newImage, direction, onComplete) {
     const duration = 300; // مدة الانتقال بالمللي ثانية
     const start = performance.now();
@@ -140,14 +120,13 @@ function animateTransition(oldImage, newImage, direction, onComplete) {
         if (progress < 1) {
             requestAnimationFrame(step);
         } else {
-            onComplete(); // استدعاء الدالة عند انتهاء الانتقال
+            onComplete(); 
         }
     }
 
     requestAnimationFrame(step);
 }
 
-// دالة لتحديث الصورة المصغرة النشطة
 function updateActiveThumbnail(src) {
     const thumbnails = document.querySelectorAll('.thumbnail');
     thumbnails.forEach(thumb => {
@@ -504,10 +483,7 @@ function endDrag() {
     isDragging = false;
 }
 
-// وظائف التمرير والتنقل بين المنتجات
-// ضبط موضع التمرير بشكل دقيق
 function forceScrollToTop() {
-    // استخدام طرق متعددة لضمان تطبيق الأفضل حسب المتصفح
     if (window.scrollTo) {
         window.scrollTo(0, 0);
     }
@@ -703,10 +679,8 @@ function setupThumbnailScrolling() {
 }
 
 // معالجة تحميل المنتج
-// تحسين دالة تحميل المنتج من URL للتحقق من وجود بيانات المنتجات
 function loadProductFromURL() {
     try {
-        // إضافة تمرير فوري للأعلى في بداية تحميل المنتج
         window.scrollTo(0, 0);
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
@@ -718,9 +692,8 @@ function loadProductFromURL() {
             productId = "voiture-dacia-2025"; // Default product
         }
         
-        // استخدام المتغير products مباشرةً بدون window.products لضمان التوافق مع الكود القديم
         const product = products.find(p => p.id === productId);
-        const productData = product || products[0]; // استخدام المنتج الأول كاحتياطي
+        const productData = product || products[0]; 
         
         if (!productData) {
             console.error("No product data available");
@@ -729,12 +702,10 @@ function loadProductFromURL() {
         
         document.title = productData.title + " | jouet maroc";
         
-        // تحديث واجهة المنتج وتنظيف معالجات الأحداث القديمة
         cleanupEventHandlers();
         updateProductDisplay(productData);
         updateRelatedProducts();
         
-        // تأخير تهيئة العناصر التفاعلية لمنع التداخل
         setTimeout(() => {
             setupAccordion();
             setupThumbnailScrolling();
@@ -745,8 +716,6 @@ function loadProductFromURL() {
     }
 }
 
-// دالة جديدة لتنظيف معالجات الأحداث قبل تحميل منتج جديد
-// تحسين آلية تنظيف معالجات الأحداث
 function cleanupEventHandlers() {
     // تحسين: معالجة مجموعات متعددة من العناصر مرة واحدة
     const elements = document.querySelectorAll('.thumbnail, .product-link');
@@ -1010,12 +979,10 @@ if (product.videoURL) {
     `;
     videoSection.style.display = "block"; // نتأكد أنه بان
 } else {
-    // ما كاينش فيديو → نخفي القسم كامل
     document.querySelector('.product-video-section').style.display = "none";
 }
 
     
-    // تهيئة الأكورديون بعد تحديث المحتوى مع تأخير قصير للتأكد من اكتمال التحديث
     setTimeout(() => {
         setupAccordion();
         
@@ -1089,11 +1056,7 @@ function setupProductLinks() {
 // تحسين المعالج الرئيسي بإضافة مراقبة للتغييرات في الـ URL
 document.addEventListener('DOMContentLoaded', function() {
     try {
-        // ضمان أننا في أعلى الصفحة عند تحميلها لأول مرة - استخدام حل فوري
         
-        
-        // إضافة تمرير إضافي بعد تحميل المستند لضمان عرض الصفحة من الأعلى تمامًا
-       
         
         // Load product data based on URL parameter
         loadProductFromURL();
