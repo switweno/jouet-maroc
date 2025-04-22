@@ -200,7 +200,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "voiture-dacia-2025"; // Default product
+        productId = "dualtron-pop-54v"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -689,7 +689,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "voiture-dacia-2025"; // Default product
+            productId = "dualtron-pop-54v"; // Default product
         }
         
         const product = products.find(p => p.id === productId);
@@ -1810,13 +1810,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
     const modals = document.querySelectorAll(".modal");
     const buttons = document.querySelectorAll(".open-modal");
@@ -1861,7 +1854,7 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
     let email = document.getElementById("email1").value;
     let message = document.getElementById("message1").value;
 
-    let mailtoLink = `mailto:marocweno@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
+    let mailtoLink = `mailto:jouet-maroc@gmail.com?subject=رسالة من ${name}&body=${message}%0A%0Aالبريد الإلكتروني: ${email}`;
     window.location.href = mailtoLink;
 });
 
@@ -2349,3 +2342,6 @@ function toggleAnswer(button) {
     symbol.textContent = answer.classList.contains("show") ? "-" : "+"; // تغيير الرمز بين - و +
 }
    
+
+
+
