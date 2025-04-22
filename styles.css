@@ -4138,6 +4138,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
         
         }
 
+
      .card .icon-container i.fas.fa-headset {
     color: #ff5555; /* لون مخصص لأيقونة الدعم الفني */
 }
@@ -4147,15 +4148,15 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .card .icon-container i.fas.fa-award {
-    color: #00c9af; /* لون مخصص لأيقونة الجودة */
+    color: #ffcc00; /* لون مخصص لأيقونة الجودة */
 }
 
 .card .icon-container i.fas.fa-handshake {
-    color: #ffcc00; /* لون مخصص لأيقونة النزاهة */
+    color: #9af200; /* لون مخصص لأيقونة النزاهة */
 }
 
 .card .icon-container i.fas.fa-truck {
-    color: #72bb29; /* لون مخصص لأيقونة الشحن */
+    color: #38b8da; /* لون مخصص لأيقونة الشحن */
 }
         
  
@@ -4260,3 +4261,6 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     gap: 5px; /* تقليل المسافة بين الأزرار على الشاشات الصغيرة */
   }
 }
+
+
+
