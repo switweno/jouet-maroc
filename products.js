@@ -1586,23 +1586,17 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
         icon: "fa-cogs",
         items: [
           { key: "ROUES", value: "26 POUCES" },
-          { key: "MATÉRIAU", value: "ALUMINIUM" },
-          { key: "QUALITÉ", value: "BMX GTR 1E" },
-          { key: "ROUE", value: "ALUMINIUM" },
+          { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+          { key: "QUALITÉ", value: "HAOMENG" },
+          { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
           { key: "CHANGEMENT DE VITESSE", value: "SUNRISE" },
           { key: "VITESSE", value: "3×7 = 21 VITESSES" },
           { key: "PLATEAU", value: "SUNRISE" }
         ]
       },
-      {
-        title: "CARACTÉRISTIQUES",
-        icon: "fa-star",
-        items: [
-          { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" },
-          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
-          { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" }
-        ]
-      }
+     
     ],
     warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
