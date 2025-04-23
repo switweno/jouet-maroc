@@ -395,5 +395,10 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?product=moteur-t-max-police-12V</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <!-- أضف باقي المنتجات هنا -->
 </urlset>

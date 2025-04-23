@@ -2287,6 +2287,64 @@ features: [
  },
   
   {
+   id: "moteur-t-max-police-12V",
+   title: "Moteur T-max Police 12V",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 1849,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-01.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-02.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-03.webp",
+      "moteur-t-max-police-12V/moteur-t-max-police-12v-04.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-05.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-06.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-07.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-08.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-09.webp",
+      "moteur-t-max-police-12V/moteur-t-max-police-12v-10.webp",
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "DÉMARRAGE", value: "Par contact" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Blanc, Rouge, Jaune" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "MUSIQUE POLICE", value: "Oui" },
+      { key: "RADIO POLICE", value: "Oui" },
+      { key: "LUMIÈRE POLICE", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Offrez à votre enfant une aventure unique avec la moto électrique T-max Police 12V. Équipée d’une batterie puissante, de 2 moteurs solides et d’un démarrage par contact, cette moto garantit un maximum de plaisir. Elle est conçue pour les enfants de 3 à 11 ans, avec des lumières LED avant/arrière, une musique intégrée, USB, Bluetooth, ainsi que des effets sonores et lumineux de police pour une immersion totale. Disponible en blanc, rouge et jaune. Ne ratez pas cette opportunité – stock limité ",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1080337560804707%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+  {
    id: "voiture-buggy-2025",
    title: "La Voiture buggy 4x4",
    brand: "Marque enfant",
