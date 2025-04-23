@@ -3312,7 +3312,7 @@ footer .social-icons a {
     transition: transform 0.3s ease;
 }
 
-footer .social-icons a:nth-child(1) { background-color: #1877f2; } /* فيسبوك */
+footer .social-icons a:nth-child(1) { background-color: #1a76ed; } /* فيسبوك */
 
 footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتساب */
 
@@ -3322,8 +3322,8 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .social-icons a:hover {
-    text-decoration: underline; /* إضافة الخط عند التمرير */
-    color: #636262; /* تغيير اللون عند التمرير */
+    
+    color: #3b3b3b; /* تغيير اللون عند التمرير */
 }
 
 
@@ -4156,11 +4156,11 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .card .icon-container i.fas.fa-handshake {
-    color: #9af200; /* لون مخصص لأيقونة النزاهة */
+    color: #fe48d0; /* لون مخصص لأيقونة النزاهة */
 }
 
 .card .icon-container i.fas.fa-truck {
-    color: #38b8da; /* لون مخصص لأيقونة الشحن */
+    color: #e0e7d2; /* لون مخصص لأيقونة الشحن */
 }
         
  
