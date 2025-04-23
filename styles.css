@@ -3223,13 +3223,13 @@ select {
     background-color: rgba(255, 255, 255, 0.46);
     border: none;
     color: #595959;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     cursor: pointer;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 17%;
     z-index: 10;
     width: 40px;
-    height: 40px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3241,7 +3241,7 @@ select {
 @media (max-width: 480px) {
     .scroll-arrow{
        width: 33px;
-    height: 33px;  
+    height: 46px;  
         font-size: 1rem;
     
     }
