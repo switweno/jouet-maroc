@@ -3081,8 +3081,6 @@ select {
     }
 }
 
-/* إعدادات الأيقونة العائمة */
-/* زر الدردشة العائم */
 #chatButton {
     position: fixed;
     bottom: 24px;
@@ -3103,7 +3101,7 @@ select {
 }
 
 #chatButton:hover {
-    background-color:#0daaec;
+    background-color: #0daaec;
     transform: scale(1.1);
 }
 
@@ -3122,6 +3120,7 @@ select {
     z-index: 996;
 }
 
+/* ترويسة الدردشة */
 .chat-header {
     background: rgb(13, 170, 236);
     color: white;
@@ -3130,7 +3129,6 @@ select {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', 'Cairo', sans-serif;
-
 }
 
 .chat-header h2 {
@@ -3138,21 +3136,35 @@ select {
     font-size: 1.2rem;
 }
 
+/* زر الإغلاق */
 .close-button {
     background: none;
     border: none;
     color: white;
-    font-size: 24px;
+    font-size: 40px; /* جعل حجم النص ملائم */
     cursor: pointer;
-    padding: 0;
+    padding: 10px; /* تحديد حجم الزر ليبقى مناسب */
     line-height: 1;
+    position: absolute; /* جعله داخل الحاوية */
+    
+   left: 10px; /* تحديد المسافة عن اليمين */
+    transition: transform 0.3s ease;
 }
 
+
+/* تأثير عند مرور الفأرة على زر الإغلاق */
+.close-button:hover {
+    transform: scale(1.5); /* تكبير الزر بشكل واضح */
+}
+
+/* محتوى الدردشة */
 .chat-content {
     padding: 21px;
     max-height: 473px;
     overflow-y: auto;
 }
+
+
 
 /* تنسيق الأسئلة والأجوبة */
 .faq-item {
