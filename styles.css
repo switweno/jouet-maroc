@@ -3226,10 +3226,10 @@ select {
     font-size: 1.3rem;
     cursor: pointer;
     padding: 10px;
-    border-radius: 17%;
+    border-radius: 50%;
     z-index: 10;
-    width: 40px;
-    height: 56px;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3240,8 +3240,8 @@ select {
 
 @media (max-width: 480px) {
     .scroll-arrow{
-       width: 33px;
-    height: 46px;  
+       width: 40px;
+    height: 40px;  
         font-size: 1rem;
     
     }
