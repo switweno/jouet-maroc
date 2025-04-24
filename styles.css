@@ -3277,7 +3277,7 @@ select {
 /* Enhanced Footer Styles */
 footer {
     width: 100%;
-    background-color: var(--dark-color, #363636);
+    background-color: #363636;
     color: white;
     text-align: center;
     padding: 40px 0 30px;
@@ -4181,23 +4181,23 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 
 
      .card .icon-container i.fas.fa-headset {
-    color: #ff5555; /* لون مخصص لأيقونة الدعم الفني */
+    color: white; /* لون مخصص لأيقونة الدعم الفني */
 }
 
 .card .icon-container i.fas.fa-bullseye {
-    color: #33aaff; /* لون مخصص لأيقونة المهمة */
+    color: white; /* لون مخصص لأيقونة المهمة */
 }
 
 .card .icon-container i.fas.fa-award {
-    color: #ffcc00; /* لون مخصص لأيقونة الجودة */
+    color: white; /* لون مخصص لأيقونة الجودة */
 }
 
 .card .icon-container i.fas.fa-handshake {
-    color: #00dc72; /* لون مخصص لأيقونة النزاهة */
+    color: white; /* لون مخصص لأيقونة النزاهة */
 }
 
 .card .icon-container i.fas.fa-truck {
-    color: #e0e7d2; /* لون مخصص لأيقونة الشحن */
+    color: white; /* لون مخصص لأيقونة الشحن */
 }
         
  
@@ -4205,7 +4205,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
         .icon-container {
             width: 70px;
             height: 70px;
-            background-color: rgb(40, 7, 7); /* خلفية رمادية */
+            background-color: #363636; /* خلفية رمادية */
             border-radius: 50%; /* شكل دائري */
             display: flex;
             align-items: center;
