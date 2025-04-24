@@ -1221,7 +1221,7 @@ header {
     background: transparent;
     border: none;
     font-size: 1rem;
-    color: white;
+    color: #dedede;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
     width: 35px;
@@ -1234,7 +1234,7 @@ header {
 }
 
 .accordion-toggle:hover {
-    color: #d5d5d5;
+    color: #fffbfb;
     background-color: rgba(0, 123, 255, 0);
    
 }
@@ -4156,7 +4156,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 .card .icon-container i.fas.fa-handshake {
-    color: #fe48d0; /* لون مخصص لأيقونة النزاهة */
+    color: #00dc72; /* لون مخصص لأيقونة النزاهة */
 }
 
 .card .icon-container i.fas.fa-truck {
