@@ -3113,7 +3113,7 @@ select {
     right: 24px;
     width: 350px;
     max-height: 500px;
-    background: white;
+    background: #f7f7f7;
     border-radius: 12px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -3133,7 +3133,7 @@ select {
 
 .chat-header h2 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* زر الإغلاق */
@@ -3141,7 +3141,7 @@ select {
     background: none;
     border: none;
     color: white;
-    font-size: 40px; /* جعل حجم النص ملائم */
+    font-size: 34px; /* جعل حجم النص ملائم */
     cursor: pointer;
     padding: 10px; /* تحديد حجم الزر ليبقى مناسب */
     line-height: 1;
