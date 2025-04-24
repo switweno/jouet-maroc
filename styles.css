@@ -3556,25 +3556,53 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     transform: translateY(-2px);
 }
 
-/* Copyright Refinement */
-.copyright {
-    margin-top: 20px;
-    color: #aaa;
-    font-size: 0.9rem;
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 10px;
-    width: 100%;
+/* توجيه الفوتر فقط */
+.footer-container {
+  display: flex;
+  flex-direction: column; /* العمودي في الشاشات الصغيرة */
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: center; /* محاذاة النص لمنتصف الصفحة */
 }
 
-.image-container {
-      margin: 2px 0; /* هامش علوي وسفلي */
-    }
+/* توجيه نص الحقوق فقط في الفوتر */
+.footer-container .copyright {
+  text-align: right; /* محاذاة النص لليمين */
+}
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+.image-container img {
+  height: auto; /* الحجم تلقائي للصورة */
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+/* فقط في الشاشات الكبيرة (أكبر من 768px) */
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row; /* بجانب بعض في الشاشات الكبيرة */
+    justify-content: space-between;
+    text-align: left; /* محاذاة النص لليسار في الشاشات الكبيرة */
+  }
+
+  .image-container {
+    order: 0; /* الصورة تظهر في اليسار */
+  }
+
+  .copyright {
+    order: 1; /* النص في اليمين */
+    text-align: right; /* محاذاة النص لليمين في الشاشات الكبيرة */
+  }
+}
+
+
+
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 992px) {
