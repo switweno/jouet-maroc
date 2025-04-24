@@ -8,7 +8,7 @@ const products = [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 2,
-    currentPrice: 4990,
+    currentPrice: 4599,
     oldPrice: 5490,
     discount: 30,
     images: [
