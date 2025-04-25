@@ -2288,6 +2288,109 @@ features: [
  },
   
   {
+   id: "motor-erwan-2025",
+   title: "Motor Erwan 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1699,
+   oldPrice: 2199,
+   discount: 30,
+   images: [
+     "motor-erwan-2025/motor-erwan-2025-01.webp",
+     "motor-erwan-2025/motor-erwan-2025-02.webp",
+     "motor-erwan-2025/motor-erwan-2025-03.webp",
+     "motor-erwan-2025/motor-erwan-2025-04.webp",
+    "motor-erwan-2025/motor-erwan-2025-05.webp",
+     "motor-erwan-2025/motor-erwan-2025-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Rouge, Gris, Vert, Violet" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "Music + USB + câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Motor Erwan 2025* ⚡ Équipée d’une *batterie 12V* et *2 moteurs puissants*, cette moto garantit une expérience fun et sécurisée. Son *design 2 places*, ses *LED avant/arrière*, la *connexion Bluetooth*, la *musique intégrée via USB ou câble*, et son démarrage *manuel* en font le choix parfait pour les enfants de *3 à 11 ans*. Disponibles en couleurs : Rouge, Gris, Vert, Violet. Quantités limitées – ne ratez pas cette opportunité !",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1144750974004125%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
+   id: "moteur-police-12V-2",
+   title: "Moteur Police 12V 👮🏼",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 23,
+   currentPrice: 1899,
+   oldPrice: 2299,
+   discount: 30,
+   images: [
+     "moteur-police-12V-2/moteur-police-12v-2-01.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-02.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-03.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-04.webp",
+   "moteur-police-12V-2/moteur-police-12v-2-05.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "DÉMARRAGE", value: "Par contact" },
+      { key: "MOTEUR", value: "2 grands moteurs" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Blanc, Rouge" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "Music + USB + câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "MUSIQUE POLICE", value: "Oui" },
+      { key: "LUMIÈRE POLICE", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "✅ Moteur Police 12V 👮🏼 — Équipé d'une *batterie 12V*, *2 grands moteurs*, et *démarrage par contact*. Il offre un design *2 places*, des *lumières LED avant/arrière*, et des fonctions spéciales comme *Bluetooth*, *musique de police*, *lumières de police*, et *musique via USB ou câble auxiliaire*. Convient aux enfants de *3 à 11 ans*. Couleurs disponibles : Blanc, Rouge. 📦 *Livraison gratuite dans toutes les villes du Maroc*.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3572199963089174%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
    id: "moteur-t-max-police-12V",
    title: "Moteur T-max Police 12V",
    brand: "Marque enfant",
