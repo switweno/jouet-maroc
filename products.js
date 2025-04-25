@@ -582,8 +582,8 @@ features: [
     ratings: 4.5,
     reviewCount: 192,
     currentPrice: 6890,
-    oldPrice: 8999,
-    discount: 35,
+    oldPrice: 7500,
+    discount: 30,
     images: [
       "dualtron-pop/dualtron-pop_52v_-01.webp",
       "dualtron-pop/dualtron-pop_52v_-02.webp",
