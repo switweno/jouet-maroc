@@ -1053,22 +1053,22 @@ header {
 }
 
 
-.discount {
-    display: none;
-}
 
 /* تصميم شارة التخفيض */
 .discount {
-    background-color: #4633c5;
-    color: white;
+    background-color: #FED700;
+    color: #333;
     font-weight: bold;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
     padding: 0.3em 0.8em;
     font-size: 0.8rem;
    
     border-radius: 0 20px 0 20px; /* انحناء في الأعلى اليمين والأسفل اليسار */
 }
 
+.main-image-discount-badge {
+    display: none;
+}
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
