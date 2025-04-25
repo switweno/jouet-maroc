@@ -1330,8 +1330,8 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #ffffff;
-    border: 1px solid rgba(143, 143, 143, 0.32);
+    background-color: #f6f6f6;
+    border: 1px solid rgba(143, 143, 143, 0);
     border-radius: 8px;
     padding: 10px;
     margin-top: 10px;
