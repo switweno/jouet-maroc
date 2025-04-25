@@ -25,13 +25,13 @@ html {
   overscroll-behavior: contain;
 }
 
-/* تحسينات التمرير باللمس */
+
 html, body {
-    touch-action: manipulation; /* يحسن الاستجابة للنقرات */
-    -webkit-tap-highlight-color: transparent; /* إزالة التأثير الأزرق عند اللمس */
+    touch-action: manipulation; 
+    -webkit-tap-highlight-color: transparent; 
 }
 
-/* تعديل الحاوية الرئيسية */
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -50,14 +50,14 @@ header {
     text-align: center;
     box-shadow: 0 3px 10px rgb(10, 2, 2);
   
-    top: 0; /* تعيين الهيدر في أعلى الصفحة */
+    top: 0; 
     left: 0;
-    width: 100%; /* ضمان أن الهيدر يأخذ عرض الشاشة بالكامل */
-    z-index: 1000; /* التأكد من أن الهيدر فوق العناصر الأخرى */
+    width: 100%; 
+    z-index: 1000; 
 	 transition: top 0.3s ease-in-out;
 }
 
-/* تعديل الحاوية الداخلية للقائمة */
+
 .header-content {
     display: flex;
     align-items: center;
@@ -70,7 +70,6 @@ header {
    
 }
 
-/* تنسيق اللوغو ووضعه في موضع ثابت في اليسار */
 .site-brand {
     position: absolute;
     left: 15px;
@@ -87,7 +86,6 @@ header {
 
 
 
-/* تحسينات للقائمة الأفقية في الشاشات المختلفة */
 @media (min-width: 992px) {
     /* إظهار القائمة الأفقية في الشاشات الكبيرة */
     .desktop-categories {
@@ -3683,7 +3681,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     max-width: 100vw;
     height: 45px; /* زيادة الارتفاع قليلاً */
     line-height: 45px;
-    background-color:  #161616;
+    background-color:  #333;
     padding: 0 5px;
     
     overflow: hidden;
