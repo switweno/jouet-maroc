@@ -624,12 +624,13 @@ features: [
           { key: "WATERPROOF", value: "IPX4" },
           { key: "AFFICHAGE", value: "DISPLAY EY2" },
           { key: "PNEUS", value: "9\" Pouces" },
-          { key: "CONCEPTION", value: "PLIABLE AVEC KLAXON" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "KLAXON", value: "OUI" },
           { key: "TABLEAU DE BORD", value: "DIGITAL" }
         ]
       }
     ],
-   warranty: "تروتنيت كهربائية Dualtron Pop 52V قوية وعملية، مناسبة للاستعمال اليومي داخل المدينة أو للتنقلات السريعة. مزودة بمحرك بقوة تبدأ من 1000W وتصل حتى 1450W كأقصى حد، مع بطارية ليثيوم 52 فولت 14Ah تعطيك استقلالية من 30 حتى 40 كلم في الشحنة الواحدة. سرعتها تتراوح بين 50 حتى 67 كلم/س، مجهزة بنظام فرملة أمامي وخلفي مع E-ABS لسلامة أكبر. فيها تعليق (suspension) أمامي وخلفي، وأقصى وزن يمكن تحمله هو 120 كلغ. تتوفر على شاشة رقمية (DISPLAY EY2) مع تطبيق الهاتف، نظام إضاءة LED أمامي وخلفي، إشارات انعطاف يمين ويسار، قابلة للطي، مقاومة للماء بمعايير IPX4 وIPX5، وتُشحن بتيار 58V. مثالية لعشاق الأداء العالي والتكنولوجيا.",
+   "warranty": "Trottinette électrique Dualtron Pop 52V puissante et pratique, idéale pour un usage quotidien en ville ou pour des déplacements rapides. Équipée d’un moteur allant de 1000W jusqu’à 1450W en puissance maximale, avec une batterie lithium 52V 14Ah offrant une autonomie de 30 à 40 km par charge. Sa vitesse varie entre 50 et 67 km/h. Elle dispose d’un système de freinage avant et arrière avec E-ABS pour plus de sécurité. Suspension avant et arrière, poids maximal supporté : 120 kg. Écran numérique (DISPLAY EY2) avec application mobile, éclairage LED avant et arrière, clignotants gauche/droite, pliable, résistante à l’eau selon les normes IPX4 et IPX5, et se recharge en 58V. Parfaite pour les passionnés de performance et de technologie",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F667610599227375%2F&show_text=false&width=267&t=0"
   },
   
