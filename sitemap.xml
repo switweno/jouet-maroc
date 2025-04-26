@@ -3,17 +3,22 @@
     <url>
         <loc>https://jouet-maroc.com/?product=dualtron-pop-54v</loc>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
 	 <url>
         <loc>https://jouet-maroc.com/?product=trottinette-Tank-m41</loc>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://jouet-maroc.com/?product=velo-electrique-harley-u9</loc>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?product=VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
 	 <url>
         <loc>https://jouet-maroc.com/?product=velo-vtt-haomeng-27.5</loc>
@@ -42,11 +47,6 @@
     </url>
 	<url>
         <loc>https://jouet-maroc.com/?product=TROTTINETTE-Mi-Electric-Scooter-Essential</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-	<url>
-        <loc>https://jouet-maroc.com/?product=VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
