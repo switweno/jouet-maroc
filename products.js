@@ -1622,10 +1622,7 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
       "likebike-lander-vtt/likebike-lander-vtt-05.webp",
       "likebike-lander-vtt/likebike-lander-vtt-06.webp",
      "likebike-lander-vtt/likebike-lander-vtt-07.webp",
-     "likebike-lander-vtt/likebike-lander-vtt-09.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-10.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-11.webp",
-     "likebike-lander-vtt/likebike-lander-vtt-12.webp"
+     "likebike-lander-vtt/likebike-lander-vtt-09.webp"
     ],
     features: [
   {
@@ -1663,10 +1660,10 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
   }
 ],
 
-warranty: "عيش حرية التنقل بلا مصاريف زايدة وبلا تلوث مع VÉLO ÉLECTRIQUE LIKEBIKE LANDER. هاد البيكالة واجدة للمدينة وحتى للطريق الوعرة، كتجمع بين القوة، الراحة، والمسافة الطويلة. عندها موتور قوي وباتري تدوم، وزيد عليهم تجهيزات ممتازة. الحل المثالي لكل واحد بغا يتحرك بحرية بلا ما يبقى افكر المصروف. استثمار ذكي ليوميّاتك.",
+warranty: "Vivez la liberté de mouvement sans frais supplémentaires ni pollution avec le VÉLO ÉLECTRIQUE LIKEBIKE LANDER. Ce vélo est prêt aussi bien pour la ville que pour les chemins accidentés, combinant puissance, confort et longue autonomie. Il est équipé d'un moteur puissant, d'une batterie durable, et de nombreux équipements de qualité. La solution idéale pour ceux qui veulent se déplacer librement sans se soucier des dépenses. Un investissement intelligent pour votre quotidien",
 
 
-    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F581108468427068%2F&show_text=false&width=267&t=0"
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1611241772889832%2F&show_text=false&width=267&t=0"
   }, 
   
   {
