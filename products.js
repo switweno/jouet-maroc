@@ -749,8 +749,8 @@ features: [
 
   {
    id: "trottinette-Tank-m41",
-   title: "TROTTINETTE Tank M41",
-   brand: "Ecoxtrem tank",
+   title: "TROTTINETTE Tank M41 Ultimate 2025",
+   brand: "Ecoxtrem",
    category: "تروتنيت",
    availability: "متوفر في المخزون",
    ratings: 4.5,
@@ -763,13 +763,7 @@ features: [
      "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
-      "trottinette-Tank-m41/trottinette-tank-m41-10.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-11.webp"
+     "trottinette-Tank-m41/trottinette-tank-m41-05.webp"
    ],
 features: [
   {
@@ -810,7 +804,7 @@ features: [
 
 
    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1366754731417414%2F&show_text=false&width=267&t=0"
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1405828253764529%2F&show_text=false&width=264&t=0"
   }, 
   
  {
