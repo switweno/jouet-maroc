@@ -851,33 +851,11 @@ header {
     padding: 2px 0; /* Add some padding */
 }
 
-/* تبسيط خصائص التمرير للصور المصغرة للعمل بشكل افتراضي */
-
-.thumbnails {
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch; /* للحصول على تمرير سلس على iOS */
-    overflow-x: auto; /* السماح بالتمرير الأفقي */
-    overflow-y: hidden; /* منع التمرير العمودي */
-    scrollbar-width: none; /* إخفاء شريط التمرير في Firefox */
-    display: flex;
-    gap: 12px;
-    padding: 8px 5px;
-    flex-wrap: nowrap !important;
-}
-
-/* إخفاء شريط التمرير مع الحفاظ على وظيفة التمرير */
 .thumbnails::-webkit-scrollbar {
     width: 0;
     height: 0;
     display: none;
 }
-
-
-
-
-
-
-
 
 
 /* Scroll indicators to show more content */
@@ -1929,7 +1907,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .thumbnails {
-        padding: 3px 0;
+        padding: 2px 0;
     }
     
     /* Product description */
