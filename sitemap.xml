@@ -5,6 +5,11 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	 <url>
+        <loc>https://jouet-maroc.com/?product=trottinette-Tank-m41</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://jouet-maroc.com/?product=velo-electrique-harley-u9</loc>
         <changefreq>weekly</changefreq>
