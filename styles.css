@@ -3232,7 +3232,7 @@ select {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.46);
+    background-color: rgba(222, 222, 222, 0.46);
     border: none;
     color: #595959;
     font-size: 1.3rem;
