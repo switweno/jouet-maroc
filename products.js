@@ -2330,7 +2330,7 @@ features: [
   }
 ],
 
-warranty: "Motor Erwan 2025* ⚡ Équipée d’une *batterie 12V* et *2 moteurs puissants*, cette moto garantit une expérience fun et sécurisée. Son *design 2 places*, ses *LED avant/arrière*, la *connexion Bluetooth*, la *musique intégrée via USB ou câble*, et son démarrage *manuel* en font le choix parfait pour les enfants de *3 à 11 ans*. Disponibles en couleurs : Rouge, Gris, Vert, Violet. Quantités limitées – ne ratez pas cette opportunité !",
+warranty: "Motor Erwan 2025 ⚡ Équipée d’une batterie 12V et 2 moteurs puissants, cette moto garantit une expérience fun et sécurisée. Son design 2 places, ses LED avant/arrière, la connexion Bluetooth, la *musique intégrée via USB ou câble, et son démarrage manuel en font le choix parfait pour les enfants de 3 à 11 ans. Disponibles en couleurs : Rouge, Gris, Vert, Violet. 📦 Livraison gratuite dans toutes les villes du Maroc ",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1144750974004125%2F&show_text=false&width=267&t=0"
  },
@@ -2383,7 +2383,7 @@ features: [
   }
 ],
 
-warranty: "✅ Moteur Police 12V 👮🏼 — Équipé d'une *batterie 12V*, *2 grands moteurs*, et *démarrage par contact*. Il offre un design *2 places*, des *lumières LED avant/arrière*, et des fonctions spéciales comme *Bluetooth*, *musique de police*, *lumières de police*, et *musique via USB ou câble auxiliaire*. Convient aux enfants de *3 à 11 ans*. Couleurs disponibles : Blanc, Rouge. 📦 *Livraison gratuite dans toutes les villes du Maroc*.",
+warranty: "✅ Moteur Police 12V 👮🏼 — Équipé d'une *batterie 12V, 2 grands moteurs, et démarrage par contact. Il offre un design 2 places, des lumières LED avant/arrière, et des fonctions spéciales comme Bluetooth*, musique de police, lumières de police, et musique via USB ou câble auxiliaire. Convient aux enfants de 3 à 11 ans. Couleurs disponibles : Blanc, Rouge. 📦 Livraison gratuite dans toutes les villes du Maroc",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3572199963089174%2F&show_text=false&width=267&t=0"
  },
@@ -2668,7 +2668,7 @@ features: [
 ],
 
 
-warranty: "سيارة كهربائية رياضية للأطفال بشكل كارتينغ. مزودة ببطارية 12 فولت ومحرك قوي بثلاثة محركات. مناسبة لمقعد واحد ومجهزة بحزام الأمان لراحة الطفل. تتوفر على موسيقى، مدخل USB وكابل مساعد لتشغيل الأغاني. فيها ثلاث سرعات مختلفة ووظيفة التمايل (balançoire) للمتعة. مزودة بتقنية البلوتوث، ونظام تعليق (amortisseurs) لراحة أكثر في القيادة. فيها أضواء LED أمامية وخلفية، شاشة رقمية، وتحكم من الهاتف بالإضافة إلى جهاز تحكم يدوي. مناسبة للأطفال من 3 حتى 10 سنوات.",
+warranty: "Voiture électrique sportive pour enfants au design karting. Équipée d'une batterie 12V et de trois moteurs puissants. Conçue pour un seul siège avec ceinture de sécurité pour le confort de l’enfant. Dispose de musique, d’une entrée USB et d’un câble auxiliaire pour écouter des chansons. Elle offre trois vitesses différentes et une fonction balançoire pour plus de plaisir. Dotée de la technologie Bluetooth et d’un système de suspension (amortisseurs) pour une conduite plus confortable. Elle possède des lumières LED à l'avant et à l'arrière, un écran digital, un contrôle via smartphone ainsi qu'une télécommande manuelle. Adaptée aux enfants de 3 à 10 ans.",
   
  },
   
@@ -2988,11 +2988,8 @@ features: [
     ]
   }
 ],
-warranty: "✔ طوموبيل مازيراتي سبور للأطفال 🤩\nوفر لولدك تجربة سياقة ما كايناش بحالها مع هاد الطوموبيل الكهربائية لي دايرا ضجة بتصميمها السبور والمميزات ديالها الزوينة.\n\n✅ بطارية قوية 12 فولت مع شارژور ديال 12 فولت\n✅ جوج بلايص صغار + صبّاط الأمان\n✅ موسيقى، USB، وكابل AUX باش يسمع وليدك الأغاني لي كيعجبوه\n✅ بلوتوث خدام\n✅ 3 ديال السرعات باش يتحكم مزيان\n✅ فيها حركة تأرجح (كتتحرك بحال الميّاحة)\n✅ أمورتيسور باش ماتحسش بالحفر\n✅ ضو LED من القدّام ومن اللور\n✅ كتخدم بالتيلكوموند ولا حتى من التليفون ديالك 📲\n\n🎯 مناسبة من 1 حتى لـ 6 سنين\n🎨 الألوان المتوفرة: ⚪🔴",
-
-
-
-
+    
+warranty: "Voiture Maserati sport pour enfants. Offrez à votre enfant une expérience de conduite exceptionnelle avec cette voiture électrique au design sportif et aux fonctionnalités impressionnantes.\n\nBatterie puissante 12V avec chargeur 12V\nDeux petites places + ceinture de sécurité\nMusique, port USB et câble AUX pour écouter ses chansons préférées\nBluetooth intégré\nTrois vitesses différentes pour une meilleure maîtrise\nFonction balançoire (se balance doucement)\nSuspensions pour plus de confort sur les routes irrégulières\nÉclairage LED à l'avant et à l'arrière\nContrôle possible avec la télécommande ou directement depuis votre téléphone\n\nConvient aux enfants de 1 à 6 ans\nCouleurs disponibles : blanc et rouge",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
  },
   

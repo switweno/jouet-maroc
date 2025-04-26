@@ -1328,7 +1328,7 @@ header {
 
 /* تحسين المميزات البارزة */
 .feature-highlight {
-    background-color: #f6f6f6;
+    background-color: rgba(0, 245, 255, 0.1);
     border: 1px solid rgba(143, 143, 143, 0);
     border-radius: 8px;
     padding: 10px;
@@ -1338,8 +1338,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-     direction: rtl;
-     color: #00744d;
+     direction: ltr;
+     color: #282322;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
