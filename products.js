@@ -1344,7 +1344,7 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 26,
-    currentPrice: 1149,
+    currentPrice: 990,
     oldPrice: 1399,
     discount: 30,
     images: [
