@@ -770,7 +770,7 @@ features: [
     title: "AVANTAGES AVANCÉS",
     icon: "fa-cogs",
     items: [
-      { key: "MOTEUR", value: "1200W min - 2400W MAX" },
+      { key: "MOTEUR", value: "1000W min - 2000W MAX" },
       { key: "BATTERIE", value: "48V 16AH LITHIUM" },
       { key: "AUTONOMIE", value: "35km - 60km" },
       { key: "VITESSE", value: "55 km/h max" },
@@ -803,7 +803,7 @@ features: [
 ],
 
 
-   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   "warranty": "Découvrez la toute nouvelle trottinette électrique Tank M41 Ultimate 2025 de la marque Ecoxtrem Tank, conçue pour les aventuriers urbains et amateurs de sensations fortes. Dotée d'un moteur puissant de 1000W minimum jusqu'à 2000W en puissance maximale, elle offre une vitesse impressionnante allant jusqu'à 55 km/h. Sa batterie lithium 48V 16Ah garantit une autonomie variant de 35 km à 60 km selon l'utilisation. La Tank M41 est équipée de freins à disque avant et arrière, complétés par un système E-ABS pour une sécurité optimale. Profitez d'un confort de conduite exceptionnel grâce à ses suspensions avant et arrière, ses grandes roues Off-road de 11 pouces et son châssis en alliage d'aluminium ultra-résistant. Elle est également étanche avec les certifications IP54 et IPX4, idéale pour résister aux éclaboussures et aux intempéries. Son tableau de bord digital moderne, les éclairages LED avant, arrière et latéraux, ainsi que les signaux lumineux gauche/droite renforcent votre visibilité et sécurité. La trottinette est pliable pour un transport facile, dispose de 3 vitesses ajustables, d'une clé de contact NFC, et peut être contrôlée directement depuis votre smartphone. De plus, un sac de transport est offert en cadeau. Charge maximale supportée : 150 kg. Avec la trottinette Tank M41 Ultimate,",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1405828253764529%2F&show_text=false&width=264&t=0"
   }, 
   
