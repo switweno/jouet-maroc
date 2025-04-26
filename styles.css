@@ -43,17 +43,15 @@ html, body {
 /* Header Styles */
 header {
  background: linear-gradient(135deg, #ff0057, #ff1e48);
-
-
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 3px 10px rgb(10, 2, 2);
-  
+    box-shadow: 0 3px 10px rgba(10, 2, 2, 0.28);
+    position: relative; /* التأكد من أن الز-index يعمل بشكل صحيح */
     top: 0; 
     left: 0;
     width: 100%; 
-    z-index: 1000; 
+    z-index: 997; 
 	 transition: top 0.3s ease-in-out;
 }
 
@@ -3968,11 +3966,12 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 
 /* Search Bar Styles */
 .search-container {
-    background-color: #ffffff;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    margin-bottom: 5px;
-    
+  background-color: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 5px;
+  z-index: 948; /* أقل من header */
+  position: relative; /* لتطبيق z-index بشكل فعال */
 }
 
 .search-box {
