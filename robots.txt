@@ -2,3 +2,10 @@ User-agent: *
 Allow: /
 Sitemap: https://jouet-maroc.com/sitemap.xml
 
+
+# IndexNow
+User-agent: *
+Allow: /
+Host: https://www.bing.com/indexnow
+
+
