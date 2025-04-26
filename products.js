@@ -1621,8 +1621,9 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
       "likebike-lander-vtt/likebike-lander-vtt-04.webp",
       "likebike-lander-vtt/likebike-lander-vtt-05.webp",
       "likebike-lander-vtt/likebike-lander-vtt-06.webp",
-     "likebike-lander-vtt/likebike-lander-vtt-07.webp",
-     "likebike-lander-vtt/likebike-lander-vtt-09.webp"
+      "likebike-lander-vtt/likebike-lander-vtt-07.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-08.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-09.webp"
     ],
     features: [
   {
