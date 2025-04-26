@@ -46,7 +46,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(10, 2, 2, 0.28);
+    box-shadow: 0 3px 10px rgba(10, 2, 2, 0.17);
     position: relative; /* التأكد من أن الز-index يعمل بشكل صحيح */
     top: 0; 
     left: 0;
