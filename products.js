@@ -49,7 +49,7 @@ features: [
       { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
       { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
       { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
-      { key: "ROUES", value: "Off-road 11 pouces", type: "Tubeless" },
+      { key: "ROUES", value: "Off-road 11 pouces Tubeless" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
       { key: "CADEAU", value: "Sac offert 🎁" }
