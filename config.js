@@ -9,7 +9,7 @@ const CATEGORIES_CONFIG = {
         id: 'scooters',
         displayName: 'التروتنيت',
         databaseName: 'تروتنيت',
-        icon: 'fa-skating'
+        icon: 'fa-biking'
     },
     'bikes': {
         id: 'bikes',
