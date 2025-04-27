@@ -3386,7 +3386,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     padding: 0 10px;
 }
 
-.footer-about h1 {
+.footer-about h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
     color: #fff;
@@ -3395,7 +3395,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     padding-bottom: 8px;
 }
 
-.footer-about h1:after {
+.footer-about h3:after {
     content: "";
     position: absolute;
     bottom: 0;
