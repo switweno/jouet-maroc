@@ -49,7 +49,7 @@ features: [
       { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
       { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
       { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
-      { key: "ROUES", value: "Off-road 11 pouces" },
+      { key: "ROUES", value: "Off-road 11 pouces", type: "Tubeless" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
       { key: "CADEAU", value: "Sac offert 🎁" }
@@ -57,7 +57,8 @@ features: [
   }
 ],
 
-"warranty": "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11\", châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital LCD, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert.",
+"warranty": "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11\" Tubeless, châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital LCD, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert.",
+
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1221585959674975%2F&show_text=false&width=267&t=0"
   }, 
