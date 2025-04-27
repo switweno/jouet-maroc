@@ -1,5 +1,67 @@
 const products = [
   
+    {
+   id: "trottinette-Tank-m41",
+   title: "TROTTINETTE Tank M41 Ultimate 2025",
+   brand: "Ecoxtrem",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 6490,
+   oldPrice: 7899,
+   discount: 30,
+   images: [
+     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
+      "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-08.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES ULTIMES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1000W min - 2000W MAX" },
+      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35km - 60km" },
+      { key: "VITESSE", value: "68 km/h max" },
+      { key: "CHARGE MAX", value: "150 KG" },
+      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Digital LCD" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
+      { key: "ROUES", value: "Off-road 11 pouces" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "CADEAU", value: "Sac offert 🎁" }
+    ]
+  }
+],
+
+"warranty": "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11\", châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital LCD, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1221585959674975%2F&show_text=false&width=267&t=0"
+  }, 
+  
   {
    id: "trottinette-bremer-48v",
     title: "TROTTINETTE SCOOTER BREMER 48V",
@@ -743,65 +805,7 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
   }, 
 
-  {
-   id: "trottinette-Tank-m41",
-   title: "TROTTINETTE Tank M41 Ultimate 2025",
-   brand: "Ecoxtrem",
-   category: "تروتنيت",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 138,
-   currentPrice: 6490,
-   oldPrice: 7899,
-   discount: 30,
-   images: [
-     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-05.webp"
-   ],
-features: [
-  {
-    title: "AVANTAGES AVANCÉS",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "1000W min - 2000W MAX" },
-      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
-      { key: "AUTONOMIE", value: "35km - 60km" },
-      { key: "VITESSE", value: "55 km/h max" },
-      { key: "CHARGE MAX", value: "150 KG" },
-      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
-      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
-      { key: "SUSPENSION", value: "Avant & Arrière" },
-      { key: "TABLEAU", value: "Digital" },
-      { key: "VITESSE", value: "3 niveaux" },
-      { key: "CHARGE", value: "54V" }
-    ]
-  },
-  {
-    title: "CARACTÉRISTIQUES",
-    icon: "fa-star",
-    items: [
-      { key: "LED", value: "Avant + Arrière + Latéral" },
-      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
-      { key: "PLIABLE", value: "OUI" },
-      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
-      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
-      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
-      { key: "ROUES", value: "Off-road 11 pouces" },
-      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
-      { key: "FEU SIGNAL", value: "OUI" },
-      { key: "CADEAU", value: "Sac offert 🎁" }
-    ]
-  }
- 
-],
 
-
-   "warranty": "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 55 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11\", châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert.",
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1405828253764529%2F&show_text=false&width=264&t=0"
-  }, 
   
  {
    id: "trottinette-EcoXtrem-liner",
