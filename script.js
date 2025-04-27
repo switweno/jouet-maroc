@@ -749,13 +749,13 @@ let updateProductDisplay = function(product) {
 
     // تحديث العلامة التجارية والفئة مع تغيير الألوان
     document.querySelector('.product-brand').innerHTML = `
-        <span style="color: #4a2a57; font-weight: 600;">العلامة التجارية:</span>
-        <span style="color: #031112; margin-right: 5px;">${product.brand}</span>
+        <span style="color: #4b4b4b; font-weight: 600;">العلامة التجارية:</span>
+        <span style="color: #4b4b4b; margin-right: 5px;">${product.brand}</span>
     `;
 
     document.querySelector('.product-category').innerHTML = `
-        <span style="color: #4a2a57; font-weight: 600;">الفئة:</span>
-        <span style="color: #031112; margin-right: 5px;">${product.category}</span>
+        <span style="color: #4b4b4b; font-weight: 600;">الفئة:</span>
+        <span style="color: #4b4b4b; margin-right: 5px;">${product.category}</span>
     `;
 
     // تحديث حالة التوفر
