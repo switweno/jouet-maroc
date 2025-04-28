@@ -3169,8 +3169,7 @@ features: [
      "voiture-range-rover-police/voiture-range- rover-police-03.webp",
      "voiture-range-rover-police/voiture-range- rover-police-04.webp",
      "voiture-range-rover-police/voiture-range- rover-police-05.webp",
-     "voiture-range-rover-police/voiture-range- rover-police-06.webp",
-     "voiture-range-rover-police/voiture-range- rover-police-07.webp"
+     "voiture-range-rover-police/voiture-range- rover-police-06.webp"
    ],
     
 features: [
