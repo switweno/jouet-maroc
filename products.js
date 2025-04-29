@@ -124,6 +124,67 @@ features: [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"
   },
   
+   {
+   id: "trottinette-m4-pro",
+   title: "TROTTINETTE M4 PRO 2025",
+   brand: "M4 PRO",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 5499,
+   oldPrice: 6499,
+   discount: 30,
+   images: [
+     "trottinette-m4-pro/trottinette-m4-pro-01.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-02.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-03.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-04.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-05.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-06.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-07.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-08.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-09.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES ULTIMES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W nominal - 1000W MAX" },
+      { key: "BATTERIE", value: "48V 12.5AH LITHIUM" },
+      { key: "AUTONOMIE", value: "30km min - 40km max" },
+      { key: "VITESSE", value: "53 km/h max" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Écran LCD" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "KLAXON", value: "Électrique" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "DÉMARRAGE", value: "Avec contact" }  
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + système antivol" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
+      { key: "ROUES", value: "Off-road 10 pouces" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "CADEAU", value: "Sac offert 🎁" }
+    ]
+  }
+],
+
+warranty: "Découvrez la Trottinette M4 PRO 2025 : moteur 500W nominal / 1000W max, batterie 48V 12.5Ah pour une autonomie de 30 km à 40 km. Vitesse max 53 km/h, charge max jusqu'à 120 kg, avec freins à disque avant/arrière et amortisseurs pour plus de confort. Écran LCD, klaxon électrique, feux LED avant/arrière, clignotants latéraux, et système de pliage guidon. Roues 10 pouces off-road et 3 vitesses. Poids total : 24,5 kg.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1056531722949824%2F&show_text=false&width=220&t=0"
+  }, 
+  
     {
    id: "trottinette-navee-n20",
     title: "TROTTINETTE NAVEE N20",
