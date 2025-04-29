@@ -1238,6 +1238,52 @@ warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produ
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
   },
   
+    {
+    id: "vélo-hadmeng-pliable",
+    title: "VÉLO HADMENG PLIABLE",
+    brand: "HADMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 160,
+    currentPrice: 1549,
+    oldPrice: 1799,
+    discount: 30,
+    images: [
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-01.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-02.webp",
+     "vélo-hadmeng-pliable/vélo-hadmeng-pliable-03.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-04.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-05.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-06.webp",
+     "vélo-hadmeng-pliable/vélo-hadmeng-pliable-07.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-08.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-09.webp"
+    ],
+      
+features: [
+  {
+    title: "CARACTÉRISTIQUES PRINCIPALES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "20 POUCES" },
+      { key: "TYPE", value: "VÉLO PLIABLE" },
+      { key: "ROUES", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "1×7" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
+      { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Gris, Noir" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1341977030312199%2F&show_text=false&width=267&t=0"
+  },
+  
   {
     id: "vélo-bmx-gtr-aluminum",
     title: "VÉLO BMX GTR ALUMINIUM 26",
