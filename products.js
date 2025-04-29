@@ -3901,7 +3901,7 @@ features: [
    title: "Moteur HARLEY 6V",
    brand: "Marque enfant ",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 260,
    currentPrice: 999,
