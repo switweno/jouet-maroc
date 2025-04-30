@@ -2775,6 +2775,60 @@ warranty: "Voiture électrique sportive pour enfants au design karting. Équipé
   
  },
   
+   {
+   id: "moteur-erwan",
+   title: "Motor Erwan",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1049,
+   oldPrice: 1300,
+   discount: 30,
+   images: [
+     "moteur-erwan/moteur-erwan-01.webp",
+     "moteur-erwan/moteur-erwan-02.webp",
+     "moteur-erwan/moteur-erwan-03.webp",
+     "moteur-erwan/moteur-erwan-04.webp",
+     "moteur-erwan/moteur-erwan-05.webp",
+     "moteur-erwan/moteur-erwan-06.webp",
+     "moteur-erwan/moteur-erwan-07.webp"
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12V standard" },
+      { key: "SIÈGE", value: "1 place en cuir" },
+      { key: "MOTEUR", value: "Double moteur" },
+      { key: "VITESSE", value: "3 vitesses réglables" },
+      { key: "SYSTÈME DE DÉMARRAGE", value: "Démarrage à clé (contact)" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 6 ans" },
+      { key: "COULEURS", value: "Rouge, Rose" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "MP3, USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Intégré" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty:"✔ Moto électrique Moteur Erwan 2025 🏍️ – Une expérience unique pour vos enfants ! Avec sa batterie 12V, ses 2 moteurs puissants, un siège cuir confortable, un éclairage LED complet, démarrage par clé, Bluetooth, musique via USB ou câble, et 3 vitesses au choix – tout est pensé pour la sécurité et le fun des enfants de 1 à 6 ans. 🚚 Livraison gratuite dans toutes les villes du Maroc. ✅ Couleurs disponibles : 🔴 Rouge, 🌸 Rose",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4136022943287344%2F&show_text=false&width=267&t=0"
+ },
+  
     {
    id: "voiture-mini-buggy-4x4",
    title: "La Voiture mini buggy 4x4",
