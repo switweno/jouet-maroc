@@ -3155,7 +3155,7 @@ warranty: "Voiture Maserati sport pour enfants. Offrez à votre enfant une expé
    title: " Moteur Police 12V 👮🏼",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 20,
    currentPrice: 1949,
