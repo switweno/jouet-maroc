@@ -2940,6 +2940,56 @@ warranty: "La mini Jeep électrique pour enfants est le cadeau parfait pour les 
  },
   
   {
+   id: "moteur-erwan-s",
+   title: "Moteur Erwan 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 18,
+   currentPrice: 1570,
+   oldPrice: 1900,
+   discount: 30,
+   images: [
+     "moteur-erwan-s/moteur-erwan-s-01.webp",
+     "moteur-erwan-s/moteur-erwan-s-02.webp",
+     "moteur-erwan-s/moteur-erwan-s-03.webp",
+     "moteur-erwan-s/moteur-erwan-s-04.webp",
+     "moteur-erwan-s/moteur-erwan-s-05.webp",
+     "moteur-erwan-s/moteur-erwan-s-06.webp",
+     "moteur-erwan-s/moteur-erwan-s-07.webp"
+   ],
+    
+  features: [
+    {
+      "title": "AVANTAGES AVANCÉS",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "BATTERIE", "value": "12V" },
+        { "key": "CHARGEUR", "value": "12 volts" },
+        { "key": "SIÈGE", "value": "2 places mini" },
+        { "key": "MOTEUR", "value": "2 grands moteurs" },
+        { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+        { "key": "AMORTISSEURS", "value": "Oui" },
+        { "key": "VITESSE", "value": "3ème vitesse" },
+        { "key": "ÂGE", "value": "1 - 8 ans" }
+      ]
+    },
+    {
+      "title": "CARACTÉRISTIQUES",
+      "icon": "fa-star",
+      "items": [
+        { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+        { "key": "BLUETOOTH", "value": "Oui" },
+        { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+      ]
+    }
+  ],
+  warranty: "✔ Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez. Ne ratez pas cette opportunité 🛒, commandez maintenant et profitez du shopping à domicile 💥.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1217779936614662%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
    id: "moteur-x-adv-gs",
    title: "Moteur X ADV GS",
    brand: "Marque enfant",
