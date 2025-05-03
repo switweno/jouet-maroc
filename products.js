@@ -1014,6 +1014,54 @@ features: [
   },  
   
   
+  {
+    id: "vélo-vtt-sport-bike",
+    title: "VÉLO VTT SPORT BIKE 26",
+    brand: "SPORT BIKE",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 215,
+    currentPrice: 1349,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-01.webp",
+     "vélo-vtt-sport-bike/vélo-vtt-sport-bike-02.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-03.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-04.webp",
+       "vélo-vtt-sport-bike/vélo-vtt-sport-bike-05.webp",
+     "vélo-vtt-sport-bike/vélo-vtt-sport-bike-06.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-07.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-08.webp",
+       "vélo-vtt-sport-bike/vélo-vtt-sport-bike-09.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "26 POUCES" },
+      { key: "QUALITÉ", value: "SPORT BIKE 1ÈRE QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Orange, Gris, Rouge, Bleu." }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT Sport Bike 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Orange, Gris, Rouge, Bleu. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F932129538899048%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
  {
     id: "vélo-italiano-alamunium-26",
     title: "VÉLO ITALIANO ALUMINIUM 26",
