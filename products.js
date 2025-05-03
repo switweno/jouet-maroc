@@ -2388,6 +2388,51 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
  },
   
+   {
+   id: "moteur-vespa-12v",
+   title: "Moteur Vespa 12v",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 211,
+   currentPrice: 999,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "moteur-vespa-12v/moteur-vespa-12v-01.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-02.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-03.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-04.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-05.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-06.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-07.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "FONCTIONNALITÉS", value: "Music, USB, câble auxiliaire" },
+      { key: "DÉMARRAGE", value: "Bouton de démarrage" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "CONDUITE", value: "Manuel" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 6 ans" }
+    ]
+  }
+],
+
+warranty: "Moto Vespa 2025 ⚡ Fonctionne avec une batterie 12V et deux moteurs puissants pour une conduite fluide. Conçue avec un siège 1 place, éclairage LED avant et arrière, démarrage par bouton, amortisseurs, musique intégrée via USB ou câble auxiliaire. Convient aux enfants de 1 à 6 ans. 📦 Livraison gratuite partout au Maroc.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F678983161534606%2F&show_text=false&width=267&t=0"
+ },
+  
   {
    id: "motor-erwan-2025",
    title: "Motor Erwan 2025",
