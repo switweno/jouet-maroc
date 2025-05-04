@@ -4242,6 +4242,11 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
+.share-label i {
+  font-size: 18px;
+  color: #2f30ba;
+}
+
 .share-buttons {
   display: flex;
   justify-content: right;
@@ -4250,6 +4255,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   margin-top: 5px;
     
 }
+
 
 .share-btn {
   width: 45px;
