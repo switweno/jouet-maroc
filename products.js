@@ -1015,6 +1015,56 @@ features: [
   
   
   {
+    id: "vtt-sport-bike-27.5",
+    title: "VÉLO VTT SPORT BIKE 27.5",
+    brand: "SPORT BIKE",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 180,
+    currentPrice: 1399,
+    oldPrice: 1700,
+    discount: 30,
+    images: [
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-01.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-02.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-03.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-04.webp",
+        "vtt-sport-bike-27.5/vtt-sport-bike-27.5-05.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-06.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-07.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-08.webp",
+       "vtt-sport-bike-27.5/vtt-sport-bike-27.5-09.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-10.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-11.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "27.5 POUCES" },
+      { key: "QUALITÉ", value: "SPORT BIKE 1ÈRE QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Bleu, Vert, Gris, Rouge" }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT Sport Bike 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Bleu, Vert, Gris, Rouge. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F591581090008506%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
+  {
     id: "vélo-vtt-sport-bike",
     title: "VÉLO VTT SPORT BIKE 26",
     brand: "SPORT BIKE",
