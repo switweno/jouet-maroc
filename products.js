@@ -52,7 +52,7 @@ features: [
       { key: "ROUES", value: "Off-road 11 pouces Tubeless" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
-      { key: "COULEURS", value: "Disponible en 5 couleurs" },
+      { key: "COULEURS", value: "Disponible en rouge et blanc" },
       { key: "CADEAU", value: "Sac offert 🎁" }
     ]
   }
