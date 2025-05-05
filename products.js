@@ -1499,7 +1499,7 @@ features: [
     title: "VÉLO BMX GTR ALUMINIUM 26",
     brand: "BMX GTR",
     category: "دراجات هوائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 325,
     currentPrice: 1699,
