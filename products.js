@@ -2972,6 +2972,57 @@ warranty:"✔ Moto électrique Moteur Erwan 2025 🏍️ – Une expérience uni
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4136022943287344%2F&show_text=false&width=267&t=0"
  },
   
+  {
+   id: "voiture-mini-jeep-police",
+   title: "Voiture mini Jeep police",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1340,
+   oldPrice: 1490,
+   discount: 30,
+   images: [
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-01.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-02.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-03.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-04.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-05.webp"
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12V standard" },
+      { key: "SIÈGE", value: "2 places mini avec ceintures de sécurité" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses réglables" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire intégrée" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 5 ans" },
+      { key: "COULEURS", value: "Noir" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "MP3, USB, câble auxiliaire" },
+      { key: "ÉCLAIRAGE", value: "LED avant" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "✔ Voiture électrique Mini Jeep Police 🚓 pour enfants – Équipée de 3 moteurs puissants, une batterie 12V, deux mini-places avec ceintures de sécurité, fonction balançoire, éclairage LED avant, musique via USB/câble, et 3 vitesses réglables. Âge : 1 à 5 ans. 🎨 Couleur : Noir. 🚚 Livraison gratuite partout au Maroc.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3122993281182692%2F&show_text=false&width=267&t=0"
+ },
+  
     {
    id: "voiture-mini-buggy-4x4",
    title: "La Voiture mini buggy 4x4",
