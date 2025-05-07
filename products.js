@@ -2486,6 +2486,59 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
  },
   
+  {
+   id: "moteur-vespa-6v",
+   title: "Moteur Vespa 6v",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 799,
+   oldPrice: 1100,
+   discount: 30,
+   images: [
+     "moteur-vespa-6v/moteur-vespa-6v-01.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-02.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-03.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-04.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-05.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-06.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-07.webp"
+     
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "6V" },
+      { key: "CHARGEUR", value: "6 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 5 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "Music, USB, câble auxiliaire" },
+      { key: "DÉMARRAGE", value: "Bouton de démarrage" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "✔ Moto électrique Vespa 6V 🛵 pour enfants – Équipée de 2 moteurs, batterie 6V, 1 place, démarrage par bouton, amortisseurs, lumières LED avant et arrière, musique via USB/câble. Âge recommandé : 1 à 5 ans. Livraison gratuite partout au Maroc. 🇲🇦",
+
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1096480852503818%2F&show_text=false&width=267&t=0"
+ },
+  
    {
    id: "moteur-vespa-12v",
    title: "Moteur Vespa 12v",
