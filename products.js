@@ -1809,7 +1809,7 @@ features: [
     title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
     brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 120,
     currentPrice: 8199,
