@@ -1,5 +1,67 @@
 const products = [
   
+  {
+   id: "trottinette-ecoxtrem-m4-max",
+   title: "TROTTINETTE ECOXTREM M4 MAX",
+   brand: "Ecoxtrem",
+   category: "تروتنيت",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 69,
+   currentPrice: 4690,
+   oldPrice: 6000,
+   discount: 30,
+   images: [
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-01.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-02.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-03.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-04.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-05.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-06.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-07.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-08.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-09.webp",
+     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-10.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES ULTIMES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W" },
+      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35km - 50km" },
+      { key: "VITESSE", value: "55 km/h max" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Écran LCD" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière" },
+      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "ROUES", value: "10 pouces" },
+      { key: "COFFRES", value: "Porte-bagages inclus" }
+    ]
+  }
+],
+
+warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur 1200W, batterie 48V 13Ah lithium offrant 35 à 50 km d’autonomie. Vitesse maximale de 55 km/h, freins à disque avant/arrière, suspensions renforcées, pneus 10 pouces, et écran LCD. Châssis en alliage d’aluminium, LED avant/arrière, signalisation gauche/droite, pliable, étanchéité IP54/IPX4. Charge max 120 kg. Équipée d’un coffre porte-bagages pour plus de praticité.",
+
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"
+  }, 
+  
     {
    id: "trottinette-Tank-m41",
    title: "TROTTINETTE Tank M41 Ultimate 2025",
