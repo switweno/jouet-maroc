@@ -2380,6 +2380,53 @@ features: [
  },
   
   
+  {
+   id: "motor-cross-36V-pro",
+   title: "Motor cross 36V",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 2199,
+   oldPrice: 2899,
+   discount: 30,
+   images: [
+    "motor-cross-36V-pro/motor-cross-36v-pro-01.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-02.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-03.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-04.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-05.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-06.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-07.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-08.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-09.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-10.webp"
+   ],
+features: [
+    {
+      title: "SPECIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "350 W" },
+        { key: "Batterie", value: "36V" },
+        { key: "Charge max", value: "60 kg" },
+        { key: "Freinage", value: "à disque arrière" },
+        { key: "Vitesse max", value: "15 km min - 25 km max" },
+        { key: "Autonomie", value: "10km min - 20km max" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "11 pouces" },
+        { key: "Charge", value: "42V" },
+      ]
+    }
+  ],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4087949254825679%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+  
    {
    id: "moteur-cross-42V-2",
    title: "Moteur cross 36V",
