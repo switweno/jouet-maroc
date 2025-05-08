@@ -13,13 +13,6 @@ body {
     font-family: 'Tajawal', 'Cairo', sans-serif;
 }
 
-
-
-
-button, a {
-  touch-action: manipulation;
-  user-select: none;
-}
 html {
   scroll-behavior: smooth;
   overscroll-behavior: contain;
@@ -38,6 +31,11 @@ html, body {
     margin: 0 auto;
     padding: 0 14px;
     
+}
+
+button, a {
+  touch-action: manipulation;
+  user-select: none;
 }
 
 /* Header Styles */
@@ -75,13 +73,6 @@ header {
     display: flex;
     align-items: center;
 }
-
-
-
-
-
-
-
 
 
 @media (min-width: 992px) {
@@ -189,9 +180,6 @@ header {
     transform: scale(1.2) rotate(-5deg);
     transition: all 0.3s ease;
 }
-
-
-
 
 
 /* أنماط زر القائمة */
@@ -1105,10 +1093,6 @@ header {
 }
 
 
-
-
-
-
 /* تنسيق سعر الجملة */
 .product-wholesale-price {
     padding-right: 10px;
@@ -1150,8 +1134,6 @@ header {
         
     }
 }
-
-
 
 .feature-category ul {
     list-style: none; /* إزالة النقطة */
@@ -1559,8 +1541,6 @@ header {
 }
 
 
-
-
 .form-group {
     margin-bottom: 20px;
 }
@@ -1645,20 +1625,6 @@ header {
     background-color:#1EA252;
     transform: scale(0.98);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Order Confirmation Modal Styles */
@@ -2791,8 +2757,6 @@ select {
 }
 
 
-
-
 .products-grid {
     display: flex;
     flex-wrap: wrap;
@@ -3588,10 +3552,6 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 
-
-
-
-
 /* Responsive Adjustments */
 @media (max-width: 992px) {
     .footer-grid {
@@ -3796,8 +3756,6 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 }
 
 
-
-
 /* Order Form Modal Styles */
 .order-form-modal {
     display: none;
@@ -3960,8 +3918,6 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 .category-divider:hover .category-icon {
     color: #e5c30a; /* اللون الذهبي اللامع عند التمرير */
 }
-
-
 
 
 /* Search Bar Styles */
