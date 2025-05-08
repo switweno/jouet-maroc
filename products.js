@@ -1248,7 +1248,7 @@ features: [
     title: "VÉLO VTT CICLISTA PLUS 2025",
     brand: "CICLISTA",
     category: "دراجات هوائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 89,
     currentPrice: 1899,
