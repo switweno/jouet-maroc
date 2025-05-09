@@ -2544,8 +2544,8 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 25,
-   currentPrice: 3699,
-   oldPrice: 4690,
+   currentPrice: 4200,
+   oldPrice: 5199,
    discount: 30,
    images: [
      "moteur-cross-42v-2/moteur-cross-42v-2-01.webp",
@@ -2578,8 +2578,7 @@ features: [
             { key: "SIÈGE", value: "CUIR" },
             { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
             { key: "LED", value: "AMBIANCE" },
-            { key: "KLAXON", value: "ÉLECTRIQUE" },
-            { key: "COLOR", value: "🔴🔵" }
+            { key: "KLAXON", value: "ÉLECTRIQUE" }
       ]
     }
   ],
@@ -2864,7 +2863,7 @@ warranty: "✅ Moteur Police 12V 👮🏼 — Équipé d'une *batterie 12V, 2 gr
      "moteur-t-max-police-12V/moteur-t-max-police-12v-07.webp",
      "moteur-t-max-police-12V/moteur-t-max-police-12v-08.webp",
      "moteur-t-max-police-12V/moteur-t-max-police-12v-09.webp",
-      "moteur-t-max-police-12V/moteur-t-max-police-12v-10.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-10.webp"
    ],
     
 features: [
