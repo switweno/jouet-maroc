@@ -1913,69 +1913,74 @@ features: [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
   },
   
- {
-    id: "likebike-lander-vtt",
-    title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
-    brand: "LIKEBIKE ORIGINAL",
-    category: "دراجات كهربائية",
-    availability: "غير متوفر في المخزون",
-    ratings: 4.5,
-    reviewCount: 120,
-    currentPrice: 8199,
-    oldPrice: 10999,
-    discount: 30,
-    images: [
-      "likebike-lander-vtt/likebike-lander-vtt-01.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-02.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-03.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-04.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-05.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-06.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-07.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-08.webp",
-      "likebike-lander-vtt/likebike-lander-vtt-09.webp"
-    ],
-    features: [
-  {
-    title: "SPÉCIFICATIONS TECHNIQUES",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
-      { key: "BATTERIE", value: "48 V 13 AH" },
-      { key: "BATTERIE TYPE", value: "LITHIUM" },
-      { key: "CHARGE MAXIMALE", value: "120 KG" },
-      { key: "CHARGE RAPIDE", value: "54V" },
-      { key: "AUTONOMIE", value: "40 KM - 50 KM MAX" },
-      { key: "MODE ASSISTANCE", value: "100 KM MAX" },
-      { key: "VITESSE MAX", value: "42 KM" },
-      { key: "VITESSE", value: "7E VITESSE" },
-      { key: "CHANGEMENT", value: "SHIMANO" },
-      { key: "PIÈCES", value: "SHIMANO" },
-    ]
-  },
-  {
-    title: "CONFORT & ÉQUIPEMENT",
-    icon: "fa-star",
-    items: [
-      { key: "AFFICHAGE", value: "ÉCRAN LCD INTELLIGENT" },
-      { key: "NIVEAUX DE VITESSE", value: "5E VITESSE" },
-      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
-      { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
-      { key: "AMORTISSEUR", value: "AVANT" },
-      { key: "SIÈGE", value: "CUIR" },
-      { key: "PORTE-BAGAGE", value: "INCLUS" },
-      { key: "PNEUS", value: "26×4 POUCES" },
-      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
-      { key: "KLAXON", value: "ÉLECTRIQUE" }
-    ]
-  }
-],
+   {
+   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
+   title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
+   brand: "LIKEBIKE ORIGINAL",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 136,
+   currentPrice: 8099,
+   oldPrice: 10999,
+   discount: 30,
+   images: [
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-02.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-03.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-04.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-05.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-06.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-07.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-08.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-09.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-10.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-11.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-12.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-14.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-15.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-16.webp"
+   ],
+features: [
+    {
+      title: "AVANTAGES AVANCÉS",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
+        { key: "BATTERIE", value: "48 V 18,2 AH - LITHIUM" },
+        { key: "CHARGE MAX", value: "130 KG" },
+        { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+        { key: "AUTONOMIE", value: "45 KM - 60 KM MAX" },
+        { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+        { key: "VITESSE MAX", value: "51 KM/H" },
+        { key: "CHARGE RAPIDE", value: "54V" },
+        { key: "DÉMARRAGE", value: "CONTACT" },
+         { key: "TABLEAU", value: "DIGITAL" }
+      ]
+    },
+    {
+      title: "CARACTÉRISTIQUES",
+      icon: "fa-star",
+      items: [
+       
+        { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" }, 
+        { key: "CHANGEMENT SHIMANO", value: "7E VITESSE" },
+        { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+        { key: "SIGNAL", value: "À DROITE ET À GAUCHE" },
+        { key: "AMORTISSEUR", value: "AVANT ET ARRIÈRE" },
+        { key: "SIÈGE", value: "CUIR - 2 PLACES EN CUIR" },
+        { key: "PNEU", value: "20,4 POUCES" },
+        { key: "KLAXON", value: "ÉLECTRIQUE" },
+        { key: "PIÈCES", value: "SHIMANO" },
+        { key: "GARDE-BOUE", value: "AV ET AR" }
+       
+      ]
+    }
+  ],
+  warranty: " VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",  
 
-warranty: "Vivez la liberté de mouvement sans frais supplémentaires ni pollution avec le VÉLO ÉLECTRIQUE LIKEBIKE LANDER. Ce vélo est prêt aussi bien pour la ville que pour les chemins accidentés, combinant puissance, confort et longue autonomie. Il est équipé d'un moteur puissant, d'une batterie durable, et de nombreux équipements de qualité. La solution idéale pour ceux qui veulent se déplacer librement sans se soucier des dépenses. Un investissement intelligent pour votre quotidien",
-
-
-    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1611241772889832%2F&show_text=false&width=267&t=0"
-  }, 
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
+ },
   
   {
     id: "velo-electrique-harley-u9",
@@ -2287,73 +2292,69 @@ features: [
  },
   
   {
-   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
-   title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
-   brand: "LIKEBIKE ORIGINAL",
-   category: "دراجات كهربائية",
-   availability: "متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 136,
-   currentPrice: 8099,
-   oldPrice: 10999,
-   discount: 30,
-   images: [
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-02.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-03.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-04.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-05.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-06.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-07.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-08.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-09.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-10.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-11.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-12.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-14.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-15.webp",
-     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-16.webp"
-   ],
-features: [
-    {
-      title: "AVANTAGES AVANCÉS",
-      icon: "fa-cogs",
-      items: [
-        { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
-        { key: "BATTERIE", value: "48 V 18,2 AH - LITHIUM" },
-        { key: "CHARGE MAX", value: "130 KG" },
-        { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
-        { key: "AUTONOMIE", value: "45 KM - 60 KM MAX" },
-        { key: "MODE ASSISTANCE", value: "100 KM MAX" },
-        { key: "VITESSE MAX", value: "51 KM/H" },
-        { key: "CHARGE RAPIDE", value: "54V" },
-        { key: "DÉMARRAGE", value: "CONTACT" },
-         { key: "TABLEAU", value: "DIGITAL" }
-      ]
-    },
-    {
-      title: "CARACTÉRISTIQUES",
-      icon: "fa-star",
-      items: [
-       
-        { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" }, 
-        { key: "CHANGEMENT SHIMANO", value: "7E VITESSE" },
-        { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
-        { key: "SIGNAL", value: "À DROITE ET À GAUCHE" },
-        { key: "AMORTISSEUR", value: "AVANT ET ARRIÈRE" },
-        { key: "SIÈGE", value: "CUIR - 2 PLACES EN CUIR" },
-        { key: "PNEU", value: "20,4 POUCES" },
-        { key: "KLAXON", value: "ÉLECTRIQUE" },
-        { key: "PIÈCES", value: "SHIMANO" },
-        { key: "GARDE-BOUE", value: "AV ET AR" }
-       
-      ]
-    }
-  ],
-  warranty: " VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",  
+    id: "likebike-lander-vtt",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 8199,
+    oldPrice: 10999,
+    discount: 30,
+    images: [
+      "likebike-lander-vtt/likebike-lander-vtt-01.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-02.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-03.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-04.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-05.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-06.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-07.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-08.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-09.webp"
+    ],
+    features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
+      { key: "BATTERIE", value: "48 V 13 AH" },
+      { key: "BATTERIE TYPE", value: "LITHIUM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "CHARGE RAPIDE", value: "54V" },
+      { key: "AUTONOMIE", value: "40 KM - 50 KM MAX" },
+      { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+      { key: "VITESSE MAX", value: "42 KM" },
+      { key: "VITESSE", value: "7E VITESSE" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "PIÈCES", value: "SHIMANO" },
+    ]
+  },
+  {
+    title: "CONFORT & ÉQUIPEMENT",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD INTELLIGENT" },
+      { key: "NIVEAUX DE VITESSE", value: "5E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "PNEUS", value: "26×4 POUCES" },
+      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
+      { key: "KLAXON", value: "ÉLECTRIQUE" }
+    ]
+  }
+],
 
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
- },
+warranty: "Vivez la liberté de mouvement sans frais supplémentaires ni pollution avec le VÉLO ÉLECTRIQUE LIKEBIKE LANDER. Ce vélo est prêt aussi bien pour la ville que pour les chemins accidentés, combinant puissance, confort et longue autonomie. Il est équipé d'un moteur puissant, d'une batterie durable, et de nombreux équipements de qualité. La solution idéale pour ceux qui veulent se déplacer librement sans se soucier des dépenses. Un investissement intelligent pour votre quotidien",
+
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1611241772889832%2F&show_text=false&width=267&t=0"
+  }, 
+  
   
 {
    id: "vélo-électrique-clarks-12",
