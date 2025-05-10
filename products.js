@@ -806,14 +806,14 @@ features: [
           { key: "ÉTANCHÉITÉ", value: "IPX5" },
           { key: "WATERPROOF", value: "IPX4" },
           { key: "AFFICHAGE", value: "DISPLAY EY2" },
-          { key: "PNEUS", value: "9\" Pouces" },
+         { key: "PNEUS", value: "9\" Pouces CHAMBRE A AIR" },
           { key: "CONCEPTION", value: "PLIABLE" },
           { key: "KLAXON", value: "OUI" },
           { key: "TABLEAU DE BORD", value: "DIGITAL" }
         ]
       }
     ],
-   "warranty": "Trottinette électrique Dualtron Pop 52V puissante et pratique, idéale pour un usage quotidien en ville ou pour des déplacements rapides. Équipée d’un moteur allant de 1000W jusqu’à 1450W en puissance maximale, avec une batterie lithium 52V 14Ah offrant une autonomie de 30 à 40 km par charge. Sa vitesse varie entre 50 et 67 km/h. Elle dispose d’un système de freinage avant et arrière avec E-ABS pour plus de sécurité. Suspension avant et arrière, poids maximal supporté : 120 kg. Écran numérique (DISPLAY EY2) avec application mobile, éclairage LED avant et arrière, clignotants gauche/droite, pliable, résistante à l’eau selon les normes IPX4 et IPX5, et se recharge en 58V. Parfaite pour les passionnés de performance et de technologie",
+  warranty: "Trottinette électrique Dualtron Pop 52V puissante et pratique, idéale pour un usage quotidien en ville ou pour des déplacements rapides. Équipée d’un moteur allant de 1000W jusqu’à 1450W en puissance maximale, avec une batterie lithium 52V 14Ah offrant une autonomie de 30 à 40 km par charge. Sa vitesse varie entre 50 et 67 km/h. Elle dispose d’un système de freinage avant et arrière avec E-ABS pour plus de sécurité. Suspension avant et arrière, poids maximal supporté : 120 kg. Écran numérique (DISPLAY EY2) avec application mobile, éclairage LED avant et arrière, clignotants gauche/droite, pliable, résistante à l’eau selon les normes IPX4 et IPX5, et se recharge en 58V. Parfaite pour les passionnés de performance et de technologie. Livraison gratuite dans toutes les villes marocaines.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F667610599227375%2F&show_text=false&width=267&t=0"
   },
   
