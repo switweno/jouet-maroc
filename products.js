@@ -195,7 +195,7 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 138,
-   currentPrice: 5499,
+   currentPrice: 4990,
    oldPrice: 6499,
    discount: 30,
    images: [
@@ -545,7 +545,7 @@ features: [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 71,
-    currentPrice: 4490,
+    currentPrice: 3990,
     oldPrice: 5399,
     discount: 30,
     images: [
@@ -713,10 +713,10 @@ features: [
     title: "TROTTINETTE KUKIRIN G2 PRO",
     brand: "KUKIRIN",
     category: "تروتنيت",
-    availability: "غير متوفر في المخزون",
+    availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 256,
-    currentPrice: 6390,
+    currentPrice: 6490,
     oldPrice: 7599,
     discount: 30,
     images: [
