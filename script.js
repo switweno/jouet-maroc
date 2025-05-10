@@ -99,7 +99,7 @@ function changeImage(src, direction = null) {
 }
 
 function animateTransition(oldImage, newImage, direction, onComplete) {
-    const duration = 300; // مدة الانتقال بالمللي ثانية
+    const duration = 250; // مدة الانتقال بالمللي ثانية
     const start = performance.now();
 
     function step(timestamp) {
