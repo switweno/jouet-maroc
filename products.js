@@ -761,6 +761,64 @@ features: [
   },
   
   {
+    id: "trottinette-dualtron-mini-special",
+    title: "TROTTINETTE DUALTRON MINI SPIECIAL 52V",
+    brand: "DUALTRON",
+    category: "تروتنيت",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 192,
+    currentPrice: 6490,
+    oldPrice: 7500,
+    discount: 30,
+    images: [
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-01.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-02.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-03.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-04.webp",
+       "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-05.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-06.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-07.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-08.webp"
+    ],
+    
+  features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "PUISSANCE", value: "1450W MAX" },
+      { key: "VITESSE", value: "JUSQU’À 65 KM/H" },
+      { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+      { key: "BATTERIE", value: "LITHIUM 52V 13AH" },
+      { key: "AUTONOMIE", value: "35-45 KM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+    ]
+  },
+
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+      { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "WATERPROOF", value: "IPX4" },
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APP MOBILE" },
+      { key: "PNEUS", value: "9\" POUCES CHAMBRE À AIR" },
+      { key: "CONCEPTION", value: "PLIABLE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN LCD DIGITAL" },
+      { key: "CHARGE", value: "58V" }
+    ]
+  }
+],
+warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiable, conçue pour les trajets urbains et les déplacements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 13Ah, offrant une autonomie allant de 35 à 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arrière et système E-ABS intégré. Équipée de suspensions à l’avant et à l’arrière pour un confort optimal, elle supporte jusqu’à 120 kg. Affichage EY2 avec application mobile, écran LCD, éclairage LED complet avec clignotants gauche/droite, système pliable et étanchéité IPX4/IPX5. Pneus 9 pouces à chambre à air. Recharge rapide en 58V. Idéale pour les amateurs de puissance, de technologie et de mobilité urbaine. Livraison gratuite dans toutes les villes marocaines.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F659114296900993%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
     id: "dualtron-pop-54v",
     title: "TROTTINETTE DUALTRON POP 52V",
     brand: "DUALTRON",
