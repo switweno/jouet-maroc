@@ -545,7 +545,7 @@ features: [
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 71,
-    currentPrice: 3990,
+    currentPrice: 3690,
     oldPrice: 5399,
     discount: 30,
     images: [
@@ -994,8 +994,8 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 65,
-   currentPrice: 6249,
-   oldPrice: 6900,
+   currentPrice: 63,
+   oldPrice: 6399,
    discount: 30,
    images: [
      "trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp",
