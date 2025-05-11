@@ -3172,9 +3172,9 @@ select {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: white;
-   border: 1px solid rgb(200, 200, 200);
-    color: #848484;
+    background-color: rgba(255, 255, 255, 0.53);
+   border: 1px solid #aaa8a8;
+    color: #333;
     font-size: 1.3rem;
     cursor: pointer;
     padding: 10px;
@@ -3202,7 +3202,7 @@ select {
 
 
 .scroll-arrow:hover {
-     background-color: rgba(255, 255, 255, 0.77);
+    background-color: rgba(255, 255, 255, 0.53);
      color: #545454;
 }
 
