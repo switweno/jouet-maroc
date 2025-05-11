@@ -47,7 +47,7 @@ const CATEGORIES_CONFIG = {
         databaseName: 'Drift 360°',
         icon: 'fa-sync-alt'
     }
-    // يمكن إضافة فئات جديدة هنا بسهولة
+   
 };
 
 
@@ -55,82 +55,65 @@ const CATEGORIES_CONFIG = {
 
 
 
-// دالة مساعدة للحصول على تكوينات جميع الفئات
 function getAllCategories() {
     return Object.values(CATEGORIES_CONFIG);
 }
 
-// دالة مساعدة للحصول على تكوين فئة محددة
 function getCategoryConfig(categoryId) {
     return CATEGORIES_CONFIG[categoryId] || null;
 }
 
-// دالة مساعدة للحصول على عنوان الفئة
 function getCategoryTitle(categoryId) {
     const category = getCategoryConfig(categoryId);
     return category ? category.displayName : 'منتجات الفئة';
 }
 
-// دالة مساعدة للحصول على اسم الفئة
 function getCategoryName(categoryId) {
     const category = getCategoryConfig(categoryId);
     return category ? category.databaseName : '';
 }
 
-// الحصول على منتجات فئة محددة
 function getCategoryProducts(categoryId) {
     const category = getCategoryConfig(categoryId);
     return category ? filterProductsByCategory(category.databaseName) : [];
 }
 
-// فلترة المنتجات حسب الفئة
 function filterProductsByCategory(categoryName) {
     if (!window.products) return [];
     return window.products.filter(product => product.category === categoryName);
 }
 
-// تحسين دالة تحميل منتجات الفئات للنافذة المنبثقة
 function showCategoryProducts(categoryId) {
     const categoryPopup = document.getElementById('category-popup');
     const popupCategoryTitle = document.getElementById('popup-category-title');
     const popupProducts = document.getElementById('popup-products');
     const overlay = document.getElementById('overlay');
     
-    // تعيين عنوان الفئة
     popupCategoryTitle.textContent = getCategoryTitle(categoryId);
     
-    // تنظيف المحتوى السابق
     popupProducts.innerHTML = '';
     
-    // الحصول على منتجات الفئة المحددة
     const categoryProducts = getCategoryProducts(categoryId);
     
-    // إضافة رسالة إذا لم تكن هناك منتجات
     if (categoryProducts.length === 0) {
         const noProductsMessage = document.createElement('div');
         noProductsMessage.className = 'no-products-message';
         noProductsMessage.textContent = 'لا توجد منتجات في هذه الفئة حالياً';
         popupProducts.appendChild(noProductsMessage);
     } else {
-        // إضافة المنتجات إلى النافذة المنبثقة
         categoryProducts.forEach(product => {
-            // إنشاء عنصر المنتج
             const productEl = createProductElement(product);
             popupProducts.appendChild(productEl);
         });
     }
     
-    // عرض النافذة المنبثقة والخلفية
     categoryPopup.classList.add('show');
     overlay.classList.add('show');
     
-    // منع التمرير في الخلفية
     document.body.style.overflow = 'hidden';
 }
 
-// دالة جديدة لإنشاء عناصر الفئات في واجهة المستخدم
 function renderCategoryElements() {
-    // تحديث قائمة الفئات في القائمة الجانبية
     const sidebarCategoriesList = document.querySelector('.sidebar-categories');
     if (sidebarCategoriesList) {
         sidebarCategoriesList.innerHTML = '';
@@ -146,7 +129,6 @@ function renderCategoryElements() {
         });
     }
     
-    // تحديث قائمة الفئات في القائمة الأفقية للشاشات الكبيرة
     const desktopCategoriesList = document.querySelector('.desktop-categories ul');
     if (desktopCategoriesList) {
         desktopCategoriesList.innerHTML = '';
@@ -162,23 +144,18 @@ function renderCategoryElements() {
         });
     }
     
-    // إعادة ربط أحداث النقر
     setupCategoryEvents();
 }
 
-// دالة لإعداد أحداث النقر على الفئات
 function setupCategoryEvents() {
-    // إضافة مستمعات الأحداث للفئات في القائمة الجانبية
     document.querySelectorAll('.sidebar-category').forEach(category => {
         category.addEventListener('click', function() {
             const categoryId = this.getAttribute('data-category');
-            // إغلاق القائمة الجانبية عند اختيار فئة
             document.getElementById('sidebar-menu').classList.remove('open');
             showCategoryProducts(categoryId);
         });
     });
     
-    // إضافة مستمعات الأحداث للفئات في القائمة الأفقية
     document.querySelectorAll('.desktop-category').forEach(category => {
         category.addEventListener('click', function() {
             const categoryId = this.getAttribute('data-category');
@@ -187,12 +164,8 @@ function setupCategoryEvents() {
     });
 }
 
-// استدعاء تهيئة عناصر الفئات عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', function() {
-    // ...existing code...
     
-    // تهيئة عناصر الفئات
     renderCategoryElements();
     
-    // ...existing code...
 });
