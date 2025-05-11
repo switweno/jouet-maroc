@@ -994,7 +994,7 @@ features: [
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 65,
-   currentPrice: 63,
+   currentPrice: 6399,
    oldPrice: 6399,
    discount: 30,
    images: [
