@@ -4189,71 +4189,77 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
             }
         }
 
+.share-container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
 .share-label {
   font-size: 18px;
   color: #2f30ba;
-  margin-bottom: -3px;
-  text-align: right;  /* توسيط النص */
-    padding-right: 7px; /* إضافة مسافة للتباعد عن الحافة */
-    font-family: 'Montserrat', 'Cairo', sans-serif;
+  margin-bottom: 8px;
+  text-align: right;
+  padding-right: 7px;
+  font-family: 'Montserrat', 'Cairo', sans-serif;
 }
-
 
 .share-buttons {
   display: flex;
   justify-content: right;
-  gap: 15px;
-  flex-wrap: wrap; /* السماح للأزرار بالتفاف إذا كانت الشاشة صغيرة */
-  margin-top: 5px;
+  gap: 12px;
+  flex-wrap: wrap;
     
 }
-
 
 .share-btn {
   width: 45px;
   height: 45px;
-  background-color: white;
-  border: 1px solid rgba(221, 221, 221, 0);
-  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+  color: #555;
   text-decoration: none;
-  margin: 5px; /* إضافة هوامش بين الأزرار */
-}
-
-.share-btn:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  line-height: 1;
 }
 
 .share-btn i {
-  font-size: 24px; /* يمكنك تعديل الحجم حسب الحاجة */
-  color: #000;
-  transition: color 0.3s;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
-.share-btn:hover i {
-  color: #2f30ba; /* تغيير لون الأيقونة عند التحويم */
+.share-btn:hover {
+  transform: translateY(-3px);
+  border-color: #2f30ba;
+  color: #2f30ba;
+  box-shadow: 0 4px 10px rgba(47, 48, 186, 0.2);
 }
 
 
 
-/* تحسين التوافق مع الشاشات الصغيرة */
+/* متوافق مع الشاشات الصغيرة */
 @media (max-width: 768px) {
+  .share-buttons {
+    gap: 8px;
+    justify-content: center;
+  }
+
   .share-btn {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
 
   .share-label {
-    font-size: 16px; /* تقليل حجم الخط على الشاشات الصغيرة */
-  }
-
-  .share-buttons {
-    gap: 5px; /* تقليل المسافة بين الأزرار على الشاشات الصغيرة */
+    font-size: 16px;
+    text-align: center;
   }
 }
 
