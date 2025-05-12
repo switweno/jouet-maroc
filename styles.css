@@ -6,6 +6,8 @@
 }
 
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -562,6 +564,7 @@ header {
     margin: 0 0 8px;
     color: #2383e9;
     font-family: 'Montserrat', 'Cairo', sans-serif;
+    
 }
 
 .popup-product-price {
@@ -907,9 +910,9 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #292a2b;
+    color: #4c4c4c;
    font-family: 'Montserrat', 'Cairo', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.5px;
     padding-right: 10px; /* إضافة مسافة لليمين في تخطيط RTL */
     direction: ltr; /* جعل اتجاه النص من اليسار لليمين */
