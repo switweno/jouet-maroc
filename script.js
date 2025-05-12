@@ -2119,11 +2119,20 @@ const productsGrid = document.getElementById('products-grid');
 
 // تحميل بيانات المنتجات من ملف products.js
 function loadProducts() {
+    // تحقق واش العنصر موجود قبل ما نخدم عليه
+    if (!productsGrid) return;
+
     products.forEach(product => {
         const productCard = createProductCard(product);
         productsGrid.appendChild(productCard);
     });
 }
+
+// نداء الدالة فقط إذا كان العنصر موجود
+if (productsGrid) {
+    loadProducts();
+}
+
 
 // إنشاء بطاقة منتج ديناميكية
 function createProductCard(product) {
