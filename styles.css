@@ -565,7 +565,7 @@ header {
     font-weight: 700;
     color: #3b3b3b; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #FED700; /* لون الخلفية */
-    padding: 3px 8px; /* إضافة تباعد داخلي */
+    padding: 5px 8px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
 }
@@ -997,7 +997,7 @@ header {
     
     .current-price {
         font-size: 1.1rem;
-        padding: 1px 8px; /* إضافة تباعد داخلي */
+        padding: 4px 8px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     }
     
@@ -2844,7 +2844,7 @@ select {
     font-family: 'Montserrat', 'Cairo', sans-serif;
      color: #000000; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #FED700; /* لون الخلفية */
-    padding: 1px 10px; /* إضافة تباعد داخلي */
+    padding: 5px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
 }
@@ -4212,7 +4212,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 .share-btn {
   width: 45px;
   height: 45px;
-  background-color: #fff;
+  background-color: #f3f3f3;
   border: 1px solid rgba(221, 221, 221, 0);
   border-radius: 8px;
   display: flex;
@@ -4229,10 +4229,17 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.share-btn img {
-  width: 35px;
-  height: 35px;
+.share-btn i {
+  font-size: 24px; /* يمكنك تعديل الحجم حسب الحاجة */
+  color: #000;
+  transition: color 0.3s;
 }
+
+.share-btn:hover i {
+  color: #2f30ba; /* تغيير لون الأيقونة عند التحويم */
+}
+
+
 
 /* تحسين التوافق مع الشاشات الصغيرة */
 @media (max-width: 768px) {
