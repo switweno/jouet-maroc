@@ -2162,7 +2162,7 @@ function displayResults(results) {
     searchResults.innerHTML = '';
 
     if (results.length === 0) {
-        searchResults.innerHTML = '<div class="no-results">لم يتم العثور على نتائج</div>';
+        searchResults.innerHTML = '<div class="no-results">Aucun résultat trouvé</div>';
         searchResults.style.display = 'block';
         return;
     }
@@ -2255,30 +2255,36 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeModal = document.querySelector(".close");
     const openModalButton = document.querySelector("#openModalButton");
 
-    function openModal() {
-        modal.classList.remove("hide");
-        modal.classList.add("show");
-        modal.style.display = "flex"; // تأكد من إظهار النافذة في كل مرة يتم فتحها
+    // التأكد من وجود العناصر قبل إضافة الأحداث
+    if (modal && closeModal && openModalButton) {
+        // استخدم function expressions بدل function declarations
+        const openModal = function () {
+            modal.classList.remove("hide");
+            modal.classList.add("show");
+            modal.style.display = "flex";
+        };
+
+        const closeModalFunc = function () {
+            modal.classList.remove("show");
+            modal.classList.add("hide");
+
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300);
+        };
+
+        closeModal.addEventListener("click", closeModalFunc);
+
+        openModalButton.addEventListener("click", function () {
+            if (modal.style.display === "none" || !modal.style.display) {
+                openModal();
+            }
+        });
+    } else {
+        console.warn("بعض العناصر غير موجودة في الصفحة.");
     }
-
-    function closeModalFunc() {
-        modal.classList.remove("show");
-        modal.classList.add("hide");
-
-        // بعد انتهاء الأنيميشن، نخفي النافذة من الـ DOM
-        setTimeout(() => {
-            modal.style.display = "none"; // نخفيها بعد انتهاء التأثير
-        }, 300); // نفس مدة الأنيميشن
-    }
-
-    closeModal.addEventListener("click", closeModalFunc);
-
-    openModalButton.addEventListener("click", function () {
-        if (modal.style.display === "none" || !modal.style.display) {
-            openModal();
-        }
-    });
 });
+
 
 
 // عرض وإخفاء نافذة الدردشة
