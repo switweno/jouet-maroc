@@ -4249,7 +4249,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 @media (max-width: 768px) {
   .share-buttons {
     gap: 8px;
-    justify-content: center;
+    justify-content: right;
   }
 
   .share-btn {
@@ -4259,7 +4259,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 
   .share-label {
     font-size: 16px;
-    text-align: center;
+    text-align: right;
   }
 }
 
