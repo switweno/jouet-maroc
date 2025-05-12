@@ -4265,5 +4265,27 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   }
 }
 
+#whatsapp-btn {
+  color: #fff;             /* لون الأيقونة */
+  background-color: #25D366; /* خلفية الزر */
+  border-color: #25D366;   /* لون الإطار */
+}
 
+#facebook-btn {
+  color: #fff;
+  background-color: #1877F2;
+  border-color: #1877F2;
+}
+
+#twitter-btn {
+  color: #fff;
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+}
+
+#telegram-btn {
+  color: #fff;
+  background-color: #0088CC;
+  border-color: #0088CC;
+}
 
