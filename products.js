@@ -5,7 +5,7 @@ const products = [
    title: "TROTTINETTE ECOXTREM M4 MAX",
    brand: "Ecoxtrem",
    category: "تروتنيت",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 69,
    currentPrice: 4690,
