@@ -4248,7 +4248,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 /* متوافق مع الشاشات الصغيرة */
 @media (max-width: 768px) {
   .share-buttons {
-    gap: 8px;
+    gap: 15px;
     justify-content: right;
       padding-right: 7px;
   }
