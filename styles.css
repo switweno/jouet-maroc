@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-VariableFont_wght.woff2') format('woff2');
-  font-weight: 100 900;
-  font-style: normal;
-}
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 
 body {
@@ -908,7 +904,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #4c4c4c;
+    color: #000000;
    font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 600;
     letter-spacing: -0.5px;
