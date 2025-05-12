@@ -4208,7 +4208,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   justify-content: right;
   gap: 12px;
   flex-wrap: wrap;
-    
+    padding-right: 7px;
 }
 
 .share-btn {
@@ -4216,7 +4216,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   height: 45px;
   background-color: #fff;
   border: 2px solid #ddd;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4250,6 +4250,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   .share-buttons {
     gap: 8px;
     justify-content: right;
+      padding-right: 7px;
   }
 
   .share-btn {
@@ -4260,6 +4261,7 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   .share-label {
     font-size: 16px;
     text-align: right;
+      padding-right: 7px;
   }
 }
 
