@@ -3185,9 +3185,9 @@ select {
     font-size: 1.3rem;
     cursor: pointer;
     padding: 10px;
-    border-radius: 19%;
+    border-radius: 50%;
     z-index: 10;
-    width: 40px;
+    width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -3199,8 +3199,8 @@ select {
 
 @media (max-width: 480px) {
     .scroll-arrow{
-       width: 35px;
-    height: 50px;  
+       width: 40px;
+    height: 40px;  
         font-size: 1rem;
     
     }
