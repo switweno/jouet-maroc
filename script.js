@@ -2155,8 +2155,9 @@ function createProductCard(product) {
     return card;
 }
 
-// دالة لعرض نتائج البحث
 function displayResults(results) {
+    if (!searchResults || !searchInput) return; // تحقق قبل أي استعمال
+
     // مسح النتائج السابقة
     searchResults.innerHTML = '';
 
@@ -2187,6 +2188,7 @@ function displayResults(results) {
     // عرض النتائج
     searchResults.style.display = 'block';
 }
+
 
 // دالة لتظليل النص المتطابق
 function highlightText(text, query) {
