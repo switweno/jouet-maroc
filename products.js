@@ -1194,7 +1194,7 @@ features: [
   {
     id: "vélo-hiland-aluminium",
     title: "VÉLO VTT HILAND ALUMINIUM 27.5",
-    brand: "SPORT BIKE",
+    brand: "HILAND",
     category: "دراجات هوائية",
     availability: "متوفر في المخزون",
     ratings: 4.5,
