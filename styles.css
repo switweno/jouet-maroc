@@ -722,7 +722,7 @@ header {
 .product-details {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: white;
     border-radius: 0 0 10px 10px; /* تعديل نصف قطر الحواف */
     
     overflow: hidden;
@@ -1031,9 +1031,7 @@ header {
     border-radius: 0 20px 0 20px; /* انحناء في الأعلى اليمين والأسفل اليسار */
 }
 
-.main-image-discount-badge {
-    display: none;
-}
+
 
 /* شارة التخفيض للصورة الرئيسية */
 .main-image-discount-badge {
@@ -1300,7 +1298,7 @@ header {
     align-items: center;
     justify-content: center;
      direction: ltr;
-     color: #081f49;
+     color: #000000;
     font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
