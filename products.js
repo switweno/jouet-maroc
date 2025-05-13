@@ -2108,7 +2108,7 @@ features: [
     reviewCount: 120,
     currentPrice: 8499,
     oldPrice: 10999,
-    discount: 35,
+    discount: 30,
     images: [
       "likebike-harley-u9/likebike-u9-01.webp",
       "likebike-harley-u9/likebike-u9-02.webp",
