@@ -1251,13 +1251,13 @@ features: [
     discount: 30,
     images: [
       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-     "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp"
+      "vélo-vtt-galactus/vélo-vtt-galactus-02.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-03.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-04.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-05.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-06.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-07.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-08.webp"
     ],
 features: [
   {
@@ -1297,13 +1297,13 @@ features: [
     discount: 30,
     images: [
       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-     "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
-      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp"
+      "vélo-vtt-galactus/vélo-vtt-galactus-02.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-03.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-04.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-05.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-06.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-07.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-08.webp"
     ],
 features: [
   {
