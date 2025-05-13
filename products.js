@@ -1191,6 +1191,53 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F586985493781249%2F&show_text=false&width=267&t=0"
   },  
   
+  {
+    id: "vélo-hiland-aluminium",
+    title: "VÉLO VTT HILAND ALUMINIUM 27.5",
+    brand: "SPORT BIKE",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 180,
+    currentPrice: 1699,
+    oldPrice: 2200,
+    discount: 30,
+    images: [
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-01.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-02.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-03.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-04.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-05.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-06.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-07.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-08.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "27.5 POUCES" },
+      { key: "QUALITÉ", value: "HILAND 1E QUALITÉ" },
+      { key: "MATÉRIAU", value: "ALUMINIUM" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Noir, Rouge" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT HILAND ALUMINIUM 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert, Noir, Rouge. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9985422651479776%2F&show_text=false&width=267&t=0"
+  }, 
+  
   
   {
     id: "vtt-sport-bike-27.5",

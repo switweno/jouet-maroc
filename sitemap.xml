@@ -45,6 +45,11 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?product=vélo-hiland-aluminium</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 	 <url>
         <loc>https://jouet-maroc.com/?product=trottinette-EcoXtrem-liner</loc>
         <changefreq>weekly</changefreq>
