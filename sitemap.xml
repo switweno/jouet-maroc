@@ -490,5 +490,16 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+	<url>
+        <loc>https://jouet-maroc.com/?vélo-vtt-galactus</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?vélo-vtt-galactus-24</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	
     <!-- أضف باقي المنتجات هنا -->
 </urlset>

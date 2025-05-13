@@ -1238,6 +1238,98 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9985422651479776%2F&show_text=false&width=267&t=0"
   }, 
   
+   {
+    id: "vélo-vtt-galactus",
+    title: "VÉLO VTT GALACTUS 26",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 24,
+    currentPrice: 1449,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "26 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
+  }, 
+  
+  {
+    id: "vélo-vtt-galactus-24",
+    title: "VÉLO VTT GALACTUS 24",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 52,
+    currentPrice: 1299,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "24 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 24 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
+  }, 
+  
   
   {
     id: "vtt-sport-bike-27.5",
