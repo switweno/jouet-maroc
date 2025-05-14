@@ -904,7 +904,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #000000;
+    color: #003399;
    font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 600;
     letter-spacing: -0.5px;
@@ -964,8 +964,8 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #eaeaea; /* اجعل النص بلون أبيض ليكون واضحًا */
-    background-color: #ff1e48; /* لون الخلفية */
+    color: #000000; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
     padding: 1px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
     display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
@@ -1039,8 +1039,8 @@ header {
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: rgba(255, 30, 72, 0.76);
-    color: white;
+    background-color: #FED700;
+    color: rgba(0, 0, 0, 0.55);
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
     padding: clamp(3px, 0.5vw, 2px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
