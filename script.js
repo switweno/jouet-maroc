@@ -928,33 +928,43 @@ const videoSection = document.querySelector('.product-video-section');
 const videoContainer = document.querySelector('.video-container');
 
 if (product.videoURL) {
-    // تعديل الكلاس حسب المنتج
     const isPortrait = product.id === "trottinette-bison-gt-1000";
-    videoContainer.classList.toggle('portrait-video', isPortrait);
-
-    // إعداد عرض وارتفاع الفيديو حسب نوعه
     const width = isPortrait ? "267" : "560";
     const height = isPortrait ? "476" : "314";
 
-    // إدخال iframe مع خاصية title لحل مشكل الوصولية
-    videoContainer.innerHTML = `
-        <iframe 
-            src="${product.videoURL}" 
-            width="${width}" 
-            height="${height}" 
-            style="border:none;overflow:hidden" 
-            scrolling="no" 
-            frameborder="0" 
-            allowfullscreen="true" 
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            title="فيديو المنتج">
-        </iframe>
-    `;
+    // نؤجل تحميل الفيديو إلى أن يظهر القسم في الشاشة
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                videoContainer.classList.toggle('portrait-video', isPortrait);
 
+                videoContainer.innerHTML = `
+                    <iframe 
+                        src="${product.videoURL}" 
+                        width="${width}" 
+                        height="${height}" 
+                        style="border:none;overflow:hidden" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allowfullscreen="true" 
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        title="فيديو المنتج">
+                    </iframe>
+                `;
+
+                observer.unobserve(videoSection); // نوقف المراقبة بعد التحميل
+            }
+        });
+    }, {
+        threshold: 0.1 // تحميل عندما يظهر 10% من القسم
+    });
+
+    observer.observe(videoSection);
     videoSection.style.display = "block";
 } else {
     videoSection.style.display = "none";
 }
+
 
 
     
