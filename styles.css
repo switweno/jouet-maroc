@@ -556,7 +556,7 @@ header {
     font-size: 0.86rem;
     font-weight: 600;
     margin: 0 0 8px;
-    color: #2383e9;
+    color: #003399;
     font-family: 'Montserrat', 'Cairo', sans-serif;
     
 }
@@ -625,7 +625,7 @@ header {
         transition: color 0.3s ease;
              }
          .desktop-category:hover i {
-        color: #ffffff !important; /* لون عند التمرير */
+        color: #eaeaea !important; /* لون عند التمرير */
     }
     }
 
@@ -964,7 +964,7 @@ header {
 .current-price {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #ffffff; /* اجعل النص بلون أبيض ليكون واضحًا */
+    color: #eaeaea; /* اجعل النص بلون أبيض ليكون واضحًا */
     background-color: #ff1e48; /* لون الخلفية */
     padding: 1px 10px; /* إضافة تباعد داخلي */
     border-radius: 5px; /* زوايا دائرية */
