@@ -1039,8 +1039,8 @@ header {
     position: absolute;
     top: clamp(10px, 2vw, 14px); /* يتغير حسب حجم الشاشة */
     left: clamp(5px, 2vw, 15px); 
-    background-color: #FED700;
-    color: rgba(0, 0, 0, 0.55);
+    background-color: rgb(254, 215, 0);
+    color: rgb(51, 51, 51);
     font-size: clamp(18px, 1vw, 16px); /* يتغير مع حجم الشاشة */
     font-weight: bold;
     padding: clamp(3px, 0.5vw, 2px) clamp(6px, 1vw, 10px); /* مرونة في التباعد */
