@@ -492,7 +492,7 @@ header {
 .popup-header h3 {
     margin: 0;
     font-size: 1.3rem;
-    color: #2383e9;
+    color: #007cff;
     font-family: 'Cairo', 'Tajawal', sans-serif; /* تحسين الخط للعربية */
 }
 
@@ -2436,7 +2436,7 @@ select {
 /* عنوان رئيسي */
 .modal-content h2 {
     font-size: 29px; /* حجم أكبر للعنوان */
-    color: #4c93ff; /* لون نص داكن */
+    color: #1773ff; /* لون نص داكن */
     margin-bottom: 30px; /* مسافة بين النص والخط */
     text-align: center; /* توسيط العنوان */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2453,7 +2453,7 @@ select {
 /* العناوين الفرعية */
 .modal-content h3 {
     font-size: 18px; /* حجم مناسب للعناوين الفرعية */
-    color: #4589cc; /* لون نص أغمق قليلاً */
+    color: #1773ff; /* لون نص أغمق قليلاً */
     margin-bottom: 20px; /* مسافة بين العناوين والفقرات */
     font-weight: bold; /* خط غامق */
     padding: 0 10px; /* مسافة جانبية صغيرة */
@@ -2464,7 +2464,7 @@ select {
 .modal-content p {
     font-size: 16px; /* حجم مناسب للنص */
     line-height: 1.8; /* تحسين المسافة بين الأسطر */
-    color: #dfdede; /* لون نص مريح للعين */
+    color: white; /* لون نص مريح للعين */
     margin-bottom: 5px; /* مسافة بين الفقرات */
     text-align: justify; /* توزيع النص بشكل متساوٍ */
     padding: 0 10px; /* مسافة جانبية صغيرة */
