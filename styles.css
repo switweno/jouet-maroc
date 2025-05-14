@@ -1325,11 +1325,12 @@ header {
     text-align: right;
     padding-right: 9px;
      margin-top: 5px;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
 }
 
 
 
-/* Controls Container */
+
 /* General Container */
 .quantity-controls {
   display: flex;
