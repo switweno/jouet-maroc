@@ -1167,7 +1167,7 @@ function updateRelatedProducts() {
             
             if (relatedProduct) {
                 // تحديث عنوان المنتج
-                const titleElem = link.querySelector('h2');
+                const titleElem = link.querySelector('h3');
                 if (titleElem) titleElem.textContent = relatedProduct.title;
                 
                 // تحديث صورة المنتج
@@ -2118,7 +2118,7 @@ function createProductCard(product) {
     card.innerHTML = `
         <div class="related-product">
             <img src="${product.images[0]}" alt="${product.title}">
-            <h2>${product.title}</h2>
+            <h3>${product.title}</h3>
             <div class="related-price-container">
                 <div class="related-price">${product.currentPrice} درهم</div>
                 <div class="related-old-price">${product.oldPrice} درهم</div>
