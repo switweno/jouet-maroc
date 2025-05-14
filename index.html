@@ -1282,6 +1282,25 @@ JOUET MAROC – Vélos et trottinettes électriques, voitures pour enfants et jo
 </div>
 </div>
 </footer>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const videos = document.querySelectorAll(".facebook-video");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.target.dataset.src) {
+          entry.target.src = entry.target.dataset.src;
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    videos.forEach((video) => {
+      observer.observe(video);
+    });
+  });
+</script>
+
 <script src="config.js" defer></script>
 <script src="products.js" defer></script>
 <script src="script.js" defer></script>
