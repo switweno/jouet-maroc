@@ -169,3 +169,38 @@ document.addEventListener('DOMContentLoaded', function() {
     renderCategoryElements();
     
 });
+
+function getProductUrl() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productParam = urlParams.get('product'); 
+    if (productParam) {
+     
+      return `https://jouet-maroc.com/?product=${productParam}`;
+    }
+    return window.location.href; 
+  }
+
+  function updateShareLinks() {
+    const productUrl = encodeURIComponent(getProductUrl()); 
+    const text = encodeURIComponent("شوف هاد المنتوج");
+
+    document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${text}%20${productUrl}`;
+    document.getElementById("facebook-btn").href = `https://www.facebook.com/sharer/sharer.php?u=${productUrl}`;
+    document.getElementById("twitter-btn").href = `https://twitter.com/intent/tweet?text=${text}&url=${productUrl}`;
+    document.getElementById("telegram-btn").href = `https://t.me/share/url?url=${productUrl}&text=${text}`;
+  }
+
+  window.onload = function() {
+    updateShareLinks();
+  };
+
+  document.querySelectorAll('.share-btn').forEach(button => {
+    button.addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      updateShareLinks();
+
+      const href = this.href;
+      window.open(href, '_blank');
+    });
+  });
