@@ -924,63 +924,38 @@ if (product.availability === "متوفر في المخزون") {
     featuresContainer.appendChild(warrantyDiv);
     document.querySelector('.feature-highlight span').textContent = product.warranty;
     
-    // Update video URL if available
-    if (product.videoURL) {
-        const videoContainer = document.querySelector('.video-container');
-        
-        // بسط الكود وإعادته للطريقة الأصلية
-        if (product.id === "trottinette-bison-gt-1000") {
-            // تطبيق فئة الفيديو العمودي
-            videoContainer.classList.add('portrait-video');
-        } else {
-            // إزالة فئة الفيديو العمودي إذا وُجدت
-            videoContainer.classList.remove('portrait-video');
-        }
-        
-        // استخدام الطريقة البسيطة والمباشرة في عرض الفيديو
-        videoContainer.innerHTML = `
-            <iframe 
-                src="${product.videoURL}" 
-                width="${product.id === "trottinette-bison-gt-1000" ? '267' : '560'}" 
-                height="${product.id === "trottinette-bison-gt-1000" ? '476' : '314'}" 
-                style="border:none;overflow:hidden" 
-                scrolling="no" 
-                frameborder="0" 
-                allowfullscreen="true" 
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-            </iframe>
-        `;
-    }
-    
-    // Update video section
 const videoSection = document.querySelector('.product-video-section');
+const videoContainer = document.querySelector('.video-container');
 
 if (product.videoURL) {
-    const videoContainer = document.querySelector('.video-container');
-    
-    // عرض الفيديو
-    if (product.id === "trottinette-bison-gt-1000") {
-        videoContainer.classList.add('portrait-video');
-    } else {
-        videoContainer.classList.remove('portrait-video');
-    }
+    // تعديل الكلاس حسب المنتج
+    const isPortrait = product.id === "trottinette-bison-gt-1000";
+    videoContainer.classList.toggle('portrait-video', isPortrait);
 
+    // إعداد عرض وارتفاع الفيديو حسب نوعه
+    const width = isPortrait ? "267" : "560";
+    const height = isPortrait ? "476" : "314";
+
+    // إدخال iframe مع خاصية title لحل مشكل الوصولية
     videoContainer.innerHTML = `
         <iframe 
             src="${product.videoURL}" 
-            width="${product.id === "trottinette-bison-gt-1000" ? '267' : '560'}" 
-            height="${product.id === "trottinette-bison-gt-1000" ? '476' : '314'}" 
+            width="${width}" 
+            height="${height}" 
             style="border:none;overflow:hidden" 
             scrolling="no" 
             frameborder="0" 
             allowfullscreen="true" 
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            title="فيديو المنتج">
         </iframe>
     `;
-    videoSection.style.display = "block"; // نتأكد أنه بان
+
+    videoSection.style.display = "block";
 } else {
-    document.querySelector('.product-video-section').style.display = "none";
+    videoSection.style.display = "none";
 }
+
 
     
     setTimeout(() => {
