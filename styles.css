@@ -904,7 +904,7 @@ header {
 /* إضافة خطوط فاصلة لعناصر معلومات المنتج */
 .product-title {
     font-size: 1.6rem;
-    color: #003399;
+    color: #000000;
    font-family: 'Montserrat', 'Cairo', sans-serif;
     font-weight: 600;
     letter-spacing: -0.5px;
