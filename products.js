@@ -1330,6 +1330,51 @@ features: [
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
   }, 
   
+  {
+    id: "vélo-vtt-galactus-20",
+    title: "VÉLO VTT GALACTUS 20",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 1199,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-01.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-02.webp",
+       "vélo-vtt-galactus-20/vélo-vtt-galactus-20-03.webp",
+     "vélo-vtt-galactus-20/vélo-vtt-galactus-20-04.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-05.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-06.webp",
+       "vélo-vtt-galactus-20/vélo-vtt-galactus-20-07.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "20 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "DOUBLE AMORTISSEUR" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 20 pouces – Parfait pour les jeunes aventuriers ! Équipé d’un dérailleur Shimano 3×7, freins à disque, double amortisseur (avant et arrière) pour un confort et une sécurité optimaux. Selle sport en cuir, design robuste, idéal pour la ville et les sentiers. Couleurs disponibles : Vert, Gris. 🚚 Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F592498879913816%2F&show_text=false&width=267&t=0"
+  }, 
+  
   
   {
     id: "vtt-sport-bike-27.5",
