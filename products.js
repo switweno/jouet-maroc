@@ -114,7 +114,7 @@ features: [
       { key: "ROUES", value: "Off-road 11 pouces Tubeless" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
-      { key: "COULEURS", value: "Disponible en rouge et blanc" },
+      { key: "COULEURS", value: "Disponible 5 couleurs" },
       { key: "CADEAU", value: "Sac offert 🎁" }
     ]
   }
@@ -873,7 +873,7 @@ warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiabl
   }
 ],
 warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiable, conçue pour les trajets urbains et les déplacements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 12.8Ah, offrant une autonomie allant de 35 à 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arrière et système E-ABS intégré. Équipée de suspensions à l’avant et à l’arrière pour un confort optimal, elle supporte jusqu’à 120 kg. Affichage EY2 avec application mobile, écran LCD, éclairage LED complet avec clignotants gauche/droite, système pliable et étanchéité IPX4/IPX5. Pneus 9 pouces à chambre à air. Recharge rapide en 58V. Idéale pour les amateurs de puissance, de technologie et de mobilité urbaine. Livraison gratuite dans toutes les villes marocaines.",
-    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1688955131984760%2F&show_text=false&width=267&t=0"
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4165609437004692%2F&show_text=false&width=267&t=0"
   },
   
   {
