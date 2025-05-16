@@ -58,9 +58,8 @@
       gtag('js', new Date());
       gtag('config', 'G-CT0JMLFZY3');
     };
-  }
 
-  function loadClarity() {
+    // Microsoft Clarity
     (function (c, l, a, r, i, t, y) {
       c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
       t = l.createElement(r);
@@ -71,12 +70,12 @@
     })(window, document, "clarity", "script", "r78p5x9fdd");
   }
 
-  // تحميل Google Analytics مباشرة
-  loadAnalyticsScripts();
-
-  // تحميل Clarity بعد 5 ثوانٍ
-  setTimeout(loadClarity, 5000);
+  window.addEventListener('scroll', function onScroll() {
+    loadAnalyticsScripts();
+    window.removeEventListener('scroll', onScroll);
+  });
 </script>
+
 
     
 <script>
