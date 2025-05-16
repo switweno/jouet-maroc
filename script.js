@@ -927,7 +927,7 @@ if (product.availability === "متوفر في المخزون") {
 const videoSection = document.querySelector('.product-video-section');
 const videoContainer = document.querySelector('.video-container');
 
-if (product.videoURL) {
+if (typeof product !== "undefined" && product.videoURL) {
     const isPortrait = product.id === "trottinette-bison-gt-1000";
     const width = isPortrait ? "267" : "560";
     const height = isPortrait ? "476" : "314";
@@ -962,8 +962,11 @@ if (product.videoURL) {
     observer.observe(videoSection);
     videoSection.style.display = "block";
 } else {
-    videoSection.style.display = "none";
+    if (videoSection) {
+        videoSection.style.display = "none";
+    }
 }
+
 
 
 
@@ -2235,40 +2238,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const modal = document.querySelector(".modal");
-    const closeModal = document.querySelector(".close");
-    const openModalButton = document.querySelector("#openModalButton");
 
-    // التأكد من وجود العناصر قبل إضافة الأحداث
-    if (modal && closeModal && openModalButton) {
-        // استخدم function expressions بدل function declarations
-        const openModal = function () {
-            modal.classList.remove("hide");
-            modal.classList.add("show");
-            modal.style.display = "flex";
-        };
-
-        const closeModalFunc = function () {
-            modal.classList.remove("show");
-            modal.classList.add("hide");
-
-            setTimeout(() => {
-                modal.style.display = "none";
-            }, 300);
-        };
-
-        closeModal.addEventListener("click", closeModalFunc);
-
-        openModalButton.addEventListener("click", function () {
-            if (modal.style.display === "none" || !modal.style.display) {
-                openModal();
-            }
-        });
-    } else {
-        console.warn("بعض العناصر غير موجودة في الصفحة.");
-    }
-});
 
 
 
