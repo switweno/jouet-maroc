@@ -53,15 +53,6 @@ header {
 	 transition: top 0.3s ease-in-out;
 }
 
-@media (min-width: 1430px) {
-  header {
-    position: fixed;
-  }
-
-   .search-container {
-   margin-top: 60px;  /* نفس ارتفاع الهيدر تقريبا */
-  }
-}
 
 .header-content {
     display: flex;
