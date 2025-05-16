@@ -956,7 +956,8 @@ if (typeof product !== "undefined" && product.videoURL) {
             }
         });
     }, {
-        threshold: 0.1 // تحميل عندما يظهر 10% من القسم
+        threshold: 0,          // أي ظهور حتى 1px كافٍ لتفعيل
+    rootMargin: '500px'
     });
 
     observer.observe(videoSection);
