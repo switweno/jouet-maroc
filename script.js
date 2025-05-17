@@ -2279,13 +2279,6 @@ function toggleAnswer(button) {
 }
    
 
-window.addEventListener('load', () => {
-  setTimeout(() => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'related-products.css';
-    document.head.appendChild(link);
-  }, 3000);  // تأخير 1.5 ثانية بعد تحميل الصفحة
-});
+
 
 
