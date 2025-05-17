@@ -200,7 +200,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "trottinette-dualtron-mini-special"; // Default product
+        productId = "trottinette-Tank-m41"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -689,7 +689,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "trottinette-dualtron-mini-special"; // Default product
+            productId = "trottinette-Tank-m41"; // Default product
         }
         
         const product = products.find(p => p.id === productId);
