@@ -1,0 +1,307 @@
+/* قسم المنتجات ذات الصلة - تحسينات المظهر */
+.related-products {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 8px rgba(172, 172, 172, 0.27);
+          
+
+    text-align: center;
+     margin-top: 10px;
+}
+.related-products {
+    text-align: center; /* محاذاة العناصر في المنتصف */
+    
+}
+
+
+.related-products h2 {
+    display: block; /* السماح بتحديد العرض */
+    width: 100%; /* تحديد الطول بنسبة 90% */
+    position: relative;
+    color: white; /* لون النص */
+    font-size: 1.2rem;
+    text-align: center; /* محاذاة لليمين للغة العربية */
+    padding: 10px 15px;
+    background: #670a67; /* لون الشريط الأساسي */
+    border-radius: 10px 10px 0 0;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+  
+}
+
+
+
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 600px) {
+    .related-products h2 {
+       
+        font-size: 1.2rem; /* تقليص حجم الخط إذا لزم الأمر */
+        }
+        
+}
+
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+.product-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    display: block;
+    width: 270px;
+    max-width: 100%;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-bottom: 12px!important; /* زيادة الهامش السفلي من 10px إلى 20px */
+}
+
+.product-link:hover {
+    transform: translateY(-6px);
+}
+
+.related-product {
+    background-color:rgba(240, 240, 240, 0.47);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(62, 35, 209, 0.18);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid rgba(121, 30, 255, 0.18);
+    margin-bottom: 10px; /* إضافة هامش سفلي جديد */
+     outline: 1px dashed rgba(163, 163, 163, 0);  /* خط متقطع حول العنصر */ 
+}
+
+.product-link:hover .related-product {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.related-product img {
+    width: 100%;
+    height: 314px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border-bottom: 1px solid rgba(121, 30, 255, 0.18);
+}
+
+
+.related-product h3 {
+    margin: 15px 12px;
+    font-size: 1.15rem;
+    color: #003399;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 0 5px;
+    line-height: 1.4;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+    
+}
+
+
+
+/* تحسين عرض الأسعار */
+.related-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 12px;
+    padding: 0 15px;
+}
+
+.related-price {
+    
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+    font-family: 'Montserrat', 'Cairo', sans-serif;
+     color: #000000; /* اجعل النص بلون أبيض ليكون واضحًا */
+    background-color: #FED700; /* لون الخلفية */
+    padding: 5px 10px; /* إضافة تباعد داخلي */
+    border-radius: 5px; /* زوايا دائرية */
+    display: inline-block; /* تأكد أن الخلفية لا تمتد لكامل العرض */
+}
+
+.related-old-price {
+    color: #000000;
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+}
+
+/* تعديلات للأجهزة المحمولة */
+@media (max-width: 1064px) {
+    .products-grid {
+        gap: 10px; /* تقليل المسافة بين المنتجات */
+        padding: 0 10px; /* تقليل الحاشية الجانبية لتوسيع المساحة */
+    }
+
+    .product-link {
+        width: calc(33% - 7px); /* توزيع المنتجات بالتساوي */
+        margin-bottom: 12px; /* تحسين المسافة السفلية */
+    }
+
+    .related-product {
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .related-product img {
+        height: 319px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+    }
+
+    .related-product h3 {
+        font-size: 0.92rem;
+        margin: 8px 4px;
+        height: 42px;
+        line-height: 1.3;
+    }
+
+    .related-price {
+        font-size: 1.1rem;
+    }
+
+    .related-old-price {
+        font-size: 1.2rem;
+    }
+
+    .related-discount-badge {
+        top: 6px;
+        left: 6px;
+        font-size: 0.7rem;
+        padding: 2px 6px;
+    }
+}
+
+
+
+/* تعديلات للأجهزة المحمولة */
+@media (max-width: 767px) {
+    .products-grid {
+        gap: 15px; /* تقليل المسافة بين المنتجات */
+        padding: 0 10px; /* تقليل الحاشية الجانبية لتوسيع المساحة */
+    }
+
+    .product-link {
+        width: calc(50% - 11px); /* توزيع المنتجات بالتساوي */
+        margin-bottom: 12px; /* تحسين المسافة السفلية */
+    }
+
+    .related-product {
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+
+    .related-product img {
+        height: 300px; /* تقليل الارتفاع قليلاً لمزيد من الاتساع */
+    }
+
+    .related-product h3 {
+        font-size: 1rem;
+        margin: 8px 4px;
+        height: 42px;
+        line-height: 1.3;
+    }
+
+    .related-price {
+        font-size: 1rem;
+    }
+
+    .related-old-price {
+        font-size: 1rem;
+    }
+
+    .related-discount-badge {
+        top: 6px;
+        left: 5px;
+        font-size: 0.7rem;
+        padding: 2px 6px;
+    }
+}
+
+/* تحسينات للشاشات الصغيرة جداً */
+@media (max-width: 480px) {
+    .products-grid {
+        gap: 10px;
+        padding: 0 2px; /* تقليل الحاشية الجانبية أكثر */
+    }
+
+    .product-link {
+        width: calc(50% - 5px); /* جعل العرض أكبر وتوزيع المنتجات */
+        max-width: none; /* إزالة الحد الأقصى للعرض */
+        margin-bottom: 5px;
+    }
+    
+
+
+    .related-product {
+         border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+    .related-product img {
+        height: 226px; /* تصغير الصورة قليلاً لملاءمة المساحة */
+    }
+
+    .related-product h3 {
+        font-size: 0.8rem;
+        margin: 6px 3px;
+        height: 38px;
+        padding: 0 2px;
+    }
+
+    .related-price {
+        font-size: 0.8rem;
+    }
+
+    .related-old-price {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* تحسينات للمنتجات ذات الصلة على الهواتف الصغيرة */
+@media (max-width: 380px) {
+    .products-grid {
+        gap: 10px; /* تقليل المسافة بين المنتجات */
+        padding: 0 10px; /* تقليل الحاشية الجانبية للحاوية */
+    }
+
+    .product-link {
+        width: calc(50% - 5px); /* جعل العرض أكبر وتناسب العناصر داخل الحاوية */
+        max-width: none; /* إزالة الحد الأقصى للعرض */
+    }
+
+    .related-product img {
+        height: 180px; /* تكبير الصورة قليلاً */
+    }
+    
+    .related-discount-badge {
+        top: 8px;
+        left: 5px;
+        font-size: 0.66rem;
+        padding: 3px 5px;
+    }
+    
+ 
+    
+    .related-product h3 {
+        height: auto;
+        min-height: 36px;
+         
+       
+    }
+}
