@@ -2674,13 +2674,13 @@ select {
 @media (max-width: 360px) {
     .container {
         width: 100% !important; /* زيادة العرض قليلاً */
-        padding: 0 5px !important; /* تقليل الهوامش بشكل معتدل */
+        padding: 0 3px !important; /* تقليل الهوامش بشكل معتدل */
       
     }
     
     .product-gallery,
     .product-info {
-        padding: 5px !important;
+        padding: 2px !important;
           
     }
     
@@ -2705,12 +2705,6 @@ select {
     padding: 0 15px;
     box-sizing: border-box;
 }
-
-
-
-
-
-
 
 #chatButton {
     position: fixed;
