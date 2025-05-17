@@ -2285,7 +2285,7 @@ window.addEventListener('load', () => {
     link.rel = 'stylesheet';
     link.href = 'related-products.css';
     document.head.appendChild(link);
-  }, 1500);  // تأخير 1.5 ثانية بعد تحميل الصفحة
+  }, 3000);  // تأخير 1.5 ثانية بعد تحميل الصفحة
 });
 
 
