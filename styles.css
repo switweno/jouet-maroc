@@ -2674,13 +2674,13 @@ select {
 @media (max-width: 360px) {
     .container {
         width: 100% !important; /* زيادة العرض قليلاً */
-        padding: 0 1px !important; /* تقليل الهوامش بشكل معتدل */
+        padding: 0 5px !important; /* تقليل الهوامش بشكل معتدل */
       
     }
     
     .product-gallery,
     .product-info {
-        padding: 4px !important;
+        padding: 5px !important;
           
     }
     
