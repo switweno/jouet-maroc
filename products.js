@@ -83,8 +83,7 @@ warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur 1200W,
      "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-10.webp",
-     "trottinette-Tank-m41/trottinette-tank-m41-11.webp"
+     "trottinette-Tank-m41/trottinette-tank-m41-09.webp"
     
    ],
 features: [
