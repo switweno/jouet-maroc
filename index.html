@@ -28,29 +28,28 @@
   <title>jouet maroc | عروض خاصة</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <script>
-    function updateCanonical() {
-      const domain = "https://jouet-maroc.com/";
-      const urlParams = new URLSearchParams(window.location.search);
-      const productId = urlParams.get('product');
+  function updateCanonical() {
+    const domain = "https://jouet-maroc.com/";
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('product');
 
-      let canonicalLink = document.querySelector("link[rel='canonical']");
-      if (!canonicalLink) {
-        canonicalLink = document.createElement('link');
-        canonicalLink.setAttribute('rel', 'canonical');
-        document.head.appendChild(canonicalLink);
-      }
-
-      if(productId) {
-        canonicalLink.setAttribute('href', `${domain}?product=${productId}`);
-      } else {
-        canonicalLink.setAttribute('href', domain);
-      }
+    let canonicalLink = document.querySelector("link[rel='canonical']");
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
     }
 
-    window.onload = function() {
-      updateCanonical();
+    if(productId) {
+      canonicalLink.setAttribute('href', `${domain}?product=${productId}`);
+    } else {
+      canonicalLink.setAttribute('href', domain);
     }
-  </script>
+  }
+
+  document.addEventListener('DOMContentLoaded', updateCanonical);
+</script>
+
  <!-- الخطوط -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
