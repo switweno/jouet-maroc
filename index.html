@@ -22,11 +22,35 @@
   <meta name="twitter:title" content="Jouet Maroc - خصم إضافي على مشترياتك">
   <meta name="twitter:description" content="أفضل العروض والخصومات في Jouet Maroc على جميع المنتجات. تسوق الآن!">
   <meta name="twitter:image" content="https://jouet-maroc.com/jouet-maroc.png">
-
+   <!-- الرابط canonical ديناميكي -->
+  <link rel="canonical" href="https://jouet-maroc.com/">
   <!-- العنوان والأيقونة -->
   <title>jouet maroc | عروض خاصة</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script>
+    function updateCanonical() {
+      const domain = "https://jouet-maroc.com/";
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('product');
 
+      let canonicalLink = document.querySelector("link[rel='canonical']");
+      if (!canonicalLink) {
+        canonicalLink = document.createElement('link');
+        canonicalLink.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonicalLink);
+      }
+
+      if(productId) {
+        canonicalLink.setAttribute('href', `${domain}?product=${productId}`);
+      } else {
+        canonicalLink.setAttribute('href', domain);
+      }
+    }
+
+    window.onload = function() {
+      updateCanonical();
+    }
+  </script>
  <!-- الخطوط -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
