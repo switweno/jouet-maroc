@@ -513,29 +513,23 @@ function setupProductLinks() {
             const productId = new URLSearchParams(href.split('?')[1]).get('product');
             
             if (productId) {
-                // إظهار مؤشر تحميل (اختياري - يمكن إضافته لاحقًا)
+                // إظهار مؤشر تحميل (اختياري)
                 document.body.style.cursor = 'wait';
                 
                 // تحديث عنوان URL
                 history.pushState({}, '', `?product=${productId}`);
                 
-                // استخدام طريقة تمرير فورية (بدون smooth) للتأكد من التمرير الكامل
+                // تمرير فوري للأعلى
                 window.scrollTo(0, 0);
+                document.documentElement.scrollTop = 0;
+                document.body.scrollTop = 0;
                 
-                // تأكيد إضافي للتمرير
-                setTimeout(() => {
-                    document.documentElement.scrollTop = 0;
-                    document.body.scrollTop = 0;
-                    
-                    // انتظار فترة قصيرة ثم تحميل المنتج
-                    setTimeout(() => {
-                        loadProductFromURL();
-                        
-                        // إعادة تمكين التفاعل مع الرابط والمؤشر الطبيعي
-                        this.style.pointerEvents = 'auto';
-                        document.body.style.cursor = 'default';
-                    }, 100);
-                }, 50);
+                // تحميل المنتج مباشرة
+                loadProductFromURL();
+                
+                // إعادة تمكين التفاعل مع الرابط والمؤشر الطبيعي
+                this.style.pointerEvents = 'auto';
+                document.body.style.cursor = 'default';
             } else {
                 this.style.pointerEvents = 'auto';
             }
@@ -545,6 +539,7 @@ function setupProductLinks() {
         link.style.cursor = 'pointer';
     });
 }
+
 
 // وظائف واجهة المستخدم
 // تحسين وظيفة إعداد الأكورديون لتعمل عند النقر على الإطار بأكمله
@@ -755,6 +750,7 @@ function loadProductFromURL() {
     console.error("Error loading product:", error);
   }
 }
+
 
 
 
@@ -1043,47 +1039,6 @@ function setupProductLinks() {
     });
 }
 
-// تحسين دالة معالجة روابط المنتجات لتوفير تجربة تنقل سلسة إلى أعلى الصفحة
-function setupProductLinks() {
-    document.querySelectorAll('.related-products .product-link').forEach(link => {
-        // إزالة معالجات الأحداث القديمة
-        link.onclick = null;
-        
-        // إضافة معالج حدث جديد نظيف
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation(); // منع انتشار الحدث
-            
-            // إيقاف جميع التفاعلات المؤقتة
-            document.body.style.pointerEvents = 'none';
-            
-            const href = this.getAttribute('href');
-            const productId = new URLSearchParams(href.split('?')[1]).get('product');
-            
-            if (productId) {
-                history.pushState({}, '', `?product=${productId}`);
-                
-                window.scrollTo({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-                
-                setTimeout(() => {
-                    loadProductFromURL();
-                    // استعادة التفاعلات بعد اكتمال التحميل
-                    document.body.style.pointerEvents = 'auto';
-                }, 400);
-            } else {
-                document.body.style.pointerEvents = 'auto';
-            }
-        }, { once: true }); // استخدام {once: true} لمنع تسجيل الحدث مرات متعددة
-        
-        // تحسين تجربة المؤشر على الروابط
-        link.style.cursor = 'pointer';
-        link.style.webkitTapHighlightColor = 'transparent';
-    });
-}
 
 // تحسين المعالج الرئيسي بإضافة مراقبة للتغييرات في الـ URL
 document.addEventListener('DOMContentLoaded', function() {
@@ -1770,11 +1725,9 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
         
-        // تحميل المنتج
-        setTimeout(() => {
-            loadProductFromURL();
-        }, 400);
-    }
+           // تحميل المنتج فوراً بلا تأخير
+    loadProductFromURL();
+}
     
    
     
