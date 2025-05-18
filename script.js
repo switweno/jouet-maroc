@@ -200,7 +200,7 @@ function getCurrentProductData() {
     let productId = urlParams.get('product');
     
     if (!productId) {
-        productId = "trottinette-dualtron-mini-special"; // Default product
+        productId = "trottinette-Tank-m41"; // Default product
     }
     
     return products.find(p => p.id === productId) || products[0];
@@ -689,7 +689,7 @@ function loadProductFromURL() {
         let productId = urlParams.get('product');
         
         if (!productId) {
-            productId = "trottinette-dualtron-mini-special"; // Default product
+            productId = "trottinette-Tank-m41"; // Default product
         }
         
         const product = products.find(p => p.id === productId);
@@ -956,8 +956,8 @@ if (typeof product !== "undefined" && product.videoURL) {
             }
         });
     }, {
-         threshold: 0,          // أي ظهور حتى 1px كافٍ لتفعيل
-    rootMargin: '200px'
+        threshold: 0,          // أي ظهور حتى 1px كافٍ لتفعيل
+    rootMargin: '1000px'
     });
 
     observer.observe(videoSection);
@@ -1532,66 +1532,11 @@ function ensureModalElements() {
     }
 }
 
-// تحسين معالجات أحداث للنافذة المنبثقة عند تحميل المستند
-document.addEventListener('DOMContentLoaded', function() {
-    // ...existing code...
-    
-    // التأكد من وجود عنصر الصورة في النافذة المنبثقة
-    const modalImage = document.getElementById('modal-image');
-    const zoomContainer = document.querySelector('.zoom-container');
-    
-    if (modalImage && zoomContainer) {
-        modalImage.onload = function() {
-            // التحقق مما إذا كانت الصورة عمودية أو أفقية
-            if (this.naturalHeight > this.naturalWidth) {
-                zoomContainer.classList.add('vertical-image');
-            } else {
-                zoomContainer.classList.remove('vertical-image');
-            }
-            
-            // التأكد من تمركز الصورة
-            centerModalImage();
-        };
-    }
-    
-    // ...existing code...
-});
 
-// تحسين وظيفة إظهار حالة التكبير
-function updateZoomStatus() {
-    const zoomStatus = document.querySelector('.zoom-status');
-    if (!zoomStatus) return;
-    
-    zoomStatus.textContent = `${Math.round(zoomLevel * 100)}%`;
-    zoomStatus.classList.add('show');
-    
-    if (timeoutId) clearTimeout(timeoutId);
-    
-    timeoutId = setTimeout(() => {
-        zoomStatus.classList.remove('show');
-    }, 1500);
-}
 
-// تحسين التأكد من وجود عناصر النافذة المنبثقة
-function ensureModalElements() {
-    const modalContent = document.querySelector('.modal-content');
-    if (!modalContent) return;
-    
-    // التحقق من وجود عنصر إرشادات التكبير وإنشائه إذا لم يكن موجودًا
-    if (!document.querySelector('.zoom-instructions')) {
-        const instructions = document.createElement('div');
-        instructions.className = 'zoom-instructions';
-        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
-        modalContent.appendChild(instructions);
-    }
-    
-    // التحقق من وجود عنصر حالة التكبير وإنشائه إذا لم يكن موجودًا
-    if (!document.querySelector('.zoom-status')) {
-        const zoomStatus = document.createElement('div');
-        zoomStatus.className = 'zoom-status';
-        modalContent.appendChild(zoomStatus);
-    }
-}
+
+
+
 
 // دالة جديدة لإعداد التمرير باللمس للصورة الرئيسية
 function setupMainImageTouch() {
@@ -2278,6 +2223,7 @@ function toggleAnswer(button) {
     symbol.textContent = answer.classList.contains("show") ? "-" : "+"; // تغيير الرمز بين - و +
 }
    
+
 
 
 
