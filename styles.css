@@ -2854,36 +2854,51 @@ select {
 }
 
 .scroll-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.53);
-   border: 1px solid #aaa8a8;
-    color: #333;
-    font-size: 1.3rem;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    z-index: 10;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s;
-    
-     
+   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.53);
+  border: 1px solid #aaa8a8;
+  color: #333;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 55%;
+  z-index: 10;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.scroll-arrow::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  background: transparent;
+  pointer-events: auto;
+  z-index: 0;
 }
 
 @media (max-width: 480px) {
-    .scroll-arrow{
-       width: 40px;
-    height: 40px;  
-        font-size: 1rem;
-    
-    }
+  .scroll-arrow {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
 
-}  
+  .scroll-arrow::before {
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+  }
+}
 
 
 .scroll-arrow:hover {
