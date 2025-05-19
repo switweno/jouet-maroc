@@ -3845,6 +3845,14 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
   border-color: #0088CC;
 }
 
+#linkedin-btn {
+  color: #fff;
+  background-color: #0077B5;
+  border-color: #0077B5;
+}
+
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;

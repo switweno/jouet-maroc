@@ -193,10 +193,12 @@ function updateShareLinks() {
   const productUrl = encodeURIComponent(getProductUrl());
   const productTitle = encodeURIComponent(getProductTitle());
 
-  document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${productTitle}%20${productUrl}`;
-  document.getElementById("facebook-btn").href = `https://www.facebook.com/sharer/sharer.php?u=${productUrl}`;
-  document.getElementById("twitter-btn").href = `https://twitter.com/intent/tweet?text=${productTitle}&url=${productUrl}`;
-  document.getElementById("telegram-btn").href = `https://t.me/share/url?url=${productUrl}&text=${productTitle}`;
+ document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${productTitle}%20${productUrl}`;
+document.getElementById("facebook-btn").href = `https://www.facebook.com/sharer/sharer.php?u=${productUrl}`;
+document.getElementById("twitter-btn").href = `https://twitter.com/intent/tweet?text=${productTitle}&url=${productUrl}`;
+document.getElementById("telegram-btn").href = `https://t.me/share/url?url=${productUrl}&text=${productTitle}`;
+document.getElementById("linkedin-btn").href = `https://www.linkedin.com/sharing/share-offsite/?url=${productUrl}`;
+
 }
 
 window.onload = function() {
