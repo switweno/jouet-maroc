@@ -25,7 +25,7 @@ const CATEGORIES_CONFIG = {
     },
     'moteur-cross': {
         id: 'moteur-cross',
-        displayName: 'Moteur Cross',
+        displayName: 'Cross',
         databaseName: 'moteur-cross',
         icon: 'fa-motorcycle'
     },
