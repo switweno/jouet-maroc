@@ -56,9 +56,8 @@ features: [
   }
 ],
 
-warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur 1200W, batterie 48V 13Ah lithium offrant 35 à 50 km d’autonomie. Vitesse maximale de 55 km/h, freins à disque avant/arrière, suspensions renforcées, pneus 10 pouces, et écran LCD. Châssis en alliage d’aluminium, LED avant/arrière, signalisation gauche/droite, pliable, étanchéité IP54/IPX4. Charge max 120 kg. Équipée d’un coffre porte-bagages pour plus de praticité.",
-
-
+warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissant 1200W, autonomie jusqu’à 50 km, vitesse max 55 km/h. Freins à disque, pneus 10 pouces, écran LCD, LED, pliable avec coffre pratique.",
+  
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -88,9 +87,10 @@ warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur 1200W,
    ],
 features: [
   {
-    title: "AVANTAGES ULTIMES",
+    title: "description",
     icon: "fa-cogs",
     items: [
+      { key: "MARQUE", value: "Ecoxtrem" },
       { key: "MOTEUR", value: "1000W min - 2000W MAX" },
       { key: "BATTERIE", value: "48V 16AH LITHIUM" },
       { key: "AUTONOMIE", value: "35km - 60km" },
@@ -2345,7 +2345,8 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    warranty: "Le vélo électrique Likebike Harley U9 est un modèle puissant au design inspiré des motos Harley. Équipé d’un moteur de 750W, d’une batterie lithium 48V 18.2Ah et d’un écran LCD, il offre une autonomie jusqu’à 100 km en mode assistance. Idéal pour une mobilité urbaine stylée et confortable au Maroc.",
+
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
   
@@ -2403,7 +2404,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    warranty: "Découvrez le vélo électrique Likebike Shine S, un modèle élégant et performant conçu pour vos déplacements quotidiens en toute liberté. Équipé d’un moteur puissant de 500W et d’une batterie lithium 48V 13Ah, il offre une autonomie maximale de 55 km et une vitesse atteignant 50 km/h. Son design compact avec pneus 20 pouces, freins avant/arrière et suspension avant garantit confort et sécurité sur toutes les routes. Avec son tableau de bord digital, ses 7 vitesses Shimano, son éclairage LED et son porte-bagage pratique, le Shine S est le compagnon idéal pour une mobilité urbaine moderne et écologique au Maroc.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
   },
   {
@@ -2461,7 +2462,7 @@ features: [
         ]
       }
     ],
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    warranty: "Le vélo électrique Likebike Shine combine style moderne et performance fiable pour vos trajets quotidiens. Doté d’un moteur 500W et d’une batterie lithium 48V 13Ah, il assure une autonomie allant jusqu’à 55 km et une vitesse maximale de 50 km/h. Son confort est renforcé par une suspension avant, un siège en cuir et un porte-bagage intégré. Ce modèle urbain compact est équipé d’un écran digital, d’un éclairage LED complet, de pneus 20 pouces, de freins avant/arrière et d’une transmission Shimano à 7 vitesses. Idéal pour une mobilité écologique et élégante partout au Maroc.",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
   },
   {
@@ -2524,7 +2525,7 @@ features: [
     ]
   }
 ],
-   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   warranty: "Le vélo électrique 2025 est un modèle compact, pliable et puissant, idéal pour une mobilité pratique et urbaine. Équipé d’un moteur de 400W et d’une batterie lithium 48V 15.6Ah, il vous offre jusqu’à 55 km d’autonomie avec une vitesse maximale de 46 km/h. Grâce à son système de double amortisseur, son tableau de bord digital, et ses pneus 14 pouces, il garantit confort et stabilité sur différents terrains. Ce vélo est conçu pour 2 personnes avec sièges cuir, dispose d’un démarrage par contact, d’un éclairage LED complet, et d’un mode pédale avec vitesse manuelle intégrée. Un choix intelligent pour vos trajets en ville, pliable et facile à transporter partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
  },
   
@@ -2590,7 +2591,7 @@ features: [
     ]
   }
 ],
-   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   warranty: "Découvrez le LIKEBIKE A10, un vélo électrique performant et fiable, équipé d’un moteur 400W, batterie lithium 48V 15.6Ah, double amortisseur, pliable et doté d’un écran digital. Il offre une autonomie jusqu’à 55 km et une vitesse maximale de 46 km/h, pour des déplacements urbains confortables et efficaces partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F977083681237253%2F&show_text=false&width=267&t=0"
  },
   
@@ -5459,3 +5460,4 @@ features: [
 ]; 
 
 window.products = products;
+
