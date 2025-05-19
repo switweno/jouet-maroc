@@ -1104,46 +1104,6 @@ function navigateImages(direction) {
     changeImage(newImageSrc, direction > 0 ? 'right' : 'left');
 }
 
-// Close image modal
-function closeImageModal() {
-    const modal = document.getElementById('image-modal');
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-    
-    // Remove zoom instructions and status
-    const instructions = document.querySelector('.zoom-instructions');
-    if (instructions) instructions.classList.remove('show');
-    
-    const zoomStatus = document.querySelector('.zoom-status');
-    if (zoomStatus) zoomStatus.classList.remove('show');
-}
-
-// Ensure modal elements exist
-function ensureModalElements() {
-    const modalContent = document.querySelector('.modal-content');
-    if (!modalContent) return;
-    
-    // Check if zoom instructions element exists and create if not
-    if (!document.querySelector('.zoom-instructions')) {
-        const instructions = document.createElement('div');
-        instructions.className = 'zoom-instructions';
-        instructions.innerHTML = '<i class="fas fa-hand-pointer"></i> تمرير وتكبير الصورة باللمس';
-        modalContent.appendChild(instructions);
-    }
-    
-    // Check if zoom status element exists and create if not
-    if (!document.querySelector('.zoom-status')) {
-        const zoomStatus = document.createElement('div');
-        zoomStatus.className = 'zoom-status';
-        modalContent.appendChild(zoomStatus);
-    }
-}
-
-
-
-
-
-
 
 // دالة جديدة لإعداد التمرير باللمس للصورة الرئيسية
 function setupMainImageTouch() {
