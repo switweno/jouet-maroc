@@ -407,138 +407,36 @@ function submitForm(event) {
 }
 
 
-// Image drag functions
-function startDrag(e) {
-    e.preventDefault();
-    
-    isDragging = true;
-    
-    // Get mouse or touch position
-    if (e.type === 'mousedown') {
-        startX = e.clientX;
-        startY = e.clientY;
-    } else if (e.type === 'touchstart') {
-        startX = e.touches[0].clientX;
-        startY = e.touches[0].clientY;
-    }
-}
 
-function drag(e) {
-    if (!isDragging) return;
-    
-    e.preventDefault();
-    
-    let currentX, currentY;
-    
-    // Get current position
-    if (e.type === 'mousemove') {
-        currentX = e.clientX;
-        currentY = e.clientY;
-    } else if (e.type === 'touchmove') {
-        currentX = e.touches[0].clientX;
-        currentY = e.touches[0].clientY;
-    }
-    
-    // Calculate movement
-    const deltaX = currentX - startX;
-    const deltaY = currentY - startY;
-    
-    // Apply different sensitivity for mobile
-    const isMobile = window.innerWidth <= 767;
-    const sensitivity = isMobile ? 0.8 : 1;
-    
-    // Allow scrolling only when zoomed in
-    if (zoomLevel > 1) {
-        // Update position
-        translateX += deltaX * sensitivity;
-        translateY += deltaY * sensitivity;
-        
-        // Calculate scroll limits based on zoom level
-        const containerWidth = window.innerWidth * 0.85; // 85% of window width
-        const containerHeight = window.innerHeight * 0.75; // 75% of window height
-        const modalImage = document.getElementById('modal-image');
-        
-        if (modalImage) {
-            const scaledWidth = modalImage.offsetWidth * zoomLevel;
-            const scaledHeight = modalImage.offsetHeight * zoomLevel;
-            
-            const maxTranslateX = Math.max(0, (scaledWidth - containerWidth) / 2);
-            const maxTranslateY = Math.max(0, (scaledHeight - containerHeight) / 2);
-            
-            // Apply limits with proportionality
-            translateX = Math.min(Math.max(translateX, -maxTranslateX), maxTranslateX);
-            translateY = Math.min(Math.max(translateY, -maxTranslateY), maxTranslateY);
-        }
-        
-        // Update image position
-        updateImageTransform();
-    }
-    
-    // Reset start position
-    startX = currentX;
-    startY = currentY;
-}
-
-function endDrag() {
-    isDragging = false;
-}
-
-function forceScrollToTop() {
-    if (window.scrollTo) {
-        window.scrollTo(0, 0);
-    }
-    if (document.documentElement) {
-        document.documentElement.scrollTop = 0;
-    }
-    if (document.body) {
-        document.body.scrollTop = 0;
-    }
-}
 
 // معالجة روابط المنتجات
 function setupProductLinks() {
     document.querySelectorAll('.related-products .product-link').forEach(link => {
         // إزالة معالجات الأحداث القديمة
         link.onclick = null;
-        
+
         // إضافة معالج حدث جديد
         link.addEventListener('click', function(e) {
             e.preventDefault();
-            e.stopPropagation(); // منع انتشار الحدث
-            
-            // تعطيل الرابط مؤقتًا لمنع النقرات المتكررة
-            this.style.pointerEvents = 'none';
-            
+            e.stopPropagation();
+
             const href = this.getAttribute('href');
             const productId = new URLSearchParams(href.split('?')[1]).get('product');
-            
+
             if (productId) {
-                // إظهار مؤشر تحميل (اختياري)
-                document.body.style.cursor = 'wait';
-                
-                // تحديث عنوان URL
+                // تحديث عنوان URL فقط
                 history.pushState({}, '', `?product=${productId}`);
-                
-                // تمرير فوري للأعلى
-                window.scrollTo(0, 0);
-                document.documentElement.scrollTop = 0;
-                document.body.scrollTop = 0;
-                
+
                 // تحميل المنتج مباشرة
                 loadProductFromURL();
-                
-                // إعادة تمكين التفاعل مع الرابط والمؤشر الطبيعي
-                this.style.pointerEvents = 'auto';
-                document.body.style.cursor = 'default';
-            } else {
-                this.style.pointerEvents = 'auto';
             }
         });
-        
+
         // تحسين تجربة المؤشر على الروابط
         link.style.cursor = 'pointer';
     });
 }
+
 
 
 // وظائف واجهة المستخدم
@@ -1158,7 +1056,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // إضافة دعم التمرير باللمس للصورة الرئيسية
         setupMainImageTouch();
         
-        // ...existing code...
         
         // إضافة الدعم اللمسي كل مرة يتم فيها تحديث عرض المنتج
         const updateProductDisplayOriginal = updateProductDisplay;
@@ -1176,7 +1073,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// ...existing code...
 
 // تهيئة العناصر وإضافة مستمعي الأحداث للقائمة الجانبية
 document.addEventListener('DOMContentLoaded', function() {
