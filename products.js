@@ -2345,7 +2345,7 @@ features: [
         ]
       }
     ],
-    warranty: "Le vélo électrique Likebike Harley U9 est un modèle puissant au design inspiré des motos Harley. Équipé d’un moteur de 750W, d’une batterie lithium 48V 18.2Ah et d’un écran LCD, il offre une autonomie jusqu’à 100 km en mode assistance. Idéal pour une mobilité urbaine stylée et confortable au Maroc.",
+    warranty: "Découvrez le vélo électrique Likebike Harley U9, un modèle puissant et élégant inspiré des motos Harley, très apprécié au Maroc. Avec son moteur performant de 750W, sa batterie lithium 48V 18.2Ah et son écran LCD intuitif, ce vélo Likebike offre une autonomie exceptionnelle jusqu’à 100 km en mode assistance. Parfait pour une mobilité urbaine confortable et stylée, le Likebike Harley U9 est l’option idéale pour tous ceux qui cherchent une trottinette électrique robuste et design au Maroc",
 
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
   },
