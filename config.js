@@ -182,12 +182,10 @@ function getProductUrl() {
 }
 
 function getProductTitle() {
-  // نجيب العنصر اللي فيه العنوان
   const titleElement = document.querySelector('.product-title');
   if (titleElement && titleElement.textContent.trim() !== '') {
     return titleElement.textContent.trim();
   }
-  // نص احتياطي إذا ماكانش العنوان موجود
   return "شوف هاد المنتوج";
 }
 
@@ -215,3 +213,4 @@ document.querySelectorAll('.share-btn').forEach(button => {
     window.open(href, '_blank');
   });
 });
+
