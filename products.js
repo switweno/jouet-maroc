@@ -887,9 +887,9 @@ warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiabl
     availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 192,
-    currentPrice: 6490,
+    currentPrice: 5890,
     oldPrice: 7500,
-    discount: 30,
+    discount: 35,
     images: [
       "dualtron-pop/dualtron-pop_52v_-01.webp",
       "dualtron-pop/dualtron-pop_52v_-02.webp",
