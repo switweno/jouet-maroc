@@ -1315,7 +1315,7 @@ header {
 }
 
 
-.quantity-selector h3 {
+.quantity-selector h2 {
     margin-bottom: 5px;
     font-size: 1rem;
     font-weight: 500;
@@ -3855,15 +3855,5 @@ footer .social-icons a:nth-child(2) {  background-color: #25D366;  } /* واتس
 
 
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
+
 
