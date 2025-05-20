@@ -1237,7 +1237,7 @@ features: [
 ],
 
 
-    warranty: "VÉLO VTT HILAND ALUMINIUM 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert, Noir, Rouge. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "VÉLO VTT HILAND ALUMINIUM 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert, Noir, Rouge.  Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9985422651479776%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -1283,7 +1283,7 @@ features: [
 ],
 
 
-    warranty: "VÉLO VTT GALACTUS 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "VÉLO VTT GALACTUS 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
   }, 
   
@@ -1329,7 +1329,7 @@ features: [
 ],
 
 
-    warranty: "VÉLO VTT GALACTUS 24 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "VÉLO VTT GALACTUS 24 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
   }, 
   
@@ -5461,3 +5461,22 @@ features: [
 
 window.products = products;
 
+// نحصل على ID من URL
+const urlParams = new URLSearchParams(window.location.search);
+const productId = urlParams.get("product");
+
+// إذا لم نكن في صفحة منتج (يعني الصفحة الرئيسية فقط):
+const isHome = !productId;
+
+// إذا نحن في الصفحة الرئيسية، حمل فقط المنتج الأساسي:
+let productsToRender;
+
+if (isHome) {
+  const mainProductId = "trottinette-Tank-m41";
+  productsToRender = allProducts.filter(p => p.id === mainProductId);
+} else {
+  productsToRender = allProducts;
+}
+
+// استدعِ الدالة المعتادة:
+renderProducts(productsToRender); // أو أي دالة تعتمدها لعرض المحتوى
