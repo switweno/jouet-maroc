@@ -994,7 +994,7 @@ features: [
    title: "TROTTINETTE IENYRID M9",
    brand: "IENYRID",
    category: "تروتينات",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 65,
    currentPrice: 6399,
