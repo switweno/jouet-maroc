@@ -285,7 +285,7 @@ header {
     width: 27%; /* عرض القائمة عند الفتح */
     background-color: rgb(255, 255, 255); /* شفافية خفيفة لجعل السلايدر يظهر وراءها */
     z-index: 1000; /* تأكد من أن القائمة أعلى من السلايدر */
-    transition: right 0.3s ease;
+    transition: right 0.7s ease;
 }
 @media (max-width: 978px) {
     
@@ -332,6 +332,8 @@ header {
     border-radius: 50%;
     transition: background-color 0.3s;
 }
+
+
 
 .sidebar-close:hover {
     background-color: rgba(217, 217, 217, 0.2);
@@ -2286,7 +2288,7 @@ select {
 /* تحسين استجابة حركة الصورة الرئيسية */
 .main-image img {
     max-width: 100%;
-    width: 101%;
+    width: 100%;
     height: auto;
     border-radius: 5px;
     
@@ -2784,7 +2786,7 @@ select {
 
 /* محتوى الدردشة */
 .chat-content {
-    padding: 21px;
+    padding: 15px;
     max-height: 473px;
     overflow-y: auto;
 }
