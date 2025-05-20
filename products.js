@@ -2217,7 +2217,7 @@ features: [
   },
   
    {
-   id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11",
+   id: "velo-electrique-likebike-harley-u11",
    title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
    brand: "LIKEBIKE ORIGINAL",
    category: "دراجات كهربائية",
