@@ -5461,22 +5461,3 @@ features: [
 
 window.products = products;
 
-// نحصل على ID من URL
-const urlParams = new URLSearchParams(window.location.search);
-const productId = urlParams.get("product");
-
-// إذا لم نكن في صفحة منتج (يعني الصفحة الرئيسية فقط):
-const isHome = !productId;
-
-// إذا نحن في الصفحة الرئيسية، حمل فقط المنتج الأساسي:
-let productsToRender;
-
-if (isHome) {
-  const mainProductId = "trottinette-Tank-m41";
-  productsToRender = allProducts.filter(p => p.id === mainProductId);
-} else {
-  productsToRender = allProducts;
-}
-
-// استدعِ الدالة المعتادة:
-renderProducts(productsToRender); // أو أي دالة تعتمدها لعرض المحتوى
