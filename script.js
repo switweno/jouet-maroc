@@ -369,42 +369,6 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Form submission
-function submitForm(event) {
-    event.preventDefault();
-    
-    const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
-    const address = document.getElementById('address').value;
-    const city = document.getElementById('city').value;
-    const quantity = document.getElementById('quantity').value;
-    
-    
-    // Here you would normally send this data to your server
-    // This is just a demonstration
-    alert(`شكرا ${name}!\nتم استلام طلبك بنجاح.\nسنتواصل معك قريبًا على الرقم ${phone} لتأكيد الطلب.`);
-    
-    // Track purchase event in Facebook Pixel
-    if (typeof fbq === 'function') {
-        fbq('track', 'Purchase', {
-            value: parseFloat(document.querySelector('.current-price').textContent),
-            currency: 'MAD',
-            content_name: document.querySelector('.product-title').textContent,
-            content_type: 'product',
-            content_ids: ['PROD12345'],
-            contents: [
-                {
-                    id: 'PROD12345',
-                    quantity: parseInt(quantity),
-                    item_price: parseFloat(document.querySelector('.current-price').textContent)
-                }
-            ]
-        });
-    }
-    
-    // Reset form
-    document.getElementById('order-form').reset();
-}
 
 
 
