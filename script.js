@@ -613,19 +613,16 @@ function loadProductFromURL() {
   }
 }
 
-
 (function(){
-  var d = '\x6A\x6F\x75\x65\x74\x2D\x6D\x61\x72\x6F\x63\x2E\x63\x6F\x6D'; // 'jouet-maroc.com'
+  var d = '\x6A\x6F\x75\x65\x74\x2D\x6D\x61\x72\x6F\x63\x2E\x63\x6F\x6D';
   if (location.hostname !== d) {
     var s = document.createElement('style');
     s.innerHTML = "* { display: none !important; }";
     document.head.appendChild(s);
-    setTimeout(function(){ window.stop(); }, 500); 
+    setTimeout(function(){ window.stop(); }, 500);
     return;
   }
 })();
-
-
 
 function cleanupEventHandlers() {
     // تحسين: معالجة مجموعات متعددة من العناصر مرة واحدة
