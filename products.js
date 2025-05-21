@@ -69,7 +69,7 @@ warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissa
    availability: "متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 138,
-   currentPrice: 6490,
+   currentPrice: 6300,
    oldPrice: 7899,
    discount: 30,
    images: [
