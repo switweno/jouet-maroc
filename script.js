@@ -559,7 +559,7 @@ function updateProductMeta(product) {
   const imageUrl = (product.images && product.images.length > 0) ? baseUrl + product.images[0] : baseUrl + 'default-image.webp';
 
   // تحديث العنوان
-  document.title = product.title + " | jouet maroc";
+  document.title = product.title + " | Jouet Maroc";
 
   // تحديث الوصف - يمكنك تعديل الوصف حسب الحاجة
   const descriptionContent = product.warranty || "عروض Jouet Maroc لأفضل التروتينات والدراجات الكهربائية.";
@@ -567,12 +567,12 @@ function updateProductMeta(product) {
   updateMetaTag('meta[name="description"]', 'content', descriptionContent);
 
   // تحديث og:title و og:description و og:image
-  updateMetaTag('meta[property="og:title"]', 'content', product.title + " | jouet maroc");
+  updateMetaTag('meta[property="og:title"]', 'content', product.title + " | Jouet Maroc");
   updateMetaTag('meta[property="og:description"]', 'content', descriptionContent);
   updateMetaTag('meta[property="og:image"]', 'content', imageUrl);
 
   // تحديث twitter:title و twitter:description و twitter:image
-  updateMetaTag('meta[name="twitter:title"]', 'content', product.title + " | jouet maroc");
+  updateMetaTag('meta[name="twitter:title"]', 'content', product.title + " | Jouet Maroc");
   updateMetaTag('meta[name="twitter:description"]', 'content', descriptionContent);
   updateMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
 }
