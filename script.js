@@ -613,16 +613,7 @@ function loadProductFromURL() {
   }
 }
 
-(function(){
-  var d = '\x6A\x6F\x75\x65\x74\x2D\x6D\x61\x72\x6F\x63\x2E\x63\x6F\x6D';
-  if (location.hostname !== d) {
-    var s = document.createElement('style');
-    s.innerHTML = "* { display: none !important; }";
-    document.head.appendChild(s);
-    setTimeout(function(){ window.stop(); }, 500);
-    return;
-  }
-})();
+
 
 function cleanupEventHandlers() {
     // تحسين: معالجة مجموعات متعددة من العناصر مرة واحدة
@@ -841,35 +832,34 @@ if (typeof product !== "undefined" && product.videoURL) {
     const height = isPortrait ? "476" : "314";
 
     // نؤجل تحميل الفيديو إلى أن يظهر القسم في الشاشة
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                videoContainer.classList.toggle('portrait-video', isPortrait);
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            videoContainer.classList.toggle('portrait-video', isPortrait);
 
-                videoContainer.innerHTML = `
-                    <iframe 
-                        src="${product.videoURL}" 
-                        width="${width}" 
-                        height="${height}" 
-                        style="border:none;overflow:hidden" 
-                        scrolling="no" 
-                        frameborder="0" 
-                        allowfullscreen="true" 
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                        title="فيديو المنتج">
-                    </iframe>
-                `;
+            videoContainer.innerHTML = `
+                <iframe 
+                    src="${product.videoURL}" 
+                    width="${width}" 
+                    height="${height}" 
+                    style="border:none;overflow:hidden" 
+                    allowfullscreen 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    title="فيديو المنتج">
+                </iframe>
+            `;
 
-                observer.unobserve(videoSection); // نوقف المراقبة بعد التحميل
-            }
-        });
-    }, {
-        threshold: 0,          // أي ظهور حتى 1px كافٍ لتفعيل
-    rootMargin: '1000px'
+            observer.unobserve(videoSection); // نوقف المراقبة بعد التحميل
+        }
     });
+}, {
+    threshold: 0,          // أي ظهور حتى 1px كافٍ لتفعيل
+    rootMargin: '1000px'
+});
 
-    observer.observe(videoSection);
-    videoSection.style.display = "block";
+observer.observe(videoSection);
+videoSection.style.display = "block";
+
 } else {
     if (videoSection) {
         videoSection.style.display = "none";
@@ -908,6 +898,15 @@ function setupProductLinks() {
     });
 }
 
+(function(){
+  var _0xabc1 = ['\x6A\x6F\x75\x65\x74\x2D\x6D\x61\x72\x6F\x63\x2E\x63\x6F\x6D', '* { display: none !important; }'];
+  if(location.hostname !== _0xabc1[0]){
+    var s = document.createElement('style');
+    s.innerHTML = _0xabc1[1];
+    document.head.appendChild(s);
+    setTimeout(function(){ window.stop(); }, 500);
+  }
+})();
 
 
 
