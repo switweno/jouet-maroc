@@ -3,9 +3,9 @@
 <head>
   <!-- الميتا العامة -->
   <meta charset="UTF-8">
-    <meta name="geo.region" content="MA">
-    <meta name="geo.placename" content="Morocco">
-    <meta name="robots" content="index, follow">
+  <meta name="geo.region" content="MA">
+  <meta name="geo.placename" content="Morocco">
+  <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="description" content="عروض حصرية في Jouet Maroc على الألعاب والدراجات الكهربائية. استفد من التخفيضات الكبيرة واطلب الآن قبل نفاد الكمية!">
   <meta name="keywords" content="خصم, عروض, تخفيضات, Jouet Maroc, ألعاب, دراجات كهربائية, تسوق">
@@ -21,110 +21,159 @@
   <meta name="twitter:title" content="Jouet Maroc - خصم إضافي على مشترياتك">
   <meta name="twitter:description" content="أفضل العروض والخصومات في Jouet Maroc على جميع المنتجات. تسوق الآن!">
   <meta name="twitter:image" content="https://jouet-maroc.com/logo.png">
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://jouet-maroc.com/">
+
+  <!-- Title and Icon -->
   <title>Jouet Maroc | عروض خاصة</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Jouet Maroc",
-  "url": "https://jouet-maroc.com"
-}
-</script>
-  <script>
-  function updateCanonical() {
-    const domain = "https://jouet-maroc.com/";
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('product');
 
-    let canonicalLink = document.querySelector("link[rel='canonical']");
-    if (!canonicalLink) {
-      canonicalLink = document.createElement('link');
-      canonicalLink.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonicalLink);
-    }
-
-    if(productId) {
-      canonicalLink.setAttribute('href', `${domain}?product=${productId}`);
-    } else {
-      canonicalLink.setAttribute('href', domain);
-    }
+  <!-- Schema WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jouet Maroc",
+    "url": "https://jouet-maroc.com"
   }
+  </script>
 
-  document.addEventListener('DOMContentLoaded', updateCanonical);
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get("product");
+
+    if (productId && typeof productsData[productId] !== "undefined") {
+      const product = productsData[productId];
+
+      const productData = {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": product.name,
+        "image": [product.image],
+        "description": product.description,
+        "sku": productId,
+        "offers": {
+          "@type": "Offer",
+          "url": window.location.href,
+          "priceCurrency": "MAD",
+          "price": product.price,
+          "priceValidUntil": "2025-12-31",
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/" + product.availability
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": product.ratingValue,
+          "reviewCount": product.reviewCount
+        }
+      };
+
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.text = JSON.stringify(productData);
+      document.head.appendChild(script);
+    }
+  });
 </script>
 
+  <!-- Canonical Update -->
+  <script>
+    function updateCanonical() {
+      const domain = "https://jouet-maroc.com/";
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('product');
+
+      let canonicalLink = document.querySelector("link[rel='canonical']");
+      if (!canonicalLink) {
+        canonicalLink = document.createElement('link');
+        canonicalLink.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonicalLink);
+      }
+
+      if (productId) {
+        canonicalLink.setAttribute('href', `${domain}?product=${productId}`);
+      } else {
+        canonicalLink.setAttribute('href', domain);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', updateCanonical);
+  </script>
+
+  <!-- Fonts and Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="related-products.css">
-   
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" media="print" onload="this.media='all'">
 
- <link rel="preload" as="image" href="trottinette-Tank-m41/trottinette-tank-m41-01.webp">
+  <!-- Preload Main Image -->
+  <link rel="preload" as="image" href="trottinette-Tank-m41/trottinette-tank-m41-01.webp">
 
-<script>
-  function loadAnalyticsScripts() {
-    // Google Analytics
-    var gaScript = document.createElement('script');
-    gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3";
-    gaScript.async = true;
-    document.head.appendChild(gaScript);
+  <!-- Analytics Scripts -->
+  <script>
+    function loadAnalyticsScripts() {
+      // Google Analytics
+      var gaScript = document.createElement('script');
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3";
+      gaScript.async = true;
+      document.head.appendChild(gaScript);
 
-    gaScript.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', 'G-CT0JMLFZY3');
-    };
+      gaScript.onload = function () {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CT0JMLFZY3');
+      };
 
-    // Microsoft Clarity
-    (function (c, l, a, r, i, t, y) {
-      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
-      t = l.createElement(r);
-      t.async = 1;
-      t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
-      y = l.getElementsByTagName(r)[0];
-      y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", "r78p5x9fdd");
-  }
+      // Microsoft Clarity
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "r78p5x9fdd");
+    }
 
-  window.addEventListener('scroll', function onScroll() {
-    loadAnalyticsScripts();
-    window.removeEventListener('scroll', onScroll);
-  });
-</script>  
-<script>
-  function loadGTM() {
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),
-          dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-      f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-W8HSK5ZD');
-  }
+    window.addEventListener('scroll', function onScroll() {
+      loadAnalyticsScripts();
+      window.removeEventListener('scroll', onScroll);
+    });
+  </script>
 
-  window.addEventListener('scroll', function onScroll() {
-    loadGTM();
-    window.removeEventListener('scroll', onScroll);
-  });
+  <!-- Google Tag Manager -->
+  <script>
+    function loadGTM() {
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-W8HSK5ZD');
+    }
 
-  setTimeout(loadGTM, 5000);
-</script>
+    window.addEventListener('scroll', function onScroll() {
+      loadGTM();
+      window.removeEventListener('scroll', onScroll);
+    });
 
+    setTimeout(loadGTM, 5000);
+  </script>
 </head>
+
 
 <body>
 <!-- Google Tag Manager (noscript) -->
