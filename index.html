@@ -99,43 +99,6 @@ function loadProductFromURL() {
   }
   </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get("product");
-
-    if (productId && typeof productsData[productId] !== "undefined") {
-      const product = productsData[productId];
-
-      const productData = {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": product.name,
-        "image": [product.image],
-        "description": product.description,
-        "sku": productId,
-        "offers": {
-          "@type": "Offer",
-          "url": window.location.href,
-          "priceCurrency": "MAD",
-          "price": product.price,
-          "itemCondition": "https://schema.org/NewCondition"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": product.ratingValue,
-          "reviewCount": product.reviewCount
-        }
-      };
-
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(productData);
-      document.head.appendChild(script);
-    }
-  });
-</script>
-
 
   <!-- Canonical Update -->
   <script>
