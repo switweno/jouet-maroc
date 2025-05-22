@@ -653,9 +653,9 @@ features: [
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
   },
   {
-    id: "TROTTINETTE-Mi-Electric-Scooter-Essential",
+    id: "trottinette-mi-electric-scooter-essential",
     title: "TROTTINETTE Mi Electric Scooter Essential",
-    brand: "Xiaomi Essential",
+    brand: "Xiaomi",
     category: "تروتينات",
     availability: "متوفر في المخزون",
     ratings: 4.5,
@@ -668,14 +668,14 @@ features: [
       pricePerUnit: 2375
     },
     images: [
-      "Xiaomi Essential/xiaomi-essential-01.webp",
-      "Xiaomi Essential/xiaomi-essential-02.webp",
-      "Xiaomi Essential/xiaomi-essential-03.webp",
-      "Xiaomi Essential/xiaomi-essential-04.webp",
-      "Xiaomi Essential/xiaomi-essential-05.webp",
-      "Xiaomi Essential/xiaomi-essential-06.webp",
-      "Xiaomi Essential/xiaomi-essential-07.webp",
-      "Xiaomi Essential/xiaomi-essential-08.webp"
+      "xiaomi-essential/xiaomi-essential-01.webp",
+      "xiaomi-essential/xiaomi-essential-02.webp",
+      "xiaomi-essential/xiaomi-essential-03.webp",
+      "xiaomi-essential/xiaomi-essential-04.webp",
+      "xiaomi-essential/xiaomi-essential-05.webp",
+      "xiaomi-essential/xiaomi-essential-06.webp",
+      "xiaomi-essential/xiaomi-essential-07.webp",
+      "xiaomi-essential/xiaomi-essential-08.webp"
     ],
     features: [
       {
@@ -716,7 +716,7 @@ features: [
     title: "TROTTINETTE KUKIRIN G2 PRO",
     brand: "KUKIRIN",
     category: "تروتينات",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 256,
     currentPrice: 6490,
@@ -1907,7 +1907,7 @@ features: [
   },
   
   {
-    id: "VÉLO-BMX-GTR -ALUMINIUM",
+    id: "velo-bmx-gtr-aluminium-2025",
     title: "VÉLO BMX GTR ALUMINIUM 26",
     brand: "BMX GTR",
     category: "دراجات هوائية",
