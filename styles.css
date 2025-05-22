@@ -2598,6 +2598,50 @@ select {
     transition-timing-function: var(--image-transition-timing);
 }
 
+/* تأثيرات الخروج المحسنة للصور */
+.image-slide-exit-right {
+    opacity: 0;
+    transform: translateX(var(--image-slide-distance));
+    transition-duration: calc(var(--image-transition-duration) * 0.7);
+}
+
+.image-slide-exit-left {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--image-slide-distance)));
+    transition-duration: calc(var(--image-transition-duration) * 0.7);
+}
+
+/* تأثيرات الدخول المحسنة للصور */
+.image-slide-enter-from-right {
+    animation: enterFromRight var(--image-transition-duration) var(--image-transition-timing) forwards;
+}
+
+.image-slide-enter-from-left {
+    animation: enterFromLeft var(--image-transition-duration) var(--image-transition-timing) forwards;
+}
+
+/* تعريفات الرسوم المتحركة للصور */
+@keyframes enterFromRight {
+    from {
+        opacity: 0.2;
+        transform: translateX(var(--image-slide-distance));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes enterFromLeft {
+    from {
+        opacity: 0.2;
+        transform: translateX(calc(-1 * var(--image-slide-distance)));
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
 /* هوامش مخصصة للشاشات الصغيرة جداً - توازن بين المساحة والجمالية */
@@ -2641,13 +2685,25 @@ select {
     .product-info {
         padding: 2px !important;
           
-    }
-    
-    
-    
-    
+    }   
 }
 
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.slider-track {
+    display: flex;
+    transition: transform 0.7s ease-in-out; /* تحريك أكثر سلاسة */
+}
+/* تنسيق الشرائح لتطبيق الترجمة بشكل صحيح */
+.feature-slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
 
 
 #chatButton {
