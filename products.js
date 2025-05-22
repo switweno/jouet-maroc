@@ -1,1 +1,5450 @@
-const products=[{id:"trottinette-ecoxtrem-m4-max",title:"TROTTINETTE ECOXTREM M4 MAX",brand:"Ecoxtrem",category:"تروتينات",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:69,currentPrice:4690,oldPrice:6e3,discount:30,images:["trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-01.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-02.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-03.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-04.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-05.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-06.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-07.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-08.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-09.webp","trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-10.webp"],features:[{title:"AVANTAGES ULTIMES",icon:"fa-cogs",items:[{key:"MOTEUR",value:"1200W"},{key:"BATTERIE",value:"48V 13AH LITHIUM"},{key:"AUTONOMIE",value:"35km - 50km"},{key:"VITESSE",value:"55 km/h max"},{key:"CHARGE MAX",value:"120 KG"},{key:"MAT\xc9RIEL",value:"Alliage d'aluminium"},{key:"FREINAGE",value:"Disque Avant & Arri\xe8re"},{key:"SUSPENSION",value:"Avant & Arri\xe8re"},{key:"TABLEAU",value:"\xc9cran LCD"},{key:"NIVEAUX DE VITESSE",value:"3 niveaux"},{key:"CHARGE",value:"54V"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"LED",value:"Avant + Arri\xe8re"},{key:"\xc9CLAIRAGE",value:"Phare LED + Feu arri\xe8re"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54 / IPX4"},{key:"PLIABLE",value:"OUI"},{key:"SIGNAL",value:"Clignotants Gauche/Droite"},{key:"ROUES",value:"10 pouces"},{key:"COFFRES",value:"Porte-bagages inclus"}]}],warranty:"D\xe9couvrez la trottinette \xe9lectrique Ecoxtrem M4 Max : moteur puissant 1200W, autonomie jusqu’\xe0 50 km, vitesse max 55 km/h. Freins \xe0 disque, pneus 10 pouces, \xe9cran LCD, LED, pliable avec coffre pratique.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"},{id:"trottinette-Tank-m41",title:"TROTTINETTE Tank M41 Ultimate 2025",brand:"Ecoxtrem",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:138,currentPrice:6300,oldPrice:7899,discount:30,images:["trottinette-Tank-m41/trottinette-tank-m41-01.webp","trottinette-Tank-m41/trottinette-tank-m41-02.webp","trottinette-Tank-m41/trottinette-tank-m41-03.webp","trottinette-Tank-m41/trottinette-tank-m41-04.webp","trottinette-Tank-m41/trottinette-tank-m41-05.webp","trottinette-Tank-m41/trottinette-tank-m41-06.webp","trottinette-Tank-m41/trottinette-tank-m41-07.webp","trottinette-Tank-m41/trottinette-tank-m41-08.webp","trottinette-Tank-m41/trottinette-tank-m41-09.webp","trottinette-Tank-m41/trottinette-tank-m41-10.webp"],features:[{title:"description",icon:"fa-cogs",items:[{key:"MARQUE",value:"Ecoxtrem"},{key:"MOTEUR",value:"1000W min - 2000W MAX"},{key:"BATTERIE",value:"48V 16AH LITHIUM"},{key:"AUTONOMIE",value:"35km - 60km"},{key:"VITESSE",value:"68 km/h max"},{key:"CHARGE MAX",value:"150 KG"},{key:"MAT\xc9RIEL",value:"Alliage d'aluminium"},{key:"FREINAGE",value:"Disque Avant & Arri\xe8re + E-ABS"},{key:"SUSPENSION",value:"Avant & Arri\xe8re"},{key:"TABLEAU",value:"Digital LCD"},{key:"VITESSE",value:"3 niveaux"},{key:"CHARGE",value:"54V"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"LED",value:"Avant + Arri\xe8re + Lat\xe9ral"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54 / IPX4"},{key:"PLIABLE",value:"OUI"},{key:"SIGNAL",value:"Clignotants Gauche/Droite"},{key:"S\xc9CURIT\xc9",value:"Frein de s\xe9curit\xe9 + Cl\xe9 NFC"},{key:"CONNECTIVIT\xc9",value:"Contr\xf4le via t\xe9l\xe9phone "},{key:"ROUES",value:"Off-road 11 pouces Tubeless"},{key:"\xc9CLAIRAGE",value:"Phare LED + Feu arri\xe8re + LED lat\xe9ral"},{key:"FEU SIGNAL",value:"OUI"},{key:"COULEURS",value:"Disponible 5 couleurs"},{key:"CADEAU",value:"Sac offert "}]}],warranty:"D\xe9couvrez la trottinette \xe9lectrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W \xe0 2000W), vitesse jusqu’\xe0 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. S\xe9curit\xe9 renforc\xe9e avec freins \xe0 disque + E-ABS, suspensions avant/arri\xe8re, grandes roues Off-road 11 Tubeless, ch\xe2ssis aluminium, \xe9tanch\xe9it\xe9 IP54/IPX4. Tableau de bord digital LCD, LED avant/arri\xe8re, clignotants, NFC, contr\xf4le smartphone. Supporte jusqu'\xe0 150 kg. Sac de transport offert",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4094664134151479%2F&show_text=false&width=267&t=0"},{id:"trottinette-bremer-48v",title:"TROTTINETTE SCOOTER BREMER 48V",brand:" BREMER",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:2,currentPrice:4599,oldPrice:5490,discount:30,images:["trottinette-bremer-48v/trottinette-bremer-48v-01.webp","trottinette-bremer-48v/trottinette-bremer-48v-02.webp","trottinette-bremer-48v/trottinette-bremer-48v-03.webp","trottinette-bremer-48v/trottinette-bremer-48v-04.webp","trottinette-bremer-48v/trottinette-bremer-48v-05.webp","trottinette-bremer-48v/trottinette-bremer-48v-06.webp","trottinette-bremer-48v/trottinette-bremer-48v-07.webp","trottinette-bremer-48v/trottinette-bremer-48v-08.webp","trottinette-bremer-48v/trottinette-bremer-48v-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W MAX"},{key:"BATTERIE",value:"48V 10AH LITHIUM"},{key:"AUTONOMIE",value:"25KM MIN - 35KM MAX"},{key:"VITESSE",value:"25KM MIN - 34KM MAX"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREINAGE",value:"\xc0 DISQUE AVANT ET ARRI\xc8RE + E-ABS"},{key:"FREIN",value:"FREIN DE S\xc9CURIT\xc9"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN LCD EY2 AVEC APPLICATION MOBILE "},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"CONCEPTION",value:"PLIABLE OUI + SI\xc8GE EN CUIR"},{key:"SIGNALISATION",value:"KLAXON + LUMI\xc8RE LED"},{key:"MA\xceTRISE",value:"CONTR\xd4LE VIA MOBILE "},{key:"TAILLE DES ROUES",value:"12 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"54V"}]}],warranty:"D\xe9couvrez une trottinette \xe9lectrique performante et confortable, \xe9quip\xe9e d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’\xe0 35 km et d’une vitesse maximale de 34 km/h. Gr\xe2ce \xe0 ses suspensions avant et arri\xe8re, ses freins \xe0 disque avec E-ABS, et son \xe9cran LCD EY2 connect\xe9 \xe0 une application mobile, vous b\xe9n\xe9ficiez d’un contr\xf4le total et d’un confort optimal. Pliable, avec si\xe8ge en cuir, klaxon int\xe9gr\xe9, \xe9clairage LED complet et pneus 12 pouces \xe0 chambre \xe0 air – tout est pens\xe9 pour une conduite s\xfbre, pratique et agr\xe9able au quotidien.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"},{id:"trottinette-m4-pro",title:"TROTTINETTE M4 PRO 2025",brand:"M4 PRO",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:138,currentPrice:4990,oldPrice:6499,discount:30,images:["trottinette-m4-pro/trottinette-m4-pro-01.webp","trottinette-m4-pro/trottinette-m4-pro-02.webp","trottinette-m4-pro/trottinette-m4-pro-03.webp","trottinette-m4-pro/trottinette-m4-pro-04.webp","trottinette-m4-pro/trottinette-m4-pro-05.webp","trottinette-m4-pro/trottinette-m4-pro-06.webp","trottinette-m4-pro/trottinette-m4-pro-07.webp","trottinette-m4-pro/trottinette-m4-pro-08.webp","trottinette-m4-pro/trottinette-m4-pro-09.webp"],features:[{title:"AVANTAGES ULTIMES",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W nominal - 1000W MAX"},{key:"BATTERIE",value:"48V 12.5AH LITHIUM"},{key:"AUTONOMIE",value:"30km min - 40km max"},{key:"VITESSE",value:"53 km/h max"},{key:"CHARGE MAX",value:"120 KG"},{key:"FREINAGE",value:"Disque Avant & Arri\xe8re"},{key:"SUSPENSION",value:"Avant & Arri\xe8re"},{key:"TABLEAU",value:"\xc9cran LCD"},{key:"VITESSE",value:"3 niveaux"},{key:"KLAXON",value:"\xc9lectrique"},{key:"PLIABLE",value:"OUI"},{key:"D\xc9MARRAGE",value:"Avec contact"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"LED",value:"Avant + Arri\xe8re + Lat\xe9ral"},{key:"SIGNAL",value:"Clignotants Gauche/Droite"},{key:"S\xc9CURIT\xc9",value:"Frein de s\xe9curit\xe9 + syst\xe8me antivol"},{key:"CONNECTIVIT\xc9",value:"Contr\xf4le via t\xe9l\xe9phone "},{key:"ROUES",value:"Off-road 10 pouces"},{key:"\xc9CLAIRAGE",value:"Phare LED + Feu arri\xe8re + LED lat\xe9ral"},{key:"FEU SIGNAL",value:"OUI"},{key:"CADEAU",value:"Sac offert "}]}],warranty:"D\xe9couvrez la Trottinette M4 PRO 2025 : moteur 500W nominal / 1000W max, batterie 48V 12.5Ah pour une autonomie de 30 km \xe0 40 km. Vitesse max 53 km/h, charge max jusqu'\xe0 120 kg, avec freins \xe0 disque avant/arri\xe8re et amortisseurs pour plus de confort. \xc9cran LCD, klaxon \xe9lectrique, feux LED avant/arri\xe8re, clignotants lat\xe9raux, et syst\xe8me de pliage guidon. Roues 10 pouces off-road et 3 vitesses. Poids total : 24,5 kg.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1056531722949824%2F&show_text=false&width=220&t=0"},{id:"trottinette-navee-n20",title:"TROTTINETTE NAVEE N20",brand:" NAVEE N20",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:2,currentPrice:2890,oldPrice:3500,discount:30,images:["trottinette-navee-n20/trottinette-navee-n20-01.webp","trottinette-navee-n20/trottinette-navee-n20-02.webp","trottinette-navee-n20/trottinette-navee-n20-03.webp","trottinette-navee-n20/trottinette-navee-n20-04.webp","trottinette-navee-n20/trottinette-navee-n20-05.webp","trottinette-navee-n20/trottinette-navee-n20-06.webp","trottinette-navee-n20/trottinette-navee-n20-07.webp","trottinette-navee-n20/trottinette-navee-n20-08.webp","trottinette-navee-n20/trottinette-navee-n20-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W MAX"},{key:"BATTERIE",value:"36V LITHIUM"},{key:"AUTONOMIE",value:"15KM MIN - 20KM MAX"},{key:"VITESSE",value:"25KM MIN - 32KM MAX"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREIN",value:"\xc0 DISQUE ARRI\xc8RE & \xc9LECTRIQUE + E-ABS"},{key:"MAT\xc9RIEL",value:"ALUMINIUM"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"PLIAGE",value:"OUI"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN LCD EY2 AVEC APPLICATION MOBILE "},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"FEU AVANT + FEU STOP \xc0 LED"},{key:"SIGNALISATION",value:"KLAXON + INDICATEUR DE BATTERIE"},{key:"TAILLE DES ROUES",value:"10 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"42V"},{key:"VERROUILLAGE",value:"CADEAU "}]}],warranty:"Optez pour la trottinette \xe9lectrique NAVEE N20 – un parfait m\xe9lange de puissance, s\xe9curit\xe9 et confort. Dot\xe9e d’un moteur robuste de 500W, d’une batterie lithium 36V et d’une autonomie de 15 \xe0 20 km, elle vous accompagne efficacement dans tous vos d\xe9placements urbains. Atteignez une vitesse de 32 km/h tout en gardant un contr\xf4le total gr\xe2ce aux freins \xe0 disque arri\xe8re, syst\xe8me E-ABS, \xe9cran LCD EY2 avec application mobile, et klaxon int\xe9gr\xe9. Son design pliable en aluminium, ses pneus 10 pouces \xe0 chambre \xe0 air, et son \xe9clairage LED avant/arri\xe8re garantissent une exp\xe9rience de conduite fluide et s\xe9curis\xe9e. \xc9tanch\xe9it\xe9 IPX5, indicateur de batterie, triple vitesse, et verrouillage offert en cadeau . Commandez maintenant – livraison gratuite dans toutes les villes !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1025522592251852%2F&show_text=false&width=267&t=0"},{id:"trottinette-togo-36v",title:"TROTTINETTE DUALTRON TOGO 36V",brand:"DUALTRON",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:12,currentPrice:4990,oldPrice:6599,discount:30,images:["trottinette-togo-36v/trottinette-togo-36v-01.webp","trottinette-togo-36v/trottinette-togo-36v-02.webp","trottinette-togo-36v/trottinette-togo-36v-03.webp","trottinette-togo-36v/trottinette-togo-36v-04.webp","trottinette-togo-36v/trottinette-togo-36v-05.webp","trottinette-togo-36v/trottinette-togo-36v-06.webp","trottinette-togo-36v/trottinette-togo-36v-07.webp","trottinette-togo-36v/trottinette-togo-36v-08.webp","trottinette-togo-36v/trottinette-togo-36v-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"800W MAX"},{key:"BATTERIE",value:"36V 7,8AH LITHIUM"},{key:"AUTONOMIE",value:"20KM MIN - 30KM MAX"},{key:"VITESSE",value:"35KM MIN - 40KM MAX"},{key:"CHARGE MAX",value:"110 KG"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE + E-ABS"},{key:"FREIN",value:"FREIN DE S\xc9CURIT\xc9"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54, WATERPROOF IPX4"},{key:"CONCEPTION",value:"PLIABLE OUI"},{key:"SIGNALISATION",value:"SIGNAL \xc0 GAUCHE ET \xc0 DROITE"},{key:"MA\xceTRISE",value:"DEPUIS LE T\xc9L\xc9PHONE "},{key:"TAILLE DES ROUES",value:"9 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"42V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"},{id:"trottinette-togo-48v",title:"TROTTINETTE DUALTRON TOGO 48V",brand:"DUALTRON",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:56,currentPrice:6490,oldPrice:7999,discount:30,images:["trottinette-togo-48v/trottinette-togo-48v-01.webp","trottinette-togo-48v/trottinette-togo-48v-02.webp","trottinette-togo-48v/trottinette-togo-48v-03.webp","trottinette-togo-48v/trottinette-togo-48v-04.webp","trottinette-togo-48v/trottinette-togo-48v-05.webp","trottinette-togo-48v/trottinette-togo-48v-06.webp","trottinette-togo-48v/trottinette-togo-48v-07.webp","trottinette-togo-48v/trottinette-togo-48v-08.webp","trottinette-togo-48v/trottinette-togo-48v-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"1300W MAX"},{key:"BATTERIE",value:"48V 12AH LITHIUM"},{key:"AUTONOMIE",value:"30KM MIN - 45KM MAX"},{key:"VITESSE",value:"45KM MIN - 51KM MAX"},{key:"CHARGE MAX",value:"110 KG"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE + E-ABS"},{key:"FREIN",value:"FREIN DE S\xc9CURIT\xc9"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54, WATERPROOF IPX4"},{key:"CONCEPTION",value:"PLIABLE OUI"},{key:"SIGNALISATION",value:"SIGNAL \xc0 GAUCHE ET \xc0 DROITE"},{key:"MA\xceTRISE",value:"DEPUIS LE T\xc9L\xc9PHONE "},{key:"TAILLE DES ROUES",value:"9 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"54V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"},{id:"trottinette-pro-edition-36v",title:"TROTTINETTE PRO-EDITION 36V 15AH",brand:"PRO-EDITION",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:26,currentPrice:3849,oldPrice:4799,discount:30,images:["trottinette-pro-edition-36v/trottinette-pro-edition-36v-01.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-02.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-03.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-04.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-05.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-06.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-07.webp","trottinette-pro-edition-36v/trottinette-pro-edition-36v-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W - 700W MAX"},{key:"BATTERIE",value:"36V 15AH LITHIUM"},{key:"AUTONOMIE",value:"35KM MIN - 45KM MAX"},{key:"VITESSE",value:"25KM"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREIN",value:"AVANT ET ARRI\xc8RE & \xc9LECTRIQUE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54, WATERPROOF IPX4"},{key:"CONCEPTION",value:"PLIABLE OUI"},{key:"SIGNALISATION",value:"SIGNAL \xc0 GAUCHE ET \xc0 DROITE"},{key:"TAILLE DES ROUES",value:"10 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"42V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F696236402972322%2F&show_text=false&width=264&t=0"},{id:"trottinette-scooter-36V",title:"TROTTINETTE Scooter 36V 15AH",brand:"SCOOTER",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:26,currentPrice:3999,oldPrice:4799,discount:30,images:["trottinette-scooter-36V/trottinette-scooter-36v-01.webp","trottinette-scooter-36V/trottinette-scooter-36v-02.webp","trottinette-scooter-36V/trottinette-scooter-36v-03.webp","trottinette-scooter-36V/trottinette-scooter-36v-04.webp","trottinette-scooter-36V/trottinette-scooter-36v-05.webp","trottinette-scooter-36V/trottinette-scooter-36v-06.webp","trottinette-scooter-36V/trottinette-scooter-36v-07.webp","trottinette-scooter-36V/trottinette-scooter-36v-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W - 700W MAX"},{key:"BATTERIE",value:"36V 15AH LITHIUM"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"AUTONOMIE",value:"35KM MIN - 45KM MAX"},{key:"VITESSE",value:"25KM"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREIN",value:"AVANT ET ARRI\xc8RE & \xc9LECTRIQUE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"MODES DE CONDUITE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"\xc9TANCH\xc9IT\xc9",value:"IP54, WATERPROOF IPX4"},{key:"CONCEPTION",value:"PLIABLE OUI"},{key:"SIGNALISATION",value:"SIGNAL \xc0 GAUCHE ET \xc0 DROITE"},{key:"MA\xceTRISE",value:"MA\xceTRIS\xc9 DEPUIS LE T\xc9L\xc9PHONE"},{key:"TAILLE DES ROUES",value:"10 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"42V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1790742958137283%2F&show_text=false&width=264&t=0"},{id:"trottinette-joyor-48v",title:"TROTTINETTE JOYOR 48V",brand:"JOYOR K4",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:71,currentPrice:3690,oldPrice:5399,discount:30,images:["trottinette-joyor-48v/trottinette-joyor-48v-01.webp","trottinette-joyor-48v/trottinette-joyor-48v-02.webp","trottinette-joyor-48v/trottinette-joyor-48v-03.webp","trottinette-joyor-48v/trottinette-joyor-48v-04.webp","trottinette-joyor-48v/trottinette-joyor-48v-05.webp","trottinette-joyor-48v/trottinette-joyor-48v-06.webp","trottinette-joyor-48v/trottinette-joyor-48v-07.webp","trottinette-joyor-48v/trottinette-joyor-48v-08.webp","trottinette-joyor-48v/trottinette-joyor-48v-09.webp","trottinette-joyor-48v/trottinette-joyor-48v-10.webp","trottinette-joyor-48v/trottinette-joyor-48v-11.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500W MIN - 1000W MAX"},{key:"BATTERIE",value:"48V 10AH LITHIUM"},{key:"AUTONOMIE",value:"20KM MIN - 30KM MAX"},{key:"VITESSE",value:"40KM MIN - 45KM MAX"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREIN",value:"DISQUE ARRI\xc8RE + E-ABS"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"DISPLAY EY2 AVEC APPLICATION MOBILE "},{key:"MODES DE CONDUITE",value:"3 VITESSES"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"CONCEPTION",value:"PLIABLE"},{key:"SI\xc8GE",value:"SI\xc8GE EN CUIR"},{key:"TAILLE DES ROUES",value:"10 POUCES CHAMBRE \xc0 AIR"},{key:"CHARGE",value:"54V"},{key:"KLAXON",value:"OUI"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"},{id:"TROTTINETTE-JOYOR-48V-17.5AH",title:"TROTTINETTE JOYOR 48V 17.5AH",brand:"JOYOR Y 6 S",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:121,currentPrice:5490,oldPrice:6299,discount:30,images:["TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-03.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-05.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-02.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-04.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-01.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-07.webp","TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"1000 W"},{key:"VITESSE",value:"50-56 KM/H"},{key:"MODE DE CONDUITE",value:"3 VITESSES"},{key:"BATTERIE",value:"LITHIUM 48V 17.5AH"},{key:"AUTONOMIE",value:"45-60 KM"},{key:"CHARGE MAX",value:"110 KG"},{key:"FREINAGE",value:"DISQUES AV/AR + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"DISPLAY EY2 (APPLICATION MOBILE) "},{key:"SUSPENSION",value:"AV/AR R\xc9GLABLES"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + إشارات"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"CONCEPTION",value:"PLIABLE"},{key:"KLAXON",value:"OUI"},{key:"CADEAU 1",value:"SAC "},{key:"CADEAU 2",value:"Chambre \xe0 air "},{key:"CADEAU 3",value:"VERROUILLAGE "}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"},{id:"trottinette-mi-electric-scooter-essential",title:"TROTTINETTE Mi Electric Scooter Essential",brand:"Xiaomi",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:165,currentPrice:2699,oldPrice:3509,discount:30,wholesalePrice:{minQuantity:3,pricePerUnit:2375},images:["xiaomi-essential/xiaomi-essential-01.webp","xiaomi-essential/xiaomi-essential-02.webp","xiaomi-essential/xiaomi-essential-03.webp","xiaomi-essential/xiaomi-essential-04.webp","xiaomi-essential/xiaomi-essential-05.webp","xiaomi-essential/xiaomi-essential-06.webp","xiaomi-essential/xiaomi-essential-07.webp","xiaomi-essential/xiaomi-essential-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"500W MAX"},{key:"VITESSE",value:"20 KM/H MIN - 25 KM/H MAX"},{key:"MODE DE CONDUITE",value:"3 VITESSES R\xc9GLABLES"},{key:"BATTERIE",value:"LITHIUM 36V 5100MAH / 183WH"},{key:"AUTONOMIE",value:"15 KM MIN - 20 KM MAX"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREINAGE",value:"DISQUE AR & ELECTRIQUE + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MAT\xc9RIAU",value:"ALUMINIUM"},{key:"\xc9CLAIRAGE",value:"LED AV/AR"},{key:"FEU STOP",value:"LED"},{key:"FEU AVANT",value:"LED"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"AFFICHAGE",value:"LCD AVEC APP MOBILE "},{key:"PNEUS",value:"8,5 POUCES"},{key:"CONCEPTION",value:"PLIABLE"},{key:"INDICATEUR",value:"BATTERIE"},{key:"B\xc9QUILLE",value:"KLAXON INCLUS"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"},{id:"kukirin-g2-pro",title:"TROTTINETTE KUKIRIN G2 PRO",brand:"KUKIRIN",category:"تروتينات",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:256,currentPrice:6490,oldPrice:7599,discount:30,images:["kukaring2pro/kukiring2pro-2.webp","kukaring2pro/kukiring2pro-5.webp","kukaring2pro/kukiring2pro-6.webp","kukaring2pro/kukiring2pro-7.webp","kukaring2pro/kukiring2pro-1.webp","kukaring2pro/kukiring2pro-3.webp","kukaring2pro/kukiring2pro-4.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"1200W"},{key:"VITESSE",value:"50-57 KM/H"},{key:"BATTERIE",value:"48V 15AH"},{key:"AUTONOMIE",value:"40-50 KM"},{key:"CHARGE MAX",value:"120 KG"},{key:"FREIN",value:"DISQUES AV/AR"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SUSPENSION",value:"AV/AR R\xc9GLABLES"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + CLIGNOTANTS"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"AFFICHAGE",value:"\xc9CRAN LCD MULTIFONCTION"},{key:"PNEUS",value:'OFF-ROAD 8.5" RENFORC\xc9S'},{key:"CONCEPTION",value:"PLIABLE AVEC SI\xc8GE EN CUIR"},{key:"INDICATEUR",value:"INDICATEUR DE BATTERIE + CLIGNOTANTS"},{key:"CADEAU",value:" SURPRISE OFFERTE !"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"},{id:"trottinette-dualtron-mini-special",title:"TROTTINETTE DUALTRON MINI SPIECIAL 52V",brand:"DUALTRON",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:192,currentPrice:6490,oldPrice:7500,discount:30,images:["trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-01.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-02.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-03.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-04.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-05.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-06.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-07.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"1450W MAX"},{key:"VITESSE",value:"JUSQU’\xc0 65 KM/H"},{key:"MODE DE CONDUITE",value:"3 VITESSES"},{key:"BATTERIE",value:"LITHIUM 52V 13AH"},{key:"AUTONOMIE",value:"35-45 KM"},{key:"CHARGE MAXIMALE",value:"120 KG"},{key:"FREINAGE",value:"DISQUES AV/AR + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + CLIGNOTANTS"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"WATERPROOF",value:"IPX4"},{key:"AFFICHAGE",value:"DISPLAY EY2 AVEC APP MOBILE"},{key:"PNEUS",value:'9" POUCES CHAMBRE \xc0 AIR'},{key:"CONCEPTION",value:"PLIABLE"},{key:"KLAXON",value:"OUI"},{key:"TABLEAU DE BORD",value:"\xc9CRAN LCD DIGITAL"},{key:"CHARGE",value:"58V"}]}],warranty:"Trottinette \xe9lectrique Dualtron Mini Special 52V, puissante et fiable, con\xe7ue pour les trajets urbains et les d\xe9placements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 13Ah, offrant une autonomie allant de 35 \xe0 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arri\xe8re et syst\xe8me E-ABS int\xe9gr\xe9. \xc9quip\xe9e de suspensions \xe0 l’avant et \xe0 l’arri\xe8re pour un confort optimal, elle supporte jusqu’\xe0 120 kg. Affichage EY2 avec application mobile, \xe9cran LCD, \xe9clairage LED complet avec clignotants gauche/droite, syst\xe8me pliable et \xe9tanch\xe9it\xe9 IPX4/IPX5. Pneus 9 pouces \xe0 chambre \xe0 air. Recharge rapide en 58V. Id\xe9ale pour les amateurs de puissance, de technologie et de mobilit\xe9 urbaine. Livraison gratuite dans toutes les villes marocaines.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1688955131984760%2F&show_text=false&width=267&t=0"},{id:"trottinette-dualtron-mini",title:"TROTTINETTE DUALTRON MINI 52V",brand:"DUALTRON",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:11,currentPrice:6390,oldPrice:7500,discount:30,images:["trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-01.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-02.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-03.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-04.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-05.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-06.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-07.webp","trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"1450W MAX"},{key:"VITESSE",value:"JUSQU’\xc0 65 KM/H"},{key:"MODE DE CONDUITE",value:"3 VITESSES"},{key:"BATTERIE",value:"LITHIUM 52V 12.8AH"},{key:"AUTONOMIE",value:"35-45 KM"},{key:"CHARGE MAXIMALE",value:"120 KG"},{key:"FREINAGE",value:"DISQUES AV/AR + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + CLIGNOTANTS"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"WATERPROOF",value:"IPX4"},{key:"AFFICHAGE",value:"DISPLAY EY2 AVEC APP MOBILE"},{key:"PNEUS",value:'9" POUCES CHAMBRE \xc0 AIR'},{key:"CONCEPTION",value:"PLIABLE"},{key:"KLAXON",value:"OUI"},{key:"TABLEAU DE BORD",value:"\xc9CRAN LCD DIGITAL"},{key:"CHARGE",value:"58V"}]}],warranty:"Trottinette \xe9lectrique Dualtron Mini Special 52V, puissante et fiable, con\xe7ue pour les trajets urbains et les d\xe9placements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 12.8Ah, offrant une autonomie allant de 35 \xe0 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arri\xe8re et syst\xe8me E-ABS int\xe9gr\xe9. \xc9quip\xe9e de suspensions \xe0 l’avant et \xe0 l’arri\xe8re pour un confort optimal, elle supporte jusqu’\xe0 120 kg. Affichage EY2 avec application mobile, \xe9cran LCD, \xe9clairage LED complet avec clignotants gauche/droite, syst\xe8me pliable et \xe9tanch\xe9it\xe9 IPX4/IPX5. Pneus 9 pouces \xe0 chambre \xe0 air. Recharge rapide en 58V. Id\xe9ale pour les amateurs de puissance, de technologie et de mobilit\xe9 urbaine. Livraison gratuite dans toutes les villes marocaines.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4165609437004692%2F&show_text=false&width=267&t=0"},{id:"dualtron-pop-54v",title:"TROTTINETTE DUALTRON POP 52V",brand:"DUALTRON",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:192,currentPrice:5890,oldPrice:7500,discount:35,images:["dualtron-pop/dualtron-pop_52v_-01.webp","dualtron-pop/dualtron-pop_52v_-02.webp","dualtron-pop/dualtron-pop_52v_-03.webp","dualtron-pop/dualtron-pop_52v_-04.webp","dualtron-pop/dualtron-pop_52v_-05.webp","dualtron-pop/dualtron-pop_52v_-06.webp","dualtron-pop/dualtron-pop_52v_-07.webp","dualtron-pop/dualtron-pop_52v_-08.webp","dualtron-pop/dualtron-pop_52v_-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"1000W MIN - 1450W MAX"},{key:"VITESSE",value:"50-67 KM/H"},{key:"MODE DE CONDUITE",value:"3 VITESSES"},{key:"BATTERIE",value:"LITHIUM 52V 14AH"},{key:"AUTONOMIE",value:"30-40 KM"},{key:"CHARGE MAXIMALE",value:"120 KG"},{key:"FREINAGE",value:"DISQUES AV/AR + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + CLIGNOTANTS"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"WATERPROOF",value:"IPX4"},{key:"AFFICHAGE",value:"DISPLAY EY2"},{key:"PNEUS",value:'9" Pouces CHAMBRE A AIR'},{key:"CONCEPTION",value:"PLIABLE"},{key:"KLAXON",value:"OUI"},{key:"TABLEAU DE BORD",value:"DIGITAL"}]}],warranty:"Trottinette \xe9lectrique Dualtron Pop 52V puissante et pratique, id\xe9ale pour un usage quotidien en ville ou pour des d\xe9placements rapides. \xc9quip\xe9e d’un moteur allant de 1000W jusqu’\xe0 1450W en puissance maximale, avec une batterie lithium 52V 14Ah offrant une autonomie de 30 \xe0 40 km par charge. Sa vitesse varie entre 50 et 67 km/h. Elle dispose d’un syst\xe8me de freinage avant et arri\xe8re avec E-ABS pour plus de s\xe9curit\xe9. Suspension avant et arri\xe8re, poids maximal support\xe9 : 120 kg. \xc9cran num\xe9rique (DISPLAY EY2) avec application mobile, \xe9clairage LED avant et arri\xe8re, clignotants gauche/droite, pliable, r\xe9sistante \xe0 l’eau selon les normes IPX4 et IPX5, et se recharge en 58V. Parfaite pour les passionn\xe9s de performance et de technologie. Livraison gratuite dans toutes les villes marocaines.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F667610599227375%2F&show_text=false&width=267&t=0"},{id:"trottinette-bison-gt-1000",title:"TROTTINETTE BISON GT 1000",brand:"Ecoxtrem",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:136,currentPrice:5490,oldPrice:7099,discount:40,images:["bison-gt/bison-gt-1000-1.webp","bison-gt/bison-gt-1000-2.webp","bison-gt/bison-gt-1000-3.webp","bison-gt/bison-gt-1000-4.webp","bison-gt/bison-gt-1000-5.webp","bison-gt/bison-gt-1000-6.webp","bison-gt/bison-gt-1000-7.webp","bison-gt/bison-gt-1000-8.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MARQUE",value:"BISON GT ORIGINAL"},{key:"MOTEUR",value:"1000W MAX"},{key:"VITESSE",value:"JUSQU'\xc0 50 KM/H"},{key:"BATTERIE",value:"48V 13AH LITHIUM"},{key:"AUTONOMIE",value:"JUSQU'\xc0 40 KM"},{key:"CHARGE MAX",value:"120 KG"},{key:"FREINS",value:"DISQUES AVANT ET ARRI\xc8RE + E-ABS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"PNEUS",value:"10 POUCES OFF-ROAD"},{key:"AMORTISSEURS",value:"DOUBLE SUSPENSION"},{key:"TABLEAU DE BORD",value:"\xc9CRAN DIGITAL"},{key:"LUMI\xc8RES LED",value:"AVANT & ARRI\xc8RE"},{key:"PLIABLE",value:"OUI"},{key:"KLAXON",value:"OUI"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"},{id:"trottinette-ienyrid-m9",title:"TROTTINETTE IENYRID M9",brand:"IENYRID",category:"تروتينات",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:65,currentPrice:6399,oldPrice:6399,discount:30,images:["trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-02.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-03.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-04.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-05.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-06.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-07.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-08.webp","trottinette-ienyrid-m9/trottinette-ienyrid-m9-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"1200W MAX "},{key:"BATTERIE",value:"48V 18AH LITHIUM "},{key:"AUTONOMIE",value:"40km min - 50km max"},{key:"VITESSE MAX",value:"51 km/h "},{key:"CHARGE MAX",value:"130 KG "},{key:"FREIN",value:"Disque Avant & Arri\xe8re + E-ABS"},{key:"SUSPENSION",value:"Double Amortisseur "},{key:"TABLEAU",value:"Digital "},{key:"VITESSE",value:"3 niveaux "},{key:"PNEU",value:"11 pouces Off-road tubeless "},{key:"KLAXON",value:"\xc9lectrique "}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"LED",value:"Avant + Arri\xe8re "},{key:"\xc9CLAIRAGE",value:"LED Avant & Feu Arri\xe8re"},{key:"AFFICHEUR",value:"Grand Afficheur LED"},{key:"SI\xc8GE",value:"Inclus + Box arri\xe8re (si\xe8ge enfant)"},{key:"PLIABLE",value:"OUI "},{key:"SIGNAL",value:"Gauche & Droite"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"},{id:"trottinette-EcoXtrem-liner",title:"TROTTINETTE EcoXtrem LINEAR",brand:"EcoXtrem",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:138,currentPrice:3250,oldPrice:4199,discount:30,images:["ecoxtrem-linear/ecoxtrem-linear-01.webp","ecoxtrem-linear/ecoxtrem-linear-08.webp","ecoxtrem-linear/ecoxtrem-linear-02.webp","ecoxtrem-linear/ecoxtrem-linear-03.webp","ecoxtrem-linear/ecoxtrem-linear-04.webp","ecoxtrem-linear/ecoxtrem-linear-05.webp","ecoxtrem-linear/ecoxtrem-linear-06.webp","ecoxtrem-linear/ecoxtrem-linear-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MARQUE",value:"ECOXTREM LINEAR"},{key:"MOTEUR",value:"350W - 700W MAX"},{key:"VITESSE",value:"25 - 30 KM/H"},{key:"BATTERIE",value:"36V 7,8AH LITHIUM"},{key:"AUTONOMIE",value:"15 - 25 KM"},{key:"CHARGE MAX",value:"100 KG"},{key:"FREIN",value:"DISQUE ARRI\xc8RE + \xc9LECTRIQUE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"ROUES",value:"10 POUCES TUBELESS"},{key:"\xc9TANCH\xc9IT\xc9",value:"IPX5"},{key:"\xc9CRAN",value:"LCD EY2"},{key:"VITESSE",value:"3 NIVEAUX R\xc9GLABLES"},{key:"LED",value:"AVANT + STOP ARRI\xc8RE"},{key:"SIGNAL",value:"CLIGNOTANTS GAUCHE/DROITE"},{key:"KLAXON",value:"OUI"},{key:"PLIABLE",value:"OUI"},{key:"CADEAU",value:"SAC OFFERT "}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"},{id:"trottinette-eclipse",title:"TROTTINETTE Eclipse",brand:"eclipse",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:138,currentPrice:1369,oldPrice:1700,discount:30,images:["trottinette-eclipse/trottinette-eclipse-01.webp","trottinette-eclipse/trottinette-eclipse-02.webp","trottinette-eclipse/trottinette-eclipse-03.webp","trottinette-eclipse/trottinette-eclipse-04.webp","trottinette-eclipse/trottinette-eclipse-05.webp","trottinette-eclipse/trottinette-eclipse-06.webp","trottinette-eclipse/trottinette-eclipse-07.webp"],features:[{title:"CARACT\xc9RISTIQUES",icon:"fa-bolt",items:[{key:"MOTEUR",value:"130 W MAX"},{key:"BATTERIE",value:"24 V LITHIUM"},{key:"CHARGE MAX",value:"50 KG"},{key:"FREINAGE",value:"MOTEUR"},{key:"VITESSE MAX",value:"15 KM"},{key:"TABLEAU",value:"DIGITAL"},{key:"MUSIC",value:"BLUETOOTH"},{key:"CHARGE",value:"24V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1739254930185000%2F&show_text=false&width=267&t=0"},{id:"trottinette-elite",title:"TROTTINETTE Elite",brand:"eclipse",category:"تروتينات",availability:"متوفر في المخزون",ratings:4.5,reviewCount:17,currentPrice:1540,oldPrice:2399,discount:30,images:["trottinette-elite/trottinette-elite-01.webp","trottinette-elite/trottinette-elite-02.webp","trottinette-elite/trottinette-elite-03.webp","trottinette-elite/trottinette-elite-04.webp","trottinette-elite/trottinette-elite-05.webp"],features:[{title:"CARACT\xc9RISTIQUES",icon:"fa-bolt",items:[{key:"MOTEUR",value:"130 W MAX"},{key:"BATTERIE",value:"24 V LITHIUM"},{key:"CHARGE MAX",value:"55 KG"},{key:"FREINAGE",value:"MOTEUR"},{key:"VITESSE MAX",value:"17 KM"},{key:"TABLEAU",value:"DIGITAL"},{key:"AMORTISSEUR",value:"AVANT"},{key:"CHARGE",value:"24V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F586985493781249%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-hiland-aluminium",title:"V\xc9LO VTT HILAND ALUMINIUM 27.5",brand:"HILAND",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:180,currentPrice:1699,oldPrice:2200,discount:30,images:["v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-01.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-02.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-03.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-04.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-05.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-06.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-07.webp","v\xe9lo-hiland-aluminium/v\xe9lo-hiland-aluminium-08.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"27.5 POUCES"},{key:"QUALIT\xc9",value:"HILAND 1E QUALIT\xc9"},{key:"MAT\xc9RIAU",value:"ALUMINIUM"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"GARDES-BOUES",value:"AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Vert, Noir, Rouge"}]}],warranty:"V\xc9LO VTT HILAND ALUMINIUM 27.5 pouces, con\xe7u pour les passionn\xe9s de qualit\xe9 et de performance, son changement de vitesse Shimano 3\xd77, son amortisseur avant et ses freins \xe0 disque, il est pr\xeat pour la ville comme pour les sentiers. Si\xe8ge sport en cuir, garde-boues avant/arri\xe8re, et design robuste pour un confort et une s\xe9curit\xe9 optimaux. Couleurs disponibles : Vert, Noir, Rouge.  Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9985422651479776%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-vtt-galactus",title:"V\xc9LO VTT GALACTUS 26",brand:"GALACTUS",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:24,currentPrice:1449,oldPrice:1600,discount:30,images:["v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-01.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-02.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-03.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-04.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-05.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-06.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-07.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-08.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"26 POUCES"},{key:"QUALIT\xc9",value:"GALACTUS 1E QUALIT\xc9"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"GARDES-BOUES",value:"AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Vert, Gris"}]}],warranty:"V\xc9LO VTT GALACTUS 26 pouces, con\xe7u pour les passionn\xe9s de qualit\xe9 et de performance, son changement de vitesse Shimano 3\xd77, son amortisseur avant et ses freins \xe0 disque, il est pr\xeat pour la ville comme pour les sentiers. Si\xe8ge sport en cuir, garde-boues avant/arri\xe8re, et design robuste pour un confort et une s\xe9curit\xe9 optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"},{id:"v\xe9lo-vtt-galactus-24",title:"V\xc9LO VTT GALACTUS 24",brand:"GALACTUS",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:52,currentPrice:1299,oldPrice:1500,discount:30,images:["v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-01.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-02.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-03.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-04.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-05.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-06.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-07.webp","v\xe9lo-vtt-galactus/v\xe9lo-vtt-galactus-08.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"24 POUCES"},{key:"QUALIT\xc9",value:"GALACTUS 1E QUALIT\xc9"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"GARDES-BOUES",value:"AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Vert, Gris"}]}],warranty:"V\xc9LO VTT GALACTUS 24 pouces, con\xe7u pour les passionn\xe9s de qualit\xe9 et de performance, son changement de vitesse Shimano 3\xd77, son amortisseur avant et ses freins \xe0 disque, il est pr\xeat pour la ville comme pour les sentiers. Si\xe8ge sport en cuir, garde-boues avant/arri\xe8re, et design robuste pour un confort et une s\xe9curit\xe9 optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"},{id:"v\xe9lo-vtt-galactus-20",title:"V\xc9LO VTT GALACTUS 20",brand:"GALACTUS",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:120,currentPrice:1199,oldPrice:1399,discount:30,images:["v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-01.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-02.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-03.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-04.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-05.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-06.webp","v\xe9lo-vtt-galactus-20/v\xe9lo-vtt-galactus-20-07.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"20 POUCES"},{key:"QUALIT\xc9",value:"GALACTUS 1E QUALIT\xc9"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"DOUBLE AMORTISSEUR"},{key:"COULEURS DISPONIBLES",value:"Vert, Gris"}]}],warranty:"V\xc9LO VTT GALACTUS 20 pouces – Parfait pour les jeunes aventuriers ! \xc9quip\xe9 d’un d\xe9railleur Shimano 3\xd77, freins \xe0 disque, double amortisseur (avant et arri\xe8re) pour un confort et une s\xe9curit\xe9 optimaux. Selle sport en cuir, design robuste, id\xe9al pour la ville et les sentiers. Couleurs disponibles : Vert, Gris.  Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F592498879913816%2F&show_text=false&width=267&t=0"},{id:"vtt-sport-bike-27.5",title:"V\xc9LO VTT SPORT BIKE 27.5",brand:"SPORT BIKE",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:180,currentPrice:1399,oldPrice:1700,discount:30,images:["vtt-sport-bike-27.5/vtt-sport-bike-27.5-01.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-02.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-03.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-04.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-05.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-06.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-07.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-08.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-09.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-10.webp","vtt-sport-bike-27.5/vtt-sport-bike-27.5-11.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"27.5 POUCES"},{key:"QUALIT\xc9",value:"SPORT BIKE 1\xc8RE QUALIT\xc9"},{key:"ROUE MAT\xc9RIAU",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"GARDES-BOUES",value:"AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Bleu, Vert, Gris, Rouge"}]}],warranty:"V\xe9lo VTT Sport Bike 27.5 pouces, con\xe7u pour les passionn\xe9s de qualit\xe9 et de performance, son changement de vitesse Shimano 3\xd77, son amortisseur avant et ses freins \xe0 disque, il est pr\xeat pour la ville comme pour les sentiers. Si\xe8ge sport en cuir, garde-boues avant/arri\xe8re, et design robuste pour un confort et une s\xe9curit\xe9 optimaux. Couleurs disponibles : Bleu, Vert, Gris, Rouge.  Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F591581090008506%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-vtt-sport-bike",title:"V\xc9LO VTT SPORT BIKE 26",brand:"SPORT BIKE",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:215,currentPrice:1349,oldPrice:1600,discount:30,images:["v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-01.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-02.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-03.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-04.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-05.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-06.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-07.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-08.webp","v\xe9lo-vtt-sport-bike/v\xe9lo-vtt-sport-bike-09.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"26 POUCES"},{key:"QUALIT\xc9",value:"SPORT BIKE 1\xc8RE QUALIT\xc9"},{key:"ROUE MAT\xc9RIAU",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUE AVANT ET ARRI\xc8RE"},{key:"GARDES-BOUES",value:"AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Orange, Gris, Rouge, Bleu."}]}],warranty:"V\xe9lo VTT Sport Bike 26 pouces, con\xe7u pour les passionn\xe9s de qualit\xe9 et de performance, son changement de vitesse Shimano 3\xd77, son amortisseur avant et ses freins \xe0 disque, il est pr\xeat pour la ville comme pour les sentiers. Si\xe8ge sport en cuir, garde-boues avant/arri\xe8re, et design robuste pour un confort et une s\xe9curit\xe9 optimaux. Couleurs disponibles : Orange, Gris, Rouge, Bleu.  Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F932129538899048%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-italiano-alamunium-26",title:"V\xc9LO ITALIANO ALUMINIUM 26",brand:"ITALIANO",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:19,currentPrice:1599,oldPrice:2e3,discount:30,images:["v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-01.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-02.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-03.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-04.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-05.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-06.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-07.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-08.webp","v\xe9lo-italiano-alamunium-26/v\xe9lo-italiano-alamunium-26-09.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"MATERIAU",value:"V\xc9LO ALUMINIUM"},{key:"QUALIT\xc9",value:"ITALIANO QUALIT\xc9"},{key:"ROUE MAT\xc9RIAU",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"GARDES-BOUES",value:"AV ET AR"},{key:"FREINS",value:"AVANT ET ARRI\xc8RE"}]}],warranty:"V\xe9lo de qualit\xe9 sup\xe9rieure fabriqu\xe9 en aluminium, offrant une construction robuste et l\xe9g\xe8re pour une conduite agr\xe9able. \xc9quip\xe9 de roues de 26 pouces et d'une transmission Shimano 3\xd77 vitesses, ce v\xe9lo est parfait pour les trajets urbains ou les aventures en plein air. Les garde-boues avant et arri\xe8re assurent une conduite propre, m\xeame par temps humide. Le cadre en aluminium et le plateau Shimano garantissent une durabilit\xe9 \xe0 long terme, tandis que l'amortisseur avant am\xe9liore le confort de conduite. Le si\xe8ge sport en cuir offre un confort suppl\xe9mentaire, et les freins \xe0 disque avant et arri\xe8re assurent une s\xe9curit\xe9 maximale \xe0 chaque arr\xeat.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F991880763052426%2F&show_text=false&width=264&t=0"},{id:"v\xe9lo-italiano-27.5",title:"V\xc9LO VTT ITALIANO 27.5",brand:"ITALIANO",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:59,currentPrice:1499,oldPrice:1800,discount:30,images:["v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-01.webp","v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-02.webp","v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-03.webp","v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-04.webp","v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-05.webp","v\xe9lo-italiano-27.5/v\xe9lo-italiano-27.5-06.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"ROUES",value:"27,5 POUCES"},{key:"QUALIT\xc9",value:"ITALIANO"},{key:"JANTES",value:"ALUMINIUM"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"VITESSE",value:"21 (3\xd77)"},{key:"PLATEAU",value:"SHIMANO"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT CUIR"},{key:"GARDES-BOUES",value:"AV & AR"},{key:"FREINS",value:"DISQUE AV & AR"}]}],warranty:"V\xe9lo VTT ITALIANO 27,5 – \xc9quip\xe9 de roues de 27,5 pouces, transmission Shimano 3\xd77 vitesses (21 vitesses), plateau Shimano, suspension avant, et freins \xe0 disque \xe0 l’avant et \xe0 l’arri\xe8re. Selle sport en cuir offrant un confort optimal. Parfait pour les terrains vari\xe9s et les trajets quotidiens. Livraison gratuite dans toutes les villes marocaines",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687037813701619%2F&show_text=false&width=264&t=0"},{id:"v\xe9lo-vtt-ciclista-2025",title:"V\xc9LO VTT CICLISTA 2025",brand:"CICLISTA",category:"دراجات هوائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:41,currentPrice:1399,oldPrice:1500,discount:30,images:["v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-01.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-02.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-03.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-04.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-05.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-06.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-07.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-08.webp","v\xe9lo-vtt-ciclista-2025/v\xe9lo-vtt-ciclista-2025-09.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SIMLICHT"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"PLATEAU SIMLICHT"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"FREINS",value:"FREINS \xc0 DISQUE AVANT ET ARRI\xc8RE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"v\xe9lo-vtt-ciclista-plus",title:"V\xc9LO VTT CICLISTA PLUS 2025",brand:"CICLISTA",category:"دراجات هوائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:89,currentPrice:1899,oldPrice:2599,discount:30,images:["v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-01.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-02.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-03.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-04.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-05.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-06.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-07.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-08.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-09.webp","v\xe9lo-vtt-ciclista-plus/v\xe9lo-vtt-ciclista-plus-10.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"ROUES",value:"26 \xd7 4.0 POUCES"},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SIMLICHT"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"PLATEAU SIMLICHT"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"FREINS",value:"FREINS \xc0 DISQUE AVANT ET ARRI\xc8RE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"madame-youmeig-26",title:"V\xc9LO MADAME YOUMEIG 26",brand:"YOUMEIG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:325,currentPrice:1275,oldPrice:1500,discount:30,images:["v\xe9lo-madame-youmeig-26/madame-youmeig-26-01.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-02.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-03.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-04.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-05.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-06.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-07.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-08.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-09.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-10.webp","v\xe9lo-madame-youmeig-26/madame-youmeig-26-11.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SHIMANO"},{key:"VITESSE",value:"VITESSE 1\xd77"},{key:"PLATEAU",value:"PLATEAU SHIMANO‏"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AMORTISSEUR",value:"AMORTISSEUR SI\xc8GE"},{key:"SI\xc8GE",value:"SI\xc8GE CUIR"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"KLAXON",value:"INCLUS"},{key:"FEU STOP",value:"FEU STOP ARRI\xc8RE"},{key:"PANIER",value:"GRAND PANIER DE V\xc9LO"},{key:"FREINS",value:"FREINAGE AVANT ET ARRI\xc8RE"},{key:"COULEUR",value:"Mauve, Jaune, Bleu"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F619757167599413%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-madame-youmeig-26p",title:"V\xc9LO MADAME YOUMEIG 26",brand:"YOUMEIG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:25,currentPrice:1349,oldPrice:1600,discount:30,images:["v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-01.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-02.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-03.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-04.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-05.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-06.webp","v\xe9lo-madame-youmeig-26p/madame-youmeig-26p-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SHIMANO"},{key:"VITESSE",value:"VITESSE 1\xd77"},{key:"PLATEAU",value:"PLATEAU SHIMANO‏"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AMORTISSEUR",value:"AMORTISSEUR SI\xc8GE"},{key:"SI\xc8GE",value:"SI\xc8GE CUIR"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"KLAXON",value:"INCLUS"},{key:"FEU STOP",value:"FEU STOP ARRI\xc8RE"},{key:"PANIER",value:"GRAND PANIER DE V\xc9LO"},{key:"FREINS",value:"FREINAGE AVANT ET ARRI\xc8RE"},{key:"COULEUR",value:"Bleu, Blanc, Gris"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-hadmeng-pliable",title:"V\xc9LO HADMENG PLIABLE",brand:"HADMENG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:160,currentPrice:1549,oldPrice:1799,discount:30,images:["v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-01.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-02.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-03.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-04.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-05.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-06.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-07.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-08.webp","v\xe9lo-hadmeng-pliable/v\xe9lo-hadmeng-pliable-09.webp"],features:[{title:"CARACT\xc9RISTIQUES PRINCIPALES",icon:"fa-cogs",items:[{key:"TAILLE DES ROUES",value:"20 POUCES"},{key:"TYPE",value:"V\xc9LO PLIABLE"},{key:"ROUES",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SHIMANO"},{key:"VITESSE",value:"1\xd77"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"GARDE-BOUE",value:"AVANT ET ARRI\xc8RE"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT EN CUIR"},{key:"FREINS",value:"FREINS \xc0 DISQUE AVANT ET ARRI\xc8RE"},{key:"COULEURS DISPONIBLES",value:"Gris, Noir"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1341977030312199%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-bmx-gtr-aluminum",title:"V\xc9LO BMX GTR ALUMINIUM 26",brand:"BMX GTR",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:64,currentPrice:1599,oldPrice:1899,discount:10,images:["v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-01.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-02.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-03.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-04.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-05.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-06.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-07.webp","v\xe9lo-bmx-gtr-aluminum/v\xe9lo-bmx-gtr-aluminum-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"MAT\xc9RIAU",value:"V\xc9LO ALUMINIUM"},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SUNRISE"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"PLATEAU SUNRISE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"FREINS",value:"FREIN \xc0 DISQUE AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"GARDES-BOUE",value:"LES GARDES-BOUES AV ET AR"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3545953265711523%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-vtt-gmka",title:"V\xc9LO VTT GMKA 26",brand:"GMKA",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:125,currentPrice:1349,oldPrice:1600,discount:30,images:["v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-01.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-02.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-03.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-04.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-05.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-06.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-07.webp","v\xe9lo-vtt-gmka/v\xe9lo-vtt-gmka-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"QUALIT\xc9",value:"GMKA 1E QUALIT\xc9 "},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SSKANC"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"PLATEAU SSKANC"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"FREINS",value:"FREIN \xc0 DISQUE AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"GARDES-BOUE",value:"LES GARDES-BOUES AV ET AR"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"velo-bmx-gtr-aluminium-2025",title:"V\xc9LO BMX GTR ALUMINIUM 26",brand:"BMX GTR",category:"دراجات هوائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:325,currentPrice:1699,oldPrice:2199,discount:30,images:["V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-01.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-02.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-03.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-04.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-05.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-06.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-07.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-08.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-09.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-10.webp","V\xc9LO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-11.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"MAT\xc9RIAU",value:"V\xc9LO ALUMINIUM"},{key:"QUALIT\xc9",value:"BMX GTR 1E QUALIT\xc9 "},{key:"ROUES MAT\xc9RIAU",value:"ROUE DE V\xc9LO ALUMINIUM"},{key:"CHANGEMENT",value:"CHANGEMENT SUNRISE"},{key:"VITESSE",value:"VITESSE 3\xd77=21"},{key:"PLATEAU",value:"PLATEAU SUNRISE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"FREINS",value:"FREIN \xc0 DISQUE AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT CUIR"},{key:"GARDES-BOUE",value:"LES GARDES-BOUES AV ET AR"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"},{id:"V\xc9LO-VTT-YOUMEIG-20",title:" V\xc9LO VTT YOUMEIG 20",brand:"YOUMEIG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:26,currentPrice:990,oldPrice:1399,discount:30,images:["V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-01.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-02.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-03.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-04.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-05.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-06.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-07.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-08.webp","V\xc9LO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"20 POUCES"},{key:"GARDES-BOUES",value:"AV ET AR"},{key:"QUALIT\xc9",value:"YOUMEIG 1E QUALIT\xc9"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT DE VITESSE",value:"SHIMANO"},{key:"VITESSE",value:"1\xd77"},{key:"PLATEAU",value:"SHIMANO"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT EN CUIR"},{key:"FREINS",value:"DISQUES AVANT ET ARRI\xc8RE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"},{id:"V\xc9LO-MADAME-HADMENG-26",title:"V\xc9LO MADAME HADMENG 26",brand:"HADMENG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:56,currentPrice:1649,oldPrice:2e3,discount:30,images:["V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-01.webp","V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-02.webp","V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-03.webp","V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-04.webp","V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-05.webp","V\xc9LO-MADAME-HADMENG-26/velo-madame-hadmeng-26-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"26 POUCES"},{key:"ROUE DE V\xc9LO",value:"ALUMINIUM"},{key:"CHANGEMENT DE VITESSE",value:"SHIMANO"},{key:"VITESSE",value:"1\xd77"},{key:"PLATEAU",value:"SHIMANO"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SI\xc8GE",value:"CUIRE AVEC AMORTISSEUR"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"KLAXON",value:"INCLUS"},{key:"FEU STOP ARRI\xc8RE",value:"INCLUS"},{key:"PANIER",value:"GRAND PANIER DE V\xc9LO"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE"},{key:"VERROUILLAGE",value:"DE V\xc9LO cadeau "}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F492294450206178%2F&show_text=false&width=267&t=0"},{id:"V\xc9LO-MADAME-ITALIANO-28",title:"V\xc9LO MADAME ITALIANO 28",brand:"ITALIANO",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:9,currentPrice:1749,oldPrice:2e3,discount:30,images:["V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-01.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-02.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-03.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-04.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-05.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-06.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-07.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-08.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-09.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-10.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-11.webp","V\xc9LO-MADAME-ITALIANO-28/madame-italiano-28-12.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"28 POUCES"},{key:"ROUE DE V\xc9LO",value:"ALUMINIUM"},{key:"CHANGEMENT DE VITESSE",value:"SHIMANO"},{key:"VITESSE",value:"1\xd77"},{key:"PLATEAU",value:"SHIMANO"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SI\xc8GE",value:"CUIRE"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"KLAXON",value:"INCLUS"},{key:"FEU STOP ARRI\xc8RE",value:"INCLUS"},{key:"LED",value:"AVANT ET ARRI\xc8RE"},{key:"PANIER",value:"GRAND PANIER DE V\xc9LO"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE"},{key:"VERROUILLAGE",value:"OFFERT AVEC LE V\xc9LO"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1146905996905695%2F&show_text=false&width=267&t=0"},{id:"V\xc9LO-VTT-ITALIANO-20",title:"V\xc9LO VTT ITALIANO 20",brand:"ITALIANO",category:"دراجات هوائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:9,currentPrice:1190,oldPrice:1399,discount:30,images:["V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-01.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-02.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-03.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-04.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-05.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-06.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-07.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-08.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-09.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-10.webp","V\xc9LO-VTT-ITALIANO-20/velo-vtt-italiano-20-11.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"20 POUCES"},{key:"GARDES-BOUES",value:"AV ET AR"},{key:"QUALIT\xc9",value:"ITALIANO QUALIT\xc9 100%"},{key:"ROUE",value:"ALUMINIUM"},{key:"CHANGEMENT DE VITESSE",value:"SHIMANO"},{key:"VITESSE",value:"1\xd77"},{key:"PLATEAU",value:"SHIMANO"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"SPORT EN CUIR"},{key:"FREINS",value:"DISQUES AVANT ET ARRI\xc8RE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1745763942639295%2F&show_text=false&width=267&t=0"},{id:"velo-vtt-haomeng-27.5",title:"V\xc9LO VTT HAOMENG 27.5",brand:"HAOMENG",category:"دراجات هوائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:266,currentPrice:1549,oldPrice:1899,discount:30,images:["velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp","velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"ROUES",value:"27.5 POUCES"},{key:"ROUE DE V\xc9LO",value:"ALUMINIUM"},{key:"QUALIT\xc9",value:"HAOMENG"},{key:"FREINS",value:"FREIN \xc0 DISQUE AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"AMORTISSEUR AVANT"},{key:"SI\xc8GE",value:"SI\xc8GE SPORT EN CUIR"},{key:"CHANGEMENT DE VITESSE",value:"LXYANG"},{key:"VITESSE",value:"3\xd77 = 21 VITESSES"},{key:"PLATEAU",value:"LXYANG"}]}],warranty:"Commandez d\xe8s maintenant votre VTT HAOMENG 27.5 pouces et profitez d'une livraison gratuite partout au Maroc ! B\xe9n\xe9ficiez d'un v\xe9lo de haute qualit\xe9 avec des composants robustes en aluminium, freins \xe0 disque avant et arri\xe8re, et une transmission 21 vitesses LXYANG pour une exp\xe9rience de conduite optimale. Notre service de livraison s\xe9curis\xe9 vous garantit de recevoir votre produit rapidement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne manquez pas cette occasion unique d'acqu\xe9rir un v\xe9lo performant et confortable – achetez en ligne d\xe8s aujourd'hui !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"},{id:"velo-electrique-likebike-harley-u11",title:"V\xc9LO \xc9LECTRIQUE LIKEBIKE HARLEY U11",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:136,currentPrice:8099,oldPrice:10999,discount:30,images:["V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-02.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-03.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-04.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-05.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-06.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-07.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-08.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-09.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-10.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-11.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-12.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-14.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-15.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-16.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500 W MIN - 720 W MAX"},{key:"BATTERIE",value:"48 V 18,2 AH - LITHIUM"},{key:"CHARGE MAX",value:"130 KG"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE"},{key:"AUTONOMIE",value:"45 KM - 60 KM MAX"},{key:"MODE ASSISTANCE",value:"100 KM MAX"},{key:"VITESSE MAX",value:"51 KM/H"},{key:"CHARGE RAPIDE",value:"54V"},{key:"D\xc9MARRAGE",value:"CONTACT"},{key:"TABLEAU",value:"DIGITAL"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"NIVEAUX DE VITESSE",value:"5 NIVEAUX"},{key:"CHANGEMENT SHIMANO",value:"7E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"SIGNAL",value:"\xc0 DROITE ET \xc0 GAUCHE"},{key:"AMORTISSEUR",value:"AVANT ET ARRI\xc8RE"},{key:"SI\xc8GE",value:"CUIR - 2 PLACES EN CUIR"},{key:"PNEU",value:"20,4 POUCES"},{key:"KLAXON",value:"\xc9LECTRIQUE"},{key:"PI\xc8CES",value:"SHIMANO"},{key:"GARDE-BOUE",value:"AV ET AR"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"},{id:"velo-electrique-harley-u9",title:"V\xc9LO \xc9LECTRIQUE HARLEY U9",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:120,currentPrice:8499,oldPrice:10999,discount:30,images:["likebike-harley-u9/likebike-u9-01.webp","likebike-harley-u9/likebike-u9-02.webp","likebike-harley-u9/likebike-u9-03.webp","likebike-harley-u9/likebike-u9-04.webp","likebike-harley-u9/likebike-u9-05.webp","likebike-harley-u9/likebike-u9-06.webp","likebike-harley-u9/likebike-u9-07.webp","likebike-harley-u9/likebike-u9-08.webp","likebike-harley-u9/likebike-u9-09.webp","likebike-harley-u9/likebike-u9-10.webp","likebike-harley-u9/likebike-u9-11.webp","likebike-harley-u9/likebike-u9-12.webp","likebike-harley-u9/likebike-u9-13.webp","likebike-harley-u9/likebike-u9-14.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"750 W MAX"},{key:"BATTERIE",value:"LITHIUM 48V 18.2AH"},{key:"CHARGE RAPIDE",value:"COMPATIBLE 54V"},{key:"CHARGE MAXIMALE",value:"130 KG"},{key:"AUTONOMIE NORMALE",value:"45-60 KM"},{key:"MODE ASSISTANCE",value:"100 KM MAX"},{key:"VITESSE",value:"50 KM/H MIN - 62 KM/H MAX"},{key:"FREINS",value:"DISQUES AV/AR"},{key:"D\xc9MARRAGE",value:"CONTACT"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN DIGITAL"},{key:"NIVEAUX DE VITESSE",value:"5 NIVEAUX"},{key:"TRANSMISSION",value:"7 VITESSES SHIMANO"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + CLIGNOTANTS"},{key:"AMORTISSEURS",value:"R\xc9GLABLES AV/AR"},{key:"CONFORT",value:"SI\xc8GE CUIR 2 PLACES"},{key:"PNEUS",value:'20.4" AVEC GARDE-BOUE'},{key:"KLAXON",value:"\xc9LECTRIQUE"},{key:"PI\xc8CES",value:"SHIMANO"}]}],warranty:"D\xe9couvrez le v\xe9lo \xe9lectrique Likebike Harley U9, un mod\xe8le puissant et \xe9l\xe9gant inspir\xe9 des motos Harley, tr\xe8s appr\xe9ci\xe9 au Maroc. Avec son moteur performant de 750W, sa batterie lithium 48V 18.2Ah et son \xe9cran LCD intuitif, ce v\xe9lo Likebike offre une autonomie exceptionnelle jusqu’\xe0 100 km en mode assistance. Parfait pour une mobilit\xe9 urbaine confortable et styl\xe9e, le Likebike Harley U9 est l’option id\xe9ale pour tous ceux qui cherchent une trottinette \xe9lectrique robuste et design au Maroc",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"},{id:"velo-electrique-likebike-shine-s",title:"V\xc9LO \xc9LECTRIQUE LIKEBIKE SHINE S",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:232,currentPrice:7199,oldPrice:10099,discount:30,images:["likebike-shine-s/likebike-shine-s-09.webp","likebike-shine-s/likebike-shine-s-02.webp","likebike-shine-s/likebike-shine-s-03.webp","likebike-shine-s/likebike-shine-s-04.webp","likebike-shine-s/likebike-shine-s-05.webp","likebike-shine-s/likebike-shine-s-06.webp","likebike-shine-s/likebike-shine-s-07.webp","likebike-shine-s/likebike-shine-s-08.webp","likebike-shine-s/likebike-shine-s-01.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"500 W MAX"},{key:"VITESSE MAX",value:"50 KM/H MAX"},{key:"BATTERIE",value:"LITHIUM 48V 13AH"},{key:"CHARGE RAPIDE",value:"54V"},{key:"AUTONOMIE",value:"45-55 KM"},{key:"VITESSES MOTEUR",value:"5 NIVEAUX"},{key:"FREINS",value:"AV/AR"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN DIGITAL"},{key:"AMORTISSEURS",value:"R\xc9GLABLE AV"},{key:"\xc9CLAIRAGE",value:"LED AV/AR + KLAXON"},{key:"PNEUS",value:"20'' AVEC GARDE-BOUE"},{key:"SI\xc8GE",value:"CUIR CONFORTABLE"},{key:"SYST\xc8ME",value:"CHANGEMENT SHIMANO"},{key:"VITESSES",value:"7 VITESSES"},{key:"CONFORT",value:"PORTE-BAGAGE INCLUS"},{key:"CHARGE MAX",value:"130 KG"}]}],warranty:"D\xe9couvrez le v\xe9lo \xe9lectrique Likebike Shine S, un mod\xe8le \xe9l\xe9gant et performant con\xe7u pour vos d\xe9placements quotidiens en toute libert\xe9. \xc9quip\xe9 d’un moteur puissant de 500W et d’une batterie lithium 48V 13Ah, il offre une autonomie maximale de 55 km et une vitesse atteignant 50 km/h. Son design compact avec pneus 20 pouces, freins avant/arri\xe8re et suspension avant garantit confort et s\xe9curit\xe9 sur toutes les routes. Avec son tableau de bord digital, ses 7 vitesses Shimano, son \xe9clairage LED et son porte-bagage pratique, le Shine S est le compagnon id\xe9al pour une mobilit\xe9 urbaine moderne et \xe9cologique au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"},{id:"velo-electrique-likebike-shine",title:"V\xc9LO \xc9LECTRIQUE LIKEBIKE SHINE",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:269,currentPrice:7199,oldPrice:10099,discount:30,images:["V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-01.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-02.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-03.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-04.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-05.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-06.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-07.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-08.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-09.webp","V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-10.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"500 W MAX"},{key:"VITESSE MAX",value:"50 KM/H MAX"},{key:"BATTERIE",value:"LITHIUM 48V 13AH"},{key:"CHARGE RAPIDE",value:"54V"},{key:"AUTONOMIE",value:"45-55 KM MAX"},{key:"NIVEAUX DE VITESSE",value:"5 NIVEAUX"},{key:"FREINS",value:"AVANT ET ARRI\xc8RE"},{key:"CHARGE MAX",value:"130 KG"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN DIGITAL"},{key:"AMORTISSEURS",value:"R\xc9GLABLE AVANT"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE + KLAXON"},{key:"PNEUS",value:"20 POUCES AVEC GARDE-BOUE"},{key:"SI\xc8GE",value:"CUIR CONFORTABLE"},{key:"SYST\xc8ME",value:"CHANGEMENT SHIMANO"},{key:"VITESSES",value:"7 VITESSES SHIMANO"},{key:"PI\xc8CES",value:"PI\xc8CES SHIMANO"},{key:"PORTE-BAGAGE",value:"INCLUS"}]}],warranty:"Le v\xe9lo \xe9lectrique Likebike Shine combine style moderne et performance fiable pour vos trajets quotidiens. Dot\xe9 d’un moteur 500W et d’une batterie lithium 48V 13Ah, il assure une autonomie allant jusqu’\xe0 55 km et une vitesse maximale de 50 km/h. Son confort est renforc\xe9 par une suspension avant, un si\xe8ge en cuir et un porte-bagage int\xe9gr\xe9. Ce mod\xe8le urbain compact est \xe9quip\xe9 d’un \xe9cran digital, d’un \xe9clairage LED complet, de pneus 20 pouces, de freins avant/arri\xe8re et d’une transmission Shimano \xe0 7 vitesses. Id\xe9al pour une mobilit\xe9 \xe9cologique et \xe9l\xe9gante partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"},{id:"V\xc9LO-\xc9LECTRIQUE-LIKEBIKE-2025",title:"V\xc9LO \xc9LECTRIQUE 2025 ",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:165,currentPrice:5499,oldPrice:7099,discount:30,images:["V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-01.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-02.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-03.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-04.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-05.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-06.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-07.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-08.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-09.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-10.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-11.webp","V\xc9LO-\xc9LECTRIQUE-2025/velo-electrique-2025-12.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"400 W MAX "},{key:"BATTERIE",value:"48V 18AH LITHIUM "},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE "},{key:"AUTONOMIE",value:"45 KM - 55 KM MAX "},{key:"VITESSE MAX",value:"46 KM/H "},{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"NIVEAUX DE VITESSE",value:"3 NIVEAUX"},{key:"VITESSE P\xc9DALE",value:"1E VITESSE MANUELLE"},{key:"BATTERIE TYPE",value:"LITHIUM "},{key:"V\xc9LO",value:"PLIABILE"},{key:"D\xc9MARRAGE",value:"CONTACT"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CHARGE",value:"54V"},{key:"AMORTISSEURS",value:"DOUBLE"},{key:"LED",value:"AV/AR"},{key:"PNEUS",value:"14 POUCES"},{key:"SI\xc8GE",value:"2 PLACES CUIR"},{key:"CONFORT",value:"V\xc9LO PLIABLE"},{key:"CHARGE MAX",value:"120 KG"}]}],warranty:"Le v\xe9lo \xe9lectrique 2025 est un mod\xe8le compact, pliable et puissant, id\xe9al pour une mobilit\xe9 pratique et urbaine. \xc9quip\xe9 d’un moteur de 400W et d’une batterie lithium 48V 15.6Ah, il vous offre jusqu’\xe0 55 km d’autonomie avec une vitesse maximale de 46 km/h. Gr\xe2ce \xe0 son syst\xe8me de double amortisseur, son tableau de bord digital, et ses pneus 14 pouces, il garantit confort et stabilit\xe9 sur diff\xe9rents terrains. Ce v\xe9lo est con\xe7u pour 2 personnes avec si\xe8ges cuir, dispose d’un d\xe9marrage par contact, d’un \xe9clairage LED complet, et d’un mode p\xe9dale avec vitesse manuelle int\xe9gr\xe9e. Un choix intelligent pour vos trajets en ville, pliable et facile \xe0 transporter partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-\xe9l\xe9ctrique-likebike-a10",title:"V\xc9LO \xc9LECTRIQUE LIKEBIKE A10",brand:"LIKEBIKE A10 ORIGINAL",category:"دراجات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:68,currentPrice:5499,oldPrice:7099,discount:30,images:["v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-01.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-02.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-03.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-04.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-05.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-06.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-07.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-08.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-09.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-10.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-11.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-12.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-13.webp","v\xe9lo-\xe9l\xe9ctrique-likebike-a10/v\xe9lo-\xe9l\xe9ctrique-likebike-a10-14.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"PUISSANCE",value:"400 W MAX "},{key:"BATTERIE",value:"48V 18AH LITHIUM "},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE "},{key:"AUTONOMIE",value:"45 KM - 55 KM MAX "},{key:"VITESSE MAX",value:"46 KM/H "},{key:"AFFICHAGE",value:"TABLEAU DIGITAL"},{key:"NIVEAUX DE VITESSE",value:"3 NIVEAUX"},{key:"VITESSE P\xc9DALE",value:"1E VITESSE MANUELLE"},{key:"BATTERIE TYPE",value:"LITHIUM "},{key:"V\xc9LO",value:"PLIABILE"},{key:"D\xc9MARRAGE",value:"CONTACT"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CHARGE",value:"54V"},{key:"AMORTISSEURS",value:"DOUBLE"},{key:"LED",value:"AV/AR"},{key:"PNEUS",value:"14 POUCES"},{key:"SI\xc8GE",value:"2 PLACES CUIR"},{key:"CONFORT",value:"V\xc9LO PLIABLE"},{key:"CHARGE MAX",value:"120 KG"}]}],warranty:"D\xe9couvrez le LIKEBIKE A10, un v\xe9lo \xe9lectrique performant et fiable, \xe9quip\xe9 d’un moteur 400W, batterie lithium 48V 15.6Ah, double amortisseur, pliable et dot\xe9 d’un \xe9cran digital. Il offre une autonomie jusqu’\xe0 55 km et une vitesse maximale de 46 km/h, pour des d\xe9placements urbains confortables et efficaces partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F977083681237253%2F&show_text=false&width=267&t=0"},{id:"likebike-lander-vtt",title:"V\xc9LO \xc9LECTRIQUE LIKEBIKE LANDER",brand:"LIKEBIKE ORIGINAL",category:"دراجات كهربائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:120,currentPrice:8199,oldPrice:10999,discount:30,images:["likebike-lander-vtt/likebike-lander-vtt-01.webp","likebike-lander-vtt/likebike-lander-vtt-02.webp","likebike-lander-vtt/likebike-lander-vtt-03.webp","likebike-lander-vtt/likebike-lander-vtt-04.webp","likebike-lander-vtt/likebike-lander-vtt-05.webp","likebike-lander-vtt/likebike-lander-vtt-06.webp","likebike-lander-vtt/likebike-lander-vtt-07.webp","likebike-lander-vtt/likebike-lander-vtt-08.webp","likebike-lander-vtt/likebike-lander-vtt-09.webp"],features:[{title:"SP\xc9CIFICATIONS TECHNIQUES",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500 W MIN - 720 W MAX"},{key:"BATTERIE",value:"48 V 13 AH"},{key:"BATTERIE TYPE",value:"LITHIUM"},{key:"CHARGE MAXIMALE",value:"120 KG"},{key:"CHARGE RAPIDE",value:"54V"},{key:"AUTONOMIE",value:"40 KM - 50 KM MAX"},{key:"MODE ASSISTANCE",value:"100 KM MAX"},{key:"VITESSE MAX",value:"42 KM"},{key:"VITESSE",value:"7E VITESSE"},{key:"CHANGEMENT",value:"SHIMANO"},{key:"PI\xc8CES",value:"SHIMANO"},]},{title:"CONFORT & \xc9QUIPEMENT",icon:"fa-star",items:[{key:"AFFICHAGE",value:"\xc9CRAN LCD INTELLIGENT"},{key:"NIVEAUX DE VITESSE",value:"5E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"FREINAGE",value:"AVANT ET ARRI\xc8RE"},{key:"AMORTISSEUR",value:"AVANT"},{key:"SI\xc8GE",value:"CUIR"},{key:"PORTE-BAGAGE",value:"INCLUS"},{key:"PNEUS",value:"26\xd74 POUCES"},{key:"GARDE-BOUE",value:"AVANT ET ARRI\xc8RE"},{key:"KLAXON",value:"\xc9LECTRIQUE"}]}],warranty:"Vivez la libert\xe9 de mouvement sans frais suppl\xe9mentaires ni pollution avec le V\xc9LO \xc9LECTRIQUE LIKEBIKE LANDER. Ce v\xe9lo est pr\xeat aussi bien pour la ville que pour les chemins accident\xe9s, combinant puissance, confort et longue autonomie. Il est \xe9quip\xe9 d'un moteur puissant, d'une batterie durable, et de nombreux \xe9quipements de qualit\xe9. La solution id\xe9ale pour ceux qui veulent se d\xe9placer librement sans se soucier des d\xe9penses. Un investissement intelligent pour votre quotidien",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1611241772889832%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-\xe9lectrique-clarks-12",title:"V\xe9lo Cross Clarks 12",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:9,currentPrice:1549,oldPrice:2199,discount:30,images:["v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-01.webp","v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-02.webp","v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-03.webp","v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-04.webp","v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-05.webp","v\xe9lo-\xe9lectrique-clarks-12/v\xe9lo-\xe9lectrique-clarks-12-06.webp"],features:[{title:"SP\xc9CIFICATIONS",icon:"fa-cogs",items:[{key:"Moteur",value:"100 W"},{key:"Batterie",value:"24V 4Ah lithium"},{key:"Poids",value:"9.43 kg"},{key:"Charge max",value:"60 kg"},{key:"Freinage",value:"arri\xe8re"},{key:"Vitesse max",value:"17 km"},{key:"Batterie",value:"lithium"},{key:"Chambre \xe0 air",value:"12 pouces"},{key:"Charge",value:"24V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F430063326821146%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-\xe9lectrique-clarks-14",title:"V\xe9lo Cross Clarks 14",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:16,currentPrice:1749,oldPrice:2499,discount:30,images:["v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-01.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-02.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-03.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-04.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-05.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-06.webp","v\xe9lo-\xe9lectrique-clarks-14/v\xe9lo-\xe9lectrique-clarks-14-07.webp"],features:[{title:"SP\xc9CIFICATIONS",icon:"fa-cogs",items:[{key:"Moteur",value:"100 W"},{key:"Batterie",value:"24V 4Ah lithium"},{key:"Poids",value:"9.43 kg"},{key:"Charge max",value:"60 kg"},{key:"Freinage",value:"arri\xe8re"},{key:"Vitesse max",value:"17 km"},{key:"Batterie",value:"lithium"},{key:"Chambre \xe0 air",value:"14 pouces"},{key:"Charge",value:"24V"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1743652863053402%2F&show_text=false&width=267&t=0"},{id:"v\xe9lo-cross-\xe9lectrique",title:"V\xe9lo Cross \xe9lectrique",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:15,currentPrice:2399,oldPrice:3199,discount:30,images:["v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-01.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-02.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-03.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-04.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-05.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-06.webp","v\xe9lo-cross-\xe9lectrique/v\xe9lo-cross-\xe9lectrique-07.webp"],features:[{title:"SPECIFICATIONS",icon:"fa-cogs",items:[{key:"Moteur",value:"350 W"},{key:"Batterie",value:"36V 5.2Ah lithium"},{key:"Poids",value:"15 kg"},{key:"Charge max",value:"70 kg"},{key:"Freinage",value:"\xe0 disque arri\xe8re"},{key:"Vitesse max",value:"25 km"},{key:"Batterie",value:"lithium"},{key:"Chambre \xe0 air",value:"16 pouces"},{key:"Charge",value:"42V"},{key:"\xc2ge recommand\xe9",value:"7 - 15 ans"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F702785355457941%2F&show_text=false&width=267&t=0"},{id:"motor-cross-36V-pro",title:"Motor cross 36V",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:15,currentPrice:2199,oldPrice:2899,discount:30,images:["motor-cross-36V-pro/motor-cross-36v-pro-01.webp","motor-cross-36V-pro/motor-cross-36v-pro-02.webp","motor-cross-36V-pro/motor-cross-36v-pro-03.webp","motor-cross-36V-pro/motor-cross-36v-pro-04.webp","motor-cross-36V-pro/motor-cross-36v-pro-05.webp","motor-cross-36V-pro/motor-cross-36v-pro-06.webp","motor-cross-36V-pro/motor-cross-36v-pro-07.webp","motor-cross-36V-pro/motor-cross-36v-pro-08.webp","motor-cross-36V-pro/motor-cross-36v-pro-09.webp","motor-cross-36V-pro/motor-cross-36v-pro-10.webp"],features:[{title:"SPECIFICATIONS",icon:"fa-cogs",items:[{key:"Moteur",value:"350 W"},{key:"Batterie",value:"36V"},{key:"Charge max",value:"60 kg"},{key:"Freinage",value:"\xe0 disque arri\xe8re"},{key:"Vitesse max",value:"15 km min - 25 km max"},{key:"Autonomie",value:"10km min - 20km max"},{key:"Batterie",value:"lithium"},{key:"Chambre \xe0 air",value:"11 pouces"},{key:"Charge",value:"42V"},]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4087949254825679%2F&show_text=false&width=267&t=0"},{id:"moteur-cross-42V-2",title:"Moteur cross 36V",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:25,currentPrice:4200,oldPrice:5199,discount:30,images:["moteur-cross-42v-2/moteur-cross-42v-2-01.webp","moteur-cross-42v-2/moteur-cross-42v-2-02.webp","moteur-cross-42v-2/moteur-cross-42v-2-03.webp","moteur-cross-42v-2/moteur-cross-42v-2-04.webp","moteur-cross-42v-2/moteur-cross-42v-2-05.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"500 W MAX"},{key:"BATTERIE",value:"LITHIUM 36 V 12AH"},{key:"CHARGE MAX",value:"70 KG"},{key:"FREINAGE",value:"ARRI\xc8RE"},{key:"AUTONOMIE",value:"10 KM MIN - 15 KM MAX"},{key:"VITESSE",value:"15 KM MIN - 25 KM MAX"},{key:"CHARGE",value:"42V"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"VITESSES",value:"3E VITESSE"},{key:"BLUETOOTH",value:"MUSIC BLUETOOTH"},{key:"SI\xc8GE",value:"CUIR"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"LED",value:"AMBIANCE"},{key:"KLAXON",value:"\xc9LECTRIQUE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F988696436776129%2F&show_text=false&width=267&t=0"},{id:"moteur-cross-42V",title:"Moteur cross 42V",brand:"Cross",category:"moteur-cross",availability:"متوفر في المخزون",ratings:4.5,reviewCount:25,currentPrice:3699,oldPrice:4690,discount:30,images:["moteur-cross-42V/moteur-cross-42v-01.webp","moteur-cross-42V/moteur-cross-42v-03.webp","moteur-cross-42V/moteur-cross-42v-04.webp","moteur-cross-42V/moteur-cross-42v-05.webp","moteur-cross-42V/moteur-cross-42v-06.webp","moteur-cross-42V/moteur-cross-42v-07.webp","moteur-cross-42V/moteur-cross-42v-08.webp","moteur-cross-42V/moteur-cross-42v-09.webp","moteur-cross-42V/moteur-cross-42v-10.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"1000 W MAX"},{key:"BATTERIE",value:"LITHIUM 42 V 12AH"},{key:"CHARGE MAX",value:"70 KG"},{key:"FREINAGE",value:"ARRI\xc8RE"},{key:"AUTONOMIE",value:"10 KM MIN - 15 KM MAX"},{key:"VITESSE",value:"15 KM MIN - 25 KM MAX"},{key:"CHARGE",value:"42V"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"VITESSES",value:"3E VITESSE"},{key:"BLUETOOTH",value:"MUSIC BLUETOOTH"},{key:"SI\xc8GE",value:"CUIR"},{key:"SUSPENSION",value:"AVANT ET ARRI\xc8RE"},{key:"LED",value:"AMBIANCE"},{key:"KLAXON",value:"\xc9LECTRIQUE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"},{id:"moteur-vespa-6v",title:"Moteur Vespa 6v",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:799,oldPrice:1100,discount:30,images:["moteur-vespa-6v/moteur-vespa-6v-01.webp","moteur-vespa-6v/moteur-vespa-6v-02.webp","moteur-vespa-6v/moteur-vespa-6v-03.webp","moteur-vespa-6v/moteur-vespa-6v-04.webp","moteur-vespa-6v/moteur-vespa-6v-05.webp","moteur-vespa-6v/moteur-vespa-6v-06.webp","moteur-vespa-6v/moteur-vespa-6v-07.webp"],features:[{title:"POINTS FORTS",icon:"fa-bolt",items:[{key:"BATTERIE",value:"6V"},{key:"CHARGEUR",value:"6 volts"},{key:"SI\xc8GE",value:"1 place"},{key:"MOTEUR",value:"2 moteurs"},{key:"\xc2GE RECOMMAND\xc9",value:"1 \xe0 5 ans"}]},{title:"FONCTIONNALIT\xc9S TECHNIQUES",icon:"fa-music",items:[{key:"MUSIQUE",value:"Music, USB, c\xe2ble auxiliaire"},{key:"D\xc9MARRAGE",value:"Bouton de d\xe9marrage"},{key:"AMORTISSEURS",value:"Oui, pour plus de confort"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Moto \xe9lectrique Vespa 6V pour enfants – \xc9quip\xe9e de 2 moteurs, batterie 6V, 1 place, d\xe9marrage par bouton, amortisseurs, lumi\xe8res LED avant et arri\xe8re, musique via USB/c\xe2ble. \xc2ge recommand\xe9 : 1 \xe0 5 ans. Livraison gratuite partout au Maroc. \uD83C\uDDF2\uD83C\uDDE6",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1096480852503818%2F&show_text=false&width=267&t=0"},{id:"moteur-vespa-12v",title:"Moteur Vespa 12v",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:211,currentPrice:999,oldPrice:1400,discount:30,images:["moteur-vespa-12v/moteur-vespa-12v-01.webp","moteur-vespa-12v/moteur-vespa-12v-02.webp","moteur-vespa-12v/moteur-vespa-12v-03.webp","moteur-vespa-12v/moteur-vespa-12v-04.webp","moteur-vespa-12v/moteur-vespa-12v-05.webp","moteur-vespa-12v/moteur-vespa-12v-06.webp","moteur-vespa-12v/moteur-vespa-12v-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"2 moteurs"},{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"1 place"},{key:"FONCTIONNALIT\xc9S",value:"Music, USB, c\xe2ble auxiliaire"},{key:"D\xc9MARRAGE",value:"Bouton de d\xe9marrage"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"CONDUITE",value:"Manuel"},{key:"\xc2GE RECOMMAND\xc9",value:"1 - 6 ans"}]}],warranty:"Moto Vespa 2025 Fonctionne avec une batterie 12V et deux moteurs puissants pour une conduite fluide. Con\xe7ue avec un si\xe8ge 1 place, \xe9clairage LED avant et arri\xe8re, d\xe9marrage par bouton, amortisseurs, musique int\xe9gr\xe9e via USB ou c\xe2ble auxiliaire. Convient aux enfants de 1 \xe0 6 ans. Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F678983161534606%2F&show_text=false&width=267&t=0"},{id:"motor-erwan-2025",title:"Motor Erwan 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:1699,oldPrice:2199,discount:30,images:["motor-erwan-2025/motor-erwan-2025-01.webp","motor-erwan-2025/motor-erwan-2025-02.webp","motor-erwan-2025/motor-erwan-2025-03.webp","motor-erwan-2025/motor-erwan-2025-04.webp","motor-erwan-2025/motor-erwan-2025-05.webp","motor-erwan-2025/motor-erwan-2025-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"MOTEUR",value:"2 moteurs"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"\xc2GE RECOMMAND\xc9",value:"3 - 11 ans"},{key:"COULEURS DISPONIBLES",value:"Rouge, Gris, Vert, Violet"}]},{title:"CARACT\xc9RISTIQUES TECHNIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"Music + USB + c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Motor Erwan 2025 \xc9quip\xe9e d’une batterie 12V et 2 moteurs puissants, cette moto garantit une exp\xe9rience fun et s\xe9curis\xe9e. Son design 2 places, ses LED avant/arri\xe8re, la connexion Bluetooth, la *musique int\xe9gr\xe9e via USB ou c\xe2ble, et son d\xe9marrage manuel en font le choix parfait pour les enfants de 3 \xe0 11 ans. Disponibles en couleurs : Rouge, Gris, Vert, Violet. Livraison gratuite dans toutes les villes du Maroc ",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1144750974004125%2F&show_text=false&width=267&t=0"},{id:"moteur-police-12V-2",title:"Moteur Police 12V",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:23,currentPrice:1899,oldPrice:2299,discount:30,images:["moteur-police-12V-2/moteur-police-12v-2-01.webp","moteur-police-12V-2/moteur-police-12v-2-02.webp","moteur-police-12V-2/moteur-police-12v-2-03.webp","moteur-police-12V-2/moteur-police-12v-2-04.webp","moteur-police-12V-2/moteur-police-12v-2-05.webp","moteur-police-12V-2/moteur-police-12v-2-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"D\xc9MARRAGE",value:"Par contact"},{key:"MOTEUR",value:"2 grands moteurs"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"\xc2GE RECOMMAND\xc9",value:"3 - 11 ans"},{key:"COULEURS DISPONIBLES",value:"Blanc, Rouge"}]},{title:"CARACT\xc9RISTIQUES TECHNIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"Music + USB + c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"MUSIQUE POLICE",value:"Oui"},{key:"LUMI\xc8RE POLICE",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Moteur Police 12V — \xc9quip\xe9 d'une *batterie 12V, 2 grands moteurs, et d\xe9marrage par contact. Il offre un design 2 places, des lumi\xe8res LED avant/arri\xe8re, et des fonctions sp\xe9ciales comme Bluetooth*, musique de police, lumi\xe8res de police, et musique via USB ou c\xe2ble auxiliaire. Convient aux enfants de 3 \xe0 11 ans. Couleurs disponibles : Blanc, Rouge. Livraison gratuite dans toutes les villes du Maroc",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3572199963089174%2F&show_text=false&width=267&t=0"},{id:"moteur-t-max-police-12V",title:"Moteur T-max Police 12V",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:15,currentPrice:1849,oldPrice:2599,discount:30,images:["moteur-t-max-police-12V/moteur-t-max-police-12v-01.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-02.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-03.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-04.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-05.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-06.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-07.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-08.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-09.webp","moteur-t-max-police-12V/moteur-t-max-police-12v-10.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"MOTEUR",value:"2 moteurs"},{key:"D\xc9MARRAGE",value:"Par contact"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"\xc2GE RECOMMAND\xc9",value:"3 - 11 ans"},{key:"COULEURS DISPONIBLES",value:"Blanc, Rouge, Jaune"}]},{title:"CARACT\xc9RISTIQUES TECHNIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"MUSIQUE POLICE",value:"Oui"},{key:"RADIO POLICE",value:"Oui"},{key:"LUMI\xc8RE POLICE",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Offrez \xe0 votre enfant une aventure unique avec la moto \xe9lectrique T-max Police 12V. \xc9quip\xe9e d’une batterie puissante, de 2 moteurs solides et d’un d\xe9marrage par contact, cette moto garantit un maximum de plaisir. Elle est con\xe7ue pour les enfants de 3 \xe0 11 ans, avec des lumi\xe8res LED avant/arri\xe8re, une musique int\xe9gr\xe9e, USB, Bluetooth, ainsi que des effets sonores et lumineux de police pour une immersion totale. Disponible en blanc, rouge et jaune. Ne ratez pas cette opportunit\xe9 – stock limit\xe9 ",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1080337560804707%2F&show_text=false&width=267&t=0"},{id:"voiture-buggy-2025",title:"La Voiture buggy 4x4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:15,currentPrice:2549,oldPrice:3200,discount:30,images:["voiture-buggy-2025/voiture-buggy-2025-01.webp","voiture-buggy-2025/voiture-buggy-2025-02.webp","voiture-buggy-2025/voiture-buggy-2025-03.webp","voiture-buggy-2025/voiture-buggy-2025-04.webp","voiture-buggy-2025/voiture-buggy-2025-05.webp","voiture-buggy-2025/voiture-buggy-2025-06.webp","voiture-buggy-2025/voiture-buggy-2025-07.webp","voiture-buggy-2025/voiture-buggy-2025-08.webp","voiture-buggy-2025/voiture-buggy-2025-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"MOTEUR",value:"5 moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"FONCTION BALAN\xc7OIRE",value:"Oui"},{key:"\xc2GE RECOMMAND\xc9",value:"2 - 10 ans"}]},{title:"CARACT\xc9RISTIQUES TECHNIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via t\xe9l\xe9phone"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Offrez \xe0 votre enfant une exp\xe9rience de conduite exceptionnelle avec la voiture \xe9lectrique Buggy 4x4. \xc9quip\xe9e d’une batterie 12V, de 5 moteurs puissants et de 2 places confortables, cette voiture est parfaite pour les enfants de 2 \xe0 10 ans. Elle dispose d’un syst\xe8me de ceinture de s\xe9curit\xe9, de suspensions efficaces et d’un \xe9clairage LED avant/arri\xe8re pour plus de s\xe9curit\xe9 et de style. Profitez de la musique via USB ou c\xe2ble auxiliaire, du Bluetooth int\xe9gr\xe9, de la fonction balan\xe7oire et d’un contr\xf4le total gr\xe2ce \xe0 la t\xe9l\xe9commande manuelle ou via smartphone. Un buggy complet, id\xe9al pour des aventures inoubliables. Stock limit\xe9 – ne ratez pas cette occasion !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F589184594180299%2F&show_text=false&width=267&t=0"},{id:"voiture-dacia-2025",title:"La voiture Dacia 4x4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:19,currentPrice:2299,oldPrice:2900,discount:30,images:["voiture-dacia-2025/voiture-dacia-2025-01.webp","voiture-dacia-2025/voiture-dacia-2025-02.webp","voiture-dacia-2025/voiture-dacia-2025-03.webp","voiture-dacia-2025/voiture-dacia-2025-04.webp","voiture-dacia-2025/voiture-dacia-2025-05.webp","voiture-dacia-2025/voiture-dacia-2025-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"MOTEUR",value:"5 moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire"},{key:"\xc2GE RECOMMAND\xc9",value:"1 - 8 ans"}]},{title:"FONCTIONNALIT\xc9S MULTIM\xc9DIA",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via smartphone"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"La voiture \xe9lectrique Dacia 4x4 2025 est le choix id\xe9al pour offrir \xe0 votre enfant une conduite \xe0 la fois amusante et s\xe9curis\xe9e. Gr\xe2ce \xe0 sa batterie 12V, ses 5 moteurs puissants et ses 2 places confortables, elle convient parfaitement aux enfants de 1 \xe0 8 ans. S\xe9curis\xe9e avec ceinture, \xe9quip\xe9e de suspensions, de lumi\xe8res LED avant/arri\xe8re, et d'une fonction balan\xe7oire. Pour encore plus de fun : musique via USB, Bluetooth, contr\xf4le depuis le t\xe9l\xe9phone et t\xe9l\xe9commande manuelle. Un mod\xe8le complet pour les petites aventures du quotidien – en stock limit\xe9 !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1386457948914071%2F&show_text=false&width=267&t=0"},{id:"voiture-jeop-4x4",title:"La Voiture JEOP 4x4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:17,currentPrice:2449,oldPrice:2900,discount:30,images:["voiture-jeop-4x4/voiture-jeop-4x4-01.webp","voiture-jeop-4x4/voiture-jeop-4x4-02.webp","voiture-jeop-4x4/voiture-jeop-4x4-03.webp","voiture-jeop-4x4/voiture-jeop-4x4-04.webp","voiture-jeop-4x4/voiture-jeop-4x4-05.webp","voiture-jeop-4x4/voiture-jeop-4x4-06.webp","voiture-jeop-4x4/voiture-jeop-4x4-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places"},{key:"MOTEUR",value:"5 moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire"},{key:"\xc2GE RECOMMAND\xc9",value:"2 - 10 ans"}]},{title:"FONCTIONNALIT\xc9S MULTIM\xc9DIA",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via smartphone"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"D\xe9couvrez la voiture \xe9lectrique JEOP 4x4 – un buggy robuste et \xe9l\xe9gant pour enfants de 2 \xe0 10 ans. Dot\xe9e d’une batterie 12V, de 5 moteurs puissants et de deux si\xe8ges spacieux avec ceintures de s\xe9curit\xe9. Profitez d’un confort optimal gr\xe2ce aux amortisseurs, aux lumi\xe8res LED avant/arri\xe8re et \xe0 la fonction balan\xe7oire. C\xf4t\xe9 divertissement : Bluetooth, port USB, musique et contr\xf4le via smartphone ou t\xe9l\xe9commande manuelle. Une voiture compl\xe8te et fiable, id\xe9ale pour des moments de joie en toute s\xe9curit\xe9. Quantit\xe9 limit\xe9e – ne laissez pas passer cette opportunit\xe9 !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1725280938057015%2F&show_text=false&width=267&t=0"},{id:"karting-\xe9lectrique-sport",title:"Karting \xe9lectrique Sport",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:46,currentPrice:1930,oldPrice:2600,discount:30,images:["karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-01.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-02.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-03.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-04.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-05.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-06.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-07.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-08.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-06.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-10.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-11.webp","karting-\xe9lectrique-sport/karting-\xe9lectrique-sport-12.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"SI\xc8GE",value:"1 place"},{key:"MOTEUR",value:"3 grands moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire"},{key:"TABLEAU DE BORD",value:"Tableau digital"},{key:"\xc2GE RECOMMAND\xc9",value:"3 - 10 ans"}]},{title:"FONCTIONNALIT\xc9S MULTIM\xc9DIA",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via smartphone"}]}],warranty:"Voiture \xe9lectrique sportive pour enfants au design karting. \xc9quip\xe9e d'une batterie 12V et de trois moteurs puissants. Con\xe7ue pour un seul si\xe8ge avec ceinture de s\xe9curit\xe9 pour le confort de l’enfant. Dispose de musique, d’une entr\xe9e USB et d’un c\xe2ble auxiliaire pour \xe9couter des chansons. Elle offre trois vitesses diff\xe9rentes et une fonction balan\xe7oire pour plus de plaisir. Dot\xe9e de la technologie Bluetooth et d’un syst\xe8me de suspension (amortisseurs) pour une conduite plus confortable. Elle poss\xe8de des lumi\xe8res LED \xe0 l'avant et \xe0 l'arri\xe8re, un \xe9cran digital, un contr\xf4le via smartphone ainsi qu'une t\xe9l\xe9commande manuelle. Adapt\xe9e aux enfants de 3 \xe0 10 ans."},{id:"moteur-erwan",title:"Motor Erwan",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:1049,oldPrice:1300,discount:30,images:["moteur-erwan/moteur-erwan-01.webp","moteur-erwan/moteur-erwan-02.webp","moteur-erwan/moteur-erwan-03.webp","moteur-erwan/moteur-erwan-04.webp","moteur-erwan/moteur-erwan-05.webp","moteur-erwan/moteur-erwan-06.webp","moteur-erwan/moteur-erwan-07.webp"],features:[{title:"POINTS FORTS",icon:"fa-bolt",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12V standard"},{key:"SI\xc8GE",value:"1 place en cuir"},{key:"MOTEUR",value:"Double moteur"},{key:"VITESSE",value:"3 vitesses r\xe9glables"},{key:"SYST\xc8ME DE D\xc9MARRAGE",value:"D\xe9marrage \xe0 cl\xe9 (contact)"},{key:"\xc2GE RECOMMAND\xc9",value:"1 \xe0 6 ans"},{key:"COULEURS",value:"Rouge, Rose"}]},{title:"FONCTIONNALIT\xc9S TECHNIQUES",icon:"fa-music",items:[{key:"MUSIQUE",value:"MP3, USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Int\xe9gr\xe9"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"AMORTISSEURS",value:"Oui, pour plus de confort"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Moto \xe9lectrique Moteur Erwan 2025 – Une exp\xe9rience unique pour vos enfants ! Avec sa batterie 12V, ses 2 moteurs puissants, un si\xe8ge cuir confortable, un \xe9clairage LED complet, d\xe9marrage par cl\xe9, Bluetooth, musique via USB ou c\xe2ble, et 3 vitesses au choix – tout est pens\xe9 pour la s\xe9curit\xe9 et le fun des enfants de 1 \xe0 6 ans. Livraison gratuite dans toutes les villes du Maroc. Couleurs disponibles :Rouge,Rose",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4136022943287344%2F&show_text=false&width=267&t=0"},{id:"voiture-mini-jeep-police",title:"Voiture mini Jeep police",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:1340,oldPrice:1490,discount:30,images:["voiture-mini-jeep-police/voiture-mini-jeep-police-01.webp","voiture-mini-jeep-police/voiture-mini-jeep-police-02.webp","voiture-mini-jeep-police/voiture-mini-jeep-police-03.webp","voiture-mini-jeep-police/voiture-mini-jeep-police-04.webp","voiture-mini-jeep-police/voiture-mini-jeep-police-05.webp"],features:[{title:"POINTS FORTS",icon:"fa-bolt",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12V standard"},{key:"SI\xc8GE",value:"2 places mini avec ceintures de s\xe9curit\xe9"},{key:"MOTEUR",value:"3 moteurs puissants"},{key:"VITESSE",value:"3 vitesses r\xe9glables"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire int\xe9gr\xe9e"},{key:"\xc2GE RECOMMAND\xc9",value:"1 \xe0 5 ans"},{key:"COULEURS",value:"Noir"}]},{title:"FONCTIONNALIT\xc9S TECHNIQUES",icon:"fa-music",items:[{key:"MUSIQUE",value:"MP3, USB, c\xe2ble auxiliaire"},{key:"\xc9CLAIRAGE",value:"LED avant"},{key:"AMORTISSEURS",value:"Oui, pour plus de confort"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Voiture \xe9lectrique Mini Jeep Police pour enfants – \xc9quip\xe9e de 3 moteurs puissants, une batterie 12V, deux mini-places avec ceintures de s\xe9curit\xe9, fonction balan\xe7oire, \xe9clairage LED avant, musique via USB/c\xe2ble, et 3 vitesses r\xe9glables. \xc2ge : 1 \xe0 5 ans. Couleur : Noir.  Livraison gratuite partout au Maroc.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3122993281182692%2F&show_text=false&width=267&t=0"},{id:"voiture-mini-buggy-4x4",title:"La Voiture mini buggy 4x4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:46,currentPrice:1690,oldPrice:2e3,discount:30,images:["voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-01.webp","voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-02.webp","voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-03.webp","voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-04.webp","voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-05.webp","voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places mini"},{key:"MOTEUR",value:"3 moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire"},{key:"\xc2GE RECOMMAND\xc9",value:"1 - 7 ans"}]},{title:"FONCTIONNALIT\xc9S MULTIM\xc9DIA",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via smartphone"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Offrez \xe0 votre enfant une aventure inoubliable avec la mini voiture buggy 4x4 \xe9lectrique. Con\xe7ue pour les petits conducteurs de 1 \xe0 7 ans, elle est \xe9quip\xe9e d’une batterie 12V, de 3 moteurs solides et de deux mini places confortables. S\xe9curit\xe9 assur\xe9e avec ceinture, amortisseurs et contr\xf4le via t\xe9l\xe9phone ou t\xe9l\xe9commande. Musique, USB, Bluetooth et LED rendent chaque balade encore plus fun. Un buggy compact, mais puissant, pour des moments de plaisir s\xe9curis\xe9. Stock limit\xe9 – ne ratez pas cette merveille !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1389167992106964%2F&show_text=false&width=267&t=0"},{id:"voiture-mini-jeep",title:"La Voiture mini Jeep",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:142,currentPrice:1170,oldPrice:1400,discount:30,images:["voiture-mini-jeep/voiture-mini-jeep-01.webp","voiture-mini-jeep/voiture-mini-jeep-02.webp","voiture-mini-jeep/voiture-mini-jeep-03.webp","voiture-mini-jeep/voiture-mini-jeep-04.webp","voiture-mini-jeep/voiture-mini-jeep-05.webp","voiture-mini-jeep/voiture-mini-jeep-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"1 place"},{key:"MOTEUR",value:"3 moteurs"},{key:"S\xc9CURIT\xc9",value:"Ceinture de s\xe9curit\xe9"},{key:"AMORTISSEURS",value:"Oui"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"BALAN\xc7OIRE",value:"Fonction balan\xe7oire"},{key:"\xc2GE RECOMMAND\xc9",value:"1 - 4 ans"}]},{title:"FONCTIONNALIT\xc9S MULTIM\xc9DIA",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"T\xc9L\xc9PHONE",value:"Contr\xf4le via smartphone "},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"La mini Jeep \xe9lectrique pour enfants est le cadeau parfait pour les petits pilotes de 1 \xe0 4 ans. Avec une batterie 12V et 3 moteurs puissants, elle offre une conduite stable et amusante. Son si\xe8ge individuel avec ceinture assure la s\xe9curit\xe9, et ses LED avant/arri\xe8re ajoutent une touche styl\xe9e. Contr\xf4lable via t\xe9l\xe9phone ou t\xe9l\xe9commande, elle propose aussi musique, USB, Bluetooth et fonction balan\xe7oire. Id\xe9ale pour les premi\xe8res aventures sur roues – stock limit\xe9, ne laissez pas passer cette opportunit\xe9 !",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F2081764588991220%2F&show_text=false&width=267&t=0"},{id:"moteur-erwan-s",title:"Moteur Erwan 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:18,currentPrice:1570,oldPrice:1900,discount:30,images:["moteur-erwan-s/moteur-erwan-s-01.webp","moteur-erwan-s/moteur-erwan-s-02.webp","moteur-erwan-s/moteur-erwan-s-03.webp","moteur-erwan-s/moteur-erwan-s-04.webp","moteur-erwan-s/moteur-erwan-s-05.webp","moteur-erwan-s/moteur-erwan-s-06.webp","moteur-erwan-s/moteur-erwan-s-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places mini"},{key:"MOTEUR",value:"2 grands moteurs"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"AMORTISSEURS",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"\xc2GE",value:"1 - 8 ans"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez. Ne ratez pas cette opportunit\xe9, commandez maintenant et profitez du shopping \xe0 domicile.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1217779936614662%2F&show_text=false&width=267&t=0"},{id:"moteur-x-adv-gs",title:"Moteur X ADV GS",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:5,currentPrice:2299,oldPrice:3100,discount:30,images:["moteur-x-adv-gs/moteur-x-adv-gs-07.webp","moteur-x-adv-gs/moteur-x-adv-gs-02.webp","moteur-x-adv-gs/moteur-x-adv-gs-03.webp","moteur-x-adv-gs/moteur-x-adv-gs-04.webp","moteur-x-adv-gs/moteur-x-adv-gs-05.webp","moteur-x-adv-gs/moteur-x-adv-gs-06.webp","moteur-x-adv-gs/moteur-x-adv-gs-01.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places mini"},{key:"MOTEUR",value:"2 grands moteurs"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"AMORTISSEURS",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"\xc2GE",value:"4 - 14 ans"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1191904782566963%2F&show_text=false&width=264&t=0"},{id:"moteur-x-adv-gs-2",title:"Moteur X ADV GS",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:1749,oldPrice:2250,discount:30,images:["moteur-x-adv-gs-2/moteur-x-adv-gs-2-01.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-02.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-03.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-04.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-05.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-06.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-07.webp","moteur-x-adv-gs-2/moteur-x-adv-gs-2-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 volts"},{key:"SI\xc8GE",value:"2 places mini"},{key:"MOTEUR",value:"2 moteurs"},{key:"\xc9CLAIRAGE",value:"LED avant et arri\xe8re"},{key:"AMORTISSEURS",value:"Oui"},{key:"VITESSE",value:"3\xe8me vitesse"},{key:"\xc2GE",value:"3 - 10 ans"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, c\xe2ble auxiliaire"},{key:"BLUETOOTH",value:"Oui"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F934000608675390%2F&show_text=false&width=264&t=0"},{id:"voiture-maserati-sport",title:" Voiture Maserati Sport",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:5,currentPrice:1299,oldPrice:1600,discount:25,images:["voiture-maserati-sport/voiture-maserati-sport-01.webp","voiture-maserati-sport/voiture-maserati-sport-02.webp","voiture-maserati-sport/voiture-maserati-sport-03.webp","voiture-maserati-sport/voiture-maserati-sport-04.webp","voiture-maserati-sport/voiture-maserati-sport-05.webp","voiture-maserati-sport/voiture-maserati-sport-06.webp","voiture-maserati-sport/voiture-maserati-sport-07.webp","voiture-maserati-sport/voiture-maserati-sport-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACE MINI AVEC CEINTURE"},{key:"MOTEUR",value:"3 MOTEURS PUISSANTS"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"Balan\xe7oire",value:"OUI"},{key:"\xc2GE",value:"1 - 6 ANS"},{key:"AMORTISSEURS",value:"OUI"},{key:"VITESSE",value:"3 VITESSES"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE + CONTR\xd4LE PAR T\xc9L\xc9PHONE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"},{id:"voiture-maserati-sport2",title:" Voiture Maserati Sport",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:5,currentPrice:1380,oldPrice:1700,discount:29,images:["voiture-maserati-sport/voiture-maserati-sport2-01.webp","voiture-maserati-sport/voiture-maserati-sport-02.webp","voiture-maserati-sport/voiture-maserati-sport-03.webp","voiture-maserati-sport/voiture-maserati-sport-04.webp","voiture-maserati-sport/voiture-maserati-sport-05.webp","voiture-maserati-sport/voiture-maserati-sport-06.webp","voiture-maserati-sport/voiture-maserati-sport-07.webp","voiture-maserati-sport/voiture-maserati-sport-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACE MINI AVEC CEINTURE"},{key:"MOTEUR",value:"5 MOTEURS PUISSANTS"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"Balan\xe7oire",value:"OUI"},{key:"\xc2GE",value:"1 - 6 ANS"},{key:"AMORTISSEURS",value:"OUI"},{key:"VITESSE",value:"3 VITESSES"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE + CONTR\xd4LE PAR T\xc9L\xc9PHONE \uD83D\uDCF2"}]}],warranty:"Voiture Maserati sport pour enfants. Offrez \xe0 votre enfant une exp\xe9rience de conduite exceptionnelle avec cette voiture \xe9lectrique au design sportif et aux fonctionnalit\xe9s impressionnantes.\n\nBatterie puissante 12V avec chargeur 12V\nDeux petites places + ceinture de s\xe9curit\xe9\nMusique, port USB et c\xe2ble AUX pour \xe9couter ses chansons pr\xe9f\xe9r\xe9es\nBluetooth int\xe9gr\xe9\nTrois vitesses diff\xe9rentes pour une meilleure ma\xeetrise\nFonction balan\xe7oire (se balance doucement)\nSuspensions pour plus de confort sur les routes irr\xe9guli\xe8res\n\xc9clairage LED \xe0 l'avant et \xe0 l'arri\xe8re\nContr\xf4le possible avec la t\xe9l\xe9commande ou directement depuis votre t\xe9l\xe9phone\n\nConvient aux enfants de 1 \xe0 6 ans\nCouleurs disponibles : blanc et rouge",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"},{id:"moteur-police-12v",title:" Moteur Police 12Volts ",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:20,currentPrice:1949,oldPrice:2599,discount:30,images:["moteur-police-12v/moteur-police-12v-01.webp","moteur-police-12v/moteur-police-12v-02.webp","moteur-police-12v/moteur-police-12v-03.webp","moteur-police-12v/moteur-police-12v-04.webp","moteur-police-12v/moteur-police-12v-05.webp","moteur-police-12v/moteur-police-12v-06.webp","moteur-police-12v/moteur-police-12v-07.webp","moteur-police-12v/moteur-police-12v-08.webp","moteur-police-12v/moteur-police-12v-09.webp","moteur-police-12v/moteur-police-12v-10.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"2 GRANDS MOTEURS"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"LUMI\xc8RE",value:"DE LA POLICE"},{key:"\xc2GE",value:"3 - 11 ANS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"EFFETS SONORES",value:"MUSIQUE POLICE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"},{id:"voiture-mercedes-4x4",title:"Voiture Mercedes 4*4 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:20,currentPrice:2149,oldPrice:2599,discount:30,images:["voiture-mercedes-4x4/voiture-mercedes-4x4-01.webp","voiture-mercedes-4x4/voiture-mercedes-4x4-02.webp","voiture-mercedes-4x4/voiture-mercedes-4x4-03.webp","voiture-mercedes-4x4/voiture-mercedes-4x4-04.webp","voiture-mercedes-4x4/voiture-mercedes-4x4-05.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V 7AH"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES EN CUIR"},{key:"MOTEUR",value:"5 MOTEURS PUISSANTS"},{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"BALAN\xc7OIRE",value:"INT\xc9GR\xc9E"},{key:"\xc2GE",value:"1 - 8 ANS"},{key:"AMORTISSEURS",value:"SUSPENSIONS AVANT & ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"VITESSE",value:"3 NIVEAUX"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"EFFETS",value:"SONS POLICE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE + CONTR\xd4LE PAR T\xc9L\xc9PHONE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"voiture-mercedes-4x4-2",title:"Voiture Mercedes 4*4 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:20,currentPrice:2399,oldPrice:3200,discount:30,images:["voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-01.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-02.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-03.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-04.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-05.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-06.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-07.webp","voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"5 MOTOR"},{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"BALAN\xc7OIRE",value:"INT\xc9GR\xc9E"},{key:"\xc2GE",value:"1 - 8 ANS"},{key:"AMORTISSEURS",value:"LES AMORTISSEURS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"MUSIC + USB + C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"VITESSE",value:"3E VITESSE"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE + CONTR\xd4LE PAR T\xc9L\xc9PHONE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"voiture-range-rover-police",title:"Voiture Range Rover police",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:57,currentPrice:1820,oldPrice:2350,discount:30,images:["voiture-range-rover-police/voiture-range- rover-police-01.webp","voiture-range-rover-police/voiture-range- rover-police-02.webp","voiture-range-rover-police/voiture-range- rover-police-03.webp","voiture-range-rover-police/voiture-range- rover-police-04.webp","voiture-range-rover-police/voiture-range- rover-police-05.webp","voiture-range-rover-police/voiture-range- rover-police-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"\xc2GE",value:"1 - 6 ANS"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"AMORTISSEURS",value:"AVANT & ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"VITESSE",value:"3E VITESSE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"},{key:"BALAN\xc7OIRE",value:"INCLUSE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1396773761319165%2F&show_text=false&width=267&t=0"},{id:"voiture-jeep-bougie",title:"Voiture jeep bougie 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:55,currentPrice:2599,oldPrice:3300,discount:30,images:["voiture-jeep-bougie/voiture-jeep-bougie-01.webp","voiture-jeep-bougie/voiture-jeep-bougie-02.webp","voiture-jeep-bougie/voiture-jeep-bougie-03.webp","voiture-jeep-bougie/voiture-jeep-bougie-04.webp","voiture-jeep-bougie/voiture-jeep-bougie-05.webp","voiture-jeep-bougie/voiture-jeep-bougie-06.webp","voiture-jeep-bougie/voiture-jeep-bougie-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V 10AH"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES CUIR"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"VITESSE",value:"3 NIVEAUX"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"},{key:"TABLEAU DE BORD",value:"DIGITAL"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"BALAN\xc7OIRE",value:"EFFET INT\xc9GR\xc9"},{key:"AMORTISSEURS",value:"INCLUS"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE + CONTR\xd4LE VIA T\xc9L\xc9PHONE"},{key:"\xc2GE",value:"1 - 9 ANS"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1356692908792031%2F&show_text=false&width=267&t=0"},{id:"voiture-bmw-4x4-2025",title:"Voiture BMW 4*4 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:55,currentPrice:2450,oldPrice:3200,discount:30,images:["voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-01.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-02.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-03.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-04.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-05.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-06.webp","voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"VITESSE",value:"3E NIVEAUX"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"BALAN\xc7OIRE",value:"EFFET INT\xc9GR\xc9"},{key:"AMORTISSEURS",value:"INCLUS"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"},{key:"CONTR\xd4LE",value:"DEPUIS LE T\xc9L\xc9PHONE"},{key:"\xc2GE",value:"1 - 10 ANS"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F606512642121396%2F&show_text=false&width=267&t=0"},{id:"voiture-bmw-4x4-2025-2",title:"Voiture BMW 4*4 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:55,currentPrice:2399,oldPrice:3e3,discount:30,images:["voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-01.webp","voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-02.webp","voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-03.webp","voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-04.webp","voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-05.webp","voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-06.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"VITESSE",value:"3E NIVEAUX"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"BALAN\xc7OIRE",value:"EFFET INT\xc9GR\xc9"},{key:"AMORTISSEURS",value:"INCLUS"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"},{key:"CONTR\xd4LE",value:"DEPUIS LE T\xc9L\xc9PHONE"},{key:"\xc2GE",value:"1 - 9 ANS"}]}],warranty:"La voiture BMW 4x4 2025 pour enfants n'est pas un simple jouet, c’est une v\xe9ritable exp\xe9rience de conduite comme les grands. Elle attire tous les regards, excite les sens, et fait vivre \xe0 l’enfant des moments de joie et de fiert\xe9. Quand votre petit la conduit, il se sent comme le roi de la route. Offrez-lui ce plaisir et voyez l’\xe9tincelle dans ses yeux.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F590982623819268%2F&show_text=false&width=267&t=0"},{id:"Voiture-Mercedes-Classe-G",title:"Voiture Mercedes Classe G",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:45,currentPrice:2199,oldPrice:2900,discount:30,images:["Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-01.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-02.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-03.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-04.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-05.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-06.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-07.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-08.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-09.webp","Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-10.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES CUIR"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"\xc9CLAIRAGE",value:"LED"},{key:"TABLEAU",value:"DIGITAL"},{key:"VITESSE",value:"3 NIVEAUX"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"BALAN\xc7OIRE",value:"EFFET INT\xc9GR\xc9"},{key:"AMORTISSEURS",value:"INCLUS"},{key:"LED",value:"AVANT & ARRI\xc8RE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"},{key:"\xc2GE",value:"1 - 7 ANS"},{key:"COULEUR",value:"BLANC & GRIS"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"},{id:"voiture-mercedes-police",title:"Voiture Mercedes police",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:265,currentPrice:2549,oldPrice:3100,discount:30,images:["voiture-mercedes-police/voiture-mercedes-police-01.webp","voiture-mercedes-police/voiture-mercedes-police-02.webp","voiture-mercedes-police/voiture-mercedes-police-03.webp","voiture-mercedes-police/voiture-mercedes-police-04.webp","voiture-mercedes-police/voiture-mercedes-police-05.webp","voiture-mercedes-police/voiture-mercedes-police-06.webp","voiture-mercedes-police/voiture-mercedes-police-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V"},{key:"CHARGEUR",value:"12 VOLTS"},{key:"SI\xc8GE",value:"2 PLACES"},{key:"MOTEUR",value:"5 MOTEURS"},{key:"CEINTURE",value:"DE S\xc9CURIT\xc9"},{key:"\xc2GE",value:"1 - 8 ANS"},{key:"BALAN\xc7OIRE",value:"DISPONIBLE"},{key:"AMORTISSEURS",value:"AVANT & ARRI\xc8RE"},{key:"\xc9CLAIRAGE",value:"LED AVANT & ARRI\xc8RE"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BLUETOOTH",value:"INT\xc9GR\xc9"},{key:"VITESSE",value:"3E VITESSE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE"},{key:"CONTR\xd4LE",value:"PAR T\xc9L\xc9PHONE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1339868447361661%2F&show_text=false&width=267&t=0"},{id:"voiture-mercedes-classique",title:"voiture Mercedes classique ",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:59,currentPrice:1480,oldPrice:1800,discount:30,images:["voiture-mercedes-classique/voiture-mercedes-classique-01.webp","voiture-mercedes-classique/voiture-mercedes-classique-02.webp","voiture-mercedes-classique/voiture-mercedes-classique-03.webp","voiture-mercedes-classique/voiture-mercedes-classique-04.webp","voiture-mercedes-classique/voiture-mercedes-classique-05.webp","voiture-mercedes-classique/voiture-mercedes-classique-06.webp","voiture-mercedes-classique/voiture-mercedes-classique-07.webp","voiture-mercedes-classique/voiture-mercedes-classique-08.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V + Chargeur 12V"},{key:"PLACES",value:"2 places mini"},{key:"MOTEUR",value:"3 moteurs puissants"},{key:"VITESSE",value:"3 niveaux de vitesse"},{key:"\xc2GE",value:"1 \xe0 6 ans"},{key:"AMORTISSEURS",value:"Oui, int\xe9gr\xe9s"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"Ceinture de s\xe9curit\xe9 incluse"},{key:"MUSIQUE",value:"USB, c\xe2ble AUX, musique int\xe9gr\xe9e"},{key:"BALAN\xc7OIRE",value:"Effet int\xe9gr\xe9"},{key:"LED",value:"Lumi\xe8res avant et arri\xe8re"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle parentale"},{key:"ROUES",value:"Avec amortisseurs"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F422262497235704%2F&show_text=false&width=267&t=0"},{id:"voiture_range_rover_police",title:"Voiture Range-Rover police",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:192,currentPrice:1820,oldPrice:2350,discount:30,images:["voiture_range_rover_police/voiture_range_rover_police-05.webp","voiture_range_rover_police/voiture_range_rover_police-02.webp","voiture_range_rover_police/voiture_range_rover_police-03.webp","voiture_range_rover_police/voiture_range_rover_police-04.webp","voiture_range_rover_police/voiture_range_rover_police-01.webp","voiture_range_rover_police/voiture_range_rover_police-06.webp","voiture_range_rover_police/voiture_range_rover_police-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"5 MOTEURS PUISSANTS"},{key:"VITESSE",value:"3 NIVEAUX"},{key:"BATTERIE",value:"12V RECHARGEABLE"},{key:"AUTONOMIE",value:"1-2H DE JEU"},{key:"CHARGE MAX",value:"JUSQU'\xc0 30 KG"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"INCLUSE"},{key:"ROUES",value:"ANTID\xc9RAPANTES"},{key:"PROTECTION",value:"R\xc9SISTANTE"},{key:"MUSIQUE",value:"BLUETOOTH, USB, AUX"},{key:"LED",value:"AVANT & ARRI\xc8RE"},{key:"KLAXON",value:"SON R\xc9ALISTE"},{key:"BALAN\xc7OIRE",value:"EFFET INT\xc9GR\xc9"},{key:"T\xc9L\xc9COMMANDE",value:"PARENTALE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"},{id:"Voiture-Mercedes-mini-44",title:"Voiture Mercedes mini 4*4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:23,currentPrice:1149,oldPrice:1550,discount:30,images:["Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-01.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-02.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-03.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-04.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-05.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-06.webp","Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"5 MOTOR"},{key:"VITESSE",value:"3E VITESSE"},{key:"BATTERIE",value:"BATTERIE 12V"},{key:"T\xc9L\xc9COMMANDE",value:"T\xc9L\xc9COMMANDE MANUEL"},{key:"BLUETOOTH",value:"BLUETOOTH"},{key:"T\xc9L\xc9PHONE",value:"MA\xceTRIS\xc9 DEPUIS LE T\xc9L\xc9PHONE"},{key:"CHARGEUR",value:"CHARGEUR 12 VOLTS"},{key:"PLACES",value:"2 PLACES MINI"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"CEINTURE DE S\xc9CURIT\xc9"},{key:"ROUES",value:"LES AMORTISSEURS"},{key:"PROTECTION",value:"R\xc9SISTANTE"},{key:"MUSIQUE",value:"MUSIC+USB+C\xc2BLE AUXILIAIRE"},{key:"LED",value:"LED AVANT"},{key:"BALAN\xc7OIRE",value:"BALAN\xc7OIRE"},{key:"\xc2GE",value:"L'\xc2GE 1 - 6 ANS"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"},{id:"voiture-boogie-4x4",title:"La voiture Boogie 4*4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:214,currentPrice:2599,oldPrice:3100,discount:30,images:["voiture-boogie-4x4/voiture-boogie -4x4-01.webp","voiture-boogie-4x4/voiture-boogie -4x4-02.webp","voiture-boogie-4x4/voiture-boogie -4x4-03.webp","voiture-boogie-4x4/voiture-boogie -4x4-04.webp","voiture-boogie-4x4/voiture-boogie -4x4-05.webp","voiture-boogie-4x4/voiture-boogie -4x4-06.webp","voiture-boogie-4x4/voiture-boogie -4x4-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V 10Ah"},{key:"CHARGEUR",value:"12V"},{key:"PLACES",value:"2 places"},{key:"MOTEURS",value:"5 moteurs"},{key:"VITESSE",value:"3 vitesses"},{key:"\xc2GE",value:"2 - 10 ans"},{key:"TABLEAU",value:"Tableau de bord digital"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"Ceinture de s\xe9curit\xe9"},{key:"MUSIQUE",value:"USB, Bluetooth, c\xe2ble auxiliaire"},{key:"BALAN\xc7OIRE",value:"Oui"},{key:"AMORTISSEURS",value:"Oui"},{key:"LED",value:"Feux avant & arri\xe8re"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle & contr\xf4le via t\xe9l\xe9phone"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"voiture-toyota-4x4",title:"La voiture Toyota 4*4",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:214,currentPrice:2149,oldPrice:2900,discount:30,images:["voiture-toyota-4x4/voiture-toyota-4x4-01.webp","voiture-toyota-4x4/voiture-toyota-4x4-02.webp","voiture-toyota-4x4/voiture-toyota-4x4-03.webp","voiture-toyota-4x4/voiture-toyota-4x4-04.webp","voiture-toyota-4x4/voiture-toyota-4x4-05.webp","voiture-toyota-4x4/voiture-toyota-4x4-06.webp","voiture-toyota-4x4/voiture-toyota-4x4-07.webp","voiture-toyota-4x4/voiture-toyota-4x4-08.webp","voiture-toyota-4x4/voiture-toyota-4x4-09.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"CHARGEUR",value:"12V"},{key:"PLACES",value:"2 places en cuir"},{key:"MOTEURS",value:"3 moteurs"},{key:"VITESSE",value:"3 vitesses"},{key:"\xc2GE",value:"2 - 8 ans"},{key:"TABLEAU",value:"Tableau de bord digital"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"Ceinture de s\xe9curit\xe9"},{key:"MUSIQUE",value:"USB, Bluetooth, c\xe2ble auxiliaire"},{key:"BALAN\xc7OIRE",value:"Oui"},{key:"AMORTISSEURS",value:"Oui"},{key:"LED",value:"Feux avant & arri\xe8re"},{key:"T\xc9L\xc9COMMANDE",value:"Manuelle & contr\xf4le via t\xe9l\xe9phone"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"voiture-Jeep-police-2025",title:"Voiture Jeep police 4*4 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:59,currentPrice:2449,oldPrice:3249,discount:30,images:["voiture-Jeep-police-2025/voiture-jeep-police-2025-12.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-02.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-03.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-04.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-05.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-06.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-07.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-08.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-09.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-10.webp","voiture-Jeep-police-2025/voiture-jeep-police-2025-11.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"BATTERIE",value:"12V 10Ah"},{key:"CHARGEUR",value:"12V"},{key:"PLACES",value:"2 PLACES"},{key:"MOTEURS",value:"5 MOTEURS"},{key:"VITESSE",value:"3 VITESSES"},{key:"\xc2GE",value:"1 - 8 ANS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"CEINTURE DE S\xc9CURIT\xc9"},{key:"MUSIQUE",value:"USB, C\xc2BLE AUXILIAIRE"},{key:"BALAN\xc7OIRE",value:"OUI"},{key:"AMORTISSEURS",value:"OUI"},{key:"LED",value:"AVANT & ARRI\xc8RE"},{key:"T\xc9L\xc9COMMANDE",value:"MANUELLE & CONTR\xd4LE PAR T\xc9L\xc9PHONE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1027785836036512%2F&show_text=false&width=267&t=0"},{id:"voiture-Lamborghini-2025",title:"Voiture Lamborghini 2025",brand:"Marque enfant",category:"سيارات كهربائية",availability:"متوفر في المخزون",ratings:4.5,reviewCount:192,currentPrice:1590,oldPrice:2e3,discount:30,images:["voiture-Lamborghini-original/voiture-lamborghini-original-01.webp","voiture-Lamborghini-original/voiture-lamborghini-original-02.webp","voiture-Lamborghini-original/voiture-lamborghini-original-03.webp","voiture-Lamborghini-original/voiture-lamborghini-original-04.webp","voiture-Lamborghini-original/voiture-lamborghini-original-05.webp","voiture-Lamborghini-original/voiture-lamborghini-original-06.webp","voiture-Lamborghini-original/voiture-lamborghini-original-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"3 MOTEURS PUISSANTS"},{key:"VITESSE",value:"3 VITESSES + BASCULE"},{key:"BATTERIE",value:"2X 6V RECHARGEABLES"},{key:"CHARGEUR",value:"INCLUS (12V)"},{key:"AUTONOMIE",value:"1-2H"},{key:"\xc2GE",value:"1-6 ANS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"CEINTURE",value:"INCLUSE"},{key:"AMORTISSEURS",value:"OUI"},{key:"ROUES",value:"ANTID\xc9RAPANTES"},{key:"PROTECTION",value:"R\xc9SISTANTE"},{key:"MUSIQUE",value:"BLUETOOTH, USB, AUX"},{key:"LED",value:"AVANT & ARRI\xc8RE"},{key:"KLAXON",value:"OUI"},{key:"BALAN\xc7OIRE",value:"OUI"},{key:"T\xc9L\xc9COMMANDE",value:"PARENTALE"},{key:"SI\xc8GE",value:"CONFORTABLE"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1179274147225695%2F&show_text=false&width=267&t=0"},{id:"Moteur-HARLEY-6V",title:"Moteur HARLEY 6V",brand:"Marque enfant ",category:"سيارات كهربائية",availability:"غير متوفر في المخزون",ratings:4.5,reviewCount:260,currentPrice:999,oldPrice:1550,discount:30,images:["Moteur-HARLEY-6V/moteur-harley-6v-01.webp","Moteur-HARLEY-6V/moteur-harley-6v-02.webp","Moteur-HARLEY-6V/moteur-harley-6v-03.webp","Moteur-HARLEY-6V/moteur-harley-6v-04.webp","Moteur-HARLEY-6V/moteur-harley-6v-05.webp","Moteur-HARLEY-6V/moteur-harley-6v-06.webp","Moteur-HARLEY-6V/moteur-harley-6v-07.webp"],features:[{title:"AVANTAGES AVANC\xc9S",icon:"fa-cogs",items:[{key:"MOTEUR",value:"2 MOTEURS PUISSANTS"},{key:"VITESSE",value:"3 VITESSES"},{key:"BATTERIE",value:"2 BATTERIES 6V RECHARGEABLES"},{key:"CHARGEUR",value:"CHARGEUR 12V INCLUS"},{key:"\xc2GE",value:"POUR ENFANTS DE 1 \xc0 6 ANS"}]},{title:"CARACT\xc9RISTIQUES",icon:"fa-star",items:[{key:"SI\xc8GE",value:"SI\xc8GE EN CUIR CONFORTABLE"},{key:"AMORTISSEURS",value:"AMORTISSEURS INT\xc9GR\xc9S"},{key:"\xc9CLAIRAGE",value:"LED AVANT ET ARRI\xc8RE"},{key:"MUSIQUE",value:"BLUETOOTH, USB, C\xc2BLE AUX"},{key:"SONS",value:"EFFETS SONORES IMMERSIFS"},{key:"GUIDE",value:"MANUEL INCLUS "}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"},{id:"si\xe8ge-auto-mastela",title:"SI\xc8GE AUTO MASTELA ROTATIF 360\xb0",brand:"MASTELA ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:140,currentPrice:1330,oldPrice:1500,discount:30,images:["si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-01.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-02.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-03.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-04.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-05.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-06.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-07.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-08.webp","si\xe8ge-auto-mastela/si\xe8ge-auto-mastela-09.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"SI\xc8GE AUTO Mastela 0-12 ANS ROTATIF 360\xb0"},{key:"TYPE",value:"Groupe 0/1/2/3"},{key:"ROTATION",value:"360\xb0 avec ISOFIX"},{key:"INSTALLATION",value:"ISOFIX rapide et s\xe9curis\xe9"},{key:"\xc2GE",value:"0 - 12 ans"},{key:"CONFORT",value:"Rembourrage doux"},{key:"S\xc9CURIT\xc9",value:"Protection maximale"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"Utilisable de 0 \xe0 12 ans"},{key:"INSTALLATION",value:"ISOFIX facile et rapide"},{key:"PROTECTION",value:"S\xe9curit\xe9 renforc\xe9e"},{key:"CONFORT",value:"Mat\xe9riaux doux et confortables"},{key:"ADAPTABILIT\xc9",value:"S'adapte \xe0 la croissance de l'enfant"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1394153574894158%2F&show_text=false&width=267&t=0"},{id:"si\xe8ge-auto-kidilo-1400",title:"Si\xe8ge auto KIDILO 360\xb0 Isofix ",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:24,currentPrice:1399,oldPrice:1800,discount:30,images:["si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-01.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-02.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-03.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-04.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-05.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-06.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-07.webp","si\xe8ge-auto-kidilo-1400/si\xe8ge-auto-kidilo-1400-08.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge Auto KIDILO naissance \xe0 12 ans Rotatif- Isofix Grp 0/1/2/3"},{key:"TYPE",value:"Groupe 0/1/2/3"},{key:"ROTATION",value:"360\xb0 pivotant avec ISOFIX"},{key:"INSTALLATION",value:"ISOFIX et ceinture de s\xe9curit\xe9"},{key:"\xc2GE",value:"Naissance - 12 ans"},{key:"CONFORT",value:"Appui-t\xeate r\xe9glable, rembourrage doux"},{key:"S\xc9CURIT\xc9",value:"Harnais \xe0 5 points"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"ROTATION 360\xb0",value:"Acc\xe8s facile des deux c\xf4t\xe9s"},{key:"UTILISATION",value:"Dos \xe0 la route jusqu’\xe0 18 kg, face de 9 \xe0 36 kg"},{key:"CONFORT",value:"Rembourrage doux et tissu respirant"},{key:"R\xc9GLAGE",value:"Appui-t\xeate ajustable, dossier inclinable"},{key:"S\xc9CURIT\xc9",value:"Harnais s\xe9curis\xe9 \xe0 5 points"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1192338492420647%2F&show_text=false&width=267&t=0"},{id:"si\xe8ge-auto-kidilo-g406b",title:"Si\xe8ge Auto KIDILO 360\xb0 Isofix G406B ",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:96,currentPrice:1349,oldPrice:1600,discount:30,images:["si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-01.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-02.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-03.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-04.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-05.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-06.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-07.webp","si\xe8ge-auto-kidilo-g406b/si\xe8ge-auto-kidilo-g406b-08.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge Auto Rotation 360 Isofix G406B – KIDILO"},{key:"TYPE",value:"Groupe 0/1/2/3"},{key:"ROTATION",value:"360\xb0 pivotant avec ISOFIX"},{key:"INSTALLATION",value:"ISOFIX et ceinture de s\xe9curit\xe9"},{key:"\xc2GE",value:"Naissance - 12 ans"},{key:"CONFORT",value:"Appui-t\xeate r\xe9glable, rembourrage doux"},{key:"S\xc9CURIT\xc9",value:"Harnais \xe0 5 points"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"ROTATION 360\xb0",value:"Acc\xe8s facile des deux c\xf4t\xe9s"},{key:"UTILISATION",value:"Dos \xe0 la route jusqu’\xe0 13 kg, face de 9 \xe0 36 kg"},{key:"CONFORT",value:"Rembourrage doux et tissu respirant"},{key:"R\xc9GLAGE",value:"Appui-t\xeate ajustable, dossier inclinable"},{key:"S\xc9CURIT\xc9",value:"Harnais s\xe9curis\xe9 \xe0 5 points"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687673320498795%2F&show_text=false&width=264&t=0"},{id:"si\xe8ge-auto-kidilo-g301",title:"Si\xe8ge auto KIDILO G301 ",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:4,currentPrice:799,oldPrice:999,discount:30,images:["si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-01.webp","si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-02.webp","si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-03.webp","si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-04.webp","si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-05.webp","si\xe8ge-auto-kidilo-g301/si\xe8ge-auto-kidilo-g301-06.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge auto KIDILO 9-36kg / 1-12 ans"},{key:"TYPE",value:"Groupe 1/2/3 (9-36 Kg)"},{key:"INSTALLATION",value:"Ceinture de s\xe9curit\xe9 du v\xe9hicule"},{key:"\xc2GE",value:"1 - 12 ans"},{key:"CONFORT",value:"Coussins rembourr\xe9s, support ergonomique"},{key:"S\xc9CURIT\xc9",value:"Conforme aux standards de s\xe9curit\xe9"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"Convient de 1 \xe0 12 ans"},{key:"S\xc9CURIT\xc9",value:"Protection optimale"},{key:"INSTALLATION",value:"Fixation stable avec ceinture de s\xe9curit\xe9"},{key:"CONFORT",value:"Mat\xe9riaux doux et confortables"},{key:"ADAPTABILIT\xc9",value:"Ajustement parfait pour la croissance"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1695601351316004%2F&show_text=false&width=267&t=0"},{id:"si\xe8ge-auto-kidilo",title:"Si\xe8ge auto KIDILO isofix rotatif  360\xb0 ",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:96,currentPrice:1249,oldPrice:1550,discount:30,images:["si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-01.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-02.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-03.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-04.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-05.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-06.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-07.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-08.webp","si\xe8ge-auto-kidilo/si\xe8ge-auto-kidilo-09.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge auto KIDILO 0-12 ans Rotatif- Isofix"},{key:"TYPE",value:"Groupe 0+/1/2/3 (0-36 Kg)"},{key:"INSTALLATION",value:"Isofix + Top Tether (G0+), Ceinture (G1/2/3)"},{key:"POSITIONNEMENT",value:"Dos route 0-18 Kg, Face route d\xe8s 9 Kg"},{key:"CONFORT",value:"Positions assise/couch\xe9e, appui-t\xeate r\xe9glable"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"Convient de 0 \xe0 12 ans"},{key:"S\xc9CURIT\xc9",value:"Protection optimale"},{key:"INSTALLATION",value:"Fixation stable avec Isofix et ceinture"},{key:"CONFORT",value:"Mat\xe9riaux doux et ergonomiques"},{key:"ADAPTABILIT\xc9",value:"Ajustement parfait pour la croissance"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1030215162489009%2F&show_text=false&width=264&t=0"},{id:"si\xe8ge-auto-kidilo-1199",title:"Si\xe8ge auto isofix rotatif 360\xb0",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:26,currentPrice:1199,oldPrice:1500,discount:30,images:["si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-01.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-02.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-03.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-04.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-05.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-06.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-07.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-08.webp","si\xe8ge-auto-kidilo-1199/si\xe8ge-auto-kidilo-1199-09.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge auto KIDILO 0-12 ans Rotatif- Isofix"},{key:"TYPE",value:"Groupe 0+/1/2/3 (0-36 Kg)"},{key:"ROTATION",value:"360\xb0 avec ISOFIX"},{key:"INSTALLATION",value:"ISOFIX + ceinture selon groupe"},{key:"\xc2GE",value:"0 - 12 ans"},{key:"CONFORT",value:"Housse rembourr\xe9e, appui-t\xeate r\xe9glable"},{key:"S\xc9CURIT\xc9",value:"Ceinture 5 points"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"0-12 ans"},{key:"INSTALLATION",value:"Dos route 0-18 Kg, face route d\xe8s 9 Kg"},{key:"PROTECTION",value:"S\xe9curit\xe9 renforc\xe9e"},{key:"CONFORT",value:"Mat\xe9riaux doux"},{key:"ADAPTABILIT\xc9",value:"Suit la croissance"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1668139383896057%2F&show_text=false&width=264&t=0"},{id:"si\xe8ge-auto-kidilo-1299",title:"Si\xe8ge auto KIDILO ROTATIF 360\xb0",brand:"KIDILO ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:58,currentPrice:1299,oldPrice:1600,discount:30,images:["si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-01.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-02.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-03.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-04.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-05.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-06.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-07.webp","si\xe8ge-auto-kidilo-1299/si\xe8ge-auto-kidilo-1299-08.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"Si\xe8ge auto KIDILO 0-12 ans Rotatif- Isofix"},{key:"TYPE",value:"Groupe 0+/1/2/3 (0-36 Kg)"},{key:"ROTATION",value:"360\xb0 avec ISOFIX"},{key:"INSTALLATION",value:"ISOFIX + ceinture selon groupe"},{key:"\xc2GE",value:"0 - 12 ans"},{key:"CONFORT",value:"Housse rembourr\xe9e, appui-t\xeate r\xe9glable"},{key:"S\xc9CURIT\xc9",value:"Ceinture 5 points"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"0-12 ans"},{key:"POIDS",value:"Dos route 0-18 Kg, face route d\xe8s 9 Kg"},{key:"PROTECTION",value:"S\xe9curit\xe9 renforc\xe9e"},{key:"CONFORT",value:"Mat\xe9riaux doux"},{key:"ADAPTABILIT\xc9",value:"Suit la croissance"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1649431872601282%2F&show_text=false&width=264&t=0"},{id:"si\xe8ge-auto-my-b\xe9b\xe9",title:"SI\xc8GE AUTO My b\xe9b\xe9 ROTATIF 360\xb0 ",brand:"My b\xe9b\xe9 ",category:"Siege auto",availability:"متوفر في المخزون",ratings:4.5,reviewCount:260,currentPrice:1199,oldPrice:1400,discount:30,images:["si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-01.webp","si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-02.webp","si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-03.webp","si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-04.webp","si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-05.webp","si\xe8ge-auto-my-b\xe9b\xe9/si\xe8ge-auto-my-b\xe9b\xe9-06.webp"],features:[{title:"مواصفات المنتج",icon:"fa-cogs",items:[{key:"MOD\xc8LE",value:"SI\xc8GE AUTO My b\xe9b\xe9 0 \xc0 12 ANS ROTATIF 360\xb0"},{key:"TYPE",value:"Si\xe8ge auto Groupe 0/1/2/3"},{key:"ROTATION",value:"360\xb0"},{key:"INSTALLATION",value:"Connecteurs ISOFIX"},{key:"\xc2GE",value:"0 - 12 ans"},{key:"CONFORT",value:"Rembourrage optimal"},{key:"S\xc9CURIT\xc9",value:"Haute protection pour b\xe9b\xe9/enfant"}]},{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"\xc9VOLUTIF",value:"Utilisable d\xe8s la naissance jusqu'\xe0 12 ans"},{key:"INSTALLATION",value:"Facile avec ISOFIX"},{key:"PROTECTION",value:"S\xe9curit\xe9 maximale en voiture"},{key:"CONFORT",value:"Mat\xe9riaux doux et rembourr\xe9s"},{key:"ADAPTABILIT\xc9",value:"S'adapte \xe0 la croissance de l'enfant"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous.",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"},{id:"trampoline-2.42-cm",title:"Trampoline 2,42 cm ",brand:"TPC",category:"ترامبولين",availability:"متوفر في المخزون",ratings:4.5,reviewCount:6,currentPrice:2290,oldPrice:2990,discount:30,images:["trampoline-2.42-cm/trampoline-2.42-cm-01.webp","trampoline-2.42-cm/trampoline-2.42-cm-02.webp","trampoline-2.42-cm/trampoline-2.42-cm-03.webp","trampoline-2.42-cm/trampoline-2.42-cm-04.webp"],features:[{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"QUALIT\xc9",value:"Solide et de bonne qualit\xe9"},{key:"CHARGE MAXIMALE",value:"Supporte jusqu’\xe0 100 kg"},{key:"S\xc9CURIT\xc9",value:"Avec filet de s\xe9curit\xe9 et \xe9chelle"},{key:"UTILISATION",value:"Pour l’int\xe9rieur et l’ext\xe9rieur"},{key:"MAT\xc9RIAUX",value:"Acier inoxydable + tapis anti-UV"},{key:"MONTAGE",value:"Facile \xe0 monter avec tout le n\xe9cessaire"},{key:"SURVEILLANCE",value:"\xc0 utiliser sous surveillance d’un adulte"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"trampoline-3.00-cm",title:"Trampoline 3,00 cm ",brand:"CHICAGO ",category:"ترامبولين",availability:"متوفر في المخزون",ratings:4.5,reviewCount:9,currentPrice:2890,oldPrice:2990,discount:30,images:["trampoline-3.00-cm/trampoline-3.00-cm-01.webp","trampoline-3.00-cm/trampoline-3.00-cm-02.webp","trampoline-3.00-cm/trampoline-3.00-cm-03.webp","trampoline-3.00-cm/trampoline-3.00-cm-04.webp"],features:[{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"QUALIT\xc9",value:"Solide et de bonne qualit\xe9"},{key:"CHARGE MAXIMALE",value:"Supporte jusqu’\xe0 150 kg"},{key:"S\xc9CURIT\xc9",value:"Avec filet de s\xe9curit\xe9 et \xe9chelle"},{key:"UTILISATION",value:"Pour l’int\xe9rieur et l’ext\xe9rieur"},{key:"MAT\xc9RIAUX",value:"Acier inoxydable + tapis anti-UV"},{key:"MONTAGE",value:"Facile \xe0 monter avec tout le n\xe9cessaire"},{key:"SURVEILLANCE",value:"\xc0 utiliser sous surveillance d’un adulte"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"trampoline-3.65-cm",title:"Trampoline 3,65 cm ",brand:"CHICAGO ",category:"ترامبولين",availability:"متوفر في المخزون",ratings:4.5,reviewCount:2,currentPrice:3390,oldPrice:4190,discount:30,images:["trampoline-3.65-cm/trampoline-3.65-cm-01.webp","trampoline-3.65-cm/trampoline-3.65-cm-02.webp","trampoline-3.65-cm/trampoline-3.65-cm-03.webp","trampoline-3.65-cm/trampoline-3.65-cm-04.webp"],features:[{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"QUALIT\xc9",value:"Solide et de bonne qualit\xe9"},{key:"CHARGE MAXIMALE",value:"Supporte jusqu’\xe0 190 kg"},{key:"S\xc9CURIT\xc9",value:"Avec filet de s\xe9curit\xe9 et \xe9chelle"},{key:"UTILISATION",value:"Pour l’int\xe9rieur et l’ext\xe9rieur"},{key:"MAT\xc9RIAUX",value:"Acier inoxydable + tapis anti-UV"},{key:"MONTAGE",value:"Facile \xe0 monter avec tout le n\xe9cessaire"},{key:"SURVEILLANCE",value:"\xc0 utiliser sous surveillance d’un adulte"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"trampoline-4,20-cm",title:"Trampoline 4,20 cm ",brand:"CHICAGO ",category:"ترامبولين",availability:"متوفر في المخزون",ratings:4.5,reviewCount:3,currentPrice:3990,oldPrice:4900,discount:30,images:["trampoline-4,20-cm/trampoline-4,20-cm-01.webp","trampoline-4,20-cm/trampoline-4,20-cm-02.webp","trampoline-4,20-cm/trampoline-4,20-cm-03.webp","trampoline-4,20-cm/trampoline-4,20-cm-04.webp","trampoline-4,20-cm/trampoline-4,20-cm-05.webp","trampoline-4,20-cm/trampoline-4,20-cm-06.webp","trampoline-4,20-cm/trampoline-4,20-cm-07.webp"],features:[{title:"المميزات والفوائد",icon:"fa-star",items:[{key:"QUALIT\xc9",value:"Solide et de bonne qualit\xe9"},{key:"CHARGE MAXIMALE",value:"Supporte jusqu’\xe0 210 kg"},{key:"S\xc9CURIT\xc9",value:"Avec filet de s\xe9curit\xe9 et \xe9chelle"},{key:"UTILISATION",value:"Pour l’int\xe9rieur et l’ext\xe9rieur"},{key:"MAT\xc9RIAUX",value:"Acier inoxydable + tapis anti-UV"},{key:"MONTAGE",value:"Facile \xe0 monter avec tout le n\xe9cessaire"},{key:"SURVEILLANCE",value:"\xc0 utiliser sous surveillance d’un adulte"}]}],warranty:"Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute s\xe9curit\xe9, o\xf9 que vous soyez au Maroc. Ne ratez pas cette opportunit\xe9, passez votre commande d\xe8s maintenant et profitez du shopping depuis chez vous."},{id:"drift-block-360-36V",title:"Drift Scooter 360\xb0 36V  ",brand:"Scooter",category:"Drift 360\xb0",availability:"متوفر في المخزون",ratings:4.5,reviewCount:2,currentPrice:2099,oldPrice:3e3,discount:30,images:["drift-block-360-36V/drift-block-360-36v-01.webp","drift-block-360-36V/drift-block-360-36v-02.webp","drift-block-360-36V/drift-block-360-36v-03.webp","drift-block-360-36V/drift-block-360-36v-04.webp","drift-block-360-36V/drift-block-360-36v-05.webp","drift-block-360-36V/drift-block-360-36v-06.webp","drift-block-360-36V/drift-block-360-36v-07.webp"],features:[{title:"CARACT\xc9RISTIQUES TECHNIQUES",icon:"fa-cogs",items:[{key:"MOTEUR",value:"150W min - 300W MAX"},{key:"BATTERIE",value:"Lithium 36V"},{key:"AUTONOMIE",value:"10KM MIN - 15KM MAX"},{key:"VITESSE",value:"15KM MIN - 20KM MAX"},{key:"CHARGE MAX",value:"70 KG"},{key:"FREINAGE",value:"Frein moteur"},{key:"MODES DE CONDUITE",value:"3 vitesses"},{key:"CHARGE",value:"36V"}]},{title:"AVANTAGES & FONCTIONNALIT\xc9S",icon:"fa-star",items:[{key:"BLUETOOTH",value:"Oui"},{key:"KLAXON",value:"Int\xe9gr\xe9"},{key:"S\xc9CURIT\xc9",value:"LED avant et arri\xe8re + casque et protections offerts "},{key:"D\xc9MARRAGE",value:"Double contact"},{key:"STYLE",value:"Design Drift 360\xb0 amusant et dynamique"}]}],warranty:"D\xe9couvrez la trottinette \xe9lectrique Drift 360\xb0 36V, un choix id\xe9al pour les enfants et les jeunes en qu\xeate de sensations fortes. Dot\xe9e d’un moteur puissant de 300W Max, d’une batterie lithium 36V et d’un syst\xe8me de freinage moteur s\xe9curis\xe9, cette trottinette offre une autonomie allant jusqu’\xe0 15 km et une vitesse maximale de 20 km/h. Gr\xe2ce \xe0 ses 3 modes de conduite, son klaxon int\xe9gr\xe9, ses feux LED avant et arri\xe8re, ainsi que sa fonction Bluetooth, elle garantit une exp\xe9rience de conduite amusante, s\xe9curis\xe9e et connect\xe9e. Offerte avec casque et protections pour une s\xe9curit\xe9 maximale. Parfaite pour les balades en toute confiance ",videoURL:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F676998611711017%2F&show_text=false&width=267&t=0"}];window.products=products;
+const products = [
+  {
+    id: "trottinette-ecoxtrem-m4-max",
+    title: "TROTTINETTE ECOXTREM M4 MAX",
+    brand: "Ecoxtrem",
+    category: "تروتينات",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 69,
+    currentPrice: 4690,
+    oldPrice: 6000,
+    discount: 30,
+    images: [
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-01.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-02.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-03.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-04.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-05.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-06.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-07.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-08.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-09.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-10.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES ULTIMES",
+        icon: "fa-cogs",
+        items: [
+          { key: "MOTEUR", value: "1200W" },
+          { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+          { key: "AUTONOMIE", value: "35km - 50km" },
+          { key: "VITESSE", value: "55 km/h max" },
+          { key: "CHARGE MAX", value: "120 KG" },
+          { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+          { key: "FREINAGE", value: "Disque Avant & Arrière" },
+          { key: "SUSPENSION", value: "Avant & Arrière" },
+          { key: "TABLEAU", value: "Écran LCD" },
+          { key: "NIVEAUX DE VITESSE", value: "3 niveaux" },
+          { key: "CHARGE", value: "54V" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "LED", value: "Avant + Arrière" },
+          { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière" },
+          { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+          { key: "PLIABLE", value: "OUI" },
+          { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+          { key: "ROUES", value: "10 pouces" },
+          { key: "COFFRES", value: "Porte-bagages inclus" }
+        ]
+      }
+    ],
+    warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissant 1200W, autonomie jusqu’à 50 km, vitesse max 55 km/h. Freins à disque, pneus 10 pouces, écran LCD, LED, pliable avec coffre pratique.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"
+ },
+ 
+    {
+   id: "trottinette-Tank-m41",
+   title: "TROTTINETTE Tank M41 Ultimate 2025",
+   brand: "Ecoxtrem",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 6300,
+   oldPrice: 7899,
+   discount: 30,
+   images: [
+     "trottinette-Tank-m41/trottinette-tank-m41-01.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-02.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-03.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-04.webp",
+      "trottinette-Tank-m41/trottinette-tank-m41-05.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-06.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-07.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
+     "trottinette-Tank-m41/trottinette-tank-m41-10.webp"
+   ],
+features: [
+  {
+    title: "description",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "Ecoxtrem" },
+      { key: "MOTEUR", value: "1000W min - 2000W MAX" },
+      { key: "BATTERIE", value: "48V 16AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35km - 60km" },
+      { key: "VITESSE", value: "68 km/h max" },
+      { key: "CHARGE MAX", value: "150 KG" },
+      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Digital LCD" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone " },
+      { key: "ROUES", value: "Off-road 11 pouces Tubeless" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "COULEURS", value: "Disponible 5 couleurs" },
+      { key: "CADEAU", value: "Sac offert " }
+    ]
+  }
+],
+
+warranty: "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11 Tubeless, châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital LCD, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4094664134151479%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  {
+   id: "trottinette-bremer-48v",
+    title: "TROTTINETTE SCOOTER BREMER 48V",
+    brand: " BREMER",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 2,
+    currentPrice: 4599,
+    oldPrice: 5490,
+    discount: 30,
+    images: [
+      "trottinette-bremer-48v/trottinette-bremer-48v-01.webp",
+     "trottinette-bremer-48v/trottinette-bremer-48v-02.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-03.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-04.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-05.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-06.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-07.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-08.webp",
+      "trottinette-bremer-48v/trottinette-bremer-48v-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MAX" },
+      { key: "BATTERIE", value: "48V 10AH LITHIUM" },
+      { key: "AUTONOMIE", value: "25KM MIN - 35KM MAX" },
+      { key: "VITESSE", value: "25KM MIN - 34KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREINAGE", value: "À DISQUE AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE " },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "CONCEPTION", value: "PLIABLE OUI + SIÈGE EN CUIR" },
+      { key: "SIGNALISATION", value: "KLAXON + LUMIÈRE LED" },
+      { key: "MAÎTRISE", value: "CONTRÔLE VIA MOBILE " },
+      { key: "TAILLE DES ROUES", value: "12 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  }
+],
+    warranty: "Découvrez une trottinette électrique performante et confortable, équipée d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’à 35 km et d’une vitesse maximale de 34 km/h. Grâce à ses suspensions avant et arrière, ses freins à disque avec E-ABS, et son écran LCD EY2 connecté à une application mobile, vous bénéficiez d’un contrôle total et d’un confort optimal. Pliable, avec siège en cuir, klaxon intégré, éclairage LED complet et pneus 12 pouces à chambre à air – tout est pensé pour une conduite sûre, pratique et agréable au quotidien.",
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"
+  },
+  
+   {
+   id: "trottinette-m4-pro",
+   title: "TROTTINETTE M4 PRO 2025",
+   brand: "M4 PRO",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 4990,
+   oldPrice: 6499,
+   discount: 30,
+   images: [
+     "trottinette-m4-pro/trottinette-m4-pro-01.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-02.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-03.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-04.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-05.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-06.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-07.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-08.webp",
+     "trottinette-m4-pro/trottinette-m4-pro-09.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES ULTIMES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W nominal - 1000W MAX" },
+      { key: "BATTERIE", value: "48V 12.5AH LITHIUM" },
+      { key: "AUTONOMIE", value: "30km min - 40km max" },
+      { key: "VITESSE", value: "53 km/h max" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "FREINAGE", value: "Disque Avant & Arrière" },
+      { key: "SUSPENSION", value: "Avant & Arrière" },
+      { key: "TABLEAU", value: "Écran LCD" },
+      { key: "VITESSE", value: "3 niveaux" },
+      { key: "KLAXON", value: "Électrique" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "DÉMARRAGE", value: "Avec contact" }  
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière + Latéral" },
+      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+      { key: "SÉCURITÉ", value: "Frein de sécurité + système antivol" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone " },
+      { key: "ROUES", value: "Off-road 10 pouces" },
+      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
+      { key: "FEU SIGNAL", value: "OUI" },
+      { key: "CADEAU", value: "Sac offert " }
+    ]
+  }
+],
+
+warranty: "Découvrez la Trottinette M4 PRO 2025 : moteur 500W nominal / 1000W max, batterie 48V 12.5Ah pour une autonomie de 30 km à 40 km. Vitesse max 53 km/h, charge max jusqu'à 120 kg, avec freins à disque avant/arrière et amortisseurs pour plus de confort. Écran LCD, klaxon électrique, feux LED avant/arrière, clignotants latéraux, et système de pliage guidon. Roues 10 pouces off-road et 3 vitesses. Poids total : 24,5 kg.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1056531722949824%2F&show_text=false&width=220&t=0"
+  }, 
+  
+    {
+   id: "trottinette-navee-n20",
+    title: "TROTTINETTE NAVEE N20",
+    brand: " NAVEE N20",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 2,
+    currentPrice: 2890,
+    oldPrice: 3500,
+    discount: 30,
+    images: [
+      "trottinette-navee-n20/trottinette-navee-n20-01.webp",
+     "trottinette-navee-n20/trottinette-navee-n20-02.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-03.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-04.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-05.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-06.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-07.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-08.webp",
+      "trottinette-navee-n20/trottinette-navee-n20-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MAX" },
+      { key: "BATTERIE", value: "36V LITHIUM" },
+      { key: "AUTONOMIE", value: "15KM MIN - 20KM MAX" },
+      { key: "VITESSE", value: "25KM MIN - 32KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "À DISQUE ARRIÈRE & ÉLECTRIQUE + E-ABS" },
+      { key: "MATÉRIEL", value: "ALUMINIUM" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "PLIAGE", value: "OUI" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE " },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "FEU AVANT + FEU STOP À LED" },
+      { key: "SIGNALISATION", value: "KLAXON + INDICATEUR DE BATTERIE" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" },
+      { key: "VERROUILLAGE", value: "CADEAU " }
+    ]
+  }
+],
+
+
+  warranty: "Optez pour la trottinette électrique NAVEE N20 – un parfait mélange de puissance, sécurité et confort. Dotée d’un moteur robuste de 500W, d’une batterie lithium 36V et d’une autonomie de 15 à 20 km, elle vous accompagne efficacement dans tous vos déplacements urbains. Atteignez une vitesse de 32 km/h tout en gardant un contrôle total grâce aux freins à disque arrière, système E-ABS, écran LCD EY2 avec application mobile, et klaxon intégré. Son design pliable en aluminium, ses pneus 10 pouces à chambre à air, et son éclairage LED avant/arrière garantissent une expérience de conduite fluide et sécurisée. Étanchéité IPX5, indicateur de batterie, triple vitesse, et verrouillage offert en cadeau . Commandez maintenant – livraison gratuite dans toutes les villes !",
+
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1025522592251852%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+   id: "trottinette-togo-36v",
+    title: "TROTTINETTE DUALTRON TOGO 36V",
+    brand: "DUALTRON",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 12,
+    currentPrice: 4990,
+    oldPrice: 6599,
+    discount: 30,
+    images: [
+      "trottinette-togo-36v/trottinette-togo-36v-01.webp",
+     "trottinette-togo-36v/trottinette-togo-36v-02.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-03.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-04.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-05.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-06.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-07.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-08.webp",
+      "trottinette-togo-36v/trottinette-togo-36v-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "800W MAX" },
+      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+      { key: "AUTONOMIE", value: "20KM MIN - 30KM MAX" },
+      { key: "VITESSE", value: "35KM MIN - 40KM MAX" },
+      { key: "CHARGE MAX", value: "110 KG" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE " },
+      { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+],
+
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+   id: "trottinette-togo-48v",
+    title: "TROTTINETTE DUALTRON TOGO 48V",
+    brand: "DUALTRON",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 56,
+    currentPrice: 6490,
+    oldPrice: 7999,
+    discount: 30,
+    images: [
+      "trottinette-togo-48v/trottinette-togo-48v-01.webp",
+      "trottinette-togo-48v/trottinette-togo-48v-02.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-03.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-04.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-05.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-06.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-07.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-08.webp",
+       "trottinette-togo-48v/trottinette-togo-48v-09.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1300W MAX" },
+      { key: "BATTERIE", value: "48V 12AH LITHIUM" },
+      { key: "AUTONOMIE", value: "30KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "45KM MIN - 51KM MAX" },
+      { key: "CHARGE MAX", value: "110 KG" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE + E-ABS" },
+      { key: "FREIN", value: "FREIN DE SÉCURITÉ" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE " },
+      { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F879956360752339%2F&show_text=false&width=267&t=0"
+  },
+  
+   {
+   id: "trottinette-pro-edition-36v",
+    title: "TROTTINETTE PRO-EDITION 36V 15AH",
+    brand: "PRO-EDITION",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 3849,
+    oldPrice: 4799,
+    discount: 30,
+    images: [
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-01.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-02.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-03.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-04.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-05.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-06.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-07.webp",
+      "trottinette-pro-edition-36v/trottinette-pro-edition-36v-08.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W - 700W MAX" },
+      { key: "BATTERIE", value: "36V 15AH LITHIUM" },
+      { key: "AUTONOMIE", value: "35KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "25KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "AVANT ET ARRIÈRE & ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+ 
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F696236402972322%2F&show_text=false&width=264&t=0"
+  },
+  
+   {
+   id: "trottinette-scooter-36V",
+    title: "TROTTINETTE Scooter 36V 15AH",
+    brand: "SCOOTER",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 3999,
+    oldPrice: 4799,
+    discount: 30,
+    images: [
+      "trottinette-scooter-36V/trottinette-scooter-36v-01.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-02.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-03.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-04.webp",
+      "trottinette-scooter-36V/trottinette-scooter-36v-05.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-06.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-07.webp",
+     "trottinette-scooter-36V/trottinette-scooter-36v-08.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W - 700W MAX" },
+      { key: "BATTERIE", value: "36V 15AH LITHIUM" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+      { key: "AUTONOMIE", value: "35KM MIN - 45KM MAX" },
+      { key: "VITESSE", value: "25KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "AVANT ET ARRIÈRE & ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { key: "MODES DE CONDUITE", value: "3E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
+      { key: "CONCEPTION", value: "PLIABLE OUI" },
+      { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
+      { key: "MAÎTRISE", value: "MAÎTRISÉ DEPUIS LE TÉLÉPHONE" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "42V" }
+    ]
+  }
+ 
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1790742958137283%2F&show_text=false&width=264&t=0"
+  },
+
+    {
+   id: "trottinette-joyor-48v",
+    title: "TROTTINETTE JOYOR 48V",
+    brand: "JOYOR K4",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 71,
+    currentPrice: 3690,
+    oldPrice: 5399,
+    discount: 30,
+    images: [
+      "trottinette-joyor-48v/trottinette-joyor-48v-01.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-02.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-03.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-04.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-05.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-06.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-07.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-08.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-09.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-10.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-11.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500W MIN - 1000W MAX" },
+      { key: "BATTERIE", value: "48V 10AH LITHIUM" },
+      { key: "AUTONOMIE", value: "20KM MIN - 30KM MAX" },
+      { key: "VITESSE", value: "40KM MIN - 45KM MAX" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "DISQUE ARRIÈRE + E-ABS" },
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APPLICATION MOBILE " },
+      { key: "MODES DE CONDUITE", value: "3 VITESSES" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "CONCEPTION", value: "PLIABLE" },
+      { key: "SIÈGE", value: "SIÈGE EN CUIR" },
+      { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
+      { key: "CHARGE", value: "54V" },
+      { key: "KLAXON", value: "OUI" }
+    ]
+  }
+ 
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
+  },
+    {
+   id: "TROTTINETTE-JOYOR-48V-17.5AH",
+    title: "TROTTINETTE JOYOR 48V 17.5AH",
+    brand: "JOYOR Y 6 S",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 121,
+    currentPrice: 5490,
+    oldPrice: 6299,
+    discount: 30,
+    images: [
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-03.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-05.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-02.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-04.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-01.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-07.webp",
+      "TROTTINETTE-JOYOR-48V-17.5AH/joyor-48v-17.5ah-06.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1000 W" },
+          { key: "VITESSE", value: "50-56 KM/H" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+          { key: "BATTERIE", value: "LITHIUM 48V 17.5AH" },
+          { key: "AUTONOMIE", value: "45-60 KM" },
+          { key: "CHARGE MAX", value: "110 KG" },
+          { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "DISPLAY EY2 (APPLICATION MOBILE) " },
+          { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + إشارات" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "KLAXON", value: "OUI" },
+          { key: "CADEAU 1", value: "SAC " },
+          { key: "CADEAU 2", value: "Chambre à air " },
+          { key: "CADEAU 3", value: "VERROUILLAGE " }
+        ]
+      }
+    ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F631466946477410%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "trottinette-mi-electric-scooter-essential",
+    title: "TROTTINETTE Mi Electric Scooter Essential",
+    brand: "Xiaomi",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 165,
+    currentPrice: 2699,
+    oldPrice: 3509,
+    discount: 30,
+    wholesalePrice: {
+      minQuantity: 3,
+      pricePerUnit: 2375
+    },
+    images: [
+      "xiaomi-essential/xiaomi-essential-01.webp",
+      "xiaomi-essential/xiaomi-essential-02.webp",
+      "xiaomi-essential/xiaomi-essential-03.webp",
+      "xiaomi-essential/xiaomi-essential-04.webp",
+      "xiaomi-essential/xiaomi-essential-05.webp",
+      "xiaomi-essential/xiaomi-essential-06.webp",
+      "xiaomi-essential/xiaomi-essential-07.webp",
+      "xiaomi-essential/xiaomi-essential-08.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500W MAX" },
+          { key: "VITESSE", value: "20 KM/H MIN - 25 KM/H MAX" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES RÉGLABLES" },
+          { key: "BATTERIE", value: "LITHIUM 36V 5100MAH / 183WH" },
+          { key: "AUTONOMIE", value: "15 KM MIN - 20 KM MAX" },
+          { key: "CHARGE MAX", value: "100 KG" },
+          { key: "FREINAGE", value: "DISQUE AR & ELECTRIQUE + E-ABS" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "MATÉRIAU", value: "ALUMINIUM" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR" },
+          { key: "FEU STOP", value: "LED" },
+          { key: "FEU AVANT", value: "LED" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "AFFICHAGE", value: "LCD AVEC APP MOBILE " },
+          { key: "PNEUS", value: "8,5 POUCES" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "INDICATEUR", value: "BATTERIE" },
+          { key: "BÉQUILLE", value: "KLAXON INCLUS" }
+        ]
+      }
+    ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1891550898286187%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "kukirin-g2-pro",
+    title: "TROTTINETTE KUKIRIN G2 PRO",
+    brand: "KUKIRIN",
+    category: "تروتينات",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 256,
+    currentPrice: 6490,
+    oldPrice: 7599,
+    discount: 30,
+    images: [
+      "kukaring2pro/kukiring2pro-2.webp",
+      "kukaring2pro/kukiring2pro-5.webp",
+      "kukaring2pro/kukiring2pro-6.webp",
+      "kukaring2pro/kukiring2pro-7.webp",
+      "kukaring2pro/kukiring2pro-1.webp",
+      "kukaring2pro/kukiring2pro-3.webp",
+      "kukaring2pro/kukiring2pro-4.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1200W" },
+          { key: "VITESSE", value: "50-57 KM/H" },
+          { key: "BATTERIE", value: "48V 15AH" },
+          { key: "AUTONOMIE", value: "40-50 KM" },
+          { key: "CHARGE MAX", value: "120 KG" },
+          { key: "FREIN", value: "DISQUES AV/AR" }
+        ]
+      },
+      {
+         title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "AFFICHAGE", value: "ÉCRAN LCD MULTIFONCTION" },
+          { key: "PNEUS", value: "OFF-ROAD 8.5\" RENFORCÉS" },
+          { key: "CONCEPTION", value: "PLIABLE AVEC SIÈGE EN CUIR" },
+          { key: "INDICATEUR", value: "INDICATEUR DE BATTERIE + CLIGNOTANTS" },
+          { key: "CADEAU", value: " SURPRISE OFFERTE !" }
+        ]
+      }
+    ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1185374139646507%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "trottinette-dualtron-mini-special",
+    title: "TROTTINETTE DUALTRON MINI SPIECIAL 52V",
+    brand: "DUALTRON",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 192,
+    currentPrice: 6490,
+    oldPrice: 7500,
+    discount: 30,
+    images: [
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-01.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-02.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-03.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-04.webp",
+       "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-05.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-06.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-07.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-08.webp"
+    ],
+    
+  features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "PUISSANCE", value: "1450W MAX" },
+      { key: "VITESSE", value: "JUSQU’À 65 KM/H" },
+      { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+      { key: "BATTERIE", value: "LITHIUM 52V 13AH" },
+      { key: "AUTONOMIE", value: "35-45 KM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+    ]
+  },
+
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+      { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "WATERPROOF", value: "IPX4" },
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APP MOBILE" },
+      { key: "PNEUS", value: "9\" POUCES CHAMBRE À AIR" },
+      { key: "CONCEPTION", value: "PLIABLE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN LCD DIGITAL" },
+      { key: "CHARGE", value: "58V" }
+    ]
+  }
+],
+warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiable, conçue pour les trajets urbains et les déplacements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 13Ah, offrant une autonomie allant de 35 à 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arrière et système E-ABS intégré. Équipée de suspensions à l’avant et à l’arrière pour un confort optimal, elle supporte jusqu’à 120 kg. Affichage EY2 avec application mobile, écran LCD, éclairage LED complet avec clignotants gauche/droite, système pliable et étanchéité IPX4/IPX5. Pneus 9 pouces à chambre à air. Recharge rapide en 58V. Idéale pour les amateurs de puissance, de technologie et de mobilité urbaine. Livraison gratuite dans toutes les villes marocaines.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1688955131984760%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "trottinette-dualtron-mini",
+    title: "TROTTINETTE DUALTRON MINI 52V",
+    brand: "DUALTRON",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 11,
+    currentPrice: 6390,
+    oldPrice: 7500,
+    discount: 30,
+    images: [
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-01.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-02.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-03.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-04.webp",
+       "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-05.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-06.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-07.webp",
+      "trottinette-dualtron-mini-special/trottinette-dualtron-mini-special-08.webp"
+    ],
+    
+  features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "PUISSANCE", value: "1450W MAX" },
+      { key: "VITESSE", value: "JUSQU’À 65 KM/H" },
+      { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+      { key: "BATTERIE", value: "LITHIUM 52V 12.8AH" },
+      { key: "AUTONOMIE", value: "35-45 KM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+    ]
+  },
+
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+      { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "WATERPROOF", value: "IPX4" },
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APP MOBILE" },
+      { key: "PNEUS", value: "9\" POUCES CHAMBRE À AIR" },
+      { key: "CONCEPTION", value: "PLIABLE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN LCD DIGITAL" },
+      { key: "CHARGE", value: "58V" }
+    ]
+  }
+],
+warranty: "Trottinette électrique Dualtron Mini Special 52V, puissante et fiable, conçue pour les trajets urbains et les déplacements rapides. Elle dispose d’un moteur atteignant 1450W en puissance maximale et d’une batterie lithium 52V 12.8Ah, offrant une autonomie allant de 35 à 45 km. Sa vitesse maximale peut atteindre 65 km/h. Freinage performant avec disques avant/arrière et système E-ABS intégré. Équipée de suspensions à l’avant et à l’arrière pour un confort optimal, elle supporte jusqu’à 120 kg. Affichage EY2 avec application mobile, écran LCD, éclairage LED complet avec clignotants gauche/droite, système pliable et étanchéité IPX4/IPX5. Pneus 9 pouces à chambre à air. Recharge rapide en 58V. Idéale pour les amateurs de puissance, de technologie et de mobilité urbaine. Livraison gratuite dans toutes les villes marocaines.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4165609437004692%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "dualtron-pop-54v",
+    title: "TROTTINETTE DUALTRON POP 52V",
+    brand: "DUALTRON",
+    category: "تروتينات",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 192,
+    currentPrice: 5890,
+    oldPrice: 7500,
+    discount: 35,
+    images: [
+      "dualtron-pop/dualtron-pop_52v_-01.webp",
+      "dualtron-pop/dualtron-pop_52v_-02.webp",
+      "dualtron-pop/dualtron-pop_52v_-03.webp",
+      "dualtron-pop/dualtron-pop_52v_-04.webp",
+      "dualtron-pop/dualtron-pop_52v_-05.webp",
+      "dualtron-pop/dualtron-pop_52v_-06.webp",
+      "dualtron-pop/dualtron-pop_52v_-07.webp",
+       "dualtron-pop/dualtron-pop_52v_-08.webp",
+       "dualtron-pop/dualtron-pop_52v_-09.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "1000W MIN - 1450W MAX" },
+          { key: "VITESSE", value: "50-67 KM/H" },
+          { key: "MODE DE CONDUITE", value: "3 VITESSES" },
+          { key: "BATTERIE", value: "LITHIUM 52V 14AH" },
+          { key: "AUTONOMIE", value: "30-40 KM" },
+          { key: "CHARGE MAXIMALE", value: "120 KG" },
+          { key: "FREINAGE", value: "DISQUES AV/AR + E-ABS" }
+        ]
+      },
+      
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "ÉTANCHÉITÉ", value: "IPX5" },
+          { key: "WATERPROOF", value: "IPX4" },
+          { key: "AFFICHAGE", value: "DISPLAY EY2" },
+         { key: "PNEUS", value: "9\" Pouces CHAMBRE A AIR" },
+          { key: "CONCEPTION", value: "PLIABLE" },
+          { key: "KLAXON", value: "OUI" },
+          { key: "TABLEAU DE BORD", value: "DIGITAL" }
+        ]
+      }
+    ],
+  warranty: "Trottinette électrique Dualtron Pop 52V puissante et pratique, idéale pour un usage quotidien en ville ou pour des déplacements rapides. Équipée d’un moteur allant de 1000W jusqu’à 1450W en puissance maximale, avec une batterie lithium 52V 14Ah offrant une autonomie de 30 à 40 km par charge. Sa vitesse varie entre 50 et 67 km/h. Elle dispose d’un système de freinage avant et arrière avec E-ABS pour plus de sécurité. Suspension avant et arrière, poids maximal supporté : 120 kg. Écran numérique (DISPLAY EY2) avec application mobile, éclairage LED avant et arrière, clignotants gauche/droite, pliable, résistante à l’eau selon les normes IPX4 et IPX5, et se recharge en 58V. Parfaite pour les passionnés de performance et de technologie. Livraison gratuite dans toutes les villes marocaines.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F667610599227375%2F&show_text=false&width=267&t=0"
+  },
+  
+ {
+   id: "trottinette-bison-gt-1000",
+   title: "TROTTINETTE BISON GT 1000",
+   brand: "Ecoxtrem",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 136,
+   currentPrice: 5490,
+   oldPrice: 7099,
+   discount: 40,
+   images: [
+     "bison-gt/bison-gt-1000-1.webp",
+     "bison-gt/bison-gt-1000-2.webp",
+     "bison-gt/bison-gt-1000-3.webp",
+     "bison-gt/bison-gt-1000-4.webp",
+     "bison-gt/bison-gt-1000-5.webp",
+     "bison-gt/bison-gt-1000-6.webp",
+     "bison-gt/bison-gt-1000-7.webp",
+     "bison-gt/bison-gt-1000-8.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "BISON GT ORIGINAL" },
+      { key: "MOTEUR", value: "1000W MAX" },
+      { key: "VITESSE", value: "JUSQU'À 50 KM/H" },
+      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+      { key: "AUTONOMIE", value: "JUSQU'À 40 KM" },
+      { key: "CHARGE MAX", value: "120 KG" },
+      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE + E-ABS" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "PNEUS", value: "10 POUCES OFF-ROAD" },
+      { key: "AMORTISSEURS", value: "DOUBLE SUSPENSION" },
+      { key: "TABLEAU DE BORD", value: "ÉCRAN DIGITAL" },
+      { key: "LUMIÈRES LED", value: "AVANT & ARRIÈRE" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "KLAXON", value: "OUI" }
+    ]
+  }
+],
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1805454483624438%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "trottinette-ienyrid-m9",
+   title: "TROTTINETTE IENYRID M9",
+   brand: "IENYRID",
+   category: "تروتينات",
+   availability: "غير متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 65,
+   currentPrice: 6399,
+   oldPrice: 6399,
+   discount: 30,
+   images: [
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-01.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-02.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-03.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-04.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-05.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-06.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-07.webp",
+     "trottinette-ienyrid-m9/trottinette-ienyrid-m9-08.webp",
+    "trottinette-ienyrid-m9/trottinette-ienyrid-m9-09.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "1200W MAX " },
+      { key: "BATTERIE", value: "48V 18AH LITHIUM " },
+      { key: "AUTONOMIE", value: "40km min - 50km max" },
+      { key: "VITESSE MAX", value: "51 km/h " },
+      { key: "CHARGE MAX", value: "130 KG " },
+      { key: "FREIN", value: "Disque Avant & Arrière + E-ABS" },
+      { key: "SUSPENSION", value: "Double Amortisseur " },
+      { key: "TABLEAU", value: "Digital " },
+      { key: "VITESSE", value: "3 niveaux " },
+      { key: "PNEU", value: "11 pouces Off-road tubeless " },
+      { key: "KLAXON", value: "Électrique " }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "LED", value: "Avant + Arrière " },
+      { key: "ÉCLAIRAGE", value: "LED Avant & Feu Arrière" },
+      { key: "AFFICHEUR", value: "Grand Afficheur LED" },
+      { key: "SIÈGE", value: "Inclus + Box arrière (siège enfant)" },
+      { key: "PLIABLE", value: "OUI " },
+      { key: "SIGNAL", value: "Gauche & Droite" }
+    ]
+  }
+],
+
+
+
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F937560158322683%2F&show_text=false&width=267&t=0"
+  }, 
+
+
+  
+ {
+   id: "trottinette-EcoXtrem-liner",
+   title: "TROTTINETTE EcoXtrem LINEAR",
+   brand: "EcoXtrem",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 3250,
+   oldPrice: 4199,
+   discount: 30,
+   images: [
+     "ecoxtrem-linear/ecoxtrem-linear-01.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-08.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-02.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-03.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-04.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-05.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-06.webp",
+     "ecoxtrem-linear/ecoxtrem-linear-07.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MARQUE", value: "ECOXTREM LINEAR" },
+      { key: "MOTEUR", value: "350W - 700W MAX" },
+      { key: "VITESSE", value: "25 - 30 KM/H" },
+      { key: "BATTERIE", value: "36V 7,8AH LITHIUM" },
+      { key: "AUTONOMIE", value: "15 - 25 KM" },
+      { key: "CHARGE MAX", value: "100 KG" },
+      { key: "FREIN", value: "DISQUE ARRIÈRE + ÉLECTRIQUE" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "ROUES", value: "10 POUCES TUBELESS" },
+      { key: "ÉTANCHÉITÉ", value: "IPX5" },
+      { key: "ÉCRAN", value: "LCD EY2" },
+      { key: "VITESSE", value: "3 NIVEAUX RÉGLABLES" },
+      { key: "LED", value: "AVANT + STOP ARRIÈRE" },
+      { key: "SIGNAL", value: "CLIGNOTANTS GAUCHE/DROITE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "PLIABLE", value: "OUI" },
+      { key: "CADEAU", value: "SAC OFFERT " }
+    ]
+  }
+],
+   
+   
+  
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1001871115150219%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  {
+   id: "trottinette-eclipse",
+   title: "TROTTINETTE Eclipse",
+   brand: "eclipse",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 138,
+   currentPrice: 1369,
+   oldPrice: 1700,
+   discount: 30,
+   images: [
+     "trottinette-eclipse/trottinette-eclipse-01.webp",
+     "trottinette-eclipse/trottinette-eclipse-02.webp",
+     "trottinette-eclipse/trottinette-eclipse-03.webp",
+     "trottinette-eclipse/trottinette-eclipse-04.webp",
+     "trottinette-eclipse/trottinette-eclipse-05.webp",
+     "trottinette-eclipse/trottinette-eclipse-06.webp",
+     "trottinette-eclipse/trottinette-eclipse-07.webp"
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-bolt",
+    items: [
+      { key: "MOTEUR", value: "130 W MAX" },
+      { key: "BATTERIE", value: "24 V LITHIUM" },
+      { key: "CHARGE MAX", value: "50 KG" },
+      { key: "FREINAGE", value: "MOTEUR" },
+      { key: "VITESSE MAX", value: "15 KM" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "MUSIC", value: "BLUETOOTH" },
+      { key: "CHARGE", value: "24V" }
+    ]
+  }
+],
+
+   
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1739254930185000%2F&show_text=false&width=267&t=0"
+  }, 
+  
+    {
+   id: "trottinette-elite",
+   title: "TROTTINETTE Elite",
+   brand: "eclipse",
+   category: "تروتينات",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 17,
+   currentPrice: 1540,
+   oldPrice: 2399,
+   discount: 30,
+   images: [
+     "trottinette-elite/trottinette-elite-01.webp",
+     "trottinette-elite/trottinette-elite-02.webp",
+     "trottinette-elite/trottinette-elite-03.webp",
+     "trottinette-elite/trottinette-elite-04.webp",
+     "trottinette-elite/trottinette-elite-05.webp"
+     
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-bolt",
+    items: [
+      { key: "MOTEUR", value: "130 W MAX" },
+      { key: "BATTERIE", value: "24 V LITHIUM" },
+      { key: "CHARGE MAX", value: "55 KG" },
+      { key: "FREINAGE", value: "MOTEUR" },
+      { key: "VITESSE MAX", value: "17 KM" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "CHARGE", value: "24V" }
+    ]
+  }
+],
+
+
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F586985493781249%2F&show_text=false&width=267&t=0"
+  },  
+  
+  {
+    id: "vélo-hiland-aluminium",
+    title: "VÉLO VTT HILAND ALUMINIUM 27.5",
+    brand: "HILAND",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 180,
+    currentPrice: 1699,
+    oldPrice: 2200,
+    discount: 30,
+    images: [
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-01.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-02.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-03.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-04.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-05.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-06.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-07.webp",
+      "vélo-hiland-aluminium/vélo-hiland-aluminium-08.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "27.5 POUCES" },
+      { key: "QUALITÉ", value: "HILAND 1E QUALITÉ" },
+      { key: "MATÉRIAU", value: "ALUMINIUM" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Noir, Rouge" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT HILAND ALUMINIUM 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert, Noir, Rouge.  Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9985422651479776%2F&show_text=false&width=267&t=0"
+  }, 
+  
+   {
+    id: "vélo-vtt-galactus",
+    title: "VÉLO VTT GALACTUS 26",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 24,
+    currentPrice: 1449,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-02.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-03.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-04.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-05.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-06.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-07.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-08.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "26 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
+  }, 
+  
+  {
+    id: "vélo-vtt-galactus-24",
+    title: "VÉLO VTT GALACTUS 24",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 52,
+    currentPrice: 1299,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus/vélo-vtt-galactus-01.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-02.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-03.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-04.webp",
+     "vélo-vtt-galactus/vélo-vtt-galactus-05.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-06.webp",
+       "vélo-vtt-galactus/vélo-vtt-galactus-07.webp",
+      "vélo-vtt-galactus/vélo-vtt-galactus-08.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "24 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 24 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Vert,Gris. Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F712699261253983%2F&show_text=false&width=264&t=0"
+  }, 
+  
+  {
+    id: "vélo-vtt-galactus-20",
+    title: "VÉLO VTT GALACTUS 20",
+    brand: "GALACTUS",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 1199,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-01.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-02.webp",
+       "vélo-vtt-galactus-20/vélo-vtt-galactus-20-03.webp",
+     "vélo-vtt-galactus-20/vélo-vtt-galactus-20-04.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-05.webp",
+      "vélo-vtt-galactus-20/vélo-vtt-galactus-20-06.webp",
+       "vélo-vtt-galactus-20/vélo-vtt-galactus-20-07.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "20 POUCES" },
+      { key: "QUALITÉ", value: "GALACTUS 1E QUALITÉ" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "DOUBLE AMORTISSEUR" },
+      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+    ]
+  }
+],
+
+
+    warranty: "VÉLO VTT GALACTUS 20 pouces – Parfait pour les jeunes aventuriers ! Équipé d’un dérailleur Shimano 3×7, freins à disque, double amortisseur (avant et arrière) pour un confort et une sécurité optimaux. Selle sport en cuir, design robuste, idéal pour la ville et les sentiers. Couleurs disponibles : Vert, Gris.  Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F592498879913816%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
+  {
+    id: "vtt-sport-bike-27.5",
+    title: "VÉLO VTT SPORT BIKE 27.5",
+    brand: "SPORT BIKE",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 180,
+    currentPrice: 1399,
+    oldPrice: 1700,
+    discount: 30,
+    images: [
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-01.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-02.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-03.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-04.webp",
+        "vtt-sport-bike-27.5/vtt-sport-bike-27.5-05.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-06.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-07.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-08.webp",
+       "vtt-sport-bike-27.5/vtt-sport-bike-27.5-09.webp",
+     "vtt-sport-bike-27.5/vtt-sport-bike-27.5-10.webp",
+      "vtt-sport-bike-27.5/vtt-sport-bike-27.5-11.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "27.5 POUCES" },
+      { key: "QUALITÉ", value: "SPORT BIKE 1ÈRE QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Bleu, Vert, Gris, Rouge" }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT Sport Bike 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Bleu, Vert, Gris, Rouge.  Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F591581090008506%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
+  {
+    id: "vélo-vtt-sport-bike",
+    title: "VÉLO VTT SPORT BIKE 26",
+    brand: "SPORT BIKE",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 215,
+    currentPrice: 1349,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-01.webp",
+     "vélo-vtt-sport-bike/vélo-vtt-sport-bike-02.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-03.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-04.webp",
+       "vélo-vtt-sport-bike/vélo-vtt-sport-bike-05.webp",
+     "vélo-vtt-sport-bike/vélo-vtt-sport-bike-06.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-07.webp",
+      "vélo-vtt-sport-bike/vélo-vtt-sport-bike-08.webp",
+       "vélo-vtt-sport-bike/vélo-vtt-sport-bike-09.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "26 POUCES" },
+      { key: "QUALITÉ", value: "SPORT BIKE 1ÈRE QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
+      { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Orange, Gris, Rouge, Bleu." }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT Sport Bike 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Orange, Gris, Rouge, Bleu.  Livraison gratuite partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F932129538899048%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
+ {
+    id: "vélo-italiano-alamunium-26",
+    title: "VÉLO ITALIANO ALUMINIUM 26",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 19,
+    currentPrice: 1599,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-01.webp",
+     "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-02.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-03.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-04.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-05.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-06.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-07.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-08.webp",
+      "vélo-italiano-alamunium-26/vélo-italiano-alamunium-26-09.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "MATERIAU", value: "VÉLO ALUMINIUM" },
+      { key: "QUALITÉ", value: "ITALIANO QUALITÉ" },
+      { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "GARDES-BOUES", value: "AV ET AR" },
+      { key: "FREINS", value: "AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+
+    warranty: "Vélo de qualité supérieure fabriqué en aluminium, offrant une construction robuste et légère pour une conduite agréable. Équipé de roues de 26 pouces et d'une transmission Shimano 3×7 vitesses, ce vélo est parfait pour les trajets urbains ou les aventures en plein air. Les garde-boues avant et arrière assurent une conduite propre, même par temps humide. Le cadre en aluminium et le plateau Shimano garantissent une durabilité à long terme, tandis que l'amortisseur avant améliore le confort de conduite. Le siège sport en cuir offre un confort supplémentaire, et les freins à disque avant et arrière assurent une sécurité maximale à chaque arrêt.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F991880763052426%2F&show_text=false&width=264&t=0"
+  }, 
+  
+   {
+    id: "vélo-italiano-27.5",
+    title: "VÉLO VTT ITALIANO 27.5",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 59,
+    currentPrice: 1499,
+    oldPrice: 1800,
+    discount: 30,
+    images: [
+      "vélo-italiano-27.5/vélo-italiano-27.5-01.webp",
+     "vélo-italiano-27.5/vélo-italiano-27.5-02.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-03.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-04.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-05.webp",
+      "vélo-italiano-27.5/vélo-italiano-27.5-06.webp"
+    ],
+features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "27,5 POUCES" },
+      { key: "QUALITÉ", value: "ITALIANO" },
+      { key: "JANTES", value: "ALUMINIUM" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "VITESSE", value: "21 (3×7)" },
+      { key: "PLATEAU", value: "SHIMANO" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT CUIR" },
+      { key: "GARDES-BOUES", value: "AV & AR" },
+      { key: "FREINS", value: "DISQUE AV & AR" }
+    ]
+  }
+],
+
+
+    warranty: "Vélo VTT ITALIANO 27,5 – Équipé de roues de 27,5 pouces, transmission Shimano 3×7 vitesses (21 vitesses), plateau Shimano, suspension avant, et freins à disque à l’avant et à l’arrière. Selle sport en cuir offrant un confort optimal. Parfait pour les terrains variés et les trajets quotidiens. Livraison gratuite dans toutes les villes marocaines",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687037813701619%2F&show_text=false&width=264&t=0"
+  }, 
+  
+{
+    id: "vélo-vtt-ciclista-2025",
+    title: "VÉLO VTT CICLISTA 2025",
+    brand: "CICLISTA",
+    category: "دراجات هوائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 41,
+    currentPrice: 1399,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-01.webp",
+     "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-02.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-03.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-04.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-05.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-06.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-07.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-08.webp",
+      "vélo-vtt-ciclista-2025/vélo-vtt-ciclista-2025-09.webp"
+    ],
+    features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+  },
+  
+  {
+    id: "vélo-vtt-ciclista-plus",
+    title: "VÉLO VTT CICLISTA PLUS 2025",
+    brand: "CICLISTA",
+    category: "دراجات هوائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 89,
+    currentPrice: 1899,
+    oldPrice: 2599,
+    discount: 30,
+    images: [
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-01.webp",
+     "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-02.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-03.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-04.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-05.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-06.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-07.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-08.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-09.webp",
+      "vélo-vtt-ciclista-plus/vélo-vtt-ciclista-plus-10.webp"
+    ],
+   features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 × 4.0 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
+      { key: "VITESSE", value: "VITESSE 3×7=21" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
+    ]
+  }
+],
+warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    
+  },
+  
+  {
+    id: "madame-youmeig-26",
+    title: "VÉLO MADAME YOUMEIG 26",
+    brand: "YOUMEIG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 325,
+    currentPrice: 1275,
+    oldPrice: 1500,
+    discount: 30,
+    images: [
+      "vélo-madame-youmeig-26/madame-youmeig-26-01.webp",
+     "vélo-madame-youmeig-26/madame-youmeig-26-02.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-03.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-04.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-05.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-06.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-07.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-08.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-09.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-10.webp",
+      "vélo-madame-youmeig-26/madame-youmeig-26-11.webp"
+    ],
+    features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 1×7" },
+      { key: "PLATEAU", value: "PLATEAU SHIMANO‏" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
+      { key: "SIÈGE", value: "SIÈGE CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "KLAXON", value: "INCLUS" },
+      { key: "FEU STOP", value: "FEU STOP ARRIÈRE" },
+      { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+      { key: "FREINS", value: "FREINAGE AVANT ET ARRIÈRE" },
+      { key: "COULEUR", value: "Mauve, Jaune, Bleu" }
+
+    ]
+  }
+],
+
+    
+    
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F619757167599413%2F&show_text=false&width=267&t=0"
+  },
+  
+    {
+    id: "vélo-madame-youmeig-26p",
+    title: "VÉLO MADAME YOUMEIG 26",
+    brand: "YOUMEIG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 25,
+    currentPrice: 1349,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-01.webp",
+     "vélo-madame-youmeig-26p/madame-youmeig-26p-02.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-03.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-04.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-05.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-06.webp",
+      "vélo-madame-youmeig-26p/madame-youmeig-26p-07.webp"
+    ],
+    features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "26 POUCES" },
+      { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "VITESSE 1×7" },
+      { key: "PLATEAU", value: "PLATEAU SHIMANO‏" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "AMORTISSEUR", value: "AMORTISSEUR SIÈGE" },
+      { key: "SIÈGE", value: "SIÈGE CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "KLAXON", value: "INCLUS" },
+      { key: "FEU STOP", value: "FEU STOP ARRIÈRE" },
+      { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+      { key: "FREINS", value: "FREINAGE AVANT ET ARRIÈRE" },
+     { key: "COULEUR", value: "Bleu, Blanc, Gris" }
+
+    ]
+  }
+],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1371753330872605%2F&show_text=false&width=267&t=0"
+  },
+  
+    {
+    id: "vélo-hadmeng-pliable",
+    title: "VÉLO HADMENG PLIABLE",
+    brand: "HADMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 160,
+    currentPrice: 1549,
+    oldPrice: 1799,
+    discount: 30,
+    images: [
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-01.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-02.webp",
+     "vélo-hadmeng-pliable/vélo-hadmeng-pliable-03.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-04.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-05.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-06.webp",
+     "vélo-hadmeng-pliable/vélo-hadmeng-pliable-07.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-08.webp",
+      "vélo-hadmeng-pliable/vélo-hadmeng-pliable-09.webp"
+    ],
+      
+features: [
+  {
+    title: "CARACTÉRISTIQUES PRINCIPALES",
+    icon: "fa-cogs",
+    items: [
+      { key: "TAILLE DES ROUES", value: "20 POUCES" },
+      { key: "TYPE", value: "VÉLO PLIABLE" },
+      { key: "ROUES", value: "ROUE DE VÉLO ALUMINIUM" },
+      { key: "CHANGEMENT", value: "CHANGEMENT SHIMANO" },
+      { key: "VITESSE", value: "1×7" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
+      { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+      { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" },
+      { key: "COULEURS DISPONIBLES", value: "Gris, Noir" }
+    ]
+  }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1341977030312199%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "vélo-bmx-gtr-aluminum",
+    title: "VÉLO BMX GTR ALUMINIUM 26",
+    brand: "BMX GTR",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 64,
+    currentPrice: 1599,
+    oldPrice: 1899,
+    discount: 10,
+    images: [
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-01.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-02.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-03.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-04.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-05.webp",
+      "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-06.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-07.webp",
+     "vélo-bmx-gtr-aluminum/vélo-bmx-gtr-aluminum-08.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "MATÉRIAU", value: "VÉLO ALUMINIUM" },
+          { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SUNRISE" },
+          { key: "VITESSE", value: "VITESSE 3×7=21" },
+          { key: "PLATEAU", value: "PLATEAU SUNRISE" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+          { key: "GARDES-BOUE", value: "LES GARDES-BOUES AV ET AR" }
+        ]
+      }
+    ],
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3545953265711523%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "vélo-vtt-gmka",
+    title: "VÉLO VTT GMKA 26",
+    brand: "GMKA",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 125,
+    currentPrice: 1349,
+    oldPrice: 1600,
+    discount: 30,
+    images: [
+      "vélo-vtt-gmka/vélo-vtt-gmka-01.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-02.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-03.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-04.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-05.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-06.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-07.webp",
+      "vélo-vtt-gmka/vélo-vtt-gmka-08.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "QUALITÉ", value: "GMKA 1E QUALITÉ " },
+          { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SSKANC" },
+          { key: "VITESSE", value: "VITESSE 3×7=21" },
+          { key: "PLATEAU", value: "PLATEAU SSKANC" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+          { key: "GARDES-BOUE", value: "LES GARDES-BOUES AV ET AR" }
+        ]
+      }
+    ],
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+  },
+  
+  {
+    id: "velo-bmx-gtr-aluminium-2025",
+    title: "VÉLO BMX GTR ALUMINIUM 26",
+    brand: "BMX GTR",
+    category: "دراجات هوائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 325,
+    currentPrice: 1699,
+    oldPrice: 2199,
+    discount: 30,
+    images: [
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-01.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-02.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-03.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-04.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-05.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-06.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-07.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-08.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-09.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-10.webp",
+      "VÉLO-BMX-GTR-ALUMINIUM/velo-bmx-gtr-aluminium-11.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "ROUES", value: "26 POUCES" },
+          { key: "MATÉRIAU", value: "VÉLO ALUMINIUM" },
+          { key: "QUALITÉ", value: "BMX GTR 1E QUALITÉ " },
+          { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
+          { key: "CHANGEMENT", value: "CHANGEMENT SUNRISE" },
+          { key: "VITESSE", value: "VITESSE 3×7=21" },
+          { key: "PLATEAU", value: "PLATEAU SUNRISE" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+          { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
+          { key: "GARDES-BOUE", value: "LES GARDES-BOUES AV ET AR" }
+        ]
+      }
+    ],
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F634632965780146%2F&show_text=false&width=267&t=0"
+  },
+  
+  {
+    id: "VÉLO-VTT-YOUMEIG-20",
+    title: " VÉLO VTT YOUMEIG 20",
+    brand: "YOUMEIG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 26,
+    currentPrice: 990,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-01.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-02.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-03.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-04.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-05.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-06.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-07.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-08.webp",
+      "VÉLO-VTT-YOUMEIG-20/velo-vtt-youmeig-20-09.webp"
+    ],
+    features: [
+    {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "20 POUCES" },
+            { key: "GARDES-BOUES", value: "AV ET AR" },
+            { key: "QUALITÉ", value: "YOUMEIG 1E QUALITÉ" },
+            { key: "ROUE", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+            { key: "AMORTISSEUR", value: "AVANT" },
+            { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+            { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" }
+        ]
+    }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901365823940555%2F&show_text=false&width=267&t=0"
+  },
+  
+   {
+    id: "VÉLO-MADAME-HADMENG-26",
+    title: "VÉLO MADAME HADMENG 26",
+    brand: "HADMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 56,
+    currentPrice: 1649,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-01.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-02.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-03.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-04.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-05.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-06.webp"
+    ],
+      
+    features: [
+    {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "26 POUCES" },
+            { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [  
+            { key: "SIÈGE", value: "CUIRE AVEC AMORTISSEUR" }, 
+            { key: "PORTE-BAGAGE", value: "INCLUS" },
+            { key: "KLAXON", value: "INCLUS" },
+            { key: "FEU STOP ARRIÈRE", value: "INCLUS" },
+            { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+            { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+            { key: "VERROUILLAGE", value: "DE VÉLO cadeau " }
+        ]
+    }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F492294450206178%2F&show_text=false&width=267&t=0"
+  },
+  
+  
+      {
+    id: "VÉLO-MADAME-ITALIANO-28",
+    title: "VÉLO MADAME ITALIANO 28",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 9,
+    currentPrice: 1749,
+    oldPrice: 2000,
+    discount: 30,
+    images: [
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-01.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-02.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-03.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-04.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-05.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-06.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-07.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-08.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-09.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-10.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-11.webp",
+      "VÉLO-MADAME-ITALIANO-28/madame-italiano-28-12.webp"
+    ],
+      
+    features: [
+    {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+            { key: "ROUES", value: "28 POUCES" },
+            { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+            { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+            { key: "VITESSE", value: "1×7" },
+            { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+            { key: "SIÈGE", value: "CUIRE" },
+            { key: "PORTE-BAGAGE", value: "INCLUS" },
+            { key: "KLAXON", value: "INCLUS" },
+            { key: "FEU STOP ARRIÈRE", value: "INCLUS" },
+            { key: "LED", value: "AVANT ET ARRIÈRE" },
+            { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
+            { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+            { key: "VERROUILLAGE", value: "OFFERT AVEC LE VÉLO" }
+        ]
+    }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1146905996905695%2F&show_text=false&width=267&t=0"
+  },
+  
+  
+    {
+    id: "VÉLO-VTT-ITALIANO-20",
+    title: "VÉLO VTT ITALIANO 20",
+    brand: "ITALIANO",
+    category: "دراجات هوائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 9,
+    currentPrice: 1190,
+    oldPrice: 1399,
+    discount: 30,
+    images: [
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-01.webp",
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-02.webp",
+      "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-03.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-04.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-05.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-06.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-07.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-08.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-09.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-10.webp",
+     "VÉLO-VTT-ITALIANO-20/velo-vtt-italiano-20-11.webp"
+    ],
+      
+    features: [
+    {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+             { key: "ROUES", value: "20 POUCES" },
+      { key: "GARDES-BOUES", value: "AV ET AR" },
+      { key: "QUALITÉ", value: "ITALIANO QUALITÉ 100%" },
+      { key: "ROUE", value: "ALUMINIUM" },
+      { key: "CHANGEMENT DE VITESSE", value: "SHIMANO" },
+      { key: "VITESSE", value: "1×7" },
+      { key: "PLATEAU", value: "SHIMANO" }
+        ]
+    },
+    {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+           { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "SPORT EN CUIR" },
+      { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" }
+        ]
+    }
+],
+
+    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1745763942639295%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-vtt-haomeng-27.5",
+    title: "VÉLO VTT HAOMENG 27.5",
+    brand: "HAOMENG",
+    category: "دراجات هوائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 266,
+    currentPrice: 1549,
+    oldPrice: 1899,
+    discount: 30,
+    images: [
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-02.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-03.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-04.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-05.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-06.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-07.webp"
+    ],
+    features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "27.5 POUCES" },
+      { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+      { key: "QUALITÉ", value: "HAOMENG" },
+      { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+      { key: "CHANGEMENT DE VITESSE", value: "LXYANG" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "LXYANG" }
+    ]
+  }
+],
+
+    warranty: "Commandez dès maintenant votre VTT HAOMENG 27.5 pouces et profitez d'une livraison gratuite partout au Maroc ! Bénéficiez d'un vélo de haute qualité avec des composants robustes en aluminium, freins à disque avant et arrière, et une transmission 21 vitesses LXYANG pour une expérience de conduite optimale. Notre service de livraison sécurisé vous garantit de recevoir votre produit rapidement et en toute sécurité, où que vous soyez au Maroc. Ne manquez pas cette occasion unique d'acquérir un vélo performant et confortable – achetez en ligne dès aujourd'hui !",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
+  },
+  
+   {
+   id: "velo-electrique-likebike-harley-u11",
+   title: "VÉLO ÉLECTRIQUE LIKEBIKE HARLEY U11",
+   brand: "LIKEBIKE ORIGINAL",
+   category: "دراجات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 136,
+   currentPrice: 8099,
+   oldPrice: 10999,
+   discount: 30,
+   images: [
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-01.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-02.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-03.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-04.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-05.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-06.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-07.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-08.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-09.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-10.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-11.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-12.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-14.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-15.webp",
+     "VÉLO-ÉLECTRIQUE-LIKEBIKE-HARLEY-U11/likebike-u11-16.webp"
+   ],
+features: [
+    {
+      title: "AVANTAGES AVANCÉS",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
+        { key: "BATTERIE", value: "48 V 18,2 AH - LITHIUM" },
+        { key: "CHARGE MAX", value: "130 KG" },
+        { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+        { key: "AUTONOMIE", value: "45 KM - 60 KM MAX" },
+        { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+        { key: "VITESSE MAX", value: "51 KM/H" },
+        { key: "CHARGE RAPIDE", value: "54V" },
+        { key: "DÉMARRAGE", value: "CONTACT" },
+         { key: "TABLEAU", value: "DIGITAL" }
+      ]
+    },
+    {
+      title: "CARACTÉRISTIQUES",
+      icon: "fa-star",
+      items: [
+       
+        { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" }, 
+        { key: "CHANGEMENT SHIMANO", value: "7E VITESSE" },
+        { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+        { key: "SIGNAL", value: "À DROITE ET À GAUCHE" },
+        { key: "AMORTISSEUR", value: "AVANT ET ARRIÈRE" },
+        { key: "SIÈGE", value: "CUIR - 2 PLACES EN CUIR" },
+        { key: "PNEU", value: "20,4 POUCES" },
+        { key: "KLAXON", value: "ÉLECTRIQUE" },
+        { key: "PIÈCES", value: "SHIMANO" },
+        { key: "GARDE-BOUE", value: "AV ET AR" }
+       
+      ]
+    }
+  ],
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.", 
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1819301842180680%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+    id: "velo-electrique-harley-u9",
+    title: "VÉLO ÉLECTRIQUE HARLEY U9",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 8499,
+    oldPrice: 10999,
+    discount: 30,
+    images: [
+      "likebike-harley-u9/likebike-u9-01.webp",
+      "likebike-harley-u9/likebike-u9-02.webp",
+      "likebike-harley-u9/likebike-u9-03.webp",
+      "likebike-harley-u9/likebike-u9-04.webp",
+      "likebike-harley-u9/likebike-u9-05.webp",
+      "likebike-harley-u9/likebike-u9-06.webp",
+      "likebike-harley-u9/likebike-u9-07.webp",
+      "likebike-harley-u9/likebike-u9-08.webp",
+      "likebike-harley-u9/likebike-u9-09.webp",
+      "likebike-harley-u9/likebike-u9-10.webp",
+      "likebike-harley-u9/likebike-u9-11.webp",
+      "likebike-harley-u9/likebike-u9-12.webp",
+      "likebike-harley-u9/likebike-u9-13.webp",
+      "likebike-harley-u9/likebike-u9-14.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "750 W MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 18.2AH" },
+          { key: "CHARGE RAPIDE", value: "COMPATIBLE 54V" },
+          { key: "CHARGE MAXIMALE", value: "130 KG" },
+          { key: "AUTONOMIE NORMALE", value: "45-60 KM" },
+          { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+          { key: "VITESSE", value: "50 KM/H MIN - 62 KM/H MAX" },
+          { key: "FREINS", value: "DISQUES AV/AR" },
+          { key: "DÉMARRAGE", value: "CONTACT" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
+          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" },
+          { key: "TRANSMISSION", value: "7 VITESSES SHIMANO" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + CLIGNOTANTS" },
+          { key: "AMORTISSEURS", value: "RÉGLABLES AV/AR" },
+          { key: "CONFORT", value: "SIÈGE CUIR 2 PLACES" },
+          { key: "PNEUS", value: "20.4\" AVEC GARDE-BOUE" },
+          { key: "KLAXON", value: "ÉLECTRIQUE" },
+          { key: "PIÈCES", value: "SHIMANO" }
+        
+        ]
+      }
+    ],
+    warranty: "Découvrez le vélo électrique Likebike Harley U9, un modèle puissant et élégant inspiré des motos Harley, très apprécié au Maroc. Avec son moteur performant de 750W, sa batterie lithium 48V 18.2Ah et son écran LCD intuitif, ce vélo Likebike offre une autonomie exceptionnelle jusqu’à 100 km en mode assistance. Parfait pour une mobilité urbaine confortable et stylée, le Likebike Harley U9 est l’option idéale pour tous ceux qui cherchent une trottinette électrique robuste et design au Maroc",
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F668998569027409%2F&show_text=false&width=267&t=0"
+  },
+  
+  
+  {
+    id: "velo-electrique-likebike-shine-s",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE S",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 232,
+    currentPrice: 7199,
+    oldPrice: 10099,
+    discount: 30,
+    images: [
+      "likebike-shine-s/likebike-shine-s-09.webp",
+      "likebike-shine-s/likebike-shine-s-02.webp",
+      "likebike-shine-s/likebike-shine-s-03.webp",
+      "likebike-shine-s/likebike-shine-s-04.webp",
+      "likebike-shine-s/likebike-shine-s-05.webp",
+      "likebike-shine-s/likebike-shine-s-06.webp",
+      "likebike-shine-s/likebike-shine-s-07.webp",
+      "likebike-shine-s/likebike-shine-s-08.webp",
+      "likebike-shine-s/likebike-shine-s-01.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500 W MAX" },
+          { key: "VITESSE MAX", value: "50 KM/H MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
+          { key: "CHARGE RAPIDE", value: "54V" },
+          { key: "AUTONOMIE", value: "45-55 KM" },
+          { key: "VITESSES MOTEUR", value: "5 NIVEAUX" },
+          { key: "FREINS", value: "AV/AR" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
+          { key: "AMORTISSEURS", value: "RÉGLABLE AV" },
+          { key: "ÉCLAIRAGE", value: "LED AV/AR + KLAXON" },
+          { key: "PNEUS", value: "20'' AVEC GARDE-BOUE" },
+          { key: "SIÈGE", value: "CUIR CONFORTABLE" },
+          { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
+          { key: "VITESSES", value: "7 VITESSES" },
+          { key: "CONFORT", value: "PORTE-BAGAGE INCLUS" },
+          { key: "CHARGE MAX", value: "130 KG" }
+         
+        ]
+      }
+    ],
+    warranty: "Découvrez le vélo électrique Likebike Shine S, un modèle élégant et performant conçu pour vos déplacements quotidiens en toute liberté. Équipé d’un moteur puissant de 500W et d’une batterie lithium 48V 13Ah, il offre une autonomie maximale de 55 km et une vitesse atteignant 50 km/h. Son design compact avec pneus 20 pouces, freins avant/arrière et suspension avant garantit confort et sécurité sur toutes les routes. Avec son tableau de bord digital, ses 7 vitesses Shimano, son éclairage LED et son porte-bagage pratique, le Shine S est le compagnon idéal pour une mobilité urbaine moderne et écologique au Maroc.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1316643962788518%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "velo-electrique-likebike-shine",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE SHINE",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 269,
+    currentPrice: 7199,
+    oldPrice: 10099,
+    discount: 30,
+    images: [
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-01.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-02.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-03.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-04.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-05.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-06.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-07.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-08.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-09.webp",
+      "VÉLO-ÉLECTRIQUE-LIKEBIKE-SHINE/velo-ekectrique-shine-10.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES AVANCÉS",
+        icon: "fa-cogs",
+        items: [
+          { key: "PUISSANCE", value: "500 W MAX" },
+          { key: "VITESSE MAX", value: "50 KM/H MAX" },
+          { key: "BATTERIE", value: "LITHIUM 48V 13AH" },
+          { key: "CHARGE RAPIDE", value: "54V" },
+          { key: "AUTONOMIE", value: "45-55 KM MAX" },
+          { key: "NIVEAUX DE VITESSE", value: "5 NIVEAUX" },
+          { key: "FREINS", value: "AVANT ET ARRIÈRE" },
+          { key: "CHARGE MAX", value: "130 KG" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "AFFICHAGE", value: "ÉCRAN DIGITAL" },
+          { key: "AMORTISSEURS", value: "RÉGLABLE AVANT" },
+          { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE + KLAXON" },
+          { key: "PNEUS", value: "20 POUCES AVEC GARDE-BOUE" },
+          { key: "SIÈGE", value: "CUIR CONFORTABLE" },
+          { key: "SYSTÈME", value: "CHANGEMENT SHIMANO" },
+          { key: "VITESSES", value: "7 VITESSES SHIMANO" },
+          { key: "PIÈCES", value: "PIÈCES SHIMANO" },
+          { key: "PORTE-BAGAGE", value: "INCLUS" }
+           
+        ]
+      }
+    ],
+    warranty: "Le vélo électrique Likebike Shine combine style moderne et performance fiable pour vos trajets quotidiens. Doté d’un moteur 500W et d’une batterie lithium 48V 13Ah, il assure une autonomie allant jusqu’à 55 km et une vitesse maximale de 50 km/h. Son confort est renforcé par une suspension avant, un siège en cuir et un porte-bagage intégré. Ce modèle urbain compact est équipé d’un écran digital, d’un éclairage LED complet, de pneus 20 pouces, de freins avant/arrière et d’une transmission Shimano à 7 vitesses. Idéal pour une mobilité écologique et élégante partout au Maroc.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F497450016283432%2F&show_text=false&width=267&t=0"
+  },
+  {
+    id: "VÉLO-ÉLECTRIQUE-LIKEBIKE-2025",
+    title: "VÉLO ÉLECTRIQUE 2025 ",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 165,
+    currentPrice: 5499,
+    oldPrice: 7099,
+    discount: 30,
+    images: [
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-01.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-02.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-03.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-04.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-05.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-06.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-07.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-08.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-09.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-10.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-11.webp",
+      "VÉLO-ÉLECTRIQUE-2025/velo-electrique-2025-12.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+       { "key": "PUISSANCE", "value": "400 W MAX " },
+      { "key": "BATTERIE", "value": "48V 18AH LITHIUM " },
+      { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
+      { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
+      { "key": "VITESSE MAX", "value": "46 KM/H " },
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { "key": "NIVEAUX DE VITESSE", "value": "3 NIVEAUX" },
+      { "key": "VITESSE PÉDALE", "value": "1E VITESSE MANUELLE" },
+      { "key": "BATTERIE TYPE", "value": "LITHIUM " },
+      { "key": "VÉLO", "value": "PLIABILE" },
+      { "key": "DÉMARRAGE", "value": "CONTACT" }
+      
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CHARGE", value: "54V" },
+      { key: "AMORTISSEURS", value: "DOUBLE" },
+      { key: "LED", value: "AV/AR" },
+      { key: "PNEUS", value: "14 POUCES" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "CONFORT", value: "VÉLO PLIABLE" },
+      { key: "CHARGE MAX", value: "120 KG" }
+       
+      
+    ]
+  }
+],
+   warranty: "Le vélo électrique 2025 est un modèle compact, pliable et puissant, idéal pour une mobilité pratique et urbaine. Équipé d’un moteur de 400W et d’une batterie lithium 48V 15.6Ah, il vous offre jusqu’à 55 km d’autonomie avec une vitesse maximale de 46 km/h. Grâce à son système de double amortisseur, son tableau de bord digital, et ses pneus 14 pouces, il garantit confort et stabilité sur différents terrains. Ce vélo est conçu pour 2 personnes avec sièges cuir, dispose d’un démarrage par contact, d’un éclairage LED complet, et d’un mode pédale avec vitesse manuelle intégrée. Un choix intelligent pour vos trajets en ville, pliable et facile à transporter partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3938949116374653%2F&show_text=false&width=267&t=0"
+ },
+  
+ {
+    id: "vélo-éléctrique-likebike-a10",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE A10",
+    brand: "LIKEBIKE A10 ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 68,
+    currentPrice: 5499,
+    oldPrice: 7099,
+    discount: 30,
+    images: [
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-01.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-02.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-03.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-04.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-05.webp",
+     "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-06.webp",
+     "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-07.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-08.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-09.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-10.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-11.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-12.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-13.webp",
+      "vélo-éléctrique-likebike-a10/vélo-éléctrique-likebike-a10-14.webp"
+    ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+       { "key": "PUISSANCE", "value": "400 W MAX " },
+      { "key": "BATTERIE", "value": "48V 18AH LITHIUM " },
+      { "key": "FREINAGE", "value": "AVANT ET ARRIÈRE " },
+      { "key": "AUTONOMIE", "value": "45 KM - 55 KM MAX " },
+      { "key": "VITESSE MAX", "value": "46 KM/H " },
+      { key: "AFFICHAGE", value: "TABLEAU DIGITAL" },
+      { "key": "NIVEAUX DE VITESSE", "value": "3 NIVEAUX" },
+      { "key": "VITESSE PÉDALE", "value": "1E VITESSE MANUELLE" },
+      { "key": "BATTERIE TYPE", "value": "LITHIUM " },
+      { "key": "VÉLO", "value": "PLIABILE" },
+      { "key": "DÉMARRAGE", "value": "CONTACT" }
+      
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CHARGE", value: "54V" },
+      { key: "AMORTISSEURS", value: "DOUBLE" },
+      { key: "LED", value: "AV/AR" },
+      { key: "PNEUS", value: "14 POUCES" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "CONFORT", value: "VÉLO PLIABLE" },
+      { key: "CHARGE MAX", value: "120 KG" }
+       
+      
+    ]
+  }
+],
+   warranty: "Découvrez le LIKEBIKE A10, un vélo électrique performant et fiable, équipé d’un moteur 400W, batterie lithium 48V 15.6Ah, double amortisseur, pliable et doté d’un écran digital. Il offre une autonomie jusqu’à 55 km et une vitesse maximale de 46 km/h, pour des déplacements urbains confortables et efficaces partout au Maroc.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F977083681237253%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+    id: "likebike-lander-vtt",
+    title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
+    brand: "LIKEBIKE ORIGINAL",
+    category: "دراجات كهربائية",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 120,
+    currentPrice: 8199,
+    oldPrice: 10999,
+    discount: 30,
+    images: [
+      "likebike-lander-vtt/likebike-lander-vtt-01.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-02.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-03.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-04.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-05.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-06.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-07.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-08.webp",
+      "likebike-lander-vtt/likebike-lander-vtt-09.webp"
+    ],
+    features: [
+  {
+    title: "SPÉCIFICATIONS TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "500 W MIN - 720 W MAX" },
+      { key: "BATTERIE", value: "48 V 13 AH" },
+      { key: "BATTERIE TYPE", value: "LITHIUM" },
+      { key: "CHARGE MAXIMALE", value: "120 KG" },
+      { key: "CHARGE RAPIDE", value: "54V" },
+      { key: "AUTONOMIE", value: "40 KM - 50 KM MAX" },
+      { key: "MODE ASSISTANCE", value: "100 KM MAX" },
+      { key: "VITESSE MAX", value: "42 KM" },
+      { key: "VITESSE", value: "7E VITESSE" },
+      { key: "CHANGEMENT", value: "SHIMANO" },
+      { key: "PIÈCES", value: "SHIMANO" },
+    ]
+  },
+  {
+    title: "CONFORT & ÉQUIPEMENT",
+    icon: "fa-star",
+    items: [
+      { key: "AFFICHAGE", value: "ÉCRAN LCD INTELLIGENT" },
+      { key: "NIVEAUX DE VITESSE", value: "5E VITESSE" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "AVANT" },
+      { key: "SIÈGE", value: "CUIR" },
+      { key: "PORTE-BAGAGE", value: "INCLUS" },
+      { key: "PNEUS", value: "26×4 POUCES" },
+      { key: "GARDE-BOUE", value: "AVANT ET ARRIÈRE" },
+      { key: "KLAXON", value: "ÉLECTRIQUE" }
+    ]
+  }
+],
+
+warranty: "Vivez la liberté de mouvement sans frais supplémentaires ni pollution avec le VÉLO ÉLECTRIQUE LIKEBIKE LANDER. Ce vélo est prêt aussi bien pour la ville que pour les chemins accidentés, combinant puissance, confort et longue autonomie. Il est équipé d'un moteur puissant, d'une batterie durable, et de nombreux équipements de qualité. La solution idéale pour ceux qui veulent se déplacer librement sans se soucier des dépenses. Un investissement intelligent pour votre quotidien",
+
+
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1611241772889832%2F&show_text=false&width=267&t=0"
+  }, 
+  
+  
+{
+   id: "vélo-électrique-clarks-12",
+   title: "Vélo Cross Clarks 12",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 9,
+   currentPrice: 1549,
+   oldPrice: 2199,
+   discount: 30,
+   images: [
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-01.webp",
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-02.webp",
+    "vélo-électrique-clarks-12/vélo-électrique-clarks-12-03.webp",
+    "vélo-électrique-clarks-12/vélo-électrique-clarks-12-04.webp",
+   "vélo-électrique-clarks-12/vélo-électrique-clarks-12-05.webp",
+     "vélo-électrique-clarks-12/vélo-électrique-clarks-12-06.webp"
+    
+   ],
+features: [
+    {
+      title: "SPÉCIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "100 W" },
+        { key: "Batterie", value: "24V 4Ah lithium" },
+        { key: "Poids", value: "9.43 kg" },
+        { key: "Charge max", value: "60 kg" },
+        { key: "Freinage", value: "arrière" },
+        { key: "Vitesse max", value: "17 km" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "12 pouces" },
+        { key: "Charge", value: "24V" }
+      ]
+    }
+  ],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F430063326821146%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "vélo-électrique-clarks-14",
+   title: "Vélo Cross Clarks 14",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 16,
+   currentPrice: 1749,
+   oldPrice: 2499,
+   discount: 30,
+   images: [
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-01.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-02.webp",
+    "vélo-électrique-clarks-14/vélo-électrique-clarks-14-03.webp",
+    "vélo-électrique-clarks-14/vélo-électrique-clarks-14-04.webp",
+   "vélo-électrique-clarks-14/vélo-électrique-clarks-14-05.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-06.webp",
+     "vélo-électrique-clarks-14/vélo-électrique-clarks-14-07.webp"
+    
+   ],
+features: [
+  {
+    title: "SPÉCIFICATIONS",
+    icon: "fa-cogs",
+    items: [
+      { key: "Moteur", value: "100 W" },
+      { key: "Batterie", value: "24V 4Ah lithium" },
+      { key: "Poids", value: "9.43 kg" },
+      { key: "Charge max", value: "60 kg" },
+      { key: "Freinage", value: "arrière" },
+      { key: "Vitesse max", value: "17 km" },
+      { key: "Batterie", value: "lithium" },
+      { key: "Chambre à air", value: "14 pouces" },
+      { key: "Charge", value: "24V" }
+    ]
+  }
+],
+
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1743652863053402%2F&show_text=false&width=267&t=0"
+ },
+  
+
+  
+ {
+   id: "vélo-cross-électrique",
+   title: "Vélo Cross électrique",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 2399,
+   oldPrice: 3199,
+   discount: 30,
+   images: [
+    "vélo-cross-électrique/vélo-cross-électrique-01.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-02.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-03.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-04.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-05.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-06.webp",
+    "vélo-cross-électrique/vélo-cross-électrique-07.webp"
+   ],
+features: [
+    {
+      title: "SPECIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "350 W" },
+        { key: "Batterie", value: "36V 5.2Ah lithium" },
+        { key: "Poids", value: "15 kg" },
+        { key: "Charge max", value: "70 kg" },
+        { key: "Freinage", value: "à disque arrière" },
+        { key: "Vitesse max", value: "25 km" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "16 pouces" },
+        { key: "Charge", value: "42V" },
+        { key: "Âge recommandé", value: "7 - 15 ans" }
+      ]
+    }
+  ],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F702785355457941%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+  {
+   id: "motor-cross-36V-pro",
+   title: "Motor cross 36V",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 2199,
+   oldPrice: 2899,
+   discount: 30,
+   images: [
+    "motor-cross-36V-pro/motor-cross-36v-pro-01.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-02.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-03.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-04.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-05.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-06.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-07.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-08.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-09.webp",
+    "motor-cross-36V-pro/motor-cross-36v-pro-10.webp"
+   ],
+features: [
+    {
+      title: "SPECIFICATIONS",
+      icon: "fa-cogs",
+      items: [
+        { key: "Moteur", value: "350 W" },
+        { key: "Batterie", value: "36V" },
+        { key: "Charge max", value: "60 kg" },
+        { key: "Freinage", value: "à disque arrière" },
+        { key: "Vitesse max", value: "15 km min - 25 km max" },
+        { key: "Autonomie", value: "10km min - 20km max" },
+        { key: "Batterie", value: "lithium" },
+        { key: "Chambre à air", value: "11 pouces" },
+        { key: "Charge", value: "42V" },
+      ]
+    }
+  ],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4087949254825679%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+  
+   {
+   id: "moteur-cross-42V-2",
+   title: "Moteur cross 36V",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 25,
+   currentPrice: 4200,
+   oldPrice: 5199,
+   discount: 30,
+   images: [
+     "moteur-cross-42v-2/moteur-cross-42v-2-01.webp",
+     "moteur-cross-42v-2/moteur-cross-42v-2-02.webp",
+    "moteur-cross-42v-2/moteur-cross-42v-2-03.webp",
+    "moteur-cross-42v-2/moteur-cross-42v-2-04.webp",
+   "moteur-cross-42v-2/moteur-cross-42v-2-05.webp"
+   ],
+features: [
+    {
+      title: "AVANTAGES AVANCÉS",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "500 W MAX" },
+            { key: "BATTERIE", value: "LITHIUM 36 V 12AH" },
+            { key: "CHARGE MAX", value: "70 KG" },
+            { key: "FREINAGE", value: "ARRIÈRE" },
+            { key: "AUTONOMIE", value: "10 KM MIN - 15 KM MAX" },
+            { key: "VITESSE", value: "15 KM MIN - 25 KM MAX" },
+            { key: "CHARGE", value: "42V" }
+      ]
+    },
+    {
+      title: "CARACTÉRISTIQUES",
+      icon: "fa-star",
+      items: [
+       
+         { key: "VITESSES", value: "3E VITESSE" },
+            { key: "BLUETOOTH", value: "MUSIC BLUETOOTH" },
+            { key: "SIÈGE", value: "CUIR" },
+            { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+            { key: "LED", value: "AMBIANCE" },
+            { key: "KLAXON", value: "ÉLECTRIQUE" }
+      ]
+    }
+  ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F988696436776129%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
+   id: "moteur-cross-42V",
+   title: "Moteur cross 42V",
+   brand: "Cross",
+   category: "moteur-cross",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 25,
+   currentPrice: 3699,
+   oldPrice: 4690,
+   discount: 30,
+   images: [
+     "moteur-cross-42V/moteur-cross-42v-01.webp",
+     "moteur-cross-42V/moteur-cross-42v-03.webp",
+     "moteur-cross-42V/moteur-cross-42v-04.webp",
+    "moteur-cross-42V/moteur-cross-42v-05.webp",
+    "moteur-cross-42V/moteur-cross-42v-06.webp",
+    "moteur-cross-42V/moteur-cross-42v-07.webp",
+    "moteur-cross-42V/moteur-cross-42v-08.webp",
+    "moteur-cross-42V/moteur-cross-42v-09.webp",
+    "moteur-cross-42V/moteur-cross-42v-10.webp"
+   ],
+features: [
+    {
+      title: "AVANTAGES AVANCÉS",
+      icon: "fa-cogs",
+      items: [
+        { key: "MOTEUR", value: "1000 W MAX" },
+            { key: "BATTERIE", value: "LITHIUM 42 V 12AH" },
+            { key: "CHARGE MAX", value: "70 KG" },
+            { key: "FREINAGE", value: "ARRIÈRE" },
+            { key: "AUTONOMIE", value: "10 KM MIN - 15 KM MAX" },
+            { key: "VITESSE", value: "15 KM MIN - 25 KM MAX" },
+            { key: "CHARGE", value: "42V" }
+      ]
+    },
+    {
+      title: "CARACTÉRISTIQUES",
+      icon: "fa-star",
+      items: [
+       
+         { key: "VITESSES", value: "3E VITESSE" },
+            { key: "BLUETOOTH", value: "MUSIC BLUETOOTH" },
+            { key: "SIÈGE", value: "CUIR" },
+            { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
+            { key: "LED", value: "AMBIANCE" },
+            { key: "KLAXON", value: "ÉLECTRIQUE" }
+            
+      ]
+    }
+  ],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1095691555646567%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "moteur-vespa-6v",
+   title: "Moteur Vespa 6v",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 799,
+   oldPrice: 1100,
+   discount: 30,
+   images: [
+     "moteur-vespa-6v/moteur-vespa-6v-01.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-02.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-03.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-04.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-05.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-06.webp",
+     "moteur-vespa-6v/moteur-vespa-6v-07.webp"
+     
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "6V" },
+      { key: "CHARGEUR", value: "6 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 5 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "Music, USB, câble auxiliaire" },
+      { key: "DÉMARRAGE", value: "Bouton de démarrage" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Moto électrique Vespa 6V pour enfants – Équipée de 2 moteurs, batterie 6V, 1 place, démarrage par bouton, amortisseurs, lumières LED avant et arrière, musique via USB/câble. Âge recommandé : 1 à 5 ans. Livraison gratuite partout au Maroc. 🇲🇦",
+
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1096480852503818%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
+   id: "moteur-vespa-12v",
+   title: "Moteur Vespa 12v",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 211,
+   currentPrice: 999,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "moteur-vespa-12v/moteur-vespa-12v-01.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-02.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-03.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-04.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-05.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-06.webp",
+     "moteur-vespa-12v/moteur-vespa-12v-07.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "FONCTIONNALITÉS", value: "Music, USB, câble auxiliaire" },
+      { key: "DÉMARRAGE", value: "Bouton de démarrage" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "CONDUITE", value: "Manuel" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 6 ans" }
+    ]
+  }
+],
+
+warranty: "Moto Vespa 2025 Fonctionne avec une batterie 12V et deux moteurs puissants pour une conduite fluide. Conçue avec un siège 1 place, éclairage LED avant et arrière, démarrage par bouton, amortisseurs, musique intégrée via USB ou câble auxiliaire. Convient aux enfants de 1 à 6 ans. Livraison gratuite partout au Maroc.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F678983161534606%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "motor-erwan-2025",
+   title: "Motor Erwan 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1699,
+   oldPrice: 2199,
+   discount: 30,
+   images: [
+     "motor-erwan-2025/motor-erwan-2025-01.webp",
+     "motor-erwan-2025/motor-erwan-2025-02.webp",
+     "motor-erwan-2025/motor-erwan-2025-03.webp",
+     "motor-erwan-2025/motor-erwan-2025-04.webp",
+    "motor-erwan-2025/motor-erwan-2025-05.webp",
+     "motor-erwan-2025/motor-erwan-2025-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Rouge, Gris, Vert, Violet" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "Music + USB + câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Motor Erwan 2025 Équipée d’une batterie 12V et 2 moteurs puissants, cette moto garantit une expérience fun et sécurisée. Son design 2 places, ses LED avant/arrière, la connexion Bluetooth, la *musique intégrée via USB ou câble, et son démarrage manuel en font le choix parfait pour les enfants de 3 à 11 ans. Disponibles en couleurs : Rouge, Gris, Vert, Violet. Livraison gratuite dans toutes les villes du Maroc ",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1144750974004125%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
+   id: "moteur-police-12V-2",
+   title: "Moteur Police 12V",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 23,
+   currentPrice: 1899,
+   oldPrice: 2299,
+   discount: 30,
+   images: [
+     "moteur-police-12V-2/moteur-police-12v-2-01.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-02.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-03.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-04.webp",
+   "moteur-police-12V-2/moteur-police-12v-2-05.webp",
+     "moteur-police-12V-2/moteur-police-12v-2-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "DÉMARRAGE", value: "Par contact" },
+      { key: "MOTEUR", value: "2 grands moteurs" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Blanc, Rouge" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "Music + USB + câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "MUSIQUE POLICE", value: "Oui" },
+      { key: "LUMIÈRE POLICE", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Moteur Police 12V — Équipé d'une *batterie 12V, 2 grands moteurs, et démarrage par contact. Il offre un design 2 places, des lumières LED avant/arrière, et des fonctions spéciales comme Bluetooth*, musique de police, lumières de police, et musique via USB ou câble auxiliaire. Convient aux enfants de 3 à 11 ans. Couleurs disponibles : Blanc, Rouge. Livraison gratuite dans toutes les villes du Maroc",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3572199963089174%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "moteur-t-max-police-12V",
+   title: "Moteur T-max Police 12V",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 1849,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-01.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-02.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-03.webp",
+      "moteur-t-max-police-12V/moteur-t-max-police-12v-04.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-05.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-06.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-07.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-08.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-09.webp",
+     "moteur-t-max-police-12V/moteur-t-max-police-12v-10.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "2 moteurs" },
+      { key: "DÉMARRAGE", value: "Par contact" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 11 ans" },
+      { key: "COULEURS DISPONIBLES", value: "Blanc, Rouge, Jaune" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "MUSIQUE POLICE", value: "Oui" },
+      { key: "RADIO POLICE", value: "Oui" },
+      { key: "LUMIÈRE POLICE", value: "Oui" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Offrez à votre enfant une aventure unique avec la moto électrique T-max Police 12V. Équipée d’une batterie puissante, de 2 moteurs solides et d’un démarrage par contact, cette moto garantit un maximum de plaisir. Elle est conçue pour les enfants de 3 à 11 ans, avec des lumières LED avant/arrière, une musique intégrée, USB, Bluetooth, ainsi que des effets sonores et lumineux de police pour une immersion totale. Disponible en blanc, rouge et jaune. Ne ratez pas cette opportunité – stock limité ",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1080337560804707%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+  {
+   id: "voiture-buggy-2025",
+   title: "La Voiture buggy 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 15,
+   currentPrice: 2549,
+   oldPrice: 3200,
+   discount: 30,
+   images: [
+     "voiture-buggy-2025/voiture-buggy-2025-01.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-02.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-03.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-04.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-05.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-06.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-07.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-08.webp",
+     "voiture-buggy-2025/voiture-buggy-2025-09.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "FONCTION BALANÇOIRE", value: "Oui" },
+      { key: "ÂGE RECOMMANDÉ", value: "2 - 10 ans" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via téléphone" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+  warranty: "Offrez à votre enfant une expérience de conduite exceptionnelle avec la voiture électrique Buggy 4x4. Équipée d’une batterie 12V, de 5 moteurs puissants et de 2 places confortables, cette voiture est parfaite pour les enfants de 2 à 10 ans. Elle dispose d’un système de ceinture de sécurité, de suspensions efficaces et d’un éclairage LED avant/arrière pour plus de sécurité et de style. Profitez de la musique via USB ou câble auxiliaire, du Bluetooth intégré, de la fonction balançoire et d’un contrôle total grâce à la télécommande manuelle ou via smartphone. Un buggy complet, idéal pour des aventures inoubliables. Stock limité – ne ratez pas cette occasion !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F589184594180299%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-dacia-2025",
+   title: "La voiture Dacia 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 19,
+   currentPrice: 2299,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "voiture-dacia-2025/voiture-dacia-2025-01.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-02.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-03.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-04.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-05.webp",
+     "voiture-dacia-2025/voiture-dacia-2025-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 8 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+ warranty: "La voiture électrique Dacia 4x4 2025 est le choix idéal pour offrir à votre enfant une conduite à la fois amusante et sécurisée. Grâce à sa batterie 12V, ses 5 moteurs puissants et ses 2 places confortables, elle convient parfaitement aux enfants de 1 à 8 ans. Sécurisée avec ceinture, équipée de suspensions, de lumières LED avant/arrière, et d'une fonction balançoire. Pour encore plus de fun : musique via USB, Bluetooth, contrôle depuis le téléphone et télécommande manuelle. Un modèle complet pour les petites aventures du quotidien – en stock limité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1386457948914071%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-jeop-4x4",
+   title: "La Voiture JEOP 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "غير متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 17,
+   currentPrice: 2449,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "voiture-jeop-4x4/voiture-jeop-4x4-01.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-02.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-03.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-04.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-05.webp",
+    "voiture-jeop-4x4/voiture-jeop-4x4-06.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-07.webp"
+     
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places" },
+      { key: "MOTEUR", value: "5 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "2 - 10 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+
+ warranty: "Découvrez la voiture électrique JEOP 4x4 – un buggy robuste et élégant pour enfants de 2 à 10 ans. Dotée d’une batterie 12V, de 5 moteurs puissants et de deux sièges spacieux avec ceintures de sécurité. Profitez d’un confort optimal grâce aux amortisseurs, aux lumières LED avant/arrière et à la fonction balançoire. Côté divertissement : Bluetooth, port USB, musique et contrôle via smartphone ou télécommande manuelle. Une voiture complète et fiable, idéale pour des moments de joie en toute sécurité. Quantité limitée – ne laissez pas passer cette opportunité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1725280938057015%2F&show_text=false&width=267&t=0"
+ },
+  
+    {
+   id: "karting-électrique-sport",
+   title: "Karting électrique Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 46,
+   currentPrice: 1930,
+   oldPrice: 2600,
+   discount: 30,
+   images: [
+     "karting-électrique-sport/karting-électrique-sport-01.webp",
+      "karting-électrique-sport/karting-électrique-sport-02.webp",
+      "karting-électrique-sport/karting-électrique-sport-03.webp",
+      "karting-électrique-sport/karting-électrique-sport-04.webp",
+      "karting-électrique-sport/karting-électrique-sport-05.webp",
+      "karting-électrique-sport/karting-électrique-sport-06.webp",
+      "karting-électrique-sport/karting-électrique-sport-07.webp",
+      "karting-électrique-sport/karting-électrique-sport-08.webp",
+      "karting-électrique-sport/karting-électrique-sport-06.webp",
+      "karting-électrique-sport/karting-électrique-sport-10.webp",
+      "karting-électrique-sport/karting-électrique-sport-11.webp",
+      "karting-électrique-sport/karting-électrique-sport-12.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "3 grands moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "TABLEAU DE BORD", value: "Tableau digital" },
+      { key: "ÂGE RECOMMANDÉ", value: "3 - 10 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" }
+    ]
+  }
+],
+
+
+warranty: "Voiture électrique sportive pour enfants au design karting. Équipée d'une batterie 12V et de trois moteurs puissants. Conçue pour un seul siège avec ceinture de sécurité pour le confort de l’enfant. Dispose de musique, d’une entrée USB et d’un câble auxiliaire pour écouter des chansons. Elle offre trois vitesses différentes et une fonction balançoire pour plus de plaisir. Dotée de la technologie Bluetooth et d’un système de suspension (amortisseurs) pour une conduite plus confortable. Elle possède des lumières LED à l'avant et à l'arrière, un écran digital, un contrôle via smartphone ainsi qu'une télécommande manuelle. Adaptée aux enfants de 3 à 10 ans.",
+  
+ },
+  
+   {
+   id: "moteur-erwan",
+   title: "Motor Erwan",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1049,
+   oldPrice: 1300,
+   discount: 30,
+   images: [
+     "moteur-erwan/moteur-erwan-01.webp",
+     "moteur-erwan/moteur-erwan-02.webp",
+     "moteur-erwan/moteur-erwan-03.webp",
+     "moteur-erwan/moteur-erwan-04.webp",
+     "moteur-erwan/moteur-erwan-05.webp",
+     "moteur-erwan/moteur-erwan-06.webp",
+     "moteur-erwan/moteur-erwan-07.webp"
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12V standard" },
+      { key: "SIÈGE", value: "1 place en cuir" },
+      { key: "MOTEUR", value: "Double moteur" },
+      { key: "VITESSE", value: "3 vitesses réglables" },
+      { key: "SYSTÈME DE DÉMARRAGE", value: "Démarrage à clé (contact)" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 6 ans" },
+      { key: "COULEURS", value: "Rouge, Rose" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "MP3, USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Intégré" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty:"Moto électrique Moteur Erwan 2025 – Une expérience unique pour vos enfants ! Avec sa batterie 12V, ses 2 moteurs puissants, un siège cuir confortable, un éclairage LED complet, démarrage par clé, Bluetooth, musique via USB ou câble, et 3 vitesses au choix – tout est pensé pour la sécurité et le fun des enfants de 1 à 6 ans. Livraison gratuite dans toutes les villes du Maroc. Couleurs disponibles :Rouge,Rose",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4136022943287344%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-mini-jeep-police",
+   title: "Voiture mini Jeep police",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1340,
+   oldPrice: 1490,
+   discount: 30,
+   images: [
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-01.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-02.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-03.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-04.webp",
+     "voiture-mini-jeep-police/voiture-mini-jeep-police-05.webp"
+   ],
+    
+features: [
+  {
+    title: "POINTS FORTS",
+    icon: "fa-bolt",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12V standard" },
+      { key: "SIÈGE", value: "2 places mini avec ceintures de sécurité" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 vitesses réglables" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire intégrée" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 à 5 ans" },
+      { key: "COULEURS", value: "Noir" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS TECHNIQUES",
+    icon: "fa-music",
+    items: [
+      { key: "MUSIQUE", value: "MP3, USB, câble auxiliaire" },
+      { key: "ÉCLAIRAGE", value: "LED avant" },
+      { key: "AMORTISSEURS", value: "Oui, pour plus de confort" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+warranty: "Voiture électrique Mini Jeep Police pour enfants – Équipée de 3 moteurs puissants, une batterie 12V, deux mini-places avec ceintures de sécurité, fonction balançoire, éclairage LED avant, musique via USB/câble, et 3 vitesses réglables. Âge : 1 à 5 ans. Couleur : Noir.  Livraison gratuite partout au Maroc.",
+
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3122993281182692%2F&show_text=false&width=267&t=0"
+ },
+  
+    {
+   id: "voiture-mini-buggy-4x4",
+   title: "La Voiture mini buggy 4x4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 46,
+   currentPrice: 1690,
+   oldPrice: 2000,
+   discount: 30,
+   images: [
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-01.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-02.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-03.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-04.webp",
+     "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-05.webp",
+    "voiture-mini-buggy-4x4/voiture-mini-buggy-4x4-06.webp" 
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "2 places mini" },
+      { key: "MOTEUR", value: "3 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 7 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+
+
+warranty: "Offrez à votre enfant une aventure inoubliable avec la mini voiture buggy 4x4 électrique. Conçue pour les petits conducteurs de 1 à 7 ans, elle est équipée d’une batterie 12V, de 3 moteurs solides et de deux mini places confortables. Sécurité assurée avec ceinture, amortisseurs et contrôle via téléphone ou télécommande. Musique, USB, Bluetooth et LED rendent chaque balade encore plus fun. Un buggy compact, mais puissant, pour des moments de plaisir sécurisé. Stock limité – ne ratez pas cette merveille !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1389167992106964%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "voiture-mini-jeep",
+   title: "La Voiture mini Jeep",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 142,
+   currentPrice: 1170,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "voiture-mini-jeep/voiture-mini-jeep-01.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-02.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-03.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-04.webp",
+     "voiture-mini-jeep/voiture-mini-jeep-05.webp",
+    "voiture-mini-jeep/voiture-mini-jeep-06.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 volts" },
+      { key: "SIÈGE", value: "1 place" },
+      { key: "MOTEUR", value: "3 moteurs" },
+      { key: "SÉCURITÉ", value: "Ceinture de sécurité" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "ÉCLAIRAGE", value: "LED avant et arrière" },
+      { key: "BALANÇOIRE", value: "Fonction balançoire" },
+      { key: "ÂGE RECOMMANDÉ", value: "1 - 4 ans" }
+    ]
+  },
+  {
+    title: "FONCTIONNALITÉS MULTIMÉDIA",
+    icon: "fa-star",
+    items: [
+      { key: "MUSIQUE", value: "USB, câble auxiliaire" },
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "VITESSE", value: "3ème vitesse" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone " },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle" }
+    ]
+  }
+],
+
+
+warranty: "La mini Jeep électrique pour enfants est le cadeau parfait pour les petits pilotes de 1 à 4 ans. Avec une batterie 12V et 3 moteurs puissants, elle offre une conduite stable et amusante. Son siège individuel avec ceinture assure la sécurité, et ses LED avant/arrière ajoutent une touche stylée. Contrôlable via téléphone ou télécommande, elle propose aussi musique, USB, Bluetooth et fonction balançoire. Idéale pour les premières aventures sur roues – stock limité, ne laissez pas passer cette opportunité !",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F2081764588991220%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "moteur-erwan-s",
+   title: "Moteur Erwan 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 18,
+   currentPrice: 1570,
+   oldPrice: 1900,
+   discount: 30,
+   images: [
+     "moteur-erwan-s/moteur-erwan-s-01.webp",
+     "moteur-erwan-s/moteur-erwan-s-02.webp",
+     "moteur-erwan-s/moteur-erwan-s-03.webp",
+     "moteur-erwan-s/moteur-erwan-s-04.webp",
+     "moteur-erwan-s/moteur-erwan-s-05.webp",
+     "moteur-erwan-s/moteur-erwan-s-06.webp",
+     "moteur-erwan-s/moteur-erwan-s-07.webp"
+   ],
+    
+  features: [
+    {
+      "title": "AVANTAGES AVANCÉS",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "BATTERIE", "value": "12V" },
+        { "key": "CHARGEUR", "value": "12 volts" },
+        { "key": "SIÈGE", "value": "2 places mini" },
+        { "key": "MOTEUR", "value": "2 grands moteurs" },
+        { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+        { "key": "AMORTISSEURS", "value": "Oui" },
+        { "key": "VITESSE", "value": "3ème vitesse" },
+        { "key": "ÂGE", "value": "1 - 8 ans" }
+      ]
+    },
+    {
+      "title": "CARACTÉRISTIQUES",
+      "icon": "fa-star",
+      "items": [
+        { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+        { "key": "BLUETOOTH", "value": "Oui" },
+        { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+      ]
+    }
+  ],
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez. Ne ratez pas cette opportunité, commandez maintenant et profitez du shopping à domicile.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1217779936614662%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "moteur-x-adv-gs",
+   title: "Moteur X ADV GS",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 2299,
+   oldPrice: 3100,
+   discount: 30,
+   images: [
+     "moteur-x-adv-gs/moteur-x-adv-gs-07.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-02.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-03.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-04.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-05.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-06.webp",
+     "moteur-x-adv-gs/moteur-x-adv-gs-01.webp" 
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 volts" },
+      { "key": "SIÈGE", "value": "2 places mini" },
+      { "key": "MOTEUR", "value": "2 grands moteurs" },
+      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+      { "key": "AMORTISSEURS", "value": "Oui" },
+      { "key": "VITESSE", "value": "3ème vitesse" },
+      { "key": "ÂGE", "value": "4 - 14 ans" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+      { "key": "BLUETOOTH", "value": "Oui" },
+      { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1191904782566963%2F&show_text=false&width=264&t=0"
+ },
+  
+ {
+   id: "moteur-x-adv-gs-2",
+   title: "Moteur X ADV GS",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 1749,
+   oldPrice: 2250,
+   discount: 30,
+   images: [
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-01.webp",
+    "moteur-x-adv-gs-2/moteur-x-adv-gs-2-02.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-03.webp",
+    "moteur-x-adv-gs-2/moteur-x-adv-gs-2-04.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-05.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-06.webp",
+     "moteur-x-adv-gs-2/moteur-x-adv-gs-2-07.webp",
+      "moteur-x-adv-gs-2/moteur-x-adv-gs-2-08.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 volts" },
+      { "key": "SIÈGE", "value": "2 places mini" },
+      { "key": "MOTEUR", "value": "2 moteurs" },
+      { "key": "ÉCLAIRAGE", "value": "LED avant et arrière" },
+      { "key": "AMORTISSEURS", "value": "Oui" },
+      { "key": "VITESSE", "value": "3ème vitesse" },
+      { "key": "ÂGE", "value": "3 - 10 ans" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, câble auxiliaire" },
+      { "key": "BLUETOOTH", "value": "Oui" },
+      { "key": "TÉLÉCOMMANDE", "value": "Manuelle" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F934000608675390%2F&show_text=false&width=264&t=0"
+ },
+  
+  
+  {
+   id: "voiture-maserati-sport",
+   title: " Voiture Maserati Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 1299,
+   oldPrice: 1600,
+   discount: 25,
+   images: [
+     "voiture-maserati-sport/voiture-maserati-sport-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-02.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-03.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-04.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-05.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-06.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-07.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-08.webp"
+     
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACE MINI AVEC CEINTURE" },
+      { "key": "MOTEUR", "value": "3 MOTEURS PUISSANTS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "Balançoire", "value": "OUI" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "AMORTISSEURS", "value": "OUI" },
+      { "key": "VITESSE", "value": "3 VITESSES" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-maserati-sport2",
+   title: " Voiture Maserati Sport",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 5,
+   currentPrice: 1380,
+   oldPrice: 1700,
+   discount: 29,
+   images: [
+     "voiture-maserati-sport/voiture-maserati-sport2-01.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-02.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-03.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-04.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-05.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-06.webp",
+    "voiture-maserati-sport/voiture-maserati-sport-07.webp",
+     "voiture-maserati-sport/voiture-maserati-sport-08.webp"
+     
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACE MINI AVEC CEINTURE" },
+      { "key": "MOTEUR", "value": "5 MOTEURS PUISSANTS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "Balançoire", "value": "OUI" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "AMORTISSEURS", "value": "OUI" },
+      { "key": "VITESSE", "value": "3 VITESSES" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE 📲" }
+    ]
+  }
+],
+    
+warranty: "Voiture Maserati sport pour enfants. Offrez à votre enfant une expérience de conduite exceptionnelle avec cette voiture électrique au design sportif et aux fonctionnalités impressionnantes.\n\nBatterie puissante 12V avec chargeur 12V\nDeux petites places + ceinture de sécurité\nMusique, port USB et câble AUX pour écouter ses chansons préférées\nBluetooth intégré\nTrois vitesses différentes pour une meilleure maîtrise\nFonction balançoire (se balance doucement)\nSuspensions pour plus de confort sur les routes irrégulières\nÉclairage LED à l'avant et à l'arrière\nContrôle possible avec la télécommande ou directement depuis votre téléphone\n\nConvient aux enfants de 1 à 6 ans\nCouleurs disponibles : blanc et rouge",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F655665030443340%2F&show_text=false&width=267&t=0"
+ },
+  
+   {
+   id: "moteur-police-12v",
+   title: " Moteur Police 12Volts ",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 1949,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "moteur-police-12v/moteur-police-12v-01.webp",
+     "moteur-police-12v/moteur-police-12v-02.webp",
+     "moteur-police-12v/moteur-police-12v-03.webp",
+     "moteur-police-12v/moteur-police-12v-04.webp",
+     "moteur-police-12v/moteur-police-12v-05.webp",
+     "moteur-police-12v/moteur-police-12v-06.webp",
+     "moteur-police-12v/moteur-police-12v-07.webp",
+     "moteur-police-12v/moteur-police-12v-08.webp",
+     "moteur-police-12v/moteur-police-12v-09.webp",
+     "moteur-police-12v/moteur-police-12v-10.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "2 GRANDS MOTEURS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "LUMIÈRE", "value": "DE LA POLICE" },
+      { "key": "ÂGE", "value": "3 - 11 ANS" }
+      
+    ]
+  },
+  
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "EFFETS SONORES", "value": "MUSIQUE POLICE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F9383876128373247%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-mercedes-4x4",
+    title: "Voiture Mercedes 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 2149,
+   oldPrice: 2599,
+   discount: 30,
+   images: [
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-01.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-02.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-03.webp",
+     "voiture-mercedes-4x4/voiture-mercedes-4x4-04.webp",
+    "voiture-mercedes-4x4/voiture-mercedes-4x4-05.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V 7AH" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES EN CUIR" },
+      { "key": "MOTEUR", "value": "5 MOTEURS PUISSANTS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "BALANÇOIRE", "value": "INTÉGRÉE" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "AMORTISSEURS", "value": "SUSPENSIONS AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3 NIVEAUX" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "EFFETS", "value": "SONS POLICE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+  
+ {
+   id: "voiture-mercedes-4x4-2",
+    title: "Voiture Mercedes 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 20,
+   currentPrice: 2399,
+   oldPrice: 3200,
+   discount: 30,
+   images: [
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-01.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-02.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-03.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-04.webp",
+     "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-05.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-06.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-07.webp",
+      "voiture-mercedes-4x4-2/voiture-mercedes-4x4-2-08.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTOR" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "BALANÇOIRE", "value": "INTÉGRÉE" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "AMORTISSEURS", "value": "LES AMORTISSEURS" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "MUSIC + USB + CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT ET ARRIÈRE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+  
+  
+{
+   id: "voiture-range-rover-police",
+   title: "Voiture Range Rover police",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 57,
+   currentPrice: 1820,
+   oldPrice: 2350,
+   discount: 30,
+   images: [
+     "voiture-range-rover-police/voiture-range- rover-police-01.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-02.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-03.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-04.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-05.webp",
+     "voiture-range-rover-police/voiture-range- rover-police-06.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "ÂGE", "value": "1 - 6 ANS" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+      { "key": "AMORTISSEURS", "value": "AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "BALANÇOIRE", "value": "INCLUSE" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1396773761319165%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+   {
+   id: "voiture-jeep-bougie",
+   title: "Voiture jeep bougie 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 55,
+   currentPrice: 2599,
+   oldPrice: 3300,
+   discount: 30,
+   images: [
+     "voiture-jeep-bougie/voiture-jeep-bougie-01.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-02.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-03.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-04.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-05.webp",
+      "voiture-jeep-bougie/voiture-jeep-bougie-06.webp",
+     "voiture-jeep-bougie/voiture-jeep-bougie-07.webp"
+   ],
+    
+features: [
+  {
+  "title": "AVANTAGES AVANCÉS",
+  "icon": "fa-cogs",
+  "items": [
+    { "key": "BATTERIE", "value": "12V 10AH" },
+    { "key": "CHARGEUR", "value": "12 VOLTS" },
+    { "key": "SIÈGE", "value": "2 PLACES CUIR" },
+    { "key": "MOTEUR", "value": "5 MOTEURS" },
+    { "key": "VITESSE", "value": "3 NIVEAUX" },
+    { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
+    { "key": "TABLEAU DE BORD", "value": "DIGITAL" }
+  ]
+},
+{
+  "title": "CARACTÉRISTIQUES",
+  "icon": "fa-star",
+  "items": [
+    { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+    { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+    { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+    { "key": "BALANÇOIRE", "value": "EFFET INTÉGRÉ" },
+    { "key": "AMORTISSEURS", "value": "INCLUS" },
+    { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE VIA TÉLÉPHONE" },
+    { "key": "ÂGE", "value": "1 - 9 ANS" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1356692908792031%2F&show_text=false&width=267&t=0"
+ },
+  
+ {
+   id: "voiture-bmw-4x4-2025",
+   title: "Voiture BMW 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 55,
+   currentPrice: 2450,
+   oldPrice: 3200,
+   discount: 30,
+   images: [
+     "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-01.webp",
+     "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-02.webp",
+     "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-03.webp",
+      "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-04.webp",
+      "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-05.webp",
+      "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-06.webp",
+    "voiture -bmw-4x4-2025/voiture -bmw-4x4-2025-07.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "VITESSE", "value": "3E NIVEAUX" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "BALANÇOIRE", "value": "EFFET INTÉGRÉ" },
+      { "key": "AMORTISSEURS", "value": "INCLUS" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "CONTRÔLE", "value": "DEPUIS LE TÉLÉPHONE" },
+      { "key": "ÂGE", "value": "1 - 10 ANS" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F606512642121396%2F&show_text=false&width=267&t=0"
+ },
+  
+ {
+   id: "voiture-bmw-4x4-2025-2",
+   title: "Voiture BMW 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 55,
+   currentPrice: 2399,
+   oldPrice: 3000,
+   discount: 30,
+   images: [
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-01.webp",
+    "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-02.webp",
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-03.webp",
+      "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-04.webp",
+     "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-05.webp",
+      "voiture-bmw-4x4-2025-2/voiture-bmw-4x4-2025-06.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "VITESSE", "value": "3E NIVEAUX" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" }
+    ]
+  },
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "BALANÇOIRE", "value": "EFFET INTÉGRÉ" },
+      { "key": "AMORTISSEURS", "value": "INCLUS" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "CONTRÔLE", "value": "DEPUIS LE TÉLÉPHONE" },
+      { "key": "ÂGE", "value": "1 - 9 ANS" }
+    ]
+  }
+],
+   warranty: "La voiture BMW 4x4 2025 pour enfants n'est pas un simple jouet, c’est une véritable expérience de conduite comme les grands. Elle attire tous les regards, excite les sens, et fait vivre à l’enfant des moments de joie et de fierté. Quand votre petit la conduit, il se sent comme le roi de la route. Offrez-lui ce plaisir et voyez l’étincelle dans ses yeux.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F590982623819268%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "Voiture-Mercedes-Classe-G",
+   title: "Voiture Mercedes Classe G",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 45,
+   currentPrice: 2199,
+   oldPrice: 2900,
+   discount: 30,
+   images: [
+     "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-01.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-02.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-03.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-04.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-05.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-06.webp",
+     "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-07.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-08.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-09.webp",
+      "Voiture-Mercedes-Classe-G/voiture-mercedes-classe-g-10.webp"
+   ],
+    
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V" },
+      { key: "CHARGEUR", value: "12 VOLTS" },
+      { key: "SIÈGE", value: "2 PLACES CUIR" },
+      { key: "MOTEUR", value: "5 MOTEURS" },
+      { key: "ÉCLAIRAGE", value: "LED" },
+      { key: "TABLEAU", value: "DIGITAL" },
+      { key: "VITESSE", value: "3 NIVEAUX" }
+    ]
+  },
+ {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "DE SÉCURITÉ" },
+      { key: "MUSIQUE", value: "USB, CÂBLE AUXILIAIRE" },
+      { key: "BLUETOOTH", value: "INTÉGRÉ" },
+      { key: "BALANÇOIRE", value: "EFFET INTÉGRÉ" },
+      { key: "AMORTISSEURS", value: "INCLUS" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "TÉLÉCOMMANDE", value: "MANUELLE" },
+      { key: "ÂGE", value: "1 - 7 ANS" },
+      { key: "COULEUR", value: "BLANC & GRIS" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F654449327191104%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "voiture-mercedes-police",
+   title: "Voiture Mercedes police",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 265,
+   currentPrice: 2549,
+   oldPrice: 3100,
+   discount: 30,
+   images: [
+     "voiture-mercedes-police/voiture-mercedes-police-01.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-02.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-03.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-04.webp",
+      "voiture-mercedes-police/voiture-mercedes-police-05.webp",
+     "voiture-mercedes-police/voiture-mercedes-police-06.webp",
+    "voiture-mercedes-police/voiture-mercedes-police-07.webp"
+   ],
+    
+features: [
+  {
+    "title": "AVANTAGES AVANCÉS",
+    "icon": "fa-cogs",
+    "items": [
+      { "key": "BATTERIE", "value": "12V" },
+      { "key": "CHARGEUR", "value": "12 VOLTS" },
+      { "key": "SIÈGE", "value": "2 PLACES" },
+      { "key": "MOTEUR", "value": "5 MOTEURS" },
+      { "key": "CEINTURE", "value": "DE SÉCURITÉ" },
+      { "key": "ÂGE", "value": "1 - 8 ANS" },
+      { "key": "BALANÇOIRE", "value": "DISPONIBLE" },
+      { "key": "AMORTISSEURS", "value": "AVANT & ARRIÈRE" },
+      { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" }
+    ]
+  },
+
+  {
+    "title": "CARACTÉRISTIQUES",
+    "icon": "fa-star",
+    "items": [
+      { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
+      { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
+      { "key": "VITESSE", "value": "3E VITESSE" },
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE" },
+      { "key": "CONTRÔLE", "value": "PAR TÉLÉPHONE" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1339868447361661%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture-mercedes-classique",
+   title: "voiture Mercedes classique ",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 59,
+   currentPrice: 1480,
+   oldPrice: 1800,
+   discount: 30,
+   images: [
+     "voiture-mercedes-classique/voiture-mercedes-classique-01.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-02.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-03.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-04.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-05.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-06.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-07.webp",
+     "voiture-mercedes-classique/voiture-mercedes-classique-08.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V + Chargeur 12V" },
+      { key: "PLACES", value: "2 places mini" },
+      { key: "MOTEUR", value: "3 moteurs puissants" },
+      { key: "VITESSE", value: "3 niveaux de vitesse" },
+      { key: "ÂGE", value: "1 à 6 ans" },
+      { key: "AMORTISSEURS", value: "Oui, intégrés" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité incluse" },
+      { key: "MUSIQUE", value: "USB, câble AUX, musique intégrée" },
+      { key: "BALANÇOIRE", value: "Effet intégré" },
+      { key: "LED", value: "Lumières avant et arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle parentale" },
+      { key: "ROUES", value: "Avec amortisseurs" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F422262497235704%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "voiture_range_rover_police",
+   title: "Voiture Range-Rover police",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 192,
+   currentPrice: 1820,
+   oldPrice: 2350,
+   discount: 30,
+   images: [
+     "voiture_range_rover_police/voiture_range_rover_police-05.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-02.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-03.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-04.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-01.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-06.webp",
+     "voiture_range_rover_police/voiture_range_rover_police-07.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "5 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 NIVEAUX" },
+      { key: "BATTERIE", value: "12V RECHARGEABLE" },
+      { key: "AUTONOMIE", value: "1-2H DE JEU" },
+      { key: "CHARGE MAX", value: "JUSQU'À 30 KG" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "INCLUSE" },
+      { key: "ROUES", value: "ANTIDÉRAPANTES" },
+      { key: "PROTECTION", value: "RÉSISTANTE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, AUX" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "KLAXON", value: "SON RÉALISTE" },
+      { key: "BALANÇOIRE", value: "EFFET INTÉGRÉ" },
+      { key: "TÉLÉCOMMANDE", value: "PARENTALE" }
+     ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1369894724022601%2F&show_text=false&width=267&t=0"
+ },
+  
+  {
+   id: "Voiture-Mercedes-mini-44",
+   title: "Voiture Mercedes mini 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 23,
+   currentPrice: 1149 ,
+   oldPrice: 1550,
+   discount: 30,
+   images: [
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-01.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-02.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-03.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-04.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-05.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-06.webp",
+     "Voiture-Mercedes-mini-44/voiture-mercedes-mini 44-07.webp"
+   ],
+features: [
+  {
+  "title": "AVANTAGES AVANCÉS",
+  "icon": "fa-cogs",
+  "items": [
+    { "key": "MOTEUR", "value": "5 MOTOR" },
+    { "key": "VITESSE", "value": "3E VITESSE" },
+    { "key": "BATTERIE", "value": "BATTERIE 12V" },
+    { "key": "TÉLÉCOMMANDE", "value": "TÉLÉCOMMANDE MANUEL" },
+    { "key": "BLUETOOTH", "value": "BLUETOOTH" },
+    { "key": "TÉLÉPHONE", "value": "MAÎTRISÉ DEPUIS LE TÉLÉPHONE" },
+    { "key": "CHARGEUR", "value": "CHARGEUR 12 VOLTS" },
+    { "key": "PLACES", "value": "2 PLACES MINI" }
+  ]
+},
+{
+  "title": "CARACTÉRISTIQUES",
+  "icon": "fa-star",
+  "items": [
+    { "key": "CEINTURE", "value": "CEINTURE DE SÉCURITÉ" },
+    { "key": "ROUES", "value": "LES AMORTISSEURS" },
+    { "key": "PROTECTION", "value": "RÉSISTANTE" },
+    { "key": "MUSIQUE", "value": "MUSIC+USB+CÂBLE AUXILIAIRE" },
+    { "key": "LED", "value": "LED AVANT" },
+    { "key": "BALANÇOIRE", "value": "BALANÇOIRE" },
+    { "key": "ÂGE", "value": "L'ÂGE 1 - 6 ANS" }
+  ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1416644319698669%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "voiture-boogie-4x4",
+   title: "La voiture Boogie 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 214,
+   currentPrice: 2599,
+   oldPrice:  3100,
+   discount: 30,
+   images: [
+      "voiture-boogie-4x4/voiture-boogie -4x4-01.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-02.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-03.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-04.webp",
+    "voiture-boogie-4x4/voiture-boogie -4x4-05.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-06.webp",
+     "voiture-boogie-4x4/voiture-boogie -4x4-07.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V 10Ah" },
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 places" },
+      { key: "MOTEURS", value: "5 moteurs" },
+      { key: "VITESSE", value: "3 vitesses" },
+      { key: "ÂGE", value: "2 - 10 ans" },
+      { key: "TABLEAU", value: "Tableau de bord digital" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité" },
+      { key: "MUSIQUE", value: "USB, Bluetooth, câble auxiliaire" },
+      { key: "BALANÇOIRE", value: "Oui" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "LED", value: "Feux avant & arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle & contrôle via téléphone" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ }, 
+  
+{
+   id: "voiture-toyota-4x4",
+   title: "La voiture Toyota 4*4",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 214,
+   currentPrice: 2149,
+   oldPrice:  2900,
+   discount: 30,
+   images: [
+      "voiture-toyota-4x4/voiture-toyota-4x4-01.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-02.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-03.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-04.webp",
+    "voiture-toyota-4x4/voiture-toyota-4x4-05.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-06.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-07.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-08.webp",
+     "voiture-toyota-4x4/voiture-toyota-4x4-09.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 places en cuir" },
+      { key: "MOTEURS", value: "3 moteurs" },
+      { key: "VITESSE", value: "3 vitesses" },
+      { key: "ÂGE", value: "2 - 8 ans" },
+      { key: "TABLEAU", value: "Tableau de bord digital" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "Ceinture de sécurité" },
+      { key: "MUSIQUE", value: "USB, Bluetooth, câble auxiliaire" },
+      { key: "BALANÇOIRE", value: "Oui" },
+      { key: "AMORTISSEURS", value: "Oui" },
+      { key: "LED", value: "Feux avant & arrière" },
+      { key: "TÉLÉCOMMANDE", value: "Manuelle & contrôle via téléphone" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ }, 
+  
+ {
+   id: "voiture-Jeep-police-2025",
+   title: "Voiture Jeep police 4*4 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 59,
+   currentPrice: 2449,
+   oldPrice:  3249,
+   discount: 30,
+   images: [
+      "voiture-Jeep-police-2025/voiture-jeep-police-2025-12.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-02.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-03.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-04.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-05.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-06.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-07.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-08.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-09.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-10.webp",
+     "voiture-Jeep-police-2025/voiture-jeep-police-2025-11.webp"
+    
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "BATTERIE", value: "12V 10Ah" },
+      { key: "CHARGEUR", value: "12V" },
+      { key: "PLACES", value: "2 PLACES" },
+      { key: "MOTEURS", value: "5 MOTEURS" },
+      { key: "VITESSE", value: "3 VITESSES" },
+      { key: "ÂGE", value: "1 - 8 ANS" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+       { key: "CEINTURE", value: "CEINTURE DE SÉCURITÉ" },
+      { key: "MUSIQUE", value: "USB, CÂBLE AUXILIAIRE" },
+      { key: "BALANÇOIRE", value: "OUI" },
+      { key: "AMORTISSEURS", value: "OUI" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "TÉLÉCOMMANDE", value: "MANUELLE & CONTRÔLE PAR TÉLÉPHONE" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1027785836036512%2F&show_text=false&width=267&t=0"
+ }, 
+  
+{
+   id: "voiture-Lamborghini-2025",
+   title: "Voiture Lamborghini 2025",
+   brand: "Marque enfant",
+   category: "سيارات كهربائية",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 192,
+   currentPrice: 1590,
+   oldPrice: 2000,
+   discount: 30,
+   images: [
+     "voiture-Lamborghini-original/voiture-lamborghini-original-01.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-02.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-03.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-04.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-05.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-06.webp",
+     "voiture-Lamborghini-original/voiture-lamborghini-original-07.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "3 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 VITESSES + BASCULE" },
+      { key: "BATTERIE", value: "2X 6V RECHARGEABLES" },
+      { key: "CHARGEUR", value: "INCLUS (12V)" },
+      { key: "AUTONOMIE", value: "1-2H" },
+      { key: "ÂGE", value: "1-6 ANS" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "CEINTURE", value: "INCLUSE" },
+      { key: "AMORTISSEURS", value: "OUI" },
+      { key: "ROUES", value: "ANTIDÉRAPANTES" },
+      { key: "PROTECTION", value: "RÉSISTANTE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, AUX" },
+      { key: "LED", value: "AVANT & ARRIÈRE" },
+      { key: "KLAXON", value: "OUI" },
+      { key: "BALANÇOIRE", value: "OUI" },
+      { key: "TÉLÉCOMMANDE", value: "PARENTALE" },
+      { key: "SIÈGE", value: "CONFORTABLE" }
+    ]
+  }
+],
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1179274147225695%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "Moteur-HARLEY-6V",
+   title: "Moteur HARLEY 6V",
+   brand: "Marque enfant ",
+   category: "سيارات كهربائية",
+   availability: "غير متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 260,
+   currentPrice: 999,
+   oldPrice: 1550,
+   discount: 30,
+   images: [
+     "Moteur-HARLEY-6V/moteur-harley-6v-01.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-02.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-03.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-04.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-05.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-06.webp",
+     "Moteur-HARLEY-6V/moteur-harley-6v-07.webp"
+   ],
+features: [
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "2 MOTEURS PUISSANTS" },
+      { key: "VITESSE", value: "3 VITESSES" },
+      { key: "BATTERIE", value: "2 BATTERIES 6V RECHARGEABLES" },
+      { key: "CHARGEUR", value: "CHARGEUR 12V INCLUS" },
+      { key: "ÂGE", value: "POUR ENFANTS DE 1 À 6 ANS" }
+    ]
+  },
+  {
+    title: "CARACTÉRISTIQUES",
+    icon: "fa-star",
+    items: [
+      { key: "SIÈGE", value: "SIÈGE EN CUIR CONFORTABLE" },
+      { key: "AMORTISSEURS", value: "AMORTISSEURS INTÉGRÉS" },
+      { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
+      { key: "MUSIQUE", value: "BLUETOOTH, USB, CÂBLE AUX" },
+      { key: "SONS", value: "EFFETS SONORES IMMERSIFS" },
+      { key: "GUIDE", value: "MANUEL INCLUS " }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1779576732774007%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-mastela",
+   title: "SIÈGE AUTO MASTELA ROTATIF 360°",
+   brand: "MASTELA ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 140,
+   currentPrice: 1330,
+   oldPrice: 1500,
+   discount: 30,
+   images: [
+    "siège-auto-mastela/siège-auto-mastela-01.webp",
+    "siège-auto-mastela/siège-auto-mastela-02.webp",
+    "siège-auto-mastela/siège-auto-mastela-03.webp",
+    "siège-auto-mastela/siège-auto-mastela-04.webp",
+    "siège-auto-mastela/siège-auto-mastela-05.webp",
+    "siège-auto-mastela/siège-auto-mastela-06.webp",
+    "siège-auto-mastela/siège-auto-mastela-07.webp",
+    "siège-auto-mastela/siège-auto-mastela-08.webp",
+    "siège-auto-mastela/siège-auto-mastela-09.webp"
+   ],
+features: [
+  {
+    title: "مواصفات المنتج",
+    icon: "fa-cogs",
+    items: [
+      { key: "MODÈLE", value: "SIÈGE AUTO Mastela 0-12 ANS ROTATIF 360°" },
+      { key: "TYPE", value: "Groupe 0/1/2/3" },
+      { key: "ROTATION", value: "360° avec ISOFIX" },
+      { key: "INSTALLATION", value: "ISOFIX rapide et sécurisé" },
+      { key: "ÂGE", value: "0 - 12 ans" },
+      { key: "CONFORT", value: "Rembourrage doux" },
+      { key: "SÉCURITÉ", value: "Protection maximale" }
+    ]
+  },
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "ÉVOLUTIF", value: "Utilisable de 0 à 12 ans" },
+      { key: "INSTALLATION", value: "ISOFIX facile et rapide" },
+      { key: "PROTECTION", value: "Sécurité renforcée" },
+      { key: "CONFORT", value: "Matériaux doux et confortables" },
+      { key: "ADAPTABILITÉ", value: "S'adapte à la croissance de l'enfant" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1394153574894158%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "siège-auto-kidilo-1400",
+   title: "Siège auto KIDILO 360° Isofix ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 24,
+   currentPrice: 1399,
+   oldPrice:  1800,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-01.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-02.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-03.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-04.webp",
+    "siège-auto-kidilo-1400/siège-auto-kidilo-1400-05.webp",
+  "siège-auto-kidilo-1400/siège-auto-kidilo-1400-06.webp",
+   "siège-auto-kidilo-1400/siège-auto-kidilo-1400-07.webp",
+   "siège-auto-kidilo-1400/siège-auto-kidilo-1400-08.webp"
+   
+   ],
+
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège Auto KIDILO naissance à 12 ans Rotatif- Isofix Grp 0/1/2/3" },
+        { "key": "TYPE", "value": "Groupe 0/1/2/3" },
+        { "key": "ROTATION", "value": "360° pivotant avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX et ceinture de sécurité" },
+        { "key": "ÂGE", "value": "Naissance - 12 ans" },
+        { "key": "CONFORT", "value": "Appui-tête réglable, rembourrage doux" },
+        { "key": "SÉCURITÉ", "value": "Harnais à 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ROTATION 360°", "value": "Accès facile des deux côtés" },
+        { "key": "UTILISATION", "value": "Dos à la route jusqu’à 18 kg, face de 9 à 36 kg" },
+        { "key": "CONFORT", "value": "Rembourrage doux et tissu respirant" },
+        { "key": "RÉGLAGE", "value": "Appui-tête ajustable, dossier inclinable" },
+        { "key": "SÉCURITÉ", "value": "Harnais sécurisé à 5 points" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1192338492420647%2F&show_text=false&width=267&t=0"
+ },
+  
+  
+{
+   id: "siège-auto-kidilo-g406b",
+   title: "Siège Auto KIDILO 360° Isofix G406B ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 96,
+   currentPrice: 1349,
+   oldPrice:  1600,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-01.webp",
+    "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-02.webp",
+    "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-03.webp",
+    "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-04.webp",
+    "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-05.webp",
+   "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-06.webp",
+   "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-07.webp",
+   "siège-auto-kidilo-g406b/siège-auto-kidilo-g406b-08.webp"
+   
+   ],
+
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège Auto Rotation 360 Isofix G406B – KIDILO" },
+        { "key": "TYPE", "value": "Groupe 0/1/2/3" },
+        { "key": "ROTATION", "value": "360° pivotant avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX et ceinture de sécurité" },
+        { "key": "ÂGE", "value": "Naissance - 12 ans" },
+        { "key": "CONFORT", "value": "Appui-tête réglable, rembourrage doux" },
+        { "key": "SÉCURITÉ", "value": "Harnais à 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ROTATION 360°", "value": "Accès facile des deux côtés" },
+        { "key": "UTILISATION", "value": "Dos à la route jusqu’à 13 kg, face de 9 à 36 kg" },
+        { "key": "CONFORT", "value": "Rembourrage doux et tissu respirant" },
+        { "key": "RÉGLAGE", "value": "Appui-tête ajustable, dossier inclinable" },
+        { "key": "SÉCURITÉ", "value": "Harnais sécurisé à 5 points" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F687673320498795%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-kidilo-g301",
+   title: "Siège auto KIDILO G301 ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 4,
+   currentPrice: 799,
+   oldPrice:  999,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-01.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-02.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-03.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-04.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-05.webp",
+    "siège-auto-kidilo-g301/siège-auto-kidilo-g301-06.webp"
+   
+   ],
+
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 9-36kg / 1-12 ans" },
+        { "key": "TYPE", "value": "Groupe 1/2/3 (9-36 Kg)" },
+        { "key": "INSTALLATION", "value": "Ceinture de sécurité du véhicule" },
+        { "key": "ÂGE", "value": "1 - 12 ans" },
+        { "key": "CONFORT", "value": "Coussins rembourrés, support ergonomique" },
+        { "key": "SÉCURITÉ", "value": "Conforme aux standards de sécurité" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "Convient de 1 à 12 ans" },
+        { "key": "SÉCURITÉ", "value": "Protection optimale" },
+        { "key": "INSTALLATION", "value": "Fixation stable avec ceinture de sécurité" },
+        { "key": "CONFORT", "value": "Matériaux doux et confortables" },
+        { "key": "ADAPTABILITÉ", "value": "Ajustement parfait pour la croissance" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1695601351316004%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "siège-auto-kidilo",
+   title: "Siège auto KIDILO isofix rotatif  360° ",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 96,
+   currentPrice: 1249,
+   oldPrice:  1550,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo/siège-auto-kidilo-01.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-02.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-03.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-04.webp",
+   "siège-auto-kidilo/siège-auto-kidilo-05.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-06.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-07.webp",
+    "siège-auto-kidilo/siège-auto-kidilo-08.webp",
+     "siège-auto-kidilo/siège-auto-kidilo-09.webp"
+   
+   ],
+
+
+ "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
+        { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
+        { "key": "INSTALLATION", "value": "Isofix + Top Tether (G0+), Ceinture (G1/2/3)" },
+        { "key": "POSITIONNEMENT", "value": "Dos route 0-18 Kg, Face route dès 9 Kg" },
+        { "key": "CONFORT", "value": "Positions assise/couchée, appui-tête réglable" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "Convient de 0 à 12 ans" },
+        { "key": "SÉCURITÉ", "value": "Protection optimale" },
+        { "key": "INSTALLATION", "value": "Fixation stable avec Isofix et ceinture" },
+        { "key": "CONFORT", "value": "Matériaux doux et ergonomiques" },
+        { "key": "ADAPTABILITÉ", "value": "Ajustement parfait pour la croissance" }
+      ]
+    }
+  
+  ],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1030215162489009%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-kidilo-1199",
+   title: "Siège auto isofix rotatif 360°",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 26,
+   currentPrice: 1199,
+   oldPrice: 1500,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-01.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-02.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-03.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-04.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-05.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-06.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-07.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-08.webp",
+    "siège-auto-kidilo-1199/siège-auto-kidilo-1199-09.webp"
+   ],
+
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
+        { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
+        { "key": "ROTATION", "value": "360° avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX + ceinture selon groupe" },
+        { "key": "ÂGE", "value": "0 - 12 ans" },
+        { "key": "CONFORT", "value": "Housse rembourrée, appui-tête réglable" },
+        { "key": "SÉCURITÉ", "value": "Ceinture 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "0-12 ans" },
+        { "key": "INSTALLATION", "value": "Dos route 0-18 Kg, face route dès 9 Kg" },
+        { "key": "PROTECTION", "value": "Sécurité renforcée" },
+        { "key": "CONFORT", "value": "Matériaux doux" },
+        { "key": "ADAPTABILITÉ", "value": "Suit la croissance" }
+      ]
+    }
+  ],
+ 
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1668139383896057%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-kidilo-1299",
+   title: "Siège auto KIDILO ROTATIF 360°",
+   brand: "KIDILO ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 58,
+   currentPrice: 1299,
+   oldPrice: 1600,
+   discount: 30,
+   images: [
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-01.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-02.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-03.webp",
+   "siège-auto-kidilo-1299/siège-auto-kidilo-1299-04.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-05.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-06.webp",
+   "siège-auto-kidilo-1299/siège-auto-kidilo-1299-07.webp",
+    "siège-auto-kidilo-1299/siège-auto-kidilo-1299-08.webp"
+  
+   ],
+  "features": [
+    {
+      "title": "مواصفات المنتج",
+      "icon": "fa-cogs",
+      "items": [
+        { "key": "MODÈLE", "value": "Siège auto KIDILO 0-12 ans Rotatif- Isofix" },
+        { "key": "TYPE", "value": "Groupe 0+/1/2/3 (0-36 Kg)" },
+        { "key": "ROTATION", "value": "360° avec ISOFIX" },
+        { "key": "INSTALLATION", "value": "ISOFIX + ceinture selon groupe" },
+        { "key": "ÂGE", "value": "0 - 12 ans" },
+        { "key": "CONFORT", "value": "Housse rembourrée, appui-tête réglable" },
+        { "key": "SÉCURITÉ", "value": "Ceinture 5 points" }
+      ]
+    },
+    {
+      "title": "المميزات والفوائد",
+      "icon": "fa-star",
+      "items": [
+        { "key": "ÉVOLUTIF", "value": "0-12 ans" },
+        { "key": "POIDS", "value": "Dos route 0-18 Kg, face route dès 9 Kg" },
+        { "key": "PROTECTION", "value": "Sécurité renforcée" },
+        { "key": "CONFORT", "value": "Matériaux doux" },
+        { "key": "ADAPTABILITÉ", "value": "Suit la croissance" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1649431872601282%2F&show_text=false&width=264&t=0"
+ },
+  
+{
+   id: "siège-auto-my-bébé",
+   title: "SIÈGE AUTO My bébé ROTATIF 360° ",
+   brand: "My bébé ",
+   category: "Siege auto",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 260,
+   currentPrice: 1199,
+   oldPrice: 1400,
+   discount: 30,
+   images: [
+     "siège-auto-my-bébé/siège-auto-my-bébé-01.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-02.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-03.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-04.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-05.webp",
+     "siège-auto-my-bébé/siège-auto-my-bébé-06.webp"
+   ],
+features: [
+  {
+    title: "مواصفات المنتج",
+    icon: "fa-cogs",
+    items: [
+      { key: "MODÈLE", value: "SIÈGE AUTO My bébé 0 À 12 ANS ROTATIF 360°" },
+      { key: "TYPE", value: "Siège auto Groupe 0/1/2/3" },
+      { key: "ROTATION", value: "360°" },
+      { key: "INSTALLATION", value: "Connecteurs ISOFIX" },
+      { key: "ÂGE", value: "0 - 12 ans" },
+      { key: "CONFORT", value: "Rembourrage optimal" },
+      { key: "SÉCURITÉ", value: "Haute protection pour bébé/enfant" }
+    ]
+  },
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "ÉVOLUTIF", value: "Utilisable dès la naissance jusqu'à 12 ans" },
+      { key: "INSTALLATION", value: "Facile avec ISOFIX" },
+      { key: "PROTECTION", value: "Sécurité maximale en voiture" },
+      { key: "CONFORT", value: "Matériaux doux et rembourrés" },
+      { key: "ADAPTABILITÉ", value: "S'adapte à la croissance de l'enfant" }
+    ]
+  }
+],
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370091880636067%2F&show_text=false&width=267&t=0"
+ },
+  
+{
+   id: "trampoline-2.42-cm",
+   title: "Trampoline 2,42 cm ",
+   brand: "TPC",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 6,
+   currentPrice: 2290,
+   oldPrice: 2990,
+   discount: 30,
+   images: [
+     "trampoline-2.42-cm/trampoline-2.42-cm-01.webp",
+     "trampoline-2.42-cm/trampoline-2.42-cm-02.webp",
+      "trampoline-2.42-cm/trampoline-2.42-cm-03.webp",
+      "trampoline-2.42-cm/trampoline-2.42-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 100 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },  
+
+{
+   id: "trampoline-3.00-cm",
+   title: "Trampoline 3,00 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 9,
+   currentPrice: 2890,
+   oldPrice: 2990,
+   discount: 30,
+   images: [
+     "trampoline-3.00-cm/trampoline-3.00-cm-01.webp",
+     "trampoline-3.00-cm/trampoline-3.00-cm-02.webp",
+      "trampoline-3.00-cm/trampoline-3.00-cm-03.webp",
+      "trampoline-3.00-cm/trampoline-3.00-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 150 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },  
+  
+{
+   id: "trampoline-3.65-cm",
+   title: "Trampoline 3,65 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 2,
+   currentPrice: 3390,
+   oldPrice: 4190,
+   discount: 30,
+   images: [
+     "trampoline-3.65-cm/trampoline-3.65-cm-01.webp",
+     "trampoline-3.65-cm/trampoline-3.65-cm-02.webp",
+      "trampoline-3.65-cm/trampoline-3.65-cm-03.webp",
+      "trampoline-3.65-cm/trampoline-3.65-cm-04.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 190 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+
+{
+   id: "trampoline-4,20-cm",
+   title: "Trampoline 4,20 cm ",
+   brand: "CHICAGO ",
+   category: "ترامبولين",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 3,
+   currentPrice: 3990,
+   oldPrice: 4900,
+   discount: 30,
+   images: [
+     "trampoline-4,20-cm/trampoline-4,20-cm-01.webp",
+     "trampoline-4,20-cm/trampoline-4,20-cm-02.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-03.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-04.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-05.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-06.webp",
+      "trampoline-4,20-cm/trampoline-4,20-cm-07.webp"
+   ],
+features: [
+  {
+    title: "المميزات والفوائد",
+    icon: "fa-star",
+    items: [
+      { key: "QUALITÉ", value: "Solide et de bonne qualité" },
+      { key: "CHARGE MAXIMALE", value: "Supporte jusqu’à 210 kg" },
+      { key: "SÉCURITÉ", value: "Avec filet de sécurité et échelle" },
+      { key: "UTILISATION", value: "Pour l’intérieur et l’extérieur" },
+      { key: "MATÉRIAUX", value: "Acier inoxydable + tapis anti-UV" },
+      { key: "MONTAGE", value: "Facile à monter avec tout le nécessaire" },
+      { key: "SURVEILLANCE", value: "À utiliser sous surveillance d’un adulte" }
+    ]
+  }
+],
+
+
+   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+   
+ },
+  
+{
+   id: "drift-block-360-36V",
+   title: "Drift Scooter 360° 36V  ",
+   brand: "Scooter",
+   category: "Drift 360°",
+   availability: "متوفر في المخزون",
+   ratings: 4.5,
+   reviewCount: 2,
+   currentPrice: 2099,
+   oldPrice: 3000,
+   discount: 30,
+   images: [
+     "drift-block-360-36V/drift-block-360-36v-01.webp",
+     "drift-block-360-36V/drift-block-360-36v-02.webp",
+      "drift-block-360-36V/drift-block-360-36v-03.webp",
+      "drift-block-360-36V/drift-block-360-36v-04.webp",
+      "drift-block-360-36V/drift-block-360-36v-05.webp",
+     "drift-block-360-36V/drift-block-360-36v-06.webp",
+     "drift-block-360-36V/drift-block-360-36v-07.webp"
+   ],
+features: [
+  {
+    title: "CARACTÉRISTIQUES TECHNIQUES",
+    icon: "fa-cogs",
+    items: [
+      { key: "MOTEUR", value: "150W min - 300W MAX" },
+      { key: "BATTERIE", value: "Lithium 36V" },
+      { key: "AUTONOMIE", value: "10KM MIN - 15KM MAX" },
+      { key: "VITESSE", value: "15KM MIN - 20KM MAX" },
+      { key: "CHARGE MAX", value: "70 KG" },
+      { key: "FREINAGE", value: "Frein moteur" },
+      { key: "MODES DE CONDUITE", value: "3 vitesses" },
+      { key: "CHARGE", value: "36V" }
+    ]
+  },
+  {
+    title: "AVANTAGES & FONCTIONNALITÉS",
+    icon: "fa-star",
+    items: [
+      { key: "BLUETOOTH", value: "Oui" },
+      { key: "KLAXON", value: "Intégré" },
+      { key: "SÉCURITÉ", value: "LED avant et arrière + casque et protections offerts " },
+      { key: "DÉMARRAGE", value: "Double contact" },
+      { key: "STYLE", value: "Design Drift 360° amusant et dynamique" }
+    ]
+  }
+],
+
+
+  warranty: "Découvrez la trottinette électrique Drift 360° 36V, un choix idéal pour les enfants et les jeunes en quête de sensations fortes. Dotée d’un moteur puissant de 300W Max, d’une batterie lithium 36V et d’un système de freinage moteur sécurisé, cette trottinette offre une autonomie allant jusqu’à 15 km et une vitesse maximale de 20 km/h. Grâce à ses 3 modes de conduite, son klaxon intégré, ses feux LED avant et arrière, ainsi que sa fonction Bluetooth, elle garantit une expérience de conduite amusante, sécurisée et connectée. Offerte avec casque et protections pour une sécurité maximale. Parfaite pour les balades en toute confiance ",
+  videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F676998611711017%2F&show_text=false&width=267&t=0"
+   
+ }
+  
+
+]; 
+
+window.products = products;
+
