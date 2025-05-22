@@ -16,11 +16,6 @@
         <priority>0.8</priority>
     </url>
 	<url>
-        <loc>https://jouet-maroc.com/?product=trottinette-ecoxtrem-m4-max</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-	<url>
         <loc>https://jouet-maroc.com/?product=velo-electrique-likebike-harley-u11</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -212,6 +207,11 @@
     </url>
 	<url>
         <loc>https://jouet-maroc.com/?product=vélo-éléctrique-likebike-a10</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
+        <loc>https://jouet-maroc.com/?product=trottinette-ecoxtrem-m4-max</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
