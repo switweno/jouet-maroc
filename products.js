@@ -1,66 +1,63 @@
 const products = [
-  
   {
-   id: "trottinette-ecoxtrem-m4-max",
-   title: "TROTTINETTE ECOXTREM M4 MAX",
-   brand: "Ecoxtrem",
-   category: "تروتينات",
-   availability: "غير متوفر في المخزون",
-   ratings: 4.5,
-   reviewCount: 69,
-   currentPrice: 4690,
-   oldPrice: 6000,
-   discount: 30,
-   images: [
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-01.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-02.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-03.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-04.webp",
+    id: "trottinette-ecoxtrem-m4-max",
+    title: "TROTTINETTE ECOXTREM M4 MAX",
+    brand: "Ecoxtrem",
+    category: "تروتينات",
+    availability: "غير متوفر في المخزون",
+    ratings: 4.5,
+    reviewCount: 69,
+    currentPrice: 4690,
+    oldPrice: 6000,
+    discount: 30,
+    images: [
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-01.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-02.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-03.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-04.webp",
       "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-05.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-06.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-07.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-08.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-09.webp",
-     "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-10.webp"
-   ],
-features: [
-  {
-    title: "AVANTAGES ULTIMES",
-    icon: "fa-cogs",
-    items: [
-      { key: "MOTEUR", value: "1200W" },
-      { key: "BATTERIE", value: "48V 13AH LITHIUM" },
-      { key: "AUTONOMIE", value: "35km - 50km" },
-      { key: "VITESSE", value: "55 km/h max" },
-      { key: "CHARGE MAX", value: "120 KG" },
-      { key: "MATÉRIEL", value: "Alliage d'aluminium" },
-      { key: "FREINAGE", value: "Disque Avant & Arrière" },
-      { key: "SUSPENSION", value: "Avant & Arrière" },
-      { key: "TABLEAU", value: "Écran LCD" },
-      { key: "VITESSE", value: "3 niveaux" },
-      { key: "CHARGE", value: "54V" }
-    ]
-  },
-  {
-    title: "CARACTÉRISTIQUES",
-    icon: "fa-star",
-    items: [
-      { key: "LED", value: "Avant + Arrière" },
-      { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière" },
-      { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
-      { key: "PLIABLE", value: "OUI" },
-      { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
-      { key: "ROUES", value: "10 pouces" },
-      { key: "COFFRES", value: "Porte-bagages inclus" }
-    ]
-  }
-],
-
-warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissant 1200W, autonomie jusqu’à 50 km, vitesse max 55 km/h. Freins à disque, pneus 10 pouces, écran LCD, LED, pliable avec coffre pratique.",
-  
-   videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"
-  }, 
-  
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-06.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-07.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-08.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-09.webp",
+      "trottinette-ecoxtrem-m4-max/trottinette-ecoxtrem-m4-max-10.webp"
+    ],
+    features: [
+      {
+        title: "AVANTAGES ULTIMES",
+        icon: "fa-cogs",
+        items: [
+          { key: "MOTEUR", value: "1200W" },
+          { key: "BATTERIE", value: "48V 13AH LITHIUM" },
+          { key: "AUTONOMIE", value: "35km - 50km" },
+          { key: "VITESSE", value: "55 km/h max" },
+          { key: "CHARGE MAX", value: "120 KG" },
+          { key: "MATÉRIEL", value: "Alliage d'aluminium" },
+          { key: "FREINAGE", value: "Disque Avant & Arrière" },
+          { key: "SUSPENSION", value: "Avant & Arrière" },
+          { key: "TABLEAU", value: "Écran LCD" },
+          { key: "NIVEAUX DE VITESSE", value: "3 niveaux" },
+          { key: "CHARGE", value: "54V" }
+        ]
+      },
+      {
+        title: "CARACTÉRISTIQUES",
+        icon: "fa-star",
+        items: [
+          { key: "LED", value: "Avant + Arrière" },
+          { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière" },
+          { key: "ÉTANCHÉITÉ", value: "IP54 / IPX4" },
+          { key: "PLIABLE", value: "OUI" },
+          { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
+          { key: "ROUES", value: "10 pouces" },
+          { key: "COFFRES", value: "Porte-bagages inclus" }
+        ]
+      }
+    ],
+    warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissant 1200W, autonomie jusqu’à 50 km, vitesse max 55 km/h. Freins à disque, pneus 10 pouces, écran LCD, LED, pliable avec coffre pratique.",
+    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1901413020682610%2F&show_text=false&width=267&t=0"
+ },
+ 
     {
    id: "trottinette-Tank-m41",
    title: "TROTTINETTE Tank M41 Ultimate 2025",
@@ -83,7 +80,6 @@ warranty: "Découvrez la trottinette électrique Ecoxtrem M4 Max : moteur puissa
      "trottinette-Tank-m41/trottinette-tank-m41-08.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-09.webp",
      "trottinette-Tank-m41/trottinette-tank-m41-10.webp"
-    
    ],
 features: [
   {
@@ -113,19 +109,17 @@ features: [
       { key: "PLIABLE", value: "OUI" },
       { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
       { key: "SÉCURITÉ", value: "Frein de sécurité + Clé NFC" },
-      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone " },
       { key: "ROUES", value: "Off-road 11 pouces Tubeless" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
       { key: "COULEURS", value: "Disponible 5 couleurs" },
-      { key: "CADEAU", value: "Sac offert 🎁" }
+      { key: "CADEAU", value: "Sac offert " }
     ]
   }
 ],
 
 warranty: "Découvrez la trottinette électrique Tank M41 Ultimate 2025 de Ecoxtrem : moteur puissant (1000W à 2000W), vitesse jusqu’à 68 km/h, batterie 48V 16Ah pour 35–60 km d'autonomie. Sécurité renforcée avec freins à disque + E-ABS, suspensions avant/arrière, grandes roues Off-road 11 Tubeless, châssis aluminium, étanchéité IP54/IPX4. Tableau de bord digital LCD, LED avant/arrière, clignotants, NFC, contrôle smartphone. Supporte jusqu'à 150 kg. Sac de transport offert",
-
-
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4094664134151479%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -166,25 +160,22 @@ features: [
       { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" }
     ]
   },
+  
   {
     title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
-      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE " },
       { key: "MODES DE CONDUITE", value: "3E VITESSE" },
       { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
       { key: "CONCEPTION", value: "PLIABLE OUI + SIÈGE EN CUIR" },
       { key: "SIGNALISATION", value: "KLAXON + LUMIÈRE LED" },
-      { key: "MAÎTRISE", value: "CONTRÔLE VIA MOBILE 📱" },
+      { key: "MAÎTRISE", value: "CONTRÔLE VIA MOBILE " },
       { key: "TAILLE DES ROUES", value: "12 POUCES CHAMBRE À AIR" },
       { key: "CHARGE", value: "54V" }
     ]
   }
 ],
-    
-
-
-
     warranty: "Découvrez une trottinette électrique performante et confortable, équipée d’un moteur puissant de 500W et d’une batterie lithium 48V 10AH. Profitez d’une autonomie allant jusqu’à 35 km et d’une vitesse maximale de 34 km/h. Grâce à ses suspensions avant et arrière, ses freins à disque avec E-ABS, et son écran LCD EY2 connecté à une application mobile, vous bénéficiez d’un contrôle total et d’un confort optimal. Pliable, avec siège en cuir, klaxon intégré, éclairage LED complet et pneus 12 pouces à chambre à air – tout est pensé pour une conduite sûre, pratique et agréable au quotidien.",
 
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1029022805898770%2F&show_text=false&width=267&t=0"
@@ -238,11 +229,11 @@ features: [
       { key: "LED", value: "Avant + Arrière + Latéral" },
       { key: "SIGNAL", value: "Clignotants Gauche/Droite" },
       { key: "SÉCURITÉ", value: "Frein de sécurité + système antivol" },
-      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone 📱" },
+      { key: "CONNECTIVITÉ", value: "Contrôle via téléphone " },
       { key: "ROUES", value: "Off-road 10 pouces" },
       { key: "ÉCLAIRAGE", value: "Phare LED + Feu arrière + LED latéral" },
       { key: "FEU SIGNAL", value: "OUI" },
-      { key: "CADEAU", value: "Sac offert 🎁" }
+      { key: "CADEAU", value: "Sac offert " }
     ]
   }
 ],
@@ -293,19 +284,19 @@ features: [
     title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
-      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "AFFICHAGE", value: "ÉCRAN LCD EY2 AVEC APPLICATION MOBILE " },
       { key: "MODES DE CONDUITE", value: "3E VITESSE" },
       { key: "ÉCLAIRAGE", value: "FEU AVANT + FEU STOP À LED" },
       { key: "SIGNALISATION", value: "KLAXON + INDICATEUR DE BATTERIE" },
       { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
       { key: "CHARGE", value: "42V" },
-      { key: "VERROUILLAGE", value: "CADEAU 🎁🎁" }
+      { key: "VERROUILLAGE", value: "CADEAU " }
     ]
   }
 ],
 
 
-  warranty: "Optez pour la trottinette électrique NAVEE N20 – un parfait mélange de puissance, sécurité et confort. Dotée d’un moteur robuste de 500W, d’une batterie lithium 36V et d’une autonomie de 15 à 20 km, elle vous accompagne efficacement dans tous vos déplacements urbains. Atteignez une vitesse de 32 km/h tout en gardant un contrôle total grâce aux freins à disque arrière, système E-ABS, écran LCD EY2 avec application mobile, et klaxon intégré. Son design pliable en aluminium, ses pneus 10 pouces à chambre à air, et son éclairage LED avant/arrière garantissent une expérience de conduite fluide et sécurisée. Étanchéité IPX5, indicateur de batterie, triple vitesse, et verrouillage offert en cadeau 🎁. Commandez maintenant – livraison gratuite dans toutes les villes !",
+  warranty: "Optez pour la trottinette électrique NAVEE N20 – un parfait mélange de puissance, sécurité et confort. Dotée d’un moteur robuste de 500W, d’une batterie lithium 36V et d’une autonomie de 15 à 20 km, elle vous accompagne efficacement dans tous vos déplacements urbains. Atteignez une vitesse de 32 km/h tout en gardant un contrôle total grâce aux freins à disque arrière, système E-ABS, écran LCD EY2 avec application mobile, et klaxon intégré. Son design pliable en aluminium, ses pneus 10 pouces à chambre à air, et son éclairage LED avant/arrière garantissent une expérience de conduite fluide et sécurisée. Étanchéité IPX5, indicateur de batterie, triple vitesse, et verrouillage offert en cadeau . Commandez maintenant – livraison gratuite dans toutes les villes !",
 
 
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1025522592251852%2F&show_text=false&width=267&t=0"
@@ -358,7 +349,7 @@ features: [
       { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
       { key: "CONCEPTION", value: "PLIABLE OUI" },
       { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
-      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE 📱" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE " },
       { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
       { key: "CHARGE", value: "42V" }
     ]
@@ -417,7 +408,7 @@ features: [
       { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
       { key: "CONCEPTION", value: "PLIABLE OUI" },
       { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
-      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE 📱" },
+      { key: "MAÎTRISE", value: "DEPUIS LE TÉLÉPHONE " },
       { key: "TAILLE DES ROUES", value: "9 POUCES CHAMBRE À AIR" },
       { key: "CHARGE", value: "54V" }
     ]
@@ -528,7 +519,7 @@ features: [
       { key: "ÉTANCHÉITÉ", value: "IP54, WATERPROOF IPX4" },
       { key: "CONCEPTION", value: "PLIABLE OUI" },
       { key: "SIGNALISATION", value: "SIGNAL À GAUCHE ET À DROITE" },
-      { key: "MAÎTRISE", value: "MAÎTRISÉ DEPUIS LE TÉLÉPHONE📱" },
+      { key: "MAÎTRISE", value: "MAÎTRISÉ DEPUIS LE TÉLÉPHONE" },
       { key: "TAILLE DES ROUES", value: "10 POUCES CHAMBRE À AIR" },
       { key: "CHARGE", value: "42V" }
     ]
@@ -562,7 +553,7 @@ features: [
        "trottinette-joyor-48v/trottinette-joyor-48v-08.webp",
        "trottinette-joyor-48v/trottinette-joyor-48v-09.webp",
        "trottinette-joyor-48v/trottinette-joyor-48v-10.webp",
-       "trottinette-joyor-48v/trottinette-joyor-48v-11.webp",
+       "trottinette-joyor-48v/trottinette-joyor-48v-11.webp"
     ],
 features: [
   {
@@ -582,7 +573,7 @@ features: [
     title: "CARACTÉRISTIQUES",
     icon: "fa-star",
     items: [
-      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APPLICATION MOBILE 📱" },
+      { key: "AFFICHAGE", value: "DISPLAY EY2 AVEC APPLICATION MOBILE " },
       { key: "MODES DE CONDUITE", value: "3 VITESSES" },
       { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
       { key: "ÉTANCHÉITÉ", value: "IPX5" },
@@ -637,15 +628,15 @@ features: [
         title: "CARACTÉRISTIQUES",
         icon: "fa-star",
         items: [
-          { key: "AFFICHAGE", value: "DISPLAY EY2 (APPLICATION MOBILE) 📱" },
+          { key: "AFFICHAGE", value: "DISPLAY EY2 (APPLICATION MOBILE) " },
           { key: "SUSPENSION", value: "AV/AR RÉGLABLES" },
           { key: "ÉCLAIRAGE", value: "LED AV/AR + إشارات" },
           { key: "ÉTANCHÉITÉ", value: "IPX5" },
           { key: "CONCEPTION", value: "PLIABLE" },
           { key: "KLAXON", value: "OUI" },
-          { key: "CADEAU 1", value: "SAC 🎁" },
-          { key: "CADEAU 2", value: "Chambre à air 🎁" },
-          { key: "CADEAU 3", value: "VERROUILLAGE 🎁" }
+          { key: "CADEAU 1", value: "SAC " },
+          { key: "CADEAU 2", value: "Chambre à air " },
+          { key: "CADEAU 3", value: "VERROUILLAGE " }
         ]
       }
     ],
@@ -700,7 +691,7 @@ features: [
           { key: "FEU STOP", value: "LED" },
           { key: "FEU AVANT", value: "LED" },
           { key: "ÉTANCHÉITÉ", value: "IPX5" },
-          { key: "AFFICHAGE", value: "LCD AVEC APP MOBILE 📱" },
+          { key: "AFFICHAGE", value: "LCD AVEC APP MOBILE " },
           { key: "PNEUS", value: "8,5 POUCES" },
           { key: "CONCEPTION", value: "PLIABLE" },
           { key: "INDICATEUR", value: "BATTERIE" },
@@ -755,7 +746,7 @@ features: [
           { key: "PNEUS", value: "OFF-ROAD 8.5\" RENFORCÉS" },
           { key: "CONCEPTION", value: "PLIABLE AVEC SIÈGE EN CUIR" },
           { key: "INDICATEUR", value: "INDICATEUR DE BATTERIE + CLIGNOTANTS" },
-          { key: "CADEAU", value: "🎁 SURPRISE OFFERTE !" }
+          { key: "CADEAU", value: " SURPRISE OFFERTE !" }
         ]
       }
     ],
@@ -1098,7 +1089,7 @@ features: [
       { key: "SIGNAL", value: "CLIGNOTANTS GAUCHE/DROITE" },
       { key: "KLAXON", value: "OUI" },
       { key: "PLIABLE", value: "OUI" },
-      { key: "CADEAU", value: "SAC OFFERT 🎁" }
+      { key: "CADEAU", value: "SAC OFFERT " }
     ]
   }
 ],
@@ -1147,8 +1138,6 @@ features: [
 ],
 
    
-   
-  
   warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1739254930185000%2F&show_text=false&width=267&t=0"
   }, 
@@ -1374,7 +1363,7 @@ features: [
 ],
 
 
-    warranty: "VÉLO VTT GALACTUS 20 pouces – Parfait pour les jeunes aventuriers ! Équipé d’un dérailleur Shimano 3×7, freins à disque, double amortisseur (avant et arrière) pour un confort et une sécurité optimaux. Selle sport en cuir, design robuste, idéal pour la ville et les sentiers. Couleurs disponibles : Vert, Gris. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "VÉLO VTT GALACTUS 20 pouces – Parfait pour les jeunes aventuriers ! Équipé d’un dérailleur Shimano 3×7, freins à disque, double amortisseur (avant et arrière) pour un confort et une sécurité optimaux. Selle sport en cuir, design robuste, idéal pour la ville et les sentiers. Couleurs disponibles : Vert, Gris.  Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F592498879913816%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -1424,7 +1413,7 @@ features: [
 ],
 
 
-    warranty: "Vélo VTT Sport Bike 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Bleu, Vert, Gris, Rouge. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "Vélo VTT Sport Bike 27.5 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Bleu, Vert, Gris, Rouge.  Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F591581090008506%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -1472,7 +1461,7 @@ features: [
 ],
 
 
-    warranty: "Vélo VTT Sport Bike 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Orange, Gris, Rouge, Bleu. 🚚 Livraison gratuite partout au Maroc.",
+    warranty: "Vélo VTT Sport Bike 26 pouces, conçu pour les passionnés de qualité et de performance, son changement de vitesse Shimano 3×7, son amortisseur avant et ses freins à disque, il est prêt pour la ville comme pour les sentiers. Siège sport en cuir, garde-boues avant/arrière, et design robuste pour un confort et une sécurité optimaux. Couleurs disponibles : Orange, Gris, Rouge, Bleu.  Livraison gratuite partout au Maroc.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F932129538899048%2F&show_text=false&width=267&t=0"
   }, 
   
@@ -1510,7 +1499,7 @@ features: [
       { key: "ROUE MATÉRIAU", value: "ALUMINIUM" },
       { key: "CHANGEMENT", value: "SHIMANO" },
       { key: "VITESSE", value: "VITESSE 3×7=21" },
-      { key: "PLATEAU", value: "SHIMANO ‏" },
+      { key: "PLATEAU", value: "SHIMANO" },
       { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
       { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
       { key: "GARDES-BOUES", value: "AV ET AR" },
@@ -1597,7 +1586,7 @@ features: [
       { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
       { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
       { key: "VITESSE", value: "VITESSE 3×7=21" },
-      { key: "PLATEAU", value: "PLATEAU SIMLICHT‏" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT" },
       { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
       { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
       { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
@@ -1640,7 +1629,7 @@ features: [
       { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
       { key: "CHANGEMENT", value: "CHANGEMENT SIMLICHT" },
       { key: "VITESSE", value: "VITESSE 3×7=21" },
-      { key: "PLATEAU", value: "PLATEAU SIMLICHT‏" },
+      { key: "PLATEAU", value: "PLATEAU SIMLICHT" },
       { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
       { key: "SIÈGE", value: "SIÈGE SPORT CUIR" },
       { key: "FREINS", value: "FREINS À DISQUE AVANT ET ARRIÈRE" }
@@ -1941,7 +1930,7 @@ features: [
           { key: "ROUES MATÉRIAU", value: "ROUE DE VÉLO ALUMINIUM" },
           { key: "CHANGEMENT", value: "CHANGEMENT SUNRISE" },
           { key: "VITESSE", value: "VITESSE 3×7=21" },
-          { key: "PLATEAU", value: "PLATEAU SUNRISE‏" }
+          { key: "PLATEAU", value: "PLATEAU SUNRISE" }
         ]
       },
       {
@@ -2027,7 +2016,7 @@ features: [
      "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-03.webp",
      "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-04.webp",
      "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-05.webp",
-     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-06.webp",
+     "VÉLO-MADAME-HADMENG-26/velo-madame-hadmeng-26-06.webp"
     ],
       
     features: [
@@ -2052,7 +2041,7 @@ features: [
             { key: "FEU STOP ARRIÈRE", value: "INCLUS" },
             { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
             { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
-            { key: "VERROUILLAGE", value: "DE VÉLO cadeau 🎁🎁" }
+            { key: "VERROUILLAGE", value: "DE VÉLO cadeau " }
         ]
     }
 ],
@@ -2111,7 +2100,7 @@ features: [
             { key: "LED", value: "AVANT ET ARRIÈRE" },
             { key: "PANIER", value: "GRAND PANIER DE VÉLO" },
             { key: "FREINAGE", value: "AVANT ET ARRIÈRE" },
-            { key: "VERROUILLAGE", value: "OFFERT AVEC LE VÉLO 🎁" }
+            { key: "VERROUILLAGE", value: "OFFERT AVEC LE VÉLO" }
         ]
     }
 ],
@@ -2186,33 +2175,33 @@ features: [
     oldPrice: 1899,
     discount: 30,
     images: [
-      "vtt_27/vtt_27_07.webp",
-      "vtt_27/vtt_27_06.webp",
-      "vtt_27/vtt_27_03.webp",
-      "vtt_27/vtt_27_04.webp",
-      "vtt_27/vtt_27_05.webp",
-      "vtt_27/vtt_27_02.webp",
-      "vtt_27/vtt_27_01.webp"
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp",
+      "velo-vtt-haomeng/velo-vtt-haomeng-27.5-01.webp"
     ],
     features: [
-      {
-        title: "AVANTAGES AVANCÉS",
-        icon: "fa-cogs",
-        items: [
-          { key: "ROUES", value: "26 POUCES" },
-          { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
-          { key: "QUALITÉ", value: "HAOMENG" },
-          { key: "FREINS", value: "DISQUES AVANT ET ARRIÈRE" },
-          { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
-          { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
-          { key: "CHANGEMENT DE VITESSE", value: "SUNRISE" },
-          { key: "VITESSE", value: "3×7 = 21 VITESSES" },
-          { key: "PLATEAU", value: "SUNRISE" }
-        ]
-      },
-     
-    ],
-    warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez au Maroc. Ne ratez pas cette opportunité, passez votre commande dès maintenant et profitez du shopping depuis chez vous.",
+  {
+    title: "AVANTAGES AVANCÉS",
+    icon: "fa-cogs",
+    items: [
+      { key: "ROUES", value: "27.5 POUCES" },
+      { key: "ROUE DE VÉLO", value: "ALUMINIUM" },
+      { key: "QUALITÉ", value: "HAOMENG" },
+      { key: "FREINS", value: "FREIN À DISQUE AVANT ET ARRIÈRE" },
+      { key: "AMORTISSEUR", value: "AMORTISSEUR AVANT" },
+      { key: "SIÈGE", value: "SIÈGE SPORT EN CUIR" },
+      { key: "CHANGEMENT DE VITESSE", value: "LXYANG" },
+      { key: "VITESSE", value: "3×7 = 21 VITESSES" },
+      { key: "PLATEAU", value: "LXYANG" }
+    ]
+  }
+],
+
+    warranty: "Commandez dès maintenant votre VTT HAOMENG 27.5 pouces et profitez d'une livraison gratuite partout au Maroc ! Bénéficiez d'un vélo de haute qualité avec des composants robustes en aluminium, freins à disque avant et arrière, et une transmission 21 vitesses LXYANG pour une expérience de conduite optimale. Notre service de livraison sécurisé vous garantit de recevoir votre produit rapidement et en toute sécurité, où que vous soyez au Maroc. Ne manquez pas cette occasion unique d'acquérir un vélo performant et confortable – achetez en ligne dès aujourd'hui !",
     videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1370533550961892%2F&show_text=false&width=267&t=0"
   },
   
@@ -2937,8 +2926,8 @@ features: [
             { key: "SIÈGE", value: "CUIR" },
             { key: "SUSPENSION", value: "AVANT ET ARRIÈRE" },
             { key: "LED", value: "AMBIANCE" },
-            { key: "KLAXON", value: "ÉLECTRIQUE" },
-            { key: "COLOR", value: "🔴🔵" }
+            { key: "KLAXON", value: "ÉLECTRIQUE" }
+            
       ]
     }
   ],
@@ -2993,7 +2982,7 @@ features: [
   }
 ],
 
-warranty: "✔ Moto électrique Vespa 6V 🛵 pour enfants – Équipée de 2 moteurs, batterie 6V, 1 place, démarrage par bouton, amortisseurs, lumières LED avant et arrière, musique via USB/câble. Âge recommandé : 1 à 5 ans. Livraison gratuite partout au Maroc. 🇲🇦",
+warranty: "Moto électrique Vespa 6V pour enfants – Équipée de 2 moteurs, batterie 6V, 1 place, démarrage par bouton, amortisseurs, lumières LED avant et arrière, musique via USB/câble. Âge recommandé : 1 à 5 ans. Livraison gratuite partout au Maroc. 🇲🇦",
 
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1096480852503818%2F&show_text=false&width=267&t=0"
@@ -3039,7 +3028,7 @@ features: [
   }
 ],
 
-warranty: "Moto Vespa 2025 ⚡ Fonctionne avec une batterie 12V et deux moteurs puissants pour une conduite fluide. Conçue avec un siège 1 place, éclairage LED avant et arrière, démarrage par bouton, amortisseurs, musique intégrée via USB ou câble auxiliaire. Convient aux enfants de 1 à 6 ans. 📦 Livraison gratuite partout au Maroc.",
+warranty: "Moto Vespa 2025 Fonctionne avec une batterie 12V et deux moteurs puissants pour une conduite fluide. Conçue avec un siège 1 place, éclairage LED avant et arrière, démarrage par bouton, amortisseurs, musique intégrée via USB ou câble auxiliaire. Convient aux enfants de 1 à 6 ans. Livraison gratuite partout au Maroc.",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F678983161534606%2F&show_text=false&width=267&t=0"
  },
@@ -3089,14 +3078,14 @@ features: [
   }
 ],
 
-warranty: "Motor Erwan 2025 ⚡ Équipée d’une batterie 12V et 2 moteurs puissants, cette moto garantit une expérience fun et sécurisée. Son design 2 places, ses LED avant/arrière, la connexion Bluetooth, la *musique intégrée via USB ou câble, et son démarrage manuel en font le choix parfait pour les enfants de 3 à 11 ans. Disponibles en couleurs : Rouge, Gris, Vert, Violet. 📦 Livraison gratuite dans toutes les villes du Maroc ",
+warranty: "Motor Erwan 2025 Équipée d’une batterie 12V et 2 moteurs puissants, cette moto garantit une expérience fun et sécurisée. Son design 2 places, ses LED avant/arrière, la connexion Bluetooth, la *musique intégrée via USB ou câble, et son démarrage manuel en font le choix parfait pour les enfants de 3 à 11 ans. Disponibles en couleurs : Rouge, Gris, Vert, Violet. Livraison gratuite dans toutes les villes du Maroc ",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1144750974004125%2F&show_text=false&width=267&t=0"
  },
   
    {
    id: "moteur-police-12V-2",
-   title: "Moteur Police 12V 👮🏼",
+   title: "Moteur Police 12V",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
@@ -3142,7 +3131,7 @@ features: [
   }
 ],
 
-warranty: "✅ Moteur Police 12V 👮🏼 — Équipé d'une *batterie 12V, 2 grands moteurs, et démarrage par contact. Il offre un design 2 places, des lumières LED avant/arrière, et des fonctions spéciales comme Bluetooth*, musique de police, lumières de police, et musique via USB ou câble auxiliaire. Convient aux enfants de 3 à 11 ans. Couleurs disponibles : Blanc, Rouge. 📦 Livraison gratuite dans toutes les villes du Maroc",
+warranty: "Moteur Police 12V — Équipé d'une *batterie 12V, 2 grands moteurs, et démarrage par contact. Il offre un design 2 places, des lumières LED avant/arrière, et des fonctions spéciales comme Bluetooth*, musique de police, lumières de police, et musique via USB ou câble auxiliaire. Convient aux enfants de 3 à 11 ans. Couleurs disponibles : Blanc, Rouge. Livraison gratuite dans toutes les villes du Maroc",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3572199963089174%2F&show_text=false&width=267&t=0"
  },
@@ -3251,7 +3240,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via téléphone 📲" },
+      { key: "TÉLÉPHONE", value: "Contrôle via téléphone" },
       { key: "TÉLÉCOMMANDE", value: "Manuelle" }
     ]
   }
@@ -3304,7 +3293,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
       { key: "TÉLÉCOMMANDE", value: "Manuelle" }
     ]
   }
@@ -3333,7 +3322,7 @@ features: [
      "voiture-jeop-4x4/voiture-jeop-4x4-04.webp",
      "voiture-jeop-4x4/voiture-jeop-4x4-05.webp",
     "voiture-jeop-4x4/voiture-jeop-4x4-06.webp",
-     "voiture-jeop-4x4/voiture-jeop-4x4-07.webp",
+     "voiture-jeop-4x4/voiture-jeop-4x4-07.webp"
      
    ],
     
@@ -3360,7 +3349,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
       { key: "TÉLÉCOMMANDE", value: "Manuelle" }
     ]
   }
@@ -3421,7 +3410,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" }
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" }
     ]
   }
 ],
@@ -3480,7 +3469,7 @@ features: [
   }
 ],
 
-warranty:"✔ Moto électrique Moteur Erwan 2025 🏍️ – Une expérience unique pour vos enfants ! Avec sa batterie 12V, ses 2 moteurs puissants, un siège cuir confortable, un éclairage LED complet, démarrage par clé, Bluetooth, musique via USB ou câble, et 3 vitesses au choix – tout est pensé pour la sécurité et le fun des enfants de 1 à 6 ans. 🚚 Livraison gratuite dans toutes les villes du Maroc. ✅ Couleurs disponibles : 🔴 Rouge, 🌸 Rose",
+warranty:"Moto électrique Moteur Erwan 2025 – Une expérience unique pour vos enfants ! Avec sa batterie 12V, ses 2 moteurs puissants, un siège cuir confortable, un éclairage LED complet, démarrage par clé, Bluetooth, musique via USB ou câble, et 3 vitesses au choix – tout est pensé pour la sécurité et le fun des enfants de 1 à 6 ans. Livraison gratuite dans toutes les villes du Maroc. Couleurs disponibles :Rouge,Rose",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F4136022943287344%2F&show_text=false&width=267&t=0"
  },
@@ -3531,7 +3520,7 @@ features: [
   }
 ],
 
-warranty: "✔ Voiture électrique Mini Jeep Police 🚓 pour enfants – Équipée de 3 moteurs puissants, une batterie 12V, deux mini-places avec ceintures de sécurité, fonction balançoire, éclairage LED avant, musique via USB/câble, et 3 vitesses réglables. Âge : 1 à 5 ans. 🎨 Couleur : Noir. 🚚 Livraison gratuite partout au Maroc.",
+warranty: "Voiture électrique Mini Jeep Police pour enfants – Équipée de 3 moteurs puissants, une batterie 12V, deux mini-places avec ceintures de sécurité, fonction balançoire, éclairage LED avant, musique via USB/câble, et 3 vitesses réglables. Âge : 1 à 5 ans. Couleur : Noir.  Livraison gratuite partout au Maroc.",
 
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F3122993281182692%2F&show_text=false&width=267&t=0"
  },
@@ -3579,7 +3568,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone" },
       { key: "TÉLÉCOMMANDE", value: "Manuelle" }
     ]
   }
@@ -3635,7 +3624,7 @@ features: [
       { key: "MUSIQUE", value: "USB, câble auxiliaire" },
       { key: "BLUETOOTH", value: "Oui" },
       { key: "VITESSE", value: "3ème vitesse" },
-      { key: "TÉLÉPHONE", value: "Contrôle via smartphone 📱" },
+      { key: "TÉLÉPHONE", value: "Contrôle via smartphone " },
       { key: "TÉLÉCOMMANDE", value: "Manuelle" }
     ]
   }
@@ -3692,7 +3681,7 @@ warranty: "La mini Jeep électrique pour enfants est le cadeau parfait pour les 
       ]
     }
   ],
-  warranty: "✔ Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez. Ne ratez pas cette opportunité 🛒, commandez maintenant et profitez du shopping à domicile 💥.",
+  warranty: "Livraison gratuite dans toutes les villes du Maroc. Recevez nos produits facilement et en toute sécurité, où que vous soyez. Ne ratez pas cette opportunité, commandez maintenant et profitez du shopping à domicile.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F1217779936614662%2F&show_text=false&width=267&t=0"
  },
   
@@ -3833,7 +3822,6 @@ features: [
       { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
       { "key": "Balançoire", "value": "OUI" },
       { "key": "ÂGE", "value": "1 - 6 ANS" },
-      { "key": "COULEUR", "value": "⚪🔴" },
       { "key": "AMORTISSEURS", "value": "OUI" },
       { "key": "VITESSE", "value": "3 VITESSES" }
     ]
@@ -3844,7 +3832,7 @@ features: [
     "items": [
       { "key": "MUSIQUE", "value": "USB, CÂBLE AUXILIAIRE" },
       { "key": "BLUETOOTH", "value": "INTÉGRÉ" },
-      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE 📲" }
+      { "key": "TÉLÉCOMMANDE", "value": "MANUELLE + CONTRÔLE PAR TÉLÉPHONE" }
     ]
   }
 ],
@@ -3887,7 +3875,6 @@ features: [
       { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
       { "key": "Balançoire", "value": "OUI" },
       { "key": "ÂGE", "value": "1 - 6 ANS" },
-      { "key": "COULEUR", "value": "⚪🔴" },
       { "key": "AMORTISSEURS", "value": "OUI" },
       { "key": "VITESSE", "value": "3 VITESSES" }
     ]
@@ -3909,7 +3896,7 @@ warranty: "Voiture Maserati sport pour enfants. Offrez à votre enfant une expé
   
    {
    id: "moteur-police-12v",
-   title: " Moteur Police 12V 👮🏼",
+   title: " Moteur Police 12Volts ",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
@@ -3942,8 +3929,8 @@ features: [
       { "key": "MOTEUR", "value": "2 GRANDS MOTEURS" },
       { "key": "ÉCLAIRAGE", "value": "LED AVANT & ARRIÈRE" },
       { "key": "LUMIÈRE", "value": "DE LA POLICE" },
-      { "key": "ÂGE", "value": "3 - 11 ANS" },
-      { "key": "COULEUR", "value": "⚪" }
+      { "key": "ÂGE", "value": "3 - 11 ANS" }
+      
     ]
   },
   
@@ -4073,7 +4060,7 @@ features: [
   
 {
    id: "voiture-range-rover-police",
-   title: "Voiture Range Rover police 👮🏼",
+   title: "Voiture Range Rover police",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
@@ -4279,7 +4266,7 @@ features: [
     ]
   }
 ],
-   warranty: "سيارة BMW 4x4 2025 للأطفال ماشي غير لعبة، هادي تجربة قيادة بحال الكبار. كتحمس، كتشد العين وكتخلي الطفل يعيش لحظات المتعة والفخر. راكب فيها الصغير؟ حاس براسو ملك الطريق. جربها وشوف الفرحة فعيون ولدك.",
+   warranty: "La voiture BMW 4x4 2025 pour enfants n'est pas un simple jouet, c’est une véritable expérience de conduite comme les grands. Elle attire tous les regards, excite les sens, et fait vivre à l’enfant des moments de joie et de fierté. Quand votre petit la conduit, il se sent comme le roi de la route. Offrez-lui ce plaisir et voyez l’étincelle dans ses yeux.",
    videoURL: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F590982623819268%2F&show_text=false&width=267&t=0"
  },
   
@@ -4343,7 +4330,7 @@ features: [
   
 {
    id: "voiture-mercedes-police",
-   title: "Voiture Mercedes police 👮",
+   title: "Voiture Mercedes police",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
    availability: "متوفر في المخزون",
@@ -4529,7 +4516,7 @@ features: [
     { "key": "BATTERIE", "value": "BATTERIE 12V" },
     { "key": "TÉLÉCOMMANDE", "value": "TÉLÉCOMMANDE MANUEL" },
     { "key": "BLUETOOTH", "value": "BLUETOOTH" },
-    { "key": "TÉLÉPHONE", "value": "MAÎTRISÉ DEPUIS LE TÉLÉPHONE 📲" },
+    { "key": "TÉLÉPHONE", "value": "MAÎTRISÉ DEPUIS LE TÉLÉPHONE" },
     { "key": "CHARGEUR", "value": "CHARGEUR 12 VOLTS" },
     { "key": "PLACES", "value": "2 PLACES MINI" }
   ]
@@ -4810,7 +4797,7 @@ features: [
       { key: "ÉCLAIRAGE", value: "LED AVANT ET ARRIÈRE" },
       { key: "MUSIQUE", value: "BLUETOOTH, USB, CÂBLE AUX" },
       { key: "SONS", value: "EFFETS SONORES IMMERSIFS" },
-      { key: "GUIDE", value: "MANUEL INCLUS 🎁" }
+      { key: "GUIDE", value: "MANUEL INCLUS " }
     ]
   }
 ],
@@ -4839,7 +4826,7 @@ features: [
     "siège-auto-mastela/siège-auto-mastela-06.webp",
     "siège-auto-mastela/siège-auto-mastela-07.webp",
     "siège-auto-mastela/siège-auto-mastela-08.webp",
-    "siège-auto-mastela/siège-auto-mastela-09.webp",
+    "siège-auto-mastela/siège-auto-mastela-09.webp"
    ],
 features: [
   {
@@ -5443,7 +5430,7 @@ features: [
     items: [
       { key: "BLUETOOTH", value: "Oui" },
       { key: "KLAXON", value: "Intégré" },
-      { key: "SÉCURITÉ", value: "LED avant et arrière + casque et protections offerts 🎁" },
+      { key: "SÉCURITÉ", value: "LED avant et arrière + casque et protections offerts " },
       { key: "DÉMARRAGE", value: "Double contact" },
       { key: "STYLE", value: "Design Drift 360° amusant et dynamique" }
     ]
