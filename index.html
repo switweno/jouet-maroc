@@ -123,19 +123,7 @@
 
   setTimeout(loadGTM, 5000);
 </script>
-  <!-- Canonical Dynamic -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var params = new URLSearchParams(window.location.search);
-      var product = params.get("product");
-      if (product) {
-        var canonicalLink = document.createElement("link");
-        canonicalLink.rel = "canonical";
-        canonicalLink.href = "https://jouet-maroc.com/?product=" + product;
-        document.head.appendChild(canonicalLink);
-      }
-    });
-  </script>
+
 </head>
 
 <body>
