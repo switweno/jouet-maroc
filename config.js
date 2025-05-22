@@ -1,3 +1,63 @@
+function updateProductMeta(product) {
+  const baseUrl = 'https://jouet-maroc.com/'; // عدل حسب موقعك
+  const imageUrl = (product.images && product.images.length > 0) ? baseUrl + product.images[0] : baseUrl + 'default-image.webp';
+
+  // تحديث العنوان
+  document.title = product.title + " | Jouet Maroc";
+
+  // تحديث الوصف - يمكنك تعديل الوصف حسب الحاجة
+  const descriptionContent = product.warranty || "عروض Jouet Maroc لأفضل التروتينات والدراجات الكهربائية.";
+
+  updateMetaTag('meta[name="description"]', 'content', descriptionContent);
+
+  // تحديث og:title و og:description و og:image
+  updateMetaTag('meta[property="og:title"]', 'content', product.title + " | Jouet Maroc");
+  updateMetaTag('meta[property="og:description"]', 'content', descriptionContent);
+  updateMetaTag('meta[property="og:image"]', 'content', imageUrl);
+
+  // تحديث twitter:title و twitter:description و twitter:image
+  updateMetaTag('meta[name="twitter:title"]', 'content', product.title + " | Jouet Maroc");
+  updateMetaTag('meta[name="twitter:description"]', 'content', descriptionContent);
+  updateMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
+}
+function loadProductFromURL() {
+  try {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    let productId = urlParams.get('product');
+    
+    if (!productId) {
+      productId = "trottinette-Tank-m41"; // منتج افتراضي
+    }
+    
+    const product = products.find(p => p.id === productId);
+    const productData = product || products[0]; 
+    
+    if (!productData) {
+      console.error("No product data available");
+      return;
+    }
+    
+    updateProductMeta(productData);
+    
+    cleanupEventHandlers();
+    updateProductDisplay(productData);
+    updateRelatedProducts();
+    
+    setTimeout(() => {
+      setupAccordion();
+      setupThumbnailScrolling();
+      setupProductLinks();
+    }, 50);
+  } catch (error) {
+    console.error("Error loading product:", error);
+  }
+}
+
+
 const CATEGORIES_CONFIG = {
     'electric-bikes': {
         id: 'electric-bikes',
