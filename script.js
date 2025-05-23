@@ -554,15 +554,6 @@ function updateMetaTag(selector, attrName, value) {
   }
 }
 
-(function(){
-  var _0xabc1 = ['\x6A\x6F\x75\x65\x74\x2D\x6D\x61\x72\x6F\x63\x2E\x63\x6F\x6D', '* { display: none !important; }'];
-  if(location.hostname !== _0xabc1[0]){
-    var s = document.createElement('style');
-    s.innerHTML = _0xabc1[1];
-    document.head.appendChild(s);
-    setTimeout(function(){ window.stop(); }, 500);
-  }
-})();
 
 
 
@@ -1595,6 +1586,27 @@ function toggleAnswer(button) {
     symbol.textContent = answer.classList.contains("show") ? "-" : "+"; // تغيير الرمز بين - و +
 }
    
+
+
+
+function isSafeToShowPopup() {
+  const modalsToCheck = [
+    document.getElementById('sidebar-menu'),
+    document.getElementById('order-form-modal'),
+    document.getElementById('confirmation-modal'),
+    document.getElementById('about')
+  ];
+
+  let unsafe = modalsToCheck.some(modal => {
+    if (modal) {
+      console.log(modal.id, window.getComputedStyle(modal).display);
+      return window.getComputedStyle(modal).display !== 'none';
+    }
+    return false;
+  });
+
+  return !unsafe;
+}
 
 
 
