@@ -29,18 +29,6 @@
   <title>Jouet Maroc | عروض خاصة</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-
-  <!-- Schema WebSite -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Jouet Maroc",
-    "url": "https://jouet-maroc.com"
-  }
-  </script>
-
-
   <!-- Canonical Update -->
   <script>
     function updateCanonical() {
@@ -77,7 +65,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" media="print" onload="this.media='all'">
 
   <!-- Preload Main Image -->
-  <link rel="preload" as="image" href="trottinette-Tank-m41/trottinette-tank-m41-01.webp">
+  <link rel="preload" as="image" href="trottinette-Tank-m41/trottinette-tank-m41-01.webp" type="image/webp" imagesizes="600px" imagesrcset="trottinette-Tank-m41/trottinette-tank-m41-01.webp 600w">
 
   <!-- Analytics Scripts -->
   <script>
@@ -135,6 +123,13 @@
 
     setTimeout(loadGTM, 5000);
   </script>
+
+  <style>
+  /* CSS minimal nécessaire pour afficher correctement la partie العليا de la page */
+  .main-image {position: relative; margin: 0 auto; overflow: hidden;}
+  #current-image {max-width: 100%; height: auto; display: block; margin: 0 auto;}
+  /* Ajoutez uniquement les styles critiques pour le haut de page */
+</style>
 </head>
 
 
