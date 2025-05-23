@@ -1,21 +1,24 @@
 function updateProductMeta(product) {
-  const baseUrl = 'https://jouet-maroc.com/'; // عدل حسب موقعك
+  const baseUrl = 'https://jouet-maroc.com/';
+  const productUrl = `${baseUrl}?product=${product.id}`;
   const imageUrl = (product.images && product.images.length > 0) ? baseUrl + product.images[0] : baseUrl + 'default-image.webp';
 
   // تحديث العنوان
   document.title = product.title + " | Jouet Maroc";
 
-  // تحديث الوصف - يمكنك تعديل الوصف حسب الحاجة
-  const descriptionContent = product.warranty || "عروض Jouet Maroc لأفضل التروتينات والدراجات الكهربائية.";
+  // تحديث الوصف - استخدام وصف المنتج بدلاً من الضمان
+  const descriptionContent = product.description || product.warranty || "عروض Jouet Maroc لأفضل التروتينات والدراجات الكهربائية.";
 
   updateMetaTag('meta[name="description"]', 'content', descriptionContent);
-
-  // تحديث og:title و og:description و og:image
+  
+  // تحديث علامات Open Graph مع إضافة النوع والرابط
   updateMetaTag('meta[property="og:title"]', 'content', product.title + " | Jouet Maroc");
   updateMetaTag('meta[property="og:description"]', 'content', descriptionContent);
   updateMetaTag('meta[property="og:image"]', 'content', imageUrl);
+  updateMetaTag('meta[property="og:type"]', 'content', 'product');
+  updateMetaTag('meta[property="og:url"]', 'content', productUrl);
 
-  // تحديث twitter:title و twitter:description و twitter:image
+  // تحديث علامات Twitter
   updateMetaTag('meta[name="twitter:title"]', 'content', product.title + " | Jouet Maroc");
   updateMetaTag('meta[name="twitter:description"]', 'content', descriptionContent);
   updateMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
