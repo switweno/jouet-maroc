@@ -3,13 +3,18 @@ function updateProductMeta(product) {
   const productUrl = `${baseUrl}?product=${product.id}`;
   const imageUrl = (product.images && product.images.length > 0) ? baseUrl + product.images[0] : baseUrl + 'default-image.webp';
 
-  // تحديث العنوان
-  document.title = product.title + " | Jouet Maroc";
+  // تحديث العنوان - مع إضافة اسم المتجر بأسلوب ثابت
+  document.title = `${product.title} | Jouet Maroc - متجر ألعاب المغرب`;
 
-  // تحديث الوصف - استخدام وصف المنتج بدلاً من الضمان
-  const descriptionContent = product.description || product.warranty || "عروض Jouet Maroc لأفضل التروتينات والدراجات الكهربائية.";
+  // تحديث الوصف - استخدام وصف المنتج بدلاً من الضمان مع تحسينه
+  const descriptionContent = product.description || 
+    `${product.title} - ${product.brand}. ${product.warranty || ""} تسوق الآن من Jouet Maroc بأفضل سعر ${product.currentPrice} درهم.`;
 
   updateMetaTag('meta[name="description"]', 'content', descriptionContent);
+  
+  // تحديث الكلمات المفتاحية
+  const keywordsContent = `${product.title}, ${product.brand}, ${product.category}, ألعاب، تسوق، المغرب، خصم`;
+  updateMetaTag('meta[name="keywords"]', 'content', keywordsContent);
   
   // تحديث علامات Open Graph مع إضافة النوع والرابط
   updateMetaTag('meta[property="og:title"]', 'content', product.title + " | Jouet Maroc");
@@ -17,12 +22,76 @@ function updateProductMeta(product) {
   updateMetaTag('meta[property="og:image"]', 'content', imageUrl);
   updateMetaTag('meta[property="og:type"]', 'content', 'product');
   updateMetaTag('meta[property="og:url"]', 'content', productUrl);
-
+  updateMetaTag('meta[property="og:site_name"]', 'content', 'Jouet Maroc');
+  
   // تحديث علامات Twitter
   updateMetaTag('meta[name="twitter:title"]', 'content', product.title + " | Jouet Maroc");
   updateMetaTag('meta[name="twitter:description"]', 'content', descriptionContent);
   updateMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
+  
+  // تحديث الرابط المرجعي (canonical)
+  updateCanonicalLink(productUrl);
+  
+  // إضافة بيانات منظمة Schema.org للمنتج (JSON-LD)
+  addProductStructuredData(product, productUrl, imageUrl);
 }
+
+// دالة لتحديث الرابط المرجعي
+function updateCanonicalLink(url) {
+  let canonicalLink = document.querySelector("link[rel='canonical']");
+  if (!canonicalLink) {
+    canonicalLink = document.createElement('link');
+    canonicalLink.setAttribute('rel', 'canonical');
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.setAttribute('href', url);
+}
+
+// دالة لإضافة بيانات منظمة للمنتج
+function addProductStructuredData(product, productUrl, imageUrl) {
+  // إزالة أي بيانات منظمة سابقة
+  const existingScript = document.querySelector('script[type="application/ld+json"]');
+  if (existingScript) {
+    existingScript.remove();
+  }
+  
+  // إنشاء بيانات منظمة جديدة
+  const structuredData = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": product.title,
+    "image": imageUrl,
+    "description": product.description || product.warranty || "",
+    "brand": {
+      "@type": "Brand",
+      "name": product.brand
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": productUrl,
+      "priceCurrency": "MAD",
+      "price": product.currentPrice,
+      "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
+      "availability": product.availability === "متوفر في المخزون" ? "https://schema.org/InStock" : "https://schema.org/OutOfStock"
+    }
+  };
+  
+  // إذا كان هناك تقييمات، أضفها إلى البيانات المنظمة
+  if (product.ratings && product.reviewCount) {
+    structuredData.aggregateRating = {
+      "@type": "AggregateRating",
+      "ratingValue": product.ratings,
+      "reviewCount": product.reviewCount
+    };
+  }
+  
+  // إضافة البيانات المنظمة إلى الصفحة
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.text = JSON.stringify(structuredData);
+  document.head.appendChild(script);
+}
+
 function loadProductFromURL() {
   try {
     window.scrollTo(0, 0);
