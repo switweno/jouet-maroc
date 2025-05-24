@@ -81,6 +81,11 @@
         <priority>0.8</priority>
     </url>
 	<url>
+        <loc>https://jouet-maroc.com/?product=velo-electrique-likebike-shine-s</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+	<url>
         <loc>https://jouet-maroc.com/?product=VÉLO-BMX-GTR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
