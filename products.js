@@ -1312,7 +1312,7 @@ features: [
       { key: "SIÈGE", value: "SPORT EN CUIR" },
       { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
       { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
-      { key: "COULEURS DISPONIBLES", value: "Vert, Gris" }
+      { key: "COULEURS DISPONIBLES", value: "Gris" }
     ]
   }
 ],
@@ -1953,7 +1953,7 @@ features: [
     title: " VÉLO VTT YOUMEIG 20",
     brand: "YOUMEIG",
     category: "دراجات هوائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 26,
     currentPrice: 990,
@@ -3038,7 +3038,7 @@ warranty: "Moto Vespa 2025 Fonctionne avec une batterie 12V et deux moteurs puis
    title: "Motor Erwan 2025",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 6,
    currentPrice: 1699,
@@ -3199,7 +3199,7 @@ warranty: "Offrez à votre enfant une aventure unique avec la moto électrique T
    title: "La Voiture buggy 4x4",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 15,
    currentPrice: 2549,
@@ -3255,7 +3255,7 @@ features: [
    title: "La voiture Dacia 4x4",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 19,
    currentPrice: 2299,
@@ -4975,7 +4975,7 @@ features: [
    title: "Siège auto KIDILO G301 ",
    brand: "KIDILO ",
    category: "Siege auto",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 4,
    currentPrice: 799,
