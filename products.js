@@ -1220,7 +1220,7 @@ features: [
       { key: "SIÈGE", value: "SPORT EN CUIR" },
       { key: "FREINS", value: "DISQUE AVANT ET ARRIÈRE" },
       { key: "GARDES-BOUES", value: "AVANT ET ARRIÈRE" },
-      { key: "COULEURS DISPONIBLES", value: "Vert, Noir, Rouge" }
+      { key: "COULEURS DISPONIBLES", value: "Vert, blanc," }
     ]
   }
 ],
@@ -1235,7 +1235,7 @@ features: [
     title: "VÉLO VTT GALACTUS 26",
     brand: "GALACTUS",
     category: "دراجات هوائية",
-    availability: "متوفر في المخزون",
+    availability: "غير متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 24,
     currentPrice: 1449,
@@ -2589,7 +2589,7 @@ features: [
     title: "VÉLO ÉLECTRIQUE LIKEBIKE LANDER",
     brand: "LIKEBIKE ORIGINAL",
     category: "دراجات كهربائية",
-    availability: "غير متوفر في المخزون",
+    availability: "متوفر في المخزون",
     ratings: 4.5,
     reviewCount: 120,
     currentPrice: 8199,
@@ -3690,7 +3690,7 @@ warranty: "La mini Jeep électrique pour enfants est le cadeau parfait pour les 
    title: "Moteur X ADV GS",
    brand: "Marque enfant",
    category: "سيارات كهربائية",
-   availability: "متوفر في المخزون",
+   availability: "غير متوفر في المخزون",
    ratings: 4.5,
    reviewCount: 5,
    currentPrice: 2299,
