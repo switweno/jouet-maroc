@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Confirmez et finalisez votre commande en toute sécurité chez Jouet Maroc. Livraison partout au Maroc. Paiement à la livraison">
+  <meta name="author" content="Ma Boutique Jouet Maroc">
+  <title>Finaliser votre commande | Jouet Maroc</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="commande.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Canonical -->
+<link rel="canonical" href="https://jouet-maroc.com/commande.html" />
+<!-- Analytics Scripts -->
+  <script>
+    function loadAnalyticsScripts() {
+      // Google Analytics
+      var gaScript = document.createElement('script');
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3";
+      gaScript.async = true;
+      document.head.appendChild(gaScript);
+
+      gaScript.onload = function () {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CT0JMLFZY3');
+      };
+
+      // Microsoft Clarity
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "r78p5x9fdd");
+    }
+
+    window.addEventListener('scroll', function onScroll() {
+      loadAnalyticsScripts();
+      window.removeEventListener('scroll', onScroll);
+    });
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    function loadGTM() {
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-W8HSK5ZD');
+    }
+
+    window.addEventListener('scroll', function onScroll() {
+      loadGTM();
+      window.removeEventListener('scroll', onScroll);
+    });
+
+    setTimeout(loadGTM, 5000);
+  </script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8HSK5ZD"
+          height="0" width="0" style="display:none;visibility:hidden"
+          title="Google Tag Manager"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+  <!-- Header & Navigation -->
+  <header class="navbar">
+ <a href="index.html" class="logo">
+  <span class="jouet">JOUET</span> <span class="maroc">MAROC</span>
+</a>
+  
+  <div class="menu-btn-container">
+    <button id="menu-btn" class="menu-btn" aria-label="Menu principal" aria-expanded="false">
+      <span class="menu-btn-bar"></span>
+      <span class="menu-btn-bar"></span>
+      <span class="menu-btn-bar"></span>
+    </button>
+  </div>
+    
+    <nav class="main-nav">
+      <ul class="menu">
+        <li><a href="index.html"> Accueil</a></li>
+    <li><a href="categories/velos-electriques.html"> Vélos Électriques</a></li>
+    <li><a href="categories/trottinettes.html"> Trottinettes</a></li>
+    <li><a href="categories/velos-classiques.html"> Vélos Classiques</a></li>
+    
+    <!-- Liens supplémentaires -->
+    <li><a href="about.html"> À propos</a></li>
+    <li><a href="contact.html"> Contact</a></li>
+    <li><a href="faq.html"> FAQ</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <!-- Breadcrumbs -->
+  <div class="breadcrumbs">
+    <div class="container">
+      <a href="index.html">Accueil</a> &gt; 
+      <span>Finaliser votre commande</span>
+    </div>
+  </div>
+
+  <!-- Commande Section -->
+  <section class="commande-section">
+    <div class="container">
+      <h1>Finaliser votre commande</h1>
+      
+      <div class="commande-content">
+        <!-- Résumé du produit -->
+        <div class="product-summary">
+          <h2>Résumé de votre commande</h2>
+          <div class="product-details">
+            <img id="product-image" src="images/slider/likebike-shine-s-01.webp" alt="Image du produit">
+            <div class="product-info">
+              <h3 id="product-name"></h3>
+              <p id="product-color" class="product-variant"></p>
+              <div class="product-quantity-price">
+                <p><span>Prix:</span> <span id="product-price" class="price"></span></p>
+                <p><span>Quantité:</span> <span id="product-quantity" style="font-weight: bold; color: #e74c3c;"></span></p>
+              </div>
+              <div class="product-total">
+                <span>Total:</span>
+                <span id="product-total" class="price"></span>
+              </div>
+              <!-- Bouton de retour aux détails du produit -->
+              <button id="back-to-product" class="back-btn-only" style="margin-top: 15px; width: 100%;">
+             <i class="fas fa-arrow-left"></i> Retour aux détails du produit
+          </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Formulaire client -->
+        <div class="customer-info">
+          <h2>Vos coordonnées</h2>
+          <form id="customer-form" class="customer-form" name="orderForm" autocomplete="on">
+            <div class="form-group">
+              <label for="fullname">Nom complet <span class="required">*</span></label>
+              <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Numéro de téléphone <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="address">Adresse de livraison <span class="required">*</span></label>
+              <input type="text" id="address" name="address" autocomplete="address-line1" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="city">Ville <span class="required">*</span></label>
+              <input type="text" id="city" name="city" autocomplete="address-level2" required>
+            </div>
+            
+            
+            
+            <div class="form-actions">
+              <button type="submit" class="btn primary-btn" id="submit-order" name="submitOrder" style="background-color: #25d366; font-weight: bold;">
+                <i class="fab fa-whatsapp"></i> Envoyer la commande via WhatsApp
+              </button>
+              <p class="form-note"><span class="required"></span> Après clic, vous serez redirigé vers WhatsApp pour confirmer votre commande</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Newsletter -->
+<section class="newsletter">
+  <h2>Restez Informé</h2>
+  <p>Inscrivez-vous à notre newsletter pour recevoir nos offres exclusives</p>
+  <form class="newsletter-form">
+    <input 
+      type="email" 
+      id="email-newsletter" 
+      name="email" 
+      placeholder="Votre adresse email" 
+      required 
+      autocomplete="email"
+    >
+    <button type="submit" class="btn2">S'abonner</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+   <div class="footer-section">
+      <h3>À propos</h3>
+      <p>JOUET MAROC, basée à Casablanca, est spécialisée dans la vente de jouets innovants et de qualité, offrant à ses clients une expérience d'achat fiable et agréable au Maroc.</p>
+     <div class="social-icons">
+  <a href="https://www.facebook.com/jouetmaroc2" 
+     target="_blank" 
+     rel="noopener" 
+     aria-label="Page Facebook Jouet Maroc">
+    <i class="fab fa-facebook"></i>
+  </a>
+  
+  <a href="https://www.instagram.com/" 
+     target="_blank" 
+     rel="noopener" 
+     aria-label="Compte Instagram Jouet Maroc">
+    <i class="fab fa-instagram"></i>
+  </a>
+  
+  <a href="https://twitter.com/" 
+     target="_blank" 
+     rel="noopener" 
+     aria-label="Profil Twitter Jouet Maroc">
+    <i class="fab fa-twitter"></i>
+  </a>
+  
+  <a href="https://www.youtube.com/" 
+     target="_blank" 
+     rel="noopener" 
+     aria-label="Chaîne YouTube Jouet Maroc">
+    <i class="fab fa-youtube"></i>
+  </a>
+ </div>
+</div>
+      <div class="footer-section">
+  <h3>Liens Utiles</h3>
+  <ul>
+    <li><a href="faq.html"><i class="fas fa-chevron-right"></i> Questions fréquentes</a></li>
+    <li><a href="livraison.html"><i class="fas fa-chevron-right"></i> Expédition et livraison</a></li>
+    <li><a href="privacy-policy.html"><i class="fas fa-chevron-right"></i> Politique de confidentialité</a></li>
+    <li><a href="about.html"><i class="fas fa-chevron-right"></i> À propos de nous</a></li>
+  </ul>
+</div>
+    
+    <div class="footer-section">
+  <h3>Catégories</h3>
+  <ul>
+    <li><a href="categories/velos-electriques.html"><i class="fas fa-chevron-right"></i> Vélos Électriques</a></li>
+    <li><a href="categories/trottinettes.html"><i class="fas fa-chevron-right"></i> Trottinettes Électriques</a></li>
+    <li><a href="categories/velos-classiques.html"><i class="fas fa-chevron-right"></i> Vélos Classiques</a></li>
+  </ul>
+</div>
+
+       <div class="footer-section">
+  <h3>Contact</h3>
+  <p><i class="fas fa-map-marker-alt"></i> Riad Oulfa, Casablanca</p>
+  <p><i class="fas fa-envelope"></i> contact@jouet-maroc.com</p>
+  <ul>
+    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contactez-nous</a></li>
+     </ul>
+     </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
+      <div class="payment-methods">
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-paypal"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="commande.js"></script>
+  <script src="mobile-menu.js"></script>
+  <script>
+    // Script pour assurer que la page ne soit pas mise en cache
+    if (window.performance && window.performance.navigation.type === 2) {
+      // Si l'utilisateur revient à cette page depuis l'historique
+      window.location.reload();
+    }
+    
+    // Débogage pour vérifier la transmission de quantité
+    document.addEventListener('DOMContentLoaded', function() {
+      // Afficher les données brutes de localStorage pour vérification
+      const rawData = localStorage.getItem('commandeProduct');
+      console.log("DEBUG - Données brutes de localStorage:", rawData);
+      
+      if (rawData) {
+        try {
+          const parsedData = JSON.parse(rawData);
+          console.log("DEBUG - Quantité dans localStorage:", parsedData.quantity);
+          console.log("DEBUG - Image dans localStorage:", parsedData.image);
+          
+          // Vérifier l'image du produit et corriger si nécessaire
+          const productImage = document.getElementById('product-image');
+          if (productImage && parsedData.image) {
+            // Si l'image ne commence pas par http et ne contient pas le chemin complet
+            if (!parsedData.image.startsWith('http') && !parsedData.image.includes('/')) {
+              // Ajouter le chemin relatif
+              productImage.src = 'images/slider/' + parsedData.image;
+            } else {
+              productImage.src = parsedData.image;
+            }
+            console.log("DEBUG - Chemin d'image utilisé:", productImage.src);
+          }
+          
+          // Vérifier l'élément DOM après le rendu
+          setTimeout(() => {
+            const displayedQuantity = document.getElementById('product-quantity').textContent;
+            console.log("DEBUG - Quantité affichée dans le DOM:", displayedQuantity);
+          }, 500);
+        } catch (e) {
+          console.error("DEBUG - Erreur de parsing:", e);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

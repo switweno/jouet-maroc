@@ -1,0 +1,843 @@
+/* Product Details Page Styles */
+
+/* Breadcrumbs */
+.breadcrumbs {
+  background-color: #f5f5f5;
+  padding: 1rem 0;
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.breadcrumbs a {
+  color: var(--secondary-color);
+}
+
+.breadcrumbs span {
+  color: var(--text-color);
+  ;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+
+/* Product Section */
+.product {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.product-thumbs-swiper {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.product-thumbs-swiper::-webkit-scrollbar {
+  display: none;
+}
+
+.product-listing h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center; /* وسط العنوان */
+  border-bottom: 1px solid #ddd; /* خط سفلي أنيق */
+  padding-bottom: 10px;
+  text-transform: uppercase; /* تحويل الأحرف إلى كابيتال */
+  letter-spacing: 1px;
+}
+
+.rating-count {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Product Info */
+.product-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-info h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.current-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #e74c3c; 
+  
+  background-color: white;    
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  box-shadow: 0 0 0 1px #e74c3c1a; 
+}
+
+
+
+.discount-badge {
+  background-color: #DA2E1B;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.product-stock {
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+ 
+}
+
+/* للشاشات اللي عرضها 992px وفوق (كبيرة) */
+@media (min-width: 768px) {
+  .product-stock {
+    margin-bottom: 0.7rem;
+  }
+}
+
+.in-stock {
+  color: #27ae60;
+}
+
+.out-of-stock {
+  color: var(--accent-color);
+}
+
+.product-stock i {
+  margin-right: 0.4rem;
+}
+
+.product-short-description {
+  margin-bottom: 1.5rem;
+  color: #000000;
+  line-height: 1.6;
+  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Product Variants */
+.product-variants {
+  margin-bottom: 1.5rem;
+}
+
+.variant-group {
+  margin-bottom: 1rem;
+}
+
+.variant-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-options {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #e0e0e0;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.color-option.active {
+  border-color: #7211AF;
+  transform: scale(1.1);
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+  border-color: #aaa;
+}
+
+/* Style pour l'option de couleur blanche */
+.color-option[style*="background-color: #ffffff"] {
+  border: 8px solid #cccccc;
+}
+
+.color-option[style*="background-color: #ffffff"].active {
+  border-color: #7211AF;
+}
+
+/* Amélioration de l'affichage de la couleur sélectionnée */
+.selected-color-display {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  min-height: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.size-options {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.size-option {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.size-option.active {
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+.size-option:hover:not(.active) {
+  border-color: var(--secondary-color);
+}
+
+/* Quantity Selector */
+.product-quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-quantity label {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.quantity-decrease, .quantity-increase {
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.quantity-decrease:hover, .quantity-increase:hover {
+  background: #e5e5e5;
+}
+
+#quantity {
+  width: 60px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield; /* Standard property */
+}
+
+#quantity::-webkit-outer-spin-button,
+#quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none; /* Standard property */
+  margin: 0;
+}
+
+/* Product Actions */
+.product-actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.buy-now-btn {
+  background-color: var(--accent-color);
+  padding: 0.8rem 1.5rem;
+  flex: 2;
+}
+
+.buy-now-btn:hover {
+  background-color: #c0392b;
+}
+
+.add-to-cart-btn {
+  background-color: var(--secondary-color);
+  padding: 0.8rem 1.5rem;
+  flex: 2;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #2980b9;
+}
+
+.wishlist-btn {
+  background-color: white;
+  color: var(--dark-color);
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  flex: 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist-btn:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+}
+
+.wishlist-btn i {
+  font-size: 1.2rem;
+}
+
+/* Product Delivery */
+.product-delivery {
+  margin-bottom: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.delivery-option {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.delivery-option:last-child {
+  margin-bottom: 0;
+}
+
+.delivery-option i {
+  color: #1298db;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+
+.delivery-option strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.delivery-option p {
+  font-size: 0.9rem;
+  color: #737373;
+}
+
+/* Product Share */
+.product-share {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-share span {
+  font-weight: 500;
+}
+
+.product-share a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.product-share a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Product Tabs */
+.product-tabs {
+  margin-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabs-header {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  
+}
+
+.tabs-header::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-btn {
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #777;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tab-btn:hover {
+  color: var(--dark-color);
+}
+
+.tab-btn.active {
+  color: #1298db;
+  border-bottom-color: #954484;
+}
+
+/* Ajouter un effet visuel pour indiquer que les onglets sont cliquables */
+.tab-btn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #954484;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.tab-btn:hover::after {
+  width: 70%;
+}
+
+.tab-btn.active::after {
+  width: 100%;
+}
+
+/* Animation de transition pour les panneaux d'onglets */
+.tab-pane {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-pane.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tab-pane h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.tab-pane h3 {
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0.8rem;
+  color: var(--dark-color);
+}
+
+.tab-pane p, .tab-pane ul {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tab-pane ul {
+  padding-left: 1.5rem;
+}
+
+.tab-pane li {
+  margin-bottom: 0.5rem;
+}
+
+/* Specifications Table */
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.specs-table th, .specs-table td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+.specs-table th {
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+
+.specs-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Download Section */
+.download-section {
+  margin-top: 2rem;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.download-link i {
+  margin-right: 0.5rem;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+/* Reviews */
+.reviews-summary {
+  display: flex;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.average-rating {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+   color: #f39c12;
+}
+
+.average-rating > div > span {
+  color: #777;
+  font-weight: 600;
+}
+
+
+.big-rating {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+.rating-bars {
+  flex: 1;
+  min-width: 250px;
+}
+
+.rating-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.rating-bar span {
+  width: 60px;
+  font-size: 0.9rem;
+}
+
+.rating-bar span:last-child {
+  width: 40px;
+  text-align: right;
+}
+
+.bar-container {
+  flex: 1;
+  height: 8px;
+  background-color: #eee;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.reviews-list {
+  margin-bottom: 2rem;
+}
+
+.review-item {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #777
+}
+
+.review-date {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.load-more-reviews {
+  display: block;
+  width: 100%;
+  background-color: white;
+  color: var(--dark-color);
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}
+
+.load-more-reviews:hover {
+  background-color: #f5f5f5;
+}
+
+/* Write Review */
+.write-review {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.write-review h3 {
+  margin-bottom: 1.5rem;
+}
+
+.review-form .form-group {
+  margin-bottom: 1.2rem;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.rating-select {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rating-star {
+  font-size: 1.5rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.rating-star.active {
+  color: #f39c12;
+}
+
+.rating-star:hover {
+  color: #f39c12;
+}
+
+.review-form input, .review-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.review-form input:focus, .review-form textarea:focus {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+
+.submit-review {
+  background-color: var(--secondary-color);
+  padding: 0.8rem 1.5rem;
+}
+
+/* Related Products */
+.related-products, .recently-viewed {
+  margin-bottom: 3rem;
+}
+
+.related-products h2, .recently-viewed h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+.product-info .product-price-container .product-price {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+/* Optimisation des espaces pour les petits écrans */
+@media (max-width: 768px) {
+  .product {
+    gap: 1,4rem; /* Réduire l'espace entre les éléments */
+    margin-bottom: 1.1rem; /* Réduire la marge inférieure */
+    
+  }
+  
+  .product-info h1 {
+    font-size: 1.6rem; /* Titre plus petit sur mobile */
+    margin-bottom: 0.7rem; /* Réduction de la marge sous le titre */
+  }
+  
+  .product-rating {
+    margin-bottom: 0.7rem; /* Réduction de la marge */
+    
+  }
+  
+  .product-price-container {
+    margin-bottom: 1rem; /* Réduction de la marge */
+  
+  }
+  
+  .breadcrumbs {
+    padding: 0.5rem 0;
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* Optimisations supplémentaires pour très petits écrans */
+@media (max-width: 420px) {
+  .product {
+    margin-bottom: 1rem; /* Encore moins d'espace */
+    gap: 0.5rem;
+  }
+  
+  .product-info {
+    padding-top: 0.1rem; /* Moins d'espace avant le contenu */
+  }
+  
+  .product-info h1 {
+    font-size: 1.4rem; /* Titre encore plus petit */
+    margin-bottom: 0.7rem;
+  }
+  
+  .product-short-description {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .product-tabs {
+    margin-top: 0.5rem; /* Réduire l'espace avant les onglets */
+  }
+  
+  .tab-btn {
+    padding: 0.7rem 1rem; /* Boutons d'onglet plus compacts */
+  }
+  
+  /* Réduire les espaces dans les détails du produit */
+  .product-delivery {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  
+  .product-actions {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Amélioration de la mise en page sur grands écrans */
+@media (min-width: 720px) {
+  .product {
+    gap: 5px; /* Augmenter l'espace entre le slider et les détails */
+  }
+  
+  .product-gallery {
+    margin-right: 10px; /* Marge à droite de la galerie */
+  }
+  
+  .product-info {
+    margin-left: 10px; /* Marge à gauche des informations */
+    padding-top: 5px; /* Espace en haut des informations */
+  }
+}
+
+/* Amélioration de la mise en page sur grands écrans */
+@media (min-width: 992px) {
+  .product {
+    gap: 6px; /* Augmenter l'espace entre le slider et les détails */
+  }
+  
+  .product-gallery {
+    margin-right: 15px; /* Marge à droite de la galerie */
+  }
+  
+  .product-info {
+    margin-left: 15px; /* Marge à gauche des informations */
+    padding-top: 5px; /* Espace en haut des informations */
+  }
+}
+
+/* Très grands écrans */
+@media (min-width: 1200px) {
+  .product {
+    gap: 10px; /* Encore plus d'espace sur très grands écrans */
+  }
+  
+  .product-gallery {
+    margin-right: 15px;
+  }
+  
+  .product-info {
+    margin-left: 15px;
+  }
+}
+
+

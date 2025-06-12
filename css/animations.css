@@ -1,0 +1,107 @@
+/* Animations pour les titres des pages */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes heroReveal {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+/* Animations pour les titres */
+/* Animations pour les titres */
+.category-header h1 {
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 2.5rem; 
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+   
+}
+
+
+.category-header p {
+  opacity: 0;
+  animation: fadeInRight 1.2s ease forwards;
+  animation-delay: 0.8s;
+ font-size: 1.3rem;
+  color: #555;
+}
+
+
+/* Animation pour l'ensemble de la section header */
+.category-header {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f0f8ff;
+  color: #000000;
+}
+
+
+
+.category-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(97, 5, 255, 0.1);
+  z-index: -1;
+  animation: heroReveal 1.5s ease forwards;
+}
+
+/* Animation pour les produits de la catégorie */
+.category-products .product-card {
+  opacity: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative; /* باش يبقى الـ badge ظاهر فوق */
+}
+
+.category-products .product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.category-products .product-card .product-content {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* التأخيرات */
+.category-products .product-card:nth-child(1) .product-content { animation-delay: 0.1s; }
+.category-products .product-card:nth-child(2) .product-content { animation-delay: 0.2s; }
+.category-products .product-card:nth-child(3) .product-content { animation-delay: 0.3s; }
+.category-products .product-card:nth-child(4) .product-content { animation-delay: 0.4s; }
+.category-products .product-card:nth-child(5) .product-content { animation-delay: 0.5s; }
+.category-products .product-card:nth-child(6) .product-content { animation-delay: 0.6s; }
+.category-products .product-card:nth-child(7) .product-content { animation-delay: 0.7s; }
+.category-products .product-card:nth-child(8) .product-content { animation-delay: 0.8s; }
