@@ -127,7 +127,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem ;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: #ffffff;
   color: #000000;
    
   position: sticky;
@@ -740,7 +740,7 @@ textarea:focus-visible,
     right: -280px;
     width: 280px;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #ffffff;
     padding-top: 60px;
     overflow-y: auto;
     transition: right 0.3s ease;
@@ -759,9 +759,7 @@ textarea:focus-visible,
     gap: 1.5rem;
   }
   
-  .menu li {
-    margin-bottom: 1rem;
-  }
+  
   
   .menu a {
     font-size: 1.1rem;
