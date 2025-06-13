@@ -35,8 +35,67 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
-<script type="application/ld+json">
+<!-- Analytics Scripts -->
+  <script>
+    function loadAnalyticsScripts() {
+      // Google Analytics
+      var gaScript = document.createElement('script');
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3";
+      gaScript.async = true;
+      document.head.appendChild(gaScript);
+
+      gaScript.onload = function () {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-CT0JMLFZY3');
+      };
+
+      // Microsoft Clarity
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "r78p5x9fdd");
+    }
+
+    window.addEventListener('scroll', function onScroll() {
+      loadAnalyticsScripts();
+      window.removeEventListener('scroll', onScroll);
+    });
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    function loadGTM() {
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-W8HSK5ZD');
+    }
+
+    window.addEventListener('scroll', function onScroll() {
+      loadGTM();
+      window.removeEventListener('scroll', onScroll);
+    });
+
+    setTimeout(loadGTM, 5000);
+  </script>
+  
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Store",
@@ -98,67 +157,171 @@
   ]
 }
 </script>
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
-<!-- Analytics Scripts -->
-  <script>
-    function loadAnalyticsScripts() {
-      // Google Analytics
-      var gaScript = document.createElement('script');
-      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-CT0JMLFZY3";
-      gaScript.async = true;
-      document.head.appendChild(gaScript);
-
-      gaScript.onload = function () {
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        window.gtag = gtag;
-        gtag('js', new Date());
-        gtag('config', 'G-CT0JMLFZY3');
-      };
-
-      // Microsoft Clarity
-      (function (c, l, a, r, i, t, y) {
-        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, "clarity", "script", "r78p5x9fdd");
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "Product",
+      "name": "Trottinette Tank M41 Ultimate",
+      "image": "https://jouet-maroc.com/images/slider/trottinette-tank-m41-01.webp",
+      "description": "Trottinette électrique puissante et stable modèle Tank M41.",
+      "url": "https://jouet-maroc.com/produits/tank-m41",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MAD",
+        "price": "6399",
+        "availability": "https://schema.org/InStock",
+        "url": "https://jouet-maroc.com/produits/tank-m41",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MA",
+          "returnPolicyCategory": "https://schema.org/FreeReturn",
+          "merchantReturnDays": 14,
+          "returnFees": "FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Vélo électrique likebike shine s",
+      "image": "https://jouet-maroc.com/images/slider/likebike-shine-s-01.webp",
+      "description": "Vélo électrique design Shine S, élégant et confortable.",
+      "url": "https://jouet-maroc.com/produits/likebike-shine-s",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MAD",
+        "price": "7199",
+        "availability": "https://schema.org/InStock",
+        "url": "https://jouet-maroc.com/produits/likebike-shine-s",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MA",
+          "returnPolicyCategory": "https://schema.org/FreeReturn",
+          "merchantReturnDays": 14,
+          "returnFees": "FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Trottinette électrique Dualtron Pop",
+      "image": "https://jouet-maroc.com/images/slider/dualtron-pop-52v-01.webp",
+      "description": "Trottinette Dualtron Pop 52V, performance et autonomie.",
+      "url": "https://jouet-maroc.com/produits/dualtron-pop",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MAD",
+        "price": "5890",
+        "availability": "https://schema.org/InStock",
+        "url": "https://jouet-maroc.com/produits/dualtron-pop",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MA",
+          "returnPolicyCategory": "https://schema.org/FreeReturn",
+          "merchantReturnDays": 14,
+          "returnFees": "FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Vélo électrique likebike Harley U11",
+      "image": "https://jouet-maroc.com/images/slider/velo-electrique-likebike-harley-u11-01.webp",
+      "description": "Vélo électrique Harley U11, style moto et moteur puissant.",
+      "url": "https://jouet-maroc.com/produits/likebike-harley-u11",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MAD",
+        "price": "8099",
+        "availability": "https://schema.org/InStock",
+        "url": "https://jouet-maroc.com/produits/likebike-harley-u11",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MA",
+          "returnPolicyCategory": "https://schema.org/FreeReturn",
+          "merchantReturnDays": 14,
+          "returnFees": "FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "d"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "d"
+            }
+          }
+        }
+      }
     }
-
-    window.addEventListener('scroll', function onScroll() {
-      loadAnalyticsScripts();
-      window.removeEventListener('scroll', onScroll);
-    });
-  </script>
-
-  <!-- Google Tag Manager -->
-  <script>
-    function loadGTM() {
-      (function(w,d,s,l,i){
-        w[l]=w[l]||[];
-        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),
-            dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-W8HSK5ZD');
-    }
-
-    window.addEventListener('scroll', function onScroll() {
-      loadGTM();
-      window.removeEventListener('scroll', onScroll);
-    });
-
-    setTimeout(loadGTM, 5000);
-  </script>
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -188,15 +351,18 @@
 
     <nav class="main-nav">
   <ul class="menu">
-    <li><a href="index.html" aria-current="page">Accueil</a></li>
+    <li><a href="/" aria-current="page">Accueil</a></li>
     <li><a href="categories/velos-electriques.html">Vélos Électriques</a></li>
     <li><a href="categories/trottinettes.html">Trottinettes</a></li>
     <li><a href="categories/velos-classiques.html">Vélos Classiques</a></li>
+    
+    <!-- Liens supplémentaires -->
     <li><a href="about.html">À propos</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="faq.html">FAQ</a></li>
   </ul>
 </nav>
+
 
   </header>
 
