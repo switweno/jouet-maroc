@@ -802,20 +802,32 @@
 
 <!-- تهيئة السلايدر -->
 <script defer>
-  const swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-      delay: 6000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+  document.addEventListener('DOMContentLoaded', function() {
+    // Vérifier si les images sont chargées
+    const swiperImages = document.querySelectorAll('.swiper img');
+    swiperImages.forEach(img => {
+      img.onerror = function() {
+        console.error('Erreur de chargement d\'image:', img.src);
+        // Remplacer par une image par défaut si disponible
+        // img.src = 'chemin/vers/image-par-defaut.webp';
+      };
+    });
+
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   });
 </script>
 
