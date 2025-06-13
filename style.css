@@ -907,3 +907,7 @@ textarea:focus-visible,
   }
 }
 
+.gallery-img {
+  -webkit-tap-highlight-color: transparent; /* إلغاء الوميض على Chrome/Android */
+  outline: none; /* إلغاء الحدود عند الضغط */
+}
