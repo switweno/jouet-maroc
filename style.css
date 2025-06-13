@@ -14,7 +14,7 @@ html, body {
 
 :root {
   --primary-color: #2c3e50;
-  --secondary-color: #3498db;
+  --secondary-color: #175A87;
   --accent-color: #e74c3c;
   --text-color: #333;
   --light-color: #f9f9f9;
@@ -286,7 +286,7 @@ img {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #e11818; /* Rouge vif pour "Offre" */
+  background-color: #AF1212; /* Rouge vif pour "Offre" */
   color: white;
   padding: 0.3rem 0.7rem;
   border-radius: 5px;
@@ -299,7 +299,7 @@ img {
 }
 
 .product-badge.new {
-  background-color: #0288d1; /* Bleu clair saturé pour "Nouveau" */
+  background-color: #4635E3; /* Bleu clair saturé pour "Nouveau" */
 }
 
 .product-badge.limited {
@@ -403,7 +403,7 @@ img {
 .product-info .product-price {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #e74c3c;
+  color: #853D75;
   text-align: center;
    margin-bottom: 0.8rem;
 }
