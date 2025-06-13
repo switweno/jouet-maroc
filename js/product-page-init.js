@@ -23,8 +23,8 @@ function initColorSelection() {
   
   // Aucune couleur sélectionnée par défaut
   // Afficher un message invitant l'utilisateur à choisir une couleur
-  selectedColorDisplay.textContent = "Veuillez choisir une couleur";
-  selectedColorDisplay.style.color = "#777"; // Style pour indiquer qu'aucune sélection n'a été faite
+  selectedColorDisplay.textContent = "Choisir une couleur";
+  selectedColorDisplay.style.color = "#2f2f2f"; // Style pour indiquer qu'aucune sélection n'a été faite
   
   // Ajouter les écouteurs d'événements à chaque option de couleur
   colorOptions.forEach(option => {
