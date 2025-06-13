@@ -254,29 +254,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  // فتح الصورة في Lightbox
-  document.querySelectorAll('.gallery-img').forEach(img => {
-    img.addEventListener('click', function () {
-      const lightbox = document.getElementById('lightbox');
-      const lightboxImg = document.getElementById('lightbox-img');
-      lightboxImg.src = this.src;
-      lightbox.style.display = 'flex';
-    });
+document.addEventListener('DOMContentLoaded', function () {
+    const galleryImages = document.querySelectorAll('.gallery-img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    if (galleryImages.length > 0 && lightbox && lightboxImg) {
+      // فتح الصورة
+      galleryImages.forEach(img => {
+        img.addEventListener('click', function () {
+          lightboxImg.src = this.src;
+          lightbox.style.display = 'flex';
+        });
+      });
+
+      // إغلاق عند الضغط خارج الصورة
+      lightbox.addEventListener('click', function (e) {
+        if (e.target !== lightboxImg) {
+          closeLightbox();
+        }
+      });
+
+      // دالة إغلاق عامة
+      window.closeLightbox = function () {
+        lightbox.style.display = 'none';
+      };
+    }
   });
-
-  // إغلاق Lightbox
-  function closeLightbox() {
-    document.getElementById('lightbox').style.display = 'none';
-  }
-
-  // مسموح النداء من HTML
-  window.closeLightbox = closeLightbox;
-
-document.getElementById('lightbox').addEventListener('click', function (e) {
-  const lightboxImg = document.getElementById('lightbox-img');
-  if (e.target !== lightboxImg) {
-    closeLightbox();
-  }
-});
 
 
