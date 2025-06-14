@@ -616,53 +616,52 @@
                 </div>
               </div>
             </div>
+            
+            <!-- Déplacement des avis clients à l'intérieur de l'onglet reviews -->
+            <div class="customer-reviews">
+              <div class="review-item">
+                <div class="reviewer-info">
+                  <span class="reviewer-name">Omar K.</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="review-date">22/03/2024</span>
+                </div>
+                <p class="review-text">J'utilise ce vélo tous les jours pour me rendre au travail et je suis impressionné par sa performance. La batterie tient facilement toute la semaine avec mes trajets quotidiens et le confort est remarquable.</p>
               </div>
+              <div class="review-item">
+                <div class="reviewer-info">
+                  <span class="reviewer-name">Rachida B.</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                  </div>
+                  <span class="review-date">15/04/2024</span>
+                </div>
+                <p class="review-text">Un excellent vélo électrique avec un bon rapport qualité-prix. Le fait qu'il soit pliable est un gros avantage pour le rangement. J'apprécie particulièrement la puissance du moteur dans les montées.</p>
+              </div>
+            </div>
+            
+            <h3 class="client-title">Photos réelles de nos clients satisfaits</h3>
+
+            <div class="gallery">
+              <img src="../images-clients/shine/photo-client-shine-01.jpg" alt="Photo client 01" class="gallery-img" loading="lazy" width="240" height="240">
+              <img src="../images-clients/shine/photo-client-shine-02.jpg" alt="Photo client 02" class="gallery-img" loading="lazy">
+              <img src="../images-clients/shine/photo-client-shine-03.jpg" alt="Photo client 03" class="gallery-img" loading="lazy" width="240" height="240">
+              <img src="../images-clients/shine/photo-client-shine-04.jpg" alt="Photo client 04" class="gallery-img" loading="lazy" width="240" height="240">
+              <!-- زيد الصور بنفس الطريقة -->
+            </div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+              <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+              <img class="lightbox-content" id="lightbox-img" src="#" alt="Image client agrandie">
+            </div>
+          </div>
       </div>
          </div>   
       
-       <!-- Ajout des avis clients spécifiques -->
-  <div class="customer-reviews">
-    <div class="review-item">
-      <div class="reviewer-info">
-        <span class="reviewer-name">Omar K.</span>
-        <div class="stars">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-        </div>
-        <span class="review-date">22/03/2024</span>
-      </div>
-      <p class="review-text">J'utilise ce vélo tous les jours pour me rendre au travail et je suis impressionné par sa performance. La batterie tient facilement toute la semaine avec mes trajets quotidiens et le confort est remarquable.</p>
-    </div>
-    <div class="review-item">
-      <div class="reviewer-info">
-        <span class="reviewer-name">Rachida B.</span>
-        <div class="stars">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-        </div>
-        <span class="review-date">15/04/2024</span>
-      </div>
-      <p class="review-text">Un excellent vélo électrique avec un bon rapport qualité-prix. Le fait qu'il soit pliable est un gros avantage pour le rangement. J'apprécie particulièrement la puissance du moteur dans les montées.</p>
-    </div>
-  </div>
-      
- <h3 class="client-title">Photos réelles de nos clients satisfaits</h3>
-
-<div class="gallery">
-  <img src="../images-clients/shine/photo-client-shine-01.jpg" alt="Photo client 01" class="gallery-img" loading="lazy" width="240" height="240">
-  <img src="../images-clients/shine/photo-client-shine-02.jpg" alt="Photo client 02" class="gallery-img" loading="lazy">
-  <img src="../images-clients/shine/photo-client-shine-03.jpg" alt="Photo client 03" class="gallery-img" loading="lazy" width="240" height="240">
-  <img src="../images-clients/shine/photo-client-shine-04.jpg" alt="Photo client 04" class="gallery-img" loading="lazy" width="240" height="240">
-  <!-- زيد الصور بنفس الطريقة -->
-</div>
-
-<!-- Lightbox -->
-<div id="lightbox" class="lightbox">
-  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-  <img class="lightbox-content" id="lightbox-img" src="#" alt="Image client agrandie">
-</div>
-
-
-      <div style="margin-bottom: 40px; clear: both;"></div>
-
+    <!-- Suppression des blocs qui ont été déplacés à l'intérieur de l'onglet reviews -->
+    
     <!-- Product Listing -->
   <section class="product-listing">
     <h2>Produits similaires</h2>
@@ -906,3 +905,4 @@
   </script>
 </body>
 </html>
+
