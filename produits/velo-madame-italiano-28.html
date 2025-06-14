@@ -131,8 +131,8 @@
   "@type": "Product",
   "name": "Vélo Madame Italiano 28 pouces",
   "image": [
-    "https://jouet-maroc.com/images/slider/madame-italiano-28-01.webp"
-    "https://jouet-maroc.com/images/slider/madame-italiano-28-02.webp"
+    "https://jouet-maroc.com/images/slider/madame-italiano-28-01.webp",
+    "https://jouet-maroc.com/images/slider/madame-italiano-28-02.webp",
     "https://jouet-maroc.com/images/slider/madame-italiano-28-03.webp"
   ],
   "description": "Vélo classique pour femme avec roues de 28 pouces, vitesses Shimano 7, siège en cuir, panier avant, porte-bagage arrière et éclairage LED. Idéal pour la ville.",
@@ -168,11 +168,12 @@
       "@type": "Organization",
       "name": "Jouet Maroc"
     },
-    "hasMerchantReturnPolicy": {
+     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
-      "applicableCountry": "MA"
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -183,6 +184,11 @@
       },
       "deliveryTime": {
         "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "d"
+        },
         "minTransitTime": {
           "@type": "QuantitativeValue",
           "value": 1,

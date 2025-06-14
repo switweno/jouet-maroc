@@ -132,8 +132,8 @@
   "@type": "Product",
   "name": "Vélo électrique Likebike Shine",
   "image": [
-    "https://jouet-maroc.com/images/slider/velo-electrique-likebike-shine-01.webp"
-    "https://jouet-maroc.com/images/slider/velo-electrique-likebike-shine-02.webp"
+    "https://jouet-maroc.com/images/slider/velo-electrique-likebike-shine-01.webp",
+    "https://jouet-maroc.com/images/slider/velo-electrique-likebike-shine-02.webp",
     "https://jouet-maroc.com/images/slider/velo-electrique-likebike-shine-03.webp"
   ],
   "description": "Vélo électrique pliable Likebike Shine avec moteur 500W, batterie lithium 48V 13Ah et autonomie jusqu’à 55 km. Conçu pour la mobilité urbaine et les balades confortables au Maroc.",
@@ -173,7 +173,8 @@
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
-      "applicableCountry": "MA"
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -184,6 +185,11 @@
       },
       "deliveryTime": {
         "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "d"
+        },
         "minTransitTime": {
           "@type": "QuantitativeValue",
           "value": 1,

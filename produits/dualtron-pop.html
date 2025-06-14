@@ -172,7 +172,8 @@
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
-      "applicableCountry": "MA"
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -183,6 +184,11 @@
       },
       "deliveryTime": {
         "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "d"
+        },
         "minTransitTime": {
           "@type": "QuantitativeValue",
           "value": 1,
