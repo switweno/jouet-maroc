@@ -474,9 +474,13 @@
   margin-bottom: 1rem;
   color: var(--dark-color);
   font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
- 
 }
 
+@media (max-width: 420px) {
+  .tab-pane h2 {
+    font-size: 1.3rem;
+  }
+}
 .tab-pane h3 {
   font-size: 1.2rem;
   margin: 1.5rem 0 0.8rem;
