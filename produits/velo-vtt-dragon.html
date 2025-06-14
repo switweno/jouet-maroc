@@ -132,8 +132,8 @@
   "@type": "Product",
   "name": "Vélo VTT DRAGON 26 pouces",
   "image": [
-    "https://jouet-maroc.com/images/slider/velo-vtt-dragon-01.webp"
-    "https://jouet-maroc.com/images/slider/velo-vtt-dragon-02.webp"
+    "https://jouet-maroc.com/images/slider/velo-vtt-dragon-01.webp",
+    "https://jouet-maroc.com/images/slider/velo-vtt-dragon-02.webp",
     "https://jouet-maroc.com/images/slider/velo-vtt-dragon-03.webp"
   ],
   "description": "VTT robuste 26 pouces avec 21 vitesses Shiming, freins à disque, amortisseur avant et jantes en aluminium. Idéal pour les terrains variés et les aventures sportives.",
@@ -173,7 +173,8 @@
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
-      "applicableCountry": "MA"
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -184,6 +185,11 @@
       },
       "deliveryTime": {
         "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "d"
+        },
         "minTransitTime": {
           "@type": "QuantitativeValue",
           "value": 1,
@@ -204,6 +210,7 @@
   }
 }
 </script>
+
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
