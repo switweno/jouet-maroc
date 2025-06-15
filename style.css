@@ -545,7 +545,7 @@ img {
 }
 
 .social-icons a:hover {
-  background-color: #7211AF;
+  background-color: #954484;
   transform: translateY(-3px);
 }
 
@@ -895,3 +895,4 @@ textarea:focus-visible,
   -webkit-tap-highlight-color: transparent; /* إلغاء الوميض على Chrome/Android */
   outline: none; /* إلغاء الحدود عند الضغط */
 }
+
