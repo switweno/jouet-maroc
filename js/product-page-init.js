@@ -53,15 +53,48 @@ colorOptions.forEach(option => {
   });
 });
 
-// إعادة الحالة الافتراضية عند الضغط في أي مكان خارج خيارات الألوان
+let hoverTimeout = null;
+
+colorOptions.forEach(option => {
+  option.addEventListener('click', function(event) {
+    event.stopPropagation();
+    colorOptions.forEach(opt => opt.classList.remove('active'));
+    this.classList.add('active');
+
+    // إلغاء أي timeout سابق قبل بدء واحد جديد
+    if (hoverTimeout) clearTimeout(hoverTimeout);
+
+    // عرض نص تحميل مؤقت
+    selectedColorDisplay.textContent = "....";
+    selectedColorDisplay.style.color = defaultColor;
+
+    hoverTimeout = setTimeout(() => {
+      const colorName = this.getAttribute('data-color') || 'Couleur inconnue';
+      selectedColorDisplay.textContent = colorName;
+      selectedColorDisplay.style.color = defaultColor;
+      currentSelectedColor = colorName;
+      hoverTimeout = null;  // تنظيف المتغير
+    }, 400);
+  });
+});
+
 document.addEventListener('click', function(event) {
   if (!event.target.closest('.color-options')) {
     colorOptions.forEach(opt => opt.classList.remove('active'));
+
+    // إلغاء timeout لو موجود
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+      hoverTimeout = null;
+    }
+
     currentSelectedColor = null;
     selectedColorDisplay.textContent = defaultText;
     selectedColorDisplay.style.color = defaultColor;
   }
 });
+
+
 
 
 
