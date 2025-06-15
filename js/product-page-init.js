@@ -15,33 +15,55 @@ document.addEventListener('DOMContentLoaded', function() {
 /**
  * Initialise la sélection de couleur
  */
-function initColorSelection() {
-  const colorOptions = document.querySelectorAll('.color-option');
-  const selectedColorDisplay = document.getElementById('selected-color');
-  
-  if (!colorOptions.length || !selectedColorDisplay) return;
-  
-  // Aucune couleur sélectionnée par défaut
-  // Afficher un message invitant l'utilisateur à choisir une couleur
-  selectedColorDisplay.textContent = "Choisir une couleur";
-  selectedColorDisplay.style.color = "#2f2f2f"; // Style pour indiquer qu'aucune sélection n'a été faite
-  
-  // Ajouter les écouteurs d'événements à chaque option de couleur
-  colorOptions.forEach(option => {
-    option.addEventListener('click', function() {
-      // Retirer la classe active de toutes les options
-      colorOptions.forEach(opt => opt.classList.remove('active'));
-      
-      // Ajouter la classe active à l'option cliquée
-      this.classList.add('active');
-      
-      // Mettre à jour l'affichage de la couleur sélectionnée
-      const colorName = this.getAttribute('data-color') || 'Couleur inconnue';
-      selectedColorDisplay.textContent = colorName;
-      selectedColorDisplay.style.color = ""; // Réinitialiser la couleur du texte
-    });
+const colorOptions = document.querySelectorAll('.color-option');
+const selectedColorDisplay = document.getElementById('selected-color');
+
+let currentSelectedColor = null;
+
+// نص افتراضي ولون ثابت
+const defaultText = "Aucune couleur sélectionnée";
+const defaultColor = "#666";
+
+selectedColorDisplay.textContent = defaultText;
+selectedColorDisplay.style.color = defaultColor;
+
+// تحديث النص عند اختيار لون
+colorOptions.forEach(option => {
+  option.addEventListener('click', function(event) {
+    event.stopPropagation(); // لمنع الحدث من الوصول للوثيقة
+    colorOptions.forEach(opt => opt.classList.remove('active'));
+    this.classList.add('active');
+
+    const colorName = this.getAttribute('data-color') || 'Couleur inconnue';
+    currentSelectedColor = colorName;
+
+    selectedColorDisplay.textContent = colorName;
+    selectedColorDisplay.style.color = defaultColor; // لون ثابت رمادي
   });
-}
+
+  // عرض اسم اللون عند المرور على الدائرة
+  option.addEventListener('mouseover', function() {
+    const colorName = this.getAttribute('data-color') || '';
+    selectedColorDisplay.textContent = colorName;
+  });
+
+  // إعادة النص للحالة السابقة عند الخروج بالماوس
+  option.addEventListener('mouseout', function() {
+    selectedColorDisplay.textContent = currentSelectedColor || defaultText;
+  });
+});
+
+// إعادة الحالة الافتراضية عند الضغط في أي مكان خارج خيارات الألوان
+document.addEventListener('click', function(event) {
+  if (!event.target.closest('.color-options')) {
+    colorOptions.forEach(opt => opt.classList.remove('active'));
+    currentSelectedColor = null;
+    selectedColorDisplay.textContent = defaultText;
+    selectedColorDisplay.style.color = defaultColor;
+  }
+});
+
+
 
 /**
  * Initialise le sélecteur de quantité
