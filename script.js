@@ -173,6 +173,38 @@ function setupEventListeners() {
   }
 }
 
+// Fonction pour afficher une notification
+function showNotification(message) {
+  // Créer l'élément de notification
+  const notification = document.createElement('div');
+  notification.className = 'notification';
+  
+  // Ajouter une icône et le message
+  notification.innerHTML = `
+    <i class="fas fa-check-circle"></i>
+    <span>${message}</span>
+  `;
+  
+  // Ajouter au DOM
+  document.body.appendChild(notification);
+  
+  // Forcer un reflow pour permettre la transition
+  const reflow = notification.offsetHeight;
+  
+  // Ajouter la classe show pour rendre visible avec animation
+  notification.classList.add('show');
+  
+  // Retirer après 3 secondes
+  setTimeout(() => {
+    notification.classList.remove('show');
+    
+    // Attendre la fin de l'animation avant de supprimer
+    setTimeout(() => {
+      notification.remove();
+    }, 300);
+  }, 3000);
+}
+
 // Reset slider interval
 function resetSliderInterval() {
   if (slideInterval) {
