@@ -40,6 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const priceElement = document.querySelector('.current-price');
         const productPrice = priceElement ? parseFloat(priceElement.textContent.replace(/[^\d.-]/g, '')) : 0;
         
+        // Vérifier si le prix de gros est sélectionné
+        const wholesaleCheckbox = document.getElementById('wholesale-checkbox');
+        const wholesalePriceElement = document.querySelector('.wholesale-price-value');
+        let isWholesale = false;
+        let wholesalePrice = 0;
+        
+        if (wholesaleCheckbox && wholesaleCheckbox.checked && wholesalePriceElement) {
+          isWholesale = true;
+          wholesalePrice = parseFloat(wholesalePriceElement.textContent.replace(/[^\d.-]/g, ''));
+        }
+        
         // Récupérer l'image actuelle
         const mainImage = document.querySelector('.swiper-slide-active img') || 
                           document.querySelector('.product-main-image img') ||
@@ -58,7 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
           price: productPrice,
           quantity: quantity,
           color: color,
-          image: imagePath
+          image: imagePath,
+          isWholesale: isWholesale,
+          wholesalePrice: wholesalePrice
         });
         
         // Créer l'objet produit
@@ -68,8 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
           quantity: Number(quantity),
           color: color,
           image: imagePath,
-          total: productPrice * Number(quantity),
-          id: document.location.pathname.split('/').pop().replace('.html', '') // Extraire l'ID du produit depuis l'URL
+          total: isWholesale ? wholesalePrice * Number(quantity) : productPrice * Number(quantity),
+          id: document.location.pathname.split('/').pop().replace('.html', ''), // Extraire l'ID du produit depuis l'URL
+          isWholesale: isWholesale,
+          wholesalePrice: wholesalePrice
         };
         
         // Vider localStorage avant de stocker pour éviter les conflits

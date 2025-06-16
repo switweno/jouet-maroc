@@ -75,7 +75,12 @@ document.addEventListener('DOMContentLoaded', function() {
           
           // Recalculer le total pour être sûr
           if (product.price) {
-            product.total = product.price * product.quantity;
+            // Utiliser le prix de gros si sélectionné
+            if (product.isWholesale && product.wholesalePrice) {
+              product.total = product.wholesalePrice * product.quantity;
+            } else {
+              product.total = product.price * product.quantity;
+            }
           }
         }
         
@@ -102,7 +107,9 @@ document.addEventListener('DOMContentLoaded', function() {
       name: product.name || defaultProduct.name,
       price: Number(product.price || defaultProduct.price),
       quantity: Number(product.quantity || defaultProduct.quantity),
-      image: product.image || defaultProduct.image
+      image: product.image || defaultProduct.image,
+      isWholesale: product.isWholesale || false,
+      wholesalePrice: Number(product.wholesalePrice || 0)
     };
     
     // N'ajouter la couleur que si elle existe vraiment et n'est pas vide
@@ -133,11 +140,17 @@ document.addEventListener('DOMContentLoaded', function() {
     productQuantity.textContent = productToDisplay.quantity.toString();
     console.log('Quantité affichée:', productToDisplay.quantity);
     
-    // Prix unitaire
-    productPrice.textContent = `${productToDisplay.price.toFixed(2)} DH`;
+    // Prix unitaire - afficher prix normal ou prix de gros selon le choix
+    const priceToShow = productToDisplay.isWholesale ? productToDisplay.wholesalePrice : productToDisplay.price;
+    productPrice.textContent = `${priceToShow.toFixed(2)} DH`;
+    
+    // Ajouter une indication si c'est le prix de gros
+    if (productToDisplay.isWholesale) {
+      productPrice.textContent += ' (Prix de gros)';
+    }
     
     // Calculer et afficher le total
-    const total = productToDisplay.price * productToDisplay.quantity;
+    const total = priceToShow * productToDisplay.quantity;
     productTotal.textContent = `${total.toFixed(2)} DH`;
     console.log('Total calculé:', total);
   }
@@ -252,7 +265,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // S'assurer que les valeurs sont correctes
     const quantity = Number(product.quantity || 1);
     const price = Number(product.price || 0);
-    const total = price * quantity;
+    const isWholesale = product.isWholesale || false;
+    const wholesalePrice = Number(product.wholesalePrice || 0);
+    
+    // Déterminer le prix unitaire à utiliser
+    const unitPrice = isWholesale ? wholesalePrice : price;
+    const total = unitPrice * quantity;
     
     let message = '🛒 *NOUVELLE COMMANDE* 🛒\n\n';
     
@@ -265,7 +283,13 @@ document.addEventListener('DOMContentLoaded', function() {
       message += `- Couleur: ${product.color}\n`;
     }
     
-    message += `- Prix: ${price.toFixed(2)} DH\n`;
+    // Indiquer si c'est un prix de gros
+    if (isWholesale) {
+      message += `- Prix unitaire: ${unitPrice.toFixed(2)} DH (Prix de gros)\n`;
+    } else {
+      message += `- Prix unitaire: ${unitPrice.toFixed(2)} DH\n`;
+    }
+    
     message += `- Quantité: ${quantity}\n`;
     message += `- Total: ${total.toFixed(2)} DH\n`;
     
