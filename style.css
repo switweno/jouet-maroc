@@ -273,7 +273,7 @@ img {
 .card-divider {
   height: 1px;
   background-color: #e0e0e0;
-  margin: -8px 10px 0 15px; /* مسافة من الجوانب ومن الأعلى */
+  margin: -7px 10px 0 15px; /* مسافة من الجوانب ومن الأعلى */
 }
 
 .product-badge {
