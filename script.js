@@ -334,11 +334,21 @@ document.addEventListener('DOMContentLoaded', function () {
           z-index: 10000;
           transition: all 0.3s ease;
           opacity: 0.7;
+          -webkit-tap-highlight-color: transparent;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          user-select: none;
+          outline: none;
         }
         
         .lightbox-nav:hover {
           background-color: rgba(0, 0, 0, 0.8);
           opacity: 1;
+        }
+        
+        .lightbox-nav:active {
+          background-color: rgba(0, 0, 0, 0.9);
+          transform: translateY(-50%) scale(0.95);
         }
         
         .lightbox-prev {
@@ -359,6 +369,12 @@ document.addEventListener('DOMContentLoaded', function () {
           padding: 5px 15px;
           border-radius: 20px;
           font-size: 14px;
+          -webkit-tap-highlight-color: transparent;
+        }
+        
+        /* Suppression de l'effet de surbrillance sur l'ensemble du lightbox */
+        #lightbox, #lightbox * {
+          -webkit-tap-highlight-color: transparent;
         }
         
         /* Optimisation pour mobile */
