@@ -46,6 +46,9 @@ function initProductSlider() {
       slidesPerView: 'auto',
       watchSlidesProgress: true,
       freeMode: true,
+      watchSlidesVisibility: true, // Surveiller la visibilité des slides
+      centerInsufficientSlides: true, // Centrer si pas assez de slides
+      slideToClickedSlide: true, // Naviguer vers la slide cliquée
       navigation: {
         nextEl: '.thumbs-button-next',
         prevEl: '.thumbs-button-prev',
@@ -88,7 +91,8 @@ function initProductSlider() {
         clickable: true,
       },
       thumbs: {
-        swiper: thumbsSlider
+        swiper: thumbsSlider,
+        autoScrollOffset: 1, // Nombre de slides à défiler automatiquement
       },
       // Configuration optimisée du lazy loading (une seule propriété lazy)
       preloadImages: false,
@@ -127,6 +131,13 @@ function initProductSlider() {
               }
             });
           }, 300);
+          
+          // Synchroniser les miniatures avec la slide active
+          const activeIndex = mainSlider.activeIndex;
+          if (thumbsSlider.slides && thumbsSlider.slides.length > activeIndex) {
+            // Calculer la position pour centrer la miniature active
+            thumbsSlider.slideTo(activeIndex, 300, true);
+          }
         },
         
         lazyImageReady: function(slideEl, imageEl) {
@@ -159,18 +170,36 @@ function initProductSlider() {
       grabCursor: true
     });
 
-    // Synchronisation manuelle des deux sliders
-    mainSlider.on('slideChange', function() {
-      const activeIndex = mainSlider.activeIndex;
-      if (thumbsSlider.slides && thumbsSlider.slides.length > activeIndex) {
-        thumbsSlider.slideTo(activeIndex);
-      }
+    // Amélioration de la synchronisation bidirectionnelle entre les sliders
+    thumbsSlider.on('click', function() {
+      // Petit délai pour s'assurer que la transition est terminée
+      setTimeout(() => {
+        // Trouver l'index de la miniature active (celle qui a été cliquée)
+        const activeThumbIndex = thumbsSlider.clickedIndex;
+        if (activeThumbIndex !== null && activeThumbIndex !== undefined) {
+          // Mettre à jour le slider principal
+          mainSlider.slideTo(activeThumbIndex);
+          
+          // S'assurer que la miniature active est visible dans le viewport
+          thumbsSlider.slideTo(
+            Math.max(0, activeThumbIndex - 1), 
+            300, 
+            false
+          );
+        }
+      }, 10);
     });
 
     // Mise à jour des sliders lors du redimensionnement
     window.addEventListener('resize', function() {
       mainSlider.update();
       thumbsSlider.update();
+      
+      // Réaligner les miniatures après redimensionnement
+      const activeIndex = mainSlider.activeIndex;
+      if (thumbsSlider.slides && thumbsSlider.slides.length > activeIndex) {
+        thumbsSlider.slideTo(activeIndex);
+      }
     });
 
     // Solution supplémentaire: observer les changements dans le DOM et masquer les préchargeurs
