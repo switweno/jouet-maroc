@@ -241,7 +241,7 @@ function addNotificationStyles() {
     }
     .notification i {
       font-size: 1.5rem;
-      color: #FF0555;
+      color: #954484;
     }
   `;
   document.head.appendChild(style);
@@ -287,31 +287,195 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const galleryImages = document.querySelectorAll('.gallery-img');
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightbox-img');
-
-    if (galleryImages.length > 0 && lightbox && lightboxImg) {
-      // فتح الصورة
-      galleryImages.forEach(img => {
-        img.addEventListener('click', function () {
-          lightboxImg.src = this.src;
-          lightbox.style.display = 'flex';
-        });
+  const galleryImages = document.querySelectorAll('.gallery-img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  
+  // Vérifier si le lightbox existe sur cette page
+  if (galleryImages.length > 0 && lightbox && lightboxImg) {
+    let currentImageIndex = 0;
+    
+    // Ajouter les flèches de navigation au lightbox s'ils n'existent pas déjà
+    if (!document.querySelector('.lightbox-nav')) {
+      // Ajouter les flèches de navigation
+      const prevArrow = document.createElement('div');
+      prevArrow.className = 'lightbox-nav lightbox-prev';
+      prevArrow.innerHTML = '<i class="fas fa-chevron-left"></i>';
+      
+      const nextArrow = document.createElement('div');
+      nextArrow.className = 'lightbox-nav lightbox-next';
+      nextArrow.innerHTML = '<i class="fas fa-chevron-right"></i>';
+      
+      lightbox.appendChild(prevArrow);
+      lightbox.appendChild(nextArrow);
+      
+      // Ajouter le numéro d'image
+      const imageCounter = document.createElement('div');
+      imageCounter.className = 'lightbox-counter';
+      lightbox.appendChild(imageCounter);
+      
+      // Ajouter les styles CSS nécessaires pour les nouveaux éléments
+      const style = document.createElement('style');
+      style.textContent = `
+        .lightbox-nav {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          font-size: 24px;
+          z-index: 10000;
+          transition: all 0.3s ease;
+          opacity: 0.7;
+        }
+        
+        .lightbox-nav:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+          opacity: 1;
+        }
+        
+        .lightbox-prev {
+          left: 20px;
+        }
+        
+        .lightbox-next {
+          right: 20px;
+        }
+        
+        .lightbox-counter {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          padding: 5px 15px;
+          border-radius: 20px;
+          font-size: 14px;
+        }
+        
+        /* Optimisation pour mobile */
+        @media (max-width: 768px) {
+          .lightbox-nav {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+          }
+          
+          .lightbox-prev {
+            left: 10px;
+          }
+          
+          .lightbox-next {
+            right: 10px;
+          }
+        }
+        
+        /* Animation de transition */
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        
+        .lightbox-content {
+          animation: fadeIn 0.3s ease;
+        }
+      `;
+      document.head.appendChild(style);
+      
+      // Événements pour les flèches
+      prevArrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        navigateImage(-1);
       });
-
-      // إغلاق عند الضغط خارج الصورة
-      lightbox.addEventListener('click', function (e) {
-        if (e.target !== lightboxImg) {
+      
+      nextArrow.addEventListener('click', function(e) {
+        e.stopPropagation();
+        navigateImage(1);
+      });
+    }
+    
+    // Fonction pour naviguer entre les images
+    function navigateImage(direction) {
+      currentImageIndex = (currentImageIndex + direction + galleryImages.length) % galleryImages.length;
+      lightboxImg.src = galleryImages[currentImageIndex].src;
+      updateCounter();
+    }
+    
+    // Mise à jour du compteur d'images
+    function updateCounter() {
+      const counter = document.querySelector('.lightbox-counter');
+      if (counter) {
+        counter.textContent = `${currentImageIndex + 1} / ${galleryImages.length}`;
+      }
+    }
+    
+    // Ouvrir le lightbox lors du clic sur une image
+    galleryImages.forEach((img, index) => {
+      img.addEventListener('click', function () {
+        currentImageIndex = index;
+        lightboxImg.src = this.src;
+        lightbox.style.display = 'flex';
+        updateCounter();
+      });
+    });
+    
+    // Fermer le lightbox lors du clic en dehors de l'image
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox) {
+        closeLightbox();
+      }
+    });
+    
+    // Navigation avec les touches du clavier
+    document.addEventListener('keydown', function(e) {
+      if (lightbox.style.display === 'flex') {
+        if (e.key === 'ArrowLeft') {
+          navigateImage(-1);
+        } else if (e.key === 'ArrowRight') {
+          navigateImage(1);
+        } else if (e.key === 'Escape') {
           closeLightbox();
         }
-      });
-
-      // دالة إغلاق عامة
-      window.closeLightbox = function () {
-        lightbox.style.display = 'none';
-      };
+      }
+    });
+    
+    // Support du balayage tactile pour mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    lightbox.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+    
+    lightbox.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, false);
+    
+    function handleSwipe() {
+      const swipeThreshold = 50;
+      if (touchEndX < touchStartX - swipeThreshold) {
+        // Balayage vers la gauche -> image suivante
+        navigateImage(1);
+      } else if (touchEndX > touchStartX + swipeThreshold) {
+        // Balayage vers la droite -> image précédente
+        navigateImage(-1);
+      }
     }
-  });
+    
+    // Fonction de fermeture
+    window.closeLightbox = function() {
+      lightbox.style.display = 'none';
+    };
+  }
+});
 
 
