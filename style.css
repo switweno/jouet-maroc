@@ -71,7 +71,7 @@ img {
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #0D5E87 !important; /* إجباري */
+  background-color: #954484 !important; /* إجباري */
   color: #ffffff !important;
   border: none;
   border-radius: 4px;
@@ -82,7 +82,7 @@ img {
 
 
 .btn:hover {
-  background-color: #266483 !important;
+  background-color: #1298db !important;
   transform: translateY(-2px);
 }
 
