@@ -295,6 +295,35 @@ document.addEventListener('DOMContentLoaded', function () {
   if (galleryImages.length > 0 && lightbox && lightboxImg) {
     let currentImageIndex = 0;
     
+    // Définir les fonctions comme des expressions de fonctions
+    const navigateImage = function(direction) {
+      currentImageIndex = (currentImageIndex + direction + galleryImages.length) % galleryImages.length;
+      lightboxImg.src = galleryImages[currentImageIndex].src;
+      updateCounter();
+    };
+    
+    const updateCounter = function() {
+      const counter = document.querySelector('.lightbox-counter');
+      if (counter) {
+        counter.textContent = `${currentImageIndex + 1} / ${galleryImages.length}`;
+      }
+    };
+    
+    const handleSwipe = function() {
+      const swipeThreshold = 50;
+      if (touchEndX < touchStartX - swipeThreshold) {
+        // Balayage vers la gauche -> image suivante
+        navigateImage(1);
+      } else if (touchEndX > touchStartX + swipeThreshold) {
+        // Balayage vers la droite -> image précédente
+        navigateImage(-1);
+      }
+    };
+    
+    const closeLightbox = function() {
+      lightbox.style.display = 'none';
+    };
+    
     // Ajouter les flèches de navigation au lightbox s'ils n'existent pas déjà
     if (!document.querySelector('.lightbox-nav')) {
       // Ajouter les flèches de navigation
@@ -361,7 +390,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         .lightbox-counter {
           position: absolute;
-          bottom: 20px;
+          bottom: 10px;
           left: 50%;
           transform: translateX(-50%);
           background-color: rgba(0, 0, 0, 0.5);
@@ -384,6 +413,13 @@ document.addEventListener('DOMContentLoaded', function () {
             height: 40px;
             font-size: 18px;
           }
+          
+          .lightbox-counter {
+          position: absolute;
+          bottom: 10px;
+          left: 50%;
+          
+        }
           
           .lightbox-prev {
             left: 10px;
@@ -416,21 +452,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.stopPropagation();
         navigateImage(1);
       });
-    }
-    
-    // Fonction pour naviguer entre les images
-    function navigateImage(direction) {
-      currentImageIndex = (currentImageIndex + direction + galleryImages.length) % galleryImages.length;
-      lightboxImg.src = galleryImages[currentImageIndex].src;
-      updateCounter();
-    }
-    
-    // Mise à jour du compteur d'images
-    function updateCounter() {
-      const counter = document.querySelector('.lightbox-counter');
-      if (counter) {
-        counter.textContent = `${currentImageIndex + 1} / ${galleryImages.length}`;
-      }
     }
     
     // Ouvrir le lightbox lors du clic sur une image
@@ -476,21 +497,8 @@ document.addEventListener('DOMContentLoaded', function () {
       handleSwipe();
     }, false);
     
-    function handleSwipe() {
-      const swipeThreshold = 50;
-      if (touchEndX < touchStartX - swipeThreshold) {
-        // Balayage vers la gauche -> image suivante
-        navigateImage(1);
-      } else if (touchEndX > touchStartX + swipeThreshold) {
-        // Balayage vers la droite -> image précédente
-        navigateImage(-1);
-      }
-    }
-    
-    // Fonction de fermeture
-    window.closeLightbox = function() {
-      lightbox.style.display = 'none';
-    };
+    // Exposer la fonction de fermeture à la portée globale
+    window.closeLightbox = closeLightbox;
   }
 });
 
