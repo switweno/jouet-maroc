@@ -119,7 +119,7 @@
     <loc>https://jouet-maroc.com/produits/velo-vtt-dragon</loc>
     <lastmod>2025-06-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jouet-maroc.com/produits/likebike-harley-u9</loc>
@@ -154,6 +154,12 @@
   <url>
     <loc>https://jouet-maroc.com/produits/velo-vtt-thunderbird</loc>
     <lastmod>2025-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jouet-maroc.com/produits/likebike-a10</loc>
+    <lastmod>2025-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
