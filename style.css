@@ -208,6 +208,46 @@ img {
  
 }
 
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 1rem 1rem;
+  background-color: #f0f8ff;
+  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+
 
 
 /* Catalog */
@@ -896,4 +936,5 @@ textarea:focus-visible,
   -webkit-tap-highlight-color: transparent; 
   outline: none; 
 }
+
 
