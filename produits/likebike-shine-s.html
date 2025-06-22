@@ -29,12 +29,12 @@
   <meta name="theme-color" content="#954484" />
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="../product-details.css" />
   <link rel="stylesheet" href="../css/product-slider.css" />
   <link rel="stylesheet" href="../whatsapp-button.css" />
   <link rel="stylesheet" href="../product-cards.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   
   <!-- Style pour la vidéo responsive -->
   <style>
@@ -43,14 +43,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 356px; /* عرض ثابت تقريبا للتابث */
+    max-width: 356px; 
     margin: 20px auto;
   }
 
   .fb-video-wrapper {
     position: relative;
-    width: 100%; /* 100% من max-width للكونتينر */
-    padding-top: 177.78%; /* 16:9 معكوس = 9/16*100% ≈ 56.25% لكن للفيديو العمودي 9:16 => (16/9)*100% = 177.78% */
+    width: 100%; 
+    padding-top: 177.78%; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
   }
@@ -426,10 +426,11 @@
           <div class="product-share">
   <span>Partager:</span>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https://jouet-maroc.com/produits/likebike-shine-s" target="_blank" aria-label="Partager sur Facebook"><i class="fab fa-facebook"></i></a>
-  <a href="https://twitter.com/intent/tweet?url=https://jouet-maroc.com/produits/likebike-shine-s&text=V%C3%89LO%20%C3%89LECTRIQUE%20LIKEBIKE%20SHINE%20S" target="_blank" aria-label="Partager sur Twitter"><i class="fab fa-twitter"></i></a>
-  <a href="https://wa.me/?text=Découvrez%20le%20V%C3%89LO%20%C3%89LECTRIQUE%20LIKEBIKE%20SHINE%20S%20https://jouet-maroc.com/produits/likebike-shine-s" target="_blank" aria-label="Partager sur WhatsApp"><i class="fab fa-whatsapp"></i></a>
-  <a href="mailto:?subject=V%C3%89LO%20%C3%89LECTRIQUE%20LIKEBIKE%20SHINE%20S&body=Découvrez%20le%20V%C3%89LO%20%C3%89LECTRIQUE%20LIKEBIKE%20SHINE%20S%20https://jouet-maroc.com/produits/likebike-shine-s" aria-label="Partager par email"><i class="fas fa-envelope"></i></a>
+  <a href="https://twitter.com/intent/tweet?url=https://jouet-maroc.com/produits/likebike-shine-s&text=V%C3%A9lo%20%C3%A9lectrique%20Likebike%20Shine%20S" target="_blank" aria-label="Partager sur Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="https://wa.me/?text=D%C3%A9couvrez%2C%20V%C3%A9lo%20%C3%A9lectrique%20Likebike%20Shine%20S%20https%3A%2F%2Fjouet-maroc.com%2Fproduits%2Flikebike-shine-s" target="_blank" aria-label="Partager sur WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="mailto:?subject=V%C3%A9lo%20%C3%A9lectrique%20Likebike%20Shine%20S&body=D%C3%A9couvrez%2C%20V%C3%A9lo%20%C3%A9lectrique%20Likebike%20Shine%20S%20https%3A%2F%2Fjouet-maroc.com%2Fproduits%2Flikebike-shine-s" aria-label="Partager par email"><i class="fas fa-envelope"></i></a>
 </div>
+
 
         </div>
       </article>
@@ -844,24 +845,15 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-
-  <!-- Script spécifique pour le slider de produit -->
-  <script src="../js/product-slider.js"></script>
+     <!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="../js/product-slider.js" defer></script>
+<script src="../js/product-page-init.js" defer></script>
+<script src="../whatsapp-order.js" defer></script>
+<script src="../script.js" defer></script>
+<script src="../mobile-menu.js" defer></script>
+<script src="../js/product-tabs.js" defer></script>
   
-  <!-- Script d'initialisation de la page produit (couleur et quantité) -->
-  <script src="../js/product-page-init.js"></script>
-  
-  <!-- Autres scripts -->
-  <script src="../whatsapp-order.js"></script>
-  <script src="../script.js"></script>
-  <script src="../mobile-menu.js"></script>
-  
-  <!-- Ajouter le script des onglets avant la fermeture du body -->
-  <script src="../js/product-tabs.js"></script>
-
-  <!-- Ajouter le script pour le chargement différé de la vidéo juste avant la fermeture de la balise body -->
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     // Fonction pour charger la vidéo uniquement lorsque l'onglet est cliqué
