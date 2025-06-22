@@ -847,22 +847,21 @@
 
 
 <script defer>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Vérifier si les images sont chargées
+  window.addEventListener('load', function () {
     const swiperImages = document.querySelectorAll('.swiper img');
     swiperImages.forEach(img => {
-      img.onerror = function() {
+      img.onerror = function () {
         console.error('Erreur de chargement d\'image:', img.src);
-        // Remplacer par une image par défaut si disponible
         // img.src = 'chemin/vers/image-par-defaut.webp';
       };
     });
 
-    const swiper = new Swiper('.swiper', {
+    const swiper = new Swiper('.mySwiper', {
       loop: true,
       autoplay: {
         delay: 6000,
         disableOnInteraction: false,
+        pauseOnMouseEnter: true, 
       },
       pagination: {
         el: '.swiper-pagination',
@@ -875,6 +874,7 @@
     });
   });
 </script>
+
 
 </body>
 </html>
