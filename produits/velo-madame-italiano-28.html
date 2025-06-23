@@ -141,40 +141,27 @@
     "@type": "Brand",
     "name": "Madame Italiano"
   },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "4.5",
-      "bestRating": "5"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Cliente heureuse"
-    }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "89"
-  },
   "offers": {
     "@type": "Offer",
     "url": "https://jouet-maroc.com/produits/velo-madame-italiano-28",
     "priceCurrency": "MAD",
     "price": "1749",
+    "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
     },
-     "hasMerchantReturnPolicy": {
+    "paymentAccepted": "CashOnDelivery",
+    "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
       "applicableCountry": "MA",
-      "returnFees": "FreeReturn"
+      "returnFees": "FreeReturn",
+      "refundType": "https://schema.org/FullRefund"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -187,17 +174,14 @@
         "@type": "ShippingDeliveryTime",
         "handlingTime": {
           "@type": "QuantitativeValue",
-          "value": 1,
+          "minValue": 1,
+          "maxValue": 1,
           "unitCode": "d"
         },
-        "minTransitTime": {
+        "transitTime": {
           "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "maxTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 3,
+          "minValue": 1,
+          "maxValue": 3,
           "unitCode": "d"
         }
       },
@@ -205,11 +189,53 @@
         "@type": "DefinedRegion",
         "addressCountry": "MA"
       }
+    }
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.5",
+      "bestRating": "5"
     },
-    "paymentAccepted": "CashOnDelivery"
+    "author": {
+      "@type": "Person",
+      "name": "Client satisfait"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "89"
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://jouet-maroc.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Vélos Classiques",
+      "item": "https://jouet-maroc.com/categories/velos-classiques"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vélo madame italiano"
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -267,13 +293,11 @@
     <!-- Slider principal -->
     <div class="swiper product-swiper">
       <div class="swiper-wrapper">
-        <!-- Première slide sans lazy loading - chargement immédiat -->
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/madame-italiano-28-01.webp" alt="VÉLO MADAME ITALIANO 28" width="600" height="750">
           </div>
         </div>
-        <!-- Autres slides avec lazy loading correct -->
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/madame-italiano-28-02.webp" data-src="../images/slider/madame-italiano-28-02.webp" class="swiper-lazy" alt="VÉLO MADAME ITALIANO 28" width="600" height="750">
@@ -421,7 +445,7 @@
           </div>
           
           <div class="product-actions">
-            <!-- Modifier les boutons d'action du produit pour afficher directement le bouton Commander maintenant -->
+           
             <button class="whatsapp-order-btn">
               <i class="fab fa-whatsapp"></i> Commander maintenant
             </button>

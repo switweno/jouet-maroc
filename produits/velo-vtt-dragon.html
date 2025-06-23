@@ -135,10 +135,60 @@
     "https://jouet-maroc.com/images/slider/velo-vtt-dragon-02.webp",
     "https://jouet-maroc.com/images/slider/velo-vtt-dragon-03.webp"
   ],
-  "description": "VTT robuste 26 pouces avec 21 vitesses Shiming, freins à disque, amortisseur avant et jantes en aluminium. Idéal pour les terrains variés et les aventures sportives.",
+  "description": "VTT robuste 26 pouces avec 21 vitesses Shiming, freins à disque, amortisseur avant et jantes en aluminium. Idéal pour les terrains variés et les aventures sportives",
   "brand": {
     "@type": "Brand",
     "name": "DRAGON"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://jouet-maroc.com/produits/velo-vtt-dragon",
+    "priceCurrency": "MAD",
+    "price": "1449",
+    "priceValidUntil": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jouet Maroc"
+    },
+    "paymentAccepted": "CashOnDelivery",
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn",
+      "refundType": "https://schema.org/FullRefund"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "MAD"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1,
+          "unitCode": "d"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 3,
+          "unitCode": "d"
+        }
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "MA"
+      }
+    }
   },
   "review": {
     "@type": "Review",
@@ -156,58 +206,32 @@
     "@type": "AggregateRating",
     "ratingValue": "4.5",
     "reviewCount": "54"
-  },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://jouet-maroc.com/produits/velo-vtt-dragon",
-    "priceCurrency": "MAD",
-    "price": "1449",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
-    "priceValidUntil": "2025-12-31",
-    "seller": {
-      "@type": "Organization",
-      "name": "Jouet Maroc"
-    },
-    "hasMerchantReturnPolicy": {
-      "@type": "MerchantReturnPolicy",
-      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-      "merchantReturnDays": 14,
-      "applicableCountry": "MA",
-      "returnFees": "FreeReturn"
-    },
-    "shippingDetails": {
-      "@type": "OfferShippingDetails",
-      "shippingRate": {
-        "@type": "MonetaryAmount",
-        "value": "0",
-        "currency": "MAD"
-      },
-      "deliveryTime": {
-        "@type": "ShippingDeliveryTime",
-        "handlingTime": {
-          "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "minTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "maxTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 3,
-          "unitCode": "d"
-        }
-      },
-      "shippingDestination": {
-        "@type": "DefinedRegion",
-        "addressCountry": "MA"
-      }
-    },
-    "paymentAccepted": "CashOnDelivery"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://jouet-maroc.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Vélos Classiques",
+      "item": "https://jouet-maroc.com/categories/velos-classiques"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Vélo Vtt Dragon"
+    }
+  ]
 }
 </script>
 
@@ -255,7 +279,7 @@
   <div class="breadcrumbs">
     <div class="container">
       <a href="../index.html">Accueil</a> &gt; 
-      <a href="../categories/velos-classiques.html"> Vélos Classiques</a> &gt; 
+      <a href="../categories/velos-classiques.html">Vélos Classiques</a> &gt; 
       <span>Vélo Vtt Dragon</span>
     </div>
   </div>
@@ -269,13 +293,11 @@
     <!-- Slider principal -->
     <div class="swiper product-swiper">
       <div class="swiper-wrapper">
-        <!-- Première slide sans lazy loading - chargement immédiat -->
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/velo-vtt-dragon-01.webp" alt="Vélo Vtt Dragon 26 pouces" width="600" height="750">
           </div>
         </div>
-        <!-- Autres slides avec lazy loading correct -->
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/velo-vtt-dragon-02.webp" data-src="../images/slider/velo-vtt-dragon-02.webp" class="swiper-lazy" alt="Vélo Vtt Dragon 26 pouces 02" width="600" height="750">
@@ -418,7 +440,7 @@
           </div>
           
           <div class="product-actions">
-            <!-- Modifier les boutons d'action du produit pour afficher directement le bouton Commander maintenant -->
+            
             <button class="whatsapp-order-btn">
               <i class="fab fa-whatsapp"></i> Commander maintenant
             </button>

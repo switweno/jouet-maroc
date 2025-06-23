@@ -127,18 +127,68 @@
   
      <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",   
+  "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Trottinette électrique NAVEE N20",
   "image": [
-    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-01.webp",   
-    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-02.webp",   
-    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-03.webp"   
+    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-01.webp",
+    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-02.webp",
+    "https://jouet-maroc.com/images/slider/trottinette-navee-n20-03.webp"
   ],
   "description": "Trottinette électrique NAVEE N20 avec moteur 500W, batterie 36V lithium, autonomie 15-20 km, freins disque arrière + E-ABS, écran LCD, pliable, éclairage LED. Idéale pour la mobilité urbaine au Maroc.",
   "brand": {
     "@type": "Brand",
     "name": "NAVEE"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://jouet-maroc.com/produits/navee-n20",
+    "priceCurrency": "MAD",
+    "price": "2890",
+    "priceValidUntil": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Jouet Maroc"
+    },
+    "paymentAccepted": "CashOnDelivery",
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "applicableCountry": "MA",
+      "returnFees": "FreeReturn",
+      "refundType": "https://schema.org/FullRefund"
+    },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "0",
+        "currency": "MAD"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1,
+          "unitCode": "d"
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 3,
+          "unitCode": "d"
+        }
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "MA"
+      }
+    }
   },
   "review": {
     "@type": "Review",
@@ -156,57 +206,32 @@
     "@type": "AggregateRating",
     "ratingValue": "4.5",
     "reviewCount": "74"
-  },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://jouet-maroc.com/produits/navee-n20",   
-    "priceCurrency": "MAD",
-    "price": "2890",
-    "itemCondition": "https://schema.org/NewCondition",   
-    "availability": "https://schema.org/InStock",   
-    "seller": {
-      "@type": "Organization",
-      "name": "Jouet Maroc"
-    },
-    "hasMerchantReturnPolicy": {
-      "@type": "MerchantReturnPolicy",
-      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-      "merchantReturnDays": 14,
-      "applicableCountry": "MA",
-      "returnFees": "FreeReturn"
-    },
-    "shippingDetails": {
-      "@type": "OfferShippingDetails",
-      "shippingRate": {
-        "@type": "MonetaryAmount",
-        "value": "0",
-        "currency": "MAD"
-      },
-      "deliveryTime": {
-        "@type": "ShippingDeliveryTime",
-        "handlingTime": {
-          "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "minTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "maxTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 3,
-          "unitCode": "d"
-        }
-      },
-      "shippingDestination": {
-        "@type": "DefinedRegion",
-        "addressCountry": "MA"
-      }
-    },
-    "paymentAccepted": "CashOnDelivery"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://jouet-maroc.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Trottinettes Électriques",
+      "item": "https://jouet-maroc.com/categories/trottinettes"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Navee N20"
+    }
+  ]
 }
 </script>
 </head>
@@ -266,13 +291,13 @@
     <!-- Slider principal -->
     <div class="swiper product-swiper">
       <div class="swiper-wrapper">
-        <!-- Première slide sans lazy loading - chargement immédiat -->
+      
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/trottinette-navee-n20-01.webp" alt="Trottinette électrique Trottinette électrique Navee N20 puissante et pratique" width="600" height="750">
           </div>
         </div>
-        <!-- Autres slides avec lazy loading correct -->
+      
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/trottinette-navee-n20-02.webp" data-src="../images/slider/trottinette-navee-n20-02.webp" class="swiper-lazy" alt="Trottinette électrique Navee N20 02" width="600" height="687">
@@ -404,7 +429,7 @@
           </div>
           
           <div class="product-actions">
-            <!-- Modifier les boutons d'action du produit pour afficher directement le bouton Commander maintenant -->
+           
             <button class="whatsapp-order-btn">
               <i class="fab fa-whatsapp"></i> Commander maintenant
             </button>

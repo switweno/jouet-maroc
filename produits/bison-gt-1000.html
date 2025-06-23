@@ -127,53 +127,40 @@
      <!-- Product structured data for SEO -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",   
+  "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Trottinette électrique BISON GT 1000",
   "image": [
-    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-01.webp",   
-    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-02.webp",   
-    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-03.webp"   
+    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-01.webp",
+    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-02.webp",
+    "https://jouet-maroc.com/images/slider/bison-gt-1000-trottinette-electrique-03.webp"
   ],
   "description": "Trottinette électrique BISON GT 1000 – moteur puissant 1000W, autonomie jusqu’à 40 km, freins à disque E-ABS, suspensions avant/arrière, roues 10 pouces tout-terrain. Idéale pour la mobilité au Maroc.",
   "brand": {
     "@type": "Brand",
     "name": "Ecoxtrem"
   },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "4.8",
-      "bestRating": "5"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Client satisfait"
-    }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "63"
-  },
   "offers": {
     "@type": "Offer",
-    "url": "https://jouet-maroc.com/produits/bison-gt-1000",   
+    "url": "https://jouet-maroc.com/produits/bison-gt-1000",
     "priceCurrency": "MAD",
     "price": "5490",
-    "itemCondition": "https://schema.org/NewCondition",   
-    "availability": "https://schema.org/InStock",   
+    "priceValidUntil": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
     },
+    "paymentAccepted": "CashOnDelivery",
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
       "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
       "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
       "applicableCountry": "MA",
-      "returnFees": "FreeReturn"
+      "returnFees": "FreeReturn",
+      "refundType": "https://schema.org/FullRefund"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
@@ -186,17 +173,14 @@
         "@type": "ShippingDeliveryTime",
         "handlingTime": {
           "@type": "QuantitativeValue",
-          "value": 1,
+          "minValue": 1,
+          "maxValue": 1,
           "unitCode": "d"
         },
-        "minTransitTime": {
+        "transitTime": {
           "@type": "QuantitativeValue",
-          "value": 1,
-          "unitCode": "d"
-        },
-        "maxTransitTime": {
-          "@type": "QuantitativeValue",
-          "value": 3,
+          "minValue": 1,
+          "maxValue": 3,
           "unitCode": "d"
         }
       },
@@ -204,9 +188,50 @@
         "@type": "DefinedRegion",
         "addressCountry": "MA"
       }
+    }
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.5",
+      "bestRating": "5"
     },
-    "paymentAccepted": "CashOnDelivery"
+    "author": {
+      "@type": "Person",
+      "name": "Client satisfait"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "63"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://jouet-maroc.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Trottinettes Électriques",
+      "item": "https://jouet-maroc.com/categories/trottinettes"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bison Gt 1000"
+    }
+  ]
 }
 </script>
 </head>
@@ -268,13 +293,13 @@
     <!-- Slider principal -->
     <div class="swiper product-swiper">
       <div class="swiper-wrapper">
-        <!-- Première slide sans lazy loading - chargement immédiat -->
+       
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/bison-gt-1000-trottinette-electrique-01.webp" alt="Trottinette électrique Bison Gt 1000 puissante et pratique" width="600" height="750">
           </div>
         </div>
-        <!-- Autres slides avec lazy loading correct -->
+      
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img src="../images/slider/bison-gt-1000-trottinette-electrique-02.webp" data-src="../images/slider/bison-gt-1000-trottinette-electrique-02.webp" class="swiper-lazy" alt="Trottinette électrique Bison Gt 1000 02" width="600" height="750">
@@ -398,7 +423,7 @@
           
 
           <div class="product-actions">
-            <!-- Modifier les boutons d'action du produit pour afficher directement le bouton Commander maintenant -->
+           
             <button class="whatsapp-order-btn">
               <i class="fab fa-whatsapp"></i> Commander maintenant
             </button>
@@ -700,7 +725,53 @@
           </div>
         </div>
         
+         <div class="product-card2">
+          <span class="product-badge new">Nouveau</span>
+          <a href="../produits/joyor-y-6-s.html">
+          <img src="../images/slider/joyor-y6-s-01.webp" alt="Trottinette électrique Dualtron Pop 52V - Légère et pliable, parfaite pour la ville" loading="lazy" width="250" height="320">
+            </a>
+          <div class="card-divider"></div>
+          <div class="product-info2">
+            <h3>Trottinette électrique Joyor Y6S 48V</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(24)</span>
+            </div>
+            <p class="product-price"><span class="old-price">6090 DH</span> 4999 DH</p>
+            <div class="product-actions2">
+              <!-- Suppression du bouton Ajouter -->
+              <a href="../produits/joyor-y-6-s.html" class="btn view-details" style="width: 100%;"><i class="fas fa-eye"></i> Voir les détails</a>
+            </div>
+          </div>
+        </div>
         
+        <div class="product-card2">
+          
+          <a href="../produits/m41-tank-double-moteur.html">
+          <img src="../images/slider/m41-tank-double-moteur-01.webp" alt="Trottinette électrique Dualtron Pop 52V - Légère et pliable, parfaite pour la ville" loading="lazy" width="250" height="320">
+            </a>
+          <div class="card-divider"></div>
+          <div class="product-info2">
+            <h3>Trottinette Tank M41 Ultimate Double Moteur</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(12)</span>
+            </div>
+            <p class="product-price"><span class="old-price">8999 DH</span> 7990 DH</p>
+            <div class="product-actions2">
+              <!-- Suppression du bouton Ajouter -->
+              <a href="../produits/m41-tank-double-moteur.html" class="btn view-details" style="width: 100%;"><i class="fas fa-eye"></i> Voir les détails</a>
+            </div>
+          </div>
+        </div>
         
          </div>
        </div> 
