@@ -939,3 +939,72 @@ textarea:focus-visible,
 }
 
 
+.catalog-cta-section {
+  padding: 3rem;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  text-align: center;
+  
+}
+
+.catalog-cta-section h2 {
+  color: var(--dark-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.catalog-cta-section p {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.catalog-cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.catalog-cta-btn {
+  padding: 0.8rem 1.5rem;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  background-color: #954484 !important;
+  color: #fff; /* أضفت لون النص عشان يضمن الوضوح */
+  text-decoration: none; /* للتأكد من عدم وجود خط تحت الرابط */
+}
+
+.catalog-cta-btn:hover {
+  background-color: #1298db !important; /* لون عند المرور */
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  transition: 0.3s ease;
+}
+
+.catalog-cta-btn i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .catalog-cta-section {
+   padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .catalog-cta-btn {
+    width: 100%;
+  }
+  .catalog-cta-section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+
