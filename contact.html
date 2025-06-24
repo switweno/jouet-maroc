@@ -365,42 +365,46 @@
     <p>Nous serions ravis de communiquer avec vous et de répondre à vos questions</p>
   </section>
   
-  <div class="contact-container">
-    <div class="contact-form">
-      <h2>Envoyez-nous un message</h2>
-      <p>Notre équipe vous répondra dans les plus brefs délais.</p>
-      
-      <form id="contact-form">
-        <div class="form-group">
-          <label for="name-contact">Nom complet</label>
-          <input type="text" id="name-contact" name="name" placeholder="Votre nom et prénom" required />
-          <i class="fas fa-user input-icon"></i>
-        </div>
-        
-        <div class="form-group">
-          <label for="email-contact">Adresse email</label>
-          <input type="email" id="email-contact" name="email" placeholder="exemple@email.com" required />
-          <i class="fas fa-envelope input-icon"></i>
-        </div>
-        
-        <div class="form-group">
-          <label for="message-contact">Votre message</label>
-          <textarea id="message-contact" name="message" placeholder="Comment pouvons-nous vous aider?" required></textarea>
-          <i class="fas fa-comment input-icon"></i>
-        </div>
-        
-        <button type="submit">
-          <i class="fab fa-whatsapp"></i> Envoyer via WhatsApp
-        </button>
-      </form>
-      
-      <div class="success-message" id="success-message">
-        <i class="fas fa-check-circle"></i>
-        <h3>Message envoyé!</h3>
-        <p>Merci de nous avoir contactés. Nous vous répondrons très bientôt.</p>
+    <div class="contact-container">
+  <div class="contact-form">
+    <h2>Envoyez-nous un message</h2>
+    <p>Notre équipe vous répondra dans les plus brefs délais.</p>
+
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name-contact">Nom complet</label>
+        <input type="text" id="name-contact" name="name" placeholder="Votre nom et prénom" required />
+        <i class="fas fa-user input-icon"></i>
       </div>
+
+      <div class="form-group">
+        <label for="email-contact">Adresse email</label>
+        <input type="email" id="email-contact" name="email" placeholder="exemple@email.com" />
+        <i class="fas fa-envelope input-icon"></i>
+      </div>
+
+      <div class="form-group">
+        <label for="message-contact">Votre message</label>
+        <textarea id="message-contact" name="message" placeholder="Comment pouvons-nous vous aider?" required></textarea>
+        <i class="fas fa-comment input-icon"></i>
+      </div>
+
+      <button type="button" id="send-whatsapp">
+        <i class="fab fa-whatsapp"></i> Envoyer via WhatsApp
+      </button>
+
+      <button type="button" id="send-email">
+        <i class="fas fa-paper-plane"></i> Envoyer via Email
+      </button>
+    </form>
+
+    <div class="success-message" id="success-message" style="display:none;">
+      <i class="fas fa-check-circle"></i>
+      <h3>Message envoyé!</h3>
+      <p>Merci de nous avoir contactés. Nous vous répondrons très bientôt.</p>
     </div>
   </div>
+</div>
   
   
   <!-- Newsletter -->
@@ -499,39 +503,60 @@
 <script src="script.js"></script>
   
 <script>
-  document.getElementById('contact-form').addEventListener('submit', function(e){
-    e.preventDefault();
+  const form = document.getElementById('contact-form');
+  const successMessage = document.getElementById('success-message');
 
+  document.getElementById('send-whatsapp').addEventListener('click', function() {
     const name = encodeURIComponent(document.getElementById('name-contact').value.trim());
-    const email = encodeURIComponent(document.getElementById('email-contact').value.trim());
+    const email = document.getElementById('email-contact').value.trim();
     const message = encodeURIComponent(document.getElementById('message-contact').value.trim());
 
-    if (!name || !email || !message) {
-      alert('Veuillez remplir tous les champs.');
+    if (!name || !message) {
+      alert('Veuillez remplir le nom et le message.');
       return;
     }
 
+    let text = `Nom: ${name}`;
+    if (email) {
+      text += `%0AEmail: ${encodeURIComponent(email)}`;
+    }
+    text += `%0AMessage: ${message}`;
+
     const phoneNumber = '212762609147'; // Numéro WhatsApp
-
-    const text = `Nom: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
-
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
-    
-    // Afficher le message de succès
-    document.getElementById('success-message').classList.add('show');
-    
-    // Attendre un moment avant d'ouvrir WhatsApp
+
+    successMessage.style.display = 'block';
+
     setTimeout(() => {
       window.open(whatsappUrl, '_blank');
-      
-      // Réinitialiser le formulaire
-      document.getElementById('contact-form').reset();
-      
-      // Masquer le message de succès après un délai
+      form.reset();
+
       setTimeout(() => {
-        document.getElementById('success-message').classList.remove('show');
+        successMessage.style.display = 'none';
       }, 5000);
     }, 1000);
+  });
+
+  document.getElementById('send-email').addEventListener('click', function() {
+    const name = document.getElementById('name-contact').value.trim();
+    const email = document.getElementById('email-contact').value.trim();
+    const message = document.getElementById('message-contact').value.trim();
+
+    if (!name || !email || !message) {
+      alert('Veuillez remplir tous les champs, y compris votre adresse email.');
+      return;
+    }
+
+    const subject = encodeURIComponent('Nouveau message de contact');
+    const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+
+    successMessage.style.display = 'block';
+
+    setTimeout(() => {
+      form.reset();
+      successMessage.style.display = 'none';
+    }, 5000);
   });
 </script>
 
