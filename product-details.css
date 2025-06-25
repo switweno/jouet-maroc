@@ -48,10 +48,10 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 30px;
-  text-align: center; /* وسط العنوان */
-  border-bottom: 1px solid #ddd; /* خط سفلي أنيق */
+  text-align: center; 
+  border-bottom: 1px solid #ddd; 
   padding-bottom: 10px;
-  text-transform: uppercase; /* تحويل الأحرف إلى كابيتال */
+  text-transform: uppercase; 
   letter-spacing: 1px;
 }
 
@@ -113,7 +113,6 @@
  
 }
 
-/* للشاشات اللي عرضها 992px وفوق (كبيرة) */
 @media (min-width: 768px) {
   .product-stock {
     margin-bottom: 0.7rem;
@@ -136,7 +135,8 @@
   margin-bottom: 1.5rem;
   color: #000000;
   line-height: 1.6;
-  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
 }
 
 /* Product Variants */
