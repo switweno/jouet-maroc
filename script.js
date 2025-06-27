@@ -11,7 +11,6 @@ const mainNav = document.querySelector('.main-nav');
 let currentSlide = 0;
 let slideInterval;
 
-// Initialize the page
 function init() {
   if (slides && slides.length > 0) {
     startSlider();
@@ -20,7 +19,6 @@ function init() {
   setupLazyLoading();
 }
 
-// Slider Functions
 function startSlider() {
   if (slides && slides.length > 0) {
     showSlide(currentSlide);
@@ -55,9 +53,7 @@ function prevSlide() {
   showSlide(currentSlide);
 }
 
-// Product Filter Functions - version simplifiée sans animations
 function filterProducts(category) {
-  // Marquer le bouton actif
   filterBtns.forEach(btn => {
     if (btn.dataset.category === category) {
       btn.classList.add('active');
@@ -66,7 +62,6 @@ function filterProducts(category) {
     }
   });
 
-  // Filtrer les cartes de produits simplement
   productCards.forEach(card => {
     if (category === 'all' || card.dataset.category === category) {
       card.style.display = 'flex';
@@ -79,16 +74,14 @@ function filterProducts(category) {
 
 
 
-// Fonction pour configurer le lazy loading avec Intersection Observer
 function setupLazyLoading() {
-  // Vérifier si IntersectionObserver est supporté
   if ('IntersectionObserver' in window) {
     const productCards = document.querySelectorAll('.product-card');
     
     const options = {
-      root: null, // utiliser le viewport comme zone d'observation
-      rootMargin: '0px 0px 100px 0px', // marge de 100px en bas pour précharger
-      threshold: 0.1 // 10% de l'élément doit être visible
+      root: null, 
+      rootMargin: '0px 0px 100px 0px', 
+      threshold: 0.1 
     };
     
     const observer = new IntersectionObserver((entries, observer) => {
@@ -97,7 +90,6 @@ function setupLazyLoading() {
           const card = entry.target;
           const image = card.querySelector('img');
           
-          // Si l'image a un attribut data-src, utiliser celui-ci comme source
           if (image && image.dataset.src) {
             image.src = image.dataset.src;
             image.removeAttribute('data-src');
@@ -105,22 +97,18 @@ function setupLazyLoading() {
           
          
           
-          // Arrêter d'observer cet élément
           observer.unobserve(card);
         }
       });
     }, options);
     
-    // Observer chaque carte de produit
     productCards.forEach(card => {
       observer.observe(card);
     });
   }
 }
 
-// Configurer les écouteurs d'événements
 function setupEventListeners() {
-  // Slider controls
   if (prevBtn && nextBtn) {
     prevBtn.addEventListener('click', () => {
       prevSlide();
@@ -133,7 +121,6 @@ function setupEventListeners() {
     });
   }
   
-  // Dot navigation
   if (dots && dots.length > 0) {
     dots.forEach(dot => {
       dot.addEventListener('click', function() {
@@ -147,7 +134,6 @@ function setupEventListeners() {
     });
   }
   
-  // Category filter
   if (filterBtns && filterBtns.length > 0) {
     filterBtns.forEach(btn => {
       btn.addEventListener('click', function() {
@@ -158,7 +144,6 @@ function setupEventListeners() {
     });
   }
   
-  // Newsletter form
   const newsletterForm = document.querySelector('.newsletter-form');
   if (newsletterForm) {
     newsletterForm.addEventListener('submit', function(e) {
@@ -173,39 +158,30 @@ function setupEventListeners() {
   }
 }
 
-// Fonction pour afficher une notification
 function showNotification(message) {
-  // Créer l'élément de notification
   const notification = document.createElement('div');
   notification.className = 'notification';
   
-  // Ajouter une icône et le message
   notification.innerHTML = `
     <i class="fas fa-check-circle"></i>
     <span>${message}</span>
   `;
   
-  // Ajouter au DOM
   document.body.appendChild(notification);
   
-  // Forcer un reflow pour permettre la transition
   const reflow = notification.offsetHeight;
   
-  // Ajouter la classe show pour rendre visible avec animation
   notification.classList.add('show');
   
-  // Retirer après 3 secondes
   setTimeout(() => {
     notification.classList.remove('show');
     
-    // Attendre la fin de l'animation avant de supprimer
     setTimeout(() => {
       notification.remove();
     }, 300);
   }, 3000);
 }
 
-// Reset slider interval
 function resetSliderInterval() {
   if (slideInterval) {
     clearInterval(slideInterval);
@@ -213,9 +189,7 @@ function resetSliderInterval() {
   }
 }
 
-// Add styles needed for notifications
 function addNotificationStyles() {
-  // Création et ajout d'un style pour les notifications
   const style = document.createElement('style');
   style.textContent = `
     .notification {
@@ -247,32 +221,24 @@ function addNotificationStyles() {
   document.head.appendChild(style);
 }
 
-// Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
   try {
-    // Réinitialiser les animations à chaque visite
-    // Pour la page d'accueil
     const hero = document.querySelector('.hero');
     if (hero) {
       const heroElements = hero.querySelectorAll('h1, p');
       heroElements.forEach(el => {
-        // Forcer un redémarrage de l'animation
         el.style.animation = 'none';
-        // Déclencher un reflow (corriger l'erreur JSHint W030)
-        const reflow = el.offsetHeight; // Utiliser dans une variable pour éviter l'erreur
+        const reflow = el.offsetHeight; 
         el.style.animation = null;
       });
     }
     
-    // Pour les pages de catégories
     const categoryHeader = document.querySelector('.category-header');
     if (categoryHeader) {
       const headerElements = categoryHeader.querySelectorAll('h1, p');
       headerElements.forEach(el => {
-        // Forcer un redémarrage de l'animation
         el.style.animation = 'none';
-        // Déclencher un reflow (corriger l'erreur JSHint W030)
-        const reflow = el.offsetHeight; // Utiliser dans une variable pour éviter l'erreur
+        const reflow = el.offsetHeight; 
         el.style.animation = null;
       });
     }
@@ -291,11 +257,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
   
-  // Vérifier si le lightbox existe sur cette page
   if (galleryImages.length > 0 && lightbox && lightboxImg) {
     let currentImageIndex = 0;
     
-    // Définir les fonctions comme des expressions de fonctions
     const navigateImage = function(direction) {
       currentImageIndex = (currentImageIndex + direction + galleryImages.length) % galleryImages.length;
       lightboxImg.src = galleryImages[currentImageIndex].src;
@@ -312,10 +276,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const handleSwipe = function() {
       const swipeThreshold = 50;
       if (touchEndX < touchStartX - swipeThreshold) {
-        // Balayage vers la gauche -> image suivante
         navigateImage(1);
       } else if (touchEndX > touchStartX + swipeThreshold) {
-        // Balayage vers la droite -> image précédente
         navigateImage(-1);
       }
     };
@@ -324,9 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
       lightbox.style.display = 'none';
     };
     
-    // Ajouter les flèches de navigation au lightbox s'ils n'existent pas déjà
     if (!document.querySelector('.lightbox-nav')) {
-      // Ajouter les flèches de navigation
       const prevArrow = document.createElement('div');
       prevArrow.className = 'lightbox-nav lightbox-prev';
       prevArrow.innerHTML = '<i class="fas fa-chevron-left"></i>';
@@ -338,12 +298,10 @@ document.addEventListener('DOMContentLoaded', function () {
       lightbox.appendChild(prevArrow);
       lightbox.appendChild(nextArrow);
       
-      // Ajouter le numéro d'image
       const imageCounter = document.createElement('div');
       imageCounter.className = 'lightbox-counter';
       lightbox.appendChild(imageCounter);
       
-      // Ajouter les styles CSS nécessaires pour les nouveaux éléments
       const style = document.createElement('style');
       style.textContent = `
         .lightbox-nav {
@@ -442,7 +400,6 @@ document.addEventListener('DOMContentLoaded', function () {
       `;
       document.head.appendChild(style);
       
-      // Événements pour les flèches
       prevArrow.addEventListener('click', function(e) {
         e.stopPropagation();
         navigateImage(-1);
@@ -454,7 +411,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
     
-    // Ouvrir le lightbox lors du clic sur une image
     galleryImages.forEach((img, index) => {
       img.addEventListener('click', function () {
         currentImageIndex = index;
@@ -464,14 +420,12 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
     
-    // Fermer le lightbox lors du clic en dehors de l'image
     lightbox.addEventListener('click', function (e) {
       if (e.target === lightbox) {
         closeLightbox();
       }
     });
     
-    // Navigation avec les touches du clavier
     document.addEventListener('keydown', function(e) {
       if (lightbox.style.display === 'flex') {
         if (e.key === 'ArrowLeft') {
@@ -484,7 +438,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
     
-    // Support du balayage tactile pour mobile
     let touchStartX = 0;
     let touchEndX = 0;
     
@@ -497,7 +450,6 @@ document.addEventListener('DOMContentLoaded', function () {
       handleSwipe();
     }, false);
     
-    // Exposer la fonction de fermeture à la portée globale
     window.closeLightbox = closeLightbox;
   }
 });
