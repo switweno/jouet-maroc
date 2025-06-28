@@ -949,3 +949,234 @@
 }
 
 
+
+.product-listing h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center; /* وسط العنوان */
+  border-bottom: 1px solid #ddd; /* خط سفلي أنيق */
+  padding-bottom: 10px;
+  text-transform: uppercase; /* تحويل الأحرف إلى كابيتال */
+  letter-spacing: 1px;
+}
+
+
+.product-card2 {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: var(--transition);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: -6px 15px 0 15px; /* مسافة من الجوانب ومن الأعلى */
+}
+
+
+
+.product-card2 img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.product-info2 {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-info2 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center; 
+  color: #0734A6;
+}
+
+
+.product-rating2 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-rating2 .stars {
+  color: #f39c12; /* برتقالي */
+}
+
+.product-rating2 .rating-count2 {
+  color: #777; /* رمادي */
+  font-size: 0.9rem;
+}
+
+
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--dark-color);
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+.product-info2 .product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #DA2E1B;
+  text-align: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #545454;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.product-actions2 {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: auto;
+  
+}
+
+.product-actions2 .btn {
+  flex: 1;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  display: inline-block;
+  
+}
+
+
+/* Styles spécifiques pour le bouton de commande WhatsApp */
+
+/* Style principal avec plus de spécificité pour surcharger style.css */
+.product-actions .whatsapp-order-btn,
+.whatsapp-order-btn {
+  width: 100%;
+  margin: 1.5rem auto;
+  background-color: #954484 !important; /* Couleur officielle WhatsApp */
+  color: #ffffff ;
+  font-size: 1.2rem !important; /* Forcer la taille de police */
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(114, 17, 175, 0.4);
+  
+  position: relative;
+  overflow: hidden;
+  /* Ajouter ces propriétés pour garantir que le bouton fonctionne comme lien ou bouton */
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ابتداءً من 1200px، حدد العرض الأقصى */
+@media (min-width: 1200px) {
+  .whatsapp-order-btn {
+    max-width: 472px;
+  }
+}
+
+
+
+/* Surcharger le style du bouton dans les product-actions */
+.product-actions .btn.whatsapp-order-btn {
+  font-size: 1.2rem !important; /* Forcer la taille de police */
+  padding: 15px 20px !important; /* Assurer un padding suffisant */
+}
+
+.whatsapp-order-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: 0.5s;
+}
+
+.whatsapp-order-btn:hover {
+  background-color: #69128c  ; /* Couleur plus foncée au survol */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(114, 17, 175, 0.4);
+}
+
+.whatsapp-order-btn:hover:before {
+  left: 100%;
+}
+
+.whatsapp-order-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(114, 17, 175, 0.4);
+}
+
+.whatsapp-order-btn i {
+  font-size: 1.4rem;
+}
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+  .whatsapp-order-btn {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+  
+  .whatsapp-order-btn i {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .whatsapp-order-btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .whatsapp-order-btn i {
+    font-size: 1.2rem;
+  }
+}
+
+/* Animation de pulsation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(114, 17, 175, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* Ajouter l'animation de pulsation après le chargement de la page */
+.whatsapp-pulse {
+  animation: pulse 2s infinite;
+}
