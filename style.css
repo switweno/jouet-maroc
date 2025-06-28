@@ -104,6 +104,13 @@ img {
   color: var(--text-color);
   ;
 }
+
+@media (max-width: 768px) {
+ .breadcrumbs {
+    padding: 0.5rem 0;
+    margin-bottom: 0.3rem;
+  }
+}
  
 .newsletter-form .btn2 {
   display: inline-block;
