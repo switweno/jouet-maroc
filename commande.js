@@ -285,9 +285,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Indiquer si c'est un prix de gros
     if (isWholesale) {
-      message += `- Prix : ${unitPrice.toFixed(2)} DH (Prix de gros)\n`;
+      message += `- Prix: ${unitPrice.toFixed(2)} DH (Prix de gros)\n`;
     } else {
-      message += `- Prix : ${unitPrice.toFixed(2)} DH\n`;
+      message += `- Prix: ${unitPrice.toFixed(2)} DH\n`;
     }
     
     message += `- Quantité: ${quantity}\n`;
