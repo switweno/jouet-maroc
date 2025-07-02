@@ -353,6 +353,30 @@ img {
   background-color: #43a047; /* Vert moyen pour "Meilleur choix" */
 }
 
+/* Rupture de stock */
+
+.product-badge.out-of-stock {
+  background-color: rgb(255, 255, 255); /* Rupture de stock" */
+  color: rgb(255, 0, 0);
+}
+
+.product-card.out-of-stock img,
+.product-card2.out-of-stock img {
+  filter: brightness(80%);
+  transition: filter 0.3s ease;
+}
+
+.product-card.out-of-stock::after,
+.product-card2.out-of-stock::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: hsla(0, 52%, 41%, 0); 
+  pointer-events: none;
+}
+
+
+/* /Rupture de stock */
 
 .product-card img {
   width: 100%;
