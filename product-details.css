@@ -140,8 +140,8 @@
   margin-bottom: 1.5rem;
   color: #000000;
   line-height: 1.6;
-  
   letter-spacing: 1px;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Product Variants */
