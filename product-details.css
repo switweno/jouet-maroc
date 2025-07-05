@@ -2,7 +2,7 @@
 
 /* Breadcrumbs */
 .breadcrumbs {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 1rem 0;
   margin-bottom: 0.2rem;
   font-size: 0.9rem;
@@ -80,13 +80,13 @@
   font-weight: 800;
   color: #e74c3c; 
   background-color: white;    
-  padding: 0.4rem 0.6rem;
+  
   border-radius: 6px;
   
   display: inline-flex;
   align-items: center;
   line-height: 1;
-  box-shadow: 0 0 0 1px #e74c3c1a; 
+  box-shadow: 0 0 0 1px #e74c3c00; 
 }
 
 @media (max-width: 420px) {
@@ -98,7 +98,7 @@
 
 
 .discount-badge {
-  background-color: #DA2E1B;
+  background-color: rgba(218, 46, 27, 0);
   color: white;
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
@@ -138,7 +138,7 @@
 
 .product-short-description {
   margin-bottom: 1.5rem;
-  color: #000000;
+  color: #4F4F4F;
   line-height: 1.6;
   letter-spacing: 1px;
   font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
@@ -490,7 +490,7 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--dark-color);
-  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 420px) {
@@ -528,6 +528,7 @@
   border: 1px solid #ddd;
   padding: 0.8rem;
   text-align: left;
+  background-color: #f9f9f9;
 }
 
 .specs-table th {
