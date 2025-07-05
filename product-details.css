@@ -178,7 +178,7 @@
 }
 
 .color-option.active {
-  border-color: #7211AF;
+  border-color: #777777;
   transform: scale(1.1);
 }
 

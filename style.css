@@ -567,7 +567,7 @@ img {
   background-color: #1d2126;
   color: white;
   padding-top: 3rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-content {
@@ -665,7 +665,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .payment-methods {
@@ -886,6 +886,7 @@ textarea:focus-visible,
   font-size: 1.6rem;
   color: var(--dark-color);
   clear: both;
+  font-family: Segoe UI, Geneva, Verdana, sans-serif;
 }
 
 .gallery {
