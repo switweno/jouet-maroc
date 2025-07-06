@@ -2,7 +2,7 @@
 
 .faq-hero {
   background-color: #f0f8ff;
-  padding: 2.5rem 1rem;
+  padding: 2.5rem 1rem !important;
   text-align: center;
 }
 

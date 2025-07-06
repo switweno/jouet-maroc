@@ -2,7 +2,7 @@
 
 .shipping-hero {
   background-color: #f0f8ff;
-  padding: 3rem 1rem;
+  padding: 3rem 1rem !important;
   text-align: center;
 }
 
