@@ -1,8 +1,6 @@
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-/* Roboto Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 
 /* Global Styles */
@@ -665,7 +663,6 @@ img {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .payment-methods {
