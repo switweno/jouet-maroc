@@ -879,100 +879,6 @@ textarea:focus-visible,
 
 /* Suppression des animations pour les cartes de produits lors du filtrage */
 
-/* Styles pour la galerie de photos clients */
-.client-title {
-  text-align: center;
-  margin: 30px 0 15px;
-  font-size: 1.6rem;
-  color: #4F4F4F;
-  clear: both;
-  font-family: Segoe UI, Geneva, Verdana, sans-serif;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  margin: 20px auto;
-  max-width: 1200px;
-  padding: 0 15px;
-}
-
-.gallery-img {
-  width: 240px;
-  height: 240px;
-  object-fit: cover;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery-img:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Lightbox styles */
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.9);
-  justify-content: center;
-  align-items: center;
-}
-
-.lightbox-content {
-  max-width: 90vw;
-  max-height: 90vh;
-  object-fit: contain;
-  display: block;
-  margin: auto;
-}
-
-.lightbox-close {
-  position: fixed;
-  top: 20px;
-  right: 30px;
-  color: white;
-  font-size: 35px;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 10000;
-}
-
-/* Responsive gallery */
-@media (max-width: 768px) {
-  .gallery-img {
-    width: 180px;
-    height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-img {
-    width: 140px;
-    height: 140px;
-  }
-
-  .gallery {
-    gap: 10px;
-  }
-}
-
-.gallery-img {
-  -webkit-tap-highlight-color: transparent; 
-  outline: none; 
-}
-
-
 .catalog-cta-section {
   padding: 3rem;
   background-color: #f5f7fa;
@@ -1011,12 +917,12 @@ textarea:focus-visible,
   font-size: 1.1rem;
   border-radius: 6px;
   background-color: #954484 !important;
-  color: #fff; /* أضفت لون النص عشان يضمن الوضوح */
-  text-decoration: none; /* للتأكد من عدم وجود خط تحت الرابط */
+  color: #fff; 
+  text-decoration: none; 
 }
 
 .catalog-cta-btn:hover {
-  background-color: #1298db !important; /* لون عند المرور */
+  background-color: #1298db !important; 
   color: #ffffff !important;
   transform: translateY(-2px);
   transition: 0.3s ease;
