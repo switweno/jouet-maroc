@@ -98,7 +98,7 @@
 
 
 .discount-badge {
-  background-color: rgba(218, 46, 27, 0);
+  background-color: rgb(218, 46, 27);
   color: white;
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
