@@ -143,7 +143,7 @@
     "price": "3250",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -372,9 +372,9 @@
               <span class="old-price">3999 DH</span>
               <span class="discount-badge">-30%</span>
             </div>
-            <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+            <div class="product-stock out-of-stock">
+            Rupture de stock
+             </div>
           </div>
           
           <div class="product-rating2">
@@ -400,8 +400,6 @@
               <label>Couleur:</label>
               <div class="color-options">
                 <div class="color-option" style="background-color: #f7f7f7;" data-color="Blanc"></div>
-                <div class="color-option" style="background-color: #ffee15;" data-color="Jaune."></div>
-                <div class="color-option" style="background-color: #494949;" data-color="Gris"></div>
               </div>
               <!-- Ajout d'un élément pour afficher la couleur sélectionnée -->
               <div id="selected-color" class="selected-color-display"></div>
@@ -922,5 +920,21 @@
     }
   });
   </script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const stock = document.querySelector('.product-stock.out-of-stock');
+    const actions = document.querySelector('.product-actions');
+    const quantity = document.querySelector('.product-quantity');
+
+    if (stock) {
+      if (actions) {
+        actions.style.display = 'none';
+      }
+      if (quantity) {
+        quantity.style.display = 'none';
+      }
+    }
+  });
+</script>
 </body>
 </html>
