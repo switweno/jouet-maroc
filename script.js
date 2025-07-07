@@ -7,6 +7,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 const productCards = document.querySelectorAll('.product-card');
 const mainNav = document.querySelector('.main-nav');
 
+
 // Globals
 let currentSlide = 0;
 let slideInterval;
@@ -144,18 +145,7 @@ function setupEventListeners() {
     });
   }
   
-  const newsletterForm = document.querySelector('.newsletter-form');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const email = this.querySelector('input').value;
-      
-      if (email) {
-        showNotification('Merci de vous être abonné à notre newsletter!');
-        this.reset();
-      }
-    });
-  }
+ 
 }
 
 function showNotification(message) {
