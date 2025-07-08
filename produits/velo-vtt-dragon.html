@@ -29,8 +29,8 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <link rel="stylesheet" href="../product-details.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/product-details.css" />
   <link rel="stylesheet" href="../css/product-slider.css" />
   
   <style>
@@ -535,13 +535,11 @@
 
 
 
-  <!-- Nouvel onglet pour la vidéo - sans image placeholder -->
 <div class="tab-pane" id="video">
   <h2>Vidéo de présentation du Vélo Vtt Dragon</h2>
   <p>Découvrez le design, le confort et les fonctionnalités du Vélo Vtt Dragon dans cette vidéo de démonstration exclusive.</p>
 
     <div class="video-container" id="video-container">
-      <!-- Conteneur vide qui sera rempli lors du clic sur l'onglet -->
       <div class="video-loading-placeholder">
         <i class="fas fa-spinner fa-spin"></i>
         <span>Chargement de la vidéo...</span>
@@ -638,10 +636,8 @@
     <div class="container">
       <div class="products">
         <div class="product-card2">
-          
           <a href="../produits/velo-vtt-thunderbird.html">
           <img src="../images/slider/velo-vtt-thunderbird-01.webp" alt="Vélo VTT Thunderbird 26 pouces – vélo VTT" loading="lazy" width="250" height="320">
-            </a>
           <div class="card-divider"></div>
           <div class="product-info2">
             <h3>Vélo VTT Thunderbird 26 pouces</h3>
@@ -655,10 +651,10 @@
             </div>
             <p class="product-price"><span class="old-price">1800 DH</span> 1499 DH</p>
             <div class="product-actions2">
-              <!-- Suppression du bouton Ajouter -->
-              <a href="../produits/velo-vtt-thunderbird.html" class="btn view-details" style="width: 100%;"><i class="fas fa-eye"></i> Voir les détails</a>
+              <span class="btn view-details" style="width: 100%;"><i class="fas fa-eye"></i> Voir les détails</span>
             </div>
           </div>
+          </a>
         </div>
         
         
@@ -667,7 +663,6 @@
        </div> 
   </section>
       
-  <!-- Espace supplémentaire entre les produits similaires et le footer -->
   <div style="margin-bottom: 30px; clear: both;"></div>
       
     </div>
@@ -781,10 +776,10 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 <script src="../js/product-slider.js" defer></script>
 <script src="../js/product-page-init.js" defer></script>
-<script src="../whatsapp-order.js" defer></script>
-<script src="../script.js" defer></script>
-<script src="../mobile-menu.js" defer></script>
+<script src="../js/whatsapp-order.js" defer></script>
+<script src="../js/mobile-menu.js" defer></script>
 <script src="../js/product-tabs.js" defer></script>
+<script src="../js/script.js" defer></script>
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
