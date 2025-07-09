@@ -302,6 +302,7 @@
   
   .product-swiper .swiper-button-next,
   .product-swiper .swiper-button-prev {
+    display: none !important;
     width: 40px;
     height: 40px;
   }
@@ -332,6 +333,7 @@
   .product-swiper .swiper-button-prev {
     width: 20px !important ;
     height: 20px !important;
+    display: none !important;
   }
   
 
