@@ -67,27 +67,7 @@ img {
 }
 /* Boutons */
 
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #0F7CB3 !important; 
-  color: #ffffff !important;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: var(--transition);
-  text-align: center;
-}
 
-
-.btn:hover {
-  background-color: #015681 ;
-  transform: translateY(-2px);
-}
-
-.btn:active {
-  transform: translateY(-1px);
-}
 
  /* Breadcrumbs */
 .breadcrumbs {
@@ -133,7 +113,6 @@ img {
   font-family: 'sailec', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* للشاشات الكبيرة: اجعلها fixed */
 @media (min-width: 1020px) {
   .navbar {
     position: fixed;
@@ -802,7 +781,6 @@ textarea:focus-visible,
 }
 
 
-/* Suppression des animations pour les cartes de produits lors du filtrage */
 
 .catalog-cta-section {
   padding: 3rem;
