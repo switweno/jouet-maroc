@@ -123,8 +123,8 @@
 }
 
 .whatsapp-btn {
-  background-color: #954484 !important;
-  color: #fffcfc !important;
+  background-color: #096C46 ;
+  color: #fffcfc ;
   border-radius: 25px;
   padding: 0.7rem 1.2rem;
   font-size: 1rem;
@@ -135,7 +135,7 @@
 }
 
 .whatsapp-btn:hover {
-  background-color: #128c7e !important;
+  background-color: #128c7e ;
   transform: translateY(-1px);
 }
 
