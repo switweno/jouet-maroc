@@ -462,30 +462,6 @@ img {
   margin-left: 0.5rem;
 }
 
-.product-actions {
-  display: flex;
-  gap: 0.5rem;
-  width: 100%;
-  margin-top: auto;
-  
-}
-
-.product-actions .btn {
-  flex: 1;
-  text-align: center;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  display: inline-block;
-}
-
-
-.view-details {
-  background-color: var(--dark-color);
-}
-
-.product-actions .btn:only-child {
-  width: 100%;
-}
 
 /* Features Section */
 .features {
@@ -831,7 +807,7 @@ textarea:focus-visible,
 
 .catalog-cta-section {
   padding: 3rem;
-  background-color: #f5f7fa;
+  background-color: #fcfcfc;
   border-radius: 12px;
   text-align: center;
   

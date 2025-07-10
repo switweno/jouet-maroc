@@ -192,9 +192,7 @@
   border: 8px solid #cccccc;
 }
 
-.color-option[style*="background-color: #ffffff"].active {
-  border-color: #7211AF;
-}
+
 
 /* Amélioration de l'affichage de la couleur sélectionnée */
 .selected-color-display {
@@ -972,7 +970,7 @@
 
 .product-card2 {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 14px;
   overflow: hidden;
    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: var(--transition);
@@ -1055,27 +1053,7 @@
   margin-left: 0.5rem;
 }
 
-.product-actions2 {
-  display: flex;
-  gap: 0.5rem;
-  width: 100%;
-  margin-top: auto;
-  
-}
 
-.product-actions2 .btn {
-  flex: 1;
-  text-align: center;
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  display: inline-block;
-  
-}
-
-
-/* Styles spécifiques pour le bouton de commande WhatsApp */
-
-/* Style principal avec plus de spécificité pour surcharger style.css */
 .product-actions .whatsapp-order-btn,
 .whatsapp-order-btn {
   width: 100%;
