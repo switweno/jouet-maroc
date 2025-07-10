@@ -58,8 +58,8 @@
 }
 
 .product-details img {
-  width: 200px;
-  height: 210px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid #eee;
