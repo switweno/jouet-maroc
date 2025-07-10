@@ -445,8 +445,8 @@
 }
 
 .tab-btn.active {
-  color: #0F7CB3;
-  border-bottom-color: #0F7CB3;
+  color: #106793;
+  border-bottom-color: #106793;
 }
 
 /* Ajouter un effet visuel pour indiquer que les onglets sont cliquables */
@@ -457,7 +457,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #0F7CB3;
+  background-color: #106793;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
