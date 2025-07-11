@@ -436,13 +436,14 @@
   padding: 1rem 1.5rem;
   background: none;
   border: none;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
   color: #595959;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
   white-space: nowrap;
   position: relative;
+  font-size: 0.9rem;
 }
 
 .tab-btn:hover {
