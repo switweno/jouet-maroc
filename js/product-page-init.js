@@ -208,6 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
         /* Optimisation pour mobile */
         @media (max-width: 768px) {
           .lightbox-nav {
+           display: none;
             width: 40px;
             height: 40px;
             font-size: 18px;

@@ -535,7 +535,7 @@ img {
 }
 
 .social-icons a:hover {
-  background-color: #954484;
+  background-color: #0F7CB3;
   transform: translateY(-3px);
 }
 
@@ -545,13 +545,13 @@ img {
 
 .footer-section ul li a,
 .footer-section ul li a i {
-  color: white; /* لون النص أبيض في الوضع العادي */
+  color: white; 
   transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover,
 .footer-section ul li a:hover i {
-  color: #0F7CB3; /* لون السهم والنص أخضر عند المرور */
+  color: #0F7CB3; 
   padding-left: 5px;
 }
 
