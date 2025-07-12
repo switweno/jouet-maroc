@@ -215,8 +215,8 @@
 .advantage-icon {
   width: 70px;
   height: 70px;
-  min-width: 70px; /* Empêcher le rétrécissement */
-  aspect-ratio: 1/1; /* Garantir un rapport hauteur/largeur de 1:1 */
+  min-width: 70px; 
+  aspect-ratio: 1/1; 
   background-color: #f5f7fa;
   border-radius: 50%;
   display: flex;
@@ -370,13 +370,14 @@
   font-size: 1.1rem;
   border-radius: 6px;
   background-color: #0F7CB3 !important;
+  color: #ffffff !important; 
 }
 
 .cta-btn:hover {
-  background-color: #1298db !important; /* لون أخضر مثلاً */
-  color: #ffffff !important; /* باش يبقى النص باين */
-  transform: translateY(-2px); /* تأثير خفيف كيحرك الزر لفوق */
-  transition: 0.3s ease; /* باش يكون التحول سلس */
+  background-color: #1298db !important; 
+  color: #ffffff !important; 
+  transform: translateY(-2px); 
+  transition: 0.3s ease; 
 }
 
 
@@ -450,7 +451,6 @@
     width: 100%;
   }
   
-  /* Assurer que les icônes restent circulaires même sur très petits écrans */
   .advantage-icon {
     width: 60px;
     height: 60px;
