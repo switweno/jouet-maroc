@@ -124,18 +124,7 @@ img {
   font-family: 'sailec', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (min-width: 1020px) {
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
 
-  body {
-    padding-top: 70px; 
-  }
-}
 
 .logo {
   font-size: 1.5rem;
