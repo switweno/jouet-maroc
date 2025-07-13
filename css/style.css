@@ -28,7 +28,7 @@ html, body {
 
 body {
   font-family: 'Montserrat', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   background-color: var(--light-color);
   color: #545454;
   text-align: left;
@@ -100,8 +100,8 @@ img {
 
 @media (max-width: 768px) {
  .breadcrumbs {
-    padding: 0.5rem 0;
-    margin-bottom: 0.3rem;
+    padding: 1rem 0;
+    margin-bottom: -0.1rem;
   }
 }
  

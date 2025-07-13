@@ -18,6 +18,13 @@
   ;
 }
 
+@media (max-width: 768px) {
+ .breadcrumbs {
+    padding: 1rem 0;
+    margin-bottom: -0.1rem;
+  }
+}
+
 /* Container */
 .container {
   width: 100%;
@@ -138,8 +145,9 @@
 .product-short-description {
   margin-bottom: 1.5rem;
   color: #4F4F4F;
-  line-height: 1.6;
+  line-height: 2;
   letter-spacing: 1px;
+   font-weight: 500;
   
 }
 
@@ -510,7 +518,9 @@
 
 .tab-pane p, .tab-pane ul {
   margin-bottom: 1rem;
-  line-height: 1.6;
+  line-height: 2;
+  letter-spacing: 1px;
+   font-weight: 500;
 }
 
 .tab-pane ul {
@@ -774,10 +784,7 @@
   
   }
   
-  .breadcrumbs {
-    padding: 0.5rem 0;
-    margin-bottom: 0.3rem;
-  }
+  
 }
 
 /* Optimisations supplémentaires pour très petits écrans */
