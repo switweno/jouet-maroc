@@ -145,9 +145,8 @@
 .product-short-description {
   margin-bottom: 1.5rem;
   color: #4F4F4F;
-  line-height: 2;
+  line-height: 1.6;
   letter-spacing: 1px;
-   font-weight: 500;
   
 }
 
@@ -518,9 +517,7 @@
 
 .tab-pane p, .tab-pane ul {
   margin-bottom: 1rem;
-  line-height: 2;
-  letter-spacing: 1px;
-   font-weight: 500;
+  line-height: 1.6;
 }
 
 .tab-pane ul {
