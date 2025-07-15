@@ -871,21 +871,20 @@
   });
   </script>
   
-    <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const stock = document.querySelector('.product-stock.out-of-stock');
-    const actions = document.querySelector('.product-actions');
-    const quantity = document.querySelector('.product-quantity');
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const stock     = document.querySelector('.product-stock.out-of-stock');
+  const actions   = document.querySelector('.product-actions');
+  const quantity  = document.querySelector('.product-quantity');
+  const variants  = document.querySelector('.product-variants'); 
 
-    if (stock) {
-      if (actions) {
-        actions.style.display = 'none';
-      }
-      if (quantity) {
-        quantity.style.display = 'none';
-      }
-    }
-  });
+  if (stock) {               
+    if (actions)  actions.style.display  = 'none'; 
+    if (quantity) quantity.style.display = 'none';  
+    if (variants) variants.style.display = 'none';  
+  }
+});
 </script>
+
 </body>
 </html>
