@@ -376,7 +376,7 @@
         
         <div class="form-group">
           <label for="email-contact">Adresse email</label>
-          <input type="email" id="email-contact" name="email" placeholder="exemple@email.com" required />
+          <input type="email" id="email-contact" name="email" placeholder="exemple@email.com" />
           <i class="fas fa-envelope input-icon"></i>
         </div>
         
@@ -482,41 +482,39 @@
 <script src="js/script.js"></script>
   
 <script>
-  document.getElementById('contact-form').addEventListener('submit', function(e){
-    e.preventDefault();
+ document.getElementById('contact-form').addEventListener('submit', function(e){
+  e.preventDefault();
 
-    const name = encodeURIComponent(document.getElementById('name-contact').value.trim());
-    const email = encodeURIComponent(document.getElementById('email-contact').value.trim());
-    const message = encodeURIComponent(document.getElementById('message-contact').value.trim());
+  const name = encodeURIComponent(document.getElementById('name-contact').value.trim());
+  const email = encodeURIComponent(document.getElementById('email-contact').value.trim());
+  const message = encodeURIComponent(document.getElementById('message-contact').value.trim());
 
-    if (!name || !email || !message) {
-      alert('Veuillez remplir tous les champs.');
-      return;
-    }
+  if (!name || !message) {
+    alert('Veuillez remplir le nom et le message.');
+    return;
+  }
 
-    const phoneNumber = '212762609147'; // Numéro WhatsApp
+  const phoneNumber = '212762609147'; // Numéro WhatsApp
 
-    const text = `Nom: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+  const text = email 
+    ? `Nom: ${name}%0AEmail: ${email}%0AMessage: ${message}`
+    : `Nom: ${name}%0AMessage: ${message}`;
 
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
-    
-    // Afficher le message de succès
-    document.getElementById('success-message').classList.add('show');
-    
-    // Attendre un moment avant d'ouvrir WhatsApp
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;
+  
+  document.getElementById('success-message').classList.add('show');
+  
+  setTimeout(() => {
+    window.open(whatsappUrl, '_blank');
+    document.getElementById('contact-form').reset();
     setTimeout(() => {
-      window.open(whatsappUrl, '_blank');
-      
-      // Réinitialiser le formulaire
-      document.getElementById('contact-form').reset();
-      
-      // Masquer le message de succès après un délai
-      setTimeout(() => {
-        document.getElementById('success-message').classList.remove('show');
-      }, 5000);
-    }, 1000);
-  });
+      document.getElementById('success-message').classList.remove('show');
+    }, 5000);
+  }, 1000);
+});
+
 </script>
+
 
  
 </body>
