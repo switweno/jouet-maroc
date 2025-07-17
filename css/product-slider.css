@@ -8,6 +8,7 @@
   position: relative;
 }
 
+
 /* Slider principal - optimisé pour format portrait */
 .product-swiper {
   width: 100%;
@@ -42,6 +43,29 @@
   background-color: white;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;        
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0.5);  
+  border-radius: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: white;      
+  font-size: 20px;   
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;    
+  color: white;
+}
+
+
 /* Container pour le zoom */
 .product-swiper .swiper-zoom-container {
   width: 100%;
@@ -54,7 +78,7 @@
 
 .swiper-pagination {
   opacity: 0;
-  pointer-events: none; /* كيخليهم غير قابلين للنقر */
+  pointer-events: none; 
   visibility: hidden;
 }
 
