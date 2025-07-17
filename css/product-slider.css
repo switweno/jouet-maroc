@@ -1,5 +1,3 @@
-/* Styles optimisés pour le slider avec images en format portrait (600x750px) */
-
 /* Container principal de la galerie */
 .product-gallery {
   width: 100%;
@@ -101,7 +99,7 @@
 /* Conteneur des miniatures */
 .product-thumbs-container {
   width: 100%;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   position: relative;
   margin-top: 10px;
@@ -171,7 +169,6 @@
   font-size: 12px;
 }
 
-/* Styles pour le lazy loading de Swiper - solution radicale */
 .swiper-lazy-preloader {
   width: 42px;
   height: 42px;
@@ -184,12 +181,11 @@
   transform-origin: 50%;
   animation: swiper-preloader-spin 1s infinite linear;
   box-sizing: border-box;
-  border: 4px solid #3498db; /* Couleur fixe au lieu de var(--secondary-color) qui peut être indéfini */
+  border: 4px solid #3498db; 
   border-radius: 50%;
   border-top-color: transparent;
 }
 
-/* Forcer l'arrêt de l'animation pour économiser les ressources */
 .swiper-slide-active .swiper-lazy-preloader,
 .swiper-lazy-loaded ~ .swiper-lazy-preloader,
 .swiper-lazy-loaded + .swiper-lazy-preloader,
@@ -200,7 +196,6 @@
   animation: none !important;
 }
 
-/* Masquer tous les préchargeurs après un délai - solution radicale */
 .preloader-hidden {
   display: none !important;
   opacity: 0 !important;
@@ -235,7 +230,7 @@
   }
   
   .product-swiper {
-    height: 625px; /* Proportion maintenue 600:750 = 500:625 */
+    height: 625px; 
   }
   
   .product-swiper .swiper-slide img {
@@ -247,12 +242,12 @@
 /* Responsive - Tablettes */
 @media (max-width: 768px) {
   .product-gallery {
-    margin-bottom: 0.5rem; /* Réduire l'espace après la galerie */
+    margin-bottom: 0.5rem; 
   }
   
   .product-thumbs-container {
-    margin-bottom: -1.3rem; /* Réduire l'espace après les miniatures */
-    padding: 0 6px; /* Réduire le padding */
+    margin-bottom: -1.3rem; 
+    padding: 0 1px; 
   }
   
   .product-gallery,
@@ -262,7 +257,7 @@
   }
   
   .product-swiper {
-    height: 562px; /* Proportion maintenue */
+    height: 562px; 
   }
   
   .product-swiper .swiper-slide img {
@@ -279,23 +274,23 @@
 /* Responsive - Grands mobiles */
 @media (max-width: 576px) {
   .product-gallery {
-    margin-bottom: 0.3rem; /* Encore moins d'espace */
+    margin-bottom: 0.3rem; 
   }
   
   .product-swiper {
-    margin-bottom: 5px; /* Réduire l'espace entre le slider et les miniatures */
-    height: calc((100vw - 30px) * 1.25); /* Proportion maintenue (750/600 = 1.25) */
+    margin-bottom: 5px; 
+    height: calc((100vw - 30px) * 1.25); 
     border: none;
   }
   
   .product-thumbs-container {
     margin-top: 1px;
     margin-bottom: -0.3rem;
-    padding: 0 5px; /* Réduire davantage le padding */
+    padding: 0 1px; 
   }
   
   .product-thumbs-swiper {
-    height: 80px; /* Miniatures plus petites */
+    height: 80px; 
   }
   
   /* Optimisation pour le zoom sur mobile */
@@ -310,7 +305,7 @@
   }
   
   .product-swiper {
-    height: calc((100vw - 45px) * 1.30); /* Proportion maintenue (750/600 = 1.25) */
+    height: calc((100vw - 45px) * 1.30); 
     border: none;
   }
   
@@ -335,17 +330,17 @@
 /* Responsive - Petits mobiles */
 @media (max-width: 375px) {
   .product-swiper {
-    height: calc((100vw - 40px) * 1.30); /* Proportion maintenue */
+    height: calc((100vw - 40px) * 1.30); 
   }
   
   .product-thumbs-swiper {
-    height: 80px; /* Miniatures plus petites */
+    height: 80px; 
   }
   
   .product-thumbs-container {
     margin-top: 10px;
     margin-bottom: -1rem;
-    padding: 0 5px; /* Réduire davantage le padding */
+    padding: 0 1px; 
   }
   
   .product-thumbs-swiper .swiper-slide {
