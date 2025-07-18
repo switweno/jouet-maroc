@@ -321,9 +321,8 @@
   
   .product-swiper .swiper-button-next,
   .product-swiper .swiper-button-prev {
-    display: none !important;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 55px;
   }
 }
 
