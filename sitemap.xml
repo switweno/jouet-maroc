@@ -65,7 +65,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://jouet-maroc.com/categories/voitures-electriques</loc>
+    <lastmod>2025-07-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Pages de produits -->
 <url>
   <loc>https://jouet-maroc.com/produits/likebike-shine</loc>
