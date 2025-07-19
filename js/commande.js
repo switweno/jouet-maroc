@@ -305,12 +305,17 @@ document.addEventListener('DOMContentLoaded', function() {
     message += '\n';
     
     // Informations client
-    message += '*Informations client:*\n';
-    message += `*Nom:* ${customer.fullname}\n`;
-    message += `*Téléphone:* ${customer.phone}\n`;
-    message += `*Adresse:* ${customer.address}\n`;
-    message += `*Ville:* ${customer.city}\n`;
-    
+message += '*Informations client:*\n';
+message += `*Nom:* ${limitWords(customer.fullname, 5)}\n`;
+message += `*Téléphone:* ${customer.phone}\n`;
+message += `*Adresse:* ${limitWords(customer.address, 15)}\n`;
+message += `*Ville:* ${limitWords(customer.city, 3)}\n`;
+// Fonction pour limiter le nombre de mots
+function limitWords(text, maxWords) {
+  const words = text.trim().split(/\s+/);
+  return words.slice(0, maxWords).join(' ');
+}
+
     return encodeURIComponent(message);
   }
 
