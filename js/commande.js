@@ -308,8 +308,8 @@ document.addEventListener('DOMContentLoaded', function() {
 message += '*Informations client:*\n';
 message += `*Nom:* ${limitWords(customer.fullname, 5)}\n`;
 message += `*Téléphone:* ${customer.phone}\n`;
-message += `*Adresse:* ${limitWords(customer.address, 15)}\n`;
-message += `*Ville:* ${limitWords(customer.city, 3)}\n`;
+message += `*Adresse:* ${limitWords(customer.address, 20)}\n`;
+message += `*Ville:* ${limitWords(customer.city, 5)}\n`;
 // Fonction pour limiter le nombre de mots
 function limitWords(text, maxWords) {
   const words = text.trim().split(/\s+/);
