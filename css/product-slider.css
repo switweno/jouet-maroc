@@ -74,11 +74,7 @@
 }
 
 
-.swiper-pagination {
-  opacity: 0;
-  pointer-events: none; 
-  visibility: hidden;
-}
+
 
 /* Pagination du slider */
 .product-swiper .swiper-pagination {
