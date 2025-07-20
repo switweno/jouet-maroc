@@ -39,6 +39,13 @@ function initColorSelection() {
       const colorName = this.getAttribute('data-color') || 'Couleur inconnue';
       selectedColorDisplay.textContent = colorName;
       selectedColorDisplay.style.color = ""; // Réinitialiser la couleur du texte
+      
+      // Changer l'image du slider selon la couleur sélectionnée
+      const slideIndex = this.getAttribute('data-slide-index');
+      if (slideIndex && window.mainSlider) {
+        // Si mainSlider est disponible, changer la slide active
+        window.mainSlider.slideTo(parseInt(slideIndex, 10), 300);
+      }
     });
   });
 }

@@ -170,6 +170,10 @@ function initProductSlider() {
       grabCursor: true
     });
 
+    // Exposer mainSlider globalement pour permettre l'accès depuis d'autres scripts
+    window.mainSlider = mainSlider;
+    window.thumbsSlider = thumbsSlider;
+
     // Amélioration de la synchronisation bidirectionnelle entre les sliders
     thumbsSlider.on('click', function() {
       // Petit délai pour s'assurer que la transition est terminée
