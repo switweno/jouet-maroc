@@ -10,8 +10,8 @@
 /* Slider principal - optimisé pour format portrait */
 .product-swiper {
   width: 100%;
-  max-width: 550px;
-  height: 687px;
+  max-width: 600px;
+  height: 750px;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 10px;
@@ -73,7 +73,11 @@
   justify-content: center;
 }
 
-
+.swiper-pagination {
+  opacity: 0;
+  pointer-events: none; 
+  visibility: hidden;
+}
 
 
 /* Pagination du slider */
@@ -204,11 +208,11 @@
   .product-gallery,
   .product-swiper,
   .product-thumbs-container {
-    max-width: 550px;
+    max-width: 520px;
   }
   
   .product-swiper {
-    height: 687px;
+    height: 650px;
   }
   
   .product-swiper .swiper-slide img {
