@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function initColorSelection() {
   const colorOptions = document.querySelectorAll('.color-option');
   const selectedColorDisplay = document.getElementById('selected-color');
+  const clearButton = document.getElementById('clear-color-selection');
   
   if (!colorOptions.length || !selectedColorDisplay) return;
   
@@ -25,6 +26,11 @@ function initColorSelection() {
   // Afficher un message invitant l'utilisateur à choisir une couleur
   selectedColorDisplay.textContent = "Veuillez choisir une couleur";
   selectedColorDisplay.style.color = "#666"; // Style pour indiquer qu'aucune sélection n'a été faite
+  
+  // Cacher le bouton Clear au démarrage (aucune couleur n'est sélectionnée)
+  if (clearButton) {
+    clearButton.classList.add('hidden');
+  }
   
   // Ajouter les écouteurs d'événements à chaque option de couleur
   colorOptions.forEach(option => {
@@ -40,6 +46,11 @@ function initColorSelection() {
       selectedColorDisplay.textContent = colorName;
       selectedColorDisplay.style.color = ""; // Réinitialiser la couleur du texte
       
+      // Afficher le bouton Clear
+      if (clearButton) {
+        clearButton.classList.remove('hidden');
+      }
+      
       // Changer l'image du slider selon la couleur sélectionnée
       const slideIndex = this.getAttribute('data-slide-index');
       if (slideIndex && window.mainSlider) {
@@ -48,6 +59,26 @@ function initColorSelection() {
       }
     });
   });
+  
+  // Ajouter l'écouteur d'événement au bouton Clear
+  if (clearButton) {
+    clearButton.addEventListener('click', function() {
+      // Retirer la classe active de toutes les options
+      colorOptions.forEach(opt => opt.classList.remove('active'));
+      
+      // Réinitialiser le message de sélection
+      selectedColorDisplay.textContent = "Veuillez choisir une couleur";
+      selectedColorDisplay.style.color = "#666";
+      
+      // Cacher le bouton Clear
+      this.classList.add('hidden');
+      
+      // Revenir à la première slide (optionnel)
+      if (window.mainSlider) {
+        window.mainSlider.slideTo(0, 300);
+      }
+    });
+  }
 }
 
 /**
