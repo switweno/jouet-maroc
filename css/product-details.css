@@ -1269,5 +1269,36 @@
   outline: none; 
 }
 
+/* Styles pour le conteneur des options de couleur avec bouton Clear */
+.color-options-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clear-selection {
+  margin-left: 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.2s ease;
+  transform: translateY(-4px);
+
+}
+
+.clear-selection:hover {
+  background-color: #e5e5e5;
+  color: #333;
+}
+
+/* Masquer le bouton Clear par défaut */
+.clear-selection.hidden {
+  display: none;
+}
+
 
 
