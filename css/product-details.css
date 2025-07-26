@@ -622,6 +622,8 @@
   text-align: right;
 }
 
+
+
 .bar-container {
   flex: 1;
   height: 8px;
@@ -1068,7 +1070,7 @@
 .whatsapp-order-btn {
   width: 100%;
   margin: 1.5rem auto;
-  background-color: #0F7CB3 !important; /* Couleur officielle WhatsApp */
+  background-color: #0a664c !important; /* Couleur officielle WhatsApp */
   color: #ffffff ;
   font-size: 1.2rem !important; /* Forcer la taille de police */
   font-weight: 600;
@@ -1301,4 +1303,33 @@
 }
 
 
+.specs-table th {
+  background-color: #0F7CB3;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
 
+.product-price-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.discount-badge {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  box-shadow: 0 2px 4px rgba(231, 76, 60, 0.3);
+  animation: pulse 2s infinite;
+}
