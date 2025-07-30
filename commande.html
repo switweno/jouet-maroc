@@ -127,7 +127,7 @@
         <div class="product-summary">
           <h2>Résumé de votre commande</h2>
           <div class="product-details">
-            <img id="product-image" src="images/slider/likebike-shine-s-01.webp" alt="Image du produit">
+            <img id="product-image" src="images/slider/likebike-shine-s-01.webp" alt="Image du produit" class="clickable-image">
             <div class="product-info2">
               <h3 id="product-name"></h3>
               <p id="product-color" class="product-variant"></p>
@@ -184,6 +184,13 @@
     </div>
   </section>
 
+  <!-- Modal pour l'aperçu d'image -->
+  <div id="image-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="modal-image" src="" alt="Image agrandie du produit">
+    </div>
+  </div>
 
   <!-- Footer -->
 <footer class="footer">
@@ -305,6 +312,43 @@
           console.error("DEBUG - Erreur de parsing:", e);
         }
       }
+    });
+    
+    // Script pour l'aperçu d'image
+    document.addEventListener('DOMContentLoaded', function() {
+      const productImage = document.getElementById('product-image');
+      const imageModal = document.getElementById('image-modal');
+      const modalImage = document.getElementById('modal-image');
+      const closeModal = document.querySelector('.close-modal');
+      
+      // Ouvrir le modal au clic sur l'image
+      productImage.addEventListener('click', function() {
+        modalImage.src = this.src;
+        imageModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Empêcher le défilement
+      });
+      
+      // Fermer le modal au clic sur le bouton de fermeture
+      closeModal.addEventListener('click', function() {
+        imageModal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Réactiver le défilement
+      });
+      
+      // Fermer le modal au clic en dehors de l'image
+      imageModal.addEventListener('click', function(e) {
+        if (e.target === imageModal) {
+          imageModal.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      });
+      
+      // Fermer le modal avec la touche Échap
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && imageModal.style.display === 'flex') {
+          imageModal.style.display = 'none';
+          document.body.style.overflow = 'auto';
+        }
+      });
     });
   </script>
 </body>
