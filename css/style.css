@@ -427,14 +427,20 @@ img {
   font-weight: bold;
   color: #DA2E1B;
   text-align: center;
-   margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: row; /* تغيير من row-reverse إلى row: السعر القديم في اليسار والجديد في اليمين */
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; /* زيادة المسافة بين السعرين */
 }
 
 .old-price {
   text-decoration: line-through;
   color: #545454;
-  font-size: 1rem;
-  margin-left: 0.5rem;
+  font-size: 0.9rem; /* تصغير حجم السعر القديم */
+  margin-left: 0; /* إزالة الهامش السابق */
+  order: 1; /* جعل السعر القديم يظهر أولاً (من اليسار) */
 }
 
 

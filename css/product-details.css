@@ -92,7 +92,8 @@
   display: inline-flex;
   align-items: center;
   line-height: 1;
-  box-shadow: 0 0 0 1px #e74c3c00; 
+  box-shadow: 0 0 0 1px #e74c3c00;
+  order: 2; /* تغيير من 1 إلى 2: جعل السعر الحالي يظهر ثانياً (من اليمين) */
 }
 
 @media (max-width: 420px) {
@@ -760,6 +761,55 @@
   justify-content: flex-start;
 }
 
+.product-price-container .product-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.product-price-container .current-price {
+  order: 1;
+  position: relative;
+  margin-right: 0;
+}
+
+.product-price-container .old-price {
+  order: 2;
+  text-decoration: line-through;
+  color: #545454;
+  font-size: 0.9rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.product-price-container .discount-badge {
+  order: 3;
+  margin-left: 0;
+}
+
+.product-info2 .product-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-info2 .product-price > span:not(.old-price) {
+  order: 1;
+}
+
+.product-info2 .old-price {
+  order: 2;
+  text-decoration: line-through;
+  color: #545454;
+  font-size: 0.9rem;
+}
+
+
+
 /* Optimisation des espaces pour les petits écrans */
 @media (max-width: 768px) {
   .product {
@@ -972,10 +1022,10 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 30px;
-  text-align: center; /* وسط العنوان */
-  border-bottom: 1px solid #ddd; /* خط سفلي أنيق */
+  text-align: center; 
+  border-bottom: 1px solid #ddd; 
   padding-bottom: 10px;
-  text-transform: uppercase; /* تحويل الأحرف إلى كابيتال */
+  text-transform: uppercase; 
   letter-spacing: 1px;
 }
 
@@ -1056,13 +1106,19 @@
   font-weight: bold;
   color: #DA2E1B;
   text-align: center;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; 
 }
 
-.old-price {
+.product-info2 .old-price {
   text-decoration: line-through;
   color: #545454;
-  font-size: 1rem;
-  margin-left: 0.5rem;
+  font-size: 0.9rem; 
+  margin-left: 0; 
+  order: 1; 
 }
 
 
@@ -1087,12 +1143,12 @@
   
   position: relative;
   overflow: hidden;
-  /* Ajouter ces propriétés pour garantir que le bouton fonctionne comme lien ou bouton */
+  
   text-decoration: none;
   text-align: center;
 }
 
-/* ابتداءً من 1200px، حدد العرض الأقصى */
+
 @media (min-width: 1200px) {
   .whatsapp-order-btn {
     max-width: 472px;
