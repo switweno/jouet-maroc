@@ -93,17 +93,20 @@
     setTimeout(loadGTM, 5000);
   </script>
   
-  <script type="application/ld+json">
+ <!-- Schema.org - Store Information -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Store",
+  "@id": "https://jouet-maroc.com/#store",
   "name": "Jouet Maroc",
   "url": "https://jouet-maroc.com/",
   "logo": "https://jouet-maroc.com/images/about-us.webp",
   "image": "https://jouet-maroc.com/images/about-us-2.webp",
   "description": "Boutique en ligne marocaine spécialisée dans les vélos électriques, trottinettes électriques et jouets pour enfants. Livraison rapide et service fiable.",
   "telephone": "+212762609147",
-  "priceRange": "MAD 500 - MAD 10000",
+  "email": "contact@jouet-maroc.com",
+  "priceRange": "MAD 500-10000",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Riad Oulfa",
@@ -111,6 +114,11 @@
     "addressRegion": "Casablanca-Settat",
     "postalCode": "20240",
     "addressCountry": "MA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.5505",
+    "longitude": "-7.6933"
   },
   "sameAs": [
     "https://www.facebook.com/jouetmaroc2"
@@ -130,19 +138,75 @@
       "opens": "09:00",
       "closes": "21:00"
     }
-  ]
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://jouet-maroc.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
 }
 </script>
 
-
+<!-- Schema.org - WebSite Information -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": "https://jouet-maroc.com/#website",
   "name": "Jouet Maroc",
-  "url": "https://jouet-maroc.com/"
+  "url": "https://jouet-maroc.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://jouet-maroc.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
 }
 </script>
+
+<!-- Schema.org - Organization Information -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://jouet-maroc.com/#organization",
+  "name": "Jouet Maroc",
+  "url": "https://jouet-maroc.com/",
+  "logo": "https://jouet-maroc.com/images/about-us.webp",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+212762609147",
+    "contactType": "customer service",
+    "availableLanguage": ["French", "Arabic"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/jouetmaroc2"
+  ]
+}
+</script>
+
+<!-- Schema.org - BreadcrumbList for Homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://jouet-maroc.com/#breadcrumb",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Accueil",
+    "item": "https://jouet-maroc.com/"
+  }]
+}
+</script>
+
+<!-- Additional Meta Tags -->
+<meta name="format-detection" content="telephone=yes">
+<meta name="theme-color" content="#4285f4">
+<meta name="msapplication-TileColor" content="#4285f4">
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 
 
 <meta name="google-site-verification" content="205YMGXHXKoJfB_xgoZDcosTvmr1DkxfpqiA5b1uSCs" />
