@@ -6,6 +6,7 @@ const nextBtn = document.querySelector('.next-btn');
 const filterBtns = document.querySelectorAll('.filter-btn');
 const productCards = document.querySelectorAll('.product-card');
 const mainNav = document.querySelector('.main-nav');
+const navbar = document.querySelector('.navbar');
 
 
 // Globals
@@ -210,6 +211,42 @@ function addNotificationStyles() {
   `;
   document.head.appendChild(style);
 }
+
+// Add this script to your HTML file
+document.addEventListener('DOMContentLoaded', function() {
+  let lastScrollTop = 0;
+  let scrollTimeout;
+
+  // Only apply scroll behavior on large screens
+  function handleScroll() {
+    if (window.innerWidth <= 1020) return;
+    
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      if (scrollTop > lastScrollTop && scrollTop > 100) {
+        // Scrolling down - hide navbar
+        navbar.classList.add('navbar-hidden');
+        navbar.classList.remove('navbar-visible');
+      } else {
+        // Scrolling up - show navbar
+        navbar.classList.remove('navbar-hidden');
+        navbar.classList.add('navbar-visible');
+      }
+      lastScrollTop = scrollTop;
+    }, 10);
+  }
+
+  window.addEventListener('scroll', handleScroll);
+  
+  // Reset navbar state on window resize
+  window.addEventListener('resize', function() {
+    if (window.innerWidth <= 1020) {
+      navbar.classList.remove('navbar-hidden', 'navbar-visible');
+    }
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   try {
