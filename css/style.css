@@ -113,15 +113,35 @@ img {
   padding: 1rem 2rem ;
   background-color: #ffffff;
   color: #000000;
-   
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   font-family: 'sailec', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  transition: transform 0.3s ease;
 }
 
-
+/* Navbar behavior for large screens only */
+@media (min-width: 1021px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transform: translateY(0);
+  }
+  
+  .navbar.navbar-hidden {
+    transform: translateY(-100%);
+  }
+  
+  .navbar.navbar-visible {
+    transform: translateY(0);
+  }
+  
+  /* Add padding to body to compensate for fixed navbar */
+  body {
+    padding-top: 70px;
+  }
+}
 
 .logo {
   font-size: 1.5rem;
@@ -429,18 +449,18 @@ img {
   text-align: center;
   margin-bottom: 0.8rem;
   display: flex;
-  flex-direction: row; /* تغيير من row-reverse إلى row: السعر القديم في اليسار والجديد في اليمين */
+  flex-direction: row; 
   justify-content: center;
   align-items: center;
-  gap: 0.8rem; /* زيادة المسافة بين السعرين */
+  gap: 0.8rem; 
 }
 
 .old-price {
   text-decoration: line-through;
   color: #545454;
-  font-size: 0.9rem; /* تصغير حجم السعر القديم */
-  margin-left: 0; /* إزالة الهامش السابق */
-  order: 1; /* جعل السعر القديم يظهر أولاً (من اليسار) */
+  font-size: 0.9rem; 
+  margin-left: 0; 
+  order: 1; 
 }
 
 
