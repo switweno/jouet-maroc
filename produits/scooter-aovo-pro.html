@@ -408,12 +408,30 @@
 
          
           
+         <div class="wholesale-info">
+            <i class="fas fa-info-circle"></i>
+            <span>Prix de gros à partir de 5 pièces</span>
+          </div>
+          
           <div class="product-quantity">
             <label for="quantity">Quantité:</label>
             <div class="quantity-selector">
               <button class="quantity-decrease" aria-label="Diminuer la quantité"><i class="fas fa-minus"></i></button>
               <input type="number" id="quantity" name="quantity" value="1" min="1" max="15">
               <button class="quantity-increase" aria-label="Augmenter la quantité"><i class="fas fa-plus"></i></button>
+            </div>
+          </div>
+          
+          <div id="wholesale-section" class="wholesale-price-section">
+            <div class="wholesale-price-header">
+              <i class="fas fa-tag"></i>
+              <span>Prix de gros disponible!</span>
+            </div>
+            <p class="wholesale-price-note">Pour les commandes de 5 articles ou plus:</p>
+            <p class="wholesale-price"><span class="wholesale-price-value">2100</span> DH par unité</p>
+            <div class="wholesale-option">
+              <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
+              <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
             </div>
           </div>
           
@@ -852,6 +870,48 @@
 <script src="../js/product-tabs.js" defer></script>
 <script src="../js/script.js" defer></script>
   
-  
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const quantityInput = document.getElementById('quantity');
+      const wholesaleSection = document.getElementById('wholesale-section');
+      const wholesaleCheckbox = document.getElementById('wholesale-checkbox');
+      
+      // Fonction pour vérifier si on affiche l'option prix de gros
+      function checkWholesaleEligibility() {
+        const quantity = parseInt(quantityInput.value) || 0;
+        
+        if (quantity >= 5) {
+          wholesaleSection.classList.add('show');
+        } else {
+          wholesaleSection.classList.remove('show');
+          if (wholesaleCheckbox) wholesaleCheckbox.checked = false;
+        }
+      }
+      
+      // Écouter les changements de quantité
+      if (quantityInput) {
+        quantityInput.addEventListener('input', checkWholesaleEligibility);
+        
+        // Vérifier également lorsque les boutons +/- sont cliqués
+        const decreaseBtn = document.querySelector('.quantity-decrease');
+        const increaseBtn = document.querySelector('.quantity-increase');
+        
+        if (decreaseBtn) {
+          decreaseBtn.addEventListener('click', function() {
+            setTimeout(checkWholesaleEligibility, 10);
+          });
+        }
+        
+        if (increaseBtn) {
+          increaseBtn.addEventListener('click', function() {
+            setTimeout(checkWholesaleEligibility, 10);
+          });
+        }
+      }
+      
+      // Vérification initiale
+      checkWholesaleEligibility();
+    });
+  </script>
 </body>
 </html>
