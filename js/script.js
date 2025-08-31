@@ -278,6 +278,20 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+const prices = document.querySelectorAll('.product-price span');
+prices.forEach(price => {
+  price.setAttribute('translate', 'no');
+});
+
+const stock = document.querySelectorAll('.product-stock');
+stock.forEach(item => {
+  item.setAttribute('translate', 'no');
+});
+
+const wholesalePrices = document.querySelectorAll('.wholesale-price span');
+wholesalePrices.forEach(price => {
+  price.setAttribute('translate', 'no');
+});
 
 
 
