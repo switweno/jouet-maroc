@@ -142,7 +142,7 @@
     "price": "3290",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -390,9 +390,9 @@
               <span class="old-price">3899 DH</span>
               <span class="discount-badge">-16%</span>
             </div>
-            <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+            <div class="product-stock out-of-stock">
+           Rupture de stock
+             </div>
           </div>
           
           
@@ -666,25 +666,7 @@
           </a>
         </div>
         
-        <div class="product-card2">
-          <a href="../produits/xiaomi-essential.html">
-          <img src="../images/slider/xiaomi-essential-01.webp" alt="Trottinette électrique Trottinette Mi Electric Scooter Essential" loading="lazy" width="250" height="320">
-          <div class="card-divider"></div>
-          <div class="product-info2">
-            <h3>Trottinette Mi Electric Scooter Essential</h3>
-            <div class="product-rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-              <span>(39)</span>
-            </div>
-            <p class="product-price"><span class="old-price">3500 DH</span> 2699 DH</p>
-          </div>
-            </a>
-        </div>
-        
+  
         <div class="product-card2">
           <a href="../produits/navee-n20.html">
           <img src="../images/slider/trottinette-navee-n20-01.webp" alt="Trottinette électrique Navee N20" loading="lazy" width="250" height="320">
@@ -721,6 +703,25 @@
             <p class="product-price"><span class="old-price">3699 DH</span> 3099 DH</p>
           </div>
           </a>
+        </div>
+        
+        <div class="product-card2 out-of-stock">
+        <span class="product-badge out-of-stock">Rupture de stock</span>
+          <a href="../produits/xiaomi-essential.html">
+          <img src="../images/slider/xiaomi-essential-01.webp" alt="Trottinette électrique Trottinette Mi Electric Scooter Essential" loading="lazy" width="250" height="320">
+          <div class="product-info2">
+            <h3>Trottinette Mi Electric Scooter Essential</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(39)</span>
+            </div>
+            <p class="product-price"><span class="old-price">3500 DH</span> 2699 DH</p>
+          </div>
+            </a>
         </div>
         
         <div class="product-card2 out-of-stock">
@@ -903,5 +904,19 @@
     }
   });
   </script>
+       <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const stock     = document.querySelector('.product-stock.out-of-stock');
+  const actions   = document.querySelector('.product-actions');
+  const quantity  = document.querySelector('.product-quantity');
+  const variants  = document.querySelector('.product-variants'); 
+
+  if (stock) {               
+    if (actions)  actions.style.display  = 'none'; 
+    if (quantity) quantity.style.display = 'none';  
+    if (variants) variants.style.display = 'none';  
+  }
+});
+</script>
 </body>
 </html>
