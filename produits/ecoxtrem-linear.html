@@ -144,7 +144,7 @@
     "price": "3099",
     "priceValidUntil": "2025-12-15",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OutOfStock",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -444,9 +444,9 @@
               <span class="old-price">3699 DH</span>
               <span class="discount-badge">-19%</span>
             </div>
-            <div class="product-stock out-of-stock">
-           Rupture de stock
-             </div>
+            <div class="product-stock in-stock">
+              <i class="fas fa-check-circle"></i> En stock 
+            </div>
           </div>
           
           <div class="product-short-description">
@@ -744,6 +744,26 @@
     <div class="container">
       <div class="products">
         <div class="product-card2">
+          <span class="product-badge new">Nouveau</span>
+          <a href="../produits/urban-glide-100evo.html">
+          <img src="../images/slider/urban-glide-100evo-01.webp" alt="Trottinette électrique Urban Glide 100Evo" loading="lazy" width="250" height="320">
+          <div class="card-divider"></div>
+          <div class="product-info2">
+            <h3>Trottinette électrique Urban Glide 100Evo</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(39)</span>
+            </div>
+            <p class="product-price"><span class="old-price">3899 DH</span> 3290 DH</p>
+          </div>
+          </a>
+        </div>
+        
+        <div class="product-card2">
           <span class="product-badge sale">Promo</span>
           <a href="../produits/navee-n20.html">
           <img src="../images/slider/trottinette-navee-n20-01.webp" alt="Trottinette électrique Navee N20" loading="lazy" width="250" height="320">
@@ -784,6 +804,26 @@
         </div>
         
         <div class="product-card2">
+          <span class="product-badge sale">Promo</span>
+          <a href="../produits/xiaomi-essential.html">
+           <img src="../images/slider/xiaomi-essential-01.webp" alt="Trottinette Mi Electric Scooter Essential" loading="lazy" width="250" height="320">
+          <div class="card-divider"></div>
+          <div class="product-info2">
+            <h3>Trottinette Mi Electric Scooter Essential</h3>
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(39)</span>
+            </div>
+            <p class="product-price"><span class="old-price">3500 DH</span> 2599 DH</p>
+          </div>
+          </a>
+        </div>
+        
+        <div class="product-card2">
           <a href="../produits/scooter-bremer.html">
           <img src="../images/slider/scooter-bremer-01.webp" alt="Trottinette électrique Bremer 48V" loading="lazy" width="250" height="320">
           <div class="card-divider"></div>
@@ -800,44 +840,6 @@
             <p class="product-price"><span class="old-price">5299 DH</span> 4599 DH</p>
           </div>
            </a>
-        </div>
-        
-        <div class="product-card2 out-of-stock">
-        <span class="product-badge out-of-stock">Rupture de stock</span>
-          <a href="../produits/urban-glide-100evo.html">
-          <img src="../images/slider/urban-glide-100evo-01.webp" alt="Trottinette électrique Urban Glide 100Evo" loading="lazy" width="250" height="320">
-          <div class="product-info2">
-            <h3>Trottinette électrique Urban Glide 100Evo</h3>
-            <div class="product-rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-              <span>(39)</span>
-            </div>
-            <p class="product-price"><span class="old-price">3899 DH</span> 3290 DH</p>
-          </div>
-          </a>
-        </div>
-		
-		<div class="product-card2 out-of-stock">
-        <span class="product-badge out-of-stock">Rupture de stock</span>
-          <a href="../produits/xiaomi-essential.html">
-          <img src="../images/slider/xiaomi-essential-01.webp" alt="Trottinette électrique Trottinette Mi Electric Scooter Essential" loading="lazy" width="250" height="320">
-          <div class="product-info2">
-            <h3>Trottinette Mi Electric Scooter Essential</h3>
-            <div class="product-rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-              <span>(39)</span>
-            </div>
-            <p class="product-price"><span class="old-price">3500 DH</span> 2699 DH</p>
-          </div>
-            </a>
         </div>
         
         <div class="product-card2 out-of-stock">
@@ -1041,19 +1043,6 @@
     }
   });
   </script>
-         <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const stock     = document.querySelector('.product-stock.out-of-stock');
-  const actions   = document.querySelector('.product-actions');
-  const quantity  = document.querySelector('.product-quantity');
-  const variants  = document.querySelector('.product-variants'); 
-
-  if (stock) {               
-    if (actions)  actions.style.display  = 'none'; 
-    if (quantity) quantity.style.display = 'none';  
-    if (variants) variants.style.display = 'none';  
-  }
-});
-</script>
+  
 </body>
 </html>
