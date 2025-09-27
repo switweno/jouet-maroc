@@ -34,7 +34,34 @@
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/product-details.css" />
   <link rel="stylesheet" href="../css/product-slider.css" />
- 
+   <style>
+  .responsive-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 356px; 
+    margin: 20px auto;
+  }
+
+  .fb-video-wrapper {
+    position: relative;
+    width: 100%; 
+    padding-top: 177.78%; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .fb-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+</style>
 
 <!-- Analytics Scripts -->
   <script>
@@ -443,6 +470,7 @@
         <div class="tabs-header">
           <button class="tab-btn active" data-tab="specifications">Caractéristiques</button>
           <button class="tab-btn" data-tab="description">Description</button>
+          <button class="tab-btn" data-tab="video">Vidéo</button>
           <button class="tab-btn" data-tab="reviews">Avis (44)</button>
         </div>
         
@@ -557,10 +585,19 @@
     </tr>
   </table>
 </div>
+  </div>
+        
+         <div class="tab-pane" id="video">
+  <h2>Vidéo SUBORBOX K1 – Les points forts</h2>
+  <p>Découvrez en vidéo les principales fonctionnalités de la Vélo Électrique SUBORBOX K1 Harley.</p>
 
 
-
-
+    <div class="video-container" id="video-container">
+      <div class="video-loading-placeholder">
+        <i class="fas fa-spinner fa-spin"></i>
+        <span>Chargement de la vidéo...</span>
+      </div>
+    </div>
   </div>
 
           <div class="tab-pane" id="reviews">
@@ -807,7 +844,49 @@
 <script src="../js/mobile-menu.js" defer></script>
 <script src="../js/product-tabs.js" defer></script>
 <script src="../js/script.js" defer></script>
-  
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Fonction pour charger la vidéo uniquement lorsque l'onglet est cliqué
+    const videoTab = document.querySelector('.tab-btn[data-tab="video"]');
+    let videoLoaded = false;
+    
+    if (videoTab) {
+      videoTab.addEventListener('click', function() {
+        if (!videoLoaded) {
+          const videoContainer = document.getElementById('video-container');
+          if (videoContainer) {
+            // Remplacer le placeholder par l'iframe avec une approche responsive
+            videoContainer.innerHTML = `
+              <div class="responsive-video-container">
+                <div class="fb-video-wrapper">
+                  <iframe 
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjouetmaroc2%2Fvideos%2F31552656121045620%2F&show_text=false&width=267&t=0" 
+                    style="border:none;overflow:hidden" 
+                    scrolling="no" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                    allowFullScreen="true">
+                  </iframe>
+                </div>
+              </div>
+            `;
+            videoLoaded = true;
+          }
+        }
+      });
+    }
+    
+    // Assurer que la vidéo est chargée si l'utilisateur accède directement à l'onglet vidéo via un lien
+    const hashValue = window.location.hash;
+    if (hashValue === '#video' && videoTab) {
+      // Simuler un clic sur l'onglet vidéo
+      setTimeout(() => {
+        videoTab.click();
+      }, 100);
+    }
+  });
+  </script>
   
 </body>
 </html>
