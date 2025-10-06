@@ -141,7 +141,7 @@
     "@type": "Offer",
     "url": "https://jouet-maroc.com/produits/ecoxtrem-linear",
     "priceCurrency": "MAD",
-    "price": "2990",
+    "price": "3199",
     "priceValidUntil": "2025-12-15",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
@@ -308,6 +308,24 @@
             <div class="swiper-lazy-preloader"></div>
           </div>
         </div>
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="../images/slider/ecoxtrem-linear-07.webp" data-src="../images/slider/ecoxtrem-linear-07.webp" class="swiper-lazy" alt="Trottinette Ecoxtrem Linear 07" width="600" height="750">
+            <div class="swiper-lazy-preloader"></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="../images/slider/ecoxtrem-linear-08.webp" data-src="../images/slider/ecoxtrem-linear-08.webp" class="swiper-lazy" alt="Trottinette Ecoxtrem Linear 08" width="600" height="750">
+            <div class="swiper-lazy-preloader"></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-zoom-container">
+            <img src="../images/slider/ecoxtrem-linear-09.webp" data-src="../images/slider/ecoxtrem-linear-09.webp" class="swiper-lazy" alt="Trottinette Ecoxtrem Linear 09" width="600" height="750">
+            <div class="swiper-lazy-preloader"></div>
+          </div>
+        </div>
      
      
    </div>
@@ -339,6 +357,15 @@
         <div class="swiper-slide">
           <img src="../images/slider/ecoxtrem-linear-miniature-06.webp" alt="Miniature 6">
         </div>
+         <div class="swiper-slide">
+          <img src="../images/slider/ecoxtrem-linear-miniature-07.webp" alt="Miniature 7">
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/slider/ecoxtrem-linear-miniature-08.webp" alt="Miniature 8">
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/slider/ecoxtrem-linear-miniature-09.webp" alt="Miniature 9">
+        </div>
        </div> 
     </div>
     
@@ -350,8 +377,8 @@
           
           <div class="product-price-container">
             <div class="product-price">
-              <span class="current-price">2990 DH</span>
-              <span class="old-price">3699 DH</span>
+              <span class="current-price">3199 DH</span>
+              <span class="old-price">3700 DH</span>
               <span class="discount-badge">-19%</span>
             </div>
             <div class="product-stock in-stock">
@@ -365,9 +392,18 @@
   </p>
 </div>
 
-                   <div class="wholesale-info">
-            <i class="fas fa-info-circle"></i>
-            <span>Prix de gros à partir de 3 pièces</span>
+                  <div class="product-variants">
+            <div class="variant-group">
+              <label>Couleur:</label>
+              <div class="color-options-container">
+              <div class="color-options">
+                <div class="color-option" style="background-color: #070707;" data-color="Noir" data-slide-index="0"></div>
+                <div class="color-option" style="background-color: #ffffff;" data-color="Blanc" data-slide-index="8"></div>
+              </div>
+             <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
+            </div>
+              <div id="selected-color" class="selected-color-display"></div>
+            </div>
           </div>
           
           <div class="product-quantity">
@@ -379,18 +415,6 @@
             </div>
           </div>
           
-          <div id="wholesale-section" class="wholesale-price-section">
-            <div class="wholesale-price-header">
-              <i class="fas fa-tag"></i>
-              <span>Prix de gros disponible!</span>
-            </div>
-            <p class="wholesale-price-note">Pour les commandes de 3 articles ou plus:</p>
-            <p class="wholesale-price"><span class="wholesale-price-value">2600</span> DH par unité</p>
-            <div class="wholesale-option">
-              <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
-              <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
-            </div>
-          </div>
           <div class="product-actions">
            
             <button class="whatsapp-order-btn">
@@ -912,49 +936,6 @@
   });
   </script>
   
-      <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const quantityInput = document.getElementById('quantity');
-      const wholesaleSection = document.getElementById('wholesale-section');
-      const wholesaleCheckbox = document.getElementById('wholesale-checkbox');
-      
-      // Fonction pour vérifier si on affiche l'option prix de gros
-      function checkWholesaleEligibility() {
-        const quantity = parseInt(quantityInput.value) || 0;
-        
-        if (quantity >= 3) {
-          wholesaleSection.classList.add('show');
-        } else {
-          wholesaleSection.classList.remove('show');
-          if (wholesaleCheckbox) wholesaleCheckbox.checked = false;
-        }
-      }
-      
-      // Écouter les changements de quantité
-      if (quantityInput) {
-        quantityInput.addEventListener('input', checkWholesaleEligibility);
-        
-        // Vérifier également lorsque les boutons +/- sont cliqués
-        const decreaseBtn = document.querySelector('.quantity-decrease');
-        const increaseBtn = document.querySelector('.quantity-increase');
-        
-        if (decreaseBtn) {
-          decreaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-        
-        if (increaseBtn) {
-          increaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-      }
-      
-      // Vérification initiale
-      checkWholesaleEligibility();
-    });
-  </script>
   
 </body>
 </html>
