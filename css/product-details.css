@@ -1407,3 +1407,7 @@
   border-left: 3px solid rgba(172, 172, 172, 0.11);
   border-radius: 0 8px 8px 0;
 }
+
+.product-card2.out-of-stock {
+  display: none;
+}
