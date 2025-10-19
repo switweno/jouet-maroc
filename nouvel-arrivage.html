@@ -295,9 +295,9 @@
     </section>
   </main>
 
-  <!-- Lightbox simplifié pour l'affichage des images -->
+  <!-- Lightbox simplifié et optimisé pour l'affichage des images -->
   <div id="lightbox-overlay">
-    <span id="lightbox-close">&times;</span>
+    <span id="lightbox-close" role="button" tabindex="0" aria-label="Fermer l'aperçu d'image">&times;</span>
     <img id="lightbox-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image agrandie du produit">
   </div>
 
@@ -364,50 +364,8 @@
     </div>
   </footer>
 
-  <!-- Modification du script inclus pour debug -->
+  <!-- Supprimer le script de débogage temporaire et garder uniquement les scripts nécessaires -->
   <script src="js/mobile-menu.js" defer></script>
   <script src="js/nouvel-arrivage.js" defer></script>
-  
-  <!-- Script de secours pour le lightbox -->
-  <script>
-    // Ce script s'assurera que le lightbox fonctionne même si le fichier JavaScript principal échoue
-    window.addEventListener('load', function() {
-      // Si le lightbox n'a pas été initialisé correctement
-      if (!document.getElementById('lightbox-overlay').onclick) {
-        console.log("Initialisation du lightbox de secours");
-        
-        const lightbox = document.getElementById('lightbox-overlay');
-        const lightboxImg = document.getElementById('lightbox-image');
-        const closeBtn = document.getElementById('lightbox-close');
-        const images = document.querySelectorAll('.new-product-image img');
-        
-        // Ajouter des écouteurs d'événements aux images
-        images.forEach(img => {
-          img.onclick = function(e) {
-            e.stopPropagation();
-            lightboxImg.src = this.src;
-            lightbox.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
-          };
-        });
-        
-        // Fermer le lightbox
-        if (closeBtn) {
-          closeBtn.onclick = function() {
-            lightbox.style.display = 'none';
-            document.body.style.overflow = 'auto';
-          };
-        }
-        
-        // Fermer le lightbox au clic en dehors de l'image
-        lightbox.onclick = function(e) {
-          if (e.target === lightbox) {
-            lightbox.style.display = 'none';
-            document.body.style.overflow = 'auto';
-          }
-        };
-      }
-    });
-  </script>
 </body>
 </html>

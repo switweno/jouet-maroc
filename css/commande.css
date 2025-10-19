@@ -375,7 +375,13 @@
   color: white;
 }
 
-
+/* Style pour l'affichage de la quantité */
+.quantity-display {
+  font-weight: bold;
+  color: #e74c3c;
+  border: none;
+  background: transparent;
+}
 
 /* Désactiver les flèches du champ de nombre */
 #product-quantity::-webkit-inner-spin-button,

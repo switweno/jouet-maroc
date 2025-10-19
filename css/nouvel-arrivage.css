@@ -110,12 +110,12 @@
 }
 
 .new-product-info h3 {
-  font-size: 1rem; /* Même taille de texte que les cartes de produits standards */
+  font-size: 1.4rem; /* Même taille de texte que les cartes de produits standards */
   margin: 0 0 0.8rem;
   color: #333;
   font-weight: 600;
-  line-height: 1.4;
-  height: 2.8em; /* Hauteur fixe pour le titre pour uniformité */
+  line-height: 1.5;
+  
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -175,7 +175,7 @@
 @media (max-width: 479px) {
   .new-product-features {
     gap: 8px;
-    font-size: 0.78rem; /* Réduire davantage la taille de police */
+    font-size: 1rem; /* Réduire davantage la taille de police */
     justify-content: space-around; /* Mieux distribuer l'espace disponible */
   }
   
@@ -275,9 +275,9 @@
 
 .close-modal {
   position: absolute;
-  top: 1px;       /* خفّضنا قليلًا الموضع لأن الرمز صار أكبر */
+  top: 1px;       
   right: 18px;
-  font-size: 50px; /* ← زِدنا الحجم */
+  font-size: 50px; 
   color: #666;
   cursor: pointer;
   z-index: 10;
