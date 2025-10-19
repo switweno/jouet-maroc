@@ -1,7 +1,7 @@
 /* Styles pour la page Nouvel Arrivage */
 
 .page-title {
-  background-color: #f8f9fa;
+  background-color: #f0f8ff;
   padding: 2rem 0;
   text-align: center;
   margin-bottom: 2rem;
@@ -11,6 +11,7 @@
   color: #333;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  animation: fadeInUp 0.8s ease forwards;
 }
 
 /* Couleur distinctive pour une partie du titre */
@@ -19,6 +20,9 @@
   font-weight: 700;
   position: relative;
   display: inline-block;
+  animation: highlightIn 1.2s ease forwards;
+  animation-delay: 0.3s;
+  opacity: 0; /* État initial avant l'animation */
 }
 
 /* Effet de soulignement stylisé */
@@ -27,16 +31,56 @@
   position: absolute;
   bottom: -5px;
   left: 0;
-  width: 100%;
+  width: 0; /* Commence à 0 pour l'animation */
   height: 3px;
   background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
   border-radius: 3px;
+  animation: lineGrow 1s ease forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes lineGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .page-title p {
   color: #666;
   max-width: 800px;
   margin: 0 auto;
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0; /* État initial avant l'animation */
+}
+
+/* Animations pour le titre et la description */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes highlightIn {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .new-products {
