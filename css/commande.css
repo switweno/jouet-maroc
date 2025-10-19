@@ -117,15 +117,33 @@
   justify-content: space-between;
 }
 
+/* Supprimer la bordure autour du champ de quantité */
+#product-quantity {
+  font-weight: bold;
+  color: #e74c3c;
+  border: none;
+  background: transparent;
+}
+
+/* S'assurer que le style est cohérent pour le reste du texte */
+.product-quantity-price span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .product-total {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
-  color: var(--dark-color);
-  font-size: 1.1rem;
-  margin-top: 1rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid #eee;
+  align-items: center;
+}
+
+.product-total .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e74c3c;
 }
 
 .price {
@@ -328,6 +346,49 @@
 
 .close-modal:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Améliorations pour les boutons de quantité */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.quantity-btn {
+  width: 45px; /* Augmenter la largeur */
+  height: 45px; /* Augmenter la hauteur */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 1.4rem; /* Augmenter la taille de la police */
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 4px;
+}
+
+.quantity-btn:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+
+
+/* Désactiver les flèches du champ de nombre */
+#product-quantity::-webkit-inner-spin-button,
+#product-quantity::-webkit-outer-spin-button,
+#quick-quantity::-webkit-inner-spin-button,
+#quick-quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#product-quantity,
+#quick-quantity {
+  -moz-appearance: textfield;
 }
 
 /* Animations */

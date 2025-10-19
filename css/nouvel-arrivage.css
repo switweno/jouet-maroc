@@ -61,6 +61,7 @@
   /* Dimensions alignées avec les cartes de produits standards */
   width: 100%;
   height: 100%;
+  z-index: 1; /* Ajouté pour s'assurer que la carte est au-dessus de l'arrière-plan */
 }
 
 .new-product-card:hover {
@@ -77,17 +78,17 @@
   padding: 5px 10px;
   font-size: 0.8rem;
   border-radius: 4px;
-  z-index: 1;
+  z-index: 10; /* Valeur plus élevée pour être au-dessus de l'image */
 }
 
 .new-product-image {
-  height: 320px; /* Même hauteur que les images de la page principale */
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f8f9fa;
-  cursor: pointer; /* Indiquer que l'image est cliquable */
+  position: relative;
+  cursor: pointer;
+}
+
+/* Supprimer l'icône de zoom */
+.new-product-image::after {
+  display: none; /* Désactiver l'affichage de l'icône de zoom */
 }
 
 .new-product-image img {
@@ -95,10 +96,8 @@
   height: 100%;
   object-fit: contain;
   transition: transform 0.5s ease;
-}
-
-.new-product-card:hover .new-product-image img {
-  transform: scale(1.05);
+  pointer-events: auto; /* S'assurer que les événements de souris sont captés */
+  z-index: 1; /* Assurer que l'image est au-dessus de l'arrière-plan de la carte */
 }
 
 .new-product-info {
@@ -129,7 +128,8 @@
   align-items: center;
   margin-bottom: 1rem;
   justify-content: center; /* Centrer les éléments de prix */
-  gap: 18px; /* Ajouter un espacement uniforme entre les éléments */
+  flex-wrap: wrap; /* Permettre aux prix de passer à la ligne si nécessaire */
+  gap: 10px; /* Espacement uniforme entre les éléments */
 }
 
 .old-price {
@@ -137,33 +137,64 @@
   text-decoration: line-through;
   font-size: 0.9rem;
   margin-right: 0; /* Enlever la marge droite car on utilise gap */
-  padding-right: 5px; /* Petit padding pour plus d'espace visuel */
+  padding-right: 0; /* Enlever le padding droit */
 }
 
 .current-price {
   color: #e74c3c;
   font-size: 1.3rem;
   font-weight: 700;
-  padding-left: 5px; /* Petit padding pour plus d'espace visuel */
+  padding-left: 0; /* Enlever le padding gauche */
 }
 
 .new-product-features {
   display: flex;
-  justify-content: space-around; /* Répartir les caractéristiques de manière égale */
+  justify-content: center;
   margin-bottom: 1.2rem;
-  font-size: 0.85rem; /* Taille plus petite pour s'intégrer dans la carte */
+  font-size: 0.85rem;
+  flex-wrap: nowrap; /* Forcer l'affichage horizontal */
+  gap: 12px;
+  width: 100%;
 }
 
 .new-product-features span {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   color: #666;
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
 }
 
 .new-product-features i {
   color: #4285f4;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  min-width: 12px;
+}
+
+/* Ajustements pour les petits écrans mais toujours en horizontal */
+@media (max-width: 479px) {
+  .new-product-features {
+    gap: 8px;
+    font-size: 0.78rem; /* Réduire davantage la taille de police */
+    justify-content: space-around; /* Mieux distribuer l'espace disponible */
+  }
+  
+  .new-product-features i {
+    font-size: 0.8rem; /* Réduire la taille de l'icône */
+  }
+  
+  .new-product-features span {
+    padding: 0; /* Supprimer le padding pour gagner de l'espace */
+  }
+}
+
+/* Ne passer en mode vertical que sur les très petits écrans */
+@media (max-width: 320px) {
+  .new-product-features {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
 }
 
 .buy-now-btn {
@@ -171,7 +202,7 @@
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 15px 15px; /* Taille ajustée pour s'aligner avec les autres boutons */
+  padding: 10px 15px;
   font-size: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -181,6 +212,10 @@
   gap: 8px;
   margin-top: auto;
   width: 100%;
+  text-decoration: none;
+  position: relative; /* Pour s'assurer qu'il est au-dessus des autres éléments */
+  z-index: 2; /* Plus élevé que l'image mais moins que le badge */
+  pointer-events: auto; /* S'assurer que les événements de clic sont captés */
 }
 
 .buy-now-btn:hover {
@@ -205,38 +240,9 @@
   color: #888;
 }
 
-/* Styles pour la modal d'aperçu d'image */
-.image-preview-modal {
-  z-index: 1001; /* Assurez-vous qu'elle est au-dessus de la modal d'achat */
-}
-
-.image-modal-content {
-  background-color: transparent;
-  box-shadow: none;
-  max-width: 90%;
-  max-height: 90vh;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.close-image-modal {
-  position: absolute;
-  top: -40px;
-  right: 0;
-  color: white;
-  font-size: 40px;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-#modal-preview-image {
-  max-width: 100%;
-  max-height: 90vh;
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+/* Supprimer les styles de modal qui ne sont plus nécessaires */
+#quick-purchase-modal, .image-preview-modal {
+  display: none !important;
 }
 
 /* Modal styles */
@@ -457,7 +463,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .products-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -472,3 +478,35 @@
     gap: 8px;
   }
 }
+
+/* Styles complètement revus pour la modal d'image */
+#lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox-image {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+#lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
