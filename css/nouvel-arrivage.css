@@ -1,0 +1,474 @@
+/* Styles pour la page Nouvel Arrivage */
+
+.page-title {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-title h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Couleur distinctive pour une partie du titre */
+.title-highlight {
+  color: #4285f4; /* Bleu Google (pour rester dans les couleurs du site) */
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+/* Effet de soulignement stylisé */
+.title-highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  border-radius: 3px;
+}
+
+.page-title p {
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.new-products {
+  padding: 2rem 0 4rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr)); /* Aligné avec les produits de la page principale */
+  gap: 1.5rem; /* Aligné avec l'espacement de la page principale */
+}
+
+.new-product-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* Dimensions alignées avec les cartes de produits standards */
+  width: 100%;
+  height: 100%;
+}
+
+.new-product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.new-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.new-product-image {
+  height: 320px; /* Même hauteur que les images de la page principale */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  cursor: pointer; /* Indiquer que l'image est cliquable */
+}
+
+.new-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.new-product-card:hover .new-product-image img {
+  transform: scale(1.05);
+}
+
+.new-product-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative; /* Pour bien positionner le bouton */
+  text-align: center; /* Centrer tout le texte dans l'info du produit */
+}
+
+.new-product-info h3 {
+  font-size: 1rem; /* Même taille de texte que les cartes de produits standards */
+  margin: 0 0 0.8rem;
+  color: #333;
+  font-weight: 600;
+  line-height: 1.4;
+  height: 2.8em; /* Hauteur fixe pour le titre pour uniformité */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: center; /* Centrer le titre */
+}
+
+.new-product-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: center; /* Centrer les éléments de prix */
+  gap: 18px; /* Ajouter un espacement uniforme entre les éléments */
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  margin-right: 0; /* Enlever la marge droite car on utilise gap */
+  padding-right: 5px; /* Petit padding pour plus d'espace visuel */
+}
+
+.current-price {
+  color: #e74c3c;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-left: 5px; /* Petit padding pour plus d'espace visuel */
+}
+
+.new-product-features {
+  display: flex;
+  justify-content: space-around; /* Répartir les caractéristiques de manière égale */
+  margin-bottom: 1.2rem;
+  font-size: 0.85rem; /* Taille plus petite pour s'intégrer dans la carte */
+}
+
+.new-product-features span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+}
+
+.new-product-features i {
+  color: #4285f4;
+  font-size: 1rem;
+}
+
+.buy-now-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 15px; /* Taille ajustée pour s'aligner avec les autres boutons */
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: auto;
+  width: 100%;
+}
+
+.buy-now-btn:hover {
+  background-color: #3367d6;
+}
+
+/* Style pour l'image par défaut */
+.modal-product-image img[src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"] {
+  background-color: #f5f5f5;
+  min-height: 100px;
+  min-width: 100px;
+  position: relative;
+}
+
+.modal-product-image img[src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"]::before {
+  content: "Image non disponible";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #888;
+}
+
+/* Styles pour la modal d'aperçu d'image */
+.image-preview-modal {
+  z-index: 1001; /* Assurez-vous qu'elle est au-dessus de la modal d'achat */
+}
+
+.image-modal-content {
+  background-color: transparent;
+  box-shadow: none;
+  max-width: 90%;
+  max-height: 90vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.close-image-modal {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#modal-preview-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  position: relative;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1px;       /* خفّضنا قليلًا الموضع لأن الرمز صار أكبر */
+  right: 18px;
+  font-size: 50px; /* ← زِدنا الحجم */
+  color: #666;
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s;
+}
+
+
+
+.close-modal:hover {
+  color: #e74c3c;
+}
+
+.modal-header {
+  background-color: #4285f4;
+  padding: 20px 25px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modal-header h2 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.modal-body {
+  padding: 25px;
+}
+
+.modal-product-info {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.modal-product-image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.modal-product-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal-product-details h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.modal-price {
+  font-size: 1.4rem;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.quick-order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4285f4;
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.2s;
+}
+
+.quantity-btn:hover {
+  background-color: #ddd;
+}
+
+#quick-quantity {
+  width: 60px;
+  text-align: center;
+  border: 1px solid #ddd;
+  height: 36px;
+  margin: 0 5px;
+}
+
+#quick-quantity::-webkit-inner-spin-button,
+#quick-quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none; 
+  margin: 0;
+}
+
+#quick-quantity {
+  -moz-appearance: textfield;
+  appearance: textfield; 
+}
+
+
+.whatsapp-order-btn {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.whatsapp-order-btn:hover {
+  background-color: #128C7E;
+}
+
+.required {
+  color: #e74c3c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .modal-content {
+    width: 95%;
+  }
+  
+  .modal-product-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .modal-product-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .page-title h1 {
+    font-size: 2rem;
+  }
+  
+  .new-product-features {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
