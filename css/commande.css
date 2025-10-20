@@ -401,6 +401,13 @@
   margin: 0;
 }
 
+#product-quantity[type=number],
+#quick-quantity[type=number] {
+  appearance: none;           
+  -moz-appearance: textfield; 
+}
+
+
 
 
 /* Animations */
