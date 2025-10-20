@@ -141,7 +141,7 @@
 }
 
 .product-total .price {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #e74c3c;
 }
@@ -356,8 +356,8 @@
 }
 
 .quantity-btn {
-  width: 45px; /* Augmenter la largeur */
-  height: 45px; /* Augmenter la hauteur */
+  width: 40px; /* Augmenter la largeur */
+  height: 40px; /* Augmenter la hauteur */
   display: flex;
   align-items: center;
   justify-content: center;
