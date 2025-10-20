@@ -134,14 +134,14 @@
   margin-top: 15px;
   padding-top: 15px;
   border-top: 1px solid #eee;
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .product-total .price {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #e74c3c;
 }
@@ -392,10 +392,16 @@
   margin: 0;
 }
 
-#product-quantity,
-#quick-quantity {
-  -moz-appearance: textfield;
+#product-quantity::-webkit-inner-spin-button,
+#product-quantity::-webkit-outer-spin-button,
+#quick-quantity::-webkit-inner-spin-button,
+#quick-quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
 }
+
+
 
 /* Animations */
 @keyframes fadeIn {
