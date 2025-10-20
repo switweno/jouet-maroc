@@ -553,4 +553,34 @@
   z-index: 10000;
 }
 
+/* Styles pour les produits en rupture de stock */
+.new-product-card.out-of-stock {
+  opacity: 0.85;
+  position: relative;
+}
+
+.new-product-card.out-of-stock::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+}
+
+.new-badge.out-of-stock {
+  background-color: #777;
+}
+
+.buy-now-btn.disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.buy-now-btn.disabled:hover {
+  background-color: #999;
+}
+
 
