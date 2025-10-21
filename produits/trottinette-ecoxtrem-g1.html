@@ -145,7 +145,7 @@
     "price": "3290",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OutOfStock",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -395,22 +395,27 @@
               <span class="old-price">3999 DH</span>
               <span class="discount-badge">-18%</span>
             </div>
-            <div class="product-stock out-of-stock">
-           Rupture de stock
-             </div>
+            <div class="product-stock in-stock">
+              <i class="fas fa-check-circle"></i> En stock 
+            </div>
           </div>
           
           
           <div class="product-short-description">
-  <p><strong>TROTTINETTE ECOXTREM G1</strong> – moteur 700W, batterie lithium 36V 10Ah, autonomie 20–30 km, vitesse 35–40 km/h, frein tambour avant/arrière + E-ABS, amortisseur arrière, écran LCD, 3 vitesses, feux LED avant/arrière, étanche IPX5, pliable, indicateur de batterie, pneus 8,5 pouces, charge rapide 42V, charge max 100 kg. Sac en cadeau.</p>
+  <p><strong>TROTTINETTE ECOXTREM G1</strong> – moteur 700W, batterie lithium 36V 10Ah, autonomie 20–30 km, vitesse 35–40 km/h, frein tambour avant/arrière + E-ABS, amortisseur arrière, écran LCD, 3 vitesses, feux LED avant/arrière, étanche IPX5, pliable, indicateur de batterie, pneus 8,5 pouces, charge rapide 42V, charge max 100 kg.</p>
 </div>
+         <div class="wholesale-info">
+  <i class="fas fa-info-circle"></i>
+  <span>Nouvel arrivage ECOXTREM G1 livré sans sac comme fourni par le fabricant.</span>
+</div>
+
 
 <div class="product-variants">
             <div class="variant-group">
               <label>Couleurs disponibles:</label>
               <div class="color-options-container">
               <div class="color-options">
-                
+                <div class="color-option" style="background-color: #008ef9;" data-color="Bleu" data-slide-index="0"></div>
                 <div class="color-option" style="background-color: #f97b00;" data-color="Orange" data-slide-index="1"></div>
                </div>
            <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
@@ -510,7 +515,6 @@
       <li>Étanchéité IPX5</li>
       <li>Indicateur de batterie</li>
       <li>Charge rapide 42V</li>
-      <li>Sac en cadeau</li>
     </ul>
   </div>
 
@@ -579,8 +583,8 @@
       <td>3 niveaux</td>
     </tr>
     <tr>
-      <td>Accessoires</td>
-      <td>Indicateur de batterie, charge rapide 42V, sac en cadeau</td>
+      <td>Charge</td>
+      <td>charge rapide 42V</td>
     </tr>
   </table>
 </div>
@@ -952,19 +956,5 @@
   });
   </script>
   
-       <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const stock     = document.querySelector('.product-stock.out-of-stock');
-  const actions   = document.querySelector('.product-actions');
-  const quantity  = document.querySelector('.product-quantity');
-  const variants  = document.querySelector('.product-variants'); 
-
-  if (stock) {               
-    if (actions)  actions.style.display  = 'none'; 
-    if (quantity) quantity.style.display = 'none';  
-    if (variants) variants.style.display = 'none';  
-  }
-});
-</script>
 </body>
 </html>
