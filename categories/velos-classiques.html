@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="../css/style.css" />
   
   
+  
 <!-- Analytics Scripts -->
   <script>
     function loadAnalyticsScripts() {
@@ -493,8 +494,43 @@
        </div>
       </div>
   </section>
-</main>
+  
+ <!-- Boutons de partage -->
+<section class="share-section">
+  <div class="container">
+    <h3><i class="fas fa-share-alt"></i> Partagez cette collection</h3>
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://jouet-maroc.com/categories/velos-classiques"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button facebook"
+         aria-label="Partager sur Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
 
+      <a href="https://twitter.com/intent/tweet?url=https://jouet-maroc.com/categories/velos-classiques&text=Découvrez notre sélection de vélos classiques chez Jouet Maroc"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button twitter"
+         aria-label="Partager sur Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="https://api.whatsapp.com/send?text=Découvrez notre sélection de vélos classiques chez Jouet Maroc: https://jouet-maroc.com/categories/velos-classiques"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button whatsapp"
+         aria-label="Partager sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <button class="share-button copy"
+              id="copy-link"
+              data-url="https://jouet-maroc.com/categories/velos-classiques"
+              aria-label="Copier le lien">
+        <i class="fas fa-link"></i>
+      </button>
+    </div>
+  </div>
+</section>
+</main>
 
 <!-- Footer -->
 <footer class="footer">
@@ -502,37 +538,38 @@
    <div class="footer-section">
       <h3>À propos</h3>
       <p>JOUET MAROC, basée à Casablanca, est spécialisée dans la vente de jouets innovants et de qualité, offrant à ses clients une expérience d'achat fiable et agréable au Maroc.</p>
-     <div class="social-icons">
-  <a href="https://www.facebook.com/jouetmaroc2" 
-     target="_blank" 
-     rel="noopener" 
-     aria-label="Page Facebook Jouet Maroc">
-    <i class="fab fa-facebook"></i>
-  </a>
-  
-  <a href="https://www.instagram.com/" 
-     target="_blank" 
-     rel="noopener" 
-     aria-label="Compte Instagram Jouet Maroc">
-    <i class="fab fa-instagram"></i>
-  </a>
-  
-  <a href="https://twitter.com/" 
-     target="_blank" 
-     rel="noopener" 
-     aria-label="Profil Twitter Jouet Maroc">
-    <i class="fab fa-twitter"></i>
-  </a>
-  
-  <a href="https://www.youtube.com/" 
-     target="_blank" 
-     rel="noopener" 
-     aria-label="Chaîne YouTube Jouet Maroc">
-    <i class="fab fa-youtube"></i>
-  </a>
- </div>
-</div>
-      <div class="footer-section">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/jouetmaroc2" 
+           target="_blank" 
+           rel="noopener" 
+           aria-label="Page Facebook Jouet Maroc">
+          <i class="fab fa-facebook"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/" 
+           target="_blank" 
+           rel="noopener" 
+           aria-label="Compte Instagram Jouet Maroc">
+          <i class="fab fa-instagram"></i>
+        </a>
+        
+        <a href="https://twitter.com/" 
+           target="_blank" 
+           rel="noopener" 
+           aria-label="Profil Twitter Jouet Maroc">
+          <i class="fab fa-twitter"></i>
+        </a>
+        
+        <a href="https://www.youtube.com/" 
+           target="_blank" 
+           rel="noopener" 
+           aria-label="Chaîne YouTube Jouet Maroc">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-section">
   <h3>Liens Utiles</h3>
  <ul>
   <li><a href="../faq.html"><i class="fas fa-chevron-right"></i> Questions fréquentes</a></li>
@@ -573,5 +610,14 @@
 
   <script src="../js/mobile-menu.js"></script>
   <script src="../js/script.js"></script>
+    <!-- Script pour les boutons de partage -->
+<script>
+  document.getElementById("copy-link").addEventListener("click", function() {
+    const url = this.getAttribute("data-url");
+    navigator.clipboard.writeText(url).then(() => {
+      alert("Lien copié !");
+    });
+  });
+</script>
 </body>
 </html>

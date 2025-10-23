@@ -32,7 +32,6 @@
   <link rel="stylesheet" href="../css/animations.css" /> 
   <link rel="stylesheet" href="../css/style.css" />
   
-  
 <!-- Analytics Scripts -->
   <script>
     function loadAnalyticsScripts() {
@@ -845,6 +844,41 @@
       </div> 
     </div>
   </section>
+  <!-- Boutons de partage -->
+<section class="share-section">
+  <div class="container">
+    <h3><i class="fas fa-share-alt"></i> Partagez cette collection</h3>
+    <div class="share-buttons">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://jouet-maroc.com/categories/trottinettes"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button facebook"
+         aria-label="Partager sur Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a href="https://twitter.com/intent/tweet?url=https://jouet-maroc.com/categories/trottinettes&text=Découvrez notre collection de trottinettes chez Jouet Maroc"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button twitter"
+         aria-label="Partager sur Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="https://api.whatsapp.com/send?text=Découvrez notre collection de trottinettes chez Jouet Maroc: https://jouet-maroc.com/categories/trottinettes"
+         target="_blank" rel="noopener noreferrer"
+         class="share-button whatsapp"
+         aria-label="Partager sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <button class="share-button copy"
+              id="copy-link"
+              data-url="https://jouet-maroc.com/categories/trottinettes"
+              aria-label="Copier le lien">
+        <i class="fas fa-link"></i>
+      </button>
+    </div>
+  </div>
+</section>
   </main>
  
 
@@ -929,5 +963,14 @@
   <!-- Scripts -->
   <script src="../js/mobile-menu.js"></script>
   <script src="../js/script.js"></script>
+    <!-- Script pour les boutons de partage -->
+<script>
+  document.getElementById("copy-link").addEventListener("click", function() {
+    const url = this.getAttribute("data-url");
+    navigator.clipboard.writeText(url).then(() => {
+      alert("Lien copié !");
+    });
+  });
+</script>
 </body>
 </html>
