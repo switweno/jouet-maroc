@@ -210,7 +210,7 @@
 }
 
 .new-product-features i {
-  color: #4285f4;
+  color: #0F7CB3;
   font-size: 0.9rem;
   min-width: 12px;
 }
@@ -242,7 +242,7 @@
 }
 
 .buy-now-btn {
-  background-color: #4285f4;
+  background-color: #0F7CB3;
   color: white;
   border: none;
   border-radius: 4px;
@@ -263,7 +263,7 @@
 }
 
 .buy-now-btn:hover {
-  background-color: #3367d6;
+  background-color: #02496c;
 }
 
 /* Style pour l'image par défaut */
