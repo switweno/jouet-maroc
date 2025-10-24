@@ -348,7 +348,7 @@ img {
 
 .product-card.out-of-stock img,
 .product-card2.out-of-stock img {
-  filter: brightness(90%);
+  filter: brightness(94%);
   transition: filter 0.3s ease;
 }
 
