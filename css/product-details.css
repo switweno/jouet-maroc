@@ -1411,3 +1411,27 @@
 .product-card2.out-of-stock {
   display: none;
 }
+
+.product-size {
+  margin: 20px 0;
+}
+
+.product-size label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.size-selector select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.size-selector select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
