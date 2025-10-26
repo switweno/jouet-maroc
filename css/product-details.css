@@ -1435,3 +1435,64 @@
   outline: none;
   border-color: #4CAF50;
 }
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 12px 35px 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-select select:hover {
+  border-color: #0F7CB3;
+}
+
+.custom-select select:focus {
+  outline: none;
+  border-color: #0F7CB3;
+  box-shadow: 0 0 0 2px rgba(15, 124, 179, 0.2);
+}
+
+.select-arrow {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #666;
+}
+
+.custom-select select:hover + .select-arrow {
+  color: #0F7CB3;
+}
+
+.product-size label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.size-selector {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .custom-select select {
+    padding: 10px 30px 10px 12px;
+    font-size: 15px;
+  }
+}
