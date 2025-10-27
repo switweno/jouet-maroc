@@ -974,25 +974,22 @@
     }
   });
   </script>
-     <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const stock = document.querySelector('.product-stock.out-of-stock');
-    const actions = document.querySelector('.product-actions');
-    const quantity = document.querySelector('.product-quantity');
-    const colorVariants = document.querySelector('.product-variants'); 
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const stock = document.querySelector('.product-stock.out-of-stock');
+  const actions = document.querySelector('.product-actions');
+  const quantity = document.querySelector('.product-quantity');
+  const colorVariants = document.querySelector('.product-variants'); 
+  const wholesaleInfo = document.querySelector('.wholesale-info'); 
 
-    if (stock) {
-      if (actions) {
-        actions.style.display = 'none';
-      }
-      if (quantity) {
-        quantity.style.display = 'none';
-      }
-      if (colorVariants) {
-        colorVariants.style.display = 'none';
-      }
-    }
-  });
-</script> 
+  if (stock) {
+    if (actions) actions.style.display = 'none';
+    if (quantity) quantity.style.display = 'none';
+    if (colorVariants) colorVariants.style.display = 'none';
+    if (wholesaleInfo) wholesaleInfo.style.display = 'none'; 
+  }
+});
+</script>
+ 
 </body>
 </html>
