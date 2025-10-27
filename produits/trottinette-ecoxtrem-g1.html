@@ -145,7 +145,7 @@
     "price": "3290",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock"
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -395,9 +395,9 @@
               <span class="old-price">3999 DH</span>
               <span class="discount-badge">-18%</span>
             </div>
-            <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+            <div class="product-stock out-of-stock">
+           Rupture de stock
+             </div>
           </div>
           
           
@@ -974,6 +974,25 @@
     }
   });
   </script>
-  
+     <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const stock = document.querySelector('.product-stock.out-of-stock');
+    const actions = document.querySelector('.product-actions');
+    const quantity = document.querySelector('.product-quantity');
+    const colorVariants = document.querySelector('.product-variants'); 
+
+    if (stock) {
+      if (actions) {
+        actions.style.display = 'none';
+      }
+      if (quantity) {
+        quantity.style.display = 'none';
+      }
+      if (colorVariants) {
+        colorVariants.style.display = 'none';
+      }
+    }
+  });
+</script> 
 </body>
 </html>
