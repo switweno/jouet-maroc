@@ -1004,22 +1004,55 @@ document.addEventListener('DOMContentLoaded', function() {
   const sizeSelect = document.getElementById('size');
   const currentPrice = document.querySelector('.current-price');
   const productTitle = document.querySelector('.product-info h1');
-  const originalCurrentPrice = currentPrice.textContent;
-  
+  const productDescription = document.querySelector('.product-short-description p');
+  const descriptionList = document.querySelector('#description ul');
+
   sizeSelect.addEventListener('change', function() {
     const selectedOption = this.options[this.selectedIndex];
     const price = selectedOption.getAttribute('data-price');
     const title = selectedOption.getAttribute('data-title');
-    
+    const size = selectedOption.value;
+
+    // --- تحديث السعر والعنوان ---
     currentPrice.textContent = `${price} DH`;
     productTitle.textContent = title;
-    
-    // Update the stored price for the order
-    if (window.updateWhatsAppLink) {
-      window.updateWhatsAppLink();
-    }
+
+    // --- تحديث الوصف المختصر ---
+    let descText = productDescription.innerHTML;
+    descText = descText.replace(/\b(26|27\.5)\s*pouces\b/, `${size} pouces`);
+    productDescription.innerHTML = descText;
+
+    // --- تحديث الجدول بطريقة ذكية ---
+    const rows = document.querySelectorAll('.specs-table tr');
+    rows.forEach(row => {
+      const header = row.querySelector('td:first-child');
+      const cell = row.querySelector('td:last-child');
+
+      if (!header || !cell) return;
+
+      if (header.textContent.includes('Taille des roues')) {
+        cell.textContent = `${size} pouces`;
+      }
+
+      if (header.textContent.includes('Référence')) {
+        cell.textContent = size === '26' ? '320-26' : '320-27.5';
+      }
+    });
+
+    // --- تحديث القائمة في وصف المنتج ---
+    const sizeListItem = descriptionList.querySelector('li:nth-child(4)');
+    if (sizeListItem) sizeListItem.textContent = `Taille des roues : ${size} pouces`;
+
+    const refListItem = descriptionList.querySelector('li:last-child');
+    if (refListItem) refListItem.textContent = `Référence : ${size === '26' ? '320-26' : '320-27.5'}`;
+
+    // --- تحديث رابط واتساب إن وجد ---
+    if (window.updateWhatsAppLink) window.updateWhatsAppLink();
   });
 });
 </script>
+
+
+
 </body>
 </html>
