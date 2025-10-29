@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Produit par défaut à utiliser si aucun n'est sélectionné
   const defaultProduct = {
-    name: "Vélo Électrique X1",
-    price: 2500,
+    name: "Produit",
+    price: 0000,
     quantity: 1,
-    image: "images/slider/likebike-shine-s-09.webp",
-    total: 2500
+    image: "images/slider/finaliser-votre-commande-01.webp",
+    total: 0000
   };
 
   // Charger les données du produit depuis localStorage
