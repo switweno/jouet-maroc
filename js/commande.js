@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Produit par défaut à utiliser si aucun n'est sélectionné
   const defaultProduct = {
     name: "Produit",
-    price: 0000,
+    price: 1000,
     quantity: 1,
     image: "images/slider/finaliser-votre-commande-01.webp",
-    total: 0000
+    total: 1000
   };
 
   // Charger les données du produit depuis localStorage
