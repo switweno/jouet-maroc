@@ -340,12 +340,6 @@
             <div class="swiper-lazy-preloader"></div>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img src="../images/slider/okai-neon-lite-es10-12.webp" data-src="../images/slider/okai-neon-lite-es10-12.webp" class="swiper-lazy" alt="Okai neon lite es10 12" width="600" height="750">
-            <div class="swiper-lazy-preloader"></div>
-          </div>
-        </div>
      
      
    </div>
@@ -392,9 +386,6 @@
         <div class="swiper-slide">
           <img src="../images/slider/okai-neon-lite-es10-miniature-11.webp" alt="Miniature 11">
         </div>
-        <div class="swiper-slide">
-          <img src="../images/slider/okai-neon-lite-es10-miniature-12.webp" alt="Miniature 12">
-        </div>
        </div> 
     </div>
     
@@ -420,20 +411,6 @@
     <strong>Trottinette OKAI LITE ES10</strong> – Marque OKAI Neon Lite ES10, moteur 600W max, batterie lithium 36V, autonomie 15–25 km, vitesse maximale 25 km/h, frein à disque arrière et électrique avant + E-ABS, structure en aluminium pliable, écran LCD, éclairage LED complet, pneus tubeless 9 pouces, connexion intelligente via application mobile, et résistance à l’eau IP55.
   </p>
 </div>
-          
-          <div class="product-variants">
-            <div class="variant-group">
-              <label>Couleurs disponibles:</label>
-              <div class="color-options-container">
-              <div class="color-options">
-                <div class="color-option" style="background-color: #f9fcff;" data-color="Blanc" data-slide-index="0"></div>
-                <div class="color-option" style="background-color: #161616;" data-color="Noir" data-slide-index="11"></div>
-               </div>
-           <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
-              </div>
-              <div id="selected-color" class="selected-color-display"></div>
-            </div>
-          </div>
 
 
          <div class="wholesale-info">
@@ -451,17 +428,20 @@
           </div>
           
           <div id="wholesale-section" class="wholesale-price-section">
-            <div class="wholesale-price-header">
-              <i class="fas fa-tag"></i>
-              <span>Prix de gros disponible!</span>
-            </div>
-            <p class="wholesale-price-note">Pour les commandes de 3 articles ou plus:</p>
-            <p class="wholesale-price"><span class="wholesale-price-value">2450</span> DH par unité</p>
-            <div class="wholesale-option">
-              <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
-              <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
-            </div>
-          </div>
+  <div class="wholesale-price-header">
+    <i class="fas fa-tag"></i>
+    <span>Prix de gros disponible!</span>
+  </div>
+  <p class="wholesale-price-note">Prix spéciaux par quantité:</p>
+  <p class="wholesale-price">
+    <span>3-4 pièces: </span><span class="wholesale-price-value">2450</span> DH par unité<br>
+    <span>5+ pièces: </span><span class="wholesale-price-value-tier2">2350</span> DH par unité
+  </p>
+  <div class="wholesale-option">
+    <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
+    <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
+  </div>
+</div>
           
           <div class="product-actions">
            
@@ -1038,6 +1018,13 @@
         
         if (quantity >= 3) {
           wholesaleSection.classList.add('show');
+          // Set appropriate wholesale price based on quantity
+          const wholesalePriceValue = document.querySelector('.wholesale-price-value');
+          if (quantity >= 5) {
+            wholesalePriceValue.textContent = '2350';
+          } else {
+            wholesalePriceValue.textContent = '2450';
+          }
         } else {
           wholesaleSection.classList.remove('show');
           if (wholesaleCheckbox) wholesaleCheckbox.checked = false;
