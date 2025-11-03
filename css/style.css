@@ -354,8 +354,8 @@ img {
   background-color: #4635E3; /* Bleu clair saturé pour "Nouveau" */
 }
 
-.product-badge.limited {
-  background-color: #ff9800; /* Orange vif pour "Edition limitée" */
+.product-badge.arrivages {
+  background-color: #ff9800; /* Orange vif pour "Nouveaux Arrivages" */
 }
 
 .product-badge.hot {
