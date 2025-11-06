@@ -474,18 +474,35 @@
   border-top: 1px solid #eee;
 }
 
+.product-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
 .free-shipping {
-  color: #00701a;
-  font-size: 0.95rem;
+  text-align: center; 
+  color: #00701a;    
+  font-size: 1rem;
   margin-top: 8px;
   display: flex;
   align-items: center;
-  justify-content: center; 
-  gap: 5px;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 600;
 }
 
-.free-shipping i {
-  font-size: 1rem;
+.check-mark {
+  font-weight: bold;
+  color: #00701a;
+  font-size: 1.3rem; 
+  transform: rotate(11deg); 
 }
+
 
 
