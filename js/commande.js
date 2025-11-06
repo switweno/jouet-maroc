@@ -292,6 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     message += `- Quantité: ${quantity}\n`;
     message += `- Total: ${total.toFixed(2)} DH\n`;
+    message += `- Livraison: Gratuite 🚚\n`; // Ajout de la livraison gratuite
     
     // Ajouter le lien du produit
     const referrerUrl = document.referrer || '';
@@ -305,16 +306,16 @@ document.addEventListener('DOMContentLoaded', function() {
     message += '\n';
     
     // Informations client
-message += '*Informations client:*\n';
-message += `*Nom:* ${limitWords(customer.fullname, 5)}\n`;
-message += `*Téléphone:* ${customer.phone}\n`;
-message += `*Adresse:* ${limitWords(customer.address, 20)}\n`;
-message += `*Ville:* ${limitWords(customer.city, 5)}\n`;
-// Fonction pour limiter le nombre de mots
-function limitWords(text, maxWords) {
-  const words = text.trim().split(/\s+/);
-  return words.slice(0, maxWords).join(' ');
-}
+    message += '*Informations client:*\n';
+    message += `*Nom:* ${limitWords(customer.fullname, 5)}\n`;
+    message += `*Téléphone:* ${customer.phone}\n`;
+    message += `*Adresse:* ${limitWords(customer.address, 20)}\n`;
+    message += `*Ville:* ${limitWords(customer.city, 5)}\n`;
+    // Fonction pour limiter le nombre de mots
+    function limitWords(text, maxWords) {
+      const words = text.trim().split(/\s+/);
+      return words.slice(0, maxWords).join(' ');
+    }
 
     return encodeURIComponent(message);
   }
