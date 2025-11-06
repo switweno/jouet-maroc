@@ -41,27 +41,25 @@
   background-color: white;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  width: 40px;        
-  height: 65px;
-  background-color: rgba(0, 0, 0, 0.5);  
+/* الأسهم فقط لسلايدر البطاقات */
+.similar-products-slider .swiper-button-prev,
+.similar-products-slider .swiper-button-next {
+  top: 35%; 
+  width: 35px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
   z-index: 10;
-  color: white;      
-  font-size: 20px;   
 }
 
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  font-size: 20px;    
-  color: white;
+.similar-products-slider .swiper-button-prev::after,
+.similar-products-slider .swiper-button-next::after {
+  font-size: 18px;
+  color: #fff;
 }
+
 
 
 /* Container pour le zoom */
@@ -358,5 +356,192 @@
   .product-swiper .swiper-button-next:after,
   .product-swiper .swiper-button-prev:after {
     font-size: 35px;
+  }
+}
+
+/* تنسيقات السلايدر المماثل */
+.similar-products-slider {
+  padding: 0 40px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.similar-products-slider .swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.similar-products-slider .swiper-slide {
+  height: auto;
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.similar-products-slider .product-card2 {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.similar-products-slider .product-card2 a {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  outline: none;
+}
+
+.similar-products-slider .product-card2 img {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* إزالة التأثير عند التركيز */
+.similar-products-slider .product-card2 a:focus,
+.similar-products-slider .product-card2 a:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* تحسينات التجاوب */
+@media (max-width: 1200px) {
+  .similar-products-slider {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .similar-products-slider {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .similar-products-slider {
+    padding: 0 25px;
+  }
+  
+  .similar-products-slider .swiper-button-next,
+  .similar-products-slider .swiper-button-prev {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .similar-products-slider {
+    padding: 0 20px;
+  }
+  
+  .similar-products-slider .swiper-button-next,
+  .similar-products-slider .swiper-button-prev {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  
+  .similar-products-slider .swiper-button-next::after,
+  .similar-products-slider .swiper-button-prev::after {
+    font-size: 14px;
+  }
+}
+
+.similar-products-slider .swiper-button-prev,
+.similar-products-slider .swiper-button-next {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.similar-products-slider .swiper-button-prev::after,
+.similar-products-slider .swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .similar-products-slider {
+    padding: 0 25px;
+  }
+  
+  .similar-products-slider .swiper-button-next,
+  .similar-products-slider .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .similar-products-slider .swiper-button-prev::after,
+  .similar-products-slider .swiper-button-next::after {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .similar-products-slider {
+    padding: 0 20px;
+  }
+  
+  .similar-products-slider .swiper-button-next,
+  .similar-products-slider .swiper-button-prev {
+    width: 32px !important;
+    height: 32px !important;
+    background-color: rgba(255, 255, 255, 0.98);
+  }
+  
+  .similar-products-slider .swiper-button-next::after,
+  .similar-products-slider .swiper-button-prev::after {
+    font-size: 16px;
+  }
+}
+
+/* Uniformiser les boutons de navigation pour tous les sliders */
+.product-swiper .swiper-button-prev,
+.product-swiper .swiper-button-next {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-swiper .swiper-button-prev::after,
+.product-swiper .swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .product-swiper .swiper-button-prev,
+  .product-swiper .swiper-button-next {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  
+  .product-swiper .swiper-button-prev::after,
+  .product-swiper .swiper-button-next::after {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-swiper .swiper-button-prev,
+  .product-swiper .swiper-button-next {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  
+  .product-swiper .swiper-button-prev::after,
+  .product-swiper .swiper-button-next::after {
+    font-size: 14px;
   }
 }
