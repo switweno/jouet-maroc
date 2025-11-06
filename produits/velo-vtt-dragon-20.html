@@ -145,7 +145,7 @@
     "price": "1000",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -399,9 +399,9 @@
               <span class="old-price">1300 DH</span>
               <span class="discount-badge">-23%</span>
             </div>
-            <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+            <div class="product-stock out-of-stock">
+           Rupture de stock
+             </div>
           </div>
           
           
@@ -645,70 +645,92 @@
     <!-- Product Listing -->
   <section class="product-listing">
     <h2>Produits similaires</h2>
-    <div class="container">
-      <div class="products">
-         <div class="product-card2">
+    <div class="similar-products-slider">
+      <div class="swiper similar-swiper">
+        <div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="product-card2">
           <a href="../produits/velo-vtt-20-italiano.html">
           <img src="../images/slider/velo-vtt-20-italiano-01.webp" alt="Vélo VTT ITALIANO 20 pouces" loading="lazy" width="250" height="320">
-          <div class="card-divider"></div>
+          <div class="card-divider">
+</div>
           <div class="product-info2">
             <h3>Vélo VTT ITALIANO 20 pouces</h3>
             <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle"></i> Produit en stock
+          <i class="fas fa-check-circle">
+</i> Produit en stock
         </div>
-            <p class="product-price"><span class="old-price">1300 DH</span> 999 DH</p>
+            <p class="product-price">
+<span class="old-price">1300 DH</span> 999 DH</p>
           </div>
           </a>
         </div>
-        
-        <div class="product-card2">
+</div>
+
+<div class="swiper-slide">
+<div class="product-card2">
           <a href="../produits/velo-bmx-16.html">
           <img src="../images/slider/velo-bmx-16-01.webp" alt="Vélo VTT BMX SPORT 16 pouces" loading="lazy" width="250" height="320">
-          <div class="card-divider"></div>
+          <div class="card-divider">
+</div>
           <div class="product-info2">
             <h3>Vélo VTT BMX SPORT 16 pouces</h3>
             <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle"></i> Produit en stock
+          <i class="fas fa-check-circle">
+</i> Produit en stock
         </div>
-            <p class="product-price"><span class="old-price">1000 DH</span> 699 DH</p>
+            <p class="product-price">
+<span class="old-price">1000 DH</span> 699 DH</p>
           </div>
           </a>
         </div>
-        
-         <div class="product-card2">
+</div>
+
+<div class="swiper-slide">
+<div class="product-card2">
           <a href="../produits/velo-bmx-sport-12.html">
           <img src="../images/slider/velo-bmx-sport-12-01.webp" alt="Vélo VTT BMX SPORT 12 pouces" loading="lazy" width="250" height="320">
-          <div class="card-divider"></div>
+          <div class="card-divider">
+</div>
           <div class="product-info2">
             <h3>Vélo VTT BMX SPORT 12 pouces</h3>
             <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle"></i> Produit en stock
+          <i class="fas fa-check-circle">
+</i> Produit en stock
         </div>
-            <p class="product-price"><span class="old-price">800 DH</span> 599 DH</p>
+            <p class="product-price">
+<span class="old-price">800 DH</span> 599 DH</p>
           </div>
           </a>
         </div>
-        
-        <div class="product-card2">
+</div>
+
+<div class="swiper-slide">
+<div class="product-card2">
           <a href="../produits/velo-vtt-youmege-aluminium.html">
           <img src="../images/slider/velo-vtt-youmege-aluminium-01.webp" alt="Vélo Vtt Yumege Aluminium 24 pouces" loading="lazy" width="250" height="320">
-          <div class="card-divider"></div>
+          <div class="card-divider">
+</div>
           <div class="product-info2">
             <h3>Vélo Vtt Yumege Aluminium 24 pouces</h3>
             <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle"></i> Produit en stock
+          <i class="fas fa-check-circle">
+</i> Produit en stock
         </div>
-            <p class="product-price"><span class="old-price">1600 DH</span> 1349 DH</p>
+            <p class="product-price">
+<span class="old-price">1600 DH</span> 1349 DH</p>
           </div>
           </a>
         </div>
-        
-        
-        
-        
-        
-         </div>
-       </div> 
+</div>
+
+</div>
+        <div class="swiper-button-next">
+</div>
+        <div class="swiper-button-prev">
+</div>
+      </div>
+    </div>
   </section>
       
   <div style="margin-bottom: 30px; clear: both;"></div>
@@ -870,5 +892,26 @@
     }
   });
   </script>
+  
+     <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const stock = document.querySelector('.product-stock.out-of-stock');
+    const actions = document.querySelector('.product-actions');
+    const quantity = document.querySelector('.product-quantity');
+    const colorVariants = document.querySelector('.product-variants'); 
+
+    if (stock) {
+      if (actions) {
+        actions.style.display = 'none';
+      }
+      if (quantity) {
+        quantity.style.display = 'none';
+      }
+      if (colorVariants) {
+        colorVariants.style.display = 'none';
+      }
+    }
+  });
+</script>
 </body>
 </html>
