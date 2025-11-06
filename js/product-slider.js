@@ -234,6 +234,72 @@ function initProductSlider() {
   }
 }
 
+// تهيئة سلايدر المنتجات المماثلة
+function initSimilarProductsSlider() {
+  const similarSwiper = new Swiper('.similar-swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    loop: true,
+    watchOverflow: true,
+    observer: true,
+    observeParents: true,
+    
+    navigation: {
+      nextEl: '.similar-products-slider .swiper-button-next',
+      prevEl: '.similar-products-slider .swiper-button-prev',
+    },
+    
+    // تحسين عرض البطاقات حسب حجم الشاشة
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 15
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      }
+    },
+    
+    // تمكين التمرير المستمر
+    on: {
+      init: function() {
+        this.update();
+      },
+      resize: function() {
+        this.update();
+      }
+    }
+  });
+
+  return similarSwiper;
+}
+
+// تشغيل عند تحميل الصفحة
+document.addEventListener('DOMContentLoaded', function() {
+  initSimilarProductsSlider();
+});
+
+// Ajout de la classe active au premier slide
+document.addEventListener('DOMContentLoaded', function() {
+  const firstSlide = document.querySelector('.similar-swiper .swiper-slide');
+  if (firstSlide) {
+    firstSlide.classList.add('swiper-slide-active');
+  }
+});
+
 /**
  * Prépare les images pour le lazy loading de Swiper en standardisant les attributs
  */
