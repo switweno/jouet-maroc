@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     message += `- Quantité: ${quantity}\n`;
     message += `- Total: ${total.toFixed(2)} DH\n`;
-    message += `- Livraison: Gratuite 🚚\n`; // Ajout de la livraison gratuite
+    message += `- Livraison: Gratuite\n`; // Ajout de la livraison gratuite
     
     // Ajouter le lien du produit
     const referrerUrl = document.referrer || '';
