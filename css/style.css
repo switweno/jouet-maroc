@@ -363,8 +363,8 @@ img {
 }
 
 .product-badge.arrivages {
-  background-color: #e6c800; /* Orange vif pour "Nouveaux Arrivages" */
-  color: #000; 
+  background-color: #f1d623; /* Orange vif pour "Nouveaux Arrivages" */
+  color: #373737; 
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 6px;
