@@ -49,9 +49,21 @@ body {
   box-sizing: border-box;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1080px) and (max-width: 1919px) {
   .homepage .catalog .products {
-    padding: 0 100px;
+    padding: 0 50px;  
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .homepage .catalog .products {
+    padding: 0 100px;  
+  }
+}
+
+@media (min-width: 2560px) {
+  .homepage .catalog .products {
+    padding: 0 150px;  
   }
 }
 
