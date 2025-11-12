@@ -141,7 +141,7 @@
     "@type": "Offer",
     "url": "https://jouet-maroc.com/produits/okai-lite-es10",
     "priceCurrency": "MAD",
-    "price": "2649",
+    "price": "2499",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
@@ -406,7 +406,7 @@
           
           <div class="product-price-container">
             <div class="product-price">
-              <span class="current-price">2649 DH</span>
+              <span class="current-price">2499 DH</span>
               <span class="old-price">3500 DH</span>
               <span class="discount-badge">-19%</span>
             </div>
@@ -426,20 +426,17 @@
               <label>Couleurs disponibles:</label>
               <div class="color-options-container">
               <div class="color-options">
-                <div class="color-option" style="background-color: #f9fcff;" data-color="Blanc" data-slide-index="0"></div>
-                <div class="color-option" style="background-color: #161616;" data-color="Noir" data-slide-index="11"></div>
+                <div class="color-option active" style="background-color: #f9fcff;" data-color="Blanc" data-slide-index="0" data-price="2499"></div>
+                <div class="color-option" style="background-color: #161616;" data-color="Noir" data-slide-index="11" data-price="2649"></div>
                </div>
-           <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
+               <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
               </div>
               <div id="selected-color" class="selected-color-display"></div>
             </div>
           </div>
 
 
-         <div class="wholesale-info">
-            <i class="fas fa-info-circle"></i>
-            <span>Prix de gros à partir de 3 pièces</span>
-          </div>
+         
           
           <div class="product-quantity">
             <label for="quantity">Quantité:</label>
@@ -450,21 +447,7 @@
             </div>
           </div>
           
-          <div id="wholesale-section" class="wholesale-price-section">
-  <div class="wholesale-price-header">
-    <i class="fas fa-tag"></i>
-    <span>Prix de gros disponible!</span>
-  </div>
-  <p class="wholesale-price-note">Prix spéciaux par quantité:</p>
-  <p class="wholesale-price">
-    <span>3-4 pièces: </span><span class="wholesale-price-value">2450</span> DH par unité<br>
-    <span>5+ pièces: </span><span class="wholesale-price-value-tier2">2350</span> DH par unité
-  </p>
-  <div class="wholesale-option">
-    <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
-    <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
-  </div>
-</div>
+          
           
           <div class="product-actions">
            
@@ -1008,56 +991,39 @@
     }
   });
   </script>
-         <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const quantityInput = document.getElementById('quantity');
-      const wholesaleSection = document.getElementById('wholesale-section');
-      const wholesaleCheckbox = document.getElementById('wholesale-checkbox');
-      
-      // Fonction pour vérifier si on affiche l'option prix de gros
-      function checkWholesaleEligibility() {
-        const quantity = parseInt(quantityInput.value) || 0;
-        
-        if (quantity >= 3) {
-          wholesaleSection.classList.add('show');
-          // Set appropriate wholesale price based on quantity
-          const wholesalePriceValue = document.querySelector('.wholesale-price-value');
-          if (quantity >= 5) {
-            wholesalePriceValue.textContent = '2350';
-          } else {
-            wholesalePriceValue.textContent = '2450';
-          }
-        } else {
-          wholesaleSection.classList.remove('show');
-          if (wholesaleCheckbox) wholesaleCheckbox.checked = false;
-        }
-      }
-      
-      // Écouter les changements de quantité
-      if (quantityInput) {
-        quantityInput.addEventListener('input', checkWholesaleEligibility);
-        
-        // Vérifier également lorsque les boutons +/- sont cliqués
-        const decreaseBtn = document.querySelector('.quantity-decrease');
-        const increaseBtn = document.querySelector('.quantity-increase');
-        
-        if (decreaseBtn) {
-          decreaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-        
-        if (increaseBtn) {
-          increaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-      }
-      
-      // Vérification initiale
-      checkWholesaleEligibility();
+
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const colorOptions = document.querySelectorAll('.color-option');
+    const currentPrice = document.querySelector('.current-price');
+    const oldPrice = document.querySelector('.old-price');
+    const selectedColorDisplay = document.getElementById('selected-color');
+    
+    function updatePrices(basePrice) {
+        currentPrice.textContent = `${basePrice} DH`;
+        oldPrice.textContent = `${Math.round(basePrice * 1.4)} DH`;
+    }
+
+    colorOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            // إزالة الكلاس active من جميع الخيارات
+            colorOptions.forEach(opt => opt.classList.remove('active'));
+            
+            // إضافة الكلاس active للخيار المحدد
+            this.classList.add('active');
+            
+            // الحصول على اللون والسعر من السمات
+            const color = this.getAttribute('data-color');
+            const price = parseInt(this.getAttribute('data-price'));
+            
+            // تحديث عرض اللون المحدد
+            selectedColorDisplay.textContent = `Couleur sélectionnée: ${color}`;
+            
+            // تحديث الأسعار
+            updatePrices(price);
+        });
     });
-  </script>
-  
+});
+</script>
 </body>
 </html>
