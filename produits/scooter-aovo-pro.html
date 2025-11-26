@@ -34,7 +34,34 @@
   <link rel="stylesheet" href="../css/product-details.css" />
   <link rel="stylesheet" href="../css/product-slider.css" />
  
+  <style>
+  .responsive-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 356px; 
+    margin: 20px auto;
+  }
 
+  .fb-video-wrapper {
+    position: relative;
+    width: 100%; 
+    padding-top: 177.78%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .fb-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+</style>
 <!-- Analytics Scripts -->
   <script>
     function loadAnalyticsScripts() {
@@ -111,10 +138,10 @@
     "@type": "Offer",
     "url": "https://jouet-maroc.com/produits/scooter-aovo-pro",
     "priceCurrency": "MAD",
-    "price": "2249",
+    "price": "2449",
     "priceValidUntil": "2025-12-31",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OutOfStock",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -386,13 +413,13 @@
           
           <div class="product-price-container">
             <div class="product-price">
-              <span class="current-price">2249 DH</span>
+              <span class="current-price">2449 DH</span>
               <span class="old-price">2999 DH</span>
-              <span class="discount-badge">-25%</span>
+              <span class="discount-badge">-15%</span>
             </div>
-            <div class="product-stock out-of-stock">
-           Rupture de stock
-             </div>
+           <div class="product-stock in-stock">
+              <i class="fas fa-check-circle"></i> En stock 
+            </div>
           </div>
           
          <div class="product-short-description">
@@ -408,30 +435,12 @@
 
          
           
-         <div class="wholesale-info">
-            <i class="fas fa-info-circle"></i>
-            <span>Prix de gros à partir de 5 pièces</span>
-          </div>
-          
           <div class="product-quantity">
             <label for="quantity">Quantité:</label>
             <div class="quantity-selector">
               <button class="quantity-decrease" aria-label="Diminuer la quantité"><i class="fas fa-minus"></i></button>
               <input type="number" id="quantity" name="quantity" value="1" min="1" max="15">
               <button class="quantity-increase" aria-label="Augmenter la quantité"><i class="fas fa-plus"></i></button>
-            </div>
-          </div>
-          
-          <div id="wholesale-section" class="wholesale-price-section">
-            <div class="wholesale-price-header">
-              <i class="fas fa-tag"></i>
-              <span>Prix de gros disponible!</span>
-            </div>
-            <p class="wholesale-price-note">Pour les commandes de 5 articles ou plus:</p>
-            <p class="wholesale-price"><span class="wholesale-price-value">2100</span> DH par unité</p>
-            <div class="wholesale-option">
-              <input type="checkbox" id="wholesale-checkbox" class="wholesale-checkbox">
-              <label for="wholesale-checkbox" class="wholesale-checkbox-label">Utiliser le prix de gros</label>
             </div>
           </div>
           
@@ -476,6 +485,7 @@
         <div class="tabs-header">
           <button class="tab-btn active" data-tab="specifications">Caractéristiques</button>
           <button class="tab-btn" data-tab="description">Description</button>
+          <button class="tab-btn" data-tab="video">Vidéo</button>
           <button class="tab-btn" data-tab="reviews">Avis (61)</button>
         </div>
         
@@ -587,7 +597,18 @@
 </div>
 
 
+<div class="tab-pane" id="video">
+  <h2>Vidéo de démonstration – TROTTINETTE AOVO PRO ES80</h2>
+  <p>Découvrez en vidéo les performances et les caractéristiques de TROTTINETTE AOVO PRO ES80.</p>
 
+
+
+    <div class="video-container" id="video-container">
+      <div class="video-loading-placeholder">
+        <i class="fas fa-spinner fa-spin"></i>
+        <span>Chargement de la vidéo...</span>
+      </div>
+    </div>
   </div>
 
           <div class="tab-pane" id="reviews">
@@ -641,13 +662,14 @@
                     <div class="bar" style="width: 1%;"></div>
                   </div>
                   <span>1%</span>
-                </div>
+            </div>
               </div>
-    
-</div>
-      </div>
-         </div>  
+            </div>
+             
 
+             </div>
+      </div>
+         </div> 
        <!-- Product Listing -->
     <section class="product-listing">
     <h2>Produits similaires</h2>
@@ -942,62 +964,49 @@
 <script src="../js/product-tabs.js" defer></script>
 <script src="../js/script.js" defer></script>
   
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const quantityInput = document.getElementById('quantity');
-      const wholesaleSection = document.getElementById('wholesale-section');
-      const wholesaleCheckbox = document.getElementById('wholesale-checkbox');
-      
-      // Fonction pour vérifier si on affiche l'option prix de gros
-      function checkWholesaleEligibility() {
-        const quantity = parseInt(quantityInput.value) || 0;
-        
-        if (quantity >= 5) {
-          wholesaleSection.classList.add('show');
-        } else {
-          wholesaleSection.classList.remove('show');
-          if (wholesaleCheckbox) wholesaleCheckbox.checked = false;
+   <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Fonction pour charger la vidéo uniquement lorsque l'onglet est cliqué
+    const videoTab = document.querySelector('.tab-btn[data-tab="video"]');
+    let videoLoaded = false;
+    
+    if (videoTab) {
+      videoTab.addEventListener('click', function() {
+        if (!videoLoaded) {
+          const videoContainer = document.getElementById('video-container');
+          if (videoContainer) {
+            // Remplacer le placeholder par l'iframe avec une approche responsive
+            videoContainer.innerHTML = `
+              <div class="responsive-video-container">
+                <div class="fb-video-wrapper">
+                  <iframe 
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1389378939477468%2F&show_text=false&width=267&t=0" 
+                    style="border:none;overflow:hidden" 
+                    scrolling="no" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                    allowFullScreen="true">
+                  </iframe>
+                </div>
+              </div>
+            `;
+            videoLoaded = true;
+          }
         }
-      }
-      
-      // Écouter les changements de quantité
-      if (quantityInput) {
-        quantityInput.addEventListener('input', checkWholesaleEligibility);
-        
-        // Vérifier également lorsque les boutons +/- sont cliqués
-        const decreaseBtn = document.querySelector('.quantity-decrease');
-        const increaseBtn = document.querySelector('.quantity-increase');
-        
-        if (decreaseBtn) {
-          decreaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-        
-        if (increaseBtn) {
-          increaseBtn.addEventListener('click', function() {
-            setTimeout(checkWholesaleEligibility, 10);
-          });
-        }
-      }
-      
-      // Vérification initiale
-      checkWholesaleEligibility();
-    });
+      });
+    }
+    
+    // Assurer que la vidéo est chargée si l'utilisateur accède directement à l'onglet vidéo via un lien
+    const hashValue = window.location.hash;
+    if (hashValue === '#video' && videoTab) {
+      // Simuler un clic sur l'onglet vidéo
+      setTimeout(() => {
+        videoTab.click();
+      }, 100);
+    }
+  });
   </script>
-       <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const stock     = document.querySelector('.product-stock.out-of-stock');
-  const actions   = document.querySelector('.product-actions');
-  const quantity  = document.querySelector('.product-quantity');
-  const variants  = document.querySelector('.product-variants'); 
 
-  if (stock) {               
-    if (actions)  actions.style.display  = 'none'; 
-    if (quantity) quantity.style.display = 'none';  
-    if (variants) variants.style.display = 'none';  
-  }
-});
-</script>
 </body>
 </html>
