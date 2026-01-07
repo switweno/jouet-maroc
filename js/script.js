@@ -294,4 +294,5 @@ wholesalePrices.forEach(price => {
 });
 
 
+document.getElementById("current-year").textContent = new Date().getFullYear();
 
