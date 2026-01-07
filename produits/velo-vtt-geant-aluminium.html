@@ -146,7 +146,7 @@
     "@type": "Offer",
     "url": "https://jouet-maroc.com/produits/velo-vtt-geant-aluminium",
     "priceCurrency": "MAD",
-    "price": "1549",
+    "price": "1500",
     "priceValidUntil": "2026-06-20",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
@@ -400,9 +400,9 @@
           
           <div class="product-price-container">
             <div class="product-price">
-              <span class="current-price">1549 DH</span>
+              <span class="current-price">1500 DH</span>
               <span class="old-price">2000 DH</span>
-              <span class="discount-badge">-23%</span>
+              <span class="discount-badge">-25%</span>
             </div>
             <div class="product-stock in-stock">
               <i class="fas fa-check-circle"></i> En stock 
@@ -428,8 +428,8 @@
   <div class="size-selector">
     <div class="custom-select">
       <select id="size" name="size">
-        <option value="26" data-price="1549" data-title="VÉLO VTT GÉANT ALUMINIUM 26 POUCES">26 pouces - 1549 DH</option>
-        <option value="27.5" data-price="1649" data-title="VÉLO VTT GÉANT ALUMINIUM 27.5 POUCES">27.5 pouces - 1649 DH</option>
+        <option value="26" data-price="1500" data-title="VÉLO VTT GÉANT ALUMINIUM 26 POUCES">26 pouces - 1500 DH</option>
+        <option value="27.5" data-price="1600" data-title="VÉLO VTT GÉANT ALUMINIUM 27.5 POUCES">27.5 pouces - 1600 DH</option>
       </select>
       <div class="select-arrow"><i class="fas fa-chevron-down"></i></div>
     </div>
@@ -1042,16 +1042,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const title = selectedOption.getAttribute('data-title');
     const size = selectedOption.value;
 
-    // --- تحديث السعر والعنوان ---
     currentPrice.textContent = `${price} DH`;
     productTitle.textContent = title;
 
-    // --- تحديث الوصف المختصر ---
     let descText = productDescription.innerHTML;
     descText = descText.replace(/\b(26|27\.5)\s*pouces\b/, `${size} pouces`);
     productDescription.innerHTML = descText;
 
-    // --- تحديث الجدول بطريقة ذكية ---
     const rows = document.querySelectorAll('.specs-table tr');
     rows.forEach(row => {
       const header = row.querySelector('td:first-child');
@@ -1068,14 +1065,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    // --- تحديث القائمة في وصف المنتج ---
     const sizeListItem = descriptionList.querySelector('li:nth-child(4)');
     if (sizeListItem) sizeListItem.textContent = `Taille des roues : ${size} pouces`;
 
     const refListItem = descriptionList.querySelector('li:last-child');
     if (refListItem) refListItem.textContent = `Référence : ${size === '26' ? '320-26' : '320-27.5'}`;
 
-    // --- تحديث رابط واتساب إن وجد ---
     if (window.updateWhatsAppLink) window.updateWhatsAppLink();
   });
 });
