@@ -247,25 +247,7 @@
   </div>
 </div>
       
-      
-      <div class="product-card">
-  <div class="product-content">
-   <span class="product-badge new">Nouveau</span>
-    <a href="../produits/velo-vtt-haomeng-special.html">
-      <img src="../images/slider/velo-vtt-haomeng-special-01.webp" alt="Vélo VTT HAOMENG SPECIAL 26 pouces" width="256" height="320">
-      <div class="card-divider"></div>
-      <div class="product-info">
-        <h2>VTT HAOMENG SPECIAL 26 pouces</h2>
-        <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle"></i> Produit en stock
-        </div>
-        <p class="product-price"><span class="old-price">1700 DH</span> 1399 DH</p>
-      </div>
-    </a>
-  </div>
-</div>
 
-      
       <div class="product-card">
           <div class="product-content">
           <a href="../produits/velo-vtt-20-italiano.html">
@@ -298,6 +280,23 @@
           </a>
         </div>
         </div>
+      
+        <div class="product-card out-of-stock">
+    <div class="product-content">
+      <span class="product-badge out-of-stock">Rupture de stock</span>
+    <a href="../produits/velo-vtt-haomeng-special.html">
+      <img src="../images/slider/velo-vtt-haomeng-special-01.webp" alt="Vélo VTT HAOMENG SPECIAL 26 pouces" width="256" height="320">
+      <div class="product-info">
+        <h2>VTT HAOMENG SPECIAL 26 pouces</h2>
+         <div class="stock-status out-of-stock-status">
+              <i class="fas fa-times-circle"></i> Rupture de stock
+            </div>
+        <p class="product-price"><span class="old-price">1700 DH</span> 1399 DH</p>
+      </div>
+    </a>
+  </div>
+</div>
+
       
       
       <div class="product-card out-of-stock">
@@ -652,18 +651,17 @@
     </div>
  
     <div class="footer-bottom">
-      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-      <div class="payment-methods">
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
-        <i class="fab fa-cc-paypal"></i>
-      </div>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+  </div>
+</div>
   </footer>
 
   <script src="../js/mobile-menu.js"></script>
   <script src="../js/script.js"></script>
-    <!-- Script pour les boutons de partage -->
 <script>
   document.getElementById("copy-link").addEventListener("click", function() {
     const url = this.getAttribute("data-url");

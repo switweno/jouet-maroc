@@ -145,7 +145,7 @@
     "price": "1399",
     "priceValidUntil": "2026-06-20",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+   "availability": "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -392,9 +392,9 @@
               <span class="old-price">1700 DH</span>
               <span class="discount-badge">-16%</span>
             </div>
-            <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+           <div class="product-stock out-of-stock">
+           Rupture de stock
+             </div>
           </div>
           
           
@@ -953,13 +953,13 @@
     </div>
     
     <div class="footer-bottom">
-      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-      <div class="payment-methods">
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
-        <i class="fab fa-cc-paypal"></i>
-      </div>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+  </div>
+</div>
   </footer>
 
  <!-- Scripts -->
@@ -1002,15 +1002,33 @@
       });
     }
     
-    // Assurer que la vidéo est chargée si l'utilisateur accède directement à l'onglet vidéo via un lien
     const hashValue = window.location.hash;
     if (hashValue === '#video' && videoTab) {
-      // Simuler un clic sur l'onglet vidéo
       setTimeout(() => {
         videoTab.click();
       }, 100);
     }
   });
   </script>
+      <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const stock = document.querySelector('.product-stock.out-of-stock');
+    const actions = document.querySelector('.product-actions');
+    const quantity = document.querySelector('.product-quantity');
+    const colorVariants = document.querySelector('.product-variants'); 
+
+    if (stock) {
+      if (actions) {
+        actions.style.display = 'none';
+      }
+      if (quantity) {
+        quantity.style.display = 'none';
+      }
+      if (colorVariants) {
+        colorVariants.style.display = 'none';
+      }
+    }
+  });
+</script>
 </body>
 </html>
