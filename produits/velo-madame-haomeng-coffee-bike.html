@@ -814,13 +814,13 @@
     </div>
     
     <div class="footer-bottom">
-      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-      <div class="payment-methods">
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
-        <i class="fab fa-cc-paypal"></i>
-      </div>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+  </div>
+</div>
   </footer>
 
     <!-- Scripts -->
@@ -834,7 +834,6 @@
   
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Fonction pour charger la vidéo uniquement lorsque l'onglet est cliqué
     const videoTab = document.querySelector('.tab-btn[data-tab="video"]');
     let videoLoaded = false;
     
@@ -843,7 +842,6 @@
         if (!videoLoaded) {
           const videoContainer = document.getElementById('video-container');
           if (videoContainer) {
-            // Remplacer le placeholder par l'iframe avec une approche responsive
             videoContainer.innerHTML = `
               <div class="responsive-video-container">
                 <div class="fb-video-wrapper">
@@ -865,10 +863,8 @@
       });
     }
     
-    // Assurer que la vidéo est chargée si l'utilisateur accède directement à l'onglet vidéo via un lien
     const hashValue = window.location.hash;
     if (hashValue === '#video' && videoTab) {
-      // Simuler un clic sur l'onglet vidéo
       setTimeout(() => {
         videoTab.click();
       }, 100);

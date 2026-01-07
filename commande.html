@@ -254,27 +254,23 @@
   
 
   <div class="footer-bottom">
-    <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-    <div class="payment-methods">
-      <i class="fab fa-cc-visa"></i>
-      <i class="fab fa-cc-mastercard"></i>
-      <i class="fab fa-cc-paypal"></i>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
   </div>
+</div>
 </footer>
 
   <script src="js/commande.js"></script>
   <script src="js/mobile-menu.js"></script>
   <script>
-    // Script pour assurer que la page ne soit pas mise en cache
     if (window.performance && window.performance.navigation.type === 2) {
-      // Si l'utilisateur revient à cette page depuis l'historique
       window.location.reload();
     }
     
-    // Débogage pour vérifier la transmission de quantité
     document.addEventListener('DOMContentLoaded', function() {
-      // Afficher les données brutes de localStorage pour vérification
       const rawData = localStorage.getItem('commandeProduct');
       console.log("DEBUG - Données brutes de localStorage:", rawData);
       
@@ -284,12 +280,9 @@
           console.log("DEBUG - Quantité dans localStorage:", parsedData.quantity);
           console.log("DEBUG - Image dans localStorage:", parsedData.image);
           
-          // Vérifier l'image du produit et corriger si nécessaire
           const productImage = document.getElementById('product-image');
           if (productImage && parsedData.image) {
-            // Si l'image ne commence pas par http et ne contient pas le chemin complet
             if (!parsedData.image.startsWith('http') && !parsedData.image.includes('/')) {
-              // Ajouter le chemin relatif
               productImage.src = 'images/slider/' + parsedData.image;
             } else {
               productImage.src = parsedData.image;
@@ -297,7 +290,6 @@
             console.log("DEBUG - Chemin d'image utilisé:", productImage.src);
           }
           
-          // Vérifier l'élément DOM après le rendu
           setTimeout(() => {
             const displayedQuantity = document.getElementById('product-quantity').textContent;
             console.log("DEBUG - Quantité affichée dans le DOM:", displayedQuantity);
@@ -308,27 +300,23 @@
       }
     });
     
-    // Script pour l'aperçu d'image
     document.addEventListener('DOMContentLoaded', function() {
       const productImage = document.getElementById('product-image');
       const imageModal = document.getElementById('image-modal');
       const modalImage = document.getElementById('modal-image');
       const closeModal = document.querySelector('.close-modal');
       
-      // Ouvrir le modal au clic sur l'image
       productImage.addEventListener('click', function() {
         modalImage.src = this.src;
         imageModal.style.display = 'flex';
-        document.body.style.overflow = 'hidden'; // Empêcher le défilement
+        document.body.style.overflow = 'hidden'; 
       });
       
-      // Fermer le modal au clic sur le bouton de fermeture
       closeModal.addEventListener('click', function() {
         imageModal.style.display = 'none';
-        document.body.style.overflow = 'auto'; // Réactiver le défilement
+        document.body.style.overflow = 'auto'; 
       });
       
-      // Fermer le modal au clic en dehors de l'image
       imageModal.addEventListener('click', function(e) {
         if (e.target === imageModal) {
           imageModal.style.display = 'none';
@@ -336,7 +324,6 @@
         }
       });
       
-      // Fermer le modal avec la touche Échap
       document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape' && imageModal.style.display === 'flex') {
           imageModal.style.display = 'none';

@@ -638,18 +638,16 @@
 </div>
 </div>
 
-<div class="swiper-slide">
-<div class="product-card2">
+         <div class="swiper-slide">
+<div class="product-card2 out-of-stock">
+        <span class="product-badge out-of-stock">Rupture de stock</span>
   <a href="../produits/velo-vtt-haomeng-special.html">
     <img src="../images/slider/velo-vtt-haomeng-special-01.webp" alt="Vélo VTT HAOMENG SPECIAL 26 pouces" loading="lazy" width="250" height="320">
-    <div class="card-divider">
-</div>
     <div class="product-info2">
-      <h3>HAOMENG SPECIAL 26 pouces</h3>
-      <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle">
-</i> Produit en stock
-        </div>
+      <h3>VTT HAOMENG SPECIAL 26 pouces</h3>
+      <div class="stock-status out-of-stock-status">
+<i class="fas fa-times-circle">
+</i> Rupture de stock</div>
       <p class="product-price">
 <span class="old-price">1700 DH</span> 1399 DH</p>
     </div>
@@ -929,13 +927,13 @@
     </div>
     
     <div class="footer-bottom">
-      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-      <div class="payment-methods">
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
-        <i class="fab fa-cc-paypal"></i>
-      </div>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+  </div>
+</div>
   </footer>
 
  <!-- Scripts -->
@@ -978,10 +976,8 @@
       });
     }
     
-    // Assurer que la vidéo est chargée si l'utilisateur accède directement à l'onglet vidéo via un lien
     const hashValue = window.location.hash;
     if (hashValue === '#video' && videoTab) {
-      // Simuler un clic sur l'onglet vidéo
       setTimeout(() => {
         videoTab.click();
       }, 100);

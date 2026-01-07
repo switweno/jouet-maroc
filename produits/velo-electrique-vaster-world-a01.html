@@ -867,13 +867,13 @@
     </div>
     
     <div class="footer-bottom">
-      <p>© 2025 Jouet Maroc. Tous les droits sont réservés</p>
-      <div class="payment-methods">
-        <i class="fab fa-cc-visa"></i>
-        <i class="fab fa-cc-mastercard"></i>
-        <i class="fab fa-cc-paypal"></i>
-      </div>
-    </div>
+  <p>© <span id="current-year">2026</span> Jouet Maroc. Tous les droits sont réservés</p>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+  </div>
+</div>
   </footer>
 
     <!-- Scripts -->
@@ -895,7 +895,6 @@
         if (!videoLoaded) {
           const videoContainer = document.getElementById('video-container');
           if (videoContainer) {
-            // Remplacer le placeholder par l'iframe avec une approche responsive
             videoContainer.innerHTML = `
               <div class="responsive-video-container">
                 <div class="fb-video-wrapper">
