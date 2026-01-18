@@ -1,7 +1,7 @@
 // Script pour la page de commande
 
 // Numéro WhatsApp pour les commandes
-const whatsappNumber = '212640603191';
+const whatsappNumber = '212643512246';
 
 // Initialisation
 document.addEventListener('DOMContentLoaded', function() {
