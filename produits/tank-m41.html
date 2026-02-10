@@ -141,9 +141,9 @@
     "url": "https://jouet-maroc.com/produits/tank-m41",
     "priceCurrency": "MAD",
     "price": "6490",
-    "priceValidUntil": "2025-12-31",
+    "priceValidUntil": "2026-12-30",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OutOfStock",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -344,11 +344,9 @@
               <span class="old-price">7400 DH</span>
               <span class="discount-badge">-12%</span>
             </div>
-           <div class="product-stock out-of-stock">
-           Rupture de stock
-             </div>
-
-
+           <div class="product-stock in-stock">
+               <i class="fas fa-check-circle"></i> En stock (Quantité limitée)
+            </div>
           </div>
           
           <div class="product-short-description">
@@ -363,7 +361,8 @@
               <div class="color-options-container">
               <div class="color-options">
                <div class="color-option" style="background-color: #ff0000;" data-color="Rouge" data-slide-index="0"></div>
-<div class="color-option" style="background-color: #ffec00;" data-color="Jaune" data-slide-index="2"></div>
+               <div class="color-option" style="background-color: #ffec00;" data-color="Jaune" data-slide-index="2"></div>
+              <div class="color-option" style="background-color: #070700;" data-color="Noir" data-slide-index="4"></div>
 
              </div>
            <button id="clear-color-selection" class="clear-selection">✕ Clear</button>
@@ -1027,26 +1026,7 @@
   });
   </script>
 
-  <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const stock = document.querySelector('.product-stock.out-of-stock');
-    const actions = document.querySelector('.product-actions');
-    const quantity = document.querySelector('.product-quantity');
-    const colorVariants = document.querySelector('.product-variants'); 
 
-    if (stock) {
-      if (actions) {
-        actions.style.display = 'none';
-      }
-      if (quantity) {
-        quantity.style.display = 'none';
-      }
-      if (colorVariants) {
-        colorVariants.style.display = 'none';
-      }
-    }
-  });
-</script>
 
 </body>
 </html>
