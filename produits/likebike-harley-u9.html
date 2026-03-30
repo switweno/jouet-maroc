@@ -143,7 +143,7 @@
     "price": "8399",
     "priceValidUntil": "2026-12-20",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
+      "availability": "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
       "name": "Jouet Maroc"
@@ -388,10 +388,10 @@
               <span class="current-price">8399 DH</span>
               <span class="old-price">10999 DH</span>
               <span class="discount-badge">-23%</span>
-            </div>
-          <div class="product-stock in-stock">
-              <i class="fas fa-check-circle"></i> En stock 
-            </div>
+            </div>    
+<div class="product-stock out-of-stock">
+           Rupture de stock
+             </div>
           </div>
           
           
@@ -706,30 +706,6 @@
     <div class="similar-products-slider">
       <div class="swiper similar-swiper">
         <div class="swiper-wrapper">
-
-
-<div class="swiper-slide">
-<div class="product-card2">
-          <a href="../produits/likebike-harley-u11.html">
-          <img src="../images/slider/velo-electrique-likebike-harley-u11-01.webp" alt="Vélo électrique likebike Harley U11, autonomie de 60km" loading="lazy" width="250" height="320">
-            
-          <div class="card-divider">
-</div>
-          <div class="product-info2">
-            <h3>Vélo électrique likebike Harley U11</h3>
-           <div class="stock-status in-stock-status">
-          <i class="fas fa-check-circle">
-</i> Produit en stock
-        </div>
-            <p class="product-price">
-<span class="old-price">10999 DH</span> 8099 DH</p>
-          </div>
-          </a>
-        </div>
-</div>
-          
-          
-    
  <div class="swiper-slide">
 <div class="product-card2">
           <a href="../produits/likebike-lander.html">
@@ -747,6 +723,22 @@
           </a>
         </div>
 </div> 
+                    <div class="swiper-slide">
+<div class="product-card2 out-of-stock">
+        <span class="product-badge out-of-stock">Rupture de stock</span>
+          <a href="../produits/likebike-harley-u11.html">
+          <img src="../images/slider/velo-electrique-likebike-harley-u11-01.webp" alt="Vélo électrique likebike Harley U11, autonomie de 60km" loading="lazy" width="250" height="320">
+          <div class="product-info2">
+            <h3>Vélo électrique likebike Harley U11</h3>
+           <div class="stock-status out-of-stock-status">
+<i class="fas fa-times-circle">
+</i> Rupture de stock</div>
+            <p class="product-price">
+<span class="old-price">10999 DH</span> 8099 DH</p>
+          </div>
+          </a>
+        </div>
+</div>
           
             <div class="swiper-slide">
 <div class="product-card2 out-of-stock">
@@ -982,5 +974,25 @@
   });
   </script>
    
+ <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const stock = document.querySelector('.product-stock.out-of-stock');
+    const actions = document.querySelector('.product-actions');
+    const quantity = document.querySelector('.product-quantity');
+    const colorVariants = document.querySelector('.product-variants'); 
+
+    if (stock) {
+      if (actions) {
+        actions.style.display = 'none';
+      }
+      if (quantity) {
+        quantity.style.display = 'none';
+      }
+      if (colorVariants) {
+        colorVariants.style.display = 'none';
+      }
+    }
+  });
+</script> 
 </body>
 </html>
