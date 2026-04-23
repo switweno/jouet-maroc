@@ -307,14 +307,6 @@ document.addEventListener('DOMContentLoaded', function() {
     message += `- Total: ${total.toFixed(2)} DH\n`;
     message += `- Livraison: Gratuite\n`; // Ajout de la livraison gratuite
     
-    // Ajouter les informations d'image (CDN + Fallback)
-    if (product.imageCDN) {
-      message += `\n*Lien image CDN:* ${product.imageCDN}\n`;
-    }
-    if (product.imageFallback) {
-      message += `*Image (Secours):* ${product.imageFallback}\n`;
-    }
-    
     // Ajouter le lien du produit
     const referrerUrl = document.referrer || '';
     if (referrerUrl && (referrerUrl.includes('/produits/') || referrerUrl.includes('/categories/'))) {
