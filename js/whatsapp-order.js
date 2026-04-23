@@ -57,11 +57,18 @@ document.addEventListener('DOMContentLoaded', function() {
                           document.querySelector('.swiper-zoom-container img');
         const productImage = mainImage ? mainImage.src : '';
         
-        // Traiter l'URL de l'image
+        // Traiter l'URL de l'image - garder l'URL complète pour les images CDN
         let imagePath = productImage;
-        if (productImage.includes('/')) {
-          const urlParts = productImage.split('/');
-          imagePath = urlParts[urlParts.length - 1];
+        let imageCDN = productImage; // Rabttp CDN (nouveau)
+        let imageFallback = ''; // URL de secours (ancien)
+        
+        // Si c'est un URL CDN, extraire aussi le chemin de secours
+        if (productImage.includes('pub-82ebd46c88184123b796592748532c43.r2.dev')) {
+          // Extraire le nom du fichier depuis l'URL CDN
+          const fileNameMatch = productImage.match(/\/([^\/]+\.webp)$/);
+          if (fileNameMatch) {
+            imageFallback = 'images/slider/' + fileNameMatch[1];
+          }
         }
         
         console.log("Données du produit capturées:", {
@@ -70,17 +77,21 @@ document.addEventListener('DOMContentLoaded', function() {
           quantity: quantity,
           color: color,
           image: imagePath,
+          imageCDN: imageCDN,
+          imageFallback: imageFallback,
           isWholesale: isWholesale,
           wholesalePrice: wholesalePrice
         });
         
-        // Créer l'objet produit
+        // Créer l'objet produit avec les deux URLs
         const product = {
           name: productName || "Vélo Électrique X1",
           price: productPrice,
           quantity: Number(quantity),
           color: color,
           image: imagePath,
+          imageCDN: imageCDN, // Rôle principal - CDN
+          imageFallback: imageFallback, // URL de secours - ancien
           total: isWholesale ? wholesalePrice * Number(quantity) : productPrice * Number(quantity),
           id: document.location.pathname.split('/').pop().replace('.html', ''), // Extraire l'ID du produit depuis l'URL
           isWholesale: isWholesale,

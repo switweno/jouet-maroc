@@ -1,7 +1,7 @@
 // Script pour la page de commande
 
 // Numéro WhatsApp pour les commandes
-const whatsappNumber = '212672568976';
+const whatsappNumber = '212762609147';
 
 // Initialisation
 document.addEventListener('DOMContentLoaded', function() {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     name: "Produit",
     price: 1000,
     quantity: 1,
-    image: "images/slider/finaliser-votre-commande-01.webp",
+    image: "https://pub-82ebd46c88184123b796592748532c43.r2.dev/images/products/placeholder.webp",
     total: 1000
   };
 
@@ -103,11 +103,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Vérifier explicitement chaque propriété
+    // Utiliser le CDN comme première option, sinon fallback à l'ancien
+    let imageToUse = product.imageCDN || product.image || defaultProduct.image;
+    let imageFallback = product.imageFallback || product.image || defaultProduct.image;
+    
     const productToDisplay = {
       name: product.name || defaultProduct.name,
       price: Number(product.price || defaultProduct.price),
       quantity: Number(product.quantity || defaultProduct.quantity),
-      image: product.image || defaultProduct.image,
+      image: imageToUse,
+      imageFallback: imageFallback,
       isWholesale: product.isWholesale || false,
       wholesalePrice: Number(product.wholesalePrice || 0)
     };
@@ -118,10 +123,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     console.log('Produit formaté pour affichage:', productToDisplay);
+    console.log('Image CDN:', productToDisplay.image);
+    console.log('Image Fallback:', productToDisplay.imageFallback);
     
-    // Image du produit
+    // Image du produit - essayer CDN d'abord avec fallback
     productImage.src = productToDisplay.image;
     productImage.alt = productToDisplay.name;
+    
+    // Ajouter un événement pour utiliser l'image de secours si CDN échoue
+    productImage.onerror = function() {
+      console.warn('Erreur de chargement de l\'image CDN, utilisation du fallback');
+      this.src = productToDisplay.imageFallback;
+    };
     
     // Nom du produit
     productName.textContent = productToDisplay.name;
@@ -293,6 +306,14 @@ document.addEventListener('DOMContentLoaded', function() {
     message += `- Quantité: ${quantity}\n`;
     message += `- Total: ${total.toFixed(2)} DH\n`;
     message += `- Livraison: Gratuite\n`; // Ajout de la livraison gratuite
+    
+    // Ajouter les informations d'image (CDN + Fallback)
+    if (product.imageCDN) {
+      message += `\n*Lien image CDN:* ${product.imageCDN}\n`;
+    }
+    if (product.imageFallback) {
+      message += `*Image (Secours):* ${product.imageFallback}\n`;
+    }
     
     // Ajouter le lien du produit
     const referrerUrl = document.referrer || '';
